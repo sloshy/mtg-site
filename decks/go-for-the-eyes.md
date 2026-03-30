@@ -1,0 +1,136 @@
+---
+name: "Go For The Eyes"
+source: "https://archidekt.com/decks/8377316"
+sourceId: "8377316"
+sourceUrl: "https://archidekt.com/decks/8377316"
+created: "2026-02-23T13:34:52.727Z"
+tags: []
+---
+
+# Go For The Eyes
+
+## Commander
+1 Minsc & Boo, Timeless Heroes
+
+## Main
+1 Ram Through
+1 Boseiju, Who Endures
+1 Gruul Signet
+1 Game Trail
+1 Mosswort Bridge
+1 Managorger Hydra
+1 Arcane Signet
+1 Fire-Lit Thicket
+1 Open the Way
+1 Mossfire Valley
+1 The Great Henge
+1 Goreclaw, Terror of Qal Sisma
+1 Slicer, Hired Muscle // Slicer, High-Speed Antagonist
+1 Talisman of Impulse
+1 The Ozolith
+1 Castle Garenbrig
+1 Rootbound Crag
+1 Stomping Ground
+1 Nature's Claim
+1 Kodama's Reach
+1 Tribute to the World Tree
+1 Branching Evolution
+1 Xenagos, God of Revels
+1 Deflecting Swat
+1 Archdruid's Charm
+1 Evolving Wilds
+1 Mage Slayer
+6 Forest
+1 Temple of the False God
+1 Arena of Glory
+1 Fanatic of Rhonas
+1 Hardened Scales
+1 Gruul Turf
+1 Exotic Orchard
+1 Skarrg, the Rage Pits
+1 Thornspire Verge
+1 Colossification
+1 Rancor
+1 Reliquary Tower
+1 Innkeeper's Talent
+1 Stump Stomp // Burnwillow Clearing
+1 Chaos Warp
+1 Spire Garden
+1 Rampant Growth
+1 Valakut Awakening // Valakut Stoneforge
+1 Decimate
+1 Goldvein Hydra
+1 Cinder Glade
+1 Command Tower
+1 Heroic Intervention
+1 Rogue's Passage
+1 Rockfall Vale
+1 Sol Ring
+1 Kessig Wolf Run
+1 Wooded Foothills
+1 Unnatural Growth
+1 Beast Within
+1 Three Visits
+1 Commercial District
+1 Power Fist
+1 Decanter of Endless Water
+1 Twinflame Tyrant
+3 Mountain
+1 Sundering Eruption // Volcanic Fissure
+1 Untimely Malfunction
+1 Berserk
+1 Smuggler's Surprise
+1 Rishkar's Expertise
+1 Kalonian Hydra
+1 Mossborn Hydra
+1 Vorinclex, Monstrous Raider
+1 Anzrag, the Quake-Mole
+1 Herd Heirloom
+1 Ashroot Animist
+1 Hunter's Insight
+1 Railway Brawler
+1 Seize the Spotlight
+1 Amarant Coral
+1 Buster Sword
+1 Jumbo Cactuar
+1 Court of Garenbrig
+1 The Legend of Kyoshi // Avatar Kyoshi
+1 Spry and Mighty
+1 Ancient Bronze Dragon
+1 Mirrormind Crown
+1 Goblin Anarchomancer
+1 Alexios, Deimos of Kosmos
+1 Gimli's Reckless Might
+1 Rhythm of the Wild
+1 Tender Wildguide
+1 Spider Manifestation
+1 Thought Vessel
+
+## Maybeboard
+1 Dragonborn Champion
+1 Terrasymbiosis
+1 Weathered Sentinels
+1 Forgotten Ancient
+1 Taurean Mauler
+1 Ozolith, the Shattered Spire
+1 Blasphemous Act
+1 Nature's Lore
+1 Cultivate
+1 Chandra's Ignition
+1 Ruby, Daring Tracker
+1 Bristly Bill, Spine Sower
+1 The Earth Crystal
+1 Defiler of Vigor
+1 Fangs of Kalonia
+1 Quilled Greatwurm
+1 Zopandrel, Hunger Dominus
+1 Hull Breach
+1 Frenzied Baloth
+1 Quartzwood Crasher
+1 Blackblade Reforged
+1 Selvala, Heart of the Wilds
+1 Maskwood Nexus
+1 Gyre Sage
+1 Rolling Hamsphere
+1 Sylvan Library
+
