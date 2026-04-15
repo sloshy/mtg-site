@@ -1,2 +1,5 @@
+# Ritual specific config
 cache/
 dist/
+.admin-dist/
+.logins/
