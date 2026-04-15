@@ -1,0 +1,17 @@
+{
+  "decksDir": "./decks",
+  "collectionsDir": "./collections",
+  "gitEnabled": true,
+  "gitAutoCommit": true,
+  "gitAutoPush": true,
+  "trustProxy": false,
+  "secureCookies": false,
+  "ipAllowList": [],
+  "ipDenyList": [],
+  "userAgentAllowList": [],
+  "userAgentDenyList": [],
+  "rateLimitEnabled": true,
+  "rateLimitMaxAttempts": 5,
+  "rateLimitWindowMinutes": 5,
+  "failedAuthDelayMs": 3000
+}
