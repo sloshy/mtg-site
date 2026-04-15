@@ -1,152 +1,154 @@
 # Red Binder
-
-- Adeline, Resplendent Cathar (MID:1) [NM]
-- Arahbo, the First Fang (FDN:2) [foil] [NM]
-- Arahbo, the First Fang (FDN:294) [NM]
-- Elesh Norn, Grand Cenobite (MUL:3) [NM]
-- Elesh Norn // The Argent Etchings (MOM:12) [NM]
-- Giada, Font of Hope (FDN:298) [foil] [NM]
-- The Eternal Wanderer (ONE:422) [foil] [NM]
-- Hallowed Haunting (VOW:17) [NM]
-- Nomad Mythmaker (PLST:10E-30) [NM]
-- Norn's Choirmaster (ONC:46) [NM]
-- Phyrexian Vindicator (ONE:300) [foil] [NM]
-- Skrelv's Hive (ONE:376) [NM]
-- Youthful Valkyrie (FDN:303) [NM]
-- Soul Warden (SPG:65) [NM]
-- Sheltered by Ghosts (DSK:30) [NM]
-- Sheltered by Ghosts (DSK:30) [NM]
-- Sheltered by Ghosts (DSK:30) [NM]
-- Sheltered by Ghosts (DSK:30) [NM]
-- Danitha Capashen, Paragon (FCA:22) [NM]
-- White Sun's Twilight (ONE:377) [NM]
-- Aerith Gainsborough (FIN:374) [foil] [NM]
-- Dazzling Theater // Prop Room (PDSK:3p) [foil] [NM]
-- Youthful Valkyrie (FDN:149) [foil] [NM]
-- Beza, the Bounding Spring (BLB:2) [foil] [NM]
-- Wedding Announcement // Wedding Festivity (VOW:45) [NM]
-- Prowl, Stoic Strategist // Prowl, Pursuit Vehicle (BOT:1) [foil] [NM]
-- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:376) [foil] [NM]
-- Reya Dawnbringer (SLD:1682) [foil] [NM]
-- Celestial Armor (FDN:5) [NM]
-- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] [NM]
-- Halo Fountain (SNC:15) [NM]
-- Caduceus, Staff of Hermes (ACR:155) [NM]
-- Everything Comes to Dust (WHO:19) [NM]
-- Sierra, Nuka's Biggest Fan (PIP:372) [foil] [NM]
-- Ossification (PCBB:1) [foil] [NM]
-- Norn's Annex (PW23:1) [foil] [NM]
-- Wall of Omens (FCA:27) [foil] [NM]
-- Wall of Omens (FCA:27) [foil] [NM]
-- Armageddon (SLD:1854) [foil] [NM]
-- Flawless Maneuver (CMM:24) [NM]
-- Wizened Mentor (DRC:24) [NM]
-- Resurgent Belief (MH2:26) [NM]
-- Baldin, Century Herdmaster (SLD:428) [NM]
-- Call the Coppercoats (ONC:60) [NM]
-- Reya Dawnbringer (SLD:1682) [foil] [NM]
-- SOLDIER Military Program (FIC:108) [foil] [NM]
-- Exemplar of Light (FDN:445) [NM]
-- Avacyn, Angel of Hope (INR:482) [foil] [NM]
-- SOLDIER Military Program (FIC:108) [NM]
-- Mystic Confluence (CMM:108) [foil] [NM]
-- Jin-Gitaxias, Progress Tyrant (NEO:513) [NM]
-- Blue Mage's Cane (FIC:112) [NM]
-- Archive Trap (OTP:7) [NM]
-- Orvar, the All-Form (SLD:1683) [foil] [NM]
-- Time Stop (FDN:166) [NM]
-- As Foretold (WOT:14) [foil] [NM]
-- Storm of Saruman (LTR:72) [NM]
-- Eluge, the Shoreless Sea (BLB:288) [NM]
-- Eluge, the Shoreless Sea (BLB:288) [NM]
-- Mindsplice Apparatus (ONE:382) [foil] [NM]
-- Transcendent Message (SCH:16) [foil] [NM]
-- The Mindskinner (DSK:357) [foil] [NM]
-- Archmage of Runes (FDN:30) [foil] [NM]
-- Archmage of Runes (FDN:450) [NM]
-- The Water Crystal (FIN:333) [NM]
-- Kiora, the Rising Tide (FDN:309) [NM]
-- Time Stop (FDN:166) [foil] [NM]
-- Omniscience (FDN:161) [foil] [NM]
-- Cryptic Command (SLD:905) [foil] [NM]
-- Lunar Insight (FDN:46) [foil] [NM]
-- Lunar Insight (FDN:310) [NM]
-- Kiora, the Rising Tide (FDN:45) [NM]
-- High Fae Trickster (FDN:453) [NM]
-- Think Twice (FDN:425) [foil] [NM] {JP printing, ignore prices}
-- Faerie Artisans (CMM:92) [NM]
-- Vnwxt, Verbose Host (DFT:356) [NM]
-- Serpent of Yawning Depths (SLD:1489★) [foil] [NM]
-- The Darkness Crystal (FIN:96) [foil] [NM]
-- Bitter Triumph (LCI:91) [NM]
-- Nine-Lives Familiar (FDN:66) [NM]
-- Nine-Lives Familiar (FDN:66) [NM]
-- Hoarding Broodlord (MOM:110) [foil] [NM]
-- Leyline of the Void (WOT:30) [NM]
-- Drana, the Last Bloodchief (SLD:1684) [foil] [NM]
-- Bloodthirsty Conqueror (FDN:460) [foil] [NM]
-- Phyrexian Obliterator (ONE:440) [foil] [NM]
-- Polluted Bonds (WOT:34) [NM]
-- Sheoldred's Edict (ONE:108) [foil] [NM]
-- Vorpal Sword (AFR:396) [foil] [NM]
-- Vraska, Betrayal's Sting (ONE:115) [foil] [NM]
-- Orcish Bowmasters (LTR:433) [foil] [NM]
-- Orcish Bowmasters (LTR:433) [foil] [NM]
-- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) [NM]
-- Maha, Its Feathers Night (BLB:289) [foil] [NM]
-- Sorin, Imperious Bloodlord (INR:322) [NM]
-- Sorin, Imperious Bloodlord (INR:322) [foil] [NM]
-- Drana, the Last Bloodchief (ZNR:338) [NM]
-- Ink-Eyes, Servant of Oni (BLC:77) [NM]
-- Ink-Eyes, Servant of Oni (BLC:77) [foil] [NM]
-- Vengeful Bloodwitch (FDN:325) [foil] [NM]
-- Gix's Command (BRO:97) [NM]
-- Valley Rotcaller (BLB:119) [foil] [NM]
-- V.A.T.S. (PIP:333) [foil] [NM]
-- Keen Duelist (SLD:828) [foil] [NM]
-- Tinybones, Bauble Burglar (FDN:463) [NM]
-- Unholy Annex // Ritual Chamber (DSK:339) [NM]
-- Mikaeus, the Unhallowed (CMM:173) [NM]
-- Mikaeus, the Unhallowed (CMM:675) [NM]
-- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) [NM]
-- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) [NM]
-- Ardyn, the Usurper (FIN:444) [NM]
-- Massacre Girl (OTC:140) [NM]
-- Buried Alive (SLD:1673) [foil] [NM]
-- Dismember (SLD:1674) [foil] [NM]
-- Valgavoth, Terror Eater (DSK:352) [NM]
-- Kiki-Jiki, Mirror Breaker (SLD:1659) [NM]
-- Kiki-Jiki, Mirror Breaker (SLD:1659) [foil] [NM]
-- Ral, Monsoon Mage // Ral, Leyline Prodigy (MH3:247) [foil] [NM]
-- There and Back Again (LTR:151) [NM]
-- Stolen Strategy (PIP:467) [NM]
-- Inti, Seneschal of the Sun (LCI:295) [NM]
-- Manabarbs (M10:149) [LP]
-- Burning Earth (M14:130) [LP]
-- Wand of Wonder (CLB:584) [NM]
-- Ashling, Flame Dancer (MH3:115) [NM]
-- Daretti, Rocketeer Engineer (DFT:458) [foil] [NM]
-- Aggravated Assault (WOT:39) [NM]
-- Goldspan Dragon (KHM:139) [NM]
-- Etali, Primal Storm (FDN:194) [foil] [NM]
-- Cavern-Hoard Dragon (LTC:114) [NM]
-- Twinflame Tyrant (FDN:395) [foil] [NM]
-- Cait Sith, Fortune Teller (FIC:151) [NM]
-- Searslicer Goblin (FDN:93) [foil] [NM]
-- Searslicer Goblin (FDN:93) [foil] [NM]
-- Searslicer Goblin (FDN:332) [NM]
-- Olivia Voldaren (INR:490) [NM]
-- Mass Hysteria (INR:400) [NM]
-- Chandra, Flameshaper (FDN:360) [NM]
-- Drakuseth, Maw of Flames (FDN:193) [foil] [NM]
-- Electroduplicate (FDN:85) [foil] [NM]
-- Krenko, Mob Boss (FDN:204) [foil] [NM]
-- Overlord of the Boilerbilges (DSK:146) [NM]
-- Enduring Courage (DSK:133) [foil] [NM]
-- The Fire Crystal (FIN:337) [NM]
-- Vaan, Street Thief (FIN:390) [NM]
-- Razorkin Needlehead (DSK:153) [NM]
-- Daretti, Scrap Savant (CMM:213) [NM]
-- Scourge of Valkas (SLD:1490) [NM] {Foil, not available in foil on scryfall}
-- Screaming Nemesis (DSK:157) [NM]
-- Twinflame Tyrant (FDN:97) [NM]
+- Adeline, Resplendent Cathar (MID:1) [NM] &1
+- Arahbo, the First Fang (FDN:2) [foil] [NM] &2
+- Arahbo, the First Fang (FDN:294) [NM] &3
+- Elesh Norn, Grand Cenobite (MUL:3) [NM] &4
+- Elesh Norn // The Argent Etchings (MOM:12) [NM] &5
+- Giada, Font of Hope (FDN:298) [foil] [NM] &6
+- The Eternal Wanderer (ONE:422) [foil] [NM] &7
+- Hallowed Haunting (VOW:17) [NM] &8
+- Nomad Mythmaker (PLST:10E-30) [NM] &9
+- Norn's Choirmaster (ONC:46) [NM] &10
+- Phyrexian Vindicator (ONE:300) [foil] [NM] &11
+- Skrelv's Hive (ONE:376) [NM] &12
+- Youthful Valkyrie (FDN:303) [NM] &13
+- Soul Warden (SPG:65) [NM] &14
+- Sheltered by Ghosts (DSK:30) [NM] &15
+- Sheltered by Ghosts (DSK:30) [NM] &16
+- Sheltered by Ghosts (DSK:30) [NM] &17
+- Sheltered by Ghosts (DSK:30) [NM] &18
+- Danitha Capashen, Paragon (FCA:22) [NM] &19
+- White Sun's Twilight (ONE:377) [NM] &20
+- Aerith Gainsborough (FIN:374) [foil] [NM] &21
+- Dazzling Theater // Prop Room (PDSK:3p) [foil] [NM] &22
+- Youthful Valkyrie (FDN:149) [foil] [NM] &23
+- Beza, the Bounding Spring (BLB:2) [foil] [NM] &24
+- Wedding Announcement // Wedding Festivity (VOW:45) [NM] &25
+- Prowl, Stoic Strategist // Prowl, Pursuit Vehicle (BOT:1) [foil] [NM] &26
+- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:376) [foil] [NM] &27
+- Reya Dawnbringer (SLD:1682) [foil] [NM] &28
+- Celestial Armor (FDN:5) [NM] &29
+- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] [NM] &30
+- Halo Fountain (SNC:15) [NM] &31
+- Caduceus, Staff of Hermes (ACR:155) [NM] &32
+- Everything Comes to Dust (WHO:19) [NM] &33
+- Sierra, Nuka's Biggest Fan (PIP:372) [foil] [NM] &34
+- Ossification (PCBB:1) [foil] [NM] &35
+- Norn's Annex (PW23:1) [foil] [NM] &36
+- Wall of Omens (FCA:27) [foil] [NM] &37
+- Wall of Omens (FCA:27) [foil] [NM] &38
+- Armageddon (SLD:1854) [foil] [NM] &39
+- Flawless Maneuver (CMM:24) [NM] &40
+- Wizened Mentor (DRC:24) [NM] &41
+- Resurgent Belief (MH2:26) [NM] &42
+- Baldin, Century Herdmaster (SLD:428) [NM] &43
+- Call the Coppercoats (ONC:60) [NM] &44
+- Reya Dawnbringer (SLD:1682) [foil] [NM] &45
+- SOLDIER Military Program (FIC:108) [foil] [NM] &46
+- Exemplar of Light (FDN:445) [NM] &47
+- Avacyn, Angel of Hope (INR:482) [foil] [NM] &48
+- SOLDIER Military Program (FIC:108) [NM] &49
+- Mystic Confluence (CMM:108) [foil] [NM] &50
+- Jin-Gitaxias, Progress Tyrant (NEO:513) [NM] &51
+- Blue Mage's Cane (FIC:112) [NM] &52
+- Archive Trap (OTP:7) [NM] &53
+- Orvar, the All-Form (SLD:1683) [foil] [NM] &54
+- Time Stop (FDN:166) [NM] &55
+- As Foretold (WOT:14) [foil] [NM] &56
+- Storm of Saruman (LTR:72) [NM] &57
+- Eluge, the Shoreless Sea (BLB:288) [NM] &58
+- Eluge, the Shoreless Sea (BLB:288) [NM] &59
+- Mindsplice Apparatus (ONE:382) [foil] [NM] &60
+- Transcendent Message (SCH:16) [foil] [NM] &61
+- The Mindskinner (DSK:357) [foil] [NM] &62
+- Archmage of Runes (FDN:30) [foil] [NM] &63
+- Archmage of Runes (FDN:450) [NM] &64
+- The Water Crystal (FIN:333) [NM] &65
+- Kiora, the Rising Tide (FDN:309) [NM] &66
+- Time Stop (FDN:166) [foil] [NM] &67
+- Omniscience (FDN:161) [foil] [NM] &68
+- Cryptic Command (SLD:905) [foil] [NM] &69
+- Lunar Insight (FDN:46) [foil] [NM] &70
+- Lunar Insight (FDN:310) [NM] &71
+- Kiora, the Rising Tide (FDN:45) [NM] &72
+- High Fae Trickster (FDN:453) [NM] &73
+- Think Twice (FDN:425) [foil] [NM] {JP printing, ignore prices} &74
+- Faerie Artisans (CMM:92) [NM] &75
+- Vnwxt, Verbose Host (DFT:356) [NM] &76
+- Serpent of Yawning Depths (SLD:1489★) [foil] [NM] &77
+- The Darkness Crystal (FIN:96) [foil] [NM] &78
+- Bitter Triumph (LCI:91) [NM] &79
+- Nine-Lives Familiar (FDN:66) [NM] &80
+- Nine-Lives Familiar (FDN:66) [NM] &81
+- Hoarding Broodlord (MOM:110) [foil] [NM] &82
+- Leyline of the Void (WOT:30) [NM] &83
+- Drana, the Last Bloodchief (SLD:1684) [foil] [NM] &84
+- Bloodthirsty Conqueror (FDN:460) [foil] [NM] &85
+- Phyrexian Obliterator (ONE:440) [foil] [NM] &86
+- Polluted Bonds (WOT:34) [NM] &87
+- Sheoldred's Edict (ONE:108) [foil] [NM] &88
+- Vorpal Sword (AFR:396) [foil] [NM] &89
+- Vraska, Betrayal's Sting (ONE:115) [foil] [NM] &90
+- Orcish Bowmasters (LTR:433) [foil] [NM] &91
+- Orcish Bowmasters (LTR:433) [foil] [NM] &92
+- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) [NM] &93
+- Maha, Its Feathers Night (BLB:289) [foil] [NM] &94
+- Sorin, Imperious Bloodlord (INR:322) [NM] &95
+- Sorin, Imperious Bloodlord (INR:322) [foil] [NM] &96
+- Drana, the Last Bloodchief (ZNR:338) [NM] &97
+- Ink-Eyes, Servant of Oni (BLC:77) [NM] &98
+- Ink-Eyes, Servant of Oni (BLC:77) [foil] [NM] &99
+- Vengeful Bloodwitch (FDN:325) [foil] [NM] &100
+- Gix's Command (BRO:97) [NM] &101
+- Valley Rotcaller (BLB:119) [foil] [NM] &102
+- V.A.T.S. (PIP:333) [foil] [NM] &103
+- Keen Duelist (SLD:828) [foil] [NM] &104
+- Tinybones, Bauble Burglar (FDN:463) [NM] &105
+- Unholy Annex // Ritual Chamber (DSK:339) [NM] &106
+- Mikaeus, the Unhallowed (CMM:173) [NM] &107
+- Mikaeus, the Unhallowed (CMM:675) [NM] &108
+- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) [NM] &109
+- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) [NM] &110
+- Ardyn, the Usurper (FIN:444) [NM] &111
+- Massacre Girl (OTC:140) [NM] &112
+- Buried Alive (SLD:1673) [foil] [NM] &113
+- Dismember (SLD:1674) [foil] [NM] &114
+- Valgavoth, Terror Eater (DSK:352) [NM] &115
+- Kiki-Jiki, Mirror Breaker (SLD:1659) [NM] &116
+- Kiki-Jiki, Mirror Breaker (SLD:1659) [foil] [NM] &117
+- Ral, Monsoon Mage // Ral, Leyline Prodigy (MH3:247) [foil] [NM] &118
+- There and Back Again (LTR:151) [NM] &119
+- Stolen Strategy (PIP:467) [NM] &120
+- Inti, Seneschal of the Sun (LCI:295) [NM] &121
+- Manabarbs (M10:149) [LP] &122
+- Burning Earth (M14:130) [LP] &123
+- Wand of Wonder (CLB:584) [NM] &124
+- Ashling, Flame Dancer (MH3:115) [NM] &125
+- Daretti, Rocketeer Engineer (DFT:458) [foil] [NM] &126
+- Aggravated Assault (WOT:39) [NM] &127
+- Goldspan Dragon (KHM:139) [NM] &128
+- Etali, Primal Storm (FDN:194) [foil] [NM] &129
+- Cavern-Hoard Dragon (LTC:114) [NM] &130
+- Twinflame Tyrant (FDN:395) [foil] [NM] &131
+- Cait Sith, Fortune Teller (FIC:151) [NM] &132
+- Searslicer Goblin (FDN:93) [foil] [NM] &133
+- Searslicer Goblin (FDN:93) [foil] [NM] &134
+- Searslicer Goblin (FDN:332) [NM] &135
+- Olivia Voldaren (INR:490) [NM] &136
+- Mass Hysteria (INR:400) [NM] &137
+- Chandra, Flameshaper (FDN:360) [NM] &138
+- Drakuseth, Maw of Flames (FDN:193) [foil] [NM] &139
+- Electroduplicate (FDN:85) [foil] [NM] &140
+- Krenko, Mob Boss (FDN:204) [foil] [NM] &141
+- Overlord of the Boilerbilges (DSK:146) [NM] &142
+- Enduring Courage (DSK:133) [foil] [NM] &143
+- The Fire Crystal (FIN:337) [NM] &144
+- Vaan, Street Thief (FIN:390) [NM] &145
+- Razorkin Needlehead (DSK:153) [NM] &146
+- Daretti, Scrap Savant (CMM:213) [NM] &147
+- Scourge of Valkas (SLD:1490) [NM] {Foil, not available in foil on scryfall} &148
+- Screaming Nemesis (DSK:157) [NM] &149
+- Twinflame Tyrant (FDN:97) [NM] &150
+- Elvish Reclaimer (M20:169) [NM] &151
+- Nissa, Ascended Animist (ONE:454) [foil] [NM] &152
+- The Earth Crystal (FIN:184) [NM] &153
