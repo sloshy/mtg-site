@@ -1,5 +1,4 @@
-# Red Binder
-- Adeline, Resplendent Cathar (MID:1) [NM] &1
+# Red Binder- Adeline, Resplendent Cathar (MID:1) [NM] &1
 - Arahbo, the First Fang (FDN:2) [foil] [NM] &2
 - Arahbo, the First Fang (FDN:294) [NM] &3
 - Elesh Norn, Grand Cenobite (MUL:3) [NM] &4
@@ -152,3 +151,8 @@
 - Elvish Reclaimer (M20:169) [NM] &151
 - Nissa, Ascended Animist (ONE:454) [foil] [NM] &152
 - The Earth Crystal (FIN:184) [NM] &153
+- Tyrranax Rex (ONE:189) [foil] [NM] &154
+- The Earth Crystal (FIN:184) [foil] [NM] &155
+- Wood Elves (P30A:5) [foil] [NM] &156
+- Emissary Green (CLU:5) [NM] &157
+- Hermit Druid (INR:488) [NM] &158
