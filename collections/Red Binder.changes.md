@@ -16,32 +16,32 @@
 
 ## 2026-04-17T16:38:37.551Z
 
-- Added Slime Against Humanity (MKM:177) [foil]
-- Added Ancient Cornucopia (BIG:46)
-- Added Defense of the Heart (WOT:51)
-- Added Greater Good (SLD:1693) [foil]
-- Added Eladamri's Vineyard (SLD:1692) [foil]
-- Added Endurance (SPG:48) [foil]
-- Added Wall of Blossoms (V13:6) [foil]
-- Added Druid of Purification (SLD:877) [foil]
-- Added Bartz and Boko (FIN:469)
-- Added Yeva, Nature's Herald (RVR:162) [foil]
-- Added Helix Pinnacle (PLST:EVE-68) [foil]
-- Added Wrenn and Seven (MID:208)
-- Added Defense of the Heart (PLST:ULG-100)
-- Added Awaken the Woods (BRO:170) [foil]
-- Added Vivien Reid (FDN:361)
-- Added Overlord of the Hauntwoods (DSK:194)
-- Added Traveling Chocobo (FIN:406)
-- Added Genesis Wave (FDN:221) [foil]
-- Added Primeval Titan (FCA:48) [foil]
-- Added Preposterous Proportions (FDN:109) [foil]
-- Added Reclamation Sage (FDN:340) [foil]
-- Added Twitching Doll (DSK:384) [foil]
-- Added Kodama of the West Tree (NEO:199)
-- Added Omnath, Locus of Mana (CMM:680)
-- Added Voracious Hydra (SLD:1491)
-- Added Scavenging Ooze (FDN:232)
-- Added Scavenging Ooze (FDN:232)
-- Added Scavenging Ooze (FDN:232)
-- Added Sylvan Scavenging (FDN:113)
+- Added Slime Against Humanity (MKM:177) [foil] &159
+- Added Ancient Cornucopia (BIG:46) &160
+- Added Defense of the Heart (WOT:51) &161
+- Added Greater Good (SLD:1693) [foil] &162
+- Added Eladamri's Vineyard (SLD:1692) [foil] &163
+- Added Endurance (SPG:48) [foil] &164
+- Added Wall of Blossoms (V13:6) [foil] &165
+- Added Druid of Purification (SLD:877) [foil] &166
+- Added Bartz and Boko (FIN:469) &167
+- Added Yeva, Nature's Herald (RVR:162) [foil] &168
+- Added Helix Pinnacle (PLST:EVE-68) [foil] &169
+- Added Wrenn and Seven (MID:208) &170
+- Added Defense of the Heart (PLST:ULG-100) &171
+- Added Awaken the Woods (BRO:170) [foil] &172
+- Added Vivien Reid (FDN:361) &173
+- Added Overlord of the Hauntwoods (DSK:194) &174
+- Added Traveling Chocobo (FIN:406) &175
+- Added Genesis Wave (FDN:221) [foil] &176
+- Added Primeval Titan (FCA:48) [foil] &177
+- Added Preposterous Proportions (FDN:109) [foil] &178
+- Added Reclamation Sage (FDN:340) [foil] &179
+- Added Twitching Doll (DSK:384) [foil] &180
+- Added Kodama of the West Tree (NEO:199) &181
+- Added Omnath, Locus of Mana (CMM:680) &182
+- Added Voracious Hydra (SLD:1491) &183
+- Added Scavenging Ooze (FDN:232) &184
+- Added Scavenging Ooze (FDN:232) &185
+- Added Scavenging Ooze (FDN:232) &186
+- Added Sylvan Scavenging (FDN:113) &187

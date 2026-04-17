@@ -156,32 +156,32 @@
 - Wood Elves (P30A:5) [foil] [NM] &156
 - Emissary Green (CLU:5) [NM] &157
 - Hermit Druid (INR:488) [NM] &158
-- Slime Against Humanity (MKM:177) [foil] [NM]
-- Ancient Cornucopia (BIG:46) [NM]
-- Defense of the Heart (WOT:51) [NM]
-- Greater Good (SLD:1693) [foil] [NM]
-- Eladamri's Vineyard (SLD:1692) [foil] [NM]
-- Endurance (SPG:48) [foil] [NM]
-- Wall of Blossoms (V13:6) [foil] [NM]
-- Druid of Purification (SLD:877) [foil] [NM]
-- Bartz and Boko (FIN:469) [NM]
-- Yeva, Nature's Herald (RVR:162) [foil] [NM]
-- Helix Pinnacle (PLST:EVE-68) [foil] [NM]
-- Wrenn and Seven (MID:208) [NM]
-- Defense of the Heart (PLST:ULG-100) [NM]
-- Awaken the Woods (BRO:170) [foil] [NM]
-- Vivien Reid (FDN:361) [NM]
-- Overlord of the Hauntwoods (DSK:194) [NM]
-- Traveling Chocobo (FIN:406) [NM]
-- Genesis Wave (FDN:221) [foil] [NM]
-- Primeval Titan (FCA:48) [foil] [NM]
-- Preposterous Proportions (FDN:109) [foil] [NM]
-- Reclamation Sage (FDN:340) [foil] [NM]
-- Twitching Doll (DSK:384) [foil] [NM]
-- Kodama of the West Tree (NEO:199) [NM]
-- Omnath, Locus of Mana (CMM:680) [NM]
-- Voracious Hydra (SLD:1491) [NM] {Foil}
-- Scavenging Ooze (FDN:232) [NM]
-- Scavenging Ooze (FDN:232) [NM]
-- Scavenging Ooze (FDN:232) [NM]
-- Sylvan Scavenging (FDN:113) [NM]
+- Slime Against Humanity (MKM:177) [foil] [NM] &159
+- Ancient Cornucopia (BIG:46) [NM] &160
+- Defense of the Heart (WOT:51) [NM] &161
+- Greater Good (SLD:1693) [foil] [NM] &162
+- Eladamri's Vineyard (SLD:1692) [foil] [NM] &163
+- Endurance (SPG:48) [foil] [NM] &164
+- Wall of Blossoms (V13:6) [foil] [NM] &165
+- Druid of Purification (SLD:877) [foil] [NM] &166
+- Bartz and Boko (FIN:469) [NM] &167
+- Yeva, Nature's Herald (RVR:162) [foil] [NM] &168
+- Helix Pinnacle (PLST:EVE-68) [foil] [NM] &169
+- Wrenn and Seven (MID:208) [NM] &170
+- Defense of the Heart (PLST:ULG-100) [NM] &171
+- Awaken the Woods (BRO:170) [foil] [NM] &172
+- Vivien Reid (FDN:361) [NM] &173
+- Overlord of the Hauntwoods (DSK:194) [NM] &174
+- Traveling Chocobo (FIN:406) [NM] &175
+- Genesis Wave (FDN:221) [foil] [NM] &176
+- Primeval Titan (FCA:48) [foil] [NM] &177
+- Preposterous Proportions (FDN:109) [foil] [NM] &178
+- Reclamation Sage (FDN:340) [foil] [NM] &179
+- Twitching Doll (DSK:384) [foil] [NM] &180
+- Kodama of the West Tree (NEO:199) [NM] &181
+- Omnath, Locus of Mana (CMM:680) [NM] &182
+- Voracious Hydra (SLD:1491) [NM] {Foil} &183
+- Scavenging Ooze (FDN:232) [NM] &184
+- Scavenging Ooze (FDN:232) [NM] &185
+- Scavenging Ooze (FDN:232) [NM] &186
+- Sylvan Scavenging (FDN:113) [NM] &187
