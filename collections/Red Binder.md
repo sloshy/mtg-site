@@ -195,3 +195,30 @@
 - The Infamous Cruelclaw (BLB:219) [NM] &194
 - Tyvar, Jubilant Brawler (ONE:344) [NM] &195
 - Vishgraz, the Doomhive (ONC:40) [NM] &196
+- G'raha Tia, Scion Reborn (FIC:3) [NM] &197
+- Helga, Skittish Seer (BLB:217) [NM] &198
+- Helga, Skittish Seer (BLB:332) [NM] &199
+- Absolute Virtue (FIN:212) [NM] &200
+- Wildsear, Scouring Maw (BLC:44) [NM] &201
+- Isshin, Two Heavens as One (FCA:54) [foil] [NM] &202
+- Ishai, Ojutai Dragonspeaker (BLC:89) [NM] &203
+- Lavinia, Azorius Renegade (SLD:1685) [foil] [NM] &204
+- Kaalia of the Vast (MH3:343) [NM] &205
+- Veyran, Voice of Duality (OTC:248) [NM] &206
+- Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier (BOT:15) [NM] &207
+- Oildeep Gearhulk (DFT:215) [NM] &208
+- Ruhan of the Fomori (SLD:1695) [foil] [NM] &209
+- Almost Perfect (PIP:406) [NM] &210
+- Omnath, Locus of Creation (SLD:1686) [foil] [NM] &211
+- Karazikar, the Eye Tyrant (AFC:49) [foil] [NM] &212
+- Kuja, Genome Sorcerer // Trance Kuja, Fate Defied (FIN:399) [foil] [NM] &213
+- Zimone, Paradox Sculptor (FDN:126) [NM] &214
+- Atraxa, Grand Unifier (FCA:49) [foil] [NM] &215
+- Saheeli Rai (KLD:186) [NM] &216
+- Domri Rade (RVR:444) [foil] [NM] &217
+- Arwen, Mortal Queen (LTR:367) [foil] [NM] &218
+- Aragorn and Arwen, Wed (LTR:287) [foil] [NM] &219
+- Mimeoplasm, Revered One (DFT:405) [foil] [NM] {JP foil, ignore prices} &220
+- Alesha, Who Laughs at Fate (FDN:115) [foil] [NM] &221
+- Alesha, Who Laughs at Fate (FDN:343) [foil] [NM] &222
+- Ketramose, the New Dawn (DFT:350) [NM] &223
