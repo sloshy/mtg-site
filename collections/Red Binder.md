@@ -1,4 +1,5 @@
-# Red Binder- Adeline, Resplendent Cathar (MID:1) [NM] &1
+# Red Binder
+- Adeline, Resplendent Cathar (MID:1) [NM] &1
 - Arahbo, the First Fang (FDN:2) [foil] [NM] &2
 - Arahbo, the First Fang (FDN:294) [NM] &3
 - Elesh Norn, Grand Cenobite (MUL:3) [NM] &4
@@ -185,3 +186,12 @@
 - Scavenging Ooze (FDN:232) [NM] &185
 - Scavenging Ooze (FDN:232) [NM] &186
 - Sylvan Scavenging (FDN:113) [NM] &187
+- Atraxa, Grand Unifier (ONE:316) [NM] &188
+- Glissa Sunslayer (ONE:318) [NM] &189
+- Ghastlord of Fugue (PLST:SHM-162) [NM] &190
+- Leyline of the Guildpact (MKM:217) [NM] &191
+- Omnath, Locus of All (MOM:387) [foil] [NM] &192
+- Thalia and The Gitrog Monster (MOM:255) [NM] &193
+- The Infamous Cruelclaw (BLB:219) [NM] &194
+- Tyvar, Jubilant Brawler (ONE:344) [NM] &195
+- Vishgraz, the Doomhive (ONC:40) [NM] &196

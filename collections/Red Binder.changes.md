@@ -45,3 +45,15 @@
 - Added Scavenging Ooze (FDN:232) &185
 - Added Scavenging Ooze (FDN:232) &186
 - Added Sylvan Scavenging (FDN:113) &187
+
+## 2026-04-21T00:11:07.619Z
+
+- Added Atraxa, Grand Unifier (ONE:316) &188
+- Added Glissa Sunslayer (ONE:318) &189
+- Added Ghastlord of Fugue (PLST:SHM-162) &190
+- Added Leyline of the Guildpact (MKM:217) &191
+- Added Omnath, Locus of All (MOM:387) [foil] &192
+- Added Thalia and The Gitrog Monster (MOM:255) &193
+- Added The Infamous Cruelclaw (BLB:219) &194
+- Added Tyvar, Jubilant Brawler (ONE:344) &195
+- Added Vishgraz, the Doomhive (ONC:40) &196
