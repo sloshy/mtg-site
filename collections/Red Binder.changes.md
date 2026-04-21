@@ -87,3 +87,51 @@
 - Added Alesha, Who Laughs at Fate (FDN:115) [foil] &221
 - Added Alesha, Who Laughs at Fate (FDN:343) [foil] &222
 - Added Ketramose, the New Dawn (DFT:350) &223
+
+## 2026-04-21T22:20:51.761Z
+
+- Added Elenda, Saint of Dusk (FDN:346) &224
+- Added Elenda, Saint of Dusk (FDN:479) [foil] &225
+- Added Lathril, Blade of the Elves (FDN:242) [foil] &226
+- Added Progenitus (FDN:431) [foil] &227
+- Added Yuna, Grand Summoner (FIC:216) [foil] &228
+- Added Terra, Herald of Hope (FIC:186) [foil] &229
+- Added Kykar, Zephyr Awakener (FDN:122) &230
+- Added Progenitus (FDN:244) [foil] &231
+- Added Yuriko, the Tiger's Shadow (CMM:690) &232
+- Added Morophon, the Boundless (CMM:3) &233
+- Added Meren of Clan Nel Toth (CMM:346) &234
+- Added The Council of Four (CLB:271) [foil] &235
+- Added Kykar, Wind's Fury (MOC:334) &236
+- Added Galadriel, Light of Valinor (LTC:498) [foil] &237
+- Added Vikya, Scorching Stalwart (SLD:429) &238
+- Added Aisha of Sparks and Smoke (SLD:430) &239
+- Added Immard, the Stormcleaver (SLD:434) &240
+- Added Maarika, Brutal Gladiator (SLD:435) &241
+- Added The Howling Abomination (SLD:431) &242
+- Added Zethi, Arcane Blademaster (SLD:432) &243
+- Added Tadeas, Juniper Ascendant (SLD:433) &244
+- Added Progenitus (FDN:244) &245
+- Added Balthier and Fran (FIN:213) [foil] &246
+- Added Kaito, Bane of Nightmares (DSK:220) &247
+- Added Hashaton, Scarab's Fist (DRC:1) &248
+- Added Sab-Sunen, Luxa Embodied (DFT:221) [foil] &249
+- Added Pyrewood Gearhulk (DFT:216) [foil] &250
+- Added Coalstoke Gearhulk (DFT:349) &251
+- Added Coalstoke Gearhulk (DFT:349) [foil] &252
+- Added Mog, Moogle Warrior (FIC:179) &253
+- Added Lightning, Army of One (FIN:400) &254
+- Added Hope Estheim (FIN:396) &255
+- Added Serah Farron // Crystallized Serah (FIN:240) &256
+- Added Olivia, Crimson Bride (PVOW:245p) [foil] &257
+- Added The Wandering Minstrel (FIN:249) [foil] &258
+- Added Lightning, Army of One (FIN:400) [foil] &259
+- Added Adaptive Automaton (BRR:1) &260
+- Added Eldrazi Monument (M3C:290) &261
+- Added Emrakul, the Promised End (INR:481) &262
+- Added Blade of Selves (CLB:301) &263
+- Added Metallic Mimic (INR:445) [foil] &264
+- Added Metallic Mimic (INR:445) &265
+- Added Darksteel Plate (MBS:104) &266
+- Added Glistening Sphere (ONC:58) &267
+- Added Portal to Phyrexia (BRO:240) &268

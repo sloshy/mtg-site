@@ -222,3 +222,48 @@
 - Alesha, Who Laughs at Fate (FDN:115) [foil] [NM] &221
 - Alesha, Who Laughs at Fate (FDN:343) [foil] [NM] &222
 - Ketramose, the New Dawn (DFT:350) [NM] &223
+- Elenda, Saint of Dusk (FDN:346) [NM] &224
+- Elenda, Saint of Dusk (FDN:479) [foil] [NM] &225
+- Lathril, Blade of the Elves (FDN:242) [foil] [NM] &226
+- Progenitus (FDN:431) [foil] [NM] &227
+- Yuna, Grand Summoner (FIC:216) [foil] [NM] &228
+- Terra, Herald of Hope (FIC:186) [foil] [NM] &229
+- Kykar, Zephyr Awakener (FDN:122) [NM] &230
+- Progenitus (FDN:244) [foil] [NM] &231
+- Yuriko, the Tiger's Shadow (CMM:690) [NM] &232
+- Morophon, the Boundless (CMM:3) [NM] &233
+- Meren of Clan Nel Toth (CMM:346) [NM] &234
+- The Council of Four (CLB:271) [foil] [NM] &235
+- Kykar, Wind's Fury (MOC:334) [NM] &236
+- Galadriel, Light of Valinor (LTC:498) [foil] [NM] &237
+- Vikya, Scorching Stalwart (SLD:429) [NM] &238
+- Aisha of Sparks and Smoke (SLD:430) [NM] &239
+- Immard, the Stormcleaver (SLD:434) [NM] &240
+- Maarika, Brutal Gladiator (SLD:435) [NM] &241
+- The Howling Abomination (SLD:431) [NM] &242
+- Zethi, Arcane Blademaster (SLD:432) [NM] &243
+- Tadeas, Juniper Ascendant (SLD:433) [NM] &244
+- Progenitus (FDN:244) [NM] &245
+- Balthier and Fran (FIN:213) [foil] [NM] &246
+- Kaito, Bane of Nightmares (DSK:220) [NM] &247
+- Hashaton, Scarab's Fist (DRC:1) [NM] &248
+- Sab-Sunen, Luxa Embodied (DFT:221) [foil] [NM] &249
+- Pyrewood Gearhulk (DFT:216) [foil] [NM] &250
+- Coalstoke Gearhulk (DFT:349) [NM] &251
+- Coalstoke Gearhulk (DFT:349) [foil] [NM] &252
+- Mog, Moogle Warrior (FIC:179) [NM] &253
+- Lightning, Army of One (FIN:400) [NM] &254
+- Hope Estheim (FIN:396) [NM] &255
+- Serah Farron // Crystallized Serah (FIN:240) [NM] &256
+- Olivia, Crimson Bride (PVOW:245p) [foil] [NM] &257
+- The Wandering Minstrel (FIN:249) [foil] [NM] &258
+- Lightning, Army of One (FIN:400) [foil] [NM] &259
+- Adaptive Automaton (BRR:1) [NM] &260
+- Eldrazi Monument (M3C:290) [NM] &261
+- Emrakul, the Promised End (INR:481) [NM] &262
+- Blade of Selves (CLB:301) [NM] &263
+- Metallic Mimic (INR:445) [foil] [NM] &264
+- Metallic Mimic (INR:445) [NM] &265
+- Darksteel Plate (MBS:104) [NM] &266
+- Glistening Sphere (ONC:58) [NM] &267
+- Portal to Phyrexia (BRO:240) [NM] &268
