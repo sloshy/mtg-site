@@ -1,0 +1,101 @@
+# Changelog for Green Binder
+
+## 2026-04-23T21:04:46.683Z
+
+- Added Unexplained Absence (MKC:328) &1
+- Added Elspeth, Sun's Champion (CMM:820) &2
+- Added Priest of the Crossing (DRC:22) &3
+- Added Renewed Solidarity (DRC:7) &4
+- Added On Wings of Gold (DRC:21) &5
+- Added On Wings of Gold (DRC:21) &6
+- Added Valor's Flagship (DFT:35) &7
+- Added Aerith Gainsborough (FIN:374) [foil] &8
+- Added Renewed Solidarity (DRC:23) &9
+- Added Felidar Guardian (SLD:1487★) [foil] &10
+- Added Fell the Mighty (SLD:1778) [foil] &11
+- Added Fell the Mighty (SLD:1778) &12
+- Added Cathars' Crusade (INR:337) &13
+- Added Thalia, Heretic Cathar (INR:300) [foil] &14
+- Added Council's Judgment (SLD:1635★) [foil] &15
+- Added Idyllic Tutor (SLD:1636★) [foil] &16
+- Added In the Trenches (SLD:1729) [foil] &17
+- Added Secure the Wastes (SLD:1748) &18
+- Added Flawless Maneuver (SLD:1728) &19
+- Added In the Trenches (SLD:1729) &20
+- Added Sigarda's Aid (SLD:1727) &21
+- Added Sentry Bot (PIP:371) &22
+- Added Split Up (DSK:32) [foil] &23
+- Added Split Up (DSK:304) &24
+- Added Flowering of the White Tree (LTR:466) [foil] &25
+- Added Collector's Cage (BIG:66) &26
+- Added Werefox Bodyguard (WOE:329) &27
+- Added Ajani, Strength of the Pride (J22:141) &28
+- Added Flowering of the White Tree (LTR:15) &29
+- Added Northern Paladin (SLD:1855) [foil] &30
+- Added Forge Anew (LTR:17) &31
+- Added Ajani's Pridemate (FDN:293) [foil] &32
+- Added Lion Sash (NEO:26) [foil] &33
+- Added Unbreakable Formation (LTC:179) &34
+- Added Virtue of Loyalty // Ardenvale Fealty (WOE:277) &35
+- Added Legion Loyalty (CLB:371) &36
+- Added Elesh Norn, Mother of Machines (ONE:10) &37
+- Added Invasion of Gobakhan // Lightshield Array (MOM:22) &38
+- Added Thalia, Heretic Cathar (EMN:46) [foil] &39
+- Added Dusk Legion Duelist (MOM:11) &40
+- Added Flare of Fortitude (MH3:26) &41
+- Added Flare of Fortitude (MH3:321) &42
+- Added Filigree Vector (MOC:102) &43
+- Added Elesh Norn // The Argent Etchings (MOM:292) [foil] &44
+- Added Steelshaper's Gift (CMM:629) [foil] &45
+- Added Skyhunter Strike Force (ONC:31) &46
+- Added Puresteel Paladin (CMM:51) [foil] &47
+- Added Puresteel Paladin (CMM:51) &48
+- Added Wall of Mourning (MIC:48) &49
+- Added Cataclysm (PLST:V14-3) &50
+- Added Authority of the Consuls (PLST:KLD-5) &51
+- Added Dollmaker's Shop // Porcelain Gallery (DSK:335) [foil] &52
+- Added Ravages of War (PIP:354) [foil] &53
+- Added Starlight Spectacular (UNF:28) [foil] &54
+- Added Ondu Spiritdancer (CMM:756) &55
+- Added Onakke Oathkeeper (CMM:755) &56
+- Added Nahiri, the Lithomancer (CMM:45) [foil] &57
+- Added Shardmage's Rescue (DSK:411) &58
+- Added Abzan Falconer (MOC:165) &59
+- Added Exemplar of Light (FDN:297) [foil] &60
+- Added Sheltered by Ghosts (DSK:30) &61
+- Added Salvation Engine (DFT:27) &62
+- Added Guardian Sunmare (DFT:15) &63
+- Added Guardian Sunmare (DFT:334) &64
+- Added Spectacular Pileup (DFT:29) [foil] &65
+- Added Bulwark Ox (DFT:333) [foil] &66
+- Added Bulwark Ox (DFT:7) &67
+- Added Steelburr Champion (BLC:48) &68
+- Added Riverchurn Monument (DFT:57) [foil] &69
+- Added Riverchurn Monument (DFT:57) [foil] &70
+- Added Riverchurn Monument (DFT:381) &71
+- Added Riverchurn Monument (DFT:381) [foil] &72
+- Added Riverchurn Monument (DFT:381) [foil] &73
+- Added Repurposing Bay (DFT:56) &74
+- Added Unstoppable Plan (DFT:72) [foil] &75
+- Added Unstoppable Plan (DFT:382) &76
+- Added Unstoppable Plan (DFT:382) [foil] &77
+- Added Prophet of the Scarab (DRC:25) &78
+- Added Phyrexian Metamorph (SLD:1758) [foil] &79
+- Added Bruvac the Grandiloquent (SLD:2181) &80
+- Added Ponder (SLD:1783) &81
+- Added Reality Shift (SLD:1781) [foil] &82
+- Added Reality Shift (SLD:1781) &83
+- Added Back to Basics (SLD:1718) [foil] &84
+- Added Spellskite (SLD:2340) [foil] &85
+- Added Sphinx of the Second Sun (SLD:1720) [foil] &86
+- Added Teferi's Ageless Insight (SLD:1721) [foil] &87
+- Added Drown in Dreams (SLD:1668) [foil] &88
+- Added Psychic Corrosion (SLD:1669) [foil] &89
+- Added Solve the Equation (SLD:886) &90
+- Added Solve the Equation (SLD:886) [foil] &91
+- Added Visions of Beyond (SLD:1670) [foil] &92
+- Added Stifle (SLD:1787) &93
+- Added Delay (SLD:1788) &94
+- Added Bribery (SLD:1786) &95
+- Added Bribery (SLD:1786) [foil] &96
+- Added Stifle (SLD:1787) [foil] &97

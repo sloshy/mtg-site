@@ -1,0 +1,99 @@
+# Green Binder
+
+- Unexplained Absence (MKC:328) [NM] &1
+- Elspeth, Sun's Champion (CMM:820) [NM] &2
+- Priest of the Crossing (DRC:22) [NM] &3
+- Renewed Solidarity (DRC:7) [NM] &4
+- On Wings of Gold (DRC:21) [NM] &5
+- On Wings of Gold (DRC:21) [NM] &6
+- Valor's Flagship (DFT:35) [NM] &7
+- Aerith Gainsborough (FIN:374) [foil] [NM] {JP Printing} &8
+- Renewed Solidarity (DRC:23) [NM] &9
+- Felidar Guardian (SLD:1487★) [foil] [NM] &10
+- Fell the Mighty (SLD:1778) [foil] [NM] &11
+- Fell the Mighty (SLD:1778) [NM] &12
+- Cathars' Crusade (INR:337) [NM] &13
+- Thalia, Heretic Cathar (INR:300) [foil] [NM] &14
+- Council's Judgment (SLD:1635★) [foil] [NM] &15
+- Idyllic Tutor (SLD:1636★) [foil] [NM] &16
+- In the Trenches (SLD:1729) [foil] [NM] &17
+- Secure the Wastes (SLD:1748) [NM] &18
+- Flawless Maneuver (SLD:1728) [NM] &19
+- In the Trenches (SLD:1729) [NM] &20
+- Sigarda's Aid (SLD:1727) [NM] &21
+- Sentry Bot (PIP:371) [NM] &22
+- Split Up (DSK:32) [foil] [NM] &23
+- Split Up (DSK:304) [NM] &24
+- Flowering of the White Tree (LTR:466) [foil] [NM] &25
+- Collector's Cage (BIG:66) [NM] &26
+- Werefox Bodyguard (WOE:329) [NM] &27
+- Ajani, Strength of the Pride (J22:141) [NM] &28
+- Flowering of the White Tree (LTR:15) [NM] &29
+- Northern Paladin (SLD:1855) [foil] [NM] &30
+- Forge Anew (LTR:17) [NM] &31
+- Ajani's Pridemate (FDN:293) [foil] [NM] &32
+- Lion Sash (NEO:26) [foil] [NM] &33
+- Unbreakable Formation (LTC:179) [NM] &34
+- Virtue of Loyalty // Ardenvale Fealty (WOE:277) [NM] &35
+- Legion Loyalty (CLB:371) [NM] &36
+- Elesh Norn, Mother of Machines (ONE:10) [NM] &37
+- Invasion of Gobakhan // Lightshield Array (MOM:22) [NM] &38
+- Thalia, Heretic Cathar (EMN:46) [foil] [NM] &39
+- Dusk Legion Duelist (MOM:11) [NM] &40
+- Flare of Fortitude (MH3:26) [NM] &41
+- Flare of Fortitude (MH3:321) [NM] &42
+- Filigree Vector (MOC:102) [NM] &43
+- Elesh Norn // The Argent Etchings (MOM:292) [foil] [NM] &44
+- Steelshaper's Gift (CMM:629) [foil] [NM] &45
+- Skyhunter Strike Force (ONC:31) [NM] &46
+- Puresteel Paladin (CMM:51) [foil] [NM] &47
+- Puresteel Paladin (CMM:51) [NM] &48
+- Wall of Mourning (MIC:48) [NM] &49
+- Cataclysm (PLST:V14-3) [NM] &50
+- Authority of the Consuls (PLST:KLD-5) [NM] &51
+- Dollmaker's Shop // Porcelain Gallery (DSK:335) [foil] [NM] &52
+- Ravages of War (PIP:354) [foil] [NM] &53
+- Starlight Spectacular (UNF:28) [foil] [NM] &54
+- Ondu Spiritdancer (CMM:756) [NM] &55
+- Onakke Oathkeeper (CMM:755) [NM] &56
+- Nahiri, the Lithomancer (CMM:45) [foil] [NM] &57
+- Shardmage's Rescue (DSK:411) [NM] &58
+- Abzan Falconer (MOC:165) [NM] &59
+- Exemplar of Light (FDN:297) [foil] [NM] &60
+- Sheltered by Ghosts (DSK:30) [NM] &61
+- Salvation Engine (DFT:27) [NM] &62
+- Guardian Sunmare (DFT:15) [NM] &63
+- Guardian Sunmare (DFT:334) [NM] &64
+- Spectacular Pileup (DFT:29) [foil] [NM] &65
+- Bulwark Ox (DFT:333) [foil] [NM] &66
+- Bulwark Ox (DFT:7) [NM] &67
+- Steelburr Champion (BLC:48) [NM] &68
+- Riverchurn Monument (DFT:57) [foil] [NM] &69
+- Riverchurn Monument (DFT:57) [foil] [NM] &70
+- Riverchurn Monument (DFT:381) [NM] &71
+- Riverchurn Monument (DFT:381) [foil] [NM] &72
+- Riverchurn Monument (DFT:381) [foil] [NM] &73
+- Repurposing Bay (DFT:56) [NM] &74
+- Unstoppable Plan (DFT:72) [foil] [NM] &75
+- Unstoppable Plan (DFT:382) [NM] &76
+- Unstoppable Plan (DFT:382) [foil] [NM] &77
+- Prophet of the Scarab (DRC:25) [NM] &78
+- Phyrexian Metamorph (SLD:1758) [foil] [NM] &79
+- Bruvac the Grandiloquent (SLD:2181) [NM] &80
+- Ponder (SLD:1783) [NM] &81
+- Reality Shift (SLD:1781) [foil] [NM] &82
+- Reality Shift (SLD:1781) [NM] &83
+- Back to Basics (SLD:1718) [foil] [NM] &84
+- Spellskite (SLD:2340) [foil] [NM] &85
+- Sphinx of the Second Sun (SLD:1720) [foil] [NM] &86
+- Teferi's Ageless Insight (SLD:1721) [foil] [NM] &87
+- Drown in Dreams (SLD:1668) [foil] [NM] &88
+- Psychic Corrosion (SLD:1669) [foil] [NM] &89
+- Solve the Equation (SLD:886) [NM] &90
+- Solve the Equation (SLD:886) [foil] [NM] &91
+- Visions of Beyond (SLD:1670) [foil] [NM] &92
+- Stifle (SLD:1787) [NM] &93
+- Delay (SLD:1788) [NM] &94
+- Bribery (SLD:1786) [NM] &95
+- Bribery (SLD:1786) [foil] [NM] &96
+- Stifle (SLD:1787) [foil] [NM] &97
