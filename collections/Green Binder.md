@@ -115,3 +115,33 @@
 - Rhet-Tomb Mystic (DRC:26) [NM] &113
 - Lulu, Stern Guardian (FIC:143) [NM] &114
 - Laboratory Maniac (FCA:30) [NM] &115
+- Counterspell (PF24:1) [foil] [NM] &116
+- Counterspell (PF24:1) [foil] [NM] &117
+- Counterspell (PF24:1) [foil] [NM] &118
+- Counterspell (PF24:1) [foil] [NM] &119
+- Vnwxt, Verbose Host (DFT:73) [NM] &120
+- Vnwxt, Verbose Host (DFT:73) [NM] &121
+- Starfield Vocalist (EOE:78) [NM] &122
+- Starfield Vocalist (EOE:78) [NM] &123
+- Aether Channeler (DMU:392) [foil] [NM] &124
+- Personal Tutor (CMM:110) [foil] [NM] &125
+- Simulacrum Synthesizer (BIG:6) [NM] &126
+- Simulacrum Synthesizer (BIG:71) [foil] [NM] &127
+- Deadeye Navigator (SLD:902) [foil] [NM] &128
+- Enduring Curiosity (DSK:51) [NM] &129
+- Enduring Curiosity (PDSK:51p) [foil] [NM] &130
+- Harbinger of the Seas (MH3:451) [foil] [NM] &131
+- Stormchaser's Talent (BLB:75) [NM] &132
+- Glen Elendra Archmage (SLD:2171) [foil] [NM] &133
+- Tasha's Hideous Laughter (AFR:78) [NM] &134
+- Midnight Clock (WOC:99) [NM] &135
+- Alrund's Epiphany (KHM:295) [NM] &136
+- Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI:315) [NM] &137
+- Nexus of Fate (PLST:M19-306) [NM] &138
+- Temporal Manipulation (MB2:174) [NM] &139
+- Pact of Negation (MB2:169) [NM] &140
+- Gitaxian Probe (NPH:35) [NM] &141
+- Deadeye Navigator (INR:492) [foil] [NM] &142
+- Shark Typhoon (SCH:28) [NM] &143
+- Shark Typhoon (SCH:28) [foil] [NM] &144
+- Disdainful Stroke (PCBB:2) [foil] [NM] &145

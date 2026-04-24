@@ -120,3 +120,36 @@
 - Added Rhet-Tomb Mystic (DRC:26) &113
 - Added Lulu, Stern Guardian (FIC:143) &114
 - Added Laboratory Maniac (FCA:30) &115
+
+## 2026-04-24T00:49:03.258Z
+
+- Added Counterspell (PF24:1) [foil] &116
+- Added Counterspell (PF24:1) [foil] &117
+- Added Counterspell (PF24:1) [foil] &118
+- Added Counterspell (PF24:1) [foil] &119
+- Added Vnwxt, Verbose Host (DFT:73) &120
+- Added Vnwxt, Verbose Host (DFT:73) &121
+- Added Starfield Vocalist (EOE:78) &122
+- Added Starfield Vocalist (EOE:78) &123
+- Added Aether Channeler (DMU:392) [foil] &124
+- Added Personal Tutor (CMM:110) [foil] &125
+- Added Simulacrum Synthesizer (BIG:6) &126
+- Added Simulacrum Synthesizer (BIG:71) [foil] &127
+- Added Deadeye Navigator (SLD:902) [foil] &128
+- Added Enduring Curiosity (DSK:51) &129
+- Added Enduring Curiosity (PDSK:51p) [foil] &130
+- Added Harbinger of the Seas (MH3:451) [foil] &131
+- Added Stormchaser's Talent (BLB:75) &132
+- Added Glen Elendra Archmage (SLD:2171) [foil] &133
+- Added Tasha's Hideous Laughter (AFR:78) &134
+- Added Midnight Clock (WOC:99) &135
+- Added Alrund's Epiphany (KHM:295) &136
+- Added Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI:315) &137
+- Added Nexus of Fate (PLST:M19-306) &138
+- Added Temporal Manipulation (MB2:174) &139
+- Added Pact of Negation (MB2:169) &140
+- Added Gitaxian Probe (NPH:35) &141
+- Added Deadeye Navigator (INR:492) [foil] &142
+- Added Shark Typhoon (SCH:28) &143
+- Added Shark Typhoon (SCH:28) [foil] &144
+- Added Disdainful Stroke (PCBB:2) [foil] &145
