@@ -97,3 +97,21 @@
 - Bribery (SLD:1786) [NM] &95
 - Bribery (SLD:1786) [foil] [NM] &96
 - Stifle (SLD:1787) [foil] [NM] &97
+- Prodigal Sorcerer (SLD:1672) [foil] [NM] &98
+- Delay (SLD:1788) [foil] [NM] &99
+- Orvar, the All-Form (SLD:1683) [foil] [NM] &100
+- Consecrated Sphinx (SLD:1657) [NM] &101
+- Laboratory Maniac (INR:359) [NM] &102
+- Laboratory Maniac (INR:359) [foil] [NM] &103
+- Mausoleum Wanderer (INR:360) [NM] &104
+- Memory Deluge (INR:361) [foil] [NM] &105
+- Hullbreaker Horror (VOW:63) [NM] &106
+- Hullbreaker Horror (INR:303) [NM] &107
+- Hullbreaker Horror (SLD:2336) [foil] [NM] &108
+- Hive Mind (SLD:822) [foil] [NM] &109
+- Hive Mind (SLD:822) [foil] [NM] &110
+- Consecrated Sphinx (SLD:1657) [foil] [NM] &111
+- Prodigal Sorcerer (SLD:1672) [NM] &112
+- Rhet-Tomb Mystic (DRC:26) [NM] &113
+- Lulu, Stern Guardian (FIC:143) [NM] &114
+- Laboratory Maniac (FCA:30) [NM] &115

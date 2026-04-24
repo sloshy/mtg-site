@@ -99,3 +99,24 @@
 - Added Bribery (SLD:1786) &95
 - Added Bribery (SLD:1786) [foil] &96
 - Added Stifle (SLD:1787) [foil] &97
+
+## 2026-04-23T23:06:00.917Z
+
+- Added Prodigal Sorcerer (SLD:1672) [foil] &98
+- Added Delay (SLD:1788) [foil] &99
+- Added Orvar, the All-Form (SLD:1683) [foil] &100
+- Added Consecrated Sphinx (SLD:1657) &101
+- Added Laboratory Maniac (INR:359) &102
+- Added Laboratory Maniac (INR:359) [foil] &103
+- Added Mausoleum Wanderer (INR:360) &104
+- Added Memory Deluge (INR:361) [foil] &105
+- Added Hullbreaker Horror (VOW:63) &106
+- Added Hullbreaker Horror (INR:303) &107
+- Added Hullbreaker Horror (SLD:2336) [foil] &108
+- Added Hive Mind (SLD:822) [foil] &109
+- Added Hive Mind (SLD:822) [foil] &110
+- Added Consecrated Sphinx (SLD:1657) [foil] &111
+- Added Prodigal Sorcerer (SLD:1672) &112
+- Added Rhet-Tomb Mystic (DRC:26) &113
+- Added Lulu, Stern Guardian (FIC:143) &114
+- Added Laboratory Maniac (FCA:30) &115
