@@ -10,108 +10,108 @@ tags: []
 # Marcheesed to Meet You
 
 ## Commander
-1 Queen Marchesa
+1 Queen Marchesa &1
 
 ## Main
-1 Demonic Tutor
-1 Spiteful Banditry
-1 Shadow the Hedgehog
-2 Mountain
-1 Boros Signet
-1 Blasphemous Act
-1 Rakdos Charm
-1 Path to Exile
-1 Arcane Signet
-1 Rakdos Signet
-1 Deflecting Palm
-1 Ruinous Ultimatum
-1 Ghostly Prison
-1 No Mercy
-1 Trouble in Pairs
-1 Blazemire Verge
-1 Brash Taunter
-1 Breena, the Demagogue
-1 Generous Gift
-1 Command Tower
-1 Crackling Doom
-1 Loyal Unicorn
-1 Xantcha, Sleeper Agent
-1 Swords to Plowshares
-1 Luxury Suite
-1 Welcoming Vampire
-1 Spectator Seating
-1 Reliquary Tower
-1 Godless Shrine
-1 The One Ring
-1 Taunt from the Rampart
-1 Exotic Orchard
-1 Orzhov Signet
-1 Talisman of Hierarchy
-1 Savai Triome
-1 Sacred Foundry
-1 Blood Crypt
-1 Anguished Unmaking
-1 Boros Charm
-1 Vault of Champions
-1 Teferi's Protection
-1 Kardur, Doomscourge
-1 Windborn Muse
-1 Inkshield
-1 Shattered Landscape
-1 Shattered Sanctum
-1 Take the Bait
-1 Fetid Heath
-1 Kambal, Profiteering Mayor
-1 Sol Ring
-2 Plains
-2 Swamp
-1 Karazikar, the Eye Tyrant
-1 Street Urchin
-1 The Sound of Drums
-1 Insatiable Avarice
-1 Caretaker's Talent
-1 Deflecting Swat
-1 Idol of Oblivion
-1 Akroma's Will
-1 Bleachbone Verge
-1 Sunbillow Verge
-1 Lotho, Corrupt Shirriff
-1 Varchild, Betrayer of Kjeldor
-1 Comeuppance
-1 Kazuul, Tyrant of the Cliffs
-1 Sunforger
-1 Fabled Passage
-1 Odric, Lunarch Marshal
-1 Grand Abolisher
-1 Charismatic Conqueror
-1 Insurrection
-1 Mob Rule
-1 Marsh Flats
-1 Nomad Outpost
-1 Deadly Rollick
-1 Caves of Koilos
-1 Sundown Pass
-1 Rakdos Carnarium
-1 Needleverge Pathway // Pillarverge Pathway
-1 Witch Enchanter // Witch-Blessed Meadow
-1 Valakut Awakening // Valakut Stoneforge
-1 Malakir Rebirth // Malakir Mire
-1 Brightclimb Pathway // Grimclimb Pathway
-1 Sundering Eruption // Volcanic Fissure
-1 Pinnacle Monk // Mystic Peak
-1 Fell the Profane // Fell Mire
-1 Sunbaked Canyon
-1 Maximum Carnage
-1 Seize the Spotlight
-1 Galadriel's Dismissal
-1 Enduring Innocence
-1 Nelly Borca, Impulsive Accuser
-1 Oft-Nabbed Goat
-1 Seifer, Balamb Rival
-1 Immortal Obligation
+1 Demonic Tutor &2
+1 Spiteful Banditry &3
+1 Shadow the Hedgehog &4
+2 Mountain &5
+1 Boros Signet &6
+1 Blasphemous Act &7
+1 Rakdos Charm &8
+1 Path to Exile &9
+1 Arcane Signet &10
+1 Rakdos Signet &11
+1 Deflecting Palm &12
+1 Ruinous Ultimatum &13
+1 Ghostly Prison &14
+1 No Mercy &15
+1 Trouble in Pairs &16
+1 Blazemire Verge &17
+1 Brash Taunter &18
+1 Breena, the Demagogue &19
+1 Generous Gift &20
+1 Command Tower &21
+1 Crackling Doom &22
+1 Loyal Unicorn &23
+1 Xantcha, Sleeper Agent &24
+1 Swords to Plowshares &25
+1 Luxury Suite &26
+1 Welcoming Vampire &27
+1 Spectator Seating &28
+1 Reliquary Tower &29
+1 Godless Shrine &30
+1 The One Ring &31
+1 Taunt from the Rampart &32
+1 Exotic Orchard &33
+1 Orzhov Signet &34
+1 Talisman of Hierarchy &35
+1 Savai Triome &36
+1 Sacred Foundry &37
+1 Blood Crypt &38
+1 Anguished Unmaking &39
+1 Boros Charm &40
+1 Vault of Champions &41
+1 Teferi's Protection &42
+1 Kardur, Doomscourge &43
+1 Windborn Muse &44
+1 Inkshield &45
+1 Shattered Landscape &46
+1 Shattered Sanctum &47
+1 Take the Bait &48
+1 Fetid Heath &49
+1 Kambal, Profiteering Mayor &50
+1 Sol Ring &51
+2 Plains &52
+2 Swamp &53
+1 Karazikar, the Eye Tyrant &54
+1 Street Urchin &55
+1 The Sound of Drums &56
+1 Insatiable Avarice &57
+1 Caretaker's Talent &58
+1 Deflecting Swat &59
+1 Idol of Oblivion &60
+1 Akroma's Will &61
+1 Bleachbone Verge &62
+1 Sunbillow Verge &63
+1 Lotho, Corrupt Shirriff &64
+1 Varchild, Betrayer of Kjeldor &65
+1 Comeuppance &66
+1 Kazuul, Tyrant of the Cliffs &67
+1 Sunforger &68
+1 Fabled Passage &69
+1 Odric, Lunarch Marshal &70
+1 Grand Abolisher &71
+1 Charismatic Conqueror &72
+1 Insurrection &73
+1 Mob Rule &74
+1 Marsh Flats &75
+1 Nomad Outpost &76
+1 Deadly Rollick &77
+1 Caves of Koilos &78
+1 Sundown Pass &79
+1 Rakdos Carnarium &80
+1 Needleverge Pathway // Pillarverge Pathway &81
+1 Witch Enchanter // Witch-Blessed Meadow &82
+1 Valakut Awakening // Valakut Stoneforge &83
+1 Malakir Rebirth // Malakir Mire &84
+1 Brightclimb Pathway // Grimclimb Pathway &85
+1 Sundering Eruption // Volcanic Fissure &86
+1 Pinnacle Monk // Mystic Peak &87
+1 Fell the Profane // Fell Mire &88
+1 Sunbaked Canyon &89
+1 Maximum Carnage &90
+1 Seize the Spotlight &91
+1 Galadriel's Dismissal &92
+1 Enduring Innocence &93
+1 Nelly Borca, Impulsive Accuser &94
+1 Oft-Nabbed Goat &95
+1 Seifer, Balamb Rival &96
+1 Immortal Obligation &97
 
 ## Maybeboard
-1 Royal Assassin
-1 Rankle, Master of Pranks
-1 Duelist's Heritage
+1 Royal Assassin &98
+1 Rankle, Master of Pranks &99
+1 Duelist's Heritage &100
 

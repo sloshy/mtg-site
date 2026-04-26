@@ -11,88 +11,88 @@ tags: []
 # Oops, All Soul-diers
 
 ## Commander
-1 Myrel, Shield of Argive
+1 Myrel, Shield of Argive &1
 
 ## Main
-1 Giver of Runes
-1 Everybody Lives!
-1 Bastion Protector
-1 Invasion of Gobakhan // Lightshield Array
-1 Daru Warchief
-1 Anointed Procession
-1 Cavern of Souls
-1 Galadriel's Dismissal
-1 Mutavault
-1 Minas Tirith
-1 Surge of Salvation
-1 Thousand Moons Smithy // Barracks of the Thousand
-1 Maze of Ith
-1 Extraplanar Lens
-1 Roaming Throne
-1 The One Ring
-1 Charismatic Conqueror
-1 Mithril Coat
-1 Arcane Signet
-19 Plains
-1 Dawn of a New Age
-1 Haystack
-1 Windbrisk Heights
-1 Nykthos, Shrine to Nyx
-1 Strionic Resonator
-1 Ajani, Strength of the Pride
-1 Esper Sentinel
-1 Gideon Blackblade
-1 Field Marshal
-1 Brimaz, King of Oreskos
-1 Buried Ruin
-1 Reconnaissance
-1 Three Tree City
-1 Coat of Arms
-1 Urza's Saga
-1 Teferi's Protection
-1 Archaeomancer's Map
-1 Winds of Abandon
-1 True Conviction
-1 Mirror Entity
-1 Witch Enchanter // Witch-Blessed Meadow
-1 Plaza of Heroes
-1 Mondrak, Glory Dominus
-1 Soul's Attendant
-1 And They Shall Know No Fear
-1 Sunfall
-1 Goldnight Commander
-1 Cathars' Crusade
-1 Dawn Charm
-1 Serra Ascendant
-1 Soul Warden
-1 Eiganjo, Seat of the Empire
-1 Dollmaker's Shop // Porcelain Gallery
-1 Renewed Solidarity
-1 Wand of the Worldsoul
-1 Sol Ring
-1 Rebuff the Wicked
-1 Land Tax
-1 Flawless Maneuver
-1 Swords to Plowshares
-1 Path to Exile
-1 Ajani's Pridemate
-1 Inventors' Fair
-1 Throne of Eldraine
-1 Command Beacon
-1 Banner of Kinship
-1 Lightning Greaves
-1 Darksteel Mutation
-1 Clever Concealment
-1 Rogue's Passage
-1 Authority of the Consuls
-1 Swiftfoot Boots
-1 Emeria, the Sky Ruin
-1 Boromir, Warden of the Tower
-1 Idol of Oblivion
-1 Haliya, Guided by Light
-1 Archangel Elspeth
-1 Elspeth, Storm Slayer
-1 Guide of Souls
-1 Caduceus, Staff of Hermes
-1 Commander's Plate
+1 Giver of Runes &2
+1 Everybody Lives! &3
+1 Bastion Protector &4
+1 Invasion of Gobakhan // Lightshield Array &5
+1 Daru Warchief &6
+1 Anointed Procession &7
+1 Cavern of Souls &8
+1 Galadriel's Dismissal &9
+1 Mutavault &10
+1 Minas Tirith &11
+1 Surge of Salvation &12
+1 Thousand Moons Smithy // Barracks of the Thousand &13
+1 Maze of Ith &14
+1 Extraplanar Lens &15
+1 Roaming Throne &16
+1 The One Ring &17
+1 Charismatic Conqueror &18
+1 Mithril Coat &19
+1 Arcane Signet &20
+19 Plains &21
+1 Dawn of a New Age &22
+1 Haystack &23
+1 Windbrisk Heights &24
+1 Nykthos, Shrine to Nyx &25
+1 Strionic Resonator &26
+1 Ajani, Strength of the Pride &27
+1 Esper Sentinel &28
+1 Gideon Blackblade &29
+1 Field Marshal &30
+1 Brimaz, King of Oreskos &31
+1 Buried Ruin &32
+1 Reconnaissance &33
+1 Three Tree City &34
+1 Coat of Arms &35
+1 Urza's Saga &36
+1 Teferi's Protection &37
+1 Archaeomancer's Map &38
+1 Winds of Abandon &39
+1 True Conviction &40
+1 Mirror Entity &41
+1 Witch Enchanter // Witch-Blessed Meadow &42
+1 Plaza of Heroes &43
+1 Mondrak, Glory Dominus &44
+1 Soul's Attendant &45
+1 And They Shall Know No Fear &46
+1 Sunfall &47
+1 Goldnight Commander &48
+1 Cathars' Crusade &49
+1 Dawn Charm &50
+1 Serra Ascendant &51
+1 Soul Warden &52
+1 Eiganjo, Seat of the Empire &53
+1 Dollmaker's Shop // Porcelain Gallery &54
+1 Renewed Solidarity &55
+1 Wand of the Worldsoul &56
+1 Sol Ring &57
+1 Rebuff the Wicked &58
+1 Land Tax &59
+1 Flawless Maneuver &60
+1 Swords to Plowshares &61
+1 Path to Exile &62
+1 Ajani's Pridemate &63
+1 Inventors' Fair &64
+1 Throne of Eldraine &65
+1 Command Beacon &66
+1 Banner of Kinship &67
+1 Lightning Greaves &68
+1 Darksteel Mutation &69
+1 Clever Concealment &70
+1 Rogue's Passage &71
+1 Authority of the Consuls &72
+1 Swiftfoot Boots &73
+1 Emeria, the Sky Ruin &74
+1 Boromir, Warden of the Tower &75
+1 Idol of Oblivion &76
+1 Haliya, Guided by Light &77
+1 Archangel Elspeth &78
+1 Elspeth, Storm Slayer &79
+1 Guide of Souls &80
+1 Caduceus, Staff of Hermes &81
+1 Commander's Plate &82
 

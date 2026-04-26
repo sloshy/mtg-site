@@ -10,101 +10,101 @@ tags: []
 # I've Got A Gluntch
 
 ## Commander
-1 Gluntch, the Bestower
+1 Gluntch, the Bestower &1
 
 ## Main
-1 Ancient Gold Dragon
-1 Flumph
-1 Ghostly Prison
-1 Path to Exile
-1 Generous Gift
-1 Command Tower
-1 Sungrass Prairie
-1 Noble Heritage
-1 Trouble in Pairs
-1 Exotic Orchard
-1 Open the Way
-1 Galadriel's Dismissal
-1 Kami of Whispered Hopes
-1 Trostani, Three Whispers
-1 Smothering Tithe
-1 Heroic Intervention
-1 Approach of the Second Sun
-1 Bountiful Promenade
-1 Rosie Cotton of South Lane
-1 Sol Ring
-1 Reliquary Tower
-1 Tenuous Truce
-1 Yavimaya, Cradle of Growth
-1 Farewell
-1 Mikokoro, Center of the Sea
-1 Canopy Vista
-1 Lush Portico
-1 Overgrown Farmland
-1 Sunpetal Grove
-10 Plains
-7 Forest
-1 Orzhov Advokist
-1 Arachnogenesis
-1 Heliod's Intervention
-1 Windborn Muse
-1 Dawn Charm
-1 Nils, Discipline Enforcer
-1 Forgotten Ancient
-1 Angel of Indemnity
-1 Everybody Lives!
-1 Primal Vigor
-1 Requisition Raid
-1 Shalai, Voice of Plenty
-1 Battle Angels of Tyr
-1 Selesnya Sanctuary
-1 Wall of Shards
-1 Swords to Plowshares
-1 Fortified Village
-1 Beast Within
-1 Temple Garden
-1 Loran of the Third Path
-1 Dusk Legion Duelist
-1 Pest Infestation
-1 Doubling Season
-1 Reprieve
-1 Thought Vessel
-1 Arcane Signet
-1 Temple of Plenty
-1 Rogue's Passage
-1 Teferi's Protection
-1 Genesis Wave
-1 Herald of Eternal Dawn
-1 Teyo, Geometric Tactician
-1 Ascend from Avernus
-1 Archivist of Oghma
-1 Caretaker's Talent
-1 Basking Broodscale
-1 Windswept Heath
-1 Goldvein Hydra
-1 Flare of Fortitude
-1 Vorinclex, Monstrous Raider
-1 Yotian Dissident
-1 The Ozolith
-1 Tataru Taru
-1 The Legend of Yangchen // Avatar Yangchen
-1 Secret Rendezvous
-1 Genji Glove
-1 Eladamri's Call
-1 Duelist's Heritage
-1 Selvala, Explorer Returned
-1 Avacyn, Angel of Hope
-1 All That Glitters
-1 Mondrak, Glory Dominus
-1 Parallel Lives
+1 Ancient Gold Dragon &2
+1 Flumph &3
+1 Ghostly Prison &4
+1 Path to Exile &5
+1 Generous Gift &6
+1 Command Tower &7
+1 Sungrass Prairie &8
+1 Noble Heritage &9
+1 Trouble in Pairs &10
+1 Exotic Orchard &11
+1 Open the Way &12
+1 Galadriel's Dismissal &13
+1 Kami of Whispered Hopes &14
+1 Trostani, Three Whispers &15
+1 Smothering Tithe &16
+1 Heroic Intervention &17
+1 Approach of the Second Sun &18
+1 Bountiful Promenade &19
+1 Rosie Cotton of South Lane &20
+1 Sol Ring &21
+1 Reliquary Tower &22
+1 Tenuous Truce &23
+1 Yavimaya, Cradle of Growth &24
+1 Farewell &25
+1 Mikokoro, Center of the Sea &26
+1 Canopy Vista &27
+1 Lush Portico &28
+1 Overgrown Farmland &29
+1 Sunpetal Grove &30
+10 Plains &31
+7 Forest &32
+1 Orzhov Advokist &33
+1 Arachnogenesis &34
+1 Heliod's Intervention &35
+1 Windborn Muse &36
+1 Dawn Charm &37
+1 Nils, Discipline Enforcer &38
+1 Forgotten Ancient &39
+1 Angel of Indemnity &40
+1 Everybody Lives! &41
+1 Primal Vigor &42
+1 Requisition Raid &43
+1 Shalai, Voice of Plenty &44
+1 Battle Angels of Tyr &45
+1 Selesnya Sanctuary &46
+1 Wall of Shards &47
+1 Swords to Plowshares &48
+1 Fortified Village &49
+1 Beast Within &50
+1 Temple Garden &51
+1 Loran of the Third Path &52
+1 Dusk Legion Duelist &53
+1 Pest Infestation &54
+1 Doubling Season &55
+1 Reprieve &56
+1 Thought Vessel &57
+1 Arcane Signet &58
+1 Temple of Plenty &59
+1 Rogue's Passage &60
+1 Teferi's Protection &61
+1 Genesis Wave &62
+1 Herald of Eternal Dawn &63
+1 Teyo, Geometric Tactician &64
+1 Ascend from Avernus &65
+1 Archivist of Oghma &66
+1 Caretaker's Talent &67
+1 Basking Broodscale &68
+1 Windswept Heath &69
+1 Goldvein Hydra &70
+1 Flare of Fortitude &71
+1 Vorinclex, Monstrous Raider &72
+1 Yotian Dissident &73
+1 The Ozolith &74
+1 Tataru Taru &75
+1 The Legend of Yangchen // Avatar Yangchen &76
+1 Secret Rendezvous &77
+1 Genji Glove &78
+1 Eladamri's Call &79
+1 Duelist's Heritage &80
+1 Selvala, Explorer Returned &81
+1 Avacyn, Angel of Hope &82
+1 All That Glitters &83
+1 Mondrak, Glory Dominus &84
+1 Parallel Lives &85
 
 ## Maybeboard
-1 Weathered Sentinels
-1 Cut a Deal
-1 Combat Calligrapher
-1 Baird, Steward of Argive
-1 Viridian Revel
-1 Odric, Lunarch Marshal
-1 Bootleggers' Stash
-1 Promise of Loyalty
+1 Weathered Sentinels &86
+1 Cut a Deal &87
+1 Combat Calligrapher &88
+1 Baird, Steward of Argive &89
+1 Viridian Revel &90
+1 Odric, Lunarch Marshal &91
+1 Bootleggers' Stash &92
+1 Promise of Loyalty &93
 

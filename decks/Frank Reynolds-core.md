@@ -11,106 +11,106 @@ tags: []
 # Frank Reynolds-core
 
 ## Commander
-1 Ghyrson Starn, Kelermorph
+1 Ghyrson Starn, Kelermorph &1
 
 ## Main
-1 Exalted Flamer of Tzeentch
-1 End the Festivities
-1 Sulfur Falls
-1 Mizzix's Mastery
-1 Underworld Breach
-1 Gut Shot
-1 Arcane Denial
-1 An Offer You Can't Refuse
-1 Propaganda
-1 Preordain
-1 Firebrand Archer
-1 Deflecting Swat
-1 Fierce Guardianship
-1 The One Ring
-1 Stormsplitter
-1 Unexpected Windfall
-1 Basilisk Collar
-1 Light Up the Stage
-1 Reliquary Tower
-1 Chandra's Spitfire
-1 Riverglide Pathway // Lavaglide Pathway
-1 Frantic Search
-1 Swan Song
-1 Rapid Hybridization
-1 Mana Geyser
-1 Big Score
-1 Faithless Looting
-1 Storm-Kiln Artist
-1 Desperate Ritual
-5 Island
-1 Arcane Signet
-1 Needle Drop
-1 Command Tower
-1 Curiosity
-1 Urabrask // The Great Work
-1 Kessig Flamebreather
-1 Grapeshot
-1 Chandra's Incinerator
-1 Shadowspear
-1 Shivan Gorge
-1 Sunscorched Desert
-1 Vandalblast
-1 Tectonic Hazard
-1 Birgi, God of Storytelling // Harnfel, Horn of Bounty
-1 Dance with Calamity
-1 Repercussion
-1 Stormcarved Coast
-1 Fiery Islet
-1 Sigil of Sleep
-1 Steam Vents
-1 Scalding Tarn
-1 Sokenzan, Crucible of Defiance
-1 Pongify
-1 Jeska's Will
-1 Eroded Canyon
-1 Pyretic Ritual
-1 Seething Song
-1 Coruscation Mage
-1 Fabled Passage
-1 Gitaxian Probe
-1 Ferrous Lake
-1 Smash to Dust
-1 Thermo-Alchemist
-1 Electrostatic Field
-1 Training Center
-1 Exotic Orchard
-1 Izzet Boilerworks
-1 Expressive Iteration
-1 Cascade Bluffs
-1 Mana Drain
-1 Ponder
-1 Frostboil Snarl
-1 Serum Visions
-1 Sol Ring
-1 Izzet Signet
-1 Razorkin Needlehead
-1 Gleeful Arsonist
-6 Mountain
-1 Pinnacle Monk // Mystic Peak
-1 Riverpyre Verge
-1 Rhystic Study
-1 Vivi Ornitier
-1 Scalding Viper // Steam Clean
-1 Wheel of Misfortune
-1 Sunspine Lynx
-1 Tandem Lookout
-1 Ophidian Eye
-1 Windfall
-1 Past in Flames
-1 Spider-Punk
+1 Exalted Flamer of Tzeentch &2
+1 End the Festivities &3
+1 Sulfur Falls &4
+1 Mizzix's Mastery &5
+1 Underworld Breach &6
+1 Gut Shot &7
+1 Arcane Denial &8
+1 An Offer You Can't Refuse &9
+1 Propaganda &10
+1 Preordain &11
+1 Firebrand Archer &12
+1 Deflecting Swat &13
+1 Fierce Guardianship &14
+1 The One Ring &15
+1 Stormsplitter &16
+1 Unexpected Windfall &17
+1 Basilisk Collar &18
+1 Light Up the Stage &19
+1 Reliquary Tower &20
+1 Chandra's Spitfire &21
+1 Riverglide Pathway // Lavaglide Pathway &22
+1 Frantic Search &23
+1 Swan Song &24
+1 Rapid Hybridization &25
+1 Mana Geyser &26
+1 Big Score &27
+1 Faithless Looting &28
+1 Storm-Kiln Artist &29
+1 Desperate Ritual &30
+5 Island &31
+1 Arcane Signet &32
+1 Needle Drop &33
+1 Command Tower &34
+1 Curiosity &35
+1 Urabrask // The Great Work &36
+1 Kessig Flamebreather &37
+1 Grapeshot &38
+1 Chandra's Incinerator &39
+1 Shadowspear &40
+1 Shivan Gorge &41
+1 Sunscorched Desert &42
+1 Vandalblast &43
+1 Tectonic Hazard &44
+1 Birgi, God of Storytelling // Harnfel, Horn of Bounty &45
+1 Dance with Calamity &46
+1 Repercussion &47
+1 Stormcarved Coast &48
+1 Fiery Islet &49
+1 Sigil of Sleep &50
+1 Steam Vents &51
+1 Scalding Tarn &52
+1 Sokenzan, Crucible of Defiance &53
+1 Pongify &54
+1 Jeska's Will &55
+1 Eroded Canyon &56
+1 Pyretic Ritual &57
+1 Seething Song &58
+1 Coruscation Mage &59
+1 Fabled Passage &60
+1 Gitaxian Probe &61
+1 Ferrous Lake &62
+1 Smash to Dust &63
+1 Thermo-Alchemist &64
+1 Electrostatic Field &65
+1 Training Center &66
+1 Exotic Orchard &67
+1 Izzet Boilerworks &68
+1 Expressive Iteration &69
+1 Cascade Bluffs &70
+1 Mana Drain &71
+1 Ponder &72
+1 Frostboil Snarl &73
+1 Serum Visions &74
+1 Sol Ring &75
+1 Izzet Signet &76
+1 Razorkin Needlehead &77
+1 Gleeful Arsonist &78
+6 Mountain &79
+1 Pinnacle Monk // Mystic Peak &80
+1 Riverpyre Verge &81
+1 Rhystic Study &82
+1 Vivi Ornitier &83
+1 Scalding Viper // Steam Clean &84
+1 Wheel of Misfortune &85
+1 Sunspine Lynx &86
+1 Tandem Lookout &87
+1 Ophidian Eye &88
+1 Windfall &89
+1 Past in Flames &90
+1 Spider-Punk &91
 
 ## Maybeboard
-1 Roiling Vortex
-1 Electro, Assaulting Battery
-1 Fear, Fire, Foes!
-1 Braid of Fire
-1 Veyran, Voice of Duality
-1 Isochron Scepter
-1 Mystic Remora
+1 Roiling Vortex &92
+1 Electro, Assaulting Battery &93
+1 Fear, Fire, Foes! &94
+1 Braid of Fire &95
+1 Veyran, Voice of Duality &96
+1 Isochron Scepter &97
+1 Mystic Remora &98
 

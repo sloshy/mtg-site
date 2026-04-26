@@ -11,90 +11,90 @@ tags: []
 # Voja For Less
 
 ## Commander
-1 Voja, Jaws of the Conclave
+1 Voja, Jaws of the Conclave &1
 
 ## Main
-3 Mountain
-9 Forest
-1 Taurean Mauler
-1 Mirror Entity
-1 Masked Vandal
-1 Sol Ring
-1 Arcane Signet
-1 Elvish Archdruid
-1 Llanowar Elves
-1 Swords to Plowshares
-1 Generous Gift
-1 Command Tower
-1 Canopy Vista
-1 Reliquary Tower
-1 Kessig Wolf Run
-1 Jungle Shrine
-1 Wayfarer's Bauble
-1 Thought Vessel
-1 Sungrass Prairie
-1 Mossfire Valley
-1 Rampant Growth
-1 Blasphemous Act
-1 Farseek
-1 Boros Signet
-1 Elvish Mystic
-1 Rishkar, Peema Renegade
-1 Wolfcaller's Howl
-1 Rising of the Day
-1 Temple of the False God
-1 Devoted Druid
-1 Imperious Perfect
-1 Paradise Druid
-1 Fires of Yavimaya
-1 Myriad Landscape
-1 Terramorphic Expanse
-1 Response // Resurgence
-1 Lys Alana Huntmaster
-1 Arlinn, the Pack's Hope // Arlinn, the Moon's Fury
-1 Arlinn Kord // Arlinn, Embraced by the Moon
-1 Fire-Belly Changeling
-1 Tolsimir, Midnight's Light
-1 Tolsimir Wolfblood
-1 Tolsimir, Friend to Wolves
-1 Gruul Charm
-1 Decanter of Endless Water
-1 Storm the Seedcore
-1 Werefox Bodyguard
-1 Howling Moon
-1 Elven Ambush
-1 Sheltering Landscape
-1 Rogue's Passage
-1 Naya Charm
-1 Windswift Slice
-1 Shalai and Hallar
-1 Priest of Titania
-1 Wren's Run Packmaster
-1 Arwen, Mortal Queen
-1 Avian Changeling
-1 Irregular Cohort
-1 Boros Garrison
-1 Inspiring Call
-1 Gruul Signet
-1 Cabaretti Charm
-1 Annie Joins Up
-1 Reclamation Sage
-1 Unbreakable Formation
-1 Young Wolf
-1 Wilt-Leaf Liege
-1 Full Steam Ahead
-1 Exotic Orchard
-1 Swiftfoot Boots
-1 Ferocification
-7 Plains
-1 Universal Automaton
-1 Impostor of the Sixth Pride
-1 Cinder Glade
-1 Path of Ancestry
-1 Gruul Turf
-1 Wolfbriar Elemental
-1 Return to Nature
-1 Cleansing Nova
-1 Taunting Elf
-1 Ash Barrens
+3 Mountain &2
+9 Forest &3
+1 Taurean Mauler &4
+1 Mirror Entity &5
+1 Masked Vandal &6
+1 Sol Ring &7
+1 Arcane Signet &8
+1 Elvish Archdruid &9
+1 Llanowar Elves &10
+1 Swords to Plowshares &11
+1 Generous Gift &12
+1 Command Tower &13
+1 Canopy Vista &14
+1 Reliquary Tower &15
+1 Kessig Wolf Run &16
+1 Jungle Shrine &17
+1 Wayfarer's Bauble &18
+1 Thought Vessel &19
+1 Sungrass Prairie &20
+1 Mossfire Valley &21
+1 Rampant Growth &22
+1 Blasphemous Act &23
+1 Farseek &24
+1 Boros Signet &25
+1 Elvish Mystic &26
+1 Rishkar, Peema Renegade &27
+1 Wolfcaller's Howl &28
+1 Rising of the Day &29
+1 Temple of the False God &30
+1 Devoted Druid &31
+1 Imperious Perfect &32
+1 Paradise Druid &33
+1 Fires of Yavimaya &34
+1 Myriad Landscape &35
+1 Terramorphic Expanse &36
+1 Response // Resurgence &37
+1 Lys Alana Huntmaster &38
+1 Arlinn, the Pack's Hope // Arlinn, the Moon's Fury &39
+1 Arlinn Kord // Arlinn, Embraced by the Moon &40
+1 Fire-Belly Changeling &41
+1 Tolsimir, Midnight's Light &42
+1 Tolsimir Wolfblood &43
+1 Tolsimir, Friend to Wolves &44
+1 Gruul Charm &45
+1 Decanter of Endless Water &46
+1 Storm the Seedcore &47
+1 Werefox Bodyguard &48
+1 Howling Moon &49
+1 Elven Ambush &50
+1 Sheltering Landscape &51
+1 Rogue's Passage &52
+1 Naya Charm &53
+1 Windswift Slice &54
+1 Shalai and Hallar &55
+1 Priest of Titania &56
+1 Wren's Run Packmaster &57
+1 Arwen, Mortal Queen &58
+1 Avian Changeling &59
+1 Irregular Cohort &60
+1 Boros Garrison &61
+1 Inspiring Call &62
+1 Gruul Signet &63
+1 Cabaretti Charm &64
+1 Annie Joins Up &65
+1 Reclamation Sage &66
+1 Unbreakable Formation &67
+1 Young Wolf &68
+1 Wilt-Leaf Liege &69
+1 Full Steam Ahead &70
+1 Exotic Orchard &71
+1 Swiftfoot Boots &72
+1 Ferocification &73
+7 Plains &74
+1 Universal Automaton &75
+1 Impostor of the Sixth Pride &76
+1 Cinder Glade &77
+1 Path of Ancestry &78
+1 Gruul Turf &79
+1 Wolfbriar Elemental &80
+1 Return to Nature &81
+1 Cleansing Nova &82
+1 Taunting Elf &83
+1 Ash Barrens &84
 

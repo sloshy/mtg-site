@@ -11,106 +11,106 @@ tags: []
 # Galadriel Greeters
 
 ## Commander
-1 Galadriel, Light of Valinor
+1 Galadriel, Light of Valinor &1
 
 ## Main
-1 Birds of Paradise
-1 Adarkar Wastes
-1 Ripples of Potential
-1 Overgrown Farmland
-1 Galadriel's Dismissal
-1 Reliquary Tower
-1 Minas Tirith
-1 Arcane Signet
-1 Sungrass Prairie
-1 Exotic Orchard
-1 Azorius Signet
-1 Cosmic Intervention
-1 Flooded Strand
-1 Tranquil Landscape
-1 Deserted Beach
-1 Faerie Artisans
-1 Phelia, Exuberant Shepherd
-1 Perch Protection
-1 Koma, Cosmos Serpent
-1 Danny Pink
-1 Moonshaker Cavalry
-1 Delighted Halfling
-1 Wave Goodbye
-1 Basking Broodscale
-1 Jolrael, Mwonvuli Recluse
-1 Idol of Oblivion
-1 Archdruid's Charm
-1 Ant Queen
-1 Springheart Nantuko
-1 Arachnogenesis
-1 Charismatic Conqueror
-1 Decanter of Endless Water
-1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
-1 Trouble in Pairs
-1 Emiel the Blessed
-1 Spellseeker
-1 Generous Gift
-1 Plains
-1 Selesnya Signet
-1 Craterhoof Behemoth
-1 Command Tower
-1 Bountiful Promenade
-1 Sunpetal Grove
-1 Rogue's Passage
-1 Brushland
-1 Horizon Canopy
-1 Rejuvenating Springs
-1 Hinterland Harbor
-1 Temple Garden
-1 Breeding Pool
-1 Hallowed Fountain
-1 Sea of Clouds
-1 Island
-1 Elven Chorus
-1 Misty Rainforest
-1 Rivendell
-1 Flooded Grove
-1 Spara's Headquarters
-1 Ephemerate
-1 Peregrine Drake
-1 Illustrious Wanderglyph
-1 Castle Garenbrig
-1 Command Beacon
-1 Gala Greeters
-1 Reflecting Pool
-1 Cyclonic Rift
-1 Abzan Falconer
-1 Dreamroot Cascade
-1 Green Slime
-1 Arasta of the Endless Web
-1 Aura Shards
-1 Solitude
-1 Glen Elendra Archmage
-1 Druid of Purification
-1 Floodfarm Verge
-1 Witch Enchanter // Witch-Blessed Meadow
-1 Nature's Rhythm
-1 Tendershoot Dryad
-1 Forest
-1 Yavimaya, Cradle of Growth
-1 Smothering Tithe
-1 Seaside Citadel
-1 Fanatic of Rhonas
-1 Appa, Steadfast Guardian
-1 Voice of Victory
-1 Dyadrine, Synthesis Amalgam
-1 Herd Heirloom
-1 Kami of Whispered Hopes
-1 Homunculus Horde
-1 Elspeth, Storm Slayer
-1 Enduring Vitality
-1 Faerie Mastermind
-1 Absolute Virtue
-1 Tishana's Tidebinder
-1 Sol Ring
-1 Three Steps Ahead
-1 Once Upon a Time
-1 Dawn's Truce
-1 Planetarium of Wan Shi Tong
+1 Birds of Paradise &2
+1 Adarkar Wastes &3
+1 Ripples of Potential &4
+1 Overgrown Farmland &5
+1 Galadriel's Dismissal &6
+1 Reliquary Tower &7
+1 Minas Tirith &8
+1 Arcane Signet &9
+1 Sungrass Prairie &10
+1 Exotic Orchard &11
+1 Azorius Signet &12
+1 Cosmic Intervention &13
+1 Flooded Strand &14
+1 Tranquil Landscape &15
+1 Deserted Beach &16
+1 Faerie Artisans &17
+1 Phelia, Exuberant Shepherd &18
+1 Perch Protection &19
+1 Koma, Cosmos Serpent &20
+1 Danny Pink &21
+1 Moonshaker Cavalry &22
+1 Delighted Halfling &23
+1 Wave Goodbye &24
+1 Basking Broodscale &25
+1 Jolrael, Mwonvuli Recluse &26
+1 Idol of Oblivion &27
+1 Archdruid's Charm &28
+1 Ant Queen &29
+1 Springheart Nantuko &30
+1 Arachnogenesis &31
+1 Charismatic Conqueror &32
+1 Decanter of Endless Water &33
+1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun &34
+1 Trouble in Pairs &35
+1 Emiel the Blessed &36
+1 Spellseeker &37
+1 Generous Gift &38
+1 Plains &39
+1 Selesnya Signet &40
+1 Craterhoof Behemoth &41
+1 Command Tower &42
+1 Bountiful Promenade &43
+1 Sunpetal Grove &44
+1 Rogue's Passage &45
+1 Brushland &46
+1 Horizon Canopy &47
+1 Rejuvenating Springs &48
+1 Hinterland Harbor &49
+1 Temple Garden &50
+1 Breeding Pool &51
+1 Hallowed Fountain &52
+1 Sea of Clouds &53
+1 Island &54
+1 Elven Chorus &55
+1 Misty Rainforest &56
+1 Rivendell &57
+1 Flooded Grove &58
+1 Spara's Headquarters &59
+1 Ephemerate &60
+1 Peregrine Drake &61
+1 Illustrious Wanderglyph &62
+1 Castle Garenbrig &63
+1 Command Beacon &64
+1 Gala Greeters &65
+1 Reflecting Pool &66
+1 Cyclonic Rift &67
+1 Abzan Falconer &68
+1 Dreamroot Cascade &69
+1 Green Slime &70
+1 Arasta of the Endless Web &71
+1 Aura Shards &72
+1 Solitude &73
+1 Glen Elendra Archmage &74
+1 Druid of Purification &75
+1 Floodfarm Verge &76
+1 Witch Enchanter // Witch-Blessed Meadow &77
+1 Nature's Rhythm &78
+1 Tendershoot Dryad &79
+1 Forest &80
+1 Yavimaya, Cradle of Growth &81
+1 Smothering Tithe &82
+1 Seaside Citadel &83
+1 Fanatic of Rhonas &84
+1 Appa, Steadfast Guardian &85
+1 Voice of Victory &86
+1 Dyadrine, Synthesis Amalgam &87
+1 Herd Heirloom &88
+1 Kami of Whispered Hopes &89
+1 Homunculus Horde &90
+1 Elspeth, Storm Slayer &91
+1 Enduring Vitality &92
+1 Faerie Mastermind &93
+1 Absolute Virtue &94
+1 Tishana's Tidebinder &95
+1 Sol Ring &96
+1 Three Steps Ahead &97
+1 Once Upon a Time &98
+1 Dawn's Truce &99
+1 Planetarium of Wan Shi Tong &100
 

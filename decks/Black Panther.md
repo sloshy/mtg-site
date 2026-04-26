@@ -10,101 +10,101 @@ tags: []
 # Black Panther
 
 ## Commander
-1 Black Panther, Wakandan King
+1 Black Panther, Wakandan King &1
 
 ## Main
-1 Arcane Signet
-1 The Ozolith
-1 Secure the Wastes
-1 Sovereign Okinec Ahau
-1 Heroic Intervention
-1 Boseiju, Who Endures
-1 Scute Swarm
-1 Opal Palace
-1 Swords to Plowshares
-1 Mosswort Bridge
-1 Craterhoof Behemoth
-1 Scythecat Cub
-1 Restless Prairie
-1 Evolving Wilds
-1 Canopy Vista
-1 Aura Shards
-1 Evolution Sage
-1 Ashaya, Soul of the Wild
-1 Hushwood Verge
-1 Blinkmoth Nexus
-1 Mutavault
-1 Stirring Wildwood
-1 Valgavoth's Lair
-1 Aura Mutation
-1 Mossborn Hydra
-1 Austere Command
-1 Requisition Raid
-1 Gyre Sage
-1 Esper Sentinel
-1 Farewell
-1 Generous Pup
-1 Windswept Heath
-1 Springheart Nantuko
-1 Metastatic Evangel
-1 Grand Crescendo
-1 Teferi's Protection
-3 Plains
-5 Forest
-1 Command Tower
-1 Innkeeper's Talent
-1 Generous Gift
-1 Bountiful Promenade
-1 Myriad Landscape
-1 Awaken the Woods
-1 Nature's Lore
-1 Karn's Bastion
-1 Jacked Rabbit
-1 Galadriel's Dismissal
-1 Akroma's Will
-1 Fortified Village
-1 Lush Portico
-1 Inkmoth Nexus
-1 Damning Verdict
-1 Sunpetal Grove
-1 Amulet of Vigor
-1 Basking Broodscale
-1 Adeline, Resplendent Cathar
-1 Botanical Brawler
-1 Hardened Scales
-1 Kutzil, Malamet Exemplar
-1 Tendershoot Dryad
-1 Yavimaya, Cradle of Growth
-1 Open the Way
-1 Gavony Township
-1 Temple of the False God
-1 Overgrown Farmland
-1 Llanowar Elves
-1 Temple Garden
-1 Nesting Grounds
-1 Grateful Apparition
-1 Explore
-1 Birds of Paradise
-1 Witch Enchanter // Witch-Blessed Meadow
-1 Sowing Mycospawn
-1 Kami of Whispered Hopes
-1 Flare of Cultivation
-1 Kodama of the West Tree
-1 Kodama's Reach
-1 Ainok Strike Leader
-1 Horizon of Progress
-1 Warden of the Grove
-1 Elspeth, Storm Slayer
-1 Reconnaissance
-1 Cosmogrand Zenith
-1 Silkguard
-1 Doubling Season
-1 Ouroboroid
-1 Terrasymbiosis
-1 Patrolling Peacemaker
-1 Omenpath Journey
-1 Earthshape
-1 Avatar Kyoshi, Earthbender
-1 Bear Umbra
-1 Ba Sing Se
+1 Arcane Signet &2
+1 The Ozolith &3
+1 Secure the Wastes &4
+1 Sovereign Okinec Ahau &5
+1 Heroic Intervention &6
+1 Boseiju, Who Endures &7
+1 Scute Swarm &8
+1 Opal Palace &9
+1 Swords to Plowshares &10
+1 Mosswort Bridge &11
+1 Craterhoof Behemoth &12
+1 Scythecat Cub &13
+1 Restless Prairie &14
+1 Evolving Wilds &15
+1 Canopy Vista &16
+1 Aura Shards &17
+1 Evolution Sage &18
+1 Ashaya, Soul of the Wild &19
+1 Hushwood Verge &20
+1 Blinkmoth Nexus &21
+1 Mutavault &22
+1 Stirring Wildwood &23
+1 Valgavoth's Lair &24
+1 Aura Mutation &25
+1 Mossborn Hydra &26
+1 Austere Command &27
+1 Requisition Raid &28
+1 Gyre Sage &29
+1 Esper Sentinel &30
+1 Farewell &31
+1 Generous Pup &32
+1 Windswept Heath &33
+1 Springheart Nantuko &34
+1 Metastatic Evangel &35
+1 Grand Crescendo &36
+1 Teferi's Protection &37
+3 Plains &38
+5 Forest &39
+1 Command Tower &40
+1 Innkeeper's Talent &41
+1 Generous Gift &42
+1 Bountiful Promenade &43
+1 Myriad Landscape &44
+1 Awaken the Woods &45
+1 Nature's Lore &46
+1 Karn's Bastion &47
+1 Jacked Rabbit &48
+1 Galadriel's Dismissal &49
+1 Akroma's Will &50
+1 Fortified Village &51
+1 Lush Portico &52
+1 Inkmoth Nexus &53
+1 Damning Verdict &54
+1 Sunpetal Grove &55
+1 Amulet of Vigor &56
+1 Basking Broodscale &57
+1 Adeline, Resplendent Cathar &58
+1 Botanical Brawler &59
+1 Hardened Scales &60
+1 Kutzil, Malamet Exemplar &61
+1 Tendershoot Dryad &62
+1 Yavimaya, Cradle of Growth &63
+1 Open the Way &64
+1 Gavony Township &65
+1 Temple of the False God &66
+1 Overgrown Farmland &67
+1 Llanowar Elves &68
+1 Temple Garden &69
+1 Nesting Grounds &70
+1 Grateful Apparition &71
+1 Explore &72
+1 Birds of Paradise &73
+1 Witch Enchanter // Witch-Blessed Meadow &74
+1 Sowing Mycospawn &75
+1 Kami of Whispered Hopes &76
+1 Flare of Cultivation &77
+1 Kodama of the West Tree &78
+1 Kodama's Reach &79
+1 Ainok Strike Leader &80
+1 Horizon of Progress &81
+1 Warden of the Grove &82
+1 Elspeth, Storm Slayer &83
+1 Reconnaissance &84
+1 Cosmogrand Zenith &85
+1 Silkguard &86
+1 Doubling Season &87
+1 Ouroboroid &88
+1 Terrasymbiosis &89
+1 Patrolling Peacemaker &90
+1 Omenpath Journey &91
+1 Earthshape &92
+1 Avatar Kyoshi, Earthbender &93
+1 Bear Umbra &94
+1 Ba Sing Se &95
 
