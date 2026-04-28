@@ -1,13 +1,12 @@
 ---
-name: "Land Ship Go Brrr"
-source: "https://archidekt.com/decks/15105078"
-sourceId: "15105078"
-sourceUrl: "https://archidekt.com/decks/15105078"
-created: "2026-02-23T13:34:55.780Z"
+name: Land Ship Go Brrr
+source: 'https://archidekt.com/decks/15105078'
+sourceId: '15105078'
+sourceUrl: 'https://archidekt.com/decks/15105078'
+created: '2026-02-23T13:34:55.780Z'
 tags: []
+lastSynced: '2026-04-28T01:18:37.738Z'
 ---
-
-# Land Ship Go Brrr
 
 ## Commander
 1 Hearthhull, the Worldseed &1
@@ -104,15 +103,3 @@ tags: []
 1 Urza's Saga &90
 
 ## Maybeboard
-1 Brass's Tunnel-Grinder // Tecutlan, the Searing Rift &91
-1 Ziatora's Proving Ground &92
-1 Scapeshift &93
-1 Lotus Field &94
-1 Springheart Nantuko &95
-1 Constant Mists &96
-1 Bloodstained Mire &97
-1 Life from the Loam &98
-1 Twisted Landscape &99
-1 Conduit of Worlds &100
-1 Azusa, Lost but Seeking &101
-
