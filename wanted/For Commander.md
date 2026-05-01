@@ -7,3 +7,4 @@
 - Tragedy Feaster &5
 - Total War &6
 - Moseo, Vein's New Dean &7
+- Falco Spara, Pactweaver &8

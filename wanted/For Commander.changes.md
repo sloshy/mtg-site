@@ -12,3 +12,7 @@
 
 - Added Total War &6
 - Added Moseo, Vein's New Dean &7
+
+## 2026-05-01T15:55:09.507Z
+
+- Added Falco Spara, Pactweaver &8
