@@ -16,3 +16,11 @@
 ## 2026-05-01T15:55:09.507Z
 
 - Added Falco Spara, Pactweaver &8
+
+## 2026-05-04T23:31:19.284Z
+
+- Added Quartzwood Crasher &9
+- Added Quilled Greatwurm &10
+- Added Selvala, Heart of the Wilds &11
+- Added Hull Breach &12
+- Added Blackblade Reforged &13

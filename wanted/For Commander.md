@@ -1,5 +1,4 @@
 # For Commander
-
 - Grave Researcher // Reanimate &1
 - Ghoulish Impetus &2
 - Coercive Impetus &3
@@ -8,3 +7,8 @@
 - Total War &6
 - Moseo, Vein's New Dean &7
 - Falco Spara, Pactweaver &8
+- Quartzwood Crasher &9
+- Quilled Greatwurm &10
+- Selvala, Heart of the Wilds &11
+- Hull Breach &12
+- Blackblade Reforged &13
