@@ -1,0 +1,45 @@
+# Changelog for Go For The Eyes
+
+## 2026-05-20T19:25:21.347Z
+
+- Added "Bristly Bill, Spine Sower"
+- Added "Cultivate"
+- Added "Dragonborn Champion"
+- Added "Klauth, Unrivaled Ancient"
+- Added "Terrasymbiosis"
+- Added "Nature's Lore"
+- Added "Season of Gathering"
+- Added "Brash Taunter"
+- Added "Nibelheim Aflame"
+- Added "Hero's Blade"
+- Added "The Earth Crystal"
+- Added "Traverse the Outlands"
+- Added "Fight Rigging"
+- Added "Forgotten Ancient"
+- Added "Power Fist" to Maybeboard
+- Added "Cavern-Hoard Dragon" to Maybeboard
+- Removed "Goreclaw, Terror of Qal Sisma"
+- Removed "Colossification"
+- Removed "Power Fist"
+- Removed "Decanter of Endless Water"
+- Removed "Twinflame Tyrant"
+- Removed "Smuggler's Surprise"
+- Removed "Anzrag, the Quake-Mole"
+- Removed "Railway Brawler"
+- Removed "Jumbo Cactuar"
+- Removed "Court of Garenbrig"
+- Removed "The Legend of Kyoshi // Avatar Kyoshi"
+- Removed "Spry and Mighty"
+- Removed "Ancient Bronze Dragon"
+- Removed "Mirrormind Crown"
+- Removed "Dragonborn Champion" from Maybeboard
+- Removed "Terrasymbiosis" from Maybeboard
+- Removed "Forgotten Ancient" from Maybeboard
+- Removed "Taurean Mauler" from Maybeboard
+- Removed "Ozolith, the Shattered Spire" from Maybeboard
+- Removed "Nature's Lore" from Maybeboard
+- Removed "Cultivate" from Maybeboard
+- Removed "Bristly Bill, Spine Sower" from Maybeboard
+- Removed "The Earth Crystal" from Maybeboard
+- Removed "Defiler of Vigor" from Maybeboard
+- Removed "Rolling Hamsphere" from Maybeboard

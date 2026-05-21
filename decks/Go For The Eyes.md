@@ -1,13 +1,12 @@
 ---
-name: "Go For The Eyes"
-source: "https://archidekt.com/decks/8377316"
-sourceId: "8377316"
-sourceUrl: "https://archidekt.com/decks/8377316"
-created: "2026-02-23T13:34:52.727Z"
+name: Go For The Eyes
+source: 'https://archidekt.com/decks/8377316'
+sourceId: '8377316'
+sourceUrl: 'https://archidekt.com/decks/8377316'
+created: '2026-02-23T13:34:52.727Z'
 tags: []
+lastSynced: '2026-05-20T19:25:21.359Z'
 ---
-
-# Go For The Eyes
 
 ## Commander
 1 Minsc & Boo, Timeless Heroes &1
@@ -24,7 +23,6 @@ tags: []
 1 Open the Way &10
 1 Mossfire Valley &11
 1 The Great Henge &12
-1 Goreclaw, Terror of Qal Sisma &13
 1 Slicer, Hired Muscle // Slicer, High-Speed Antagonist &14
 1 Talisman of Impulse &15
 1 The Ozolith &16
@@ -49,7 +47,6 @@ tags: []
 1 Exotic Orchard &35
 1 Skarrg, the Rage Pits &36
 1 Thornspire Verge &37
-1 Colossification &38
 1 Rancor &39
 1 Reliquary Tower &40
 1 Innkeeper's Talent &41
@@ -72,32 +69,20 @@ tags: []
 1 Beast Within &58
 1 Three Visits &59
 1 Commercial District &60
-1 Power Fist &61
-1 Decanter of Endless Water &62
-1 Twinflame Tyrant &63
 3 Mountain &64
 1 Sundering Eruption // Volcanic Fissure &65
 1 Untimely Malfunction &66
 1 Berserk &67
-1 Smuggler's Surprise &68
 1 Rishkar's Expertise &69
 1 Kalonian Hydra &70
 1 Mossborn Hydra &71
 1 Vorinclex, Monstrous Raider &72
-1 Anzrag, the Quake-Mole &73
 1 Herd Heirloom &74
 1 Ashroot Animist &75
 1 Hunter's Insight &76
-1 Railway Brawler &77
 1 Seize the Spotlight &78
 1 Amarant Coral &79
 1 Buster Sword &80
-1 Jumbo Cactuar &81
-1 Court of Garenbrig &82
-1 The Legend of Kyoshi // Avatar Kyoshi &83
-1 Spry and Mighty &84
-1 Ancient Bronze Dragon &85
-1 Mirrormind Crown &86
 1 Goblin Anarchomancer &87
 1 Alexios, Deimos of Kosmos &88
 1 Gimli's Reckless Might &89
@@ -105,22 +90,26 @@ tags: []
 1 Tender Wildguide &91
 1 Spider Manifestation &92
 1 Thought Vessel &93
+1 Bristly Bill, Spine Sower
+1 Cultivate
+1 Dragonborn Champion
+1 Klauth, Unrivaled Ancient
+1 Terrasymbiosis
+1 Nature's Lore
+1 Season of Gathering
+1 Brash Taunter
+1 Nibelheim Aflame
+1 Hero's Blade
+1 The Earth Crystal
+1 Traverse the Outlands
+1 Fight Rigging
+1 Forgotten Ancient
 
 ## Maybeboard
-1 Dragonborn Champion &94
-1 Terrasymbiosis &95
 1 Weathered Sentinels &96
-1 Forgotten Ancient &97
-1 Taurean Mauler &98
-1 Ozolith, the Shattered Spire &99
 1 Blasphemous Act &100
-1 Nature's Lore &101
-1 Cultivate &102
 1 Chandra's Ignition &103
 1 Ruby, Daring Tracker &104
-1 Bristly Bill, Spine Sower &105
-1 The Earth Crystal &106
-1 Defiler of Vigor &107
 1 Fangs of Kalonia &108
 1 Quilled Greatwurm &109
 1 Zopandrel, Hunger Dominus &110
@@ -131,6 +120,6 @@ tags: []
 1 Selvala, Heart of the Wilds &115
 1 Maskwood Nexus &116
 1 Gyre Sage &117
-1 Rolling Hamsphere &118
 1 Sylvan Library &119
-
+1 Power Fist
+1 Cavern-Hoard Dragon

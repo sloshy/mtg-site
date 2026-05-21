@@ -1,13 +1,12 @@
 ---
-name: "Black Panther"
-source: "https://archidekt.com/decks/10114676"
-sourceId: "10114676"
-sourceUrl: "https://archidekt.com/decks/10114676"
-created: "2026-02-23T13:34:54.553Z"
+name: Black Panther
+source: 'https://archidekt.com/decks/10114676'
+sourceId: '10114676'
+sourceUrl: 'https://archidekt.com/decks/10114676'
+created: '2026-02-23T13:34:54.553Z'
 tags: []
+lastSynced: '2026-05-20T19:25:22.095Z'
 ---
-
-# Black Panther
 
 ## Commander
 1 Black Panther, Wakandan King &1
@@ -16,7 +15,6 @@ tags: []
 1 Arcane Signet &2
 1 The Ozolith &3
 1 Secure the Wastes &4
-1 Sovereign Okinec Ahau &5
 1 Heroic Intervention &6
 1 Boseiju, Who Endures &7
 1 Scute Swarm &8
@@ -65,7 +63,6 @@ tags: []
 1 Fortified Village &51
 1 Lush Portico &52
 1 Inkmoth Nexus &53
-1 Damning Verdict &54
 1 Sunpetal Grove &55
 1 Amulet of Vigor &56
 1 Basking Broodscale &57
@@ -104,7 +101,7 @@ tags: []
 1 Patrolling Peacemaker &90
 1 Omenpath Journey &91
 1 Earthshape &92
-1 Avatar Kyoshi, Earthbender &93
 1 Bear Umbra &94
 1 Ba Sing Se &95
-
+1 Endless Foot Assault
+1 Kinbinding

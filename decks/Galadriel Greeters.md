@@ -1,14 +1,33 @@
 ---
-name: "Galadriel Greeters"
-source: "https://archidekt.com/decks/6569266"
-sourceId: "6569266"
-sourceUrl: "https://archidekt.com/decks/6569266"
-description: "Rewrite TBD\n\nBasic gist is that you have a Gala Greeters in your command zone, only much more powerful. The deck is filled with tools to be regularly extracting value from that until you can swing in for the win. Main win conditions are:\nTendershoot Dryad and Illustrious Wanderglyph or either of the Koma cards making stupid amounts of tokens over the course of several turns that can start chipping away at your opponents' life.\nComboing with either Deadeye Navigator or Emiel the Blessed and Peregrine Drake . After generating infinite mana you can cast Galadriel, draw and play your entire deck, and then win using Craterhoof Behemoth or Moonshaker Cavalry and blinking them a dozen times each.\nFailing either of those, just making a ton of tokens and generating a ton of value with cards like Ant Queen and Basking Broodscale , and then use your creatures with +1/+1 counters to swing in for the win using the static buffs from Duskshell Crawler or Abzan Falconer"
-created: "2026-02-23T13:34:55.229Z"
-tags: []
----
+name: Galadriel Greeters
+source: 'https://archidekt.com/decks/6569266'
+sourceId: '6569266'
+sourceUrl: 'https://archidekt.com/decks/6569266'
+description: >-
+  Rewrite TBD
 
-# Galadriel Greeters
+
+  Basic gist is that you have a Gala Greeters in your command zone, only much
+  more powerful. The deck is filled with tools to be regularly extracting value
+  from that until you can swing in for the win. Main win conditions are:
+
+  Tendershoot Dryad and Illustrious Wanderglyph or either of the Koma cards
+  making stupid amounts of tokens over the course of several turns that can
+  start chipping away at your opponents' life.
+
+  Comboing with either Deadeye Navigator or Emiel the Blessed and Peregrine
+  Drake . After generating infinite mana you can cast Galadriel, draw and play
+  your entire deck, and then win using Craterhoof Behemoth or Moonshaker Cavalry
+  and blinking them a dozen times each.
+
+  Failing either of those, just making a ton of tokens and generating a ton of
+  value with cards like Ant Queen and Basking Broodscale , and then use your
+  creatures with +1/+1 counters to swing in for the win using the static buffs
+  from Duskshell Crawler or Abzan Falconer
+created: '2026-02-23T13:34:55.229Z'
+tags: []
+lastSynced: '2026-05-20T19:25:20.947Z'
+---
 
 ## Commander
 1 Galadriel, Light of Valinor &1
@@ -94,7 +113,6 @@ tags: []
 1 Tendershoot Dryad &79
 1 Forest &80
 1 Yavimaya, Cradle of Growth &81
-1 Smothering Tithe &82
 1 Seaside Citadel &83
 1 Fanatic of Rhonas &84
 1 Appa, Steadfast Guardian &85
@@ -113,4 +131,4 @@ tags: []
 1 Once Upon a Time &98
 1 Dawn's Truce &99
 1 Planetarium of Wan Shi Tong &100
-
+1 The Legend of Kuruk // Avatar Kuruk
