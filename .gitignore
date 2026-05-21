@@ -3,3 +3,5 @@ cache/
 dist/
 .admin-dist/
 .logins/
+# Ritual files
+all-cards.md

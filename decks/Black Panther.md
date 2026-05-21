@@ -103,5 +103,5 @@ lastSynced: '2026-05-20T19:25:22.095Z'
 1 Earthshape &92
 1 Bear Umbra &94
 1 Ba Sing Se &95
-1 Endless Foot Assault
-1 Kinbinding
+1 Endless Foot Assault &5
+1 Kinbinding &54

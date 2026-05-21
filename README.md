@@ -16,8 +16,8 @@ This repository is configured with a GitHub Action that automatically builds and
 deploys your site to GitHub Pages on every push to `main`.
 
 The action downloads Ritual, fetches the latest card data from Scryfall, builds
-your site, and deploys it. The Scryfall cache is persisted between runs so
-subsequent builds are fast.
+your site, and deploys it. Both the Ritual binary and Scryfall cache are
+persisted between runs so subsequent builds are fast.
 
 ### Customizing the Ritual version
 

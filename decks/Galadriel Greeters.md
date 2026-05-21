@@ -131,4 +131,4 @@ lastSynced: '2026-05-20T19:25:20.947Z'
 1 Once Upon a Time &98
 1 Dawn's Truce &99
 1 Planetarium of Wan Shi Tong &100
-1 The Legend of Kuruk // Avatar Kuruk
+1 The Legend of Kuruk // Avatar Kuruk &82

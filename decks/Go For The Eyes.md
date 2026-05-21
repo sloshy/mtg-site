@@ -90,20 +90,20 @@ lastSynced: '2026-05-20T19:25:21.359Z'
 1 Tender Wildguide &91
 1 Spider Manifestation &92
 1 Thought Vessel &93
-1 Bristly Bill, Spine Sower
-1 Cultivate
-1 Dragonborn Champion
-1 Klauth, Unrivaled Ancient
-1 Terrasymbiosis
-1 Nature's Lore
-1 Season of Gathering
-1 Brash Taunter
-1 Nibelheim Aflame
-1 Hero's Blade
-1 The Earth Crystal
-1 Traverse the Outlands
-1 Fight Rigging
-1 Forgotten Ancient
+1 Bristly Bill, Spine Sower &13
+1 Cultivate &38
+1 Dragonborn Champion &61
+1 Klauth, Unrivaled Ancient &62
+1 Terrasymbiosis &63
+1 Nature's Lore &68
+1 Season of Gathering &73
+1 Brash Taunter &77
+1 Nibelheim Aflame &81
+1 Hero's Blade &82
+1 The Earth Crystal &83
+1 Traverse the Outlands &84
+1 Fight Rigging &85
+1 Forgotten Ancient &86
 
 ## Maybeboard
 1 Weathered Sentinels &96
@@ -121,5 +121,5 @@ lastSynced: '2026-05-20T19:25:21.359Z'
 1 Maskwood Nexus &116
 1 Gyre Sage &117
 1 Sylvan Library &119
-1 Power Fist
-1 Cavern-Hoard Dragon
+1 Power Fist &94
+1 Cavern-Hoard Dragon &95
