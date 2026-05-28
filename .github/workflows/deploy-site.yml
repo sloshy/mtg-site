@@ -83,7 +83,7 @@ jobs:
 
       - name: Build site
         if: steps.detect-changes.outputs.has-changes != 'true'
-        run: ./ritual build-site -y
+        run: ./ritual build-site --allow-refresh
 
       - name: Setup Pages
         if: steps.detect-changes.outputs.has-changes != 'true'
