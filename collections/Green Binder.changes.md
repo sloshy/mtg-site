@@ -256,3 +256,9 @@
 - Added Cathartic Reunion (SLD:7045) &243
 - Added Abrade (SLD:2179) &244
 - Added Reckless Endeavor (SLD:2177) &245
+
+## 2026-05-29T15:45:54.094Z
+
+- Moved "Exquisite Blood" (SLD:1798) [foil] &157 to Deck 'Null and Void'
+- Moved "Enduring Tenacity" (DSK:374) &179 to Deck 'Null and Void'
+- Moved "Sheoldred, the Apocalypse" (PDMU:107p) [foil] &194 to Deck 'Null and Void'

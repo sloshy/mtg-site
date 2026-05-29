@@ -156,7 +156,6 @@
 - Sanguine Bond (SLD:1799) [NM] &154
 - Blood Money (SLD:1789) [foil] [NM] &155
 - Blood Money (SLD:1789) [NM] &156
-- Exquisite Blood (SLD:1798) [foil] [NM] &157
 - Exquisite Blood (SLD:1798) [NM] &158
 - Snuff Out (SLD:1792) [NM] &159
 - Defile (SLD:1793) [NM] &160
@@ -178,7 +177,6 @@
 - Valgavoth, Terror Eater (PDSK:120p) [NM] &176
 - Enduring Tenacity (DSK:95) [NM] &177
 - Enduring Tenacity (DSK:95) [NM] &178
-- Enduring Tenacity (DSK:374) [NM] &179
 - Enduring Tenacity (DSK:374) [NM] &180
 - Enduring Tenacity (DSK:374) [NM] &181
 - Unstoppable Slasher (DSK:119) [foil] [NM] &182
@@ -193,7 +191,6 @@
 - Ancient Brass Dragon (CLB:389) [foil] [NM] &191
 - Bloodletter of Aclazotz (LCI:92) [NM] &192
 - Bloodletter of Aclazotz (LCI:92) [NM] &193
-- Sheoldred, the Apocalypse (PDMU:107p) [foil] [NM] &194
 - Sheoldred, the Apocalypse (PDMU:107p) [foil] [NM] &195
 - Cultist of the Absolute (CLB:495) [etched] [NM] &196
 - Cultist of the Absolute (CLB:123) [NM] &197

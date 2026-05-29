@@ -151,7 +151,6 @@
 - Twinflame Tyrant (FDN:97) [NM] &150
 - Elvish Reclaimer (M20:169) [NM] &151
 - Nissa, Ascended Animist (ONE:454) [foil] [NM] &152
-- The Earth Crystal (FIN:184) [NM] &153
 - Tyrranax Rex (ONE:189) [foil] [NM] &154
 - The Earth Crystal (FIN:184) [foil] [NM] &155
 - Wood Elves (P30A:5) [foil] [NM] &156
