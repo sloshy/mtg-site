@@ -36,6 +36,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta10-dev.2d25731"
+    "version": "0.1.0-beta11"
   }
 }
