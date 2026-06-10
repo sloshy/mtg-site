@@ -1,6 +1,6 @@
 ---
 name: ritual-wanted
-description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, or price a wanted list."
+description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, import a wanted list from a CSV or text file, or price a wanted list."
 ---
 
 # Managing wanted lists with Ritual
@@ -31,6 +31,37 @@ ritual wanted --finish foil
 ritual wanted --collector              # enter cards by collector number
 ritual wanted --allow-digital-only-cards
 ```
+
+## Import from a text file
+
+`import` turns a decklist-style text file into a new wanted list (quantities expand
+to one bullet line per copy):
+
+```bash
+ritual import wants.txt --type wanted
+ritual import wants.txt --type wanted --overwrite --non-interactive
+```
+
+Without `--type` an interactive run prompts for the list type; non-interactive runs
+default to a deck, so agents should always pass `--type wanted`.
+
+## Import from a CSV file
+
+`import-csv` imports a CSV file into a new wanted list, or appends to an existing
+one. Non-interactive agents must pass all flags (running it bare opens an interactive
+column-mapping wizard):
+
+```bash
+ritual import-csv wants.csv --type wanted --name "To Buy" \
+  --columns "name=1,set=2,collector-number=3,finish=4,quantity=5"
+ritual import-csv more.csv --type wanted --name "To Buy" --append --columns "name=1"
+```
+
+`--columns` maps fields to 1-based column numbers; only `name` is required and
+wanted lists carry no `condition` column. Add `--no-header` when the first row is
+data, `--overwrite` to replace an existing list, or `--append` to add to one
+(appends continue card IDs and record the changelog). Failed rows are reported with
+line numbers on stderr and the rest still import (exit code 1 on partial failure).
 
 ## Price
 

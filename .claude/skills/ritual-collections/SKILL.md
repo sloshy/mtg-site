@@ -1,6 +1,6 @@
 ---
 name: ritual-collections
-description: "Manage and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, or get the total value of a collection."
+description: "Manage and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, or get the total value of a collection."
 ---
 
 # Managing collections with Ritual
@@ -32,6 +32,42 @@ ritual collection --finish foil --condition NM
 ritual collection --collector              # enter cards by collector number
 ritual collection --allow-digital-only-cards
 ```
+
+## Import from a text file
+
+`import` turns a decklist-style text file into a new collection (quantities expand
+to one bullet line per copy):
+
+```bash
+ritual import binder.txt --type collection
+ritual import binder.txt --type collection --overwrite --non-interactive
+```
+
+Without `--type` an interactive run prompts for the list type; non-interactive runs
+default to a deck, so agents should always pass `--type collection`. Every line
+must carry a printing (e.g. `2 Sol Ring (C19:221)`) — collections track specific
+physical printings, so name-only lines are rejected.
+
+## Import from a CSV file
+
+`import-csv` imports a CSV export (Moxfield, Deckbox, ManaBox, ...) into a new
+collection, or appends to an existing one. Non-interactive agents must pass all flags
+(running it bare opens an interactive column-mapping wizard):
+
+```bash
+ritual import-csv binder.csv --type collection --name "Red Binder" \
+  --columns "name=1,set=2,collector-number=3,finish=4,condition=5,quantity=6"
+ritual import-csv more.csv --type collection --name "Red Binder" --append \
+  --columns "name=1,set=2,collector-number=3"
+```
+
+`--columns` maps fields to 1-based column numbers; collections require `name`,
+`set`, and `collector-number` columns. Add `--no-header` when the first row is data,
+`--overwrite` to replace an existing collection, or `--append` to add to one
+(appends continue card IDs and record the changelog). Conditions/finishes are
+normalized (e.g. `Near Mint` → `NM`, `F` → foil, empty → non-foil). Failed rows are
+reported with line numbers on stderr and the rest still import (exit code 1 on
+partial failure).
 
 ## Price
 
