@@ -1,5 +1,6 @@
 # Blue Binder
 
+## Main
 - Mazirek, Kraul Death Priest (SLD:1766) [foil] [NM] &1
 - Uril, the Miststalker (SLD:1767) [foil] [NM] &2
 - Time Sieve (SLD:1671) [foil] [NM] &3
@@ -9,3 +10,44 @@
 - Xanathar, Guild Kingpin (SLD:1785) [NM] &7
 - Drown in the Loch (SLD:1790) [foil] [NM] &8
 - Xanathar, Guild Kingpin (SLD:1785) [foil] [NM] &9
+- Mortify (SLD:1801) [NM] &10
+- Astarion, the Decadent (SLD:1797) [foil] [NM] &11
+- Astarion, the Decadent (SLD:1797) [NM] &12
+- Fire Covenant (SLD:1796) [NM] &13
+- Fire Covenant (SLD:1796) [foil] [NM] &14
+- Lavinia, Azorius Renegade (SLD:1685) [foil] [NM] &15
+- Omnath, Locus of Creation (SLD:1686) [foil] [NM] &16
+- Convention Maro (PF24:2) [NM] &17
+- Frilled Mystic (SLD:786) [foil] [NM] &18
+- Frilled Mystic (SLD:786) [foil] [NM] &19
+- Frilled Mystic (SLD:786) [foil] [NM] &20
+- Huatli, Radiant Champion (SLD:1699) [NM] &21
+- Kiora, Behemoth Beckoner (SLD:1700) [NM] &22
+- Tezzeret, Master of the Bridge (SLD:1701) [NM] &23
+- Vraska, Golgari Queen (SLD:1702) [NM] &24
+- Huatli, Radiant Champion (SLD:1699) [foil] [NM] &25
+- Kiora, Behemoth Beckoner (SLD:1700) [foil] [NM] &26
+- Tezzeret, Master of the Bridge (SLD:1701) [foil] [NM] &27
+- Vraska, Golgari Queen (SLD:1702) [foil] [NM] &28
+- Maelstrom Wanderer (SLD:1319) [NM] &29
+- Inalla, Archmage Ritualist (SLD:1639★) [foil] [NM] &30
+- Ignoble Hierarch (SLD:906) [foil] [NM] &31
+- Grand Arbiter Augustin IV (SLD:1483★) [foil] [NM] &32
+- Alela, Artful Provocateur (SLD:1630★) [foil] [NM] &33
+- Fiend Artisan (SLD:1645★) [foil] [NM] &34
+- Karador, Ghost Chieftain (SLD:1646★) [foil] [NM] &35
+- Iron Man, Titan of Innovation (SLD:1731) [NM] &36
+- Black Panther, Wakandan King (SLD:1747) [NM] &37
+- Regrowth (SLD:866) [foil] [NM] &38
+- Wolverine, Best There Is (SLD:1737) [NM] &39
+- Captain America, First Avenger (SLD:1726) [NM] &40
+- Iron Man, Titan of Innovation (SLD:1731) [foil] [NM] &41
+- Rhythm of the Wild (SLD:1740) [foil] [NM] &42
+- Wolverine, Best There Is (SLD:1737) [foil] [NM] &43
+- Storm, Force of Nature (SLD:1742) [NM] &44
+- Manamorphose (SLD:1746) [NM] &45
+- Maelstrom Wanderer (SLD:1319) [foil] [NM] &46
+- Archangel Avacyn // Avacyn, the Purifier (INR:449) [NM] &47
+- Alania, Divergent Storm (BLB:204) [NM] &48
+- Alania, Divergent Storm (BLB:204) [NM] &49
+- Kastral, the Windcrested (BLB:221) [foil] [NM] &50
