@@ -1,13 +1,12 @@
 ---
-name: "I've Got A Gluntch"
-source: "https://archidekt.com/decks/7777896"
-sourceId: "7777896"
-sourceUrl: "https://archidekt.com/decks/7777896"
-created: "2026-02-23T13:34:53.632Z"
+name: I've Got A Gluntch
+source: 'https://archidekt.com/decks/7777896'
+sourceId: '7777896'
+sourceUrl: 'https://archidekt.com/decks/7777896'
+created: '2026-02-23T13:34:53.632Z'
 tags: []
+lastSynced: '2026-06-12T05:23:06.590Z'
 ---
-
-# I've Got A Gluntch
 
 ## Commander
 1 Gluntch, the Bestower &1
@@ -73,7 +72,6 @@ tags: []
 1 Temple of Plenty &59
 1 Rogue's Passage &60
 1 Teferi's Protection &61
-1 Genesis Wave &62
 1 Herald of Eternal Dawn &63
 1 Teyo, Geometric Tactician &64
 1 Ascend from Avernus &65
@@ -97,6 +95,7 @@ tags: []
 1 All That Glitters &83
 1 Mondrak, Glory Dominus &84
 1 Parallel Lives &85
+1 Level Up &62
 
 ## Maybeboard
 1 Weathered Sentinels &86
@@ -107,4 +106,3 @@ tags: []
 1 Odric, Lunarch Marshal &91
 1 Bootleggers' Stash &92
 1 Promise of Loyalty &93
-
