@@ -51,3 +51,80 @@
 - Alania, Divergent Storm (BLB:204) [NM] &48
 - Alania, Divergent Storm (BLB:204) [NM] &49
 - Kastral, the Windcrested (BLB:221) [foil] [NM] &50
+- Dreamdew Entrancer (BLB:211) [NM] &51
+- Dreamdew Entrancer (BLB:211) [NM] &52
+- Lunar Convocation (BLB:223) [NM] &53
+- Clement, the Worrywort (BLB:209) [NM] &54
+- Gev, Scaled Scorch (PBLB:214p) [foil] [NM] &55
+- Yedora, Grave Gardener (MUL:30) [foil] [NM] &56
+- Omnath, Locus of All (MOM:313) [NM] &57
+- Elenda and Azor (MOC:90) [NM] &58
+- Jackdaw (ACR:167) [foil] [NM] &59
+- Djeru and Hazoret (MOM:304) [foil] [NM] &60
+- Satoru, the Infiltrator (OTJ:230) [NM] &61
+- Taii Wakeen, Perfect Shot (OTJ:234) [NM] &62
+- Ravenous Squirrel (PW24:15) [foil] [NM] &63
+- Ravenous Squirrel (PW24:15) [foil] [NM] &64
+- Selvala, Eager Trailblazer (OTJ:231) [NM] &65
+- Doppelgang (MKM:198) [NM] &66
+- Likeness Looter (WOE:208) [foil] [NM] &67
+- Drown in the Loch (PW23:4) [foil] [NM] &68
+- Mortify (SCH:21) [NM] &69
+- Rakdos Charm (LCC:284) [NM] &70
+- Niv-Mizzet, the Firemind (MM2:182) [NM] &71
+- Niv-Mizzet, Parun (RVR:438) [NM] &72
+- Neera, Wild Mage (CLB:545) [etched] [NM] &73
+- Raphael, Fiendish Savior (CLB:292) [NM] &74
+- Arwen, Mortal Queen (LTR:193) [NM] &75
+- Valgavoth, Harrower of Souls (DSC:6) [NM] &76
+- Kianne, Corrupted Memory (DSC:2) [NM] &77
+- The Jolly Balloon Man (DSK:219) [NM] &78
+- Marina Vendrell (DSK:221) [NM] &79
+- Marina Vendrell (DSK:221) [NM] &80
+- Zimone, All-Questioning (DSK:366) [NM] &81
+- Rip, Spawn Hunter (DSK:228) [NM] &82
+- Leyline of Mutation (DSK:188) [NM] &83
+- Gev, Scaled Scorch (BLB:214) [foil] [NM] &84
+- Kwain, Itinerant Meddler (BLC:90) [NM] &85
+- Gev, Scaled Scorch (BLB:214) [NM] &86
+- Sterling Grove (MH2:293) [NM] &87
+- Dovin's Veto (FCA:51) [NM] &88
+- Soundwave, Sonic Spy // Soundwave, Superior Captain (BOT:14) [NM] &89
+- Winter, Cursed Rider (DFT:228) [NM] &90
+- Zahur, Glory's Past (DFT:229) [NM] &91
+- Pia Nalaar, Chief Mechanic (DRC:2) [NM] &92
+- Kolodin, Triumph Caster (DFT:364) [NM] &93
+- Far Fortune, End Boss (DFT:203) [NM] &94
+- Far Fortune, End Boss (DFT:203) [NM] &95
+- Debris Beetle (DFT:199) [NM] &96
+- Captain Howler, Sea Scourge (DFT:194) [NM] &97
+- Captain Howler, Sea Scourge (DFT:194) [foil] [NM] &98
+- Captain Howler, Sea Scourge (DFT:361) [NM] &99
+- Caradora, Heart of Alacria (DFT:195) [NM] &100
+- Caradora, Heart of Alacria (DFT:195) [NM] &101
+- Caradora, Heart of Alacria (DFT:195) [NM] &102
+- Caradora, Heart of Alacria (DFT:195) [foil] [NM] &103
+- Aatchik, Emerald Radian (DFT:187) [NM] &104
+- Aatchik, Emerald Radian (DFT:360) [NM] &105
+- The Gitrog, Ravenous Ride (OTJ:206) [NM] &106
+- Sigarda, Host of Herons (INR:434) [NM] &107
+- Redshift, Rocketeer Chief (DFT:218) [NM] &108
+- Redshift, Rocketeer Chief (DFT:218) [NM] &109
+- Redshift, Rocketeer Chief (DFT:366) [NM] &110
+- Sita Varma, Masked Racer (DFT:368) [NM] &111
+- Samut, the Driving Force (DFT:222) [foil] [NM] &112
+- Samut, the Driving Force (DFT:222) [foil] [NM] &113
+- Samut, the Driving Force (DFT:367) [NM] &114
+- Sita Varma, Masked Racer (DFT:223) [foil] [NM] &115
+- Huntmaster of the Fells // Ravager of the Fells (INR:241) [NM] &116
+- Edgar Markov (INR:234) [NM] &117
+- Mendicant Core, Guidelight (DFT:365) [foil] [NM] &118
+- Miirym, Sentinel Wyrm (CLB:431) [NM] &119
+- Miirym, Sentinel Wyrm (CLB:542) [etched] [NM] &120
+- Mendicant Core, Guidelight (DFT:213) [NM] &121
+- Lurrus of the Dream-Den (MUL:51) [foil] [NM] &122
+- Altered Ego (INR:228) [NM] &123
+- Angelfire Ignition (INR:229) [foil] [NM] &124
+- Convert to Slime (DSC:64) [NM] &125
+- Jolrael, Voice of Zhalfir (MAT:230) [foil] [NM] &126
+- Victor, Valgavoth's Seneschal (DSK:238) [NM] &127
