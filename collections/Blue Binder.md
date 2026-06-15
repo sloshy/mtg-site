@@ -128,3 +128,75 @@
 - Convert to Slime (DSC:64) [NM] &125
 - Jolrael, Voice of Zhalfir (MAT:230) [foil] [NM] &126
 - Victor, Valgavoth's Seneschal (DSK:238) [NM] &127
+- Nashi, Searcher in the Dark (DSK:223) [NM] &128
+- Nashi, Searcher in the Dark (DSK:223) [NM] &129
+- Rip, Spawn Hunter (DSK:228) [NM] &130
+- The Swarmweaver (DSK:363) [NM] &131
+- Nashi, Searcher in the Dark (DSK:361) [NM] &132
+- Winter, Misanthropic Guide (DSK:240) [NM] &133
+- Ramos, Dragon Engine (BRR:47) [NM] &134
+- Door to Nothingness (BRR:14) [NM] &135
+- Dovin's Veto (P30A:27) [foil] [NM] &136
+- Stump Stomp // Burnwillow Clearing (MH3:259) [NM] &137
+- Relive the Past (MKM:226) [NM] &138
+- The Pride of Hull Clade (PMKM:172p) [NM] &139
+- Radha, Coalition Warlord (MUL:185) [foil] [NM] &140
+- Judith, Carnage Connoisseur (PMKM:210p) [NM] &141
+- Leyline of Mutation (DSK:382) [foil] [NM] &142
+- Undead Sprinter (DSK:350) [NM] &143
+- Marina Vendrell (DSK:360) [NM] &144
+- Niko, Light of Hope (DSK:224) [NM] &145
+- Marina Vendrell (DSK:221) [NM] &146
+- Winter, Misanthropic Guide (DSK:240) [NM] &147
+- Winter, Misanthropic Guide (DSK:240) [NM] &148
+- Winter, Misanthropic Guide (DSK:240) [NM] &149
+- Rip, Spawn Hunter (DSK:228) [foil] [NM] &150
+- Flubs, the Fool (BLC:356) [foil] [NM] &151
+- Kianne, Corrupted Memory (DSC:2) [foil] [NM] &152
+- Peer Past the Veil (DSK:325) [NM] &153
+- Hazel of the Rootbloom (BLC:2) [NM] &154
+- The Swarmweaver (DSK:236) [NM] &155
+- Aragorn, Hornburg Hero (LTC:492) [foil] [NM] &156
+- Rohirrim Chargers (LTC:496) [foil] [NM] &157
+- Satoru Umezawa (SLD:2283) [foil] [NM] &158
+- Voja, Jaws of the Conclave (SLD:2284) [foil] [NM] &159
+- Wilhelt, the Rotcleaver (SLD:2285) [foil] [NM] &160
+- Captain N'ghathrod (SLD:2183) [NM] &161
+- Nekusar, the Mindrazer (SLD:2184) [NM] &162
+- Roon of the Hidden Realm (SLD:2173) [foil] [NM] &163
+- Genesis Ultimatum (SPG:106) [foil] [NM] &164
+- Umbris, Fear Manifest (SLD:2339) [foil] [NM] &165
+- Kefka, Court Mage // Kefka, Ruler of Ruin (FIN:398) [foil] [NM] &166
+- Soulherder (SLD:2174) [foil] [NM] &167
+- Infinite Guideline Station (PEOE:219p) [foil] [NM] &168
+- Infinite Guideline Station (EOE:219) [NM] &169
+- Mutinous Massacre (EOE:222) [NM] &170
+- Scouring Swarm (EOC:36) [NM] &171
+- Space-Time Anomaly (EOE:315) [foil] [NM] &172
+- Inspirit, Flagship Vessel (EOC:2) [NM] &173
+- Cosmogoyf (EOE:313) [NM] &174
+- Hearthhull, the Worldseed (EOC:1) [NM] &175
+- Syr Vondam, Sunstar Exemplar (EOE:302) [foil] [NM] &176
+- Ragost, Deft Gastronaut (EOE:224) [foil] [NM] &177
+- Superior Spider-Man (SPM:155) [NM] &178
+- Cosmic Spider-Man (SPM:271) [NM] &179
+- Silk, Web Weaver (SPM:145) [NM] &180
+- Superior Spider-Man (SPM:275) [foil] [NM] &181
+- Jackal, Genius Geneticist (SPM:131) [NM] &182
+- Carnage, Crimson Chaos (SPM:125) [NM] &183
+- Cheering Crowd (SPM:270) [NM] &184
+- Spider-Woman, Stunning Savior (SPM:152) [NM] &185
+- Peter Parker // Amazing Spider-Man (SPM:10) [NM] &186
+- Peter Parker // Amazing Spider-Man (SPM:10) [foil] [NM] &187
+- Doctor Octopus, Master Planner (SPM:228) [NM] &188
+- Eddie Brock // Venom, Lethal Protector (SPM:55) [NM] &189
+- Miles Morales // Ultimate Spider-Man (SPM:108) [NM] &190
+- The Spot, Living Portal (SPM:153) [NM] &191
+- Araña, Heart of the Spider (SPM:213) [NM] &192
+- Scarlet Spider, Ben Reilly (SPM:214) [NM] &193
+- Grasping Tentacles (SPE:21) [foil] [NM] &194
+- Venom, Deadly Devourer (SPE:22) [foil] [NM] &195
+- Green Goblin, Nemesis (SPE:23) [foil] [NM] &196
+- Doc Ock, Evil Inventor (SPE:24) [foil] [NM] &197
+- Sensational Spider-Man (SPE:25) [foil] [NM] &198
+- Pumpkin Bombs (SPE:26) [foil] [NM] &199

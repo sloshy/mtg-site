@@ -135,3 +135,78 @@
 - Added "Convert to Slime" (DSC:64) &125
 - Added "Jolrael, Voice of Zhalfir" (MAT:230) [foil] &126
 - Added "Victor, Valgavoth's Seneschal" (DSK:238) &127
+
+## 2026-06-15T13:36:43.396Z
+
+- Added "Nashi, Searcher in the Dark" (DSK:223) &128
+- Added "Nashi, Searcher in the Dark" (DSK:223) &129
+- Added "Rip, Spawn Hunter" (DSK:228) &130
+- Added "The Swarmweaver" (DSK:363) &131
+- Added "Nashi, Searcher in the Dark" (DSK:361) &132
+- Added "Winter, Misanthropic Guide" (DSK:240) &133
+- Added "Ramos, Dragon Engine" (BRR:47) &134
+- Added "Door to Nothingness" (BRR:14) &135
+- Added "Dovin's Veto" (P30A:27) [foil] &136
+- Added "Stump Stomp // Burnwillow Clearing" (MH3:259) &137
+- Added "Relive the Past" (MKM:226) &138
+- Added "The Pride of Hull Clade" (PMKM:172p) &139
+- Added "Radha, Coalition Warlord" (MUL:185) [foil] &140
+- Added "Judith, Carnage Connoisseur" (PMKM:210p) &141
+- Added "Leyline of Mutation" (DSK:382) [foil] &142
+- Added "Undead Sprinter" (DSK:350) &143
+- Added "Marina Vendrell" (DSK:360) &144
+- Added "Niko, Light of Hope" (DSK:224) &145
+- Added "Marina Vendrell" (DSK:221) &146
+- Added "Winter, Misanthropic Guide" (DSK:240) &147
+- Added "Winter, Misanthropic Guide" (DSK:240) &148
+- Added "Winter, Misanthropic Guide" (DSK:240) &149
+- Added "Rip, Spawn Hunter" (DSK:228) [foil] &150
+- Added "Flubs, the Fool" (BLC:356) [foil] &151
+- Added "Kianne, Corrupted Memory" (DSC:2) [foil] &152
+- Added "Peer Past the Veil" (DSK:325) &153
+- Added "Hazel of the Rootbloom" (BLC:2) &154
+- Added "The Swarmweaver" (DSK:236) &155
+- Added "Aragorn, Hornburg Hero" (LTC:492) [foil] &156
+- Added "Rohirrim Chargers" (LTC:496) [foil] &157
+- Added "Satoru Umezawa" (SLD:2283) [foil] &158
+- Added "Voja, Jaws of the Conclave" (SLD:2284) [foil] &159
+- Added "Wilhelt, the Rotcleaver" (SLD:2285) [foil] &160
+- Added "Captain N'ghathrod" (SLD:2183) &161
+- Added "Nekusar, the Mindrazer" (SLD:2184) &162
+- Added "Roon of the Hidden Realm" (SLD:2173) [foil] &163
+- Added "Genesis Ultimatum" (SPG:106) [foil] &164
+- Added "Umbris, Fear Manifest" (SLD:2339) [foil] &165
+- Added "Kefka, Court Mage // Kefka, Ruler of Ruin" (FIN:398) [foil] &166
+- Added "Soulherder" (SLD:2174) [foil] &167
+- Added "Infinite Guideline Station" (PEOE:219p) [foil] &168
+- Added "Infinite Guideline Station" (EOE:219) &169
+- Added "Mutinous Massacre" (EOE:222) &170
+- Added "Scouring Swarm" (EOC:36) &171
+- Added "Space-Time Anomaly" (EOE:315) [foil] &172
+- Added "Inspirit, Flagship Vessel" (EOC:2) &173
+- Added "Cosmogoyf" (EOE:313) &174
+- Added "Hearthhull, the Worldseed" (EOC:1) &175
+- Added "Syr Vondam, Sunstar Exemplar" (EOE:302) [foil] &176
+- Added "Ragost, Deft Gastronaut" (EOE:224) [foil] &177
+- Added "Superior Spider-Man" (SPM:155) &178
+- Added "Cosmic Spider-Man" (SPM:271) &179
+- Added "Silk, Web Weaver" (SPM:145) &180
+- Added "Superior Spider-Man" (SPM:275) [foil] &181
+- Added "Jackal, Genius Geneticist" (SPM:131) &182
+- Added "Carnage, Crimson Chaos" (SPM:125) &183
+- Added "Cheering Crowd" (SPM:270) &184
+- Added "Spider-Woman, Stunning Savior" (SPM:152) &185
+- Added "Peter Parker // Amazing Spider-Man" (SPM:10) &186
+- Added "Peter Parker // Amazing Spider-Man" (SPM:10) [foil] &187
+- Added "Doctor Octopus, Master Planner" (SPM:228) &188
+- Added "Eddie Brock // Venom, Lethal Protector" (SPM:55) &189
+- Added "Miles Morales // Ultimate Spider-Man" (SPM:108) &190
+- Added "The Spot, Living Portal" (SPM:153) &191
+- Added "Araña, Heart of the Spider" (SPM:213) &192
+- Added "Scarlet Spider, Ben Reilly" (SPM:214) &193
+- Added "Grasping Tentacles" (SPE:21) [foil] &194
+- Added "Venom, Deadly Devourer" (SPE:22) [foil] &195
+- Added "Green Goblin, Nemesis" (SPE:23) [foil] &196
+- Added "Doc Ock, Evil Inventor" (SPE:24) [foil] &197
+- Added "Sensational Spider-Man" (SPE:25) [foil] &198
+- Added "Pumpkin Bombs" (SPE:26) [foil] &199
