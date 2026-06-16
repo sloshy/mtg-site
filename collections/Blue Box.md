@@ -1,0 +1,239 @@
+# Blue Box
+
+## Main
+- Tinybones, Trinket Thief (SLD:2458) [foil] [NM] &1
+- Isshin, Two Heavens as One (SLD:2459) [foil] [NM] &2
+- The Deck of Many Things (SLD:2460) [foil] [NM] &3
+- Caged Sun (SLD:2461) [foil] [NM] &4
+- Nuka-Cola Vending Machine (SLD:2462) [foil] [NM] &5
+- Big Score (SLD:7096) [foil] [NM] &6
+- Mistrise Village (PTDM:261p) [NM] &7
+- Kellan, Inquisitive Prodigy // Tail the Suspect (PMKM:212p) [NM] &8
+- Thrumming Hivepool (PEOE:247p) [NM] &9
+- Demonic Junker (PDFT:83p) [NM] &10
+- Decanter of Endless Water (CLB:444) [NM] &11
+- Power Fist (PIP:81) [NM] &12
+- Court of Garenbrig (WOC:25) [NM] &13
+- Big Mother Mouser (TMC:37) [NM] &14
+- High Score (TMC:29) [NM] &15
+- Super Combo (TMC:34) [NM] &16
+- Shredder, Shadow Master (TMC:20) [NM] &17
+- Jaheira's Respite (CLB:238) [foil] [NM] &18
+- Mightform Harmonizer (EOE:200) [NM] &19
+- Professional Face-Breaker (FIC:296) [NM] &20
+- Scythecat Cub (J25:24) [NM] &21
+- Tireless Provisioner (SLD:2057) [NM] &22
+- Colossification (IKO:148) [NM] &23
+- The Legend of Kyoshi // Avatar Kyoshi (TLA:186) [NM] &24
+- Railway Brawler (OTJ:175) [foil] [NM] &25
+- Smuggler's Surprise (OTJ:180) [NM] &26
+- Spry and Mighty (ECL:329) [NM] &27
+- Twinflame Tyrant (FDN:97) [NM] &28
+- Anzrag, the Quake-Mole (MKM:186) [NM] &29
+- Jumbo Cactuar (FIN:343) [NM] &30
+- Annie Joins Up (OTJ:191) [foil] [NM] &31
+- Courier of Comestibles (PW26:6) [NM] &32
+- Thaumatic Compass // Spires of Orazca (XLN:249) [NM] &33
+- Farhaven Elf (PW26:2) [foil] [NM] &34
+- Courier of Comestibles (PW26:6) [NM] &35
+- Synthesizer Labship (PEOE:81p) [NM] &36
+- Preacher of the Schism (SCH:34) [NM] &37
+- Leyline of Hope (PDSK:18p) [foil] [NM] &38
+- Nita, Forum Conciliator (PSOS:206p) [NM] &39
+- Kaito, Bane of Nightmares (PDSK:220p) [foil] [NM] &40
+- Umbral Collar Zealot (EOE:395) [foil] [NM] &41
+- Breeding Pool (PEOE:251p) [foil] [NM] &42
+- Cauldron Familiar (SLD:1759) [foil] [NM] &43
+- Hell's Caretaker (PLST:A25-92) [NM] &44
+- Cathars' Crusade (MB2:6) [NM] &45
+- Lotus Petal (MB2:226) [NM] &46
+- Sovereign Okinec Ahau (LCI:309) [NM] &47
+- Avatar Kyoshi, Earthbender (TLE:201) [foil] [NM] &48
+- Solemn Simulacrum (FDN:729) [foil] [NM] &49
+- Smothering Tithe (RNA:22) [NM] &50
+- Tannuk, Steadfast Second (PEOE:162p) [NM] &51
+- Lumen-Class Frigate (PEOE:25p) [NM] &52
+- Mavinda, Students' Advocate (STX:21) [NM] &53
+- Alpharael, Stonechosen (EOE:87) [foil] [NM] &54
+- Aziza, Mage Tower Captain (PSOS:174p) [foil] [NM] &55
+- Ripples of Potential (SLD:2453) [foil] [NM] &56
+- Mutational Advantage (SLD:2454) [foil] [NM] &57
+- The Wise Mothman (SLD:2455) [foil] [NM] &58
+- Mindcrank (SLD:2456) [foil] [NM] &59
+- Mesmeric Orb (SLD:2457) [foil] [NM] &60
+- Ruin Crab (SLD:7095) [foil] [NM] &61
+- Lucy MacLean, Positively Armed (SLD:2447) [NM] &62
+- The Ghoul, Gunslinger (SLD:2448) [NM] &63
+- Maximus, Knight Apparent (SLD:2449) [NM] &64
+- Pre-War Formalwear (SLD:2450) [NM] &65
+- Spirit Mantle (SLD:2451) [NM] &66
+- T-45 Power Armor (SLD:2452) [NM] &67
+- Academy Manufactor (SLD:7094) [NM] &68
+- Lucy MacLean, Positively Armed (SLD:2447) [NM] &69
+- The Ghoul, Gunslinger (SLD:2448) [NM] &70
+- Maximus, Knight Apparent (SLD:2449) [NM] &71
+- Pre-War Formalwear (SLD:2450) [NM] &72
+- Spirit Mantle (SLD:2451) [NM] &73
+- T-45 Power Armor (SLD:2452) [NM] &74
+- Academy Manufactor (SLD:7094) [NM] &75
+- Silver Shroud Costume (SLD:915) [foil] [NM] &76
+- Yavimaya, Cradle of Growth (MH2:261) [NM] &77
+- Command Beacon (CMR:349) [NM] &78
+- Counterspell (SLD:2497) [foil] [NM] &79
+- Miirym, Sentinel Wyrm (SLD:2500) [foil] [NM] &80
+- Scaled Nurturer (SLD:7101) [foil] [NM] &81
+- Hugs, Grisly Guardian (BLB:218) [NM] &82
+- Heroic Intervention (SLD:1872) [NM] {JP version} &83
+- Raffine's Tower (SNC:254) [NM] &84
+- Lumra, Bellow of the Woods (BLB:342) [foil] [NM] &85
+- Bonny Pall, Clearcutter (OTJ:349) [NM] &86
+- Dragonback Assault (TDM:355) [NM] &87
+- The Wandering Minstrel (FIN:403) [NM] &88
+- Tifa Lockhart (FIN:473) [NM] &89
+- Zuran Orb (MH2:300) [NM] &90
+- Zell Dincht (FIN:170) [foil] [NM] &91
+- Sylvan Safekeeper (C14:217) [NM] &92
+- Zanarkand, Ancient Metropolis // Lasting Fayth (FIN:293) [NM] &93
+- Jidoor, Aristocratic Capital // Overture (FIN:311) [foil] [NM] &94
+- Teferi's Protection (STA:11) [NM] &95
+- Ancient Greenwarden (SLD:2059) [NM] &96
+- The Wandering Minstrel (FIN:548) [foil] [NM] {JP version} &97
+- Azusa, Lost but Seeking (FCA:15) [foil] [NM] {JP version} &98
+- Worldsoul's Rage (MKM:316) [NM] &99
+- Brainstorm (FCA:28) [NM] &100
+- Frantic Search (DMR:51) [NM] &101
+- Stroke of Midnight (FCA:26) [foil] [NM] &102
+- On the Trail (MKC:349) [NM] &103
+- Horn of Greed (SLD:2018) [foil] [NM] &104
+- Traveling Chocobo (FIN:210) [foil] [NM] &105
+- Azusa, Lost but Seeking (FCA:15) [NM] &106
+- Awaken the Woods (BRO:170) [NM] &107
+- Farseek (FCA:45) [foil] [NM] &108
+- Doppelgang (MKM:414) [NM] &109
+- Galadriel's Dismissal (LTC:500) [foil] [NM] &110
+- Balamb Garden, SeeD Academy // Balamb Garden, Airborne (FIN:354) [foil] [NM] &111
+- Clive's Hideaway (FIN:275) [NM] &112
+- Ishgard, the Holy See // Faith & Grief (FIN:310) [foil] [NM] &113
+- Lindblum, Industrial Regency // Mage Siege (FIN:285) [foil] [NM] &114
+- Midgar, City of Mako // Reactor Raid (FIN:286) [NM] &115
+- Starting Town (FIN:289) [NM] &116
+- Doran, Besieged by Time (ECL:215) [foil] [HP] &117
+- Spry and Mighty (ECL:195) [NM] &118
+- Adept Watershaper (ECL:3) [NM] &119
+- Mutable Explorer (ECL:186) [NM] &120
+- Oko, Lorwyn Liege // Oko, Shadowmoor Scion (ECL:61) [NM] &121
+- Dream Harvest (ECL:216) [foil] [NM] &122
+- Figure of Fable (ECL:224) [NM] &123
+- Alexios, Deimos of Kosmos (ACR:33) [foil] [NM] &124
+- The Soul Stone (SPM:66) [foil] [NM] &125
+- Triple Triad (FIN:166) [foil] [NM] &126
+- Anzrag's Rampage (MKM:303) [NM] &127
+- Bloodline Bidding (ECL:395) [foil] [NM] &128
+- Hexing Squelcher (ECL:317) [NM] &129
+- Door of Destinies (SPG:146) [foil] [NM] &130
+- Helix Pinnacle (SPG:139) [NM] &131
+- Figure of Fable (ECL:224) [NM] &132
+- Oko, Lorwyn Liege // Oko, Shadowmoor Scion (ECL:61) [NM] &133
+- Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (ECL:13) [foil] [NM] &134
+- Formidable Speaker (ECL:366) [foil] [NM] &135
+- Raiding Schemes (ECL:377) [foil] [NM] &136
+- Shadow Urchin (ECL:242) [foil] [NM] &137
+- Gloom Ripper (ECL:312) [foil] [NM] &138
+- Champions of the Perfect (ECL:365) [NM] &139
+- Springleaf Parade (ECC:39) [NM] &140
+- Mutable Explorer (ECL:327) [NM] &141
+- Sanar, Innovative First-Year (ECL:378) [NM] &142
+- Glen Elendra's Answer (ECL:52) [foil] [NM] &143
+- Champions of the Shoal (ECL:356) [foil] [NM] &144
+- Collective Inferno (ECL:132) [foil] [NM] &145
+- Aurora Awakener (ECL:323) [NM] &146
+- Impulsivity (ECC:33) [NM] &147
+- Grub's Command (ECL:228) [foil] [NM] &148
+- Goliath Daydreamer (ECL:316) [NM] &149
+- Ashling, the Limitless (ECC:1) [NM] &150
+- Puca's Covenant (ECC:38) [NM] &151
+- Deceit (ECL:293) [NM] &152
+- Steam Vents // Steam Vents (ECL:348) [foil] [NM] &153
+- Rain-Slicked Copse (ECC:43) [NM] &154
+- Collective Inferno (ECL:363) [NM] &155
+- Hallowed Fountain // Hallowed Fountain (ECL:347) [NM] &156
+- Vibrance (ECL:295) [foil] [NM] &157
+- End-Blaze Epiphany (ECL:364) [NM] &158
+- Dream Harvest (ECL:371) [NM] &159
+- Jubilation (ECC:37) [NM] &160
+- Blood Crypt (ECL:262) [foil] [NM] &161
+- Flitterwing Nuisance (ECL:304) [NM] &162
+- Elemental Spectacle (ECC:35) [NM] &163
+- Sodden Verdure (ECC:44) [NM] &164
+- Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield (ECL:288) [NM] &165
+- Trystan, Callous Cultivator // Trystan, Penitent Culler (ECL:291) [NM] &166
+- Maralen, Fae Ascendant (ECL:233) [foil] [NM] &167
+- Champion of the Clachan (ECL:353) [NM] &168
+- Maralen, Fae Ascendant (ECL:376) [foil] [NM] &169
+- Gloom Ripper (ECL:312) [NM] &170
+- Ferrafor, Young Yew (ECC:36) [NM] &171
+- Overgrown Tomb (ECL:266) [foil] [NM] &172
+- Katara's Reversal (TLE:63) [foil] [NM] &173
+- Momo's Heist (TLE:72) [foil] [NM] &174
+- Uncle's Musings (TLE:73) [foil] [NM] &175
+- Sozin's Comet (TLA:154) [NM] &176
+- The Fire Nation Drill (TLA:98) [NM] &177
+- Bison Whistle (TLE:202) [NM] &178
+- Bison Whistle (TLE:202) [foil] [NM] &179
+- Bison Whistle (TLE:131) [foil] [NM] &180
+- Sundial of the Infinite (TLE:55) [NM] &181
+- White Lotus Tile (TLA:330) [foil] [NM] &182
+- Fire Nation Turret (TLE:64) [foil] [NM] &183
+- Avatar Destiny (TLA:165) [foil] [NM] &184
+- Sundial of the Infinite (TLE:55) [foil] [NM] &185
+- Sokka's Charge (TLE:66) [foil] [NM] &186
+- Obsessive Pursuit (TLA:112) [NM] &187
+- Earthbender Ascension (TLA:175) [NM] &188
+- Earthbender Ascension (TLA:307) [NM] &189
+- Chakra Meditation (TLE:91) [foil] [NM] &190
+- Earthbender Ascension (TLA:307) [NM] &191
+- Waterbender Ascension (TLA:310) [foil] [NM] &192
+- Beastmaster Ascension (TLE:39) [NM] &193
+- Obsessive Pursuit (TLA:112) [foil] [NM] &194
+- Beastmaster Ascension (TLE:39) [foil] [NM] &195
+- Bloodchief Ascension (TLE:23) [NM] &196
+- Master's Guidance (TLE:206) [NM] &197
+- Slippery Bogle (SPG:144) [foil] [NM] &198
+- Chronicle of Victory (ECL:253) [NM] &199
+- Ajani, Outland Chaperone (ECL:284) [NM] &200
+- Fervor (TLE:29) [NM] &201
+- Waterbender Ascension (TLA:310) [NM] &202
+- The Rise of Sozin // Fire Lord Sozin (TLA:117) [foil] [NM] &203
+- Airbender Ascension (TLA:364) [foil] [NM] &204
+- Unholy Annex // Ritual Chamber (DSK:118) [NM] &205
+- Moonshadow (ECL:386) [foil] [NM] &206
+- Vaultborn Tyrant (BIG:20) [foil] [NM] &207
+- Weapons Manufacturing (EOE:168) [NM] &208
+- Sun Titan (WOC:77) [NM] &209
+- Earthbender Ascension (TLA:175) [NM] &210
+- Figure of Fable (PECL:224p) [NM] &211
+- Singularity Rupture (PEOE:228p) [NM] &212
+- Iroh, Dragon of the West (TLE:119) [foil] [NM] &213
+- Ty Lee, Chi Blocker (TLA:76) [foil] [NM] &214
+- Zuko, Conflicted (TLA:302) [foil] [NM] &215
+- Ran and Shaw (TLA:325) [NM] &216
+- The Terror of Serpent's Pass (TLE:225) [foil] [NM] &217
+- Iroh, Tea Master (TLA:228) [foil] [NM] &218
+- Agent of Treachery (TLE:9) [NM] &219
+- Fang, Roku's Companion (TLE:115) [foil] [NM] &220
+- Raven Eagle (TLA:116) [foil] [NM] &221
+- The Cabbage Merchant (TLE:134) [foil] [NM] &222
+- Sokka, Tenacious Tactician (TLA:242) [foil] [NM] &223
+- Dockside Extortionist (TLE:28) [NM] &224
+- Aang, at the Crossroads // Aang, Destined Savior (TLA:304) [foil] [NM] &225
+- Aang, Swift Savior // Aang and La, Ocean's Fury (TLA:347) [NM] &226
+- Katara, Waterbending Master (TLE:180) [foil] [NM] &227
+- Sokka, Bold Boomeranger (TLA:383) [NM] &228
+- Chong and Lily, Nomads (TLE:113) [foil] [NM] &229
+- Katara, Water Tribe's Hope (TLA:231) [foil] [NM] &230
+- Nyla, Shirshu Sleuth (TLE:190) [NM] &231
+- Chong and Lily, Nomads (TLE:192) [foil] [NM] &232
+- Bumi, Unleashed (TLA:211) [foil] [NM] &233
+- Great Divide Guide (TLA:181) [foil] [NM] &234
+- Fire Lord Zuko (TLA:315) [NM] &235
+- The Blue Spirit (TLE:90) [foil] [NM] &236

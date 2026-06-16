@@ -1,0 +1,243 @@
+# Changelog for Blue Box
+
+## 2026-06-16T22:14:36.509Z
+
+- Added "Tinybones, Trinket Thief" (SLD:2458) [foil] &1
+- Added "Isshin, Two Heavens as One" (SLD:2459) [foil] &2
+- Added "The Deck of Many Things" (SLD:2460) [foil] &3
+- Added "Caged Sun" (SLD:2461) [foil] &4
+- Added "Nuka-Cola Vending Machine" (SLD:2462) [foil] &5
+- Added "Big Score" (SLD:7096) [foil] &6
+- Added "Mistrise Village" (PTDM:261p) &7
+- Added "Kellan, Inquisitive Prodigy // Tail the Suspect" (PMKM:212p) &8
+- Added "Thrumming Hivepool" (PEOE:247p) &9
+- Added "Demonic Junker" (PDFT:83p) &10
+- Added "Decanter of Endless Water" (CLB:444) &11
+- Added "Power Fist" (PIP:81) &12
+- Added "Court of Garenbrig" (WOC:25) &13
+- Added "Big Mother Mouser" (TMC:37) &14
+- Added "High Score" (TMC:29) &15
+- Added "Super Combo" (TMC:34) &16
+- Added "Shredder, Shadow Master" (TMC:20) &17
+- Added "Jaheira's Respite" (CLB:238) [foil] &18
+- Added "Mightform Harmonizer" (EOE:200) &19
+- Added "Professional Face-Breaker" (FIC:296) &20
+- Added "Scythecat Cub" (J25:24) &21
+- Added "Tireless Provisioner" (SLD:2057) &22
+- Added "Colossification" (IKO:148) &23
+- Added "The Legend of Kyoshi // Avatar Kyoshi" (TLA:186) &24
+- Added "Railway Brawler" (OTJ:175) [foil] &25
+- Added "Smuggler's Surprise" (OTJ:180) &26
+- Added "Spry and Mighty" (ECL:329) &27
+- Added "Twinflame Tyrant" (FDN:97) &28
+- Added "Anzrag, the Quake-Mole" (MKM:186) &29
+- Added "Jumbo Cactuar" (FIN:343) &30
+- Added "Annie Joins Up" (OTJ:191) [foil] &31
+- Added "Courier of Comestibles" (PW26:6) &32
+- Added "Thaumatic Compass // Spires of Orazca" (XLN:249) &33
+- Added "Farhaven Elf" (PW26:2) [foil] &34
+- Added "Courier of Comestibles" (PW26:6) &35
+- Added "Synthesizer Labship" (PEOE:81p) &36
+- Added "Preacher of the Schism" (SCH:34) &37
+- Added "Leyline of Hope" (PDSK:18p) [foil] &38
+- Added "Nita, Forum Conciliator" (PSOS:206p) &39
+- Added "Kaito, Bane of Nightmares" (PDSK:220p) [foil] &40
+- Added "Umbral Collar Zealot" (EOE:395) [foil] &41
+- Added "Breeding Pool" (PEOE:251p) [foil] &42
+- Added "Cauldron Familiar" (SLD:1759) [foil] &43
+- Added "Hell's Caretaker" (PLST:A25-92) &44
+- Added "Cathars' Crusade" (MB2:6) &45
+- Added "Lotus Petal" (MB2:226) &46
+- Added "Sovereign Okinec Ahau" (LCI:309) &47
+- Added "Avatar Kyoshi, Earthbender" (TLE:201) [foil] &48
+- Added "Solemn Simulacrum" (FDN:729) [foil] &49
+- Added "Smothering Tithe" (RNA:22) &50
+- Added "Tannuk, Steadfast Second" (PEOE:162p) &51
+- Added "Lumen-Class Frigate" (PEOE:25p) &52
+- Added "Mavinda, Students' Advocate" (STX:21) &53
+- Added "Alpharael, Stonechosen" (EOE:87) [foil] &54
+- Added "Aziza, Mage Tower Captain" (PSOS:174p) [foil] &55
+- Added "Ripples of Potential" (SLD:2453) [foil] &56
+- Added "Mutational Advantage" (SLD:2454) [foil] &57
+- Added "The Wise Mothman" (SLD:2455) [foil] &58
+- Added "Mindcrank" (SLD:2456) [foil] &59
+- Added "Mesmeric Orb" (SLD:2457) [foil] &60
+- Added "Ruin Crab" (SLD:7095) [foil] &61
+- Added "Lucy MacLean, Positively Armed" (SLD:2447) &62
+- Added "The Ghoul, Gunslinger" (SLD:2448) &63
+- Added "Maximus, Knight Apparent" (SLD:2449) &64
+- Added "Pre-War Formalwear" (SLD:2450) &65
+- Added "Spirit Mantle" (SLD:2451) &66
+- Added "T-45 Power Armor" (SLD:2452) &67
+- Added "Academy Manufactor" (SLD:7094) &68
+- Added "Lucy MacLean, Positively Armed" (SLD:2447) &69
+- Added "The Ghoul, Gunslinger" (SLD:2448) &70
+- Added "Maximus, Knight Apparent" (SLD:2449) &71
+- Added "Pre-War Formalwear" (SLD:2450) &72
+- Added "Spirit Mantle" (SLD:2451) &73
+- Added "T-45 Power Armor" (SLD:2452) &74
+- Added "Academy Manufactor" (SLD:7094) &75
+- Added "Silver Shroud Costume" (SLD:915) [foil] &76
+- Added "Yavimaya, Cradle of Growth" (MH2:261) &77
+- Added "Command Beacon" (CMR:349) &78
+- Added "Counterspell" (SLD:2497) [foil] &79
+- Added "Miirym, Sentinel Wyrm" (SLD:2500) [foil] &80
+- Added "Scaled Nurturer" (SLD:7101) [foil] &81
+- Added "Hugs, Grisly Guardian" (BLB:218) &82
+- Added "Heroic Intervention" (SLD:1872) &83
+- Set note on "Heroic Intervention" &83 to "JP version"
+- Added "Raffine's Tower" (SNC:254) &84
+- Added "Lumra, Bellow of the Woods" (BLB:342) [foil] &85
+- Added "Bonny Pall, Clearcutter" (OTJ:349) &86
+- Added "Dragonback Assault" (TDM:355) &87
+- Added "The Wandering Minstrel" (FIN:403) &88
+- Added "Tifa Lockhart" (FIN:473) &89
+- Added "Zuran Orb" (MH2:300) &90
+- Added "Zell Dincht" (FIN:170) [foil] &91
+- Added "Sylvan Safekeeper" (C14:217) &92
+- Added "Zanarkand, Ancient Metropolis // Lasting Fayth" (FIN:293) &93
+- Added "Jidoor, Aristocratic Capital // Overture" (FIN:311) [foil] &94
+- Added "Teferi's Protection" (STA:11) &95
+- Added "Ancient Greenwarden" (SLD:2059) &96
+- Added "The Wandering Minstrel" (FIN:548) [foil] &97
+- Set note on "The Wandering Minstrel" &97 to "JP version"
+- Added "Azusa, Lost but Seeking" (FCA:15) [foil] &98
+- Set note on "Azusa, Lost but Seeking" &98 to "JP version"
+- Added "Worldsoul's Rage" (MKM:316) &99
+- Added "Brainstorm" (FCA:28) &100
+- Added "Frantic Search" (DMR:51) &101
+- Added "Stroke of Midnight" (FCA:26) [foil] &102
+- Added "On the Trail" (MKC:349) &103
+- Added "Horn of Greed" (SLD:2018) [foil] &104
+- Added "Traveling Chocobo" (FIN:210) [foil] &105
+- Added "Azusa, Lost but Seeking" (FCA:15) &106
+- Added "Awaken the Woods" (BRO:170) &107
+- Added "Farseek" (FCA:45) [foil] &108
+- Added "Doppelgang" (MKM:414) &109
+- Added "Galadriel's Dismissal" (LTC:500) [foil] &110
+- Added "Balamb Garden, SeeD Academy // Balamb Garden, Airborne" (FIN:354) [foil] &111
+- Added "Clive's Hideaway" (FIN:275) &112
+- Added "Ishgard, the Holy See // Faith & Grief" (FIN:310) [foil] &113
+- Added "Lindblum, Industrial Regency // Mage Siege" (FIN:285) [foil] &114
+- Added "Midgar, City of Mako // Reactor Raid" (FIN:286) &115
+- Added "Starting Town" (FIN:289) &116
+- Added "Doran, Besieged by Time" (ECL:215) [foil] [HP] &117
+- Added "Spry and Mighty" (ECL:195) &118
+- Added "Adept Watershaper" (ECL:3) &119
+- Added "Mutable Explorer" (ECL:186) &120
+- Added "Oko, Lorwyn Liege // Oko, Shadowmoor Scion" (ECL:61) &121
+- Added "Dream Harvest" (ECL:216) [foil] &122
+- Added "Figure of Fable" (ECL:224) &123
+- Added "Alexios, Deimos of Kosmos" (ACR:33) [foil] &124
+- Added "The Soul Stone" (SPM:66) [foil] &125
+- Added "Triple Triad" (FIN:166) [foil] &126
+- Added "Anzrag's Rampage" (MKM:303) &127
+- Added "Bloodline Bidding" (ECL:395) [foil] &128
+- Added "Hexing Squelcher" (ECL:317) &129
+- Added "Door of Destinies" (SPG:146) [foil] &130
+- Added "Helix Pinnacle" (SPG:139) &131
+- Added "Figure of Fable" (ECL:224) &132
+- Added "Oko, Lorwyn Liege // Oko, Shadowmoor Scion" (ECL:61) &133
+- Added "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight" (ECL:13) [foil] &134
+- Added "Formidable Speaker" (ECL:366) [foil] &135
+- Added "Raiding Schemes" (ECL:377) [foil] &136
+- Added "Shadow Urchin" (ECL:242) [foil] &137
+- Added "Gloom Ripper" (ECL:312) [foil] &138
+- Added "Champions of the Perfect" (ECL:365) &139
+- Added "Springleaf Parade" (ECC:39) &140
+- Added "Mutable Explorer" (ECL:327) &141
+- Added "Sanar, Innovative First-Year" (ECL:378) &142
+- Added "Glen Elendra's Answer" (ECL:52) [foil] &143
+- Added "Champions of the Shoal" (ECL:356) [foil] &144
+- Added "Collective Inferno" (ECL:132) [foil] &145
+- Added "Aurora Awakener" (ECL:323) &146
+- Added "Impulsivity" (ECC:33) &147
+- Added "Grub's Command" (ECL:228) [foil] &148
+- Added "Goliath Daydreamer" (ECL:316) &149
+- Added "Ashling, the Limitless" (ECC:1) &150
+- Added "Puca's Covenant" (ECC:38) &151
+- Added "Deceit" (ECL:293) &152
+- Added "Steam Vents // Steam Vents" (ECL:348) [foil] &153
+- Added "Rain-Slicked Copse" (ECC:43) &154
+- Added "Collective Inferno" (ECL:363) &155
+- Added "Hallowed Fountain // Hallowed Fountain" (ECL:347) &156
+- Added "Vibrance" (ECL:295) [foil] &157
+- Added "End-Blaze Epiphany" (ECL:364) &158
+- Added "Dream Harvest" (ECL:371) &159
+- Added "Jubilation" (ECC:37) &160
+- Added "Blood Crypt" (ECL:262) [foil] &161
+- Added "Flitterwing Nuisance" (ECL:304) &162
+- Added "Elemental Spectacle" (ECC:35) &163
+- Added "Sodden Verdure" (ECC:44) &164
+- Added "Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield" (ECL:288) &165
+- Added "Trystan, Callous Cultivator // Trystan, Penitent Culler" (ECL:291) &166
+- Added "Maralen, Fae Ascendant" (ECL:233) [foil] &167
+- Added "Champion of the Clachan" (ECL:353) &168
+- Added "Maralen, Fae Ascendant" (ECL:376) [foil] &169
+- Added "Gloom Ripper" (ECL:312) &170
+- Added "Ferrafor, Young Yew" (ECC:36) &171
+- Added "Overgrown Tomb" (ECL:266) [foil] &172
+- Added "Katara's Reversal" (TLE:63) [foil] &173
+- Added "Momo's Heist" (TLE:72) [foil] &174
+- Added "Uncle's Musings" (TLE:73) [foil] &175
+- Added "Sozin's Comet" (TLA:154) &176
+- Added "The Fire Nation Drill" (TLA:98) &177
+- Added "Bison Whistle" (TLE:202) &178
+- Added "Bison Whistle" (TLE:202) [foil] &179
+- Added "Bison Whistle" (TLE:131) [foil] &180
+- Added "Sundial of the Infinite" (TLE:55) &181
+- Added "White Lotus Tile" (TLA:330) [foil] &182
+- Added "Fire Nation Turret" (TLE:64) [foil] &183
+- Added "Avatar Destiny" (TLA:165) [foil] &184
+- Added "Sundial of the Infinite" (TLE:55) [foil] &185
+- Added "Sokka's Charge" (TLE:66) [foil] &186
+- Added "Obsessive Pursuit" (TLA:112) &187
+- Added "Earthbender Ascension" (TLA:175) &188
+- Added "Earthbender Ascension" (TLA:307) &189
+- Added "Chakra Meditation" (TLE:91) [foil] &190
+- Added "Earthbender Ascension" (TLA:307) &191
+- Added "Waterbender Ascension" (TLA:310) [foil] &192
+- Added "Beastmaster Ascension" (TLE:39) &193
+- Added "Obsessive Pursuit" (TLA:112) [foil] &194
+- Added "Beastmaster Ascension" (TLE:39) [foil] &195
+- Added "Bloodchief Ascension" (TLE:23) &196
+- Added "Master's Guidance" (TLE:206) &197
+- Added "Slippery Bogle" (SPG:144) [foil] &198
+- Added "Chronicle of Victory" (ECL:253) &199
+- Added "Ajani, Outland Chaperone" (ECL:284) &200
+- Added "Fervor" (TLE:29) &201
+- Added "Waterbender Ascension" (TLA:310) &202
+- Added "The Rise of Sozin // Fire Lord Sozin" (TLA:117) [foil] &203
+- Added "Airbender Ascension" (TLA:364) [foil] &204
+- Added "Unholy Annex // Ritual Chamber" (DSK:118) &205
+- Added "Moonshadow" (ECL:386) [foil] &206
+- Added "Vaultborn Tyrant" (BIG:20) [foil] &207
+- Added "Weapons Manufacturing" (EOE:168) &208
+- Added "Sun Titan" (WOC:77) &209
+- Added "Earthbender Ascension" (TLA:175) &210
+- Added "Figure of Fable" (PECL:224p) &211
+- Added "Singularity Rupture" (PEOE:228p) &212
+- Added "Iroh, Dragon of the West" (TLE:119) [foil] &213
+- Added "Ty Lee, Chi Blocker" (TLA:76) [foil] &214
+- Added "Zuko, Conflicted" (TLA:302) [foil] &215
+- Added "Ran and Shaw" (TLA:325) &216
+- Added "The Terror of Serpent's Pass" (TLE:225) [foil] &217
+- Added "Iroh, Tea Master" (TLA:228) [foil] &218
+- Added "Agent of Treachery" (TLE:9) &219
+- Added "Fang, Roku's Companion" (TLE:115) [foil] &220
+- Added "Raven Eagle" (TLA:116) [foil] &221
+- Added "The Cabbage Merchant" (TLE:134) [foil] &222
+- Added "Sokka, Tenacious Tactician" (TLA:242) [foil] &223
+- Added "Dockside Extortionist" (TLE:28) &224
+- Added "Aang, at the Crossroads // Aang, Destined Savior" (TLA:304) [foil] &225
+- Added "Aang, Swift Savior // Aang and La, Ocean's Fury" (TLA:347) &226
+- Added "Katara, Waterbending Master" (TLE:180) [foil] &227
+- Added "Sokka, Bold Boomeranger" (TLA:383) &228
+- Added "Chong and Lily, Nomads" (TLE:113) [foil] &229
+- Added "Katara, Water Tribe's Hope" (TLA:231) [foil] &230
+- Added "Nyla, Shirshu Sleuth" (TLE:190) &231
+- Added "Chong and Lily, Nomads" (TLE:192) [foil] &232
+- Added "Bumi, Unleashed" (TLA:211) [foil] &233
+- Added "Great Divide Guide" (TLA:181) [foil] &234
+- Added "Fire Lord Zuko" (TLA:315) &235
+- Added "The Blue Spirit" (TLE:90) [foil] &236
