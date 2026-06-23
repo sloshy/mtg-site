@@ -1,13 +1,12 @@
 ---
-name: "Marcheesed to Meet You"
-source: "https://archidekt.com/decks/11573680"
-sourceId: "11573680"
-sourceUrl: "https://archidekt.com/decks/11573680"
-created: "2026-02-23T13:34:53.034Z"
+name: Marcheesed to Meet You
+source: 'https://archidekt.com/decks/11573680'
+sourceId: '11573680'
+sourceUrl: 'https://archidekt.com/decks/11573680'
+created: '2026-02-23T13:34:53.034Z'
 tags: []
+lastSynced: '2026-06-23T21:04:10.083Z'
 ---
-
-# Marcheesed to Meet You
 
 ## Commander
 1 Queen Marchesa &1
@@ -76,7 +75,6 @@ tags: []
 1 Bleachbone Verge &62
 1 Sunbillow Verge &63
 1 Lotho, Corrupt Shirriff &64
-1 Varchild, Betrayer of Kjeldor &65
 1 Comeuppance &66
 1 Kazuul, Tyrant of the Cliffs &67
 1 Sunforger &68
@@ -109,9 +107,6 @@ tags: []
 1 Oft-Nabbed Goat &95
 1 Seifer, Balamb Rival &96
 1 Immortal Obligation &97
+1 Judgment of Alexander &65
 
 ## Maybeboard
-1 Royal Assassin &98
-1 Rankle, Master of Pranks &99
-1 Duelist's Heritage &100
-
