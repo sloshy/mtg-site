@@ -320,7 +320,7 @@
 - Added "Secret Invasion" (MSH:72) &313
 - Added "Agent Phil Coulson" (MSH:4) &314
 
-## 2026-06-23T19:00:16.594Z
+## 2026-06-23T21:02:00.040Z
 
 - Added "Gran-Gran" (PW25:14) [foil] &315
 - Added "Lizard, Connors's Curse" (SPM:265) &316
@@ -464,3 +464,4 @@
 - Added "Communal Brewing" (SLD:2651) &454
 - Added "Rogue's Passage" (SLD:2652) &455
 - Added "Crucible of Worlds" (SLD:7162) &456
+- Added "Varchild, Betrayer of Kjeldor" (C18:28) &457

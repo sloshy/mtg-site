@@ -457,3 +457,4 @@
 - Communal Brewing (SLD:2651) [NM] &454
 - Rogue's Passage (SLD:2652) [NM] &455
 - Crucible of Worlds (SLD:7162) [NM] &456
+- Varchild, Betrayer of Kjeldor (C18:28) [NM] &457
