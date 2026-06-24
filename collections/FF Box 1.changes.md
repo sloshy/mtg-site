@@ -465,3 +465,7 @@
 - Added "Rogue's Passage" (SLD:2652) &455
 - Added "Crucible of Worlds" (SLD:7162) &456
 - Added "Varchild, Betrayer of Kjeldor" (C18:28) &457
+
+## 2026-06-23T21:22:12.935Z
+
+- Removed "Deep Gnome Terramancer" (CLB:607) &377

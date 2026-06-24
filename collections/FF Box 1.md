@@ -377,7 +377,6 @@
 - Owlbear Cub (CLB:246) [foil] [NM] &374
 - Clan Crafter (CLB:614) [NM] &375
 - Baba Lysaga, Night Witch (CLB:266) [NM] &376
-- Deep Gnome Terramancer (CLB:607) [NM] &377
 - Raggadragga, Goreguts Boss (CLB:548) [etched] [NM] &378
 - Caves of Chaos Adventurer (CLB:579) [NM] &379
 - Deepway Navigator (ECL:214) [foil] [NM] &380
