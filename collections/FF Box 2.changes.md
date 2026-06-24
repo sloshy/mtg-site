@@ -1,0 +1,253 @@
+# Changelog for FF Box 2
+
+## 2026-06-23T21:19:46.035Z
+
+- Added "Mystic Remora" (ICE:87) [MP] &1
+- Added "Pugnacious Hammerskull" (LCI:208) &2
+- Added "Inti, Seneschal of the Sun" (LCI:295) &3
+- Added "Threefold Thunderhulk" (LCI:265) &4
+- Added "Sunken Citadel" (LCI:285) &5
+- Added "Echoing Deeps" (LCI:271) &6
+- Added "Hit the Mother Lode" (LCI:153) &7
+- Added "Quintorius Kand" (LCI:238) &8
+- Added "Massacre Girl, Known Killer" (PMKM:94p) [foil] &9
+- Added "Eventide's Shadow" (ECC:28) &10
+
+## 2026-06-23T21:35:16.970Z
+
+- Added "Homunculus Horde" (FDN:454) [foil] &11
+- Added "Malcolm, Keen-Eyed Navigator" (SPG:2) &12
+- Added "Squirming Emergence" (LCI:241) &13
+
+## 2026-06-24T19:01:29.790Z
+
+- Added "Get Lost" (LCI:14) &14
+- Added "Deepfathom Echo" (LCI:228) &15
+- Added "Gishath, Sun's Avatar" (LCI:229) &16
+- Added "The Enigma Jewel // Locus of Enlightenment" (LCI:55) &17
+- Added "Clavileño, First of the Blessed" (LCC:2) &18
+- Added "Souls of the Lost" (LCI:121) [foil] &19
+- Added "Worn Powerstone" (LCC:120) &20
+- Added "Flamekin Village" (PLST:C14-60) &21
+- Added "Breeches, Eager Pillager" (LCI:137) &22
+- Added "Restless Vents" (LCI:284) &23
+- Added "Zebra Unicorn" (PLST:MIR-290) &24
+- Added "Kutzil, Malamet Exemplar" (LCI:232) &25
+- Added "Baird, Steward of Argive" (PLST:DOM-4) &26
+- Added "Bringer of the Last Gift" (LCI:94) &27
+- Added "Unstable Glyphbridge // Sandswirl Wanderglyph" (LCI:41) &28
+- Added "Braided Net // Braided Quipu" (LCI:47) &29
+- Added "Malcolm, Alluring Scoundrel" (LCI:293) &30
+- Added "Cauldron Familiar" (PLST:ELD-81) &31
+- Added "Subterranean Schooner" (LCI:80) &32
+- Added "Kitesail Larcenist" (LCI:61) &33
+- Added "Hulking Raptor" (LCI:191) &34
+- Added "Intrepid Paleontologist" (LCI:193) &35
+- Added "Treasure Map // Treasure Cove" (LCI:267) &36
+- Added "The Belligerent" (LCI:225) &37
+- Added "Starving Revenant" (LCI:338) &38
+- Added "Bringer of the Last Gift" (LCI:337) [foil] &39
+- Added "Sanguine Evangelist" (LCI:34) &40
+- Added "Restless Ridgeline" (LCI:283) &41
+- Added "Kutzil, Malamet Exemplar" (LCI:304) [foil] &42
+- Added "Inti, Seneschal of the Sun" (LCI:156) &43
+- Added "Trumpeting Carnosaur" (LCI:171) &44
+- Added "Rupture" (PLST:NEM-97) &45
+- Added "Karoo" (PLST:VIS-165) &46
+- Added "Gideon, Ally of Zendikar" (PLST:BFZ-29) &47
+- Added "Comet, Stellar Pup" (MB2:79) &48
+- Added "Minsc & Boo, Timeless Heroes" (MB2:88) &49
+- Added "Gisela, the Broken Blade" (INR:24) [foil] &50
+- Added "Baird, Steward of Argive" (PLST:DOM-4) &51
+- Added "Elder Deep-Fiend" (INR:4) [foil] &52
+- Added "Electro, Assaulting Battery" (SPM:76) &53
+- Added "Open the Way" (MAT:23) [foil] &54
+- Added "Peter Parker's Camera" (SPM:171) &55
+- Added "Constant Mists" (STH:104) &56
+- Added "Vivi's Persistence" (FIC:458) [foil] &57
+- Added "Search for Dagger" (FIC:459) [foil] &58
+- Added "Noctis, Heir Apparent" (FIC:460) [foil] &59
+- Added "Fishing Gear" (FIC:461) [foil] &60
+- Added "Chocobo Camp" (FIC:462) [foil] &61
+- Added "Flash Photography" (FIC:463) [foil] &62
+- Added "Campsite Cuisine" (FIC:464) [foil] &63
+- Added "Warrior's Resolve" (FIC:465) [foil] &64
+- Added "Aerith, Last Ancient" (FIC:471) [foil] &65
+- Added "Mog, Moogle Warrior" (FIC:476) [foil] &66
+- Added "Birds of Paradise" (FIC:483) [foil] &67
+- Added "Emet-Selch of the Third Seat" (FIC:473) [foil] &68
+- Added "Estinien Varlineau" (FIC:474) [foil] &69
+- Added "Edea, Possessed Sorceress" (FIC:448) &70
+- Added "Birds of Paradise" (FIC:483) [foil] &71
+- Added "Garland, Royal Kidnapper" (FIC:442) [foil] &72
+- Added "The Destined Warrior" (FIC:443) [foil] &73
+- Added "The Destined White Mage" (FIC:444) [foil] &74
+- Added "Chaos Shrine's Black Crystal" (FIC:445) [foil] &75
+- Added "The Destined Thief" (FIC:446) [foil] &76
+- Added "The Destined Black Mage" (FIC:447) [foil] &77
+- Added "Edea, Possessed Sorceress" (FIC:448) [foil] &78
+- Added "Rinoa, Angel Wing" (FIC:450) [foil] &79
+- Added "Duelist's Flame" (FIC:452) [foil] &80
+- Added "Squall, Gunblade Duelist" (FIC:453) [foil] &81
+- Added "Extinguisher Battleship" (EOE:355) [foil] &82
+- Added "Solar Array" (EOC:38) &83
+- Added "Pain for All" (EOE:337) &84
+- Added "Swarmyard" (EOS:42) &85
+- Added "Shambling Vent" (EOS:38) [foil] &86
+- Added "Elegy Acolyte" (EOE:97) [foil] &87
+- Added "Depthshaker Titan" (EOC:29) &88
+- Added "Anticausal Vestige" (EOE:317) &89
+- Added "Power Depot" (EOS:79) &90
+- Added "Alpharael, Stonechosen" (EOE:87) [foil] &91
+- Added "Starwinder" (EOE:306) &92
+- Added "The Eternity Elevator" (EOE:354) [foil] &93
+- Added "Helitrooper" (FIC:106) &94
+- Added "Siegfried, Famed Swordsman" (FIC:149) &95
+- Added "Conformer Shuriken" (FIC:127) [foil] &96
+- Added "Sabin, Master Monk" (FIC:154) [foil] &97
+- Added "Helitrooper" (FIC:106) [foil] &98
+- Added "Avalanche of Sector 7" (FIC:150) [foil] &99
+- Added "Ultimate Magic: Holy" (FIC:110) &100
+- Added "Sabin, Master Monk" (FIC:154) &101
+- Added "Young Pyromancer" (J22:626) &102
+- Added "The Unagi of Kyoshi Island" (TLA:319) [foil] &103
+- Added "Warstorm Surge" (TLE:38) &104
+- Added "Lo and Li, Royal Advisors" (TLE:189) &105
+- Added "Fire Nation Archers" (TLE:237) [foil] &106
+- Added "Yue, the Moon Spirit" (TLA:83) [foil] &107
+- Added "Memorial Vault" (EOE:145) [foil] &108
+- Added "Planetary Annihilation" (EOC:32) &109
+- Added "Extinguisher Battleship" (EOE:242) [foil] &110
+- Added "Patrolling Peacemaker" (EOC:25) &111
+- Added "Nova Hellkite" (EOE:309) &112
+- Added "Weapons Manufacturing" (EOE:168) [foil] &113
+- Added "Baloth Prime" (EOC:33) &114
+- Added "Mm'menon, the Right Hand" (EOE:290) &115
+- Added "Dawnsire, Sunstar Dreadnought" (EOE:351) [foil] &116
+- Added "Nova Hellkite" (EOE:148) [foil] &117
+- Added "Terminal Velocity" (EOE:338) &118
+- Added "Endless Sands" (EOS:15) &119
+- Added "Anticausal Vestige" (EOE:357) [foil] &120
+- Added "Sunstar Chaplain" (EOE:40) [foil] &121
+- Added "Terminal Velocity" (EOE:338) [foil] &122
+- Added "Lightstall Inquisitor" (EOE:320) &123
+- Added "Blinkmoth Nexus" (EOS:48) &124
+- Added "Wandering Fumarole" (EOS:45) &125
+- Added "Susur Secundi, Void Altar" (EOE:379) [foil] &126
+- Added "Frenzied Baloth" (EOE:183) [foil] &127
+- Added "Uthros Research Craft" (EOC:27) &128
+- Added "Astelli Reclaimer" (EOE:288) &129
+- Added "Green Sun's Zenith" (SPG:127) [foil] &130
+- Added "Memorial Vault" (EOE:336) &131
+- Added "Contested War Zone" (EOS:143) [foil] &132
+- Added "Mind Stone" (CLB:325) [foil] &133
+- Added "Cultivator Colossus" (INR:409) &134
+- Added "Laboratory Maniac" (INR:304) [foil] &135
+- Added "Collective Brutality" (INR:101) &136
+- Added "Blood Artist" (INR:97) [foil] &137
+- Added "Heartless Summoning" (INR:309) [foil] &138
+- Added "Morbid Opportunist" (INR:124) &139
+- Added "Faithless Looting" (INR:151) &140
+- Added "Odric, Lunarch Marshal" (INR:36) &141
+- Added "Metallic Mimic" (INR:268) &142
+- Added "Metallic Mimic" (INR:445) &143
+- Added "Tireless Tracker" (INR:318) &144
+- Added "Tireless Tracker" (INR:318) [foil] &145
+- Added "Through the Breach" (INR:487) &146
+- Added "Odric, Lunarch Marshal" (INR:298) &147
+- Added "Mayor of Avabruck // Howlpack Alpha" (INR:207) [foil] &148
+- Added "Hullbreaker Horror" (INR:303) [foil] &149
+- Added "Captivating Vampire" (INR:374) &150
+- Added "Hullbreaker Horror" (INR:303) &151
+- Added "Tamiyo's Journal" (INR:272) [foil] &152
+- Added "Bolas's Citadel" (MB2:39) &153
+- Added "Gitaxian Probe" (MB2:28) &154
+- Added "Tyvar's Stand" (PLST:ONE-190) &155
+- Added "Conspicuous Snoop" (PLST:M21-139) &156
+- Added "Paradoxical Outcome" (MB2:33) &157
+- Added "Collected Company" (MB2:203) &158
+- Added "Treasure Cruise" (MB2:37) &159
+- Added "Tarnished Citadel" (MB2:112) &160
+- Added "Narset, Parter of Veils" (MB2:32) &161
+- Added "Windfall" (PLST:USG-111) &162
+- Added "Wake Thrasher" (PLST:DDT-24) &163
+- Added "Consuming Aberration" (PLST:GK1-10) &164
+- Added "Mishra's Bauble" (MB2:97) &165
+- Added "Maddening Hex" (MB2:195) &166
+- Added "Scurry Oak" (PLST:MH2-172) &167
+- Added "Earthshaker Giant" (PLST:GN2-5) &168
+- Added "Shared Summons" (PLST:M20-193) &169
+- Added "Liliana, Death Mage" (PLST:M21-328) &170
+- Added "Showdown of the Skalds" (PLST:KHM-229) &171
+- Added "Klothys, God of Destiny" (PLST:THB-220) &172
+- Added "Silumgar, the Drifting Death" (PLST:FRF-157) &173
+- Added "Prossh, Skyraider of Kher" (PLST:A25-214) &174
+- Added "Ral, Storm Conduit" (PLST:WAR-211) &175
+- Added "Chainer, Nightmare Adept" (PLST:MH2-289) &176
+- Added "Sol Ring" (MB2:233) &177
+- Added "Hangarback Walker" (PLST:ORI-229) &178
+- Added "Sphinx of the Steel Wind" (MB2:89) &179
+- Added "Spirit of the Labyrinth" (MB2:20) &180
+- Added "Big Score" (PLST:SNC-102) &181
+- Added "Zulaport Cutthroat" (PLST:GNT-36) &182
+- Added "King's Assassin" (MB2:43) &183
+- Added "Maddening Hex" (MB2:195) &184
+- Added "Defiler of Instinct" (DMU:119) [foil] &185
+- Added "Soul of Windgrace" (DMU:319) [foil] &186
+- Added "The Raven Man" (DMU:289) &187
+- Added "Ayesha Tanaka, Armorer" (DMC:51) [etched] &188
+- Added "Keldon Flamesage" (DMU:407) &189
+- Added "Plaza of Heroes" (DMU:252) [foil] &190
+- Added "Karn, Living Legacy" (DMU:372) [foil] &191
+- Added "Ohabi Caleria" (DMC:36) &192
+- Added "Ivy, Gleeful Spellthief" (DMU:300) &193
+- Added "Thran Portal" (DMU:422) &194
+- Added "Golden Argosy" (DMU:230) [foil] &195
+- Added "Rivaz of the Claw" (DMU:355) [foil] &196
+- Added "Tetsuo, Imperial Champion" (DMC:44) [foil] &197
+- Added "Rasputin, the Oneiromancer" (DMC:40) &198
+- Added "Orca, Siege Demon" (DMC:37) &199
+- Added "Primeval Spawn" (DMC:89) &200
+- Added "Llanowar Greenwidow" (DMU:169) [foil] &201
+- Added "Rith, Liberated Primeval" (DMU:354) [foil] &202
+- Added "Shadow-Rite Priest" (DMU:403) [foil] &203
+- Added "Ertai Resurrected" (DMU:298) &204
+- Added "Sphinx of Clear Skies" (DMU:396) &205
+- Added "Leyline Binding" (DMU:24) [foil] &206
+- Added "The Raven Man" (DMU:289) [foil] &207
+- Added "Rivaz of the Claw" (DMU:314) &208
+- Added "Ohabi Caleria" (DMC:58) [etched] &209
+- Added "Karplusan Forest" (DMU:250) [foil] &210
+- Added "Threats Undetected" (DMU:419) [foil] &211
+- Added "Stangg, Echo Warrior" (DMC:42) &212
+- Added "Ramses, Assassin Lord" (DMC:61) [etched] &213
+- Added "Defiler of Flesh" (DMU:400) &214
+- Added "King Darien XLVIII" (DMU:204) [foil] &215
+- Added "Ertai Resurrected" (DMU:298) [foil] &216
+- Added "Hazezon, Shaper of Sand" (DMC:32) &217
+- Added "Rasputin, the Oneiromancer" (DMC:62) [etched] &218
+- Added "Briar Hydra" (DMU:427) &219
+- Added "Jaya, Fiery Negotiator" (DMU:133) [foil] &220
+- Added "King Darien XLVIII" (DMU:344) [foil] &221
+- Added "Shivan Reef" (DMU:380) [foil] &222
+- Added "Danitha, Benalia's Hope" (DMU:287) &223
+- Added "Xira, the Golden Sting" (DMC:48) &224
+- Added "Llanowar Loamspeaker" (DMU:416) &225
+- Added "The Elder Dragon War" (DMU:121) [foil] &226
+- Added "Ratadrabik of Urborg" (DMU:353) [foil] &227
+- Added "Astor, Bearer of Blades" (DMU:194) [foil] &228
+- Added "Astor, Bearer of Blades" (DMU:334) [foil] &229
+- Added "Evolved Sleeper" (DMU:402) [foil] &230
+- Added "Ratadrabik of Urborg" (DMU:312) &231
+- Added "Activated Sleeper" (DMC:74) &232
+- Added "Haughty Djinn" (DMU:52) [foil] &233
+- Added "Archangel of Wrath" (DMU:384) [foil] &234
+- Added "Sol'Kanar the Tainted" (DMU:318) &235
+- Added "Stenn, Paranoid Partisan" (DMU:320) &236
+- Added "Chaotic Transformation" (DMU:405) &237
+- Added "Ramses, Assassin Lord" (DMC:39) &238
+- Added "Stangg, Echo Warrior" (DMC:64) [etched] &239
+- Added "Leaf-Crowned Visionary" (DMU:167) [foil] &240
+- Added "Nemata, Primeval Warden" (DMU:349) [foil] &241
+- Added "Silver Scrutiny" (DMU:395) &242
+- Added "Iridian Maelstrom" (DMC:88) &243
