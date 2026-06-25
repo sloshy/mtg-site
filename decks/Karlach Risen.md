@@ -1,13 +1,12 @@
 ---
-name: "Karlach Risen"
-source: "https://archidekt.com/decks/5778121"
-sourceId: "5778121"
-sourceUrl: "https://archidekt.com/decks/5778121"
-created: "2026-02-23T13:34:54.296Z"
+name: Karlach Risen
+source: 'https://archidekt.com/decks/5778121'
+sourceId: '5778121'
+sourceUrl: 'https://archidekt.com/decks/5778121'
+created: '2026-02-23T13:34:54.296Z'
 tags: []
+lastSynced: '2026-06-25T05:14:55.932Z'
 ---
-
-# Karlach Risen
 
 ## Commander
 1 Karlach, Fury of Avernus &1
@@ -34,7 +33,6 @@ tags: []
 1 Faithless Looting &20
 1 Star Athlete &21
 1 Thran Dynamo &22
-1 Karazikar, the Eye Tyrant &23
 1 Goldspan Dragon &24
 1 Insatiable Avarice &25
 1 Brotherhood Regalia &26
@@ -42,7 +40,6 @@ tags: []
 1 Return the Favor &28
 1 Rakdos Charm &29
 1 Palantír of Orthanc &30
-1 Sundering Eruption // Volcanic Fissure &31
 1 Phyrexian Dragon Engine &32
 1 Command Beacon &33
 1 Snuff Out &34
@@ -103,4 +100,5 @@ tags: []
 1 Mega Flare &89
 1 Delina, Wild Mage &90
 1 The Soul Stone &91
-
+1 Nibelheim Aflame &23
+1 Cosmic Cube &31
