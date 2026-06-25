@@ -26,7 +26,7 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-05-20T19:25:20.947Z'
+lastSynced: '2026-06-25T04:48:30.564Z'
 ---
 
 ## Commander
@@ -120,7 +120,6 @@ lastSynced: '2026-05-20T19:25:20.947Z'
 1 Dyadrine, Synthesis Amalgam &87
 1 Herd Heirloom &88
 1 Kami of Whispered Hopes &89
-1 Homunculus Horde &90
 1 Elspeth, Storm Slayer &91
 1 Enduring Vitality &92
 1 Faerie Mastermind &93
@@ -128,7 +127,8 @@ lastSynced: '2026-05-20T19:25:20.947Z'
 1 Tishana's Tidebinder &95
 1 Sol Ring &96
 1 Three Steps Ahead &97
-1 Once Upon a Time &98
 1 Dawn's Truce &99
 1 Planetarium of Wan Shi Tong &100
 1 The Legend of Kuruk // Avatar Kuruk &82
+1 Deep Gnome Terramancer &90
+1 Rikku, Resourceful Guardian &98

@@ -1,13 +1,12 @@
 ---
-name: "Neverending Sagas"
-source: "https://archidekt.com/decks/13931301"
-sourceId: "13931301"
-sourceUrl: "https://archidekt.com/decks/13931301"
-created: "2026-02-23T13:34:53.340Z"
+name: Neverending Sagas
+source: 'https://archidekt.com/decks/13931301'
+sourceId: '13931301'
+sourceUrl: 'https://archidekt.com/decks/13931301'
+created: '2026-02-23T13:34:53.340Z'
 tags: []
+lastSynced: '2026-06-25T04:48:31.076Z'
 ---
-
-# Neverending Sagas
 
 ## Commander
 1 Terra, Magical Adept // Esper Terra &1
@@ -106,7 +105,6 @@ tags: []
 1 Reanimate &92
 1 Big Score &93
 1 Hall of Heliod's Generosity &94
-1 Eventide's Shadow &95
 1 Dawnhand Dissident &96
 1 Rhys, the Evermore &97
-
+1 Squirming Emergence &95
