@@ -26,7 +26,7 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-06-25T04:48:30.564Z'
+lastSynced: '2026-06-25T20:57:27.230Z'
 ---
 
 ## Commander
@@ -76,7 +76,6 @@ lastSynced: '2026-06-25T04:48:30.564Z'
 1 Command Tower &42
 1 Bountiful Promenade &43
 1 Sunpetal Grove &44
-1 Rogue's Passage &45
 1 Brushland &46
 1 Horizon Canopy &47
 1 Rejuvenating Springs &48
@@ -132,3 +131,4 @@ lastSynced: '2026-06-25T04:48:30.564Z'
 1 The Legend of Kuruk // Avatar Kuruk &82
 1 Deep Gnome Terramancer &90
 1 Rikku, Resourceful Guardian &98
+1 Mistrise Village &45

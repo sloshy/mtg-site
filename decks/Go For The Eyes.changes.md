@@ -43,3 +43,15 @@
 - Removed "The Earth Crystal" from Maybeboard
 - Removed "Defiler of Vigor" from Maybeboard
 - Removed "Rolling Hamsphere" from Maybeboard
+
+## 2026-06-25T20:57:27.376Z
+
+- Added "Contest of Claws" &72
+- Added "Cavern-Hoard Dragon" &84
+- Added "Redirect Lightning" to Maybeboard &95
+- Added "Traverse the Outlands" to Maybeboard &97
+- Added "Sword of Truth and Justice" to Maybeboard &98
+- Added "Vorinclex, Monstrous Raider" to Maybeboard &99
+- Removed "Vorinclex, Monstrous Raider" &72
+- Removed "Traverse the Outlands" &84
+- Removed "Cavern-Hoard Dragon" from Maybeboard &95

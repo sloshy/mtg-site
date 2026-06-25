@@ -5,7 +5,7 @@ sourceId: '8377316'
 sourceUrl: 'https://archidekt.com/decks/8377316'
 created: '2026-02-23T13:34:52.727Z'
 tags: []
-lastSynced: '2026-05-20T19:25:21.359Z'
+lastSynced: '2026-06-25T20:57:27.393Z'
 ---
 
 ## Commander
@@ -76,7 +76,6 @@ lastSynced: '2026-05-20T19:25:21.359Z'
 1 Rishkar's Expertise &69
 1 Kalonian Hydra &70
 1 Mossborn Hydra &71
-1 Vorinclex, Monstrous Raider &72
 1 Herd Heirloom &74
 1 Ashroot Animist &75
 1 Hunter's Insight &76
@@ -101,9 +100,10 @@ lastSynced: '2026-05-20T19:25:21.359Z'
 1 Nibelheim Aflame &81
 1 Hero's Blade &82
 1 The Earth Crystal &83
-1 Traverse the Outlands &84
 1 Fight Rigging &85
 1 Forgotten Ancient &86
+1 Contest of Claws &72
+1 Cavern-Hoard Dragon &84
 
 ## Maybeboard
 1 Weathered Sentinels &96
@@ -122,4 +122,7 @@ lastSynced: '2026-05-20T19:25:21.359Z'
 1 Gyre Sage &117
 1 Sylvan Library &119
 1 Power Fist &94
-1 Cavern-Hoard Dragon &95
+1 Redirect Lightning &95
+1 Traverse the Outlands &97
+1 Sword of Truth and Justice &98
+1 Vorinclex, Monstrous Raider &99

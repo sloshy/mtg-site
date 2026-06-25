@@ -11,3 +11,8 @@
 - Added "Rikku, Resourceful Guardian" &98
 - Removed "Homunculus Horde" &90
 - Removed "Once Upon a Time" &98
+
+## 2026-06-25T20:57:27.209Z
+
+- Added "Mistrise Village" &45
+- Removed "Rogue's Passage" &45
