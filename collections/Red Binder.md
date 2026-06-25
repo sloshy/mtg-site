@@ -1,4 +1,6 @@
 # Red Binder
+
+## Main
 - Adeline, Resplendent Cathar (MID:1) [NM] &1
 - Arahbo, the First Fang (FDN:2) [foil] [NM] &2
 - Arahbo, the First Fang (FDN:294) [NM] &3
@@ -128,7 +130,6 @@
 - Aggravated Assault (WOT:39) [NM] &127
 - Goldspan Dragon (KHM:139) [NM] &128
 - Etali, Primal Storm (FDN:194) [foil] [NM] &129
-- Cavern-Hoard Dragon (LTC:114) [NM] &130
 - Twinflame Tyrant (FDN:395) [foil] [NM] &131
 - Cait Sith, Fortune Teller (FIC:151) [NM] &132
 - Searslicer Goblin (FDN:93) [foil] [NM] &133

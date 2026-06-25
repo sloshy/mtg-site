@@ -228,3 +228,7 @@
 ## 2026-05-29T15:45:54.095Z
 
 - Moved "The Earth Crystal" (FIN:184) [foil] &155 to Deck 'Null and Void'
+
+## 2026-06-25T21:02:39.725Z
+
+- Removed "Cavern-Hoard Dragon" (LTC:114) &130
