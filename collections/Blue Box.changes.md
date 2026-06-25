@@ -241,3 +241,8 @@
 - Added "Great Divide Guide" (TLA:181) [foil] &234
 - Added "Fire Lord Zuko" (TLA:315) &235
 - Added "The Blue Spirit" (TLE:90) [foil] &236
+
+## 2026-06-25T04:40:05.053Z
+
+- Removed "Mistrise Village" (PTDM:261p) &7
+- Added "Rogue's Passage" (CMM:426) &7

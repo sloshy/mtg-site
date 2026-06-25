@@ -7,7 +7,6 @@
 - Caged Sun (SLD:2461) [foil] [NM] &4
 - Nuka-Cola Vending Machine (SLD:2462) [foil] [NM] &5
 - Big Score (SLD:7096) [foil] [NM] &6
-- Mistrise Village (PTDM:261p) [NM] &7
 - Kellan, Inquisitive Prodigy // Tail the Suspect (PMKM:212p) [NM] &8
 - Thrumming Hivepool (PEOE:247p) [NM] &9
 - Demonic Junker (PDFT:83p) [NM] &10
@@ -237,3 +236,4 @@
 - Great Divide Guide (TLA:181) [foil] [NM] &234
 - Fire Lord Zuko (TLA:315) [NM] &235
 - The Blue Spirit (TLE:90) [foil] [NM] &236
+- Rogue's Passage (CMM:426) [NM] &7
