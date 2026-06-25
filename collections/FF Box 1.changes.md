@@ -469,3 +469,8 @@
 ## 2026-06-23T21:22:12.935Z
 
 - Removed "Deep Gnome Terramancer" (CLB:607) &377
+
+## 2026-06-25T05:07:25.264Z
+
+- Added "Karazikar, the Eye Tyrant" (SLD:1791) [foil] &377
+- Removed "Cosmic Cube" (MSH:245) &286

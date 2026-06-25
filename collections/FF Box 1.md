@@ -286,7 +286,6 @@
 - The Vision (MSH:255) [NM] &283
 - S.H.I.E.L.D. Flying Car (MSH:74) [NM] &284
 - Elektra, Daughter of the Hand (MSH:97) [NM] &285
-- Cosmic Cube (MSH:245) [NM] &286
 - Thanos, the Mad Titan (MSH:233) [foil] [NM] &287
 - The Scarlet Witch (MSH:151) [NM] &288
 - Fin Fang Foom (MSH:129) [NM] &289
@@ -457,3 +456,4 @@
 - Rogue's Passage (SLD:2652) [NM] &455
 - Crucible of Worlds (SLD:7162) [NM] &456
 - Varchild, Betrayer of Kjeldor (C18:28) [NM] &457
+- Karazikar, the Eye Tyrant (SLD:1791) [foil] [NM] &377
