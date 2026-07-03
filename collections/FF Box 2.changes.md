@@ -251,3 +251,136 @@
 - Added "Nemata, Primeval Warden" (DMU:349) [foil] &241
 - Added "Silver Scrutiny" (DMU:395) &242
 - Added "Iridian Maelstrom" (DMC:88) &243
+
+## 2026-07-03T22:38:32.320Z
+
+- Added "Big Score" (SNC:102) &244
+- Added "Rhystic Study" (FCA:31) &245
+- Added "Windfall" (SLD:2182) &246
+- Added "Gitaxian Probe" (NPH:35) &247
+- Added "Cyclonic Rift" (2XM:47) &248
+- Added "Sink into Stupor // Soporific Springs" (MH3:241) [foil] &249
+- Added "Consult the Star Charts" (EOE:51) [foil] &250
+- Added "Veil of Summer" (MB2:75) &251
+- Added "Narset's Reversal" (SLC:14) &252
+- Added "Regrowth" (SLD:866) [foil] &253
+- Added "Auroral Procession" (TDM:169) [foil] &254
+- Added "Crop Rotation" (DMR:154) &255
+- Added "Display of Power" (LTR:119) &256
+- Added "Jaya's Immolating Inferno" (CMR:415) &257
+- Added "Silundi Vision // Silundi Isle" (ZNR:80) &258
+- Added "Breeding Pool" (RVR:275) &259
+- Added "Amphibian Downpour" (MH3:51) &260
+- Added "Dig Through Time" (PLG21:2) [foil] &261
+- Added "Temporal Trespass" (ACR:160) &262
+- Added "Lotus Petal" (P30M:2) [etched] &263
+- Added "Fierce Guardianship" (CMM:94) &264
+- Added "Bloodthirster" (40K:73) &265
+- Added "Flusterstorm" (MH3:496) [foil] &266
+- Added "Stomping Ground" (RNA:259) &267
+- Added "Birds of Paradise" (M12:165) &268
+- Added "Rejuvenating Springs" (CMM:424) &269
+- Added "Commercial District" (MKM:324) &270
+- Added "Third Path Iconoclast" (BRO:223) &271
+- Added "Crackle with Power" (OTP:22) &272
+- Added "Ice Storm" (SLD:1745) [foil] &273
+- Added "Storm, Force of Nature" (SLD:1742) [foil] &274
+- Added "Everybody Lives!" (WHO:18) &275
+- Added "Dawn Charm" (PLC:4) &276
+- Added "Cathars' Crusade" (JMP:95) &277
+- Added "Rebuff the Wicked" (PLST:PLC-12) &278
+- Added "Roaming Throne" (LCI:344) &279
+- Added "Land Tax" (WOT:9) &280
+- Added "Sunfall" (MOM:40) &281
+- Added "Brimaz, King of Oreskos" (BNG:5) &282
+- Added "Darksteel Mutation" (CMM:623) [foil] &283
+- Added "Path to Exile" (LTC:175) &284
+- Added "Anointed Procession" (PLST:AKH-2) &285
+- Added "Authority of the Consuls" (KLD:5) &286
+- Added "The One Ring" (LTR:697) &287
+- Added "Haystack" (ACR:5) [foil] &288
+- Added "Maze of Ith" (DMR:456) &289
+- Added "Goldnight Commander" (ONC:72) &290
+- Added "True Conviction" (SS2:6) &291
+- Added "Serra Ascendant" (IMA:31) [foil] &292
+- Added "Ajani's Pridemate" (TSR:290) &293
+- Added "Will of the Jeskai" (TDC:80) &294
+- Added "Wheel of Misfortune" (CMR:672) &295
+- Added "Final Fortune" (SLD:1956) [foil] &296
+- Added "Delayed Blast Fireball" (SLD:1824) &297
+- Added "Thrill of Possibility" (SLD:1805) &298
+- Added "Full Throttle" (DFT:127) &299
+- Added "Alliance of Arms" (CMD:4) &300
+- Added "Light Up the Stage" (FCA:39) &301
+- Added "Winds of Abandon" (MH1:37) &302
+- Added "Comeuppance" (C14:4) &303
+- Added "Nibelheim Aflame" (FIN:146) &304
+- Added "Tibalt's Trickery" (SLD:7027) &305
+- Added "Hell to Pay" (POTJ:126s) [foil] &306
+- Added "Angelfire Ignition" (MID:209) &307
+- Added "Haliya, Guided by Light" (EOE:19) [foil] &308
+- Added "Archaeomancer's Map" (PLST:C21-12) &309
+- Added "Lightning Greaves" (CMM:398) &310
+- Added "Mirror Entity" (CMA:16) &311
+- Added "Strionic Resonator" (LCC:116) &312
+- Added "Swiftfoot Boots" (CLB:339) [foil] &313
+- Added "Flawless Maneuver" (CMM:692) [foil] &314
+- Added "Rogue's Passage" (PW24:10) [foil] &315
+- Added "Coat of Arms" (M10:207) &316
+- Added "Caduceus, Staff of Hermes" (ACR:155) &317
+- Added "Cavern of Souls" (LCI:410c) [foil] &318
+- Added "Mithril Coat" (LTR:696) &319
+- Added "Extraplanar Lens" (MRD:169) &320
+- Added "Commander's Plate" (SLD:1733) &321
+- Added "Archangel Elspeth" (MOM:320) &322
+- Added "Banner of Kinship" (FDN:127) [foil] &323
+- Added "Three Tree City" (BLB:260) &324
+- Added "Nykthos, Shrine to Nyx" (THS:223) &325
+- Added "Throne of Eldraine" (WOC:40) [foil] &326
+- Added "Mutavault" (CLB:903) &327
+- Added "Guide of Souls" (MH3:448) [foil] &328
+- Added "Myrel, Shield of Argive" (SLC:13) [foil] &329
+- Added "Faithless Looting" (SLD:1779) &330
+- Added "Mana Geyser" (SLD:1821) &331
+- Added "Springleaf Drum" (SLP:22) &332
+- Added "Righteous Confluence" (CMM:53) &333
+- Added "Deflecting Palm" (SOA:63) [foil] &334
+- Added "Return the Favor" (SOA:47) &335
+- Added "Joined Researchers // Secret Rendezvous" (SOS:23) &336
+- Added "Myrel, Shield of Argive" (BRO:18) &337
+- Added "Lightning, Army of One" (FIN:233) &338
+- Added "Chocobo Knights" (FIC:102) [foil] &339
+- Added "New Way Forward" (TDM:367) [foil] &340
+- Added "Wrecking Ball Arm" (FIC:128) &341
+- Added "The Chain Veil" (CMM:943) &342
+- Added "Vesuva" (M3C:404) &343
+- Added "Celestial Armor" (FDN:295) [foil] &344
+- Added "Bedlam" (USG:175) &345
+- Added "Mystic Forge" (PIP:484) [foil] &346
+- Added "Alexios, Deimos of Kosmos" (ACR:214) [etched] &347
+- Added "Traverse the Outlands" (CLB:258) &348
+- Added "Vorinclex, Monstrous Raider" (KHM:406) &349
+- Added "Susur Secundi, Void Altar" (PEOE:259p) [foil] &350
+- Added "Hardlight Containment" (EOE:20) [foil] &351
+- Added "Unexpected Windfall" (SLD:2092) [foil] &352
+- Added "Combat Celebrant" (LTC:212) &353
+- Added "Firemane Commando" (MOC:81) [foil] &354
+- Added "Exemplar of Light" (FDN:11) &355
+- Added "Fell the Mighty" (SLD:2690) &356
+- Added "Aggravated Assault" (SLD:2691) &357
+- Added "Utopia Sprawl" (SLD:2693) &358
+- Added "Aura Shards" (SLD:2694) &359
+- Added "General's Enforcer" (SLD:7152) [foil] &360
+- Added "Fell the Mighty" (SLD:2690) [foil] &361
+- Added "Aggravated Assault" (SLD:2691) [foil] &362
+- Added "Chaos Warp" (SLD:2692) [foil] &363
+- Added "Utopia Sprawl" (SLD:2693) [foil] &364
+- Added "Aura Shards" (SLD:2694) [foil] &365
+- Added "Knight of the White Orchid" (SLD:7139) [foil] &366
+- Added "Court of Grace" (SLD:2685) &367
+- Added "Reverent Mantra" (SLD:2686) &368
+- Added "Windborn Muse" (SLD:2687) &369
+- Added "Queen Marchesa" (SLD:2688) &370
+- Added "Ruinous Ultimatum" (SLD:2689) &371
+- Added "Hellish Rebuke" (SLD:7171) &372
+- Added "Olivia Voldaren" (INR:490) &373
