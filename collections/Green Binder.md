@@ -1,5 +1,6 @@
 # Green Binder
 
+## Main
 - Unexplained Absence (MKC:328) [NM] &1
 - Elspeth, Sun's Champion (CMM:820) [NM] &2
 - Priest of the Crossing (DRC:22) [NM] &3
@@ -17,7 +18,6 @@
 - Council's Judgment (SLD:1635★) [foil] [NM] &15
 - Idyllic Tutor (SLD:1636★) [foil] [NM] &16
 - In the Trenches (SLD:1729) [foil] [NM] &17
-- Secure the Wastes (SLD:1748) [NM] &18
 - Flawless Maneuver (SLD:1728) [NM] &19
 - In the Trenches (SLD:1729) [NM] &20
 - Sigarda's Aid (SLD:1727) [NM] &21
@@ -39,7 +39,6 @@
 - Elesh Norn, Mother of Machines (ONE:10) [NM] &37
 - Invasion of Gobakhan // Lightshield Array (MOM:22) [NM] &38
 - Thalia, Heretic Cathar (EMN:46) [foil] [NM] &39
-- Dusk Legion Duelist (MOM:11) [NM] &40
 - Flare of Fortitude (MH3:26) [NM] &41
 - Flare of Fortitude (MH3:321) [NM] &42
 - Filigree Vector (MOC:102) [NM] &43
@@ -58,7 +57,6 @@
 - Onakke Oathkeeper (CMM:755) [NM] &56
 - Nahiri, the Lithomancer (CMM:45) [foil] [NM] &57
 - Shardmage's Rescue (DSK:411) [NM] &58
-- Abzan Falconer (MOC:165) [NM] &59
 - Exemplar of Light (FDN:297) [foil] [NM] &60
 - Sheltered by Ghosts (DSK:30) [NM] &61
 - Salvation Engine (DFT:27) [NM] &62
@@ -227,7 +225,6 @@
 - Full Throttle (DFT:127) [NM] &228
 - Full Throttle (DFT:127) [NM] &229
 - Full Throttle (DFT:386) [foil] [NM] &230
-- Chandra's Ignition (SPG:89) [foil] [NM] &231
 - Jaws, Relentless Predator (SLD:2175) [NM] &232
 - Goldspan Dragon (SLD:1780) [NM] &233
 - Magus of the Moon (SLD:1761) [foil] [NM] &234

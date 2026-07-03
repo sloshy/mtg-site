@@ -184,7 +184,6 @@
 - Superior Spider-Man (SPM:275) [foil] [NM] &181
 - Jackal, Genius Geneticist (SPM:131) [NM] &182
 - Carnage, Crimson Chaos (SPM:125) [NM] &183
-- Cheering Crowd (SPM:270) [NM] &184
 - Spider-Woman, Stunning Savior (SPM:152) [NM] &185
 - Peter Parker // Amazing Spider-Man (SPM:10) [NM] &186
 - Peter Parker // Amazing Spider-Man (SPM:10) [foil] [NM] &187

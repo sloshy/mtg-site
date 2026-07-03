@@ -1,7 +1,6 @@
 # Red Binder
 
 ## Main
-- Adeline, Resplendent Cathar (MID:1) [NM] &1
 - Arahbo, the First Fang (FDN:2) [foil] [NM] &2
 - Arahbo, the First Fang (FDN:294) [NM] &3
 - Elesh Norn, Grand Cenobite (MUL:3) [NM] &4
@@ -20,7 +19,6 @@
 - Sheltered by Ghosts (DSK:30) [NM] &17
 - Sheltered by Ghosts (DSK:30) [NM] &18
 - Danitha Capashen, Paragon (FCA:22) [NM] &19
-- White Sun's Twilight (ONE:377) [NM] &20
 - Aerith Gainsborough (FIN:374) [foil] [NM] &21
 - Dazzling Theater // Prop Room (PDSK:3p) [foil] [NM] &22
 - Youthful Valkyrie (FDN:149) [foil] [NM] &23
@@ -31,7 +29,6 @@
 - Reya Dawnbringer (SLD:1682) [foil] [NM] &28
 - Celestial Armor (FDN:5) [NM] &29
 - Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] [NM] &30
-- Halo Fountain (SNC:15) [NM] &31
 - Caduceus, Staff of Hermes (ACR:155) [NM] &32
 - Everything Comes to Dust (WHO:19) [NM] &33
 - Sierra, Nuka's Biggest Fan (PIP:372) [foil] [NM] &34
@@ -44,7 +41,6 @@
 - Wizened Mentor (DRC:24) [NM] &41
 - Resurgent Belief (MH2:26) [NM] &42
 - Baldin, Century Herdmaster (SLD:428) [NM] &43
-- Call the Coppercoats (ONC:60) [NM] &44
 - Reya Dawnbringer (SLD:1682) [foil] [NM] &45
 - SOLDIER Military Program (FIC:108) [foil] [NM] &46
 - Exemplar of Light (FDN:445) [NM] &47
@@ -124,7 +120,6 @@
 - Inti, Seneschal of the Sun (LCI:295) [NM] &121
 - Manabarbs (M10:149) [LP] &122
 - Burning Earth (M14:130) [LP] &123
-- Wand of Wonder (CLB:584) [NM] &124
 - Ashling, Flame Dancer (MH3:115) [NM] &125
 - Daretti, Rocketeer Engineer (DFT:458) [foil] [NM] &126
 - Aggravated Assault (WOT:39) [NM] &127
@@ -135,7 +130,6 @@
 - Searslicer Goblin (FDN:93) [foil] [NM] &133
 - Searslicer Goblin (FDN:93) [foil] [NM] &134
 - Searslicer Goblin (FDN:332) [NM] &135
-- Olivia Voldaren (INR:490) [NM] &136
 - Mass Hysteria (INR:400) [NM] &137
 - Chandra, Flameshaper (FDN:360) [NM] &138
 - Drakuseth, Maw of Flames (FDN:193) [foil] [NM] &139
@@ -324,7 +318,6 @@
 - Festering Thicket (EOC:41) [NM] &323
 - Terrain Generator (EOS:133) [foil] [NM] &324
 - Glittering Massif (EOC:42) [NM] &325
-- Sacred Foundry (EOE:256) [foil] [NM] &326
 - Watery Grave (EOE:261) [foil] [NM] &327
 - Caves of Koilos (DMU:244) [NM] &328
 - Grove of the Burnwillows (EOS:17) [NM] &329

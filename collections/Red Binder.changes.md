@@ -232,3 +232,13 @@
 ## 2026-06-25T21:02:39.725Z
 
 - Removed "Cavern-Hoard Dragon" (LTC:114) &130
+
+## 2026-06-30T21:23:43.813Z
+
+- Removed "Adeline, Resplendent Cathar" (MID:1) &1
+- Removed "White Sun's Twilight" (ONE:377) &20
+- Removed "Call the Coppercoats" (ONC:60) &44
+- Removed "Halo Fountain" (SNC:15) &31
+- Removed "Wand of Wonder" (CLB:584) &124
+- Removed "Olivia Voldaren" (INR:490) &136
+- Removed "Sacred Foundry" (EOE:256) [foil] &326

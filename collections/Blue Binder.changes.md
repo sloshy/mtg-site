@@ -210,3 +210,7 @@
 - Added "Doc Ock, Evil Inventor" (SPE:24) [foil] &197
 - Added "Sensational Spider-Man" (SPE:25) [foil] &198
 - Added "Pumpkin Bombs" (SPE:26) [foil] &199
+
+## 2026-06-30T21:38:31.089Z
+
+- Removed "Cheering Crowd" (SPM:270) &184

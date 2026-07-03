@@ -262,3 +262,10 @@
 - Moved "Exquisite Blood" (SLD:1798) [foil] &157 to Deck 'Null and Void'
 - Moved "Enduring Tenacity" (DSK:374) &179 to Deck 'Null and Void'
 - Moved "Sheoldred, the Apocalypse" (PDMU:107p) [foil] &194 to Deck 'Null and Void'
+
+## 2026-06-30T21:30:38.570Z
+
+- Removed "Secure the Wastes" (SLD:1748) &18
+- Removed "Dusk Legion Duelist" (MOM:11) &40
+- Removed "Abzan Falconer" (MOC:165) &59
+- Removed "Chandra's Ignition" (SPG:89) [foil] &231
