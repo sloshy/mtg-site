@@ -1,6 +1,6 @@
 ---
 name: ritual-edit
-description: "Edit cards in any Ritual deck, collection, or wanted list without a TUI — the right tools for agents and scripts. Use when the user wants to add or remove a card, set or clear a card note, move cards between lists, or compact a change history."
+description: "Edit cards in any Ritual deck, collection, or wanted list — non-interactive commands for agents and scripts, plus the interactive editor TUI. Use when the user wants to add or remove a card, set or clear a card note, edit lists interactively, move cards between lists, apply a change bundle exported from the site editor, or compact a change history."
 ---
 
 # Editing cards in any Ritual list (non-interactive)
@@ -48,6 +48,28 @@ ritual clear-note "Winota Stax" "Sol Ring" --card-id 5
 ritual clear-note "Winota Stax" "Sol Ring" --output json --quiet
 ```
 
+## Interactive editor
+
+`ritual edit` is **the** interactive TUI (requires a terminal) for editing decks,
+collections, and wanted lists: a selection menu covers all lists (plus create-new
+items), and backing out of a list (`🔀 Switch List` or Esc) keeps its unsaved changes
+in memory while you edit other lists. Save flushes every open list (a separate "save
+current list" item saves just one), and each saved list gets one changelog entry per
+session. Sessions support name/collector entry modes, per-type edit modes over
+existing entries, and undo. Creating a deck prompts for its format, and deck sessions
+have a `🏷️ Change Format` menu action that rewrites the `format:` front matter on the
+next save. Not suitable for non-interactive agents — use
+`add-card`/`add-note`/`clear-note` instead:
+
+```bash
+ritual edit
+ritual edit --sets "FDN,SPG" --finish foil --condition NM   # session filter defaults
+ritual edit --section Sideboard             # pin the deck target section
+ritual edit --collector --sets "FDN, SPG"   # collector-number entry, sets preloaded
+ritual edit --no-cache-prompt               # skip the "cache is >1 week old?" prompt
+ritual edit --refresh-prices                # redownload cache when prices are >1 day old
+```
+
 ## Move cards between lists
 
 `ritual move` is an interactive TUI (requires a terminal) for moving cards between
@@ -60,6 +82,33 @@ ritual move
 For **non-interactive** moves, use the web admin's HTTP API or the MCP `move_cards`
 tool (see the **ritual-site** skill).
 
+You can also move a card **while editing a list** (in the admin or public in-browser
+editor) instead of using the dedicated batch tool: a **Move to list…** item appears in
+the per-card menu, the per-list **Selected** menu, and the cross-list **All Selected**
+navbar menu, opening a picker of destination lists. The card leaves the list you're
+editing, and on save **both** lists are
+written — removed from the source, added to the destination, with a changelog entry on
+each. Moving a printing-less card into a collection prompts for a specific printing first.
+
+## Apply exported changes
+
+`ritual import-changes` applies a change bundle exported from the public site's
+edit mode (or the admin editor's Export panel) to the underlying list files. The
+JSON is a `ritual-change-bundle` covering one or more lists — the export panel's
+"This list" and "All lists" scopes both produce it. The full change list is
+previewed grouped by target list, and nothing is written until you confirm:
+
+```bash
+ritual import-changes edits.json          # preview, then confirm interactively
+ritual import-changes edits.json --yes    # apply without the confirmation prompt
+```
+
+Changes are re-targeted to each list's current `&N` card IDs (by ID when it still
+exists, else by card name); changes whose target card no longer exists are skipped
+and reported. Each list gets a changelog entry, and a failed list (e.g. one that no
+longer exists) is reported without stopping the rest. Exits non-zero when any list
+fails. The same JSON can also be applied in the web admin's **Import Changes** page.
+
 ## Compact change history
 
 `ritual history` interactively compacts and rewrites a list's `.changes.md` log.
@@ -69,3 +118,7 @@ Only the changelog is touched — the list file itself is never modified:
 ritual history "Winota Stax"
 ritual history "Winota Stax" --deck
 ```
+
+Combining two change sets orders the merged lines oldest-set-first (newest changes
+at the bottom) and cancels opposite changes — an add and a later remove of the same
+card annihilate — mirroring the card editor's live change log.

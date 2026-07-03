@@ -26,7 +26,8 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
 
 A list is addressed by its **name** = the file basename without `.md`
 (e.g. `decks/winota-stax.md` → `winota-stax`). Most commands resolve a name
-case-insensitively across all three types; when a name is ambiguous, pass a type
+case- and accent-insensitively across all three types (so `cafe` matches a list
+named `Café`); when a name is ambiguous, pass a type
 flag (`--deck`, `--collection`, `--wanted`).
 
 ## File format
@@ -58,7 +59,7 @@ inspection is fine.
 - **ritual-decks** — create, import, sync, and price decks
 - **ritual-collections** — manage and price collections
 - **ritual-wanted** — manage and price wanted lists
-- **ritual-edit** — non-interactive card edits (add/remove cards, notes) across any list
+- **ritual-edit** — card edits across any list: non-interactive commands (add/remove cards, notes) and the unified interactive editor
 - **ritual-cards** — look up cards and run Scryfall searches
 - **ritual-site** — build, serve, and administer the published site (and the MCP server)
 
@@ -72,7 +73,9 @@ inspection is fine.
 ```bash
 ritual login archidekt            # log in to Archidekt (for imports/sync)
 ritual config-set <prop> <value>  # set a config value (dot notation for nested keys)
-ritual cache preload-all          # warm the Scryfall card cache (bulk download)
+ritual config-set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
+ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download)
+ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards
 ```
 
 ## Alternative: the MCP server

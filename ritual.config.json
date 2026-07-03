@@ -2,6 +2,7 @@
   "decksDir": "./decks",
   "collectionsDir": "./collections",
   "wantedDir": "./wanted",
+  "defaultCurrency": "usd",
   "admin": {
     "gitEnabled": false,
     "gitAutoCommit": false,
@@ -36,6 +37,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta12"
+    "version": "0.1.0-beta18"
   }
 }

@@ -22,16 +22,24 @@ ritual add-card "Main Binder" "Black Lotus" --collection -f foil -c NM
 
 ## Interactive management
 
-`ritual collection` opens an interactive TUI for bulk-adding cards. It **requires a
-terminal**, so it is not suitable for non-interactive agents — use `add-card` instead.
+`ritual edit` opens the interactive editor (covered in full by the **ritual-edit**
+skill); pick a collection (or `➕ New Collection`) from its list selection menu to
+bulk-add cards. It **requires a terminal**, so it is not suitable for non-interactive
+agents — use `add-card` instead.
 
 ```bash
-ritual collection                          # alias: ritual collect
-ritual collection --sets "FDN,SPG"         # restrict to these set codes
-ritual collection --finish foil --condition NM
-ritual collection --collector              # enter cards by collector number
-ritual collection --allow-digital-only-cards
+ritual edit
+ritual edit --sets "FDN,SPG"         # restrict to these set codes
+ritual edit --finish foil --condition NM
+ritual edit --collector              # enter cards by collector number
+ritual edit --allow-digital-only-cards
+ritual edit --no-cache-prompt        # skip the "cache is >1 week old, update?" prompt
+ritual edit --refresh-prices         # redownload the cache when prices are >1 day old
 ```
+
+When the card cache was last fully downloaded more than a week ago, the session prompts to redownload it before starting; `--no-cache-prompt` suppresses that prompt. `--refresh-prices` redownloads the cache (refreshing prices) without prompting when the cached prices are more than a day old.
+
+Within the session, changes accumulate **in memory**: `💾 Save` writes the file and changelog without exiting (saving repeatedly in one session folds the later changes into that session's existing changelog entry and bumps its timestamp, so one editing session is always one changelog entry), and `🚪 Exit` (or Esc) opens an exit menu when changes are unsaved — save and exit, exit without saving (discards everything unsaved), or cancel to keep editing. `🛠️ Switch to Edit Mode` turns the search prompt into a picker over the collection's existing entries — change a card's printing, finish, condition, or note, or remove it — and `↩️ Undo Last Edit` reverts the latest edit. `↩️ Undo Last Add` removes the most recent card and `📋 View Session Changes` opens a picker over every change made this session — adds, edits, and removals — where selecting one offers to discard just that change (same-card changes must be discarded newest-first). Discarding an add frees that card's `&N` id and keeps the remaining session ids dense (each later card slides down one).
 
 ## Import from a text file
 
@@ -71,12 +79,17 @@ partial failure).
 
 ## Price
 
+The unified `price` command covers all list types; scope it with `--collection` or a
+name. An interactive browser opens on a TTY — for agents, always pass a non-interactive
+flag (`--summary`, `--no-interactive`, or `--output json`):
+
 ```bash
-ritual price-collection                       # every collection
-ritual price-collection main-binder           # one collection
-ritual price-collection main-binder --output json --quiet
-ritual price-collection main-binder --sort price --descending
-ritual price-collection main-binder --prices eur     # usd | eur | tix
+ritual price --collection --summary            # every collection's totals
+ritual price main-binder --no-interactive      # one collection's cards + totals
+ritual price main-binder --output json --quiet
+ritual price main-binder --sort price --descending --no-interactive
+ritual price main-binder --prices eur          # usd | eur | tix (defaults to config defaultCurrency)
 ```
 
-Alias: `ritual pc`.
+Collection entries are priced at their exact printing and finish; totals include a
+quantity-weighted unpriced-card count.

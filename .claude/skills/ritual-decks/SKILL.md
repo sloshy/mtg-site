@@ -27,21 +27,47 @@ ritual add-card winota-stax "Lightning Bolt" --deck -q 4   # -q quantity
 
 ## Build interactively
 
-`ritual deck` opens an interactive builder (the deck counterpart to `ritual collection`
-and `ritual wanted`). You select or create a deck, then add cards to named `## Section`
-headers. It shares the same name/collector entry modes and session filters
-(`-s/--sets`, `-f/--finish`, `-c/--condition`) and adds section targeting. It **requires
-a terminal**, so it is not suitable for non-interactive agents — use `add-card` instead.
+`ritual edit` opens the interactive editor (covered in full by the **ritual-edit**
+skill); pick a deck (or `➕ New Deck`, which prompts for a format) from its list
+selection menu, then add cards to named `## Section` headers with name/collector entry
+modes and session filters (`-s/--sets`, `-f/--finish`, `-c/--condition`) plus section
+targeting and a `🏷️ Change Format` action. It **requires a terminal**, so it is not
+suitable for non-interactive agents — use `add-card` instead.
 
 ```bash
-ritual deck                                   # pick a deck, prompt for a section per card
-ritual deck --section Sideboard               # add every card to one section
-ritual deck --collector --sets "FDN, SPG"     # collector-number entry, sets preloaded
+ritual edit                                   # pick a deck, prompt for a section per card
+ritual edit --section Sideboard               # add every deck card to one section
+ritual edit --collector --sets "FDN, SPG"     # collector-number entry, sets preloaded
+ritual edit --no-cache-prompt                 # skip the "cache is >1 week old, update?" prompt
+ritual edit --refresh-prices                  # redownload the cache when prices are >1 day old
 ```
+
+When the card cache was last fully downloaded more than a week ago, the session prompts
+to redownload it before starting; `--no-cache-prompt` suppresses that prompt and uses the
+existing cache. `--refresh-prices` redownloads the cache (refreshing prices) without
+prompting when the cached prices are more than a day old.
 
 Set the **target section** to a fixed section or "prompt every time" via `--section`,
 the `🗂️ Set Target Section` menu, or the session filters. Adding a card whose printing
 already exists in the deck increments its quantity instead of duplicating the line.
+
+**Saving:** changes accumulate **in memory** — `💾 Save` writes the deck file and changelog
+without exiting, and `🚪 Exit` (or Esc) opens an exit menu when changes are unsaved: save and
+exit, exit without saving (discards everything unsaved), or cancel to keep editing. Saving more than
+once in one session folds the later changes into the session's existing changelog entry (bumping its
+timestamp) rather than writing a new entry per save — one editing session is always one changelog
+entry.
+
+**Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker over the deck's
+existing lines — change a line's printing, add/remove copies, move it to another section, edit
+its note, or remove it entirely — and `↩️ Undo Last Edit` reverts the latest edit.
+
+**Undo within the session:** `↩️ Undo Last Add` takes back the most recent card, and
+`📋 View Session Changes` opens a picker over every change made this session — copy adds,
+field edits, and removals — where selecting one offers to discard just that change
+(same-line changes must be discarded newest-first). Discarding an add decrements or removes
+the line; a fully removed session line frees its `&N` id and keeps the remaining session
+ids dense.
 
 ## Import from a URL or text file
 
@@ -109,12 +135,17 @@ ritual get-primer <moxfield-url>          # fetch a primer from Moxfield
 
 ## Price
 
-`price-deck` is non-interactive and supports JSON, so it is easy to parse:
+The unified `price` command covers all list types; scope it with `--deck` or a name.
+An interactive browser opens on a TTY — for agents, always pass a non-interactive flag
+(`--summary`, `--no-interactive`, or `--output json`):
 
 ```bash
-ritual price-deck winota-stax
-ritual price-deck winota-stax --output json --quiet
-ritual price-deck winota-stax --prices eur          # usd | eur | tix
-ritual price-deck winota-stax --all                 # include Sideboard/Maybeboard
-ritual price-deck winota-stax --with-sideboard      # include just the Sideboard
+ritual price --deck --summary                       # every deck's totals
+ritual price winota-stax --no-interactive           # one deck's cards + totals
+ritual price winota-stax --output json --quiet
+ritual price winota-stax --prices eur               # usd | eur | tix (defaults to config defaultCurrency)
 ```
+
+Deck totals cover every section except extras (maybeboard/token). Each deck also
+reports a "lowest" total (cheapest printing of every card) and a quantity-weighted
+unpriced-card count.

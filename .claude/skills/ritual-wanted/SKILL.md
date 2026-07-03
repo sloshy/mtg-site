@@ -21,16 +21,24 @@ ritual add-card "To Buy" "Ragavan" --wanted -f foil         # -f finish (optiona
 
 ## Interactive management
 
-`ritual wanted` opens an interactive TUI. It **requires a terminal**, so it is not
-suitable for non-interactive agents — use `add-card` instead.
+`ritual edit` opens the interactive editor (covered in full by the **ritual-edit**
+skill); pick a wanted list (or `➕ New Wanted List`) from its list selection menu. It
+**requires a terminal**, so it is not suitable for non-interactive agents — use
+`add-card` instead.
 
 ```bash
-ritual wanted                          # alias: ritual wanted-list
-ritual wanted --sets "FDN,SPG"         # restrict to these set codes
-ritual wanted --finish foil
-ritual wanted --collector              # enter cards by collector number
-ritual wanted --allow-digital-only-cards
+ritual edit
+ritual edit --sets "FDN,SPG"         # restrict to these set codes
+ritual edit --finish foil
+ritual edit --collector              # enter cards by collector number
+ritual edit --allow-digital-only-cards
+ritual edit --no-cache-prompt        # skip the "cache is >1 week old, update?" prompt
+ritual edit --refresh-prices         # redownload the cache when prices are >1 day old
 ```
+
+When the card cache was last fully downloaded more than a week ago, the session prompts to redownload it before starting; `--no-cache-prompt` suppresses that prompt. `--refresh-prices` redownloads the cache (refreshing prices) without prompting when the cached prices are more than a day old.
+
+Within the session, changes accumulate **in memory**: `💾 Save` writes the file and changelog without exiting (saving repeatedly in one session folds the later changes into that session's existing changelog entry and bumps its timestamp, so one editing session is always one changelog entry), and `🚪 Exit` (or Esc) opens an exit menu when changes are unsaved — save and exit, exit without saving (discards everything unsaved), or cancel to keep editing. `🛠️ Switch to Edit Mode` turns the search prompt into a picker over the list's existing entries — change a card's printing (or make it name-only), finish, or note, or remove it — and `↩️ Undo Last Edit` reverts the latest edit. `↩️ Undo Last Add` removes the most recent card and `📋 View Session Changes` opens a picker over every change made this session — adds, edits, and removals — where selecting one offers to discard just that change (same-card changes must be discarded newest-first). Discarding an add frees that card's `&N` id and keeps the remaining session ids dense (each later card slides down one).
 
 ## Import from a text file
 
@@ -65,12 +73,18 @@ line numbers on stderr and the rest still import (exit code 1 on partial failure
 
 ## Price
 
+The unified `price` command covers all list types; scope it with `--wanted` or a
+name. An interactive browser opens on a TTY — for agents, always pass a non-interactive
+flag (`--summary`, `--no-interactive`, or `--output json`):
+
 ```bash
-ritual price-wanted-list                       # every wanted list
-ritual price-wanted-list to-buy                # one list
-ritual price-wanted-list to-buy --output json --quiet
-ritual price-wanted-list to-buy --sort price --descending
-ritual price-wanted-list to-buy --prices eur   # usd | eur | tix
+ritual price --wanted --summary                # every wanted list's totals
+ritual price to-buy --no-interactive           # one list's cards + totals
+ritual price to-buy --output json --quiet
+ritual price to-buy --sort price --descending --no-interactive
+ritual price to-buy --prices eur               # usd | eur | tix (defaults to config defaultCurrency)
 ```
 
-Alias: `ritual pwl`.
+Each wanted list also reports a "lowest" total: name-only entries use the cheapest
+printing, printing-pinned entries the cheapest finish of that printing, and
+fully-specified entries their exact price.

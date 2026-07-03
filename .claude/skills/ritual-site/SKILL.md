@@ -31,6 +31,18 @@ ritual build-site --allow-refresh                  # refresh stale cache (bulk d
 
 `--cache-images` downloads card images locally instead of hot-linking Scryfall.
 
+## Banning default printings
+
+Ritual auto-selects each card's featured printing (the most recent non-outlier among its
+five newest priced printings) when none is specified. To stop specific printings from ever
+being featured, list them as `SET:COLLECTOR` keys; the next eligible printing is used instead.
+Banned printings can still be viewed and entered manually.
+
+```bash
+ritual config-set --add site.bannedPrintings "SLD:123"     # ban one printing
+ritual config-set --remove site.bannedPrintings "SLD:123"  # un-ban it
+```
+
 ## Serve
 
 ```bash
@@ -49,6 +61,11 @@ ritual admin                       # http://0.0.0.0:8080
 ritual admin -p 9000
 ritual admin --no-refresh
 ```
+
+The admin's **Import Changes** page applies a change-list JSON exported from the
+public site's edit mode (a bundle covering one or more lists) with a per-list
+preview before applying — the same operation as `ritual import-changes` (see the
+**ritual-edit** skill) and the MCP `import_changes` tool.
 
 It can also expose an MCP endpoint in the same process:
 
