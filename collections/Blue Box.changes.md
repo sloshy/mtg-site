@@ -246,3 +246,7 @@
 
 - Removed "Mistrise Village" (PTDM:261p) &7
 - Added "Rogue's Passage" (CMM:426) &7
+
+## 2026-07-05T16:02:50.287Z
+
+- Removed "Moonshadow" (ECL:386) [foil] &206

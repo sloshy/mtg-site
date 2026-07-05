@@ -205,7 +205,6 @@
 - The Rise of Sozin // Fire Lord Sozin (TLA:117) [foil] [NM] &203
 - Airbender Ascension (TLA:364) [foil] [NM] &204
 - Unholy Annex // Ritual Chamber (DSK:118) [NM] &205
-- Moonshadow (ECL:386) [foil] [NM] &206
 - Vaultborn Tyrant (BIG:20) [foil] [NM] &207
 - Weapons Manufacturing (EOE:168) [NM] &208
 - Sun Titan (WOC:77) [NM] &209
