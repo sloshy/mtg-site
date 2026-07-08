@@ -103,8 +103,6 @@
 - Laboratory Maniac (INR:359) [foil] [NM] &103
 - Mausoleum Wanderer (INR:360) [NM] &104
 - Memory Deluge (INR:361) [foil] [NM] &105
-- Hullbreaker Horror (VOW:63) [NM] &106
-- Hullbreaker Horror (INR:303) [NM] &107
 - Hullbreaker Horror (SLD:2336) [foil] [NM] &108
 - Hive Mind (SLD:822) [foil] [NM] &109
 - Hive Mind (SLD:822) [foil] [NM] &110
@@ -115,8 +113,6 @@
 - Laboratory Maniac (FCA:30) [NM] &115
 - Counterspell (PF24:1) [foil] [NM] &116
 - Counterspell (PF24:1) [foil] [NM] &117
-- Counterspell (PF24:1) [foil] [NM] &118
-- Counterspell (PF24:1) [foil] [NM] &119
 - Vnwxt, Verbose Host (DFT:73) [NM] &120
 - Vnwxt, Verbose Host (DFT:73) [NM] &121
 - Starfield Vocalist (EOE:78) [NM] &122
@@ -173,13 +169,9 @@
 - Kezzerdrix (SLD:826) [NM] &174
 - Rottenmouth Viper (BLB:290) [NM] &175
 - Valgavoth, Terror Eater (PDSK:120p) [NM] &176
-- Enduring Tenacity (DSK:95) [NM] &177
-- Enduring Tenacity (DSK:95) [NM] &178
 - Enduring Tenacity (DSK:374) [NM] &180
 - Enduring Tenacity (DSK:374) [NM] &181
 - Unstoppable Slasher (DSK:119) [foil] [NM] &182
-- Unstoppable Slasher (DSK:119) [foil] [NM] &183
-- Unstoppable Slasher (DSK:294) [NM] &184
 - Unstoppable Slasher (DSK:312) [NM] &185
 - Deep-Cavern Bat (LCI:102) [NM] &186
 - Deep-Cavern Bat (LCI:102) [foil] [NM] &187
@@ -188,7 +180,6 @@
 - Grave Titan (DRC:42) [NM] &190
 - Ancient Brass Dragon (CLB:389) [foil] [NM] &191
 - Bloodletter of Aclazotz (LCI:92) [NM] &192
-- Bloodletter of Aclazotz (LCI:92) [NM] &193
 - Sheoldred, the Apocalypse (PDMU:107p) [foil] [NM] &195
 - Cultist of the Absolute (CLB:495) [etched] [NM] &196
 - Cultist of the Absolute (CLB:123) [NM] &197

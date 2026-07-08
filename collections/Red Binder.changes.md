@@ -242,3 +242,12 @@
 - Removed "Wand of Wonder" (CLB:584) &124
 - Removed "Olivia Voldaren" (INR:490) &136
 - Removed "Sacred Foundry" (EOE:256) [foil] &326
+
+## 2026-07-08T21:31:49.777Z
+
+- Removed "Monument to Endurance" (DFT:237) &276
+- Removed "Ink-Eyes, Servant of Oni" (BLC:77) &98
+- Removed "Mikaeus, the Unhallowed" (CMM:675) &108
+- Removed "Mikaeus, the Unhallowed" (CMM:173) &107
+- Removed "Twinflame Tyrant" (FDN:97) &150
+- Removed "The Immortal Sun" (CMM:393) &298

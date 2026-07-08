@@ -474,3 +474,13 @@
 
 - Added "Karazikar, the Eye Tyrant" (SLD:1791) [foil] &377
 - Removed "Cosmic Cube" (MSH:245) &286
+
+## 2026-07-08T21:31:49.915Z
+
+- Removed "Aang, Swift Savior // Aang and La, Ocean's Fury" (TLA:204) &88
+- Removed "Aang, Swift Savior // Aang and La, Ocean's Fury" (TLA:204) &113
+- Removed "Aang, Swift Savior // Aang and La, Ocean's Fury" (PTLA:204s) [foil] &242
+- Removed "Lightning, Army of One" (FIN:233) &389
+- Removed "The Unagi of Kyoshi Island" (TLA:77) &83
+- Removed "The Unagi of Kyoshi Island" (TLA:77) &236
+- Removed "Vigor" (PLST:BBD-215) &56

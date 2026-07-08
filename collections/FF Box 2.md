@@ -151,7 +151,6 @@
 - Mayor of Avabruck // Howlpack Alpha (INR:207) [foil] [NM] &148
 - Hullbreaker Horror (INR:303) [foil] [NM] &149
 - Captivating Vampire (INR:374) [NM] &150
-- Hullbreaker Horror (INR:303) [NM] &151
 - Tamiyo's Journal (INR:272) [foil] [NM] &152
 - Bolas's Citadel (MB2:39) [NM] &153
 - Gitaxian Probe (MB2:28) [NM] &154
@@ -264,7 +263,6 @@
 - Dig Through Time (PLG21:2) [foil] [NM] &261
 - Temporal Trespass (ACR:160) [NM] &262
 - Lotus Petal (P30M:2) [etched] [NM] &263
-- Fierce Guardianship (CMM:94) [NM] &264
 - Bloodthirster (40K:73) [NM] &265
 - Flusterstorm (MH3:496) [foil] [NM] &266
 - Stomping Ground (RNA:259) [NM] &267
@@ -337,7 +335,6 @@
 - Deflecting Palm (SOA:63) [foil] [NM] &334
 - Return the Favor (SOA:47) [NM] &335
 - Joined Researchers // Secret Rendezvous (SOS:23) [NM] &336
-- Myrel, Shield of Argive (BRO:18) [NM] &337
 - Lightning, Army of One (FIN:233) [NM] &338
 - Chocobo Knights (FIC:102) [foil] [NM] &339
 - New Way Forward (TDM:367) [foil] [NM] &340

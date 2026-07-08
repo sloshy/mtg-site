@@ -384,3 +384,9 @@
 - Added "Ruinous Ultimatum" (SLD:2689) &371
 - Added "Hellish Rebuke" (SLD:7171) &372
 - Added "Olivia Voldaren" (INR:490) &373
+
+## 2026-07-08T21:31:50.045Z
+
+- Removed "Myrel, Shield of Argive" (BRO:18) &337
+- Removed "Fierce Guardianship" (CMM:94) &264
+- Removed "Hullbreaker Horror" (INR:303) &151

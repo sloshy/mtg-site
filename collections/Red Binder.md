@@ -94,7 +94,6 @@
 - Sorin, Imperious Bloodlord (INR:322) [NM] &95
 - Sorin, Imperious Bloodlord (INR:322) [foil] [NM] &96
 - Drana, the Last Bloodchief (ZNR:338) [NM] &97
-- Ink-Eyes, Servant of Oni (BLC:77) [NM] &98
 - Ink-Eyes, Servant of Oni (BLC:77) [foil] [NM] &99
 - Vengeful Bloodwitch (FDN:325) [foil] [NM] &100
 - Gix's Command (BRO:97) [NM] &101
@@ -103,8 +102,6 @@
 - Keen Duelist (SLD:828) [foil] [NM] &104
 - Tinybones, Bauble Burglar (FDN:463) [NM] &105
 - Unholy Annex // Ritual Chamber (DSK:339) [NM] &106
-- Mikaeus, the Unhallowed (CMM:173) [NM] &107
-- Mikaeus, the Unhallowed (CMM:675) [NM] &108
 - Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) [NM] &109
 - Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) [NM] &110
 - Ardyn, the Usurper (FIN:444) [NM] &111
@@ -143,7 +140,6 @@
 - Daretti, Scrap Savant (CMM:213) [NM] &147
 - Scourge of Valkas (SLD:1490) [NM] {Foil, not available in foil on scryfall} &148
 - Screaming Nemesis (DSK:157) [NM] &149
-- Twinflame Tyrant (FDN:97) [NM] &150
 - Elvish Reclaimer (M20:169) [NM] &151
 - Nissa, Ascended Animist (ONE:454) [foil] [NM] &152
 - Tyrranax Rex (ONE:189) [foil] [NM] &154
@@ -268,7 +264,6 @@
 - Urtet, Remnant of Memnarch (ONC:42) [NM] &273
 - Urza's Incubator (DMR:392) [NM] &274
 - Sapphire Medallion (CMM:407) [NM] &275
-- Monument to Endurance (DFT:237) [NM] &276
 - Monument to Endurance (DFT:237) [NM] &277
 - Arcane Signet (SLD:7065) [foil] [NM] &278
 - Dowsing Dagger // Lost Vale (XLN:235) [NM] &279
@@ -290,7 +285,6 @@
 - Nulldrifter (MH3:388) [NM] &295
 - Swiftfoot Boots (BRR:121) [NM] &296
 - Commander's Sphere (PW24:8) [foil] [NM] &297
-- The Immortal Sun (CMM:393) [NM] &298
 - Iron Maiden (SLD:2185) [NM] &299
 - Whispersilk Cloak (M11:221) [NM] &300
 - Pip-Boy 3000 (PIP:140) [NM] &301
