@@ -489,3 +489,7 @@
 
 - Removed "Generous Gift" (SLD:2534) [foil] &438
 - Removed "United Front" (TLA:39) &87
+
+## 2026-07-09T17:18:08.055Z
+
+- Added "Jumbo Cactuar" (FIN:343) &56
