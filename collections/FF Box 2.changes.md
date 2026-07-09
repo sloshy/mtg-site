@@ -446,3 +446,7 @@
 - Added "Muddle the Mixture" (RVR:50) [foil] &414
 - Added "Songcrafter Mage" (TDM:371) &415
 - Added "Island" (SLD:1479) [foil] &416
+
+## 2026-07-09T17:02:46.814Z
+
+- Removed "Patrolling Peacemaker" (EOC:25) &111

@@ -484,3 +484,8 @@
 - Removed "The Unagi of Kyoshi Island" (TLA:77) &83
 - Removed "The Unagi of Kyoshi Island" (TLA:77) &236
 - Removed "Vigor" (PLST:BBD-215) &56
+
+## 2026-07-09T17:02:46.811Z
+
+- Removed "Generous Gift" (SLD:2534) [foil] &438
+- Removed "United Front" (TLA:39) &87

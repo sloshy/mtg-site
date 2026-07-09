@@ -110,7 +110,6 @@
 - Memorial Vault (EOE:145) [foil] [NM] &108
 - Planetary Annihilation (EOC:32) [NM] &109
 - Extinguisher Battleship (EOE:242) [foil] [NM] &110
-- Patrolling Peacemaker (EOC:25) [NM] &111
 - Nova Hellkite (EOE:309) [NM] &112
 - Weapons Manufacturing (EOE:168) [foil] [NM] &113
 - Baloth Prime (EOC:33) [NM] &114

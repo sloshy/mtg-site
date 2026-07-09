@@ -85,7 +85,6 @@
 - Boiling Rock Rioter (TLA:87) [NM] &84
 - The Rise of Sozin // Fire Lord Sozin (TLA:117) [NM] &85
 - Realm of Koh (TLA:276) [NM] &86
-- United Front (TLA:39) [NM] &87
 - Diligent Zookeeper (TLA:171) [NM] &89
 - The Legend of Kuruk // Avatar Kuruk (TLA:61) [NM] &90
 - Arcane Signet (TLE:315) [NM] &91
@@ -429,7 +428,6 @@
 - Ancient Copper Dragon (FCA:12) [NM] &435
 - Ishgard, the Holy See // Faith & Grief (FIN:283) [NM] &436
 - Sculpted Sunburst (CLB:557) [foil] [NM] &437
-- Generous Gift (SLD:2534) [foil] [NM] &438
 - Reconnaissance Mission (SLD:2535) [foil] [NM] &439
 - Radiate (SLD:2536) [foil] [NM] &440
 - Defense of the Heart (SLD:2537) [foil] [NM] &441
