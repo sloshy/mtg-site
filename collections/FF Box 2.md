@@ -48,7 +48,6 @@
 - Rupture (PLST:NEM-97) [NM] &45
 - Karoo (PLST:VIS-165) [NM] &46
 - Gideon, Ally of Zendikar (PLST:BFZ-29) [NM] &47
-- Comet, Stellar Pup (MB2:79) [NM] &48
 - Minsc & Boo, Timeless Heroes (MB2:88) [NM] &49
 - Gisela, the Broken Blade (INR:24) [foil] [NM] &50
 - Baird, Steward of Argive (PLST:DOM-4) [NM] &51
@@ -370,3 +369,51 @@
 - Ruinous Ultimatum (SLD:2689) [NM] &371
 - Hellish Rebuke (SLD:7171) [NM] &372
 - Olivia Voldaren (INR:490) [NM] &373
+- Double Major (STX:179) [NM] &48
+- Frontier Bivouac (WHO:281) [NM] &151
+- Dreamroot Cascade (WHO:273) [NM] &264
+- Steam Vents (GRN:257) [NM] &337
+- Stormcarved Coast (WHO:308) [NM] &338
+- Spire Garden (CLB:361) [NM] &374
+- Displace (EMN:55) [NM] &375
+- Forest (SLD:1482) [foil] [NM] &376
+- Forest (SLD:1482) [foil] [NM] &377
+- Doppelgang (MKM:198) [foil] [NM] &378
+- Island (SLD:1479) [foil] [NM] &379
+- Island (SLD:1479) [foil] [NM] &380
+- Island (SLD:1479) [foil] [NM] &381
+- Island (SLD:1479) [foil] [NM] &382
+- Forest (SLD:1482) [foil] [NM] &383
+- Forest (SLD:1482) [foil] [NM] &384
+- Mountain (SLD:1481) [foil] [NM] &385
+- Mountain (SLD:1481) [foil] [NM] &386
+- Mountain (SLD:1481) [foil] [NM] &387
+- Sakashima of a Thousand Faces (CMR:89) [NM] &388
+- Thassa, Deep-Dwelling (THB:71) [NM] &389
+- Dour Port-Mage (BLB:47) [foil] [NM] &390
+- Irenicus's Vile Duplication (CLB:78) [NM] &391
+- Imperial Recruiter (MH2:281) [NM] &392
+- Etali, Primal Conqueror // Etali, Primal Sickness (MOM:298) [NM] &393
+- Minamo, School at Water's Edge (CHK:279) [NM] &394
+- Hullbreaker Horror (INR:357) [foil] [NM] &395
+- Blur (CLB:58) [NM] &396
+- Sword of Hearth and Home (MH2:238) [NM] &397
+- Loot, Exuberant Explorer (FDN:106) [NM] &398
+- Forest (SLD:1482) [foil] [NM] &399
+- Planar Incision (NEO:72) [NM] &400
+- Essence Flux (INR:64) [NM] &401
+- Alora, Merry Thief (CLB:481) [etched] [NM] &402
+- Spark Double (CMM:856) [NM] &403
+- Seedborn Muse (MKC:186) [NM] &404
+- Craterhoof Behemoth (TDM:138) [NM] &405
+- Auton Soldier (WHO:36) [NM] &406
+- Magewright's Stone (DIS:162) [NM] &407
+- Snap (DMR:66) [NM] &408
+- Dualcaster Mage (C20:150) [NM] &409
+- Intruder Alarm (WOT:21) [NM] &410
+- Displacer Kitten (CLB:63) [foil] [NM] &411
+- Mirror Gallery (PLST:BOK-154) [NM] &412
+- Mirror Box (NEO:250) [NM] &413
+- Muddle the Mixture (RVR:50) [foil] [NM] &414
+- Songcrafter Mage (TDM:371) [NM] &415
+- Island (SLD:1479) [foil] [NM] &416

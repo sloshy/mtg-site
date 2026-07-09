@@ -250,3 +250,9 @@
 ## 2026-07-05T16:02:50.287Z
 
 - Removed "Moonshadow" (ECL:386) [foil] &206
+
+## 2026-07-09T15:49:14.047Z
+
+- Removed "Stroke of Midnight" (FCA:26) [foil] &102
+- Removed "Anzrag, the Quake-Mole" (MKM:186) &29
+- Removed "Jumbo Cactuar" (FIN:343) &30

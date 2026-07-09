@@ -28,8 +28,6 @@
 - Smuggler's Surprise (OTJ:180) [NM] &26
 - Spry and Mighty (ECL:329) [NM] &27
 - Twinflame Tyrant (FDN:97) [NM] &28
-- Anzrag, the Quake-Mole (MKM:186) [NM] &29
-- Jumbo Cactuar (FIN:343) [NM] &30
 - Annie Joins Up (OTJ:191) [foil] [NM] &31
 - Courier of Comestibles (PW26:6) [NM] &32
 - Thaumatic Compass // Spires of Orazca (XLN:249) [NM] &33
@@ -101,7 +99,6 @@
 - Worldsoul's Rage (MKM:316) [NM] &99
 - Brainstorm (FCA:28) [NM] &100
 - Frantic Search (DMR:51) [NM] &101
-- Stroke of Midnight (FCA:26) [foil] [NM] &102
 - On the Trail (MKC:349) [NM] &103
 - Horn of Greed (SLD:2018) [foil] [NM] &104
 - Traveling Chocobo (FIN:210) [foil] [NM] &105
