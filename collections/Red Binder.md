@@ -54,7 +54,6 @@
 - Time Stop (FDN:166) [NM] &55
 - As Foretold (WOT:14) [foil] [NM] &56
 - Storm of Saruman (LTR:72) [NM] &57
-- Eluge, the Shoreless Sea (BLB:288) [NM] &58
 - Eluge, the Shoreless Sea (BLB:288) [NM] &59
 - Mindsplice Apparatus (ONE:382) [foil] [NM] &60
 - Transcendent Message (SCH:16) [foil] [NM] &61
@@ -215,7 +214,6 @@
 - Elenda, Saint of Dusk (FDN:346) [NM] &224
 - Elenda, Saint of Dusk (FDN:479) [foil] [NM] &225
 - Lathril, Blade of the Elves (FDN:242) [foil] [NM] &226
-- Progenitus (FDN:431) [foil] [NM] &227
 - Yuna, Grand Summoner (FIC:216) [foil] [NM] &228
 - Terra, Herald of Hope (FIC:186) [foil] [NM] &229
 - Kykar, Zephyr Awakener (FDN:122) [NM] &230
@@ -235,7 +233,6 @@
 - Tadeas, Juniper Ascendant (SLD:433) [NM] &244
 - Progenitus (FDN:244) [NM] &245
 - Balthier and Fran (FIN:213) [foil] [NM] &246
-- Kaito, Bane of Nightmares (DSK:220) [NM] &247
 - Hashaton, Scarab's Fist (DRC:1) [NM] &248
 - Sab-Sunen, Luxa Embodied (DFT:221) [foil] [NM] &249
 - Pyrewood Gearhulk (DFT:216) [foil] [NM] &250

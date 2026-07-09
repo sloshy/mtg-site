@@ -335,7 +335,6 @@
 - Deflecting Palm (SOA:63) [foil] [NM] &334
 - Return the Favor (SOA:47) [NM] &335
 - Joined Researchers // Secret Rendezvous (SOS:23) [NM] &336
-- Lightning, Army of One (FIN:233) [NM] &338
 - Chocobo Knights (FIC:102) [foil] [NM] &339
 - New Way Forward (TDM:367) [foil] [NM] &340
 - Wrecking Ball Arm (FIC:128) [NM] &341

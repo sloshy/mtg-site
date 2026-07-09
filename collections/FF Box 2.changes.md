@@ -390,3 +390,7 @@
 - Removed "Myrel, Shield of Argive" (BRO:18) &337
 - Removed "Fierce Guardianship" (CMM:94) &264
 - Removed "Hullbreaker Horror" (INR:303) &151
+
+## 2026-07-08T21:52:43.342Z
+
+- Removed "Lightning, Army of One" (FIN:233) &338

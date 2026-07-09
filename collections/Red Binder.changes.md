@@ -251,3 +251,9 @@
 - Removed "Mikaeus, the Unhallowed" (CMM:173) &107
 - Removed "Twinflame Tyrant" (FDN:97) &150
 - Removed "The Immortal Sun" (CMM:393) &298
+
+## 2026-07-08T21:52:43.335Z
+
+- Removed "Kaito, Bane of Nightmares" (DSK:220) &247
+- Removed "Progenitus" (FDN:431) [foil] &227
+- Removed "Eluge, the Shoreless Sea" (BLB:288) &58
