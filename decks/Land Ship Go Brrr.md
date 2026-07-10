@@ -5,7 +5,7 @@ sourceId: '15105078'
 sourceUrl: 'https://archidekt.com/decks/15105078'
 created: '2026-02-23T13:34:55.780Z'
 tags: []
-lastSynced: '2026-04-28T01:18:37.738Z'
+lastSynced: '2026-07-10T16:49:34.386Z'
 ---
 
 ## Commander
@@ -27,7 +27,6 @@ lastSynced: '2026-04-28T01:18:37.738Z'
 1 Hammer of Purphoros &14
 1 Moraug, Fury of Akoum &15
 1 Augur of Autumn &16
-1 Formless Genesis &17
 1 Loamcrafter Faun &18
 1 Oracle of Mul Daya &19
 1 Pest Infestation &20
@@ -70,7 +69,6 @@ lastSynced: '2026-04-28T01:18:37.738Z'
 3 Mountain &57
 1 Aftermath Analyst &58
 1 Harrow &59
-1 Juri, Master of the Revue &60
 1 Mayhem Devil &61
 1 Roiling Regrowth &62
 1 Satyr Wayfinder &63
@@ -101,5 +99,5 @@ lastSynced: '2026-04-28T01:18:37.738Z'
 1 Summon: Titan &88
 1 Descent into Avernus &89
 1 Urza's Saga &90
-
-## Maybeboard
+1 Constant Mists &17
+1 Hellish Rebuke &60

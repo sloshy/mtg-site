@@ -1,13 +1,12 @@
 ---
-name: "Not Just Monica"
-source: "https://archidekt.com/decks/23872221"
-sourceId: "23872221"
-sourceUrl: "https://archidekt.com/decks/23872221"
-created: "2026-07-03T23:02:15.092Z"
+name: Not Just Monica
+source: 'https://archidekt.com/decks/23872221'
+sourceId: '23872221'
+sourceUrl: 'https://archidekt.com/decks/23872221'
+created: '2026-07-03T23:02:15.092Z'
 tags: []
+lastSynced: '2026-07-10T16:49:30.669Z'
 ---
-
-# Not Just Monica
 
 ## Commander
 1 Monica Rambeau // Photon, Living Light &1
@@ -39,7 +38,6 @@ tags: []
 1 Sol Ring &25
 1 Arcane Signet &26
 1 Mondrak, Glory Dominus &27
-1 Young Pyromancer &28
 1 Elspeth, Storm Slayer &29
 1 Command Tower &30
 1 Patrolling Peacemaker &31
@@ -55,7 +53,6 @@ tags: []
 1 Rugged Prairie &41
 1 Grand Crescendo &42
 1 Big Score &43
-1 Monastery Mentor &44
 1 Esper Sentinel &45
 1 Sokenzan, Crucible of Defiance &46
 1 Erode &47
@@ -88,16 +85,18 @@ tags: []
 1 Ajani, Strength of the Pride &74
 1 Endless Foot Assault &75
 1 Tablet of Discovery &76
-1 Goro-Goro, Disciple of Ryusei &77
 1 Boros Signet &78
 1 Ocelot Pride &79
-1 Storm-Kiln Artist &80
 1 Jeska's Will &81
 1 Ainok Strike Leader &82
 1 Enduring Innocence &83
 1 Windbrisk Heights &84
 1 Command Beacon &85
 1 Urza's Saga &86
+1 Flawless Maneuver &28
+1 Cosmogrand Zenith &44
+1 Myrel, Shield of Argive &77
+1 Falcon and Redwing &80
 
 ## Maybeboard
 1 Archaeomancer's Map &87
@@ -108,17 +107,14 @@ tags: []
 1 Illustrious Wanderglyph &92
 1 Chocobo Knights &93
 1 Righteous Confluence &94
-1 Myrel, Shield of Argive &95
 1 Boros Charm &96
 1 Caretaker's Talent &97
 1 Anim Pakal, Thousandth Moon &98
 1 Will of the Mardu &99
-1 Flawless Maneuver &100
 1 Faithless Looting &101
 1 Deflecting Palm &102
 1 Frontline Rush &103
 1 Exalted Sunborn &104
-1 Cosmogrand Zenith &105
 1 Unexpected Windfall &106
 1 Mana Geyser &107
 1 Practiced Offense &108
@@ -129,4 +125,3 @@ tags: []
 1 Electro, Assaulting Battery &113
 1 Odric, Lunarch Marshal &114
 1 Serra Ascendant &115
-

@@ -5,7 +5,7 @@ sourceId: '10114676'
 sourceUrl: 'https://archidekt.com/decks/10114676'
 created: '2026-02-23T13:34:54.553Z'
 tags: []
-lastSynced: '2026-05-20T19:25:22.095Z'
+lastSynced: '2026-07-10T16:49:33.732Z'
 ---
 
 ## Commander
@@ -93,7 +93,6 @@ lastSynced: '2026-05-20T19:25:22.095Z'
 1 Warden of the Grove &82
 1 Elspeth, Storm Slayer &83
 1 Reconnaissance &84
-1 Cosmogrand Zenith &85
 1 Silkguard &86
 1 Doubling Season &87
 1 Ouroboroid &88
@@ -105,3 +104,4 @@ lastSynced: '2026-05-20T19:25:22.095Z'
 1 Ba Sing Se &95
 1 Endless Foot Assault &5
 1 Kinbinding &54
+1 Bast, Panther Goddess &85

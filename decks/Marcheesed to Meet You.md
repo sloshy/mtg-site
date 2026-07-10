@@ -5,7 +5,7 @@ sourceId: '11573680'
 sourceUrl: 'https://archidekt.com/decks/11573680'
 created: '2026-02-23T13:34:53.034Z'
 tags: []
-lastSynced: '2026-06-23T21:04:10.083Z'
+lastSynced: '2026-07-10T16:49:33.437Z'
 ---
 
 ## Commander
@@ -104,9 +104,7 @@ lastSynced: '2026-06-23T21:04:10.083Z'
 1 Galadriel's Dismissal &92
 1 Enduring Innocence &93
 1 Nelly Borca, Impulsive Accuser &94
-1 Oft-Nabbed Goat &95
 1 Seifer, Balamb Rival &96
 1 Immortal Obligation &97
 1 Judgment of Alexander &65
-
-## Maybeboard
+1 Court of Grace &95

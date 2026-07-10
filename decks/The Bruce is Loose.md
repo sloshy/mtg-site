@@ -1,13 +1,12 @@
 ---
-name: "The Bruce is Loose"
-source: "https://archidekt.com/decks/23694351"
-sourceId: "23694351"
-sourceUrl: "https://archidekt.com/decks/23694351"
-created: "2026-07-03T23:02:31.212Z"
+name: The Bruce is Loose
+source: 'https://archidekt.com/decks/23694351'
+sourceId: '23694351'
+sourceUrl: 'https://archidekt.com/decks/23694351'
+created: '2026-07-03T23:02:31.212Z'
 tags: []
+lastSynced: '2026-07-10T16:49:31.374Z'
 ---
-
-# The Bruce is Loose
 
 ## Commander
 1 Bruce Banner // The Incredible Hulk &1
@@ -121,4 +120,4 @@ tags: []
 1 Giggling Skitterspike &105
 1 Big Score &106
 1 Wooded Foothills &107
-
+1 Cheering Crowd &108

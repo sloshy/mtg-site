@@ -13,3 +13,10 @@
 - Removed Twisted Landscape
 - Removed Conduit of Worlds
 - Removed Azusa, Lost but Seeking
+
+## 2026-07-10T16:49:34.385Z
+
+- Added "Constant Mists" &17
+- Added "Hellish Rebuke" &60
+- Removed "Formless Genesis" &17
+- Removed "Juri, Master of the Revue" &60

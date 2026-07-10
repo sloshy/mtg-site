@@ -7,3 +7,8 @@
 - Removed "Sovereign Okinec Ahau"
 - Removed "Damning Verdict"
 - Removed "Avatar Kyoshi, Earthbender"
+
+## 2026-07-10T16:49:33.725Z
+
+- Added "Bast, Panther Goddess" &85
+- Removed "Cosmogrand Zenith" &85

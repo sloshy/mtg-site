@@ -5,7 +5,7 @@ sourceId: '5778121'
 sourceUrl: 'https://archidekt.com/decks/5778121'
 created: '2026-02-23T13:34:54.296Z'
 tags: []
-lastSynced: '2026-06-25T05:14:55.932Z'
+lastSynced: '2026-07-10T16:49:31.715Z'
 ---
 
 ## Commander
@@ -98,7 +98,7 @@ lastSynced: '2026-06-25T05:14:55.932Z'
 1 Ozai, the Phoenix King &87
 1 Locke, Treasure Hunter &88
 1 Mega Flare &89
-1 Delina, Wild Mage &90
 1 The Soul Stone &91
 1 Nibelheim Aflame &23
 1 Cosmic Cube &31
+1 Typhoid Mary, Fractured &90
