@@ -1,6 +1,6 @@
 ---
 name: ritual-edit
-description: "Edit cards in any Ritual deck, collection, or wanted list — non-interactive commands for agents and scripts, plus the interactive editor TUI. Use when the user wants to add or remove a card, set or clear a card note, edit lists interactively, move cards between lists, apply a change bundle exported from the site editor, or compact a change history."
+description: "Edit cards in any Ritual deck, collection, or wanted list — non-interactive commands for agents and scripts, plus the interactive editor TUI. Use when the user wants to add or remove a card, set or clear a card note, edit lists interactively, move cards between lists, apply a change bundle exported from the site editor, export cards as CSV or JSON, or compact a change history."
 ---
 
 # Editing cards in any Ritual list (non-interactive)
@@ -70,6 +70,25 @@ ritual edit --no-cache-prompt               # skip the "cache is >1 week old?" p
 ritual edit --refresh-prices                # redownload cache when prices are >1 day old
 ```
 
+The selection menu leads with the **multi-list modes** — `🗃️ All Lists`, `🎴 All Decks`,
+`📦 All Collections`, `🎯 All Wanted Lists` — each shown only when it spans two or more
+lists (and `All Lists` is skipped when every list shares one type). They edit every list
+in scope at once. Adding a card asks **which list** to add it to — an existing one, or a
+`➕ New …` item that creates one on the spot — and then runs that list's own prompts, so
+a deck may take a name-only card while the next card added to a collection still requires
+a specific printing. A single-type mode offers only its own type's create item. Edit mode
+autocompletes over every in-scope list's entries at once (each labelled with its list), so
+cards can be edited or removed across lists without switching. Save writes each list to its
+own file and changelog; there is no "save current list" item in these modes.
+
+Creating a list (from the selection menu or from All Lists mode) only creates it **in
+memory**: the file appears when you save the editor, and never if you exit without
+saving. A pending list shows a `— new` badge in the selection menu, and an empty one
+still saves (as an empty list file). The creation is listed in `📋 View Session Changes`
+as `Created this deck` (or collection / wanted list) ahead of that list's card changes;
+discarding it drops the whole list, and is blocked until the list's own card changes are
+discarded first.
+
 ## Move cards between lists
 
 `ritual move` is an interactive TUI (requires a terminal) for moving cards between
@@ -108,6 +127,37 @@ exists, else by card name); changes whose target card no longer exists are skipp
 and reported. Each list gets a changelog entry, and a failed list (e.g. one that no
 longer exists) is reported without stopping the rest. Exits non-zero when any list
 fails. The same JSON can also be applied in the web admin's **Import Changes** page.
+
+## Export cards as CSV or JSON
+
+`ritual export` renders any grouping of cards to CSV or JSON. Bare `ritual export`
+in a terminal opens an interactive wizard; agents should always pass flags (any
+source, filter, or output flag runs non-interactively). With no lists and no
+`--card` picks, **every list** is exported:
+
+```bash
+ritual export --format json > all-cards.json          # everything, JSON on stdout
+ritual export deck:burn --out burn.csv                # one deck to a CSV file
+ritual export "Main Binder" wishlist --set MKM        # two lists, filtered by set
+ritual export --card "sol ring" --card "mana crypt"   # cherry-pick cards across lists
+ritual export --collection --finish foil --condition NM
+ritual export --all --columns name,quantity,listName --no-header --quote-all
+ritual export --all --save-preset trade-sheet         # save format/columns/CSV options
+ritual export --all --preset trade-sheet --out t.csv  # reuse them (flags override)
+```
+
+List names take an optional `deck:`/`collection:`/`wanted:` prefix (or scope with
+`--deck`/`--collection`/`--wanted`). Filters: `--name <terms>`, `--set <code>`,
+`--finish nonfoil|foil|etched` (nonfoil also matches unmarked cards), and
+`--condition <list>` — comma-separated NM|LP|MP|HP|DMG|none, where a grade
+matches only cards with it explicitly marked and `none` matches cards without
+one (e.g. `--condition NM,none`); wanted entries never match. Available columns:
+`name`, `quantity`, `set`, `collectorNumber`, `edition` (set + collector
+number as `SET:number`), `finish`, `isFoil` (true when foil or etched),
+`condition`, `note`, `section`, `listName`, `listType`. Set codes are
+lowercase in JSON and UPPERCASE in CSV. Without `--out` the export goes to stdout (the confirmation goes to
+stderr, so stdout stays parseable). Presets persist in `ritual.config.json` under
+`exportPresets`. Exit codes: 2 usage error, 3 unknown list/preset.
 
 ## Compact change history
 

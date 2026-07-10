@@ -3,6 +3,8 @@
   "collectionsDir": "./collections",
   "wantedDir": "./wanted",
   "defaultCurrency": "usd",
+  "cacheLockTimeoutSeconds": 300,
+  "cacheSource": "scryfall",
   "admin": {
     "gitEnabled": false,
     "gitAutoCommit": false,
@@ -37,6 +39,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta18"
+    "version": "0.1.0-beta20"
   }
 }

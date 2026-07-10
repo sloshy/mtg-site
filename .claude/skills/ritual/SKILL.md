@@ -42,12 +42,12 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
 
 ```
 # My Collection
-- Black Lotus (LEA:232) [foil] [NM] {first edition} &7
+- Black Lotus (LEA:232) [foil] [LP] {first edition} &7
 - Counterspell
 ```
 
 - `(SET:CollectorNumber)` pins a printing. Set codes are written **UPPERCASE** in files.
-- `[foil]`/`[etched]` is the finish, `[NM]`/`[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition, `{...}` a note.
+- `[foil]`/`[etched]` is the finish, `[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition (the default `NM` is not written), `{...}` a note.
 - `&N` is a **stable internal card ID**. Never hand-author or renumber these — the tools manage them.
 
 **Prefer the CLI (or the web admin / MCP server) over hand-editing files**, so the
@@ -59,7 +59,7 @@ inspection is fine.
 - **ritual-decks** — create, import, sync, and price decks
 - **ritual-collections** — manage and price collections
 - **ritual-wanted** — manage and price wanted lists
-- **ritual-edit** — card edits across any list: non-interactive commands (add/remove cards, notes) and the unified interactive editor
+- **ritual-edit** — card edits across any list: non-interactive commands (add/remove cards, notes), the unified interactive editor, and CSV/JSON exports
 - **ritual-cards** — look up cards and run Scryfall searches
 - **ritual-site** — build, serve, and administer the published site (and the MCP server)
 
@@ -76,7 +76,14 @@ ritual config-set <prop> <value>  # set a config value (dot notation for nested 
 ritual config-set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
 ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download)
 ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards
+ritual cache-feed host            # host a P2P feed of the raw Scryfall bulk files
+ritual cache-feed fetch           # sync the cache from a feed, then seed to peers
+ritual config-set cacheSource feed  # make all cache refreshes sync via the feed
 ```
+
+Cache refreshes take an exclusive lock (`cache/.ritual-cache-lock`); a refresh
+started while another process is refreshing waits up to the configurable
+`cacheLockTimeoutSeconds` (default 300) instead of interleaving writes.
 
 ## Alternative: the MCP server
 
