@@ -55,7 +55,6 @@
 - Electro, Assaulting Battery (SPM:76) [NM] &53
 - Open the Way (MAT:23) [foil] [NM] &54
 - Peter Parker's Camera (SPM:171) [NM] &55
-- Constant Mists (STH:104) [NM] &56
 - Vivi's Persistence (FIC:458) [foil] [NM] &57
 - Search for Dagger (FIC:459) [foil] [NM] &58
 - Noctis, Heir Apparent (FIC:460) [foil] [NM] &59
@@ -152,7 +151,6 @@
 - Tamiyo's Journal (INR:272) [foil] [NM] &152
 - Bolas's Citadel (MB2:39) [NM] &153
 - Gitaxian Probe (MB2:28) [NM] &154
-- Tyvar's Stand (PLST:ONE-190) [NM] &155
 - Conspicuous Snoop (PLST:M21-139) [NM] &156
 - Paradoxical Outcome (MB2:33) [NM] &157
 - Collected Company (MB2:203) [NM] &158
@@ -315,7 +313,6 @@
 - Coat of Arms (M10:207) [NM] &316
 - Caduceus, Staff of Hermes (ACR:155) [NM] &317
 - Cavern of Souls (LCI:410c) [foil] [NM] &318
-- Mithril Coat (LTR:696) [NM] &319
 - Extraplanar Lens (MRD:169) [NM] &320
 - Commander's Plate (SLD:1733) [NM] &321
 - Archangel Elspeth (MOM:320) [NM] &322
@@ -325,7 +322,6 @@
 - Throne of Eldraine (WOC:40) [foil] [NM] &326
 - Mutavault (CLB:903) [NM] &327
 - Guide of Souls (MH3:448) [foil] [NM] &328
-- Myrel, Shield of Argive (SLC:13) [foil] [NM] &329
 - Faithless Looting (SLD:1779) [NM] &330
 - Mana Geyser (SLD:1821) [NM] &331
 - Springleaf Drum (SLP:22) [NM] &332
@@ -351,7 +347,6 @@
 - Firemane Commando (MOC:81) [foil] [NM] &354
 - Exemplar of Light (FDN:11) [NM] &355
 - Fell the Mighty (SLD:2690) [NM] &356
-- Aggravated Assault (SLD:2691) [NM] &357
 - Utopia Sprawl (SLD:2693) [NM] &358
 - Aura Shards (SLD:2694) [NM] &359
 - General's Enforcer (SLD:7152) [foil] [NM] &360
@@ -416,3 +411,16 @@
 - Muddle the Mixture (RVR:50) [foil] [NM] &414
 - Songcrafter Mage (TDM:371) [NM] &415
 - Island (SLD:1479) [foil] [NM] &416
+- Preordain (LTC:196) [NM] &111
+- Bastion Protector (MIC:80) [NM] &417
+- And They Shall Know No Fear (40K:9) [NM] &418
+- Renewed Solidarity (DRC:23) [NM] &419
+- Boromir, Warden of the Tower (LTR:4) [NM] &420
+- Daru Warchief (SCG:6) [NM] &421
+- Emeria, the Sky Ruin (C14:293) [NM] &422
+- Young Pyromancer (UMA:155) [NM] &423
+- Galvanic Iteration (INR:430) [foil] [NM] &56
+- Brainstorm (MKC:96) [NM] &155
+- Electro, Assaulting Battery (SPM:76) [NM] &319
+- Bloom Tender (PLST:EVE-66) [NM] &329
+- Archmage Emeritus (STX:37) [NM] &357

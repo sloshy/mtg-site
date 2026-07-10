@@ -257,3 +257,11 @@
 - Removed "Kaito, Bane of Nightmares" (DSK:220) &247
 - Removed "Progenitus" (FDN:431) [foil] &227
 - Removed "Eluge, the Shoreless Sea" (BLB:288) &58
+
+## 2026-07-09T21:43:13.733Z
+
+- Removed "Flawless Maneuver" (CMM:24) &40
+- Removed "Andúril, Narsil Reforged" (LTC:491) [foil] &272
+- Removed "Pip-Boy 3000" (PIP:140) &301
+- Removed "Leyline Axe" (FDN:129) &286
+- Removed "Caduceus, Staff of Hermes" (ACR:155) &32

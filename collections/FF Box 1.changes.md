@@ -493,3 +493,24 @@
 ## 2026-07-09T17:18:08.055Z
 
 - Added "Jumbo Cactuar" (FIN:343) &56
+
+## 2026-07-09T21:43:13.692Z
+
+- Removed "Redirect Lightning" (TLA:343) &183
+- Removed "Pyrohemia" (SLD:2211) [foil] &248
+- Added "Frantic Search" (CMM:96) [foil] &83
+- Added "Ruinous Ultimatum" (PIP:220) &87
+- Added "Queen Marchesa" (CMM:350) &88
+- Added "Windborn Muse" (VOC:101) &113
+- Added "Oft-Nabbed Goat" (ECC:31) &183
+- Added "Reverent Mantra" (SLD:2686) [foil] &236
+- Added "Juri, Master of the Revue" (EOC:119) &242
+- Added "Formless Genesis" (EOC:96) &248
+- Added "Goro-Goro, Disciple of Ryusei" (NEO:145) &286
+- Added "Storm-Kiln Artist" (STX:115) &389
+- Added "Assault Strobe" (SOM:82) &438
+- Added "Delina, Wild Mage" (AFR:317) &458
+- Added "Generous Gift" (SLD:2534) [foil] &459
+- Added "Gideon Blackblade" (WAR:13) &460
+- Added "Stormcatch Mentor" (BLB:234) &461
+- Added "Growth Spiral" (LTC:267) &462

@@ -80,7 +80,6 @@
 - Miirym, Sentinel Wyrm (SLD:2500) [foil] [NM] &80
 - Scaled Nurturer (SLD:7101) [foil] [NM] &81
 - Hugs, Grisly Guardian (BLB:218) [NM] &82
-- Heroic Intervention (SLD:1872) [NM] {JP version} &83
 - Raffine's Tower (SNC:254) [NM] &84
 - Lumra, Bellow of the Woods (BLB:342) [foil] [NM] &85
 - Bonny Pall, Clearcutter (OTJ:349) [NM] &86
@@ -125,7 +124,6 @@
 - Triple Triad (FIN:166) [foil] [NM] &126
 - Anzrag's Rampage (MKM:303) [NM] &127
 - Bloodline Bidding (ECL:395) [foil] [NM] &128
-- Hexing Squelcher (ECL:317) [NM] &129
 - Door of Destinies (SPG:146) [foil] [NM] &130
 - Helix Pinnacle (SPG:139) [NM] &131
 - Figure of Fable (ECL:224) [NM] &132

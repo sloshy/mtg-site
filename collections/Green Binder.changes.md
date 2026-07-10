@@ -281,3 +281,10 @@
 - Removed "Enduring Tenacity" (DSK:95) &178
 - Removed "Bloodletter of Aclazotz" (LCI:92) &193
 - Removed "Unstoppable Slasher" (DSK:119) [foil] &183
+
+## 2026-07-09T21:43:13.723Z
+
+- Removed "Forge Anew" (LTR:17) &31
+- Removed "Lion Sash" (NEO:26) [foil] &33
+- Removed "Puresteel Paladin" (CMM:51) &48
+- Removed "Dollmaker's Shop // Porcelain Gallery" (DSK:335) [foil] &52

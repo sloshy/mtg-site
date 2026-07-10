@@ -256,3 +256,8 @@
 - Removed "Stroke of Midnight" (FCA:26) [foil] &102
 - Removed "Anzrag, the Quake-Mole" (MKM:186) &29
 - Removed "Jumbo Cactuar" (FIN:343) &30
+
+## 2026-07-09T21:43:13.718Z
+
+- Removed "Heroic Intervention" (SLD:1872) &83
+- Removed "Hexing Squelcher" (ECL:317) &129

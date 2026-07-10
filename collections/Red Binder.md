@@ -29,7 +29,6 @@
 - Reya Dawnbringer (SLD:1682) [foil] [NM] &28
 - Celestial Armor (FDN:5) [NM] &29
 - Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] [NM] &30
-- Caduceus, Staff of Hermes (ACR:155) [NM] &32
 - Everything Comes to Dust (WHO:19) [NM] &33
 - Sierra, Nuka's Biggest Fan (PIP:372) [foil] [NM] &34
 - Ossification (PCBB:1) [foil] [NM] &35
@@ -37,7 +36,6 @@
 - Wall of Omens (FCA:27) [foil] [NM] &37
 - Wall of Omens (FCA:27) [foil] [NM] &38
 - Armageddon (SLD:1854) [foil] [NM] &39
-- Flawless Maneuver (CMM:24) [NM] &40
 - Wizened Mentor (DRC:24) [NM] &41
 - Resurgent Belief (MH2:26) [NM] &42
 - Baldin, Century Herdmaster (SLD:428) [NM] &43
@@ -257,7 +255,6 @@
 - Karn, the Great Creator (WAR:1) [NM] &269
 - Banner of Kinship (FDN:127) [NM] &270
 - The Eternity Elevator (EOE:241) [NM] &271
-- Andúril, Narsil Reforged (LTC:491) [foil] [NM] &272
 - Urtet, Remnant of Memnarch (ONC:42) [NM] &273
 - Urza's Incubator (DMR:392) [NM] &274
 - Sapphire Medallion (CMM:407) [NM] &275
@@ -270,7 +267,6 @@
 - Springleaf Drum (SLP:22) [NM] &283
 - Ashnod's Altar (SLD:1679) [NM] &284
 - Scrawling Crawler (FDN:486) [NM] &285
-- Leyline Axe (FDN:129) [NM] &286
 - Leyline Axe (FDN:485) [NM] &287
 - Conjurer's Closet (INR:441) [NM] &288
 - Conjurer's Closet (INR:321) [NM] &289
@@ -284,7 +280,6 @@
 - Commander's Sphere (PW24:8) [foil] [NM] &297
 - Iron Maiden (SLD:2185) [NM] &299
 - Whispersilk Cloak (M11:221) [NM] &300
-- Pip-Boy 3000 (PIP:140) [NM] &301
 - Emerald Medallion (MH3:345) [foil] [NM] &302
 - Ruby Medallion (MH3:348) [NM] &303
 - Colossus Hammer (LCC:110) [NM] &304

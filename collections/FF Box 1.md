@@ -178,7 +178,6 @@
 - Bitter Work (TLA:210) [NM] &180
 - Tectonic Split (TLE:208) [foil] [NM] &181
 - Sun Warriors (TLA:244) [NM] &182
-- Redirect Lightning (TLA:343) [NM] &183
 - United Front (TLA:39) [NM] &184
 - Aetherize (GTC:29) [NM] &185
 - Explorer's Scope (PIP:231) [NM] &186
@@ -241,7 +240,6 @@
 - Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (FIN:229) [NM] &245
 - Memories Returning (FIN:63) [NM] &246
 - Dissipation Field (SOM:32) [NM] &247
-- Pyrohemia (SLD:2211) [foil] [NM] &248
 - Seething Song (SLD:7051) [foil] [NM] &249
 - Sol Ring (SLD:912) [foil] [NM] &250
 - Nathan Drake, Treasure Hunter (SLD:2216) [foil] [NM] &251
@@ -449,3 +447,19 @@
 - Varchild, Betrayer of Kjeldor (C18:28) [NM] &457
 - Karazikar, the Eye Tyrant (SLD:1791) [foil] [NM] &377
 - Jumbo Cactuar (FIN:343) [NM] &56
+- Frantic Search (CMM:96) [foil] [NM] &83
+- Ruinous Ultimatum (PIP:220) [NM] &87
+- Queen Marchesa (CMM:350) [NM] &88
+- Windborn Muse (VOC:101) [NM] &113
+- Oft-Nabbed Goat (ECC:31) [NM] &183
+- Reverent Mantra (SLD:2686) [foil] [NM] &236
+- Juri, Master of the Revue (EOC:119) [NM] &242
+- Formless Genesis (EOC:96) [NM] &248
+- Goro-Goro, Disciple of Ryusei (NEO:145) [NM] &286
+- Storm-Kiln Artist (STX:115) [NM] &389
+- Assault Strobe (SOM:82) [NM] &438
+- Delina, Wild Mage (AFR:317) [NM] &458
+- Generous Gift (SLD:2534) [foil] [NM] &459
+- Gideon Blackblade (WAR:13) [NM] &460
+- Stormcatch Mentor (BLB:234) [NM] &461
+- Growth Spiral (LTC:267) [NM] &462

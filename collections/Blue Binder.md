@@ -42,7 +42,6 @@
 - Wolverine, Best There Is (SLD:1737) [NM] &39
 - Captain America, First Avenger (SLD:1726) [NM] &40
 - Iron Man, Titan of Innovation (SLD:1731) [foil] [NM] &41
-- Rhythm of the Wild (SLD:1740) [foil] [NM] &42
 - Wolverine, Best There Is (SLD:1737) [foil] [NM] &43
 - Storm, Force of Nature (SLD:1742) [NM] &44
 - Manamorphose (SLD:1746) [NM] &45

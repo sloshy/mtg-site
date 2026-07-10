@@ -450,3 +450,24 @@
 ## 2026-07-09T17:02:46.814Z
 
 - Removed "Patrolling Peacemaker" (EOC:25) &111
+
+## 2026-07-09T21:43:13.711Z
+
+- Added "Preordain" (LTC:196) &111
+- Added "Bastion Protector" (MIC:80) &417
+- Added "And They Shall Know No Fear" (40K:9) &418
+- Added "Renewed Solidarity" (DRC:23) &419
+- Added "Boromir, Warden of the Tower" (LTR:4) &420
+- Added "Daru Warchief" (SCG:6) &421
+- Added "Emeria, the Sky Ruin" (C14:293) &422
+- Added "Young Pyromancer" (UMA:155) &423
+- Removed "Tyvar's Stand" (PLST:ONE-190) &155
+- Removed "Aggravated Assault" (SLD:2691) &357
+- Removed "Myrel, Shield of Argive" (SLC:13) [foil] &329
+- Removed "Mithril Coat" (LTR:696) &319
+- Removed "Constant Mists" (STH:104) &56
+- Added "Galvanic Iteration" (INR:430) [foil] &56
+- Added "Brainstorm" (MKC:96) &155
+- Added "Electro, Assaulting Battery" (SPM:76) &319
+- Added "Bloom Tender" (PLST:EVE-66) &329
+- Added "Archmage Emeritus" (STX:37) &357
