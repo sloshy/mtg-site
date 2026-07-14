@@ -1,0 +1,210 @@
+# Changelog for Long Box
+
+## 2026-07-13T19:31:09.647Z
+
+- Added "Feral Encounter" (WOE:356) [foil] &1
+- Added "The Goose Mother" (WOE:204) [foil] &2
+- Added "Restless Fortress" (WOE:305) &3
+- Added "Rest in Peace" (WOT:12) &4
+- Added "Raid Bombardment" (WOT:47) &5
+- Added "Dragon Mantle" (WOT:41) [foil] &6
+- Added "Extraordinary Journey" (WOE:48) [foil] &7
+- Added "Raging Battle Mouse" (WOE:349) &8
+- Added "Virtue of Knowledge // Vantress Visions" (WOE:279) &9
+- Added "Prismatic Omen" (WOT:60) &10
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:288) [foil] &11
+- Added "Pledge of Loyalty" (PLST:INV-24) &12
+- Added "Wall of Granite" (PLST:POR-155) &13
+- Added "Desert" (PLST:AFC-233) &14
+- Added "Interdisciplinary Mascot" (MOM:326) &15
+- Added "Horobi, Death's Wail" (MUL:14) &16
+- Added "Drana and Linvala" (MOM:222) &17
+- Added "Bloated Processor" (MOM:93) &18
+- Added "Avenger of Zendikar" (PLST:WWK-96) &19
+- Added "Baral, Chief of Compliance" (MUL:8) &20
+- Added "Arixmethes, Slumbering Isle" (MUL:32) [foil] &21
+- Added "Judith, the Scourge Diva" (MUL:45) &22
+- Added "Lavaborn Muse" (PLST:DDK-50) &23
+- Added "Thalia and The Gitrog Monster" (MOM:316) &24
+- Added "Ayara, First of Locthwain" (MUL:13) &25
+- Added "Invasion of Theros // Ephara, Ever-Sheltering" (MOM:23) &26
+- Added "Arixmethes, Slumbering Isle" (MUL:32) &27
+- Added "Quintorius, Loremaster" (MOM:250) &28
+- Added "The World Tree" (PLST:KHM-275) &29
+- Added "Zirda, the Dawnwaker" (MUL:65) &30
+- Added "Taigam, Ojutai Master" (MUL:60) [foil] &31
+- Added "Chrome Host Seedshark" (MOM:51) &32
+- Added "Complete the Circuit" (MOM:52) &33
+- Added "Skithiryx, the Blight Dragon" (MUL:17) &34
+- Added "Inga and Esika" (MOM:229) &35
+- Added "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse" (MOM:293) &36
+- Added "Thalia, Guardian of Thraben" (MUL:7) &37
+- Added "Elspeth's Talent" (MOC:72) &38
+- Added "Invasion of Karsus // Refraction Elemental" (MOM:146) &39
+- Added "Yargle and Multani" (MOM:256) &40
+- Added "Hidetsugu and Kairi" (MOM:228) &41
+- Added "Captain Lannery Storm" (MUL:20) &42
+- Added "Terror of Towashi" (MOM:331) &43
+- Added "Vivien's Talent" (MOC:78) &44
+- Added "Into the Fire" (MOM:144) &45
+- Added "Invasion of Alara // Awaken the Maelstrom" (MOM:230) &46
+- Added "Nashi, Moon's Legacy" (MAT:39) &47
+- Added "Lurrus of the Dream-Den" (MUL:51) &48
+- Added "Thalia and The Gitrog Monster" (MOM:255) &49
+- Added "Invasion of Tolvada // The Broken Sky" (MOM:241) &50
+- Added "Jegantha, the Wellspring" (MUL:44) &51
+- Added "Knight-Errant of Eos" (MOM:26) &52
+- Added "Kami of Whispered Hopes" (MOM:196) &53
+- Added "See Double" (MOM:77) &54
+- Added "Teferi's Talent" (MOC:74) &55
+- Added "Ayara, Widow of the Realm // Ayara, Furnace Queen" (MOM:90) &56
+- Added "Ancient Imperiosaur" (MOM:174) &57
+- Added "Lurrus of the Dream-Den" (MUL:51) &58
+- Added "Kasla, the Broken Halo" (MOC:4) &59
+- Added "City on Fire" (MOM:135) &60
+- Added "Rashmi and Ragavan" (MOC:8) &61
+- Added "Tyvar the Bellicose" (MAT:48) &62
+- Added "Samut, Vizier of Naktamun" (MAT:45) [foil] &63
+- Added "Ayara's Oathsworn" (MAT:11) &64
+- Added "Tazri, Stalwart Survivor" (MAT:6) &65
+- Added "Jolrael, Voice of Zhalfir" (MAT:33) &66
+- Added "Jirina, Dauntless General" (MAT:32) &67
+- Added "Vesuvan Drifter" (MAT:10) &68
+- Added "Deification" (MAT:52) &69
+- Added "Samut, Vizier of Naktamun" (MAT:45) &70
+- Added "The Kenriths' Royal Funeral" (MAT:34) [foil] &71
+- Added "Niv-Mizzet, Supreme" (MAT:40) &72
+- Added "Deification" (MAT:2) &73
+- Added "Tazri, Stalwart Survivor" (MAT:6) [foil] &74
+- Added "Arni Metalbrow" (MAT:16) &75
+- Added "The Kenriths' Royal Funeral" (MAT:34) &76
+- Added "Drannith Ruins" (MAT:50) &77
+- Added "Rocco, Street Chef" (MAT:44) &78
+- Added "Karn, Legacy Reforged" (MAT:49) &79
+- Added "Training Grounds" (MAT:9) &80
+- Added "Pia Nalaar, Consul of Revival" (MAT:42) &81
+- Added "Arni Metalbrow" (MAT:16) [foil] &82
+- Added "Calix, Guided by Fate" (MAT:26) &83
+- Added "Tranquil Frillback" (MAT:24) &84
+- Added "Plargg and Nassari" (MAT:18) &85
+- Added "Vesuvan Drifter" (MAT:60) &86
+- Added "Metropolis Reformer" (MAT:4) &87
+- Added "Danitha, New Benalia's Light" (MAT:29) &88
+- Added "Raging Battle Mouse" (WOE:143) [foil] &89
+- Added "Virtue of Knowledge // Vantress Visions" (WOE:279) [foil] &90
+- Added "Sneak Attack" (WOT:50) &91
+- Added "Knightly Valor" (WOT:8) &92
+- Added "Compulsion" (WOT:15) [foil] &93
+- Added "Song of Totentanz" (WOE:150) [foil] &94
+- Added "Farsight Ritual" (WOE:332) &95
+- Added "Restless Vinestalk" (WOE:307) &96
+- Added "Karmic Justice" (WOT:65) [foil] &97
+- Added "Compulsion" (WOT:15) &98
+- Added "Heartflame Duelist // Heartflame Slash" (WOE:228) [foil] &99
+- Added "Ashiok, Wicked Manipulator" (WOE:297) &100
+- Added "Utopia Sprawl" (WOT:63) [foil] &101
+- Added "Restless Vinestalk" (WOE:261) [foil] &102
+- Added "Rotisserie Elemental" (WOE:352) &103
+- Added "Gumdrop Poisoner // Tempt with Treats" (WOE:280) &104
+- Added "Elvish Archivist" (WOE:355) [foil] &105
+- Added "Stroke of Midnight" (WOE:33) [foil] &106
+- Added "Thunderous Debut" (WOE:359) &107
+- Added "Regal Bunnicorn" (WOE:25) [foil] &108
+- Added "Rankle's Prank" (WOE:102) [foil] &109
+- Added "Rankle's Prank" (WOE:341) &110
+- Added "Bramble Familiar // Fetch Quest" (WOE:283) &111
+- Added "Oppression" (WOT:32) &112
+- Added "Prismatic Omen" (WOT:60) [foil] &113
+- Added "Hatching Plans" (WOT:20) [foil] &114
+- Added "Restless Bivouac" (WOE:303) &115
+- Added "Polluted Bonds" (WOT:75) &116
+- Added "Spreading Seas" (WOT:26) &117
+- Added "Mana Flare" (WOT:46) &118
+- Added "Pollen-Shield Hare // Hare Raising" (WOE:293) [foil] &119
+- Added "Utopia Sprawl" (WOT:63) &120
+- Added "Ground Seal" (WOT:54) [foil] &121
+- Added "Ashiok, Wicked Manipulator" (WOE:78) [foil] &122
+- Added "Asinine Antics" (WOE:330) &123
+- Added "Intangible Virtue" (WOT:6) [foil] &124
+- Added "Intangible Virtue" (WOT:6) &125
+- Added "A Tale for the Ages" (WOE:328) &126
+- Added "Pollen-Shield Hare // Hare Raising" (WOE:293) &127
+- Added "Dragon Mantle" (WOT:41) &128
+- Added "Spreading Seas" (WOT:26) [foil] &129
+- Added "Twining Twins // Swift Spiral" (WOE:240) [foil] &130
+- Added "Timber Paladin" (WOC:56) &131
+- Added "Elusive Otter // Grove's Bounty" (WOE:289) &132
+- Added "Charming Scoundrel" (WOE:345) [foil] &133
+- Added "Restless Vinestalk" (WOE:307) [foil] &134
+- Added "Yenna, Redtooth Regent" (WOE:219) [foil] &135
+- Added "Impact Tremors" (WOT:44) &136
+- Added "Season of Growth" (WOT:61) &137
+- Added "Stab Wound" (WOT:36) [foil] &138
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:288) &139
+- Added "Mosswood Dreadknight // Dread Whispers" (WOE:231) &140
+- Added "Ellivere of the Wild Court" (WOC:2) &141
+- Added "Stab Wound" (WOT:36) &142
+- Added "Specter of Mortality" (WOE:107) &143
+- Added "Dark Tutelage" (WOT:28) &144
+- Added "Pollen-Shield Hare // Hare Raising" (WOE:233) &145
+- Added "Cruel Somnophage // Can't Wake Up" (WOE:222) &146
+- Added "Yenna, Redtooth Regent" (WOE:219) &147
+- Added "Polluted Bonds" (WOT:75) &148
+- Added "Fraying Sanity" (WOT:19) &149
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:288) &150
+- Added "Elvish Archivist" (WOE:168) &151
+- Added "Three Blind Mice" (WOE:35) &152
+- Added "Karmic Justice" (WOT:7) &153
+- Added "Ashiok, Wicked Manipulator" (WOE:78) &154
+- Added "Scalding Viper // Steam Clean" (WOE:235) &155
+- Added "Knightly Valor" (WOT:8) [foil] &156
+- Added "Compulsion" (WOT:15) &157
+- Added "Utopia Sprawl" (WOT:63) &158
+- Added "Ground Seal" (WOT:54) &159
+- Added "Food Fight" (WOE:129) &160
+- Added "Dragon Mantle" (WOT:41) &161
+- Added "Spreading Seas" (WOT:26) &162
+- Added "Grasp of Fate" (WOT:3) &163
+- Added "Farsight Ritual" (WOE:49) &164
+- Added "Raid Bombardment" (WOT:47) &165
+- Added "Imodane, the Pyrohammer" (WOE:137) &166
+- Added "Raid Bombardment" (WOT:47) [foil] &167
+- Added "Shared Animosity" (WOT:49) &168
+- Added "Ground Seal" (WOT:54) &169
+- Added "Season of Growth" (WOT:61) &170
+- Added "Elusive Otter // Grove's Bounty" (WOE:225) &171
+- Added "Impact Tremors" (WOT:44) &172
+- Added "Hatching Plans" (WOT:20) &173
+- Added "Forced Fruition" (WOT:18) [foil] &174
+- Added "Leyline of Sanctity" (WOT:10) &175
+- Added "Knightly Valor" (WOT:8) &176
+- Added "Hatching Plans" (WOT:20) [foil] &177
+- Added "Forced Fruition" (WOT:18) &178
+- Added "Necropotence" (WOT:31) &179
+- Added "Wildwood Mentor" (WOE:322) &180
+- Added "Rotisserie Elemental" (WOE:148) &181
+- Added "Extraordinary Journey" (WOE:48) &182
+- Added "Beluna Grandsquall // Seek Thrills" (WOE:285) &183
+- Added "Ogre Chitterlord" (WOE:319) &184
+- Added "Twining Twins // Swift Spiral" (WOE:240) &185
+- Added "Restless Vinestalk" (WOE:307) &186
+- Added "Restless Fortress" (WOE:259) &187
+- Added "Sanguine Bond" (WOT:35) &188
+- Added "Ground Seal" (WOT:54) &189
+- Added "Stroke of Midnight" (WOE:33) &190
+- Added "Dragon Mantle" (WOT:41) &191
+- Added "The Irencrag" (WOE:248) &192
+- Added "The End" (WOE:87) &193
+- Added "Goddric, Cloaked Reveler" (WOE:132) &194
+- Added "Intangible Virtue" (WOT:6) &195
+- Added "Beseech the Mirror" (WOE:82) &196
+- Added "Griffin Aerie" (WOT:5) &197
+- Added "Shared Animosity" (WOT:49) &198
+- Added "Stab Wound" (WOT:36) &199
+- Added "Oversold Cemetery" (WOT:33) &200
+- Added "Feral Encounter" (WOE:169) &201
+- Added "Vampiric Rites" (WOT:37) &202
+- Added "Archon of the Wild Rose" (WOE:1) &203
+- Added "Blossoming Tortoise" (WOE:163) &204
+- Added "Season of Growth" (WOT:61) &205
+- Added "Sentinel of Lost Lore" (WOE:184) &206

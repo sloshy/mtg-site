@@ -1,0 +1,209 @@
+# Long Box
+
+## Main
+- Feral Encounter (WOE:356) [foil] &1
+- The Goose Mother (WOE:204) [foil] &2
+- Restless Fortress (WOE:305) &3
+- Rest in Peace (WOT:12) &4
+- Raid Bombardment (WOT:47) &5
+- Dragon Mantle (WOT:41) [foil] &6
+- Extraordinary Journey (WOE:48) [foil] &7
+- Raging Battle Mouse (WOE:349) &8
+- Virtue of Knowledge // Vantress Visions (WOE:279) &9
+- Prismatic Omen (WOT:60) &10
+- Devouring Sugarmaw // Have for Dinner (WOE:288) [foil] &11
+- Pledge of Loyalty (PLST:INV-24) &12
+- Wall of Granite (PLST:POR-155) &13
+- Desert (PLST:AFC-233) &14
+- Interdisciplinary Mascot (MOM:326) &15
+- Horobi, Death's Wail (MUL:14) &16
+- Drana and Linvala (MOM:222) &17
+- Bloated Processor (MOM:93) &18
+- Avenger of Zendikar (PLST:WWK-96) &19
+- Baral, Chief of Compliance (MUL:8) &20
+- Arixmethes, Slumbering Isle (MUL:32) [foil] &21
+- Judith, the Scourge Diva (MUL:45) &22
+- Lavaborn Muse (PLST:DDK-50) &23
+- Thalia and The Gitrog Monster (MOM:316) &24
+- Ayara, First of Locthwain (MUL:13) &25
+- Invasion of Theros // Ephara, Ever-Sheltering (MOM:23) &26
+- Arixmethes, Slumbering Isle (MUL:32) &27
+- Quintorius, Loremaster (MOM:250) &28
+- The World Tree (PLST:KHM-275) &29
+- Zirda, the Dawnwaker (MUL:65) &30
+- Taigam, Ojutai Master (MUL:60) [foil] &31
+- Chrome Host Seedshark (MOM:51) &32
+- Complete the Circuit (MOM:52) &33
+- Skithiryx, the Blight Dragon (MUL:17) &34
+- Inga and Esika (MOM:229) &35
+- Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (MOM:293) &36
+- Thalia, Guardian of Thraben (MUL:7) &37
+- Elspeth's Talent (MOC:72) &38
+- Invasion of Karsus // Refraction Elemental (MOM:146) &39
+- Yargle and Multani (MOM:256) &40
+- Hidetsugu and Kairi (MOM:228) &41
+- Captain Lannery Storm (MUL:20) &42
+- Terror of Towashi (MOM:331) &43
+- Vivien's Talent (MOC:78) &44
+- Into the Fire (MOM:144) &45
+- Invasion of Alara // Awaken the Maelstrom (MOM:230) &46
+- Nashi, Moon's Legacy (MAT:39) &47
+- Lurrus of the Dream-Den (MUL:51) &48
+- Thalia and The Gitrog Monster (MOM:255) &49
+- Invasion of Tolvada // The Broken Sky (MOM:241) &50
+- Jegantha, the Wellspring (MUL:44) &51
+- Knight-Errant of Eos (MOM:26) &52
+- Kami of Whispered Hopes (MOM:196) &53
+- See Double (MOM:77) &54
+- Teferi's Talent (MOC:74) &55
+- Ayara, Widow of the Realm // Ayara, Furnace Queen (MOM:90) &56
+- Ancient Imperiosaur (MOM:174) &57
+- Lurrus of the Dream-Den (MUL:51) &58
+- Kasla, the Broken Halo (MOC:4) &59
+- City on Fire (MOM:135) &60
+- Rashmi and Ragavan (MOC:8) &61
+- Tyvar the Bellicose (MAT:48) &62
+- Samut, Vizier of Naktamun (MAT:45) [foil] &63
+- Ayara's Oathsworn (MAT:11) &64
+- Tazri, Stalwart Survivor (MAT:6) &65
+- Jolrael, Voice of Zhalfir (MAT:33) &66
+- Jirina, Dauntless General (MAT:32) &67
+- Vesuvan Drifter (MAT:10) &68
+- Deification (MAT:52) &69
+- Samut, Vizier of Naktamun (MAT:45) &70
+- The Kenriths' Royal Funeral (MAT:34) [foil] &71
+- Niv-Mizzet, Supreme (MAT:40) &72
+- Deification (MAT:2) &73
+- Tazri, Stalwart Survivor (MAT:6) [foil] &74
+- Arni Metalbrow (MAT:16) &75
+- The Kenriths' Royal Funeral (MAT:34) &76
+- Drannith Ruins (MAT:50) &77
+- Rocco, Street Chef (MAT:44) &78
+- Karn, Legacy Reforged (MAT:49) &79
+- Training Grounds (MAT:9) &80
+- Pia Nalaar, Consul of Revival (MAT:42) &81
+- Arni Metalbrow (MAT:16) [foil] &82
+- Calix, Guided by Fate (MAT:26) &83
+- Tranquil Frillback (MAT:24) &84
+- Plargg and Nassari (MAT:18) &85
+- Vesuvan Drifter (MAT:60) &86
+- Metropolis Reformer (MAT:4) &87
+- Danitha, New Benalia's Light (MAT:29) &88
+- Raging Battle Mouse (WOE:143) [foil] &89
+- Virtue of Knowledge // Vantress Visions (WOE:279) [foil] &90
+- Sneak Attack (WOT:50) &91
+- Knightly Valor (WOT:8) &92
+- Compulsion (WOT:15) [foil] &93
+- Song of Totentanz (WOE:150) [foil] &94
+- Farsight Ritual (WOE:332) &95
+- Restless Vinestalk (WOE:307) &96
+- Karmic Justice (WOT:65) [foil] &97
+- Compulsion (WOT:15) &98
+- Heartflame Duelist // Heartflame Slash (WOE:228) [foil] &99
+- Ashiok, Wicked Manipulator (WOE:297) &100
+- Utopia Sprawl (WOT:63) [foil] &101
+- Restless Vinestalk (WOE:261) [foil] &102
+- Rotisserie Elemental (WOE:352) &103
+- Gumdrop Poisoner // Tempt with Treats (WOE:280) &104
+- Elvish Archivist (WOE:355) [foil] &105
+- Stroke of Midnight (WOE:33) [foil] &106
+- Thunderous Debut (WOE:359) &107
+- Regal Bunnicorn (WOE:25) [foil] &108
+- Rankle's Prank (WOE:102) [foil] &109
+- Rankle's Prank (WOE:341) &110
+- Bramble Familiar // Fetch Quest (WOE:283) &111
+- Oppression (WOT:32) &112
+- Prismatic Omen (WOT:60) [foil] &113
+- Hatching Plans (WOT:20) [foil] &114
+- Restless Bivouac (WOE:303) &115
+- Polluted Bonds (WOT:75) &116
+- Spreading Seas (WOT:26) &117
+- Mana Flare (WOT:46) &118
+- Pollen-Shield Hare // Hare Raising (WOE:293) [foil] &119
+- Utopia Sprawl (WOT:63) &120
+- Ground Seal (WOT:54) [foil] &121
+- Ashiok, Wicked Manipulator (WOE:78) [foil] &122
+- Asinine Antics (WOE:330) &123
+- Intangible Virtue (WOT:6) [foil] &124
+- Intangible Virtue (WOT:6) &125
+- A Tale for the Ages (WOE:328) &126
+- Pollen-Shield Hare // Hare Raising (WOE:293) &127
+- Dragon Mantle (WOT:41) &128
+- Spreading Seas (WOT:26) [foil] &129
+- Twining Twins // Swift Spiral (WOE:240) [foil] &130
+- Timber Paladin (WOC:56) &131
+- Elusive Otter // Grove's Bounty (WOE:289) &132
+- Charming Scoundrel (WOE:345) [foil] &133
+- Restless Vinestalk (WOE:307) [foil] &134
+- Yenna, Redtooth Regent (WOE:219) [foil] &135
+- Impact Tremors (WOT:44) &136
+- Season of Growth (WOT:61) &137
+- Stab Wound (WOT:36) [foil] &138
+- Devouring Sugarmaw // Have for Dinner (WOE:288) &139
+- Mosswood Dreadknight // Dread Whispers (WOE:231) &140
+- Ellivere of the Wild Court (WOC:2) &141
+- Stab Wound (WOT:36) &142
+- Specter of Mortality (WOE:107) &143
+- Dark Tutelage (WOT:28) &144
+- Pollen-Shield Hare // Hare Raising (WOE:233) &145
+- Cruel Somnophage // Can't Wake Up (WOE:222) &146
+- Yenna, Redtooth Regent (WOE:219) &147
+- Polluted Bonds (WOT:75) &148
+- Fraying Sanity (WOT:19) &149
+- Devouring Sugarmaw // Have for Dinner (WOE:288) &150
+- Elvish Archivist (WOE:168) &151
+- Three Blind Mice (WOE:35) &152
+- Karmic Justice (WOT:7) &153
+- Ashiok, Wicked Manipulator (WOE:78) &154
+- Scalding Viper // Steam Clean (WOE:235) &155
+- Knightly Valor (WOT:8) [foil] &156
+- Compulsion (WOT:15) &157
+- Utopia Sprawl (WOT:63) &158
+- Ground Seal (WOT:54) &159
+- Food Fight (WOE:129) &160
+- Dragon Mantle (WOT:41) &161
+- Spreading Seas (WOT:26) &162
+- Grasp of Fate (WOT:3) &163
+- Farsight Ritual (WOE:49) &164
+- Raid Bombardment (WOT:47) &165
+- Imodane, the Pyrohammer (WOE:137) &166
+- Raid Bombardment (WOT:47) [foil] &167
+- Shared Animosity (WOT:49) &168
+- Ground Seal (WOT:54) &169
+- Season of Growth (WOT:61) &170
+- Elusive Otter // Grove's Bounty (WOE:225) &171
+- Impact Tremors (WOT:44) &172
+- Hatching Plans (WOT:20) &173
+- Forced Fruition (WOT:18) [foil] &174
+- Leyline of Sanctity (WOT:10) &175
+- Knightly Valor (WOT:8) &176
+- Hatching Plans (WOT:20) [foil] &177
+- Forced Fruition (WOT:18) &178
+- Necropotence (WOT:31) &179
+- Wildwood Mentor (WOE:322) &180
+- Rotisserie Elemental (WOE:148) &181
+- Extraordinary Journey (WOE:48) &182
+- Beluna Grandsquall // Seek Thrills (WOE:285) &183
+- Ogre Chitterlord (WOE:319) &184
+- Twining Twins // Swift Spiral (WOE:240) &185
+- Restless Vinestalk (WOE:307) &186
+- Restless Fortress (WOE:259) &187
+- Sanguine Bond (WOT:35) &188
+- Ground Seal (WOT:54) &189
+- Stroke of Midnight (WOE:33) &190
+- Dragon Mantle (WOT:41) &191
+- The Irencrag (WOE:248) &192
+- The End (WOE:87) &193
+- Goddric, Cloaked Reveler (WOE:132) &194
+- Intangible Virtue (WOT:6) &195
+- Beseech the Mirror (WOE:82) &196
+- Griffin Aerie (WOT:5) &197
+- Shared Animosity (WOT:49) &198
+- Stab Wound (WOT:36) &199
+- Oversold Cemetery (WOT:33) &200
+- Feral Encounter (WOE:169) &201
+- Vampiric Rites (WOT:37) &202
+- Archon of the Wild Rose (WOE:1) &203
+- Blossoming Tortoise (WOE:163) &204
+- Season of Growth (WOT:61) &205
+- Sentinel of Lost Lore (WOE:184) &206
