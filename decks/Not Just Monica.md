@@ -5,7 +5,7 @@ sourceId: '23872221'
 sourceUrl: 'https://archidekt.com/decks/23872221'
 created: '2026-07-03T23:02:15.092Z'
 tags: []
-lastSynced: '2026-07-10T16:49:30.669Z'
+lastSynced: '2026-07-14T18:47:48.078Z'
 format: commander
 ---
 
@@ -76,7 +76,6 @@ format: commander
 1 Jacked Rabbit &64
 1 United Front &65
 1 Dollmaker's Shop // Porcelain Gallery &66
-1 Thousand Moons Smithy // Barracks of the Thousand &67
 1 Moogles' Valor &68
 1 Call the Coppercoats &69
 1 Swords to Plowshares &70
@@ -97,7 +96,8 @@ format: commander
 1 Flawless Maneuver &28
 1 Cosmogrand Zenith &44
 1 Myrel, Shield of Argive &77
-1 Falcon and Redwing &80
+1 Anim Pakal, Thousandth Moon &67
+1 Royal Talon Fighter Jet &80
 
 ## Maybeboard
 1 Archaeomancer's Map &87
@@ -110,7 +110,6 @@ format: commander
 1 Righteous Confluence &94
 1 Boros Charm &96
 1 Caretaker's Talent &97
-1 Anim Pakal, Thousandth Moon &98
 1 Will of the Mardu &99
 1 Faithless Looting &101
 1 Deflecting Palm &102
