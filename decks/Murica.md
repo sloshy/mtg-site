@@ -1,13 +1,12 @@
 ---
-name: "Murica"
-source: "https://archidekt.com/decks/9337260"
-sourceId: "9337260"
-sourceUrl: "https://archidekt.com/decks/9337260"
-created: "2026-06-25T20:59:18.570Z"
+name: Murica
+source: 'https://archidekt.com/decks/9337260'
+sourceId: '9337260'
+sourceUrl: 'https://archidekt.com/decks/9337260'
+created: '2026-06-25T20:59:18.570Z'
 tags: []
+format: commander
 ---
-
-# Murica
 
 ## Commander
 1 Captain America, First Avenger &1
@@ -151,4 +150,3 @@ tags: []
 1 The Vision &135
 1 Open the Armory &136
 1 Arc Reactor &137
-

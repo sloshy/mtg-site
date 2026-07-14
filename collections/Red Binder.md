@@ -1,334 +1,334 @@
 # Red Binder
 
 ## Main
-- Arahbo, the First Fang (FDN:2) [foil] [NM] &2
-- Arahbo, the First Fang (FDN:294) [NM] &3
-- Elesh Norn, Grand Cenobite (MUL:3) [NM] &4
-- Elesh Norn // The Argent Etchings (MOM:12) [NM] &5
-- Giada, Font of Hope (FDN:298) [foil] [NM] &6
-- The Eternal Wanderer (ONE:422) [foil] [NM] &7
-- Hallowed Haunting (VOW:17) [NM] &8
-- Nomad Mythmaker (PLST:10E-30) [NM] &9
-- Norn's Choirmaster (ONC:46) [NM] &10
-- Phyrexian Vindicator (ONE:300) [foil] [NM] &11
-- Skrelv's Hive (ONE:376) [NM] &12
-- Youthful Valkyrie (FDN:303) [NM] &13
-- Soul Warden (SPG:65) [NM] &14
-- Sheltered by Ghosts (DSK:30) [NM] &15
-- Sheltered by Ghosts (DSK:30) [NM] &16
-- Sheltered by Ghosts (DSK:30) [NM] &17
-- Sheltered by Ghosts (DSK:30) [NM] &18
-- Danitha Capashen, Paragon (FCA:22) [NM] &19
-- Aerith Gainsborough (FIN:374) [foil] [NM] &21
-- Dazzling Theater // Prop Room (PDSK:3p) [foil] [NM] &22
-- Youthful Valkyrie (FDN:149) [foil] [NM] &23
-- Beza, the Bounding Spring (BLB:2) [foil] [NM] &24
-- Wedding Announcement // Wedding Festivity (VOW:45) [NM] &25
-- Prowl, Stoic Strategist // Prowl, Pursuit Vehicle (BOT:1) [foil] [NM] &26
-- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:376) [foil] [NM] &27
-- Reya Dawnbringer (SLD:1682) [foil] [NM] &28
-- Celestial Armor (FDN:5) [NM] &29
-- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] [NM] &30
-- Everything Comes to Dust (WHO:19) [NM] &33
-- Sierra, Nuka's Biggest Fan (PIP:372) [foil] [NM] &34
-- Ossification (PCBB:1) [foil] [NM] &35
-- Norn's Annex (PW23:1) [foil] [NM] &36
-- Wall of Omens (FCA:27) [foil] [NM] &37
-- Wall of Omens (FCA:27) [foil] [NM] &38
-- Armageddon (SLD:1854) [foil] [NM] &39
-- Wizened Mentor (DRC:24) [NM] &41
-- Resurgent Belief (MH2:26) [NM] &42
-- Baldin, Century Herdmaster (SLD:428) [NM] &43
-- Reya Dawnbringer (SLD:1682) [foil] [NM] &45
-- SOLDIER Military Program (FIC:108) [foil] [NM] &46
-- Exemplar of Light (FDN:445) [NM] &47
-- Avacyn, Angel of Hope (INR:482) [foil] [NM] &48
-- SOLDIER Military Program (FIC:108) [NM] &49
-- Mystic Confluence (CMM:108) [foil] [NM] &50
-- Jin-Gitaxias, Progress Tyrant (NEO:513) [NM] &51
-- Blue Mage's Cane (FIC:112) [NM] &52
-- Archive Trap (OTP:7) [NM] &53
-- Orvar, the All-Form (SLD:1683) [foil] [NM] &54
-- Time Stop (FDN:166) [NM] &55
-- As Foretold (WOT:14) [foil] [NM] &56
-- Storm of Saruman (LTR:72) [NM] &57
-- Eluge, the Shoreless Sea (BLB:288) [NM] &59
-- Mindsplice Apparatus (ONE:382) [foil] [NM] &60
-- Transcendent Message (SCH:16) [foil] [NM] &61
-- The Mindskinner (DSK:357) [foil] [NM] &62
-- Archmage of Runes (FDN:30) [foil] [NM] &63
-- Archmage of Runes (FDN:450) [NM] &64
-- The Water Crystal (FIN:333) [NM] &65
-- Kiora, the Rising Tide (FDN:309) [NM] &66
-- Time Stop (FDN:166) [foil] [NM] &67
-- Omniscience (FDN:161) [foil] [NM] &68
-- Cryptic Command (SLD:905) [foil] [NM] &69
-- Lunar Insight (FDN:46) [foil] [NM] &70
-- Lunar Insight (FDN:310) [NM] &71
-- Kiora, the Rising Tide (FDN:45) [NM] &72
-- High Fae Trickster (FDN:453) [NM] &73
-- Think Twice (FDN:425) [foil] [NM] {JP printing, ignore prices} &74
-- Faerie Artisans (CMM:92) [NM] &75
-- Vnwxt, Verbose Host (DFT:356) [NM] &76
-- Serpent of Yawning Depths (SLD:1489★) [foil] [NM] &77
-- The Darkness Crystal (FIN:96) [foil] [NM] &78
-- Bitter Triumph (LCI:91) [NM] &79
-- Nine-Lives Familiar (FDN:66) [NM] &80
-- Nine-Lives Familiar (FDN:66) [NM] &81
-- Hoarding Broodlord (MOM:110) [foil] [NM] &82
-- Leyline of the Void (WOT:30) [NM] &83
-- Drana, the Last Bloodchief (SLD:1684) [foil] [NM] &84
-- Bloodthirsty Conqueror (FDN:460) [foil] [NM] &85
-- Phyrexian Obliterator (ONE:440) [foil] [NM] &86
-- Polluted Bonds (WOT:34) [NM] &87
-- Sheoldred's Edict (ONE:108) [foil] [NM] &88
-- Vorpal Sword (AFR:396) [foil] [NM] &89
-- Vraska, Betrayal's Sting (ONE:115) [foil] [NM] &90
-- Orcish Bowmasters (LTR:433) [foil] [NM] &91
-- Orcish Bowmasters (LTR:433) [foil] [NM] &92
-- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) [NM] &93
-- Maha, Its Feathers Night (BLB:289) [foil] [NM] &94
-- Sorin, Imperious Bloodlord (INR:322) [NM] &95
-- Sorin, Imperious Bloodlord (INR:322) [foil] [NM] &96
-- Drana, the Last Bloodchief (ZNR:338) [NM] &97
-- Ink-Eyes, Servant of Oni (BLC:77) [foil] [NM] &99
-- Vengeful Bloodwitch (FDN:325) [foil] [NM] &100
-- Gix's Command (BRO:97) [NM] &101
-- Valley Rotcaller (BLB:119) [foil] [NM] &102
-- V.A.T.S. (PIP:333) [foil] [NM] &103
-- Keen Duelist (SLD:828) [foil] [NM] &104
-- Tinybones, Bauble Burglar (FDN:463) [NM] &105
-- Unholy Annex // Ritual Chamber (DSK:339) [NM] &106
-- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) [NM] &109
-- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) [NM] &110
-- Ardyn, the Usurper (FIN:444) [NM] &111
-- Massacre Girl (OTC:140) [NM] &112
-- Buried Alive (SLD:1673) [foil] [NM] &113
-- Dismember (SLD:1674) [foil] [NM] &114
-- Valgavoth, Terror Eater (DSK:352) [NM] &115
-- Kiki-Jiki, Mirror Breaker (SLD:1659) [NM] &116
-- Kiki-Jiki, Mirror Breaker (SLD:1659) [foil] [NM] &117
-- Ral, Monsoon Mage // Ral, Leyline Prodigy (MH3:247) [foil] [NM] &118
-- There and Back Again (LTR:151) [NM] &119
-- Stolen Strategy (PIP:467) [NM] &120
-- Inti, Seneschal of the Sun (LCI:295) [NM] &121
+- Arahbo, the First Fang (FDN:2) [foil] &2
+- Arahbo, the First Fang (FDN:294) &3
+- Elesh Norn, Grand Cenobite (MUL:3) &4
+- Elesh Norn // The Argent Etchings (MOM:12) &5
+- Giada, Font of Hope (FDN:298) [foil] &6
+- The Eternal Wanderer (ONE:422) [foil] &7
+- Hallowed Haunting (VOW:17) &8
+- Nomad Mythmaker (PLST:10E-30) &9
+- Norn's Choirmaster (ONC:46) &10
+- Phyrexian Vindicator (ONE:300) [foil] &11
+- Skrelv's Hive (ONE:376) &12
+- Youthful Valkyrie (FDN:303) &13
+- Soul Warden (SPG:65) &14
+- Sheltered by Ghosts (DSK:30) &15
+- Sheltered by Ghosts (DSK:30) &16
+- Sheltered by Ghosts (DSK:30) &17
+- Sheltered by Ghosts (DSK:30) &18
+- Danitha Capashen, Paragon (FCA:22) &19
+- Aerith Gainsborough (FIN:374) [foil] &21
+- Dazzling Theater // Prop Room (PDSK:3p) [foil] &22
+- Youthful Valkyrie (FDN:149) [foil] &23
+- Beza, the Bounding Spring (BLB:2) [foil] &24
+- Wedding Announcement // Wedding Festivity (VOW:45) &25
+- Prowl, Stoic Strategist // Prowl, Pursuit Vehicle (BOT:1) [foil] &26
+- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:376) [foil] &27
+- Reya Dawnbringer (SLD:1682) [foil] &28
+- Celestial Armor (FDN:5) &29
+- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:329) [foil] &30
+- Everything Comes to Dust (WHO:19) &33
+- Sierra, Nuka's Biggest Fan (PIP:372) [foil] &34
+- Ossification (PCBB:1) [foil] &35
+- Norn's Annex (PW23:1) [foil] &36
+- Wall of Omens (FCA:27) [foil] &37
+- Wall of Omens (FCA:27) [foil] &38
+- Armageddon (SLD:1854) [foil] &39
+- Wizened Mentor (DRC:24) &41
+- Resurgent Belief (MH2:26) &42
+- Baldin, Century Herdmaster (SLD:428) &43
+- Reya Dawnbringer (SLD:1682) [foil] &45
+- SOLDIER Military Program (FIC:108) [foil] &46
+- Exemplar of Light (FDN:445) &47
+- Avacyn, Angel of Hope (INR:482) [foil] &48
+- SOLDIER Military Program (FIC:108) &49
+- Mystic Confluence (CMM:108) [foil] &50
+- Jin-Gitaxias, Progress Tyrant (NEO:513) &51
+- Blue Mage's Cane (FIC:112) &52
+- Archive Trap (OTP:7) &53
+- Orvar, the All-Form (SLD:1683) [foil] &54
+- Time Stop (FDN:166) &55
+- As Foretold (WOT:14) [foil] &56
+- Storm of Saruman (LTR:72) &57
+- Eluge, the Shoreless Sea (BLB:288) &59
+- Mindsplice Apparatus (ONE:382) [foil] &60
+- Transcendent Message (SCH:16) [foil] &61
+- The Mindskinner (DSK:357) [foil] &62
+- Archmage of Runes (FDN:30) [foil] &63
+- Archmage of Runes (FDN:450) &64
+- The Water Crystal (FIN:333) &65
+- Kiora, the Rising Tide (FDN:309) &66
+- Time Stop (FDN:166) [foil] &67
+- Omniscience (FDN:161) [foil] &68
+- Cryptic Command (SLD:905) [foil] &69
+- Lunar Insight (FDN:46) [foil] &70
+- Lunar Insight (FDN:310) &71
+- Kiora, the Rising Tide (FDN:45) &72
+- High Fae Trickster (FDN:453) &73
+- Think Twice (FDN:425) [foil] {JP printing, ignore prices} &74
+- Faerie Artisans (CMM:92) &75
+- Vnwxt, Verbose Host (DFT:356) &76
+- Serpent of Yawning Depths (SLD:1489★) [foil] &77
+- The Darkness Crystal (FIN:96) [foil] &78
+- Bitter Triumph (LCI:91) &79
+- Nine-Lives Familiar (FDN:66) &80
+- Nine-Lives Familiar (FDN:66) &81
+- Hoarding Broodlord (MOM:110) [foil] &82
+- Leyline of the Void (WOT:30) &83
+- Drana, the Last Bloodchief (SLD:1684) [foil] &84
+- Bloodthirsty Conqueror (FDN:460) [foil] &85
+- Phyrexian Obliterator (ONE:440) [foil] &86
+- Polluted Bonds (WOT:34) &87
+- Sheoldred's Edict (ONE:108) [foil] &88
+- Vorpal Sword (AFR:396) [foil] &89
+- Vraska, Betrayal's Sting (ONE:115) [foil] &90
+- Orcish Bowmasters (LTR:433) [foil] &91
+- Orcish Bowmasters (LTR:433) [foil] &92
+- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) &93
+- Maha, Its Feathers Night (BLB:289) [foil] &94
+- Sorin, Imperious Bloodlord (INR:322) &95
+- Sorin, Imperious Bloodlord (INR:322) [foil] &96
+- Drana, the Last Bloodchief (ZNR:338) &97
+- Ink-Eyes, Servant of Oni (BLC:77) [foil] &99
+- Vengeful Bloodwitch (FDN:325) [foil] &100
+- Gix's Command (BRO:97) &101
+- Valley Rotcaller (BLB:119) [foil] &102
+- V.A.T.S. (PIP:333) [foil] &103
+- Keen Duelist (SLD:828) [foil] &104
+- Tinybones, Bauble Burglar (FDN:463) &105
+- Unholy Annex // Ritual Chamber (DSK:339) &106
+- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) &109
+- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) &110
+- Ardyn, the Usurper (FIN:444) &111
+- Massacre Girl (OTC:140) &112
+- Buried Alive (SLD:1673) [foil] &113
+- Dismember (SLD:1674) [foil] &114
+- Valgavoth, Terror Eater (DSK:352) &115
+- Kiki-Jiki, Mirror Breaker (SLD:1659) &116
+- Kiki-Jiki, Mirror Breaker (SLD:1659) [foil] &117
+- Ral, Monsoon Mage // Ral, Leyline Prodigy (MH3:247) [foil] &118
+- There and Back Again (LTR:151) &119
+- Stolen Strategy (PIP:467) &120
+- Inti, Seneschal of the Sun (LCI:295) &121
 - Manabarbs (M10:149) [LP] &122
 - Burning Earth (M14:130) [LP] &123
-- Ashling, Flame Dancer (MH3:115) [NM] &125
-- Daretti, Rocketeer Engineer (DFT:458) [foil] [NM] &126
-- Aggravated Assault (WOT:39) [NM] &127
-- Goldspan Dragon (KHM:139) [NM] &128
-- Etali, Primal Storm (FDN:194) [foil] [NM] &129
-- Twinflame Tyrant (FDN:395) [foil] [NM] &131
-- Cait Sith, Fortune Teller (FIC:151) [NM] &132
-- Searslicer Goblin (FDN:93) [foil] [NM] &133
-- Searslicer Goblin (FDN:93) [foil] [NM] &134
-- Searslicer Goblin (FDN:332) [NM] &135
-- Mass Hysteria (INR:400) [NM] &137
-- Chandra, Flameshaper (FDN:360) [NM] &138
-- Drakuseth, Maw of Flames (FDN:193) [foil] [NM] &139
-- Electroduplicate (FDN:85) [foil] [NM] &140
-- Krenko, Mob Boss (FDN:204) [foil] [NM] &141
-- Overlord of the Boilerbilges (DSK:146) [NM] &142
-- Enduring Courage (DSK:133) [foil] [NM] &143
-- The Fire Crystal (FIN:337) [NM] &144
-- Vaan, Street Thief (FIN:390) [NM] &145
-- Razorkin Needlehead (DSK:153) [NM] &146
-- Daretti, Scrap Savant (CMM:213) [NM] &147
-- Scourge of Valkas (SLD:1490) [NM] {Foil, not available in foil on scryfall} &148
-- Screaming Nemesis (DSK:157) [NM] &149
-- Elvish Reclaimer (M20:169) [NM] &151
-- Nissa, Ascended Animist (ONE:454) [foil] [NM] &152
-- Tyrranax Rex (ONE:189) [foil] [NM] &154
-- The Earth Crystal (FIN:184) [foil] [NM] &155
-- Wood Elves (P30A:5) [foil] [NM] &156
-- Emissary Green (CLU:5) [NM] &157
-- Hermit Druid (INR:488) [NM] &158
-- Slime Against Humanity (MKM:177) [foil] [NM] &159
-- Ancient Cornucopia (BIG:46) [NM] &160
-- Defense of the Heart (WOT:51) [NM] &161
-- Greater Good (SLD:1693) [foil] [NM] &162
-- Eladamri's Vineyard (SLD:1692) [foil] [NM] &163
-- Endurance (SPG:48) [foil] [NM] &164
-- Wall of Blossoms (V13:6) [foil] [NM] &165
-- Druid of Purification (SLD:877) [foil] [NM] &166
-- Bartz and Boko (FIN:469) [NM] &167
-- Yeva, Nature's Herald (RVR:162) [foil] [NM] &168
-- Helix Pinnacle (PLST:EVE-68) [foil] [NM] &169
-- Wrenn and Seven (MID:208) [NM] &170
-- Defense of the Heart (PLST:ULG-100) [NM] &171
-- Awaken the Woods (BRO:170) [foil] [NM] &172
-- Vivien Reid (FDN:361) [NM] &173
-- Overlord of the Hauntwoods (DSK:194) [NM] &174
-- Traveling Chocobo (FIN:406) [NM] &175
-- Genesis Wave (FDN:221) [foil] [NM] &176
-- Primeval Titan (FCA:48) [foil] [NM] &177
-- Preposterous Proportions (FDN:109) [foil] [NM] &178
-- Reclamation Sage (FDN:340) [foil] [NM] &179
-- Twitching Doll (DSK:384) [foil] [NM] &180
-- Kodama of the West Tree (NEO:199) [NM] &181
-- Omnath, Locus of Mana (CMM:680) [NM] &182
-- Voracious Hydra (SLD:1491) [NM] {Foil} &183
-- Scavenging Ooze (FDN:232) [NM] &184
-- Scavenging Ooze (FDN:232) [NM] &185
-- Scavenging Ooze (FDN:232) [NM] &186
-- Sylvan Scavenging (FDN:113) [NM] &187
-- Atraxa, Grand Unifier (ONE:316) [NM] &188
-- Glissa Sunslayer (ONE:318) [NM] &189
-- Ghastlord of Fugue (PLST:SHM-162) [NM] &190
-- Leyline of the Guildpact (MKM:217) [NM] &191
-- Omnath, Locus of All (MOM:387) [foil] [NM] &192
-- Thalia and The Gitrog Monster (MOM:255) [NM] &193
-- The Infamous Cruelclaw (BLB:219) [NM] &194
-- Tyvar, Jubilant Brawler (ONE:344) [NM] &195
-- Vishgraz, the Doomhive (ONC:40) [NM] &196
-- G'raha Tia, Scion Reborn (FIC:3) [NM] &197
-- Helga, Skittish Seer (BLB:217) [NM] &198
-- Helga, Skittish Seer (BLB:332) [NM] &199
-- Absolute Virtue (FIN:212) [NM] &200
-- Wildsear, Scouring Maw (BLC:44) [NM] &201
-- Isshin, Two Heavens as One (FCA:54) [foil] [NM] &202
-- Ishai, Ojutai Dragonspeaker (BLC:89) [NM] &203
-- Lavinia, Azorius Renegade (SLD:1685) [foil] [NM] &204
-- Kaalia of the Vast (MH3:343) [NM] &205
-- Veyran, Voice of Duality (OTC:248) [NM] &206
-- Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier (BOT:15) [NM] &207
-- Oildeep Gearhulk (DFT:215) [NM] &208
-- Ruhan of the Fomori (SLD:1695) [foil] [NM] &209
-- Almost Perfect (PIP:406) [NM] &210
-- Omnath, Locus of Creation (SLD:1686) [foil] [NM] &211
-- Karazikar, the Eye Tyrant (AFC:49) [foil] [NM] &212
-- Kuja, Genome Sorcerer // Trance Kuja, Fate Defied (FIN:399) [foil] [NM] &213
-- Zimone, Paradox Sculptor (FDN:126) [NM] &214
-- Atraxa, Grand Unifier (FCA:49) [foil] [NM] &215
-- Saheeli Rai (KLD:186) [NM] &216
-- Domri Rade (RVR:444) [foil] [NM] &217
-- Arwen, Mortal Queen (LTR:367) [foil] [NM] &218
-- Aragorn and Arwen, Wed (LTR:287) [foil] [NM] &219
-- Mimeoplasm, Revered One (DFT:405) [foil] [NM] {JP foil, ignore prices} &220
-- Alesha, Who Laughs at Fate (FDN:115) [foil] [NM] &221
-- Alesha, Who Laughs at Fate (FDN:343) [foil] [NM] &222
-- Ketramose, the New Dawn (DFT:350) [NM] &223
-- Elenda, Saint of Dusk (FDN:346) [NM] &224
-- Elenda, Saint of Dusk (FDN:479) [foil] [NM] &225
-- Lathril, Blade of the Elves (FDN:242) [foil] [NM] &226
-- Yuna, Grand Summoner (FIC:216) [foil] [NM] &228
-- Terra, Herald of Hope (FIC:186) [foil] [NM] &229
-- Kykar, Zephyr Awakener (FDN:122) [NM] &230
-- Progenitus (FDN:244) [foil] [NM] &231
-- Yuriko, the Tiger's Shadow (CMM:690) [NM] &232
-- Morophon, the Boundless (CMM:3) [NM] &233
-- Meren of Clan Nel Toth (CMM:346) [NM] &234
-- The Council of Four (CLB:271) [foil] [NM] &235
-- Kykar, Wind's Fury (MOC:334) [NM] &236
-- Galadriel, Light of Valinor (LTC:498) [foil] [NM] &237
-- Vikya, Scorching Stalwart (SLD:429) [NM] &238
-- Aisha of Sparks and Smoke (SLD:430) [NM] &239
-- Immard, the Stormcleaver (SLD:434) [NM] &240
-- Maarika, Brutal Gladiator (SLD:435) [NM] &241
-- The Howling Abomination (SLD:431) [NM] &242
-- Zethi, Arcane Blademaster (SLD:432) [NM] &243
-- Tadeas, Juniper Ascendant (SLD:433) [NM] &244
-- Progenitus (FDN:244) [NM] &245
-- Balthier and Fran (FIN:213) [foil] [NM] &246
-- Hashaton, Scarab's Fist (DRC:1) [NM] &248
-- Sab-Sunen, Luxa Embodied (DFT:221) [foil] [NM] &249
-- Pyrewood Gearhulk (DFT:216) [foil] [NM] &250
-- Coalstoke Gearhulk (DFT:349) [NM] &251
-- Coalstoke Gearhulk (DFT:349) [foil] [NM] &252
-- Mog, Moogle Warrior (FIC:179) [NM] &253
-- Lightning, Army of One (FIN:400) [NM] &254
-- Hope Estheim (FIN:396) [NM] &255
-- Serah Farron // Crystallized Serah (FIN:240) [NM] &256
-- Olivia, Crimson Bride (PVOW:245p) [foil] [NM] &257
-- The Wandering Minstrel (FIN:249) [foil] [NM] &258
-- Lightning, Army of One (FIN:400) [foil] [NM] &259
-- Adaptive Automaton (BRR:1) [NM] &260
-- Eldrazi Monument (M3C:290) [NM] &261
-- Emrakul, the Promised End (INR:481) [NM] &262
-- Blade of Selves (CLB:301) [NM] &263
-- Metallic Mimic (INR:445) [foil] [NM] &264
-- Metallic Mimic (INR:445) [NM] &265
-- Darksteel Plate (MBS:104) [NM] &266
-- Glistening Sphere (ONC:58) [NM] &267
-- Portal to Phyrexia (BRO:240) [NM] &268
-- Karn, the Great Creator (WAR:1) [NM] &269
-- Banner of Kinship (FDN:127) [NM] &270
-- The Eternity Elevator (EOE:241) [NM] &271
-- Urtet, Remnant of Memnarch (ONC:42) [NM] &273
-- Urza's Incubator (DMR:392) [NM] &274
-- Sapphire Medallion (CMM:407) [NM] &275
-- Monument to Endurance (DFT:237) [NM] &277
-- Arcane Signet (SLD:7065) [foil] [NM] &278
-- Dowsing Dagger // Lost Vale (XLN:235) [NM] &279
-- Dowsing Dagger // Lost Vale (XLN:235) [NM] &280
-- Dowsing Dagger // Lost Vale (XLN:235) [NM] &281
-- Springleaf Drum (SLP:22) [NM] &282
-- Springleaf Drum (SLP:22) [NM] &283
-- Ashnod's Altar (SLD:1679) [NM] &284
-- Scrawling Crawler (FDN:486) [NM] &285
-- Leyline Axe (FDN:485) [NM] &287
-- Conjurer's Closet (INR:441) [NM] &288
-- Conjurer's Closet (INR:321) [NM] &289
-- Mindcrank (SLD:2186) [NM] &290
-- Door to Nothingness (SLD:1678) [NM] &291
-- Roaming Throne (LCI:258) [foil] [NM] &292
-- Shadowspear (THB:236) [NM] &293
-- Aetheric Amplifier (DRC:34) [NM] &294
-- Nulldrifter (MH3:388) [NM] &295
-- Swiftfoot Boots (BRR:121) [NM] &296
-- Commander's Sphere (PW24:8) [foil] [NM] &297
-- Iron Maiden (SLD:2185) [NM] &299
-- Whispersilk Cloak (M11:221) [NM] &300
-- Emerald Medallion (MH3:345) [foil] [NM] &302
-- Ruby Medallion (MH3:348) [NM] &303
-- Colossus Hammer (LCC:110) [NM] &304
-- Andúril, Narsil Reforged (LTC:535) [foil] [NM] &305
-- The Immortal Sun (CMM:608) [etched] [NM] &306
-- Radiant Lotus (DFT:240) [NM] &307
-- Radiant Lotus (DFT:395) [foil] [NM] &308
-- Howling Mine (SLD:7046) [NM] &309
-- Thrumming Hivepool (EOE:247) [NM] &310
-- Chromatic Lantern (SLD:2329) [foil] [NM] &311
-- Sol Ring (SLD:2330) [foil] [NM] &312
-- Academy Manufactor (SLD:2195) [foil] [NM] &313
-- Wurmcoil Engine (SLD:2196) [foil] [NM] &314
-- Liberator, Urza's Battlethopter (SLD:2286) [foil] [NM] &315
-- Radiant Summit (EOC:43) [NM] &316
-- Stomping Ground (EOE:258) [NM] &317
-- Lavaclaw Reaches (EOS:22) [NM] &318
-- Oscorp Industries (SPM:182) [NM] &319
-- Stirring Wildwood (EOS:84) [foil] [NM] &320
-- Godless Shrine (EOE:280) [NM] &321
-- Celestial Colonnade (EOS:7) [NM] &322
-- Festering Thicket (EOC:41) [NM] &323
-- Terrain Generator (EOS:133) [foil] [NM] &324
-- Glittering Massif (EOC:42) [NM] &325
-- Watery Grave (EOE:261) [foil] [NM] &327
-- Caves of Koilos (DMU:244) [NM] &328
-- Grove of the Burnwillows (EOS:17) [NM] &329
-- Lumbering Falls (EOS:24) [NM] &330
-- Mirrex (ONE:400) [NM] &331
-- Restless Vents (LCI:351) [NM] &332
-- Minas Morgul, Dark Fortress (LTC:514) [foil] [NM] &333
-- Deserted Beach (WHO:270) [NM] &334
-- Smoldering Marsh (PIP:510) [NM] &335
-- Temple of Epiphany (PIP:519) [NM] &336
-- Valgavoth's Lair (DSK:327) [NM] &337
-- Command Tower (SLD:7067) [foil] [NM] &338
-- Command Tower (SLD:1666) [NM] &339
-- Haunted Ridge (MID:263) [NM] &340
-- Plains (SLD:888) [foil] [NM] &341
-- Soulstone Sanctuary (FDN:133) [NM] &342
-- Soulstone Sanctuary (FDN:133) [foil] [NM] &343
-- Fountainport (BLB:368) [NM] &344
-- Lush Portico (MKM:263) [NM] &345
-- Floodfarm Verge (DSK:259) [foil] [NM] &346
-- Undergrowth Stadium (CMM:435) [NM] &347
-- Floodfarm Verge (DSK:259) [NM] &348
-- Gemstone Caverns (LTC:364) [foil] [NM] &349
-- Three Tree City (BLB:260) [NM] &350
-- Bleachbone Verge (DFT:250) [NM] &351
-- Bleachbone Verge (DFT:250) [foil] [NM] &352
-- Shadowy Backstreet (MKM:268) [NM] &353
-- Dark Depths (SLD:1680) [NM] &354
+- Ashling, Flame Dancer (MH3:115) &125
+- Daretti, Rocketeer Engineer (DFT:458) [foil] &126
+- Aggravated Assault (WOT:39) &127
+- Goldspan Dragon (KHM:139) &128
+- Etali, Primal Storm (FDN:194) [foil] &129
+- Twinflame Tyrant (FDN:395) [foil] &131
+- Cait Sith, Fortune Teller (FIC:151) &132
+- Searslicer Goblin (FDN:93) [foil] &133
+- Searslicer Goblin (FDN:93) [foil] &134
+- Searslicer Goblin (FDN:332) &135
+- Mass Hysteria (INR:400) &137
+- Chandra, Flameshaper (FDN:360) &138
+- Drakuseth, Maw of Flames (FDN:193) [foil] &139
+- Electroduplicate (FDN:85) [foil] &140
+- Krenko, Mob Boss (FDN:204) [foil] &141
+- Overlord of the Boilerbilges (DSK:146) &142
+- Enduring Courage (DSK:133) [foil] &143
+- The Fire Crystal (FIN:337) &144
+- Vaan, Street Thief (FIN:390) &145
+- Razorkin Needlehead (DSK:153) &146
+- Daretti, Scrap Savant (CMM:213) &147
+- Scourge of Valkas (SLD:1490) {Foil, not available in foil on scryfall} &148
+- Screaming Nemesis (DSK:157) &149
+- Elvish Reclaimer (M20:169) &151
+- Nissa, Ascended Animist (ONE:454) [foil] &152
+- Tyrranax Rex (ONE:189) [foil] &154
+- The Earth Crystal (FIN:184) [foil] &155
+- Wood Elves (P30A:5) [foil] &156
+- Emissary Green (CLU:5) &157
+- Hermit Druid (INR:488) &158
+- Slime Against Humanity (MKM:177) [foil] &159
+- Ancient Cornucopia (BIG:46) &160
+- Defense of the Heart (WOT:51) &161
+- Greater Good (SLD:1693) [foil] &162
+- Eladamri's Vineyard (SLD:1692) [foil] &163
+- Endurance (SPG:48) [foil] &164
+- Wall of Blossoms (V13:6) [foil] &165
+- Druid of Purification (SLD:877) [foil] &166
+- Bartz and Boko (FIN:469) &167
+- Yeva, Nature's Herald (RVR:162) [foil] &168
+- Helix Pinnacle (PLST:EVE-68) [foil] &169
+- Wrenn and Seven (MID:208) &170
+- Defense of the Heart (PLST:ULG-100) &171
+- Awaken the Woods (BRO:170) [foil] &172
+- Vivien Reid (FDN:361) &173
+- Overlord of the Hauntwoods (DSK:194) &174
+- Traveling Chocobo (FIN:406) &175
+- Genesis Wave (FDN:221) [foil] &176
+- Primeval Titan (FCA:48) [foil] &177
+- Preposterous Proportions (FDN:109) [foil] &178
+- Reclamation Sage (FDN:340) [foil] &179
+- Twitching Doll (DSK:384) [foil] &180
+- Kodama of the West Tree (NEO:199) &181
+- Omnath, Locus of Mana (CMM:680) &182
+- Voracious Hydra (SLD:1491) {Foil} &183
+- Scavenging Ooze (FDN:232) &184
+- Scavenging Ooze (FDN:232) &185
+- Scavenging Ooze (FDN:232) &186
+- Sylvan Scavenging (FDN:113) &187
+- Atraxa, Grand Unifier (ONE:316) &188
+- Glissa Sunslayer (ONE:318) &189
+- Ghastlord of Fugue (PLST:SHM-162) &190
+- Leyline of the Guildpact (MKM:217) &191
+- Omnath, Locus of All (MOM:387) [foil] &192
+- Thalia and The Gitrog Monster (MOM:255) &193
+- The Infamous Cruelclaw (BLB:219) &194
+- Tyvar, Jubilant Brawler (ONE:344) &195
+- Vishgraz, the Doomhive (ONC:40) &196
+- G'raha Tia, Scion Reborn (FIC:3) &197
+- Helga, Skittish Seer (BLB:217) &198
+- Helga, Skittish Seer (BLB:332) &199
+- Absolute Virtue (FIN:212) &200
+- Wildsear, Scouring Maw (BLC:44) &201
+- Isshin, Two Heavens as One (FCA:54) [foil] &202
+- Ishai, Ojutai Dragonspeaker (BLC:89) &203
+- Lavinia, Azorius Renegade (SLD:1685) [foil] &204
+- Kaalia of the Vast (MH3:343) &205
+- Veyran, Voice of Duality (OTC:248) &206
+- Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier (BOT:15) &207
+- Oildeep Gearhulk (DFT:215) &208
+- Ruhan of the Fomori (SLD:1695) [foil] &209
+- Almost Perfect (PIP:406) &210
+- Omnath, Locus of Creation (SLD:1686) [foil] &211
+- Karazikar, the Eye Tyrant (AFC:49) [foil] &212
+- Kuja, Genome Sorcerer // Trance Kuja, Fate Defied (FIN:399) [foil] &213
+- Zimone, Paradox Sculptor (FDN:126) &214
+- Atraxa, Grand Unifier (FCA:49) [foil] &215
+- Saheeli Rai (KLD:186) &216
+- Domri Rade (RVR:444) [foil] &217
+- Arwen, Mortal Queen (LTR:367) [foil] &218
+- Aragorn and Arwen, Wed (LTR:287) [foil] &219
+- Mimeoplasm, Revered One (DFT:405) [foil] {JP foil, ignore prices} &220
+- Alesha, Who Laughs at Fate (FDN:115) [foil] &221
+- Alesha, Who Laughs at Fate (FDN:343) [foil] &222
+- Ketramose, the New Dawn (DFT:350) &223
+- Elenda, Saint of Dusk (FDN:346) &224
+- Elenda, Saint of Dusk (FDN:479) [foil] &225
+- Lathril, Blade of the Elves (FDN:242) [foil] &226
+- Yuna, Grand Summoner (FIC:216) [foil] &228
+- Terra, Herald of Hope (FIC:186) [foil] &229
+- Kykar, Zephyr Awakener (FDN:122) &230
+- Progenitus (FDN:244) [foil] &231
+- Yuriko, the Tiger's Shadow (CMM:690) &232
+- Morophon, the Boundless (CMM:3) &233
+- Meren of Clan Nel Toth (CMM:346) &234
+- The Council of Four (CLB:271) [foil] &235
+- Kykar, Wind's Fury (MOC:334) &236
+- Galadriel, Light of Valinor (LTC:498) [foil] &237
+- Vikya, Scorching Stalwart (SLD:429) &238
+- Aisha of Sparks and Smoke (SLD:430) &239
+- Immard, the Stormcleaver (SLD:434) &240
+- Maarika, Brutal Gladiator (SLD:435) &241
+- The Howling Abomination (SLD:431) &242
+- Zethi, Arcane Blademaster (SLD:432) &243
+- Tadeas, Juniper Ascendant (SLD:433) &244
+- Progenitus (FDN:244) &245
+- Balthier and Fran (FIN:213) [foil] &246
+- Hashaton, Scarab's Fist (DRC:1) &248
+- Sab-Sunen, Luxa Embodied (DFT:221) [foil] &249
+- Pyrewood Gearhulk (DFT:216) [foil] &250
+- Coalstoke Gearhulk (DFT:349) &251
+- Coalstoke Gearhulk (DFT:349) [foil] &252
+- Mog, Moogle Warrior (FIC:179) &253
+- Lightning, Army of One (FIN:400) &254
+- Hope Estheim (FIN:396) &255
+- Serah Farron // Crystallized Serah (FIN:240) &256
+- Olivia, Crimson Bride (PVOW:245p) [foil] &257
+- The Wandering Minstrel (FIN:249) [foil] &258
+- Lightning, Army of One (FIN:400) [foil] &259
+- Adaptive Automaton (BRR:1) &260
+- Eldrazi Monument (M3C:290) &261
+- Emrakul, the Promised End (INR:481) &262
+- Blade of Selves (CLB:301) &263
+- Metallic Mimic (INR:445) [foil] &264
+- Metallic Mimic (INR:445) &265
+- Darksteel Plate (MBS:104) &266
+- Glistening Sphere (ONC:58) &267
+- Portal to Phyrexia (BRO:240) &268
+- Karn, the Great Creator (WAR:1) &269
+- Banner of Kinship (FDN:127) &270
+- The Eternity Elevator (EOE:241) &271
+- Urtet, Remnant of Memnarch (ONC:42) &273
+- Urza's Incubator (DMR:392) &274
+- Sapphire Medallion (CMM:407) &275
+- Monument to Endurance (DFT:237) &277
+- Arcane Signet (SLD:7065) [foil] &278
+- Dowsing Dagger // Lost Vale (XLN:235) &279
+- Dowsing Dagger // Lost Vale (XLN:235) &280
+- Dowsing Dagger // Lost Vale (XLN:235) &281
+- Springleaf Drum (SLP:22) &282
+- Springleaf Drum (SLP:22) &283
+- Ashnod's Altar (SLD:1679) &284
+- Scrawling Crawler (FDN:486) &285
+- Leyline Axe (FDN:485) &287
+- Conjurer's Closet (INR:441) &288
+- Conjurer's Closet (INR:321) &289
+- Mindcrank (SLD:2186) &290
+- Door to Nothingness (SLD:1678) &291
+- Roaming Throne (LCI:258) [foil] &292
+- Shadowspear (THB:236) &293
+- Aetheric Amplifier (DRC:34) &294
+- Nulldrifter (MH3:388) &295
+- Swiftfoot Boots (BRR:121) &296
+- Commander's Sphere (PW24:8) [foil] &297
+- Iron Maiden (SLD:2185) &299
+- Whispersilk Cloak (M11:221) &300
+- Emerald Medallion (MH3:345) [foil] &302
+- Ruby Medallion (MH3:348) &303
+- Colossus Hammer (LCC:110) &304
+- Andúril, Narsil Reforged (LTC:535) [foil] &305
+- The Immortal Sun (CMM:608) [etched] &306
+- Radiant Lotus (DFT:240) &307
+- Radiant Lotus (DFT:395) [foil] &308
+- Howling Mine (SLD:7046) &309
+- Thrumming Hivepool (EOE:247) &310
+- Chromatic Lantern (SLD:2329) [foil] &311
+- Sol Ring (SLD:2330) [foil] &312
+- Academy Manufactor (SLD:2195) [foil] &313
+- Wurmcoil Engine (SLD:2196) [foil] &314
+- Liberator, Urza's Battlethopter (SLD:2286) [foil] &315
+- Radiant Summit (EOC:43) &316
+- Stomping Ground (EOE:258) &317
+- Lavaclaw Reaches (EOS:22) &318
+- Oscorp Industries (SPM:182) &319
+- Stirring Wildwood (EOS:84) [foil] &320
+- Godless Shrine (EOE:280) &321
+- Celestial Colonnade (EOS:7) &322
+- Festering Thicket (EOC:41) &323
+- Terrain Generator (EOS:133) [foil] &324
+- Glittering Massif (EOC:42) &325
+- Watery Grave (EOE:261) [foil] &327
+- Caves of Koilos (DMU:244) &328
+- Grove of the Burnwillows (EOS:17) &329
+- Lumbering Falls (EOS:24) &330
+- Mirrex (ONE:400) &331
+- Restless Vents (LCI:351) &332
+- Minas Morgul, Dark Fortress (LTC:514) [foil] &333
+- Deserted Beach (WHO:270) &334
+- Smoldering Marsh (PIP:510) &335
+- Temple of Epiphany (PIP:519) &336
+- Valgavoth's Lair (DSK:327) &337
+- Command Tower (SLD:7067) [foil] &338
+- Command Tower (SLD:1666) &339
+- Haunted Ridge (MID:263) &340
+- Plains (SLD:888) [foil] &341
+- Soulstone Sanctuary (FDN:133) &342
+- Soulstone Sanctuary (FDN:133) [foil] &343
+- Fountainport (BLB:368) &344
+- Lush Portico (MKM:263) &345
+- Floodfarm Verge (DSK:259) [foil] &346
+- Undergrowth Stadium (CMM:435) &347
+- Floodfarm Verge (DSK:259) &348
+- Gemstone Caverns (LTC:364) [foil] &349
+- Three Tree City (BLB:260) &350
+- Bleachbone Verge (DFT:250) &351
+- Bleachbone Verge (DFT:250) [foil] &352
+- Shadowy Backstreet (MKM:268) &353
+- Dark Depths (SLD:1680) &354

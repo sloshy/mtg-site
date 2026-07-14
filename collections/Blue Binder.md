@@ -1,200 +1,200 @@
 # Blue Binder
 
 ## Main
-- Mazirek, Kraul Death Priest (SLD:1766) [foil] [NM] &1
-- Uril, the Miststalker (SLD:1767) [foil] [NM] &2
-- Time Sieve (SLD:1671) [foil] [NM] &3
-- Mortify (SLD:1801) [foil] [NM] &4
-- Anguished Unmaking (SLD:1800) [foil] [NM] &5
-- Drown in the Loch (SLD:1790) [NM] &6
-- Xanathar, Guild Kingpin (SLD:1785) [NM] &7
-- Drown in the Loch (SLD:1790) [foil] [NM] &8
-- Xanathar, Guild Kingpin (SLD:1785) [foil] [NM] &9
-- Mortify (SLD:1801) [NM] &10
-- Astarion, the Decadent (SLD:1797) [foil] [NM] &11
-- Astarion, the Decadent (SLD:1797) [NM] &12
-- Fire Covenant (SLD:1796) [NM] &13
-- Fire Covenant (SLD:1796) [foil] [NM] &14
-- Lavinia, Azorius Renegade (SLD:1685) [foil] [NM] &15
-- Omnath, Locus of Creation (SLD:1686) [foil] [NM] &16
-- Convention Maro (PF24:2) [NM] &17
-- Frilled Mystic (SLD:786) [foil] [NM] &18
-- Frilled Mystic (SLD:786) [foil] [NM] &19
-- Frilled Mystic (SLD:786) [foil] [NM] &20
-- Huatli, Radiant Champion (SLD:1699) [NM] &21
-- Kiora, Behemoth Beckoner (SLD:1700) [NM] &22
-- Tezzeret, Master of the Bridge (SLD:1701) [NM] &23
-- Vraska, Golgari Queen (SLD:1702) [NM] &24
-- Huatli, Radiant Champion (SLD:1699) [foil] [NM] &25
-- Kiora, Behemoth Beckoner (SLD:1700) [foil] [NM] &26
-- Tezzeret, Master of the Bridge (SLD:1701) [foil] [NM] &27
-- Vraska, Golgari Queen (SLD:1702) [foil] [NM] &28
-- Maelstrom Wanderer (SLD:1319) [NM] &29
-- Inalla, Archmage Ritualist (SLD:1639★) [foil] [NM] &30
-- Ignoble Hierarch (SLD:906) [foil] [NM] &31
-- Grand Arbiter Augustin IV (SLD:1483★) [foil] [NM] &32
-- Alela, Artful Provocateur (SLD:1630★) [foil] [NM] &33
-- Fiend Artisan (SLD:1645★) [foil] [NM] &34
-- Karador, Ghost Chieftain (SLD:1646★) [foil] [NM] &35
-- Iron Man, Titan of Innovation (SLD:1731) [NM] &36
-- Black Panther, Wakandan King (SLD:1747) [NM] &37
-- Regrowth (SLD:866) [foil] [NM] &38
-- Wolverine, Best There Is (SLD:1737) [NM] &39
-- Captain America, First Avenger (SLD:1726) [NM] &40
-- Iron Man, Titan of Innovation (SLD:1731) [foil] [NM] &41
-- Wolverine, Best There Is (SLD:1737) [foil] [NM] &43
-- Storm, Force of Nature (SLD:1742) [NM] &44
-- Manamorphose (SLD:1746) [NM] &45
-- Maelstrom Wanderer (SLD:1319) [foil] [NM] &46
-- Archangel Avacyn // Avacyn, the Purifier (INR:449) [NM] &47
-- Alania, Divergent Storm (BLB:204) [NM] &48
-- Alania, Divergent Storm (BLB:204) [NM] &49
-- Kastral, the Windcrested (BLB:221) [foil] [NM] &50
-- Dreamdew Entrancer (BLB:211) [NM] &51
-- Dreamdew Entrancer (BLB:211) [NM] &52
-- Lunar Convocation (BLB:223) [NM] &53
-- Clement, the Worrywort (BLB:209) [NM] &54
-- Gev, Scaled Scorch (PBLB:214p) [foil] [NM] &55
-- Yedora, Grave Gardener (MUL:30) [foil] [NM] &56
-- Omnath, Locus of All (MOM:313) [NM] &57
-- Elenda and Azor (MOC:90) [NM] &58
-- Jackdaw (ACR:167) [foil] [NM] &59
-- Djeru and Hazoret (MOM:304) [foil] [NM] &60
-- Satoru, the Infiltrator (OTJ:230) [NM] &61
-- Taii Wakeen, Perfect Shot (OTJ:234) [NM] &62
-- Ravenous Squirrel (PW24:15) [foil] [NM] &63
-- Ravenous Squirrel (PW24:15) [foil] [NM] &64
-- Selvala, Eager Trailblazer (OTJ:231) [NM] &65
-- Doppelgang (MKM:198) [NM] &66
-- Likeness Looter (WOE:208) [foil] [NM] &67
-- Drown in the Loch (PW23:4) [foil] [NM] &68
-- Mortify (SCH:21) [NM] &69
-- Rakdos Charm (LCC:284) [NM] &70
-- Niv-Mizzet, the Firemind (MM2:182) [NM] &71
-- Niv-Mizzet, Parun (RVR:438) [NM] &72
-- Neera, Wild Mage (CLB:545) [etched] [NM] &73
-- Raphael, Fiendish Savior (CLB:292) [NM] &74
-- Arwen, Mortal Queen (LTR:193) [NM] &75
-- Valgavoth, Harrower of Souls (DSC:6) [NM] &76
-- Kianne, Corrupted Memory (DSC:2) [NM] &77
-- The Jolly Balloon Man (DSK:219) [NM] &78
-- Marina Vendrell (DSK:221) [NM] &79
-- Marina Vendrell (DSK:221) [NM] &80
-- Zimone, All-Questioning (DSK:366) [NM] &81
-- Rip, Spawn Hunter (DSK:228) [NM] &82
-- Leyline of Mutation (DSK:188) [NM] &83
-- Gev, Scaled Scorch (BLB:214) [foil] [NM] &84
-- Kwain, Itinerant Meddler (BLC:90) [NM] &85
-- Gev, Scaled Scorch (BLB:214) [NM] &86
-- Sterling Grove (MH2:293) [NM] &87
-- Dovin's Veto (FCA:51) [NM] &88
-- Soundwave, Sonic Spy // Soundwave, Superior Captain (BOT:14) [NM] &89
-- Winter, Cursed Rider (DFT:228) [NM] &90
-- Zahur, Glory's Past (DFT:229) [NM] &91
-- Pia Nalaar, Chief Mechanic (DRC:2) [NM] &92
-- Kolodin, Triumph Caster (DFT:364) [NM] &93
-- Far Fortune, End Boss (DFT:203) [NM] &94
-- Far Fortune, End Boss (DFT:203) [NM] &95
-- Debris Beetle (DFT:199) [NM] &96
-- Captain Howler, Sea Scourge (DFT:194) [NM] &97
-- Captain Howler, Sea Scourge (DFT:194) [foil] [NM] &98
-- Captain Howler, Sea Scourge (DFT:361) [NM] &99
-- Caradora, Heart of Alacria (DFT:195) [NM] &100
-- Caradora, Heart of Alacria (DFT:195) [NM] &101
-- Caradora, Heart of Alacria (DFT:195) [NM] &102
-- Caradora, Heart of Alacria (DFT:195) [foil] [NM] &103
-- Aatchik, Emerald Radian (DFT:187) [NM] &104
-- Aatchik, Emerald Radian (DFT:360) [NM] &105
-- The Gitrog, Ravenous Ride (OTJ:206) [NM] &106
-- Sigarda, Host of Herons (INR:434) [NM] &107
-- Redshift, Rocketeer Chief (DFT:218) [NM] &108
-- Redshift, Rocketeer Chief (DFT:218) [NM] &109
-- Redshift, Rocketeer Chief (DFT:366) [NM] &110
-- Sita Varma, Masked Racer (DFT:368) [NM] &111
-- Samut, the Driving Force (DFT:222) [foil] [NM] &112
-- Samut, the Driving Force (DFT:222) [foil] [NM] &113
-- Samut, the Driving Force (DFT:367) [NM] &114
-- Sita Varma, Masked Racer (DFT:223) [foil] [NM] &115
-- Huntmaster of the Fells // Ravager of the Fells (INR:241) [NM] &116
-- Edgar Markov (INR:234) [NM] &117
-- Mendicant Core, Guidelight (DFT:365) [foil] [NM] &118
-- Miirym, Sentinel Wyrm (CLB:431) [NM] &119
-- Miirym, Sentinel Wyrm (CLB:542) [etched] [NM] &120
-- Mendicant Core, Guidelight (DFT:213) [NM] &121
-- Lurrus of the Dream-Den (MUL:51) [foil] [NM] &122
-- Altered Ego (INR:228) [NM] &123
-- Angelfire Ignition (INR:229) [foil] [NM] &124
-- Convert to Slime (DSC:64) [NM] &125
-- Jolrael, Voice of Zhalfir (MAT:230) [foil] [NM] &126
-- Victor, Valgavoth's Seneschal (DSK:238) [NM] &127
-- Nashi, Searcher in the Dark (DSK:223) [NM] &128
-- Nashi, Searcher in the Dark (DSK:223) [NM] &129
-- Rip, Spawn Hunter (DSK:228) [NM] &130
-- The Swarmweaver (DSK:363) [NM] &131
-- Nashi, Searcher in the Dark (DSK:361) [NM] &132
-- Winter, Misanthropic Guide (DSK:240) [NM] &133
-- Ramos, Dragon Engine (BRR:47) [NM] &134
-- Door to Nothingness (BRR:14) [NM] &135
-- Dovin's Veto (P30A:27) [foil] [NM] &136
-- Stump Stomp // Burnwillow Clearing (MH3:259) [NM] &137
-- Relive the Past (MKM:226) [NM] &138
-- The Pride of Hull Clade (PMKM:172p) [NM] &139
-- Radha, Coalition Warlord (MUL:185) [foil] [NM] &140
-- Judith, Carnage Connoisseur (PMKM:210p) [NM] &141
-- Leyline of Mutation (DSK:382) [foil] [NM] &142
-- Undead Sprinter (DSK:350) [NM] &143
-- Marina Vendrell (DSK:360) [NM] &144
-- Niko, Light of Hope (DSK:224) [NM] &145
-- Marina Vendrell (DSK:221) [NM] &146
-- Winter, Misanthropic Guide (DSK:240) [NM] &147
-- Winter, Misanthropic Guide (DSK:240) [NM] &148
-- Winter, Misanthropic Guide (DSK:240) [NM] &149
-- Rip, Spawn Hunter (DSK:228) [foil] [NM] &150
-- Flubs, the Fool (BLC:356) [foil] [NM] &151
-- Kianne, Corrupted Memory (DSC:2) [foil] [NM] &152
-- Peer Past the Veil (DSK:325) [NM] &153
-- Hazel of the Rootbloom (BLC:2) [NM] &154
-- The Swarmweaver (DSK:236) [NM] &155
-- Aragorn, Hornburg Hero (LTC:492) [foil] [NM] &156
-- Rohirrim Chargers (LTC:496) [foil] [NM] &157
-- Satoru Umezawa (SLD:2283) [foil] [NM] &158
-- Voja, Jaws of the Conclave (SLD:2284) [foil] [NM] &159
-- Wilhelt, the Rotcleaver (SLD:2285) [foil] [NM] &160
-- Captain N'ghathrod (SLD:2183) [NM] &161
-- Nekusar, the Mindrazer (SLD:2184) [NM] &162
-- Roon of the Hidden Realm (SLD:2173) [foil] [NM] &163
-- Genesis Ultimatum (SPG:106) [foil] [NM] &164
-- Umbris, Fear Manifest (SLD:2339) [foil] [NM] &165
-- Kefka, Court Mage // Kefka, Ruler of Ruin (FIN:398) [foil] [NM] &166
-- Soulherder (SLD:2174) [foil] [NM] &167
-- Infinite Guideline Station (PEOE:219p) [foil] [NM] &168
-- Infinite Guideline Station (EOE:219) [NM] &169
-- Mutinous Massacre (EOE:222) [NM] &170
-- Scouring Swarm (EOC:36) [NM] &171
-- Space-Time Anomaly (EOE:315) [foil] [NM] &172
-- Inspirit, Flagship Vessel (EOC:2) [NM] &173
-- Cosmogoyf (EOE:313) [NM] &174
-- Hearthhull, the Worldseed (EOC:1) [NM] &175
-- Syr Vondam, Sunstar Exemplar (EOE:302) [foil] [NM] &176
-- Ragost, Deft Gastronaut (EOE:224) [foil] [NM] &177
-- Superior Spider-Man (SPM:155) [NM] &178
-- Cosmic Spider-Man (SPM:271) [NM] &179
-- Silk, Web Weaver (SPM:145) [NM] &180
-- Superior Spider-Man (SPM:275) [foil] [NM] &181
-- Jackal, Genius Geneticist (SPM:131) [NM] &182
-- Carnage, Crimson Chaos (SPM:125) [NM] &183
-- Spider-Woman, Stunning Savior (SPM:152) [NM] &185
-- Peter Parker // Amazing Spider-Man (SPM:10) [NM] &186
-- Peter Parker // Amazing Spider-Man (SPM:10) [foil] [NM] &187
-- Doctor Octopus, Master Planner (SPM:228) [NM] &188
-- Eddie Brock // Venom, Lethal Protector (SPM:55) [NM] &189
-- Miles Morales // Ultimate Spider-Man (SPM:108) [NM] &190
-- The Spot, Living Portal (SPM:153) [NM] &191
-- Araña, Heart of the Spider (SPM:213) [NM] &192
-- Scarlet Spider, Ben Reilly (SPM:214) [NM] &193
-- Grasping Tentacles (SPE:21) [foil] [NM] &194
-- Venom, Deadly Devourer (SPE:22) [foil] [NM] &195
-- Green Goblin, Nemesis (SPE:23) [foil] [NM] &196
-- Doc Ock, Evil Inventor (SPE:24) [foil] [NM] &197
-- Sensational Spider-Man (SPE:25) [foil] [NM] &198
-- Pumpkin Bombs (SPE:26) [foil] [NM] &199
+- Mazirek, Kraul Death Priest (SLD:1766) [foil] &1
+- Uril, the Miststalker (SLD:1767) [foil] &2
+- Time Sieve (SLD:1671) [foil] &3
+- Mortify (SLD:1801) [foil] &4
+- Anguished Unmaking (SLD:1800) [foil] &5
+- Drown in the Loch (SLD:1790) &6
+- Xanathar, Guild Kingpin (SLD:1785) &7
+- Drown in the Loch (SLD:1790) [foil] &8
+- Xanathar, Guild Kingpin (SLD:1785) [foil] &9
+- Mortify (SLD:1801) &10
+- Astarion, the Decadent (SLD:1797) [foil] &11
+- Astarion, the Decadent (SLD:1797) &12
+- Fire Covenant (SLD:1796) &13
+- Fire Covenant (SLD:1796) [foil] &14
+- Lavinia, Azorius Renegade (SLD:1685) [foil] &15
+- Omnath, Locus of Creation (SLD:1686) [foil] &16
+- Convention Maro (PF24:2) &17
+- Frilled Mystic (SLD:786) [foil] &18
+- Frilled Mystic (SLD:786) [foil] &19
+- Frilled Mystic (SLD:786) [foil] &20
+- Huatli, Radiant Champion (SLD:1699) &21
+- Kiora, Behemoth Beckoner (SLD:1700) &22
+- Tezzeret, Master of the Bridge (SLD:1701) &23
+- Vraska, Golgari Queen (SLD:1702) &24
+- Huatli, Radiant Champion (SLD:1699) [foil] &25
+- Kiora, Behemoth Beckoner (SLD:1700) [foil] &26
+- Tezzeret, Master of the Bridge (SLD:1701) [foil] &27
+- Vraska, Golgari Queen (SLD:1702) [foil] &28
+- Maelstrom Wanderer (SLD:1319) &29
+- Inalla, Archmage Ritualist (SLD:1639★) [foil] &30
+- Ignoble Hierarch (SLD:906) [foil] &31
+- Grand Arbiter Augustin IV (SLD:1483★) [foil] &32
+- Alela, Artful Provocateur (SLD:1630★) [foil] &33
+- Fiend Artisan (SLD:1645★) [foil] &34
+- Karador, Ghost Chieftain (SLD:1646★) [foil] &35
+- Iron Man, Titan of Innovation (SLD:1731) &36
+- Black Panther, Wakandan King (SLD:1747) &37
+- Regrowth (SLD:866) [foil] &38
+- Wolverine, Best There Is (SLD:1737) &39
+- Captain America, First Avenger (SLD:1726) &40
+- Iron Man, Titan of Innovation (SLD:1731) [foil] &41
+- Wolverine, Best There Is (SLD:1737) [foil] &43
+- Storm, Force of Nature (SLD:1742) &44
+- Manamorphose (SLD:1746) &45
+- Maelstrom Wanderer (SLD:1319) [foil] &46
+- Archangel Avacyn // Avacyn, the Purifier (INR:449) &47
+- Alania, Divergent Storm (BLB:204) &48
+- Alania, Divergent Storm (BLB:204) &49
+- Kastral, the Windcrested (BLB:221) [foil] &50
+- Dreamdew Entrancer (BLB:211) &51
+- Dreamdew Entrancer (BLB:211) &52
+- Lunar Convocation (BLB:223) &53
+- Clement, the Worrywort (BLB:209) &54
+- Gev, Scaled Scorch (PBLB:214p) [foil] &55
+- Yedora, Grave Gardener (MUL:30) [foil] &56
+- Omnath, Locus of All (MOM:313) &57
+- Elenda and Azor (MOC:90) &58
+- Jackdaw (ACR:167) [foil] &59
+- Djeru and Hazoret (MOM:304) [foil] &60
+- Satoru, the Infiltrator (OTJ:230) &61
+- Taii Wakeen, Perfect Shot (OTJ:234) &62
+- Ravenous Squirrel (PW24:15) [foil] &63
+- Ravenous Squirrel (PW24:15) [foil] &64
+- Selvala, Eager Trailblazer (OTJ:231) &65
+- Doppelgang (MKM:198) &66
+- Likeness Looter (WOE:208) [foil] &67
+- Drown in the Loch (PW23:4) [foil] &68
+- Mortify (SCH:21) &69
+- Rakdos Charm (LCC:284) &70
+- Niv-Mizzet, the Firemind (MM2:182) &71
+- Niv-Mizzet, Parun (RVR:438) &72
+- Neera, Wild Mage (CLB:545) [etched] &73
+- Raphael, Fiendish Savior (CLB:292) &74
+- Arwen, Mortal Queen (LTR:193) &75
+- Valgavoth, Harrower of Souls (DSC:6) &76
+- Kianne, Corrupted Memory (DSC:2) &77
+- The Jolly Balloon Man (DSK:219) &78
+- Marina Vendrell (DSK:221) &79
+- Marina Vendrell (DSK:221) &80
+- Zimone, All-Questioning (DSK:366) &81
+- Rip, Spawn Hunter (DSK:228) &82
+- Leyline of Mutation (DSK:188) &83
+- Gev, Scaled Scorch (BLB:214) [foil] &84
+- Kwain, Itinerant Meddler (BLC:90) &85
+- Gev, Scaled Scorch (BLB:214) &86
+- Sterling Grove (MH2:293) &87
+- Dovin's Veto (FCA:51) &88
+- Soundwave, Sonic Spy // Soundwave, Superior Captain (BOT:14) &89
+- Winter, Cursed Rider (DFT:228) &90
+- Zahur, Glory's Past (DFT:229) &91
+- Pia Nalaar, Chief Mechanic (DRC:2) &92
+- Kolodin, Triumph Caster (DFT:364) &93
+- Far Fortune, End Boss (DFT:203) &94
+- Far Fortune, End Boss (DFT:203) &95
+- Debris Beetle (DFT:199) &96
+- Captain Howler, Sea Scourge (DFT:194) &97
+- Captain Howler, Sea Scourge (DFT:194) [foil] &98
+- Captain Howler, Sea Scourge (DFT:361) &99
+- Caradora, Heart of Alacria (DFT:195) &100
+- Caradora, Heart of Alacria (DFT:195) &101
+- Caradora, Heart of Alacria (DFT:195) &102
+- Caradora, Heart of Alacria (DFT:195) [foil] &103
+- Aatchik, Emerald Radian (DFT:187) &104
+- Aatchik, Emerald Radian (DFT:360) &105
+- The Gitrog, Ravenous Ride (OTJ:206) &106
+- Sigarda, Host of Herons (INR:434) &107
+- Redshift, Rocketeer Chief (DFT:218) &108
+- Redshift, Rocketeer Chief (DFT:218) &109
+- Redshift, Rocketeer Chief (DFT:366) &110
+- Sita Varma, Masked Racer (DFT:368) &111
+- Samut, the Driving Force (DFT:222) [foil] &112
+- Samut, the Driving Force (DFT:222) [foil] &113
+- Samut, the Driving Force (DFT:367) &114
+- Sita Varma, Masked Racer (DFT:223) [foil] &115
+- Huntmaster of the Fells // Ravager of the Fells (INR:241) &116
+- Edgar Markov (INR:234) &117
+- Mendicant Core, Guidelight (DFT:365) [foil] &118
+- Miirym, Sentinel Wyrm (CLB:431) &119
+- Miirym, Sentinel Wyrm (CLB:542) [etched] &120
+- Mendicant Core, Guidelight (DFT:213) &121
+- Lurrus of the Dream-Den (MUL:51) [foil] &122
+- Altered Ego (INR:228) &123
+- Angelfire Ignition (INR:229) [foil] &124
+- Convert to Slime (DSC:64) &125
+- Jolrael, Voice of Zhalfir (MAT:230) [foil] &126
+- Victor, Valgavoth's Seneschal (DSK:238) &127
+- Nashi, Searcher in the Dark (DSK:223) &128
+- Nashi, Searcher in the Dark (DSK:223) &129
+- Rip, Spawn Hunter (DSK:228) &130
+- The Swarmweaver (DSK:363) &131
+- Nashi, Searcher in the Dark (DSK:361) &132
+- Winter, Misanthropic Guide (DSK:240) &133
+- Ramos, Dragon Engine (BRR:47) &134
+- Door to Nothingness (BRR:14) &135
+- Dovin's Veto (P30A:27) [foil] &136
+- Stump Stomp // Burnwillow Clearing (MH3:259) &137
+- Relive the Past (MKM:226) &138
+- The Pride of Hull Clade (PMKM:172p) &139
+- Radha, Coalition Warlord (MUL:185) [foil] &140
+- Judith, Carnage Connoisseur (PMKM:210p) &141
+- Leyline of Mutation (DSK:382) [foil] &142
+- Undead Sprinter (DSK:350) &143
+- Marina Vendrell (DSK:360) &144
+- Niko, Light of Hope (DSK:224) &145
+- Marina Vendrell (DSK:221) &146
+- Winter, Misanthropic Guide (DSK:240) &147
+- Winter, Misanthropic Guide (DSK:240) &148
+- Winter, Misanthropic Guide (DSK:240) &149
+- Rip, Spawn Hunter (DSK:228) [foil] &150
+- Flubs, the Fool (BLC:356) [foil] &151
+- Kianne, Corrupted Memory (DSC:2) [foil] &152
+- Peer Past the Veil (DSK:325) &153
+- Hazel of the Rootbloom (BLC:2) &154
+- The Swarmweaver (DSK:236) &155
+- Aragorn, Hornburg Hero (LTC:492) [foil] &156
+- Rohirrim Chargers (LTC:496) [foil] &157
+- Satoru Umezawa (SLD:2283) [foil] &158
+- Voja, Jaws of the Conclave (SLD:2284) [foil] &159
+- Wilhelt, the Rotcleaver (SLD:2285) [foil] &160
+- Captain N'ghathrod (SLD:2183) &161
+- Nekusar, the Mindrazer (SLD:2184) &162
+- Roon of the Hidden Realm (SLD:2173) [foil] &163
+- Genesis Ultimatum (SPG:106) [foil] &164
+- Umbris, Fear Manifest (SLD:2339) [foil] &165
+- Kefka, Court Mage // Kefka, Ruler of Ruin (FIN:398) [foil] &166
+- Soulherder (SLD:2174) [foil] &167
+- Infinite Guideline Station (PEOE:219p) [foil] &168
+- Infinite Guideline Station (EOE:219) &169
+- Mutinous Massacre (EOE:222) &170
+- Scouring Swarm (EOC:36) &171
+- Space-Time Anomaly (EOE:315) [foil] &172
+- Inspirit, Flagship Vessel (EOC:2) &173
+- Cosmogoyf (EOE:313) &174
+- Hearthhull, the Worldseed (EOC:1) &175
+- Syr Vondam, Sunstar Exemplar (EOE:302) [foil] &176
+- Ragost, Deft Gastronaut (EOE:224) [foil] &177
+- Superior Spider-Man (SPM:155) &178
+- Cosmic Spider-Man (SPM:271) &179
+- Silk, Web Weaver (SPM:145) &180
+- Superior Spider-Man (SPM:275) [foil] &181
+- Jackal, Genius Geneticist (SPM:131) &182
+- Carnage, Crimson Chaos (SPM:125) &183
+- Spider-Woman, Stunning Savior (SPM:152) &185
+- Peter Parker // Amazing Spider-Man (SPM:10) &186
+- Peter Parker // Amazing Spider-Man (SPM:10) [foil] &187
+- Doctor Octopus, Master Planner (SPM:228) &188
+- Eddie Brock // Venom, Lethal Protector (SPM:55) &189
+- Miles Morales // Ultimate Spider-Man (SPM:108) &190
+- The Spot, Living Portal (SPM:153) &191
+- Araña, Heart of the Spider (SPM:213) &192
+- Scarlet Spider, Ben Reilly (SPM:214) &193
+- Grasping Tentacles (SPE:21) [foil] &194
+- Venom, Deadly Devourer (SPE:22) [foil] &195
+- Green Goblin, Nemesis (SPE:23) [foil] &196
+- Doc Ock, Evil Inventor (SPE:24) [foil] &197
+- Sensational Spider-Man (SPE:25) [foil] &198
+- Pumpkin Bombs (SPE:26) [foil] &199

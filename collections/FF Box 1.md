@@ -1,465 +1,465 @@
 # FF Box 1
 
 ## Main
-- Appa, Steadfast Guardian (TLA:10) [NM] &1
-- Ran and Shaw (TLA:150) [NM] &2
-- Appa, the Vigilant (TLE:62) [foil] [NM] &3
-- Swampbenders (TLE:65) [foil] [NM] &4
-- Mai and Zuko (TLE:68) [foil] [NM] &5
-- Aang and Katara (TLE:69) [foil] [NM] &6
-- Toph, Greatest Earthbender (TLE:70) [foil] [NM] &7
-- Sokka and Suki (TLE:71) [foil] [NM] &8
-- Zhao, the Moon Slayer (TLA:162) [NM] &9
-- Diligent Zookeeper (TLA:171) [NM] &10
-- Spirit Water Revival (TLA:73) [NM] &11
-- Desperate Plea (TLE:103) [foil] [NM] &12
-- Teferi's Protection (TLE:7) [NM] &13
-- Twilight Diviner (ECL:122) [foil] [NM] &14
-- Raiding Schemes (ECL:377) [NM] &15
-- Figure of Fable (ECL:224) [NM] &16
-- Winnowing (ECL:355) [NM] &17
-- Lluwen, Imperfect Naturalist (ECL:375) [NM] &18
-- Mornsong Aria (ECL:111) [NM] &19
-- Twilight Diviner (ECL:315) [NM] &20
-- Grave Venerations (ECC:29) [NM] &21
-- Scuzzback Scrounger (ECL:153) [foil] [NM] &22
-- Winnowing (ECL:43) [foil] [NM] &23
-- Winnowing (ECL:43) [NM] &24
-- Kinscaer Sentry (ECL:22) [NM] &25
-- Selfless Safewright (ECL:367) [NM] &26
-- Storm of Memories (TLE:126) [foil] [NM] &27
-- Tale of Momo (TLE:176) [NM] &28
-- Reckless Blaze (TLE:124) [foil] [NM] &29
-- Black Sun's Zenith (TLE:22) [NM] &30
-- Storm of Memories (TLE:199) [NM] &31
-- Overwhelming Victory (TLE:196) [foil] [NM] &32
-- Tale of Momo (TLE:176) [foil] [NM] &33
-- Day of Black Sun (TLA:94) [foil] [NM] &34
-- Empty City Ruse (TLE:3) [NM] &35
-- Taunting Challenge (TLE:46) [NM] &36
-- Foggy Swamp Visions (TLA:339) [foil] [NM] &37
-- Join the Dance (TLE:50) [NM] &38
-- Black Sun's Zenith (TLE:22) [foil] [NM] &39
-- Secret of Bloodbending (TLA:337) [NM] &40
-- Searing Blood (TLE:35) [NM] &41
-- Elemental Teachings (TLA:378) [foil] [NM] &42
-- Elemental Teachings (TLA:178) [foil] [NM] &43
-- Dragon's Hoard (PW25:18) [foil] [NM] &44
-- Palladium Myr (PW25:6) [foil] [NM] &45
-- Space-Time Anomaly (EOE:229) [NM] &46
-- Kylox, Visionary Inventor (MKM:365) [NM] &47
-- Eivor, Battle-Ready (ACR:274) [foil] [NM] &48
-- J. Jonah Jameson (SPM:81) [NM] &49
-- Anticausal Vestige (EOE:1) [foil] [NM] &50
-- Wedding Ring (WHO:213) [NM] &51
-- Michiko Konda, Truth Seeker (J22:215) [NM] &52
-- Phyrexian Reclamation (J22:124) [NM] &53
-- The Infamous Cruelclaw (BLB:219) [NM] &54
-- Bedevil (NCC:331) [NM] &55
-- Damning Verdict (NCC:15) [NM] &57
-- Soulstone Sanctuary (FDN:487) [NM] &58
-- Inspiring Call (MIC:141) [NM] &59
-- Master of Ceremonies (NCC:18) [NM] &60
-- Toph, Earthbending Master (TLE:209) [NM] &61
-- Serra Ascendant (SLD:2291) [foil] [NM] &62
-- Ponder (SLD:2292) [foil] [NM] &63
-- Cryptolith Rite (SLD:2293) [foil] [NM] &64
-- Kodama's Reach (SLD:2294) [foil] [NM] &65
-- Command Tower (SLD:7063) [foil] [NM] &66
-- Phantasmal Image (SLD:2306) [NM] &67
-- Braid of Fire (SLD:2307) [NM] &68
-- Cursed Mirror (SLD:2308) [NM] &69
-- Mask of Memory (SLD:2309) [NM] &70
-- Thespian's Stage (SLD:2310) [NM] &71
-- Fellwar Stone (SLD:7062) [foil] [NM] &72
-- Phantasmal Image (SLD:2306) [foil] [NM] &73
-- Braid of Fire (SLD:2307) [foil] [NM] &74
-- Cursed Mirror (SLD:2308) [foil] [NM] &75
-- Mask of Memory (SLD:2309) [foil] [NM] &76
-- Thespian's Stage (SLD:2310) [foil] [NM] &77
-- Fellwar Stone (SLD:7062) [foil] [NM] &78
-- Fire Lord Azula (TLA:220) [NM] &79
-- Momo, Friendly Flier (TLA:29) [NM] &80
-- The Lion-Turtle (TLA:232) [NM] &81
-- Toph, Hardheaded Teacher (TLA:246) [NM] &82
-- Boiling Rock Rioter (TLA:87) [NM] &84
-- The Rise of Sozin // Fire Lord Sozin (TLA:117) [NM] &85
-- Realm of Koh (TLA:276) [NM] &86
-- Diligent Zookeeper (TLA:171) [NM] &89
-- The Legend of Kuruk // Avatar Kuruk (TLA:61) [NM] &90
-- Arcane Signet (TLE:315) [NM] &91
-- Sol Ring (TLE:316) [NM] &92
-- Swiftfoot Boots (TLE:317) [NM] &93
-- Fierce Guardianship (TLE:307) [NM] &94
-- Flawless Maneuver (TLE:306) [NM] &95
-- Insurrection (TLE:31) [NM] &96
-- The Rise of Sozin // Fire Lord Sozin (TLA:356) [NM] &97
-- Bison Whistle (TLE:131) [foil] [NM] &98
-- Earthbender Ascension (TLA:175) [foil] [NM] &99
-- Inspiring Call (MOC:304) [NM] &100
-- Lion Sash (NEO:26) [foil] [NM] &101
-- Silverquill Lecturer (M3C:44) [NM] &102
-- Azusa, Lost but Seeking (CMM:679) [NM] &103
-- Once Upon a Time (MB2:71) [NM] &104
-- Glorious Protector (KHM:335) [foil] [NM] &105
-- Kratos, God of War (SLD:2207) [foil] [NM] &106
-- World at War (SLD:2208) [foil] [NM] &107
-- Rite of Flame (SLD:2209) [foil] [NM] &108
-- Sulfuric Vortex (SLD:2210) [foil] [NM] &109
-- Zuko, Conflicted (TLA:253) [foil] [NM] &110
-- Azula, Cunning Usurper (TLA:208) [NM] &111
-- South Pole Voyager (TLA:35) [NM] &112
-- Koh, the Face Stealer (TLA:322) [foil] [NM] &114
-- Azula, Ruthless Firebender (TLE:184) [foil] [NM] &115
-- Diligent Zookeeper (TLA:171) [foil] [NM] &116
-- Boiling Rock Rioter (TLA:372) [foil] [NM] &117
-- Humble Defector (TLE:30) [NM] &118
-- Baboon Spirit (TLE:177) [foil] [NM] &119
-- Beifong's Bounty Hunters (TLA:209) [foil] [NM] &120
-- Earthen Ally (TLA:377) [foil] [NM] &121
-- Mirrorwing Dragon (TLE:33) [NM] &122
-- Yue, the Moon Spirit (TLA:83) [foil] [NM] &123
-- Fire Lord Zuko (TLA:315) [foil] [NM] &124
-- Fire Nation Salvagers (TLE:188) [NM] &125
-- Diligent Zookeeper (TLA:327) [foil] [NM] &126
-- Momo, Friendly Flier (TLA:317) [foil] [NM] &127
-- Rhys the Redeemed (TLE:52) [foil] [NM] &128
-- Earth King's Lieutenant (TLA:217) [foil] [NM] &129
-- The Unagi of Kyoshi Island (TLA:319) [foil] [NM] &130
-- Captain Sisay (TLE:47) [foil] [NM] &131
-- Ty Lee, Chi Blocker (TLA:371) [NM] &132
-- Chong and Lily, Nomads (TLE:113) [foil] [NM] &133
-- Bumi, Unleashed (TLA:211) [foil] [NM] &134
-- Aang, Swift Savior // Aang and La, Ocean's Fury (TLA:298) [foil] [NM] &135
-- Cityscape Leveler (TLE:53) [NM] &136
-- Monk Gyatso (TLE:173) [NM] &137
-- The Blue Spirit (TLE:90) [foil] [NM] &138
-- Toph, Hardheaded Teacher (TLA:246) [foil] [NM] &139
-- Sokka, Bold Boomeranger (TLA:383) [foil] [NM] &140
-- Sakashima of a Thousand Faces (TLE:18) [NM] &141
-- Toph, the First Metalbender (TLA:353) [NM] &142
-- Yue, the Moon Spirit (TLA:338) [foil] [NM] &143
-- Suki, Kyoshi Captain (TLE:85) [foil] [NM] &144
-- Toph, the First Metalbender (TLA:247) [foil] [NM] &145
-- Nyla, Shirshu Sleuth (TLE:190) [NM] &146
-- Iroh, Grand Lotus (TLA:349) [foil] [NM] &147
-- Ran and Shaw (TLA:325) [foil] [NM] &148
-- Iroh, Dragon of the West (TLE:194) [NM] &149
-- Earth King's Lieutenant (TLA:217) [foil] [NM] &150
-- Raven Eagle (TLA:324) [foil] [NM] &151
-- Iroh, Tea Master (TLA:381) [foil] [NM] &152
-- Great Divide Guide (TLA:345) [NM] &153
-- Sunfall (MOM:40) [NM] &154
-- Taster of Wares (ECL:121) [NM] &155
-- Bloodline Bidding (ECL:91) [NM] &156
-- Bloodline Bidding (ECL:91) [NM] &157
-- Harmonized Crescendo (ECL:54) [NM] &158
-- Rimefire Torque (ECL:65) [NM] &159
-- Loch Mare (ECL:57) [NM] &160
-- Thrumming Hivepool (EOE:356) [NM] &161
-- Llanowar Wastes (BRO:299) [NM] &162
-- Jor Kadeen, First Goldwarden (ONE:332) [foil] [NM] &163
-- Seachrome Coast (ONE:258) [NM] &164
-- Mary Read and Anne Bonny (ACR:61) [NM] &165
-- Spider-Sense (SPM:284) [foil] [NM] &166
-- Singularity Rupture (EOE:398) [foil] [NM] &167
-- Spider-Ham, Peter Porker (PW25:10) [foil] [NM] &168
-- Sheltered Thicket (WHO:304) [foil] [NM] &169
-- Dragonskull Summit (WHO:490) [foil] [NM] &170
-- Rangers of Ithilien (LTR:66) [NM] &171
-- Crystalline Armor (TLE:204) [NM] &172
-- Iroh, Grand Lotus (TLA:227) [foil] [NM] &173
-- Heartbeat of Spring (TLE:42) [NM] &174
-- Iroh, Tea Master (TLA:381) [foil] [NM] &175
-- Cheering Crowd (SPM:126) [foil] [NM] &176
-- Bumi, Eclectic Earthbender (TLE:248) [foil] [NM] &177
-- Misleading Signpost (WOC:11) [NM] &178
-- Genesis Wave (FDN:334) [NM] &179
-- Bitter Work (TLA:210) [NM] &180
-- Tectonic Split (TLE:208) [foil] [NM] &181
-- Sun Warriors (TLA:244) [NM] &182
-- United Front (TLA:39) [NM] &184
-- Aetherize (GTC:29) [NM] &185
-- Explorer's Scope (PIP:231) [NM] &186
-- Invasion of Innistrad // Deluge of the Dead (INR:120) [foil] [NM] &187
-- Nine-Fingers Keene (CLB:435) [NM] &188
-- Dynaheir, Invoker Adept (CLB:421) [foil] [NM] &189
-- Venture Forth (CLB:639) [NM] &190
-- Wyll's Reversal (CLB:209) [foil] [NM] &191
-- Jaheira's Respite (CLB:589) [foil] [NM] &192
-- Blade of Selves (CLB:301) [foil] [NM] &193
-- Nalfeshnee (CLB:632) [NM] &194
-- Undermountain Adventurer (CLB:594) [NM] &195
-- Jan Jansen, Chaos Crafter (CLB:535) [etched] [NM] &196
-- Bane, Lord of Darkness (CLB:415) [NM] &197
-- Baldur's Gate (CLB:600) [foil] [NM] &198
-- Tlincalli Hunter // Retrieve Prey (CLB:638) [NM] &199
-- Shameless Charlatan (CLB:488) [etched] [NM] &200
-- Jaheira, Friend of the Forest (CLB:409) [NM] &201
-- The Council of Four (CLB:271) [NM] &202
-- Raggadragga, Goreguts Boss (CLB:291) [NM] &203
-- Barroom Brawl (CLB:217) [NM] &204
-- Gorion, Wise Mentor (CLB:276) [NM] &205
-- Jan Jansen, Chaos Crafter (CLB:277) [NM] &206
-- Raggadragga, Goreguts Boss (CLB:548) [etched] [NM] &207
-- Earthquake Dragon (CLB:228) [NM] &208
-- Nine-Fingers Keene (CLB:289) [NM] &209
-- Raised by Giants (CLB:250) [NM] &210
-- Wand of Wonder (CLB:204) [NM] &211
-- Baba Lysaga, Night Witch (CLB:525) [etched] [NM] &212
-- Captain N'ghathrod (CLB:640) [NM] &213
-- Shelob, Child of Ungoliant (LTR:230) [foil] [NM] &214
-- Sauron, the Necromancer (LTR:310) [NM] &215
-- The Ring Goes South (LTR:186) [NM] &216
-- Frodo, Sauron's Bane (LTR:18) [NM] &217
-- Storm of Saruman (LTR:72) [foil] [NM] &218
-- Tiger-Seal (TLA:75) [NM] &219
-- Boiling Rock Rioter (TLA:87) [NM] &220
-- Fire Lord Azula (TLA:220) [NM] &221
-- The Lion-Turtle (TLA:328) [NM] &222
-- The Unagi of Kyoshi Island (PTLA:77s) [foil] [NM] &223
-- Azula, Cunning Usurper (TLA:208) [NM] &224
-- Raven Eagle (TLA:116) [NM] &225
-- The Mechanist, Aerial Artisan (TLA:64) [NM] &226
-- Katara, Water Tribe's Hope (TLA:231) [NM] &227
-- Mai, Scornful Striker (TLA:109) [NM] &228
-- The Earth King (TLA:172) [NM] &229
-- Iroh, Grand Lotus (TLA:227) [NM] &230
-- Mai, Scornful Striker (TLA:109) [NM] &231
-- Katara, the Fearless (TLA:230) [NM] &232
-- Fire Lord Azula (TLA:220) [NM] &233
-- Earth King's Lieutenant (TLA:217) [NM] &234
-- Ty Lee, Chi Blocker (TLA:76) [NM] &235
-- Raven Eagle (TLA:324) [NM] &237
-- Momo, Friendly Flier (TLA:29) [NM] &238
-- Zuko, Conflicted (TLA:253) [NM] &239
-- Great Divide Guide (TLA:181) [foil] [NM] &240
-- Avatar Aang // Aang, Master of Elements (TLA:207) [NM] &241
-- Sandbender Scavengers (TLA:239) [NM] &243
-- Noctis, Prince of Lucis (FIN:401) [NM] &244
-- Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (FIN:229) [NM] &245
-- Memories Returning (FIN:63) [NM] &246
-- Dissipation Field (SOM:32) [NM] &247
-- Seething Song (SLD:7051) [foil] [NM] &249
-- Sol Ring (SLD:912) [foil] [NM] &250
-- Nathan Drake, Treasure Hunter (SLD:2216) [foil] [NM] &251
-- Midnight Clock (SLD:2217) [foil] [NM] &252
-- Whip of Erebos (SLD:2218) [foil] [NM] &253
-- Chain Reaction (SLD:2219) [foil] [NM] &254
-- Passionate Archaeologist (SLD:2220) [foil] [NM] &255
-- Expedition Map (SLD:7053) [foil] [NM] &256
-- Aloy, Savior of Meridian (SLD:2221) [foil] [NM] &257
-- Farseek (SLD:2222) [foil] [NM] &258
-- Blightsteel Colossus (SLD:2223) [foil] [NM] &259
-- Tarrian's Soulcleaver (SLD:2224) [foil] [NM] &260
-- Meteor Golem (SLD:2225) [foil] [NM] &261
-- Growth Spiral (SLD:7054) [foil] [NM] &262
-- Kratos, Stoic Father (SLD:2213) [foil] [NM] &263
-- Atreus, Impulsive Son (SLD:2212) [foil] [NM] &264
-- Teferi's Ageless Insight // Teferi's Ageless Insight (SLD:2214) [foil] [NM] &265
-- Iroas, God of Victory (SLD:2215) [foil] [NM] &266
-- Unbreakable Formation (SLD:7052) [foil] [NM] &267
-- Abby, Merciless Soldier (SLD:2202) [foil] [NM] &268
-- Ellie, Brick Master (SLD:2197) [foil] [NM] &269
-- Joel, Resolute Survivor (SLD:2198) [foil] [NM] &270
-- Cabal Ritual (SLD:2199) [foil] [NM] &271
-- Haunted One (SLD:2200) [foil] [NM] &272
-- Wild Growth (SLD:7049) [foil] [NM] &273
-- Ellie, Vengeful Hunter (SLD:2203) [foil] [NM] &274
-- Dictate of Erebos (SLD:2204) [foil] [NM] &275
-- Mycoloth (SLD:2205) [foil] [NM] &276
-- Unleash Fury (SLD:7050) [foil] [NM] &277
-- Super-Soldier Serum (MSH:38) [NM] &278
-- Vision Quest (MSH:237) [NM] &279
-- Ms. Marvel, Kamala Khan (MSH:67) [NM] &280
-- Alien Invasion (MSH:200) [NM] &281
-- Jennifer Walters // The Sensational She-Hulk (MSH:18) [foil] [NM] &282
-- The Vision (MSH:255) [NM] &283
-- S.H.I.E.L.D. Flying Car (MSH:74) [NM] &284
-- Elektra, Daughter of the Hand (MSH:97) [NM] &285
-- Thanos, the Mad Titan (MSH:233) [foil] [NM] &287
-- The Scarlet Witch (MSH:151) [NM] &288
-- Fin Fang Foom (MSH:129) [NM] &289
-- Thunderbolts Conspiracy (MSH:117) [NM] &290
-- Multiversal Incursion (MSH:68) [NM] &291
-- The Ruinous Wrecking Crew (MSH:224) [NM] &292
-- Cosmic Cube (MSH:245) [NM] &293
-- Secret Invasion (MSH:72) [foil] [NM] &294
-- Mole Man, Moloid Master (MSH:177) [NM] &295
-- Elektra, Daughter of the Hand (MSH:97) [NM] &296
-- Monica Rambeau // Photon, Living Light (MSH:23) [NM] &297
-- S.H.I.E.L.D. Flying Car (MSH:74) [NM] &298
-- Agent Phil Coulson (MSH:4) [foil] [NM] &299
-- Construct a Cosmic Cube (MSH:90) [NM] &300
-- Absorbing Man (MSH:199) [NM] &301
-- Heroic Feast (MSH:172) [NM] &302
-- Bruce Banner // The Incredible Hulk (MSH:49) [NM] &303
-- Moon Girl and Devil Dinosaur (MSH:223) [foil] [NM] &304
-- Arc Reactor (MSH:243) [NM] &305
-- Ms. Marvel, Kamala Khan (MSH:67) [NM] &306
-- Captain America, Wings of Freedom (MSH:10) [NM] &307
-- Elektra, Daughter of the Hand (MSH:97) [NM] &308
-- Shang-Chi, Master of Kung Fu (MSH:187) [NM] &309
-- Cloak and Dagger, Entwined (MSH:211) [NM] &310
-- Vision Quest (MSH:237) [NM] &311
-- Worlds Within Worlds (MSH:241) [NM] &312
-- Secret Invasion (MSH:72) [NM] &313
-- Agent Phil Coulson (MSH:4) [NM] &314
-- Gran-Gran (PW25:14) [foil] [NM] &315
-- Lizard, Connors's Curse (SPM:265) [NM] &316
-- Warmaker Gunship (EOE:339) [NM] &317
-- Sram, Senior Edificer (FCA:3) [NM] &318
-- The Regalia (FIN:267) [NM] &319
-- Odric, Lunarch Marshal (INR:298) [NM] &320
-- Fraying Line (CLB:314) [foil] [NM] &321
-- Alaundo the Seer (CLB:264) [foil] [NM] &322
-- Sarevok's Tome (CLB:645) [NM] &323
-- Cultist of the Absolute (CLB:495) [etched] [NM] &324
-- Duke Ulder Ravengard (CLB:272) [NM] &325
-- Shadowheart, Dark Justiciar (CLB:146) [NM] &326
-- Raised by Giants (CLB:520) [etched] [NM] &327
-- Monster Manual // Zoological Study (CLB:242) [NM] &328
-- Myrkul, Lord of Bones (CLB:544) [etched] [NM] &329
-- Wand of Wonder (CLB:204) [NM] &330
-- Raggadragga, Goreguts Boss (CLB:437) [NM] &331
-- Lae'zel, Vlaakith's Champion (CLB:29) [foil] [NM] &332
-- Duke Ulder Ravengard (CLB:420) [NM] &333
-- Wrathful Red Dragon (CLB:585) [NM] &334
-- Grell Philosopher (CLB:616) [NM] &335
-- Vexing Puzzlebox (CLB:374) [foil] [NM] &336
-- Mazzy, Truesword Paladin (CLB:541) [etched] [NM] &337
-- Zevlor, Elturel Exile (CLB:441) [NM] &338
-- Brainstealer Dragon (CLB:621) [NM] &339
-- Elder Brain (CLB:125) [foil] [NM] &340
-- Owlbear Cub (CLB:246) [NM] &341
-- Bane, Lord of Darkness (CLB:526) [etched] [NM] &342
-- Jaheira, Friend of the Forest (CLB:237) [NM] &343
-- Lae'zel, Vlaakith's Champion (CLB:29) [NM] &344
-- Shadowheart, Dark Justiciar (CLB:499) [etched] [NM] &345
-- Duke Ulder Ravengard (CLB:272) [NM] &346
-- Mirror of Life Trapping (CLB:326) [NM] &347
-- Myrkul, Lord of Bones (CLB:287) [NM] &348
-- Jon Irenicus, Shattered One (CLB:278) [NM] &349
-- Lae'zel, Vlaakith's Champion (CLB:378) [NM] &350
-- Volo, Itinerant Scholar (CLB:103) [NM] &351
-- Wrathful Red Dragon (CLB:207) [NM] &352
-- Displacer Kitten (CLB:63) [NM] &353
-- Astarion, the Decadent (CLB:265) [NM] &354
-- Alaundo the Seer (CLB:264) [NM] &355
-- Mighty Servant of Leuk-o (CLB:324) [NM] &356
-- Astarion, the Decadent (CLB:524) [etched] [NM] &357
-- Alaundo the Seer (CLB:523) [etched] [NM] &358
-- Monster Manual // Zoological Study (CLB:242) [NM] &359
-- Psionic Ritual (CLB:618) [NM] &360
-- Gorion, Wise Mentor (CLB:534) [etched] [NM] &361
-- Ravenloft Adventurer (CLB:577) [foil] [NM] &362
-- Baba Lysaga, Night Witch (CLB:414) [NM] &363
-- Gale, Waterdeep Prodigy (CLB:383) [foil] [NM] &364
-- Earthquake Dragon (CLB:588) [NM] &365
-- Minsc & Boo, Timeless Heroes (CLB:285) [foil] [NM] &366
-- Jon Irenicus, Shattered One (CLB:425) [foil] [NM] &367
-- Alaundo the Seer (CLB:412) [NM] &368
-- Astarion, the Decadent (CLB:265) [foil] [NM] &369
-- Fraying Line (CLB:597) [NM] &370
-- Lae'zel, Vlaakith's Champion (CLB:476) [etched] [NM] &371
-- Owlbear Cub (CLB:592) [foil] [NM] &372
-- Karlach, Fury of Avernus (CLB:400) [NM] &373
-- Owlbear Cub (CLB:246) [foil] [NM] &374
-- Clan Crafter (CLB:614) [NM] &375
-- Baba Lysaga, Night Witch (CLB:266) [NM] &376
-- Raggadragga, Goreguts Boss (CLB:548) [etched] [NM] &378
-- Caves of Chaos Adventurer (CLB:579) [NM] &379
-- Deepway Navigator (ECL:214) [foil] [NM] &380
-- Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (ECL:13) [NM] &381
-- Ajani, Outland Chaperone (ECL:4) [NM] &382
-- Door of Destinies (SPG:146) [NM] &383
-- Genji Glove (FIN:258) [foil] [NM] &384
-- Rediscover the Way (TDM:215) [foil] [NM] &385
-- Bootleggers' Stash (SNC:288) [NM] &386
-- Dragonfire Blade (TDM:240) [NM] &387
-- Crystal Quarry (EOS:10) [NM] &388
-- Wall of Omens (FCA:27) [NM] &390
-- Squall, Gunblade Duelist (FIC:453) [NM] &391
-- Sazh Katzroy (FIN:199) [NM] &392
-- Tifa Lockhart (FIN:206) [NM] &393
-- Matoya, Archon Elder (FIN:62) [NM] &394
-- Strixhaven Stadium (FCA:63) [NM] &395
-- Noctis, Prince of Lucis (FIN:235) [NM] &396
-- Zanarkand, Ancient Metropolis // Lasting Fayth (FIN:293) [foil] [NM] &397
-- Carpet of Flowers (FCA:44) [NM] &398
-- Vaan, Street Thief (FIN:168) [NM] &399
-- Deadly Dispute (FCA:33) [NM] &400
-- Genji Glove (FIN:258) [NM] &401
-- Terra, Magical Adept // Esper Terra (FIN:323) [NM] &402
-- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:127) [NM] &403
-- Summon: Knights of Round (FIN:36) [NM] &404
-- The Wandering Minstrel (FIN:249) [NM] &405
-- The Regalia (FIN:267) [NM] &406
-- Danitha Capashen, Paragon (FCA:22) [NM] &407
-- Ninja's Blades (FIN:108) [NM] &408
-- Strixhaven Stadium (FCA:63) [NM] &409
-- Summon: G.F. Cerberus (FIN:162) [NM] &410
-- The Masamune (FIN:264) [foil] [NM] &411
-- Isshin, Two Heavens as One (FCA:54) [NM] &412
-- Sazh Katzroy (FIN:199) [NM] &413
-- Stiltzkin, Moogle Merchant (FIN:34) [NM] &414
-- Astrologian's Planisphere (FIN:46) [NM] &415
-- Clive, Ifrit's Dominant // Ifrit, Warden of Inferno (FIN:133) [NM] &416
-- Hope Estheim (FIN:226) [NM] &417
-- Counterspell (FCA:4) [NM] &418
-- Summon: G.F. Cerberus (FIN:162) [NM] &419
-- A Realm Reborn (FIN:196) [NM] &420
-- Squall, SeeD Mercenary (FIN:243) [NM] &421
-- The Water Crystal (FIN:85) [NM] &422
-- Counterspell (FCA:4) [NM] &423
-- Lindblum, Industrial Regency // Mage Siege (FIN:285) [NM] &424
-- Lightning Bolt (FCA:40) [NM] &425
-- Summon: Brynhildr (FIN:160) [NM] &426
-- Edgar, King of Figaro (FIN:51) [NM] &427
-- Jumbo Cactuar (FIN:191) [NM] &428
-- Seifer Almasy (FIN:156) [NM] &429
-- Balthier and Fran (FIN:393) [NM] &430
-- Zanarkand, Ancient Metropolis // Lasting Fayth (FIN:314) [NM] &431
-- Danitha Capashen, Paragon (FCA:22) [NM] &432
-- Hope Estheim (FIN:226) [NM] &433
-- Bartz and Boko (FIN:175) [NM] &434
-- Ancient Copper Dragon (FCA:12) [NM] &435
-- Ishgard, the Holy See // Faith & Grief (FIN:283) [NM] &436
-- Sculpted Sunburst (CLB:557) [foil] [NM] &437
-- Reconnaissance Mission (SLD:2535) [foil] [NM] &439
-- Radiate (SLD:2536) [foil] [NM] &440
-- Defense of the Heart (SLD:2537) [foil] [NM] &441
-- Arcane Signet (SLD:2538) [foil] [NM] &442
-- Sol Ring (SLD:2539) [foil] [NM] &443
-- Relic of Legends (SLD:7109) [foil] [NM] &444
-- Secret Rendezvous (SLD:2648) [foil] [NM] &445
-- Rune-Scarred Demon (SLD:2649) [foil] [NM] &446
-- Terror of the Peaks (SLD:2650) [foil] [NM] &447
-- Communal Brewing (SLD:2651) [foil] [NM] &448
-- Rogue's Passage (SLD:2652) [foil] [NM] &449
-- Crucible of Worlds (SLD:7162) [foil] [NM] &450
-- Secret Rendezvous (SLD:2648) [NM] &451
-- Rune-Scarred Demon (SLD:2649) [NM] &452
-- Terror of the Peaks (SLD:2650) [NM] &453
-- Communal Brewing (SLD:2651) [NM] &454
-- Rogue's Passage (SLD:2652) [NM] &455
-- Crucible of Worlds (SLD:7162) [NM] &456
-- Varchild, Betrayer of Kjeldor (C18:28) [NM] &457
-- Karazikar, the Eye Tyrant (SLD:1791) [foil] [NM] &377
-- Jumbo Cactuar (FIN:343) [NM] &56
-- Frantic Search (CMM:96) [foil] [NM] &83
-- Ruinous Ultimatum (PIP:220) [NM] &87
-- Queen Marchesa (CMM:350) [NM] &88
-- Windborn Muse (VOC:101) [NM] &113
-- Oft-Nabbed Goat (ECC:31) [NM] &183
-- Reverent Mantra (SLD:2686) [foil] [NM] &236
-- Juri, Master of the Revue (EOC:119) [NM] &242
-- Formless Genesis (EOC:96) [NM] &248
-- Goro-Goro, Disciple of Ryusei (NEO:145) [NM] &286
-- Storm-Kiln Artist (STX:115) [NM] &389
-- Assault Strobe (SOM:82) [NM] &438
-- Delina, Wild Mage (AFR:317) [NM] &458
-- Generous Gift (SLD:2534) [foil] [NM] &459
-- Gideon Blackblade (WAR:13) [NM] &460
-- Stormcatch Mentor (BLB:234) [NM] &461
-- Growth Spiral (LTC:267) [NM] &462
+- Appa, Steadfast Guardian (TLA:10) &1
+- Ran and Shaw (TLA:150) &2
+- Appa, the Vigilant (TLE:62) [foil] &3
+- Swampbenders (TLE:65) [foil] &4
+- Mai and Zuko (TLE:68) [foil] &5
+- Aang and Katara (TLE:69) [foil] &6
+- Toph, Greatest Earthbender (TLE:70) [foil] &7
+- Sokka and Suki (TLE:71) [foil] &8
+- Zhao, the Moon Slayer (TLA:162) &9
+- Diligent Zookeeper (TLA:171) &10
+- Spirit Water Revival (TLA:73) &11
+- Desperate Plea (TLE:103) [foil] &12
+- Teferi's Protection (TLE:7) &13
+- Twilight Diviner (ECL:122) [foil] &14
+- Raiding Schemes (ECL:377) &15
+- Figure of Fable (ECL:224) &16
+- Winnowing (ECL:355) &17
+- Lluwen, Imperfect Naturalist (ECL:375) &18
+- Mornsong Aria (ECL:111) &19
+- Twilight Diviner (ECL:315) &20
+- Grave Venerations (ECC:29) &21
+- Scuzzback Scrounger (ECL:153) [foil] &22
+- Winnowing (ECL:43) [foil] &23
+- Winnowing (ECL:43) &24
+- Kinscaer Sentry (ECL:22) &25
+- Selfless Safewright (ECL:367) &26
+- Storm of Memories (TLE:126) [foil] &27
+- Tale of Momo (TLE:176) &28
+- Reckless Blaze (TLE:124) [foil] &29
+- Black Sun's Zenith (TLE:22) &30
+- Storm of Memories (TLE:199) &31
+- Overwhelming Victory (TLE:196) [foil] &32
+- Tale of Momo (TLE:176) [foil] &33
+- Day of Black Sun (TLA:94) [foil] &34
+- Empty City Ruse (TLE:3) &35
+- Taunting Challenge (TLE:46) &36
+- Foggy Swamp Visions (TLA:339) [foil] &37
+- Join the Dance (TLE:50) &38
+- Black Sun's Zenith (TLE:22) [foil] &39
+- Secret of Bloodbending (TLA:337) &40
+- Searing Blood (TLE:35) &41
+- Elemental Teachings (TLA:378) [foil] &42
+- Elemental Teachings (TLA:178) [foil] &43
+- Dragon's Hoard (PW25:18) [foil] &44
+- Palladium Myr (PW25:6) [foil] &45
+- Space-Time Anomaly (EOE:229) &46
+- Kylox, Visionary Inventor (MKM:365) &47
+- Eivor, Battle-Ready (ACR:274) [foil] &48
+- J. Jonah Jameson (SPM:81) &49
+- Anticausal Vestige (EOE:1) [foil] &50
+- Wedding Ring (WHO:213) &51
+- Michiko Konda, Truth Seeker (J22:215) &52
+- Phyrexian Reclamation (J22:124) &53
+- The Infamous Cruelclaw (BLB:219) &54
+- Bedevil (NCC:331) &55
+- Damning Verdict (NCC:15) &57
+- Soulstone Sanctuary (FDN:487) &58
+- Inspiring Call (MIC:141) &59
+- Master of Ceremonies (NCC:18) &60
+- Toph, Earthbending Master (TLE:209) &61
+- Serra Ascendant (SLD:2291) [foil] &62
+- Ponder (SLD:2292) [foil] &63
+- Cryptolith Rite (SLD:2293) [foil] &64
+- Kodama's Reach (SLD:2294) [foil] &65
+- Command Tower (SLD:7063) [foil] &66
+- Phantasmal Image (SLD:2306) &67
+- Braid of Fire (SLD:2307) &68
+- Cursed Mirror (SLD:2308) &69
+- Mask of Memory (SLD:2309) &70
+- Thespian's Stage (SLD:2310) &71
+- Fellwar Stone (SLD:7062) [foil] &72
+- Phantasmal Image (SLD:2306) [foil] &73
+- Braid of Fire (SLD:2307) [foil] &74
+- Cursed Mirror (SLD:2308) [foil] &75
+- Mask of Memory (SLD:2309) [foil] &76
+- Thespian's Stage (SLD:2310) [foil] &77
+- Fellwar Stone (SLD:7062) [foil] &78
+- Fire Lord Azula (TLA:220) &79
+- Momo, Friendly Flier (TLA:29) &80
+- The Lion-Turtle (TLA:232) &81
+- Toph, Hardheaded Teacher (TLA:246) &82
+- Boiling Rock Rioter (TLA:87) &84
+- The Rise of Sozin // Fire Lord Sozin (TLA:117) &85
+- Realm of Koh (TLA:276) &86
+- Diligent Zookeeper (TLA:171) &89
+- The Legend of Kuruk // Avatar Kuruk (TLA:61) &90
+- Arcane Signet (TLE:315) &91
+- Sol Ring (TLE:316) &92
+- Swiftfoot Boots (TLE:317) &93
+- Fierce Guardianship (TLE:307) &94
+- Flawless Maneuver (TLE:306) &95
+- Insurrection (TLE:31) &96
+- The Rise of Sozin // Fire Lord Sozin (TLA:356) &97
+- Bison Whistle (TLE:131) [foil] &98
+- Earthbender Ascension (TLA:175) [foil] &99
+- Inspiring Call (MOC:304) &100
+- Lion Sash (NEO:26) [foil] &101
+- Silverquill Lecturer (M3C:44) &102
+- Azusa, Lost but Seeking (CMM:679) &103
+- Once Upon a Time (MB2:71) &104
+- Glorious Protector (KHM:335) [foil] &105
+- Kratos, God of War (SLD:2207) [foil] &106
+- World at War (SLD:2208) [foil] &107
+- Rite of Flame (SLD:2209) [foil] &108
+- Sulfuric Vortex (SLD:2210) [foil] &109
+- Zuko, Conflicted (TLA:253) [foil] &110
+- Azula, Cunning Usurper (TLA:208) &111
+- South Pole Voyager (TLA:35) &112
+- Koh, the Face Stealer (TLA:322) [foil] &114
+- Azula, Ruthless Firebender (TLE:184) [foil] &115
+- Diligent Zookeeper (TLA:171) [foil] &116
+- Boiling Rock Rioter (TLA:372) [foil] &117
+- Humble Defector (TLE:30) &118
+- Baboon Spirit (TLE:177) [foil] &119
+- Beifong's Bounty Hunters (TLA:209) [foil] &120
+- Earthen Ally (TLA:377) [foil] &121
+- Mirrorwing Dragon (TLE:33) &122
+- Yue, the Moon Spirit (TLA:83) [foil] &123
+- Fire Lord Zuko (TLA:315) [foil] &124
+- Fire Nation Salvagers (TLE:188) &125
+- Diligent Zookeeper (TLA:327) [foil] &126
+- Momo, Friendly Flier (TLA:317) [foil] &127
+- Rhys the Redeemed (TLE:52) [foil] &128
+- Earth King's Lieutenant (TLA:217) [foil] &129
+- The Unagi of Kyoshi Island (TLA:319) [foil] &130
+- Captain Sisay (TLE:47) [foil] &131
+- Ty Lee, Chi Blocker (TLA:371) &132
+- Chong and Lily, Nomads (TLE:113) [foil] &133
+- Bumi, Unleashed (TLA:211) [foil] &134
+- Aang, Swift Savior // Aang and La, Ocean's Fury (TLA:298) [foil] &135
+- Cityscape Leveler (TLE:53) &136
+- Monk Gyatso (TLE:173) &137
+- The Blue Spirit (TLE:90) [foil] &138
+- Toph, Hardheaded Teacher (TLA:246) [foil] &139
+- Sokka, Bold Boomeranger (TLA:383) [foil] &140
+- Sakashima of a Thousand Faces (TLE:18) &141
+- Toph, the First Metalbender (TLA:353) &142
+- Yue, the Moon Spirit (TLA:338) [foil] &143
+- Suki, Kyoshi Captain (TLE:85) [foil] &144
+- Toph, the First Metalbender (TLA:247) [foil] &145
+- Nyla, Shirshu Sleuth (TLE:190) &146
+- Iroh, Grand Lotus (TLA:349) [foil] &147
+- Ran and Shaw (TLA:325) [foil] &148
+- Iroh, Dragon of the West (TLE:194) &149
+- Earth King's Lieutenant (TLA:217) [foil] &150
+- Raven Eagle (TLA:324) [foil] &151
+- Iroh, Tea Master (TLA:381) [foil] &152
+- Great Divide Guide (TLA:345) &153
+- Sunfall (MOM:40) &154
+- Taster of Wares (ECL:121) &155
+- Bloodline Bidding (ECL:91) &156
+- Bloodline Bidding (ECL:91) &157
+- Harmonized Crescendo (ECL:54) &158
+- Rimefire Torque (ECL:65) &159
+- Loch Mare (ECL:57) &160
+- Thrumming Hivepool (EOE:356) &161
+- Llanowar Wastes (BRO:299) &162
+- Jor Kadeen, First Goldwarden (ONE:332) [foil] &163
+- Seachrome Coast (ONE:258) &164
+- Mary Read and Anne Bonny (ACR:61) &165
+- Spider-Sense (SPM:284) [foil] &166
+- Singularity Rupture (EOE:398) [foil] &167
+- Spider-Ham, Peter Porker (PW25:10) [foil] &168
+- Sheltered Thicket (WHO:304) [foil] &169
+- Dragonskull Summit (WHO:490) [foil] &170
+- Rangers of Ithilien (LTR:66) &171
+- Crystalline Armor (TLE:204) &172
+- Iroh, Grand Lotus (TLA:227) [foil] &173
+- Heartbeat of Spring (TLE:42) &174
+- Iroh, Tea Master (TLA:381) [foil] &175
+- Cheering Crowd (SPM:126) [foil] &176
+- Bumi, Eclectic Earthbender (TLE:248) [foil] &177
+- Misleading Signpost (WOC:11) &178
+- Genesis Wave (FDN:334) &179
+- Bitter Work (TLA:210) &180
+- Tectonic Split (TLE:208) [foil] &181
+- Sun Warriors (TLA:244) &182
+- United Front (TLA:39) &184
+- Aetherize (GTC:29) &185
+- Explorer's Scope (PIP:231) &186
+- Invasion of Innistrad // Deluge of the Dead (INR:120) [foil] &187
+- Nine-Fingers Keene (CLB:435) &188
+- Dynaheir, Invoker Adept (CLB:421) [foil] &189
+- Venture Forth (CLB:639) &190
+- Wyll's Reversal (CLB:209) [foil] &191
+- Jaheira's Respite (CLB:589) [foil] &192
+- Blade of Selves (CLB:301) [foil] &193
+- Nalfeshnee (CLB:632) &194
+- Undermountain Adventurer (CLB:594) &195
+- Jan Jansen, Chaos Crafter (CLB:535) [etched] &196
+- Bane, Lord of Darkness (CLB:415) &197
+- Baldur's Gate (CLB:600) [foil] &198
+- Tlincalli Hunter // Retrieve Prey (CLB:638) &199
+- Shameless Charlatan (CLB:488) [etched] &200
+- Jaheira, Friend of the Forest (CLB:409) &201
+- The Council of Four (CLB:271) &202
+- Raggadragga, Goreguts Boss (CLB:291) &203
+- Barroom Brawl (CLB:217) &204
+- Gorion, Wise Mentor (CLB:276) &205
+- Jan Jansen, Chaos Crafter (CLB:277) &206
+- Raggadragga, Goreguts Boss (CLB:548) [etched] &207
+- Earthquake Dragon (CLB:228) &208
+- Nine-Fingers Keene (CLB:289) &209
+- Raised by Giants (CLB:250) &210
+- Wand of Wonder (CLB:204) &211
+- Baba Lysaga, Night Witch (CLB:525) [etched] &212
+- Captain N'ghathrod (CLB:640) &213
+- Shelob, Child of Ungoliant (LTR:230) [foil] &214
+- Sauron, the Necromancer (LTR:310) &215
+- The Ring Goes South (LTR:186) &216
+- Frodo, Sauron's Bane (LTR:18) &217
+- Storm of Saruman (LTR:72) [foil] &218
+- Tiger-Seal (TLA:75) &219
+- Boiling Rock Rioter (TLA:87) &220
+- Fire Lord Azula (TLA:220) &221
+- The Lion-Turtle (TLA:328) &222
+- The Unagi of Kyoshi Island (PTLA:77s) [foil] &223
+- Azula, Cunning Usurper (TLA:208) &224
+- Raven Eagle (TLA:116) &225
+- The Mechanist, Aerial Artisan (TLA:64) &226
+- Katara, Water Tribe's Hope (TLA:231) &227
+- Mai, Scornful Striker (TLA:109) &228
+- The Earth King (TLA:172) &229
+- Iroh, Grand Lotus (TLA:227) &230
+- Mai, Scornful Striker (TLA:109) &231
+- Katara, the Fearless (TLA:230) &232
+- Fire Lord Azula (TLA:220) &233
+- Earth King's Lieutenant (TLA:217) &234
+- Ty Lee, Chi Blocker (TLA:76) &235
+- Raven Eagle (TLA:324) &237
+- Momo, Friendly Flier (TLA:29) &238
+- Zuko, Conflicted (TLA:253) &239
+- Great Divide Guide (TLA:181) [foil] &240
+- Avatar Aang // Aang, Master of Elements (TLA:207) &241
+- Sandbender Scavengers (TLA:239) &243
+- Noctis, Prince of Lucis (FIN:401) &244
+- Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (FIN:229) &245
+- Memories Returning (FIN:63) &246
+- Dissipation Field (SOM:32) &247
+- Seething Song (SLD:7051) [foil] &249
+- Sol Ring (SLD:912) [foil] &250
+- Nathan Drake, Treasure Hunter (SLD:2216) [foil] &251
+- Midnight Clock (SLD:2217) [foil] &252
+- Whip of Erebos (SLD:2218) [foil] &253
+- Chain Reaction (SLD:2219) [foil] &254
+- Passionate Archaeologist (SLD:2220) [foil] &255
+- Expedition Map (SLD:7053) [foil] &256
+- Aloy, Savior of Meridian (SLD:2221) [foil] &257
+- Farseek (SLD:2222) [foil] &258
+- Blightsteel Colossus (SLD:2223) [foil] &259
+- Tarrian's Soulcleaver (SLD:2224) [foil] &260
+- Meteor Golem (SLD:2225) [foil] &261
+- Growth Spiral (SLD:7054) [foil] &262
+- Kratos, Stoic Father (SLD:2213) [foil] &263
+- Atreus, Impulsive Son (SLD:2212) [foil] &264
+- Teferi's Ageless Insight // Teferi's Ageless Insight (SLD:2214) [foil] &265
+- Iroas, God of Victory (SLD:2215) [foil] &266
+- Unbreakable Formation (SLD:7052) [foil] &267
+- Abby, Merciless Soldier (SLD:2202) [foil] &268
+- Ellie, Brick Master (SLD:2197) [foil] &269
+- Joel, Resolute Survivor (SLD:2198) [foil] &270
+- Cabal Ritual (SLD:2199) [foil] &271
+- Haunted One (SLD:2200) [foil] &272
+- Wild Growth (SLD:7049) [foil] &273
+- Ellie, Vengeful Hunter (SLD:2203) [foil] &274
+- Dictate of Erebos (SLD:2204) [foil] &275
+- Mycoloth (SLD:2205) [foil] &276
+- Unleash Fury (SLD:7050) [foil] &277
+- Super-Soldier Serum (MSH:38) &278
+- Vision Quest (MSH:237) &279
+- Ms. Marvel, Kamala Khan (MSH:67) &280
+- Alien Invasion (MSH:200) &281
+- Jennifer Walters // The Sensational She-Hulk (MSH:18) [foil] &282
+- The Vision (MSH:255) &283
+- S.H.I.E.L.D. Flying Car (MSH:74) &284
+- Elektra, Daughter of the Hand (MSH:97) &285
+- Thanos, the Mad Titan (MSH:233) [foil] &287
+- The Scarlet Witch (MSH:151) &288
+- Fin Fang Foom (MSH:129) &289
+- Thunderbolts Conspiracy (MSH:117) &290
+- Multiversal Incursion (MSH:68) &291
+- The Ruinous Wrecking Crew (MSH:224) &292
+- Cosmic Cube (MSH:245) &293
+- Secret Invasion (MSH:72) [foil] &294
+- Mole Man, Moloid Master (MSH:177) &295
+- Elektra, Daughter of the Hand (MSH:97) &296
+- Monica Rambeau // Photon, Living Light (MSH:23) &297
+- S.H.I.E.L.D. Flying Car (MSH:74) &298
+- Agent Phil Coulson (MSH:4) [foil] &299
+- Construct a Cosmic Cube (MSH:90) &300
+- Absorbing Man (MSH:199) &301
+- Heroic Feast (MSH:172) &302
+- Bruce Banner // The Incredible Hulk (MSH:49) &303
+- Moon Girl and Devil Dinosaur (MSH:223) [foil] &304
+- Arc Reactor (MSH:243) &305
+- Ms. Marvel, Kamala Khan (MSH:67) &306
+- Captain America, Wings of Freedom (MSH:10) &307
+- Elektra, Daughter of the Hand (MSH:97) &308
+- Shang-Chi, Master of Kung Fu (MSH:187) &309
+- Cloak and Dagger, Entwined (MSH:211) &310
+- Vision Quest (MSH:237) &311
+- Worlds Within Worlds (MSH:241) &312
+- Secret Invasion (MSH:72) &313
+- Agent Phil Coulson (MSH:4) &314
+- Gran-Gran (PW25:14) [foil] &315
+- Lizard, Connors's Curse (SPM:265) &316
+- Warmaker Gunship (EOE:339) &317
+- Sram, Senior Edificer (FCA:3) &318
+- The Regalia (FIN:267) &319
+- Odric, Lunarch Marshal (INR:298) &320
+- Fraying Line (CLB:314) [foil] &321
+- Alaundo the Seer (CLB:264) [foil] &322
+- Sarevok's Tome (CLB:645) &323
+- Cultist of the Absolute (CLB:495) [etched] &324
+- Duke Ulder Ravengard (CLB:272) &325
+- Shadowheart, Dark Justiciar (CLB:146) &326
+- Raised by Giants (CLB:520) [etched] &327
+- Monster Manual // Zoological Study (CLB:242) &328
+- Myrkul, Lord of Bones (CLB:544) [etched] &329
+- Wand of Wonder (CLB:204) &330
+- Raggadragga, Goreguts Boss (CLB:437) &331
+- Lae'zel, Vlaakith's Champion (CLB:29) [foil] &332
+- Duke Ulder Ravengard (CLB:420) &333
+- Wrathful Red Dragon (CLB:585) &334
+- Grell Philosopher (CLB:616) &335
+- Vexing Puzzlebox (CLB:374) [foil] &336
+- Mazzy, Truesword Paladin (CLB:541) [etched] &337
+- Zevlor, Elturel Exile (CLB:441) &338
+- Brainstealer Dragon (CLB:621) &339
+- Elder Brain (CLB:125) [foil] &340
+- Owlbear Cub (CLB:246) &341
+- Bane, Lord of Darkness (CLB:526) [etched] &342
+- Jaheira, Friend of the Forest (CLB:237) &343
+- Lae'zel, Vlaakith's Champion (CLB:29) &344
+- Shadowheart, Dark Justiciar (CLB:499) [etched] &345
+- Duke Ulder Ravengard (CLB:272) &346
+- Mirror of Life Trapping (CLB:326) &347
+- Myrkul, Lord of Bones (CLB:287) &348
+- Jon Irenicus, Shattered One (CLB:278) &349
+- Lae'zel, Vlaakith's Champion (CLB:378) &350
+- Volo, Itinerant Scholar (CLB:103) &351
+- Wrathful Red Dragon (CLB:207) &352
+- Displacer Kitten (CLB:63) &353
+- Astarion, the Decadent (CLB:265) &354
+- Alaundo the Seer (CLB:264) &355
+- Mighty Servant of Leuk-o (CLB:324) &356
+- Astarion, the Decadent (CLB:524) [etched] &357
+- Alaundo the Seer (CLB:523) [etched] &358
+- Monster Manual // Zoological Study (CLB:242) &359
+- Psionic Ritual (CLB:618) &360
+- Gorion, Wise Mentor (CLB:534) [etched] &361
+- Ravenloft Adventurer (CLB:577) [foil] &362
+- Baba Lysaga, Night Witch (CLB:414) &363
+- Gale, Waterdeep Prodigy (CLB:383) [foil] &364
+- Earthquake Dragon (CLB:588) &365
+- Minsc & Boo, Timeless Heroes (CLB:285) [foil] &366
+- Jon Irenicus, Shattered One (CLB:425) [foil] &367
+- Alaundo the Seer (CLB:412) &368
+- Astarion, the Decadent (CLB:265) [foil] &369
+- Fraying Line (CLB:597) &370
+- Lae'zel, Vlaakith's Champion (CLB:476) [etched] &371
+- Owlbear Cub (CLB:592) [foil] &372
+- Karlach, Fury of Avernus (CLB:400) &373
+- Owlbear Cub (CLB:246) [foil] &374
+- Clan Crafter (CLB:614) &375
+- Baba Lysaga, Night Witch (CLB:266) &376
+- Raggadragga, Goreguts Boss (CLB:548) [etched] &378
+- Caves of Chaos Adventurer (CLB:579) &379
+- Deepway Navigator (ECL:214) [foil] &380
+- Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (ECL:13) &381
+- Ajani, Outland Chaperone (ECL:4) &382
+- Door of Destinies (SPG:146) &383
+- Genji Glove (FIN:258) [foil] &384
+- Rediscover the Way (TDM:215) [foil] &385
+- Bootleggers' Stash (SNC:288) &386
+- Dragonfire Blade (TDM:240) &387
+- Crystal Quarry (EOS:10) &388
+- Wall of Omens (FCA:27) &390
+- Squall, Gunblade Duelist (FIC:453) &391
+- Sazh Katzroy (FIN:199) &392
+- Tifa Lockhart (FIN:206) &393
+- Matoya, Archon Elder (FIN:62) &394
+- Strixhaven Stadium (FCA:63) &395
+- Noctis, Prince of Lucis (FIN:235) &396
+- Zanarkand, Ancient Metropolis // Lasting Fayth (FIN:293) [foil] &397
+- Carpet of Flowers (FCA:44) &398
+- Vaan, Street Thief (FIN:168) &399
+- Deadly Dispute (FCA:33) &400
+- Genji Glove (FIN:258) &401
+- Terra, Magical Adept // Esper Terra (FIN:323) &402
+- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:127) &403
+- Summon: Knights of Round (FIN:36) &404
+- The Wandering Minstrel (FIN:249) &405
+- The Regalia (FIN:267) &406
+- Danitha Capashen, Paragon (FCA:22) &407
+- Ninja's Blades (FIN:108) &408
+- Strixhaven Stadium (FCA:63) &409
+- Summon: G.F. Cerberus (FIN:162) &410
+- The Masamune (FIN:264) [foil] &411
+- Isshin, Two Heavens as One (FCA:54) &412
+- Sazh Katzroy (FIN:199) &413
+- Stiltzkin, Moogle Merchant (FIN:34) &414
+- Astrologian's Planisphere (FIN:46) &415
+- Clive, Ifrit's Dominant // Ifrit, Warden of Inferno (FIN:133) &416
+- Hope Estheim (FIN:226) &417
+- Counterspell (FCA:4) &418
+- Summon: G.F. Cerberus (FIN:162) &419
+- A Realm Reborn (FIN:196) &420
+- Squall, SeeD Mercenary (FIN:243) &421
+- The Water Crystal (FIN:85) &422
+- Counterspell (FCA:4) &423
+- Lindblum, Industrial Regency // Mage Siege (FIN:285) &424
+- Lightning Bolt (FCA:40) &425
+- Summon: Brynhildr (FIN:160) &426
+- Edgar, King of Figaro (FIN:51) &427
+- Jumbo Cactuar (FIN:191) &428
+- Seifer Almasy (FIN:156) &429
+- Balthier and Fran (FIN:393) &430
+- Zanarkand, Ancient Metropolis // Lasting Fayth (FIN:314) &431
+- Danitha Capashen, Paragon (FCA:22) &432
+- Hope Estheim (FIN:226) &433
+- Bartz and Boko (FIN:175) &434
+- Ancient Copper Dragon (FCA:12) &435
+- Ishgard, the Holy See // Faith & Grief (FIN:283) &436
+- Sculpted Sunburst (CLB:557) [foil] &437
+- Reconnaissance Mission (SLD:2535) [foil] &439
+- Radiate (SLD:2536) [foil] &440
+- Defense of the Heart (SLD:2537) [foil] &441
+- Arcane Signet (SLD:2538) [foil] &442
+- Sol Ring (SLD:2539) [foil] &443
+- Relic of Legends (SLD:7109) [foil] &444
+- Secret Rendezvous (SLD:2648) [foil] &445
+- Rune-Scarred Demon (SLD:2649) [foil] &446
+- Terror of the Peaks (SLD:2650) [foil] &447
+- Communal Brewing (SLD:2651) [foil] &448
+- Rogue's Passage (SLD:2652) [foil] &449
+- Crucible of Worlds (SLD:7162) [foil] &450
+- Secret Rendezvous (SLD:2648) &451
+- Rune-Scarred Demon (SLD:2649) &452
+- Terror of the Peaks (SLD:2650) &453
+- Communal Brewing (SLD:2651) &454
+- Rogue's Passage (SLD:2652) &455
+- Crucible of Worlds (SLD:7162) &456
+- Varchild, Betrayer of Kjeldor (C18:28) &457
+- Karazikar, the Eye Tyrant (SLD:1791) [foil] &377
+- Jumbo Cactuar (FIN:343) &56
+- Frantic Search (CMM:96) [foil] &83
+- Ruinous Ultimatum (PIP:220) &87
+- Queen Marchesa (CMM:350) &88
+- Windborn Muse (VOC:101) &113
+- Oft-Nabbed Goat (ECC:31) &183
+- Reverent Mantra (SLD:2686) [foil] &236
+- Juri, Master of the Revue (EOC:119) &242
+- Formless Genesis (EOC:96) &248
+- Goro-Goro, Disciple of Ryusei (NEO:145) &286
+- Storm-Kiln Artist (STX:115) &389
+- Assault Strobe (SOM:82) &438
+- Delina, Wild Mage (AFR:317) &458
+- Generous Gift (SLD:2534) [foil] &459
+- Gideon Blackblade (WAR:13) &460
+- Stormcatch Mentor (BLB:234) &461
+- Growth Spiral (LTC:267) &462

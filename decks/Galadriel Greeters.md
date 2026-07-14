@@ -27,6 +27,7 @@ description: >-
 created: '2026-02-23T13:34:55.229Z'
 tags: []
 lastSynced: '2026-06-25T20:57:27.230Z'
+format: commander
 ---
 
 ## Commander

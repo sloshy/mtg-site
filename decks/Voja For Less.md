@@ -1,14 +1,77 @@
 ---
-name: "Voja For Less"
-source: "https://archidekt.com/decks/7049141"
-sourceId: "7049141"
-sourceUrl: "https://archidekt.com/decks/7049141"
-description: "Upgrade/Price History\nThe rest of this description is mainly a tongue-in-cheek way to describe how to use the deck with few syllables, because this deck is pretty brain-dead. At the time of construction it was about $49 to hit a sub-$50 price point. As prices fluctuate, it's not straightforward to keep upgrading the deck while maintaining this price without compromises. This section will be updated every time the cards are upgraded to provide a record of what the deck looked like at any point in time. The general goal will be for this deck to be priced \"around $50\" with the ideal of being just sub-$50, market-permitting.\nApril 25, 2024: Swapped Gruul Signet  ($0.46) for Annie Joins Up  ($1.06) for a total price of $47.82\nJune 6, 2024: Swapped Anara, Wolvid Familiar ($0.24) for Lys Alana Huntmaster ($0.30) for a total price of $50.63\nAug 15, 2024: Deck price reduced to ~$44 over time. Took advantage to swap Moon-Blessed Cleric and Viridian Joiner for Delina, Wild Mage and Priest of Titania  for a total price of $46.54\nAug 21, 2024: Swapped Evolving Wilds with Sheltering Landscape for a total price of $47.15 (net 5 cent difference at time of swap)\nMar 24, 2025: Swapped Packsong Pup for Young Wolf and Bounding Wolf  for Taurean Mauler  for a total price of $53.45 ($0.91 jump) (deck price jumped up about $6 since last time with no edits)\nMar 25, 2025: Swapped Delina, Wild Mage and Garruk's Uprising  for Arlinn, the Pack's Hope // Arlinn, the Moon's Fury  and Arlinn Kord // Arlinn, Embraced by the Moon for a total price of $54.24 ($0.79 jump)\nApril 27, 2025: Swapped Shamanic Revelation for Full Steam Ahead and War-Spike Changeling for Ferocification  for a total price of $50.46 ($0.67 drop after optimizing)\n\nIntro\nVoja, Jaws of the Conclave strong. Voja make draw many cards. Voja cost 50 bucks. Friends win too much? Hit with Voja, and all is good!\n\nWin-Cons\nPlay elf. Play more elf. Play so many elf! Play some wolf, and some changeling. Changeling is elf and wolf! Play Voja! Voja swing. Creatures get very very big! You draw many many cards!\n\nIf friend not let you swing, that is ok! Play Shalai and Hallar and throw damage at face!\n\nOther Useful Cards\nTo make many elf, Windswift Slice or Elven Ambush. To make many wolf, Wolfcaller's Howl and Howling Moon. Tolsimir, Friend to Wolves also here for elf and wolf (and other Tolsimirs).\n\nFor haste, Fires of Yavimaya and Rising of the Day. And when need protect or more damage, Response // Resurgence to help get creature out of way or attack again!"
-created: "2026-02-23T13:34:56.000Z"
-tags: []
----
+name: Voja For Less
+source: 'https://archidekt.com/decks/7049141'
+sourceId: '7049141'
+sourceUrl: 'https://archidekt.com/decks/7049141'
+description: >-
+  Upgrade/Price History
 
-# Voja For Less
+  The rest of this description is mainly a tongue-in-cheek way to describe how
+  to use the deck with few syllables, because this deck is pretty brain-dead. At
+  the time of construction it was about $49 to hit a sub-$50 price point. As
+  prices fluctuate, it's not straightforward to keep upgrading the deck while
+  maintaining this price without compromises. This section will be updated every
+  time the cards are upgraded to provide a record of what the deck looked like
+  at any point in time. The general goal will be for this deck to be priced
+  "around $50" with the ideal of being just sub-$50, market-permitting.
+
+  April 25, 2024: Swapped Gruul Signet  ($0.46) for Annie Joins Up  ($1.06) for
+  a total price of $47.82
+
+  June 6, 2024: Swapped Anara, Wolvid Familiar ($0.24) for Lys Alana Huntmaster
+  ($0.30) for a total price of $50.63
+
+  Aug 15, 2024: Deck price reduced to ~$44 over time. Took advantage to swap
+  Moon-Blessed Cleric and Viridian Joiner for Delina, Wild Mage and Priest of
+  Titania  for a total price of $46.54
+
+  Aug 21, 2024: Swapped Evolving Wilds with Sheltering Landscape for a total
+  price of $47.15 (net 5 cent difference at time of swap)
+
+  Mar 24, 2025: Swapped Packsong Pup for Young Wolf and Bounding Wolf  for
+  Taurean Mauler  for a total price of $53.45 ($0.91 jump) (deck price jumped up
+  about $6 since last time with no edits)
+
+  Mar 25, 2025: Swapped Delina, Wild Mage and Garruk's Uprising  for Arlinn, the
+  Pack's Hope // Arlinn, the Moon's Fury  and Arlinn Kord // Arlinn, Embraced by
+  the Moon for a total price of $54.24 ($0.79 jump)
+
+  April 27, 2025: Swapped Shamanic Revelation for Full Steam Ahead and War-Spike
+  Changeling for Ferocification  for a total price of $50.46 ($0.67 drop after
+  optimizing)
+
+
+  Intro
+
+  Voja, Jaws of the Conclave strong. Voja make draw many cards. Voja cost 50
+  bucks. Friends win too much? Hit with Voja, and all is good!
+
+
+  Win-Cons
+
+  Play elf. Play more elf. Play so many elf! Play some wolf, and some
+  changeling. Changeling is elf and wolf! Play Voja! Voja swing. Creatures get
+  very very big! You draw many many cards!
+
+
+  If friend not let you swing, that is ok! Play Shalai and Hallar and throw
+  damage at face!
+
+
+  Other Useful Cards
+
+  To make many elf, Windswift Slice or Elven Ambush. To make many wolf,
+  Wolfcaller's Howl and Howling Moon. Tolsimir, Friend to Wolves also here for
+  elf and wolf (and other Tolsimirs).
+
+
+  For haste, Fires of Yavimaya and Rising of the Day. And when need protect or
+  more damage, Response // Resurgence to help get creature out of way or attack
+  again!
+created: '2026-02-23T13:34:56.000Z'
+tags: []
+format: commander
+---
 
 ## Commander
 1 Voja, Jaws of the Conclave &1
@@ -97,4 +160,3 @@ tags: []
 1 Cleansing Nova &82
 1 Taunting Elf &83
 1 Ash Barrens &84
-

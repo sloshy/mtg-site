@@ -1,228 +1,228 @@
 # Green Binder
 
 ## Main
-- Unexplained Absence (MKC:328) [NM] &1
-- Elspeth, Sun's Champion (CMM:820) [NM] &2
-- Priest of the Crossing (DRC:22) [NM] &3
-- Renewed Solidarity (DRC:7) [NM] &4
-- On Wings of Gold (DRC:21) [NM] &5
-- On Wings of Gold (DRC:21) [NM] &6
-- Valor's Flagship (DFT:35) [NM] &7
-- Aerith Gainsborough (FIN:374) [foil] [NM] {JP Printing} &8
-- Renewed Solidarity (DRC:23) [NM] &9
-- Felidar Guardian (SLD:1487★) [foil] [NM] &10
-- Fell the Mighty (SLD:1778) [foil] [NM] &11
-- Fell the Mighty (SLD:1778) [NM] &12
-- Cathars' Crusade (INR:337) [NM] &13
-- Thalia, Heretic Cathar (INR:300) [foil] [NM] &14
-- Council's Judgment (SLD:1635★) [foil] [NM] &15
-- Idyllic Tutor (SLD:1636★) [foil] [NM] &16
-- In the Trenches (SLD:1729) [foil] [NM] &17
-- Flawless Maneuver (SLD:1728) [NM] &19
-- In the Trenches (SLD:1729) [NM] &20
-- Sigarda's Aid (SLD:1727) [NM] &21
-- Sentry Bot (PIP:371) [NM] &22
-- Split Up (DSK:32) [foil] [NM] &23
-- Split Up (DSK:304) [NM] &24
-- Flowering of the White Tree (LTR:466) [foil] [NM] &25
-- Collector's Cage (BIG:66) [NM] &26
-- Werefox Bodyguard (WOE:329) [NM] &27
-- Ajani, Strength of the Pride (J22:141) [NM] &28
-- Flowering of the White Tree (LTR:15) [NM] &29
-- Northern Paladin (SLD:1855) [foil] [NM] &30
-- Ajani's Pridemate (FDN:293) [foil] [NM] &32
-- Unbreakable Formation (LTC:179) [NM] &34
-- Virtue of Loyalty // Ardenvale Fealty (WOE:277) [NM] &35
-- Legion Loyalty (CLB:371) [NM] &36
-- Elesh Norn, Mother of Machines (ONE:10) [NM] &37
-- Invasion of Gobakhan // Lightshield Array (MOM:22) [NM] &38
-- Thalia, Heretic Cathar (EMN:46) [foil] [NM] &39
-- Flare of Fortitude (MH3:26) [NM] &41
-- Flare of Fortitude (MH3:321) [NM] &42
-- Filigree Vector (MOC:102) [NM] &43
-- Elesh Norn // The Argent Etchings (MOM:292) [foil] [NM] &44
-- Steelshaper's Gift (CMM:629) [foil] [NM] &45
-- Skyhunter Strike Force (ONC:31) [NM] &46
-- Puresteel Paladin (CMM:51) [foil] [NM] &47
-- Wall of Mourning (MIC:48) [NM] &49
-- Cataclysm (PLST:V14-3) [NM] &50
-- Authority of the Consuls (PLST:KLD-5) [NM] &51
-- Ravages of War (PIP:354) [foil] [NM] &53
-- Starlight Spectacular (UNF:28) [foil] [NM] &54
-- Ondu Spiritdancer (CMM:756) [NM] &55
-- Onakke Oathkeeper (CMM:755) [NM] &56
-- Nahiri, the Lithomancer (CMM:45) [foil] [NM] &57
-- Shardmage's Rescue (DSK:411) [NM] &58
-- Exemplar of Light (FDN:297) [foil] [NM] &60
-- Sheltered by Ghosts (DSK:30) [NM] &61
-- Salvation Engine (DFT:27) [NM] &62
-- Guardian Sunmare (DFT:15) [NM] &63
-- Guardian Sunmare (DFT:334) [NM] &64
-- Spectacular Pileup (DFT:29) [foil] [NM] &65
-- Bulwark Ox (DFT:333) [foil] [NM] &66
-- Bulwark Ox (DFT:7) [NM] &67
-- Steelburr Champion (BLC:48) [NM] &68
-- Riverchurn Monument (DFT:57) [foil] [NM] &69
-- Riverchurn Monument (DFT:57) [foil] [NM] &70
-- Riverchurn Monument (DFT:381) [NM] &71
-- Riverchurn Monument (DFT:381) [foil] [NM] &72
-- Riverchurn Monument (DFT:381) [foil] [NM] &73
-- Repurposing Bay (DFT:56) [NM] &74
-- Unstoppable Plan (DFT:72) [foil] [NM] &75
-- Unstoppable Plan (DFT:382) [NM] &76
-- Unstoppable Plan (DFT:382) [foil] [NM] &77
-- Prophet of the Scarab (DRC:25) [NM] &78
-- Phyrexian Metamorph (SLD:1758) [foil] [NM] &79
-- Bruvac the Grandiloquent (SLD:2181) [NM] &80
-- Ponder (SLD:1783) [NM] &81
-- Reality Shift (SLD:1781) [foil] [NM] &82
-- Reality Shift (SLD:1781) [NM] &83
-- Back to Basics (SLD:1718) [foil] [NM] &84
-- Spellskite (SLD:2340) [foil] [NM] &85
-- Sphinx of the Second Sun (SLD:1720) [foil] [NM] &86
-- Teferi's Ageless Insight (SLD:1721) [foil] [NM] &87
-- Drown in Dreams (SLD:1668) [foil] [NM] &88
-- Psychic Corrosion (SLD:1669) [foil] [NM] &89
-- Solve the Equation (SLD:886) [NM] &90
-- Solve the Equation (SLD:886) [foil] [NM] &91
-- Visions of Beyond (SLD:1670) [foil] [NM] &92
-- Stifle (SLD:1787) [NM] &93
-- Delay (SLD:1788) [NM] &94
-- Bribery (SLD:1786) [NM] &95
-- Bribery (SLD:1786) [foil] [NM] &96
-- Stifle (SLD:1787) [foil] [NM] &97
-- Prodigal Sorcerer (SLD:1672) [foil] [NM] &98
-- Delay (SLD:1788) [foil] [NM] &99
-- Orvar, the All-Form (SLD:1683) [foil] [NM] &100
-- Consecrated Sphinx (SLD:1657) [NM] &101
-- Laboratory Maniac (INR:359) [NM] &102
-- Laboratory Maniac (INR:359) [foil] [NM] &103
-- Mausoleum Wanderer (INR:360) [NM] &104
-- Memory Deluge (INR:361) [foil] [NM] &105
-- Hullbreaker Horror (SLD:2336) [foil] [NM] &108
-- Hive Mind (SLD:822) [foil] [NM] &109
-- Hive Mind (SLD:822) [foil] [NM] &110
-- Consecrated Sphinx (SLD:1657) [foil] [NM] &111
-- Prodigal Sorcerer (SLD:1672) [NM] &112
-- Rhet-Tomb Mystic (DRC:26) [NM] &113
-- Lulu, Stern Guardian (FIC:143) [NM] &114
-- Laboratory Maniac (FCA:30) [NM] &115
-- Counterspell (PF24:1) [foil] [NM] &116
-- Counterspell (PF24:1) [foil] [NM] &117
-- Vnwxt, Verbose Host (DFT:73) [NM] &120
-- Vnwxt, Verbose Host (DFT:73) [NM] &121
-- Starfield Vocalist (EOE:78) [NM] &122
-- Starfield Vocalist (EOE:78) [NM] &123
-- Aether Channeler (DMU:392) [foil] [NM] &124
-- Personal Tutor (CMM:110) [foil] [NM] &125
-- Simulacrum Synthesizer (BIG:6) [NM] &126
-- Simulacrum Synthesizer (BIG:71) [foil] [NM] &127
-- Deadeye Navigator (SLD:902) [foil] [NM] &128
-- Enduring Curiosity (DSK:51) [NM] &129
-- Enduring Curiosity (PDSK:51p) [foil] [NM] &130
-- Harbinger of the Seas (MH3:451) [foil] [NM] &131
-- Stormchaser's Talent (BLB:75) [NM] &132
-- Glen Elendra Archmage (SLD:2171) [foil] [NM] &133
-- Tasha's Hideous Laughter (AFR:78) [NM] &134
-- Midnight Clock (WOC:99) [NM] &135
-- Alrund's Epiphany (KHM:295) [NM] &136
-- Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI:315) [NM] &137
-- Nexus of Fate (PLST:M19-306) [NM] &138
-- Temporal Manipulation (MB2:174) [NM] &139
-- Pact of Negation (MB2:169) [NM] &140
-- Gitaxian Probe (NPH:35) [NM] &141
-- Deadeye Navigator (INR:492) [foil] [NM] &142
-- Shark Typhoon (SCH:28) [NM] &143
-- Shark Typhoon (SCH:28) [foil] [NM] &144
-- Disdainful Stroke (PCBB:2) [foil] [NM] &145
-- Acererak the Archlich (SLD:1784) [foil] [NM] &146
-- Acererak the Archlich (SLD:1784) [foil] [NM] &147
-- Dark Deal (SLD:873) [foil] [NM] &148
-- Dark Deal (SLD:873) [NM] &149
-- Dauthi Voidwalker (SLD:1760) [foil] [NM] &150
-- Ravenous Chupacabra (SLD:1764) [foil] [NM] &151
-- Doom Whisperer (SLD:1763) [foil] [NM] &152
-- Sanguine Bond (SLD:1799) [foil] [NM] &153
-- Sanguine Bond (SLD:1799) [NM] &154
-- Blood Money (SLD:1789) [foil] [NM] &155
-- Blood Money (SLD:1789) [NM] &156
-- Exquisite Blood (SLD:1798) [NM] &158
-- Snuff Out (SLD:1792) [NM] &159
-- Defile (SLD:1793) [NM] &160
-- Oubliette (SLD:1794) [NM] &161
-- Oubliette (SLD:1794) [foil] [NM] &162
-- Defile (SLD:1793) [foil] [NM] &163
-- Drana, the Last Bloodchief (SLD:1684) [foil] [NM] &164
-- Sorin Markov (SLD:1698) [NM] &165
-- Sorin Markov (SLD:1698) [foil] [NM] &166
-- Nirkana Revenant (SLD:1316) [NM] &167
-- Nirkana Revenant (SLD:1316) [foil] [NM] &168
-- Dockside Chef (SLD:1629★) [foil] [NM] &169
-- Gravebreaker Lamia (SLD:1643★) [foil] [NM] &170
-- Buried Alive (SLD:1673) [NM] &171
-- Kezzerdrix (SLD:826) [foil] [NM] &172
-- Dismember (SLD:1674) [NM] &173
-- Kezzerdrix (SLD:826) [NM] &174
-- Rottenmouth Viper (BLB:290) [NM] &175
-- Valgavoth, Terror Eater (PDSK:120p) [NM] &176
-- Enduring Tenacity (DSK:374) [NM] &180
-- Enduring Tenacity (DSK:374) [NM] &181
-- Unstoppable Slasher (DSK:119) [foil] [NM] &182
-- Unstoppable Slasher (DSK:312) [NM] &185
-- Deep-Cavern Bat (LCI:102) [NM] &186
-- Deep-Cavern Bat (LCI:102) [foil] [NM] &187
-- Deep-Cavern Bat (LCI:102) [foil] [NM] &188
-- Grave Titan (DRC:42) [NM] &189
-- Grave Titan (DRC:42) [NM] &190
-- Ancient Brass Dragon (CLB:389) [foil] [NM] &191
-- Bloodletter of Aclazotz (LCI:92) [NM] &192
-- Sheoldred, the Apocalypse (PDMU:107p) [foil] [NM] &195
-- Cultist of the Absolute (CLB:495) [etched] [NM] &196
-- Cultist of the Absolute (CLB:123) [NM] &197
-- Bloodletter of Aclazotz (LCI:336) [NM] &198
-- Grave Titan (SLD:2188) [NM] &199
-- Wick, the Whorled Mind (BLB:120) [NM] &200
-- Wick, the Whorled Mind (BLB:314) [NM] &201
-- Contamination (MB2:178) [NM] &202
-- Vito, Thorn of the Dusk Rose (SLD:2282) [foil] [NM] &203
-- Aclazotz, Deepest Betrayal // Temple of the Dead (LCI:316) [NM] &204
-- Phyrexian Arena (ONE:384) [NM] &205
-- Nowhere to Run (DSK:111) [NM] &206
-- Nowhere to Run (DSK:111) [foil] [NM] &207
-- Doomsday Excruciator (DSK:94) [NM] &208
-- Leyline of the Void (DSK:106) [NM] &209
-- Snuff Out (WHO:222) [NM] &210
-- Oversold Cemetery (WOT:33) [foil] [NM] &211
-- Black Market (PIP:183) [foil] [NM] &212
-- Unholy Annex // Ritual Chamber (DSK:339) [NM] &213
-- Demonic Counsel (DSK:92) [NM] &214
-- Demonic Counsel (DSK:310) [NM] &215
-- Demonic Counsel (DSK:310) [foil] [NM] &216
-- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) [NM] &217
-- Lord of the Pit (SLD:893) [foil] [NM] &218
-- Liliana of the Veil (DMU:373) [NM] &219
-- Lord of the Pit (SLD:1857) [foil] [NM] &220
-- Gonti, Night Minister (DFT:357) [NM] &221
-- Deadly Dispute (P30A:29) [foil] [NM] &222
-- Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN:382) [foil] [NM] &223
-- Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN:317) [foil] [NM] &224
-- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:384) [foil] [NM] &225
-- Galvanic Blast (SPG:90) [NM] &226
-- Galvanic Blast (SPG:90) [foil] [NM] &227
-- Full Throttle (DFT:127) [NM] &228
-- Full Throttle (DFT:127) [NM] &229
-- Full Throttle (DFT:386) [foil] [NM] &230
-- Jaws, Relentless Predator (SLD:2175) [NM] &232
-- Goldspan Dragon (SLD:1780) [NM] &233
-- Magus of the Moon (SLD:1761) [foil] [NM] &234
-- Lightning Bolt (SLD:1638★) [foil] [NM] &235
-- Fling (SLD:1795) [NM] &236
-- Fling (SLD:1795) [foil] [NM] &237
-- Tormenting Voice (SLD:2334) [foil] [NM] &238
-- Tannuk, Steadfast Second (EOE:162) [NM] &239
-- Spider-Punk (SPM:92) [NM] &240
-- Isengard Unleashed (LTC:495) [foil] [NM] &241
-- Chaos Warp (MOC:273) [NM] &242
-- Cathartic Reunion (SLD:7045) [NM] &243
-- Abrade (SLD:2179) [NM] &244
-- Reckless Endeavor (SLD:2177) [NM] &245
+- Unexplained Absence (MKC:328) &1
+- Elspeth, Sun's Champion (CMM:820) &2
+- Priest of the Crossing (DRC:22) &3
+- Renewed Solidarity (DRC:7) &4
+- On Wings of Gold (DRC:21) &5
+- On Wings of Gold (DRC:21) &6
+- Valor's Flagship (DFT:35) &7
+- Aerith Gainsborough (FIN:374) [foil] {JP Printing} &8
+- Renewed Solidarity (DRC:23) &9
+- Felidar Guardian (SLD:1487★) [foil] &10
+- Fell the Mighty (SLD:1778) [foil] &11
+- Fell the Mighty (SLD:1778) &12
+- Cathars' Crusade (INR:337) &13
+- Thalia, Heretic Cathar (INR:300) [foil] &14
+- Council's Judgment (SLD:1635★) [foil] &15
+- Idyllic Tutor (SLD:1636★) [foil] &16
+- In the Trenches (SLD:1729) [foil] &17
+- Flawless Maneuver (SLD:1728) &19
+- In the Trenches (SLD:1729) &20
+- Sigarda's Aid (SLD:1727) &21
+- Sentry Bot (PIP:371) &22
+- Split Up (DSK:32) [foil] &23
+- Split Up (DSK:304) &24
+- Flowering of the White Tree (LTR:466) [foil] &25
+- Collector's Cage (BIG:66) &26
+- Werefox Bodyguard (WOE:329) &27
+- Ajani, Strength of the Pride (J22:141) &28
+- Flowering of the White Tree (LTR:15) &29
+- Northern Paladin (SLD:1855) [foil] &30
+- Ajani's Pridemate (FDN:293) [foil] &32
+- Unbreakable Formation (LTC:179) &34
+- Virtue of Loyalty // Ardenvale Fealty (WOE:277) &35
+- Legion Loyalty (CLB:371) &36
+- Elesh Norn, Mother of Machines (ONE:10) &37
+- Invasion of Gobakhan // Lightshield Array (MOM:22) &38
+- Thalia, Heretic Cathar (EMN:46) [foil] &39
+- Flare of Fortitude (MH3:26) &41
+- Flare of Fortitude (MH3:321) &42
+- Filigree Vector (MOC:102) &43
+- Elesh Norn // The Argent Etchings (MOM:292) [foil] &44
+- Steelshaper's Gift (CMM:629) [foil] &45
+- Skyhunter Strike Force (ONC:31) &46
+- Puresteel Paladin (CMM:51) [foil] &47
+- Wall of Mourning (MIC:48) &49
+- Cataclysm (PLST:V14-3) &50
+- Authority of the Consuls (PLST:KLD-5) &51
+- Ravages of War (PIP:354) [foil] &53
+- Starlight Spectacular (UNF:28) [foil] &54
+- Ondu Spiritdancer (CMM:756) &55
+- Onakke Oathkeeper (CMM:755) &56
+- Nahiri, the Lithomancer (CMM:45) [foil] &57
+- Shardmage's Rescue (DSK:411) &58
+- Exemplar of Light (FDN:297) [foil] &60
+- Sheltered by Ghosts (DSK:30) &61
+- Salvation Engine (DFT:27) &62
+- Guardian Sunmare (DFT:15) &63
+- Guardian Sunmare (DFT:334) &64
+- Spectacular Pileup (DFT:29) [foil] &65
+- Bulwark Ox (DFT:333) [foil] &66
+- Bulwark Ox (DFT:7) &67
+- Steelburr Champion (BLC:48) &68
+- Riverchurn Monument (DFT:57) [foil] &69
+- Riverchurn Monument (DFT:57) [foil] &70
+- Riverchurn Monument (DFT:381) &71
+- Riverchurn Monument (DFT:381) [foil] &72
+- Riverchurn Monument (DFT:381) [foil] &73
+- Repurposing Bay (DFT:56) &74
+- Unstoppable Plan (DFT:72) [foil] &75
+- Unstoppable Plan (DFT:382) &76
+- Unstoppable Plan (DFT:382) [foil] &77
+- Prophet of the Scarab (DRC:25) &78
+- Phyrexian Metamorph (SLD:1758) [foil] &79
+- Bruvac the Grandiloquent (SLD:2181) &80
+- Ponder (SLD:1783) &81
+- Reality Shift (SLD:1781) [foil] &82
+- Reality Shift (SLD:1781) &83
+- Back to Basics (SLD:1718) [foil] &84
+- Spellskite (SLD:2340) [foil] &85
+- Sphinx of the Second Sun (SLD:1720) [foil] &86
+- Teferi's Ageless Insight (SLD:1721) [foil] &87
+- Drown in Dreams (SLD:1668) [foil] &88
+- Psychic Corrosion (SLD:1669) [foil] &89
+- Solve the Equation (SLD:886) &90
+- Solve the Equation (SLD:886) [foil] &91
+- Visions of Beyond (SLD:1670) [foil] &92
+- Stifle (SLD:1787) &93
+- Delay (SLD:1788) &94
+- Bribery (SLD:1786) &95
+- Bribery (SLD:1786) [foil] &96
+- Stifle (SLD:1787) [foil] &97
+- Prodigal Sorcerer (SLD:1672) [foil] &98
+- Delay (SLD:1788) [foil] &99
+- Orvar, the All-Form (SLD:1683) [foil] &100
+- Consecrated Sphinx (SLD:1657) &101
+- Laboratory Maniac (INR:359) &102
+- Laboratory Maniac (INR:359) [foil] &103
+- Mausoleum Wanderer (INR:360) &104
+- Memory Deluge (INR:361) [foil] &105
+- Hullbreaker Horror (SLD:2336) [foil] &108
+- Hive Mind (SLD:822) [foil] &109
+- Hive Mind (SLD:822) [foil] &110
+- Consecrated Sphinx (SLD:1657) [foil] &111
+- Prodigal Sorcerer (SLD:1672) &112
+- Rhet-Tomb Mystic (DRC:26) &113
+- Lulu, Stern Guardian (FIC:143) &114
+- Laboratory Maniac (FCA:30) &115
+- Counterspell (PF24:1) [foil] &116
+- Counterspell (PF24:1) [foil] &117
+- Vnwxt, Verbose Host (DFT:73) &120
+- Vnwxt, Verbose Host (DFT:73) &121
+- Starfield Vocalist (EOE:78) &122
+- Starfield Vocalist (EOE:78) &123
+- Aether Channeler (DMU:392) [foil] &124
+- Personal Tutor (CMM:110) [foil] &125
+- Simulacrum Synthesizer (BIG:6) &126
+- Simulacrum Synthesizer (BIG:71) [foil] &127
+- Deadeye Navigator (SLD:902) [foil] &128
+- Enduring Curiosity (DSK:51) &129
+- Enduring Curiosity (PDSK:51p) [foil] &130
+- Harbinger of the Seas (MH3:451) [foil] &131
+- Stormchaser's Talent (BLB:75) &132
+- Glen Elendra Archmage (SLD:2171) [foil] &133
+- Tasha's Hideous Laughter (AFR:78) &134
+- Midnight Clock (WOC:99) &135
+- Alrund's Epiphany (KHM:295) &136
+- Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI:315) &137
+- Nexus of Fate (PLST:M19-306) &138
+- Temporal Manipulation (MB2:174) &139
+- Pact of Negation (MB2:169) &140
+- Gitaxian Probe (NPH:35) &141
+- Deadeye Navigator (INR:492) [foil] &142
+- Shark Typhoon (SCH:28) &143
+- Shark Typhoon (SCH:28) [foil] &144
+- Disdainful Stroke (PCBB:2) [foil] &145
+- Acererak the Archlich (SLD:1784) [foil] &146
+- Acererak the Archlich (SLD:1784) [foil] &147
+- Dark Deal (SLD:873) [foil] &148
+- Dark Deal (SLD:873) &149
+- Dauthi Voidwalker (SLD:1760) [foil] &150
+- Ravenous Chupacabra (SLD:1764) [foil] &151
+- Doom Whisperer (SLD:1763) [foil] &152
+- Sanguine Bond (SLD:1799) [foil] &153
+- Sanguine Bond (SLD:1799) &154
+- Blood Money (SLD:1789) [foil] &155
+- Blood Money (SLD:1789) &156
+- Exquisite Blood (SLD:1798) &158
+- Snuff Out (SLD:1792) &159
+- Defile (SLD:1793) &160
+- Oubliette (SLD:1794) &161
+- Oubliette (SLD:1794) [foil] &162
+- Defile (SLD:1793) [foil] &163
+- Drana, the Last Bloodchief (SLD:1684) [foil] &164
+- Sorin Markov (SLD:1698) &165
+- Sorin Markov (SLD:1698) [foil] &166
+- Nirkana Revenant (SLD:1316) &167
+- Nirkana Revenant (SLD:1316) [foil] &168
+- Dockside Chef (SLD:1629★) [foil] &169
+- Gravebreaker Lamia (SLD:1643★) [foil] &170
+- Buried Alive (SLD:1673) &171
+- Kezzerdrix (SLD:826) [foil] &172
+- Dismember (SLD:1674) &173
+- Kezzerdrix (SLD:826) &174
+- Rottenmouth Viper (BLB:290) &175
+- Valgavoth, Terror Eater (PDSK:120p) &176
+- Enduring Tenacity (DSK:374) &180
+- Enduring Tenacity (DSK:374) &181
+- Unstoppable Slasher (DSK:119) [foil] &182
+- Unstoppable Slasher (DSK:312) &185
+- Deep-Cavern Bat (LCI:102) &186
+- Deep-Cavern Bat (LCI:102) [foil] &187
+- Deep-Cavern Bat (LCI:102) [foil] &188
+- Grave Titan (DRC:42) &189
+- Grave Titan (DRC:42) &190
+- Ancient Brass Dragon (CLB:389) [foil] &191
+- Bloodletter of Aclazotz (LCI:92) &192
+- Sheoldred, the Apocalypse (PDMU:107p) [foil] &195
+- Cultist of the Absolute (CLB:495) [etched] &196
+- Cultist of the Absolute (CLB:123) &197
+- Bloodletter of Aclazotz (LCI:336) &198
+- Grave Titan (SLD:2188) &199
+- Wick, the Whorled Mind (BLB:120) &200
+- Wick, the Whorled Mind (BLB:314) &201
+- Contamination (MB2:178) &202
+- Vito, Thorn of the Dusk Rose (SLD:2282) [foil] &203
+- Aclazotz, Deepest Betrayal // Temple of the Dead (LCI:316) &204
+- Phyrexian Arena (ONE:384) &205
+- Nowhere to Run (DSK:111) &206
+- Nowhere to Run (DSK:111) [foil] &207
+- Doomsday Excruciator (DSK:94) &208
+- Leyline of the Void (DSK:106) &209
+- Snuff Out (WHO:222) &210
+- Oversold Cemetery (WOT:33) [foil] &211
+- Black Market (PIP:183) [foil] &212
+- Unholy Annex // Ritual Chamber (DSK:339) &213
+- Demonic Counsel (DSK:92) &214
+- Demonic Counsel (DSK:310) &215
+- Demonic Counsel (DSK:310) [foil] &216
+- Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) &217
+- Lord of the Pit (SLD:893) [foil] &218
+- Liliana of the Veil (DMU:373) &219
+- Lord of the Pit (SLD:1857) [foil] &220
+- Gonti, Night Minister (DFT:357) &221
+- Deadly Dispute (P30A:29) [foil] &222
+- Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN:382) [foil] &223
+- Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN:317) [foil] &224
+- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:384) [foil] &225
+- Galvanic Blast (SPG:90) &226
+- Galvanic Blast (SPG:90) [foil] &227
+- Full Throttle (DFT:127) &228
+- Full Throttle (DFT:127) &229
+- Full Throttle (DFT:386) [foil] &230
+- Jaws, Relentless Predator (SLD:2175) &232
+- Goldspan Dragon (SLD:1780) &233
+- Magus of the Moon (SLD:1761) [foil] &234
+- Lightning Bolt (SLD:1638★) [foil] &235
+- Fling (SLD:1795) &236
+- Fling (SLD:1795) [foil] &237
+- Tormenting Voice (SLD:2334) [foil] &238
+- Tannuk, Steadfast Second (EOE:162) &239
+- Spider-Punk (SPM:92) &240
+- Isengard Unleashed (LTC:495) [foil] &241
+- Chaos Warp (MOC:273) &242
+- Cathartic Reunion (SLD:7045) &243
+- Abrade (SLD:2179) &244
+- Reckless Endeavor (SLD:2177) &245
