@@ -1,6 +1,8 @@
 ---
 name: ritual-cards
-description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or a random card. Output is JSON by default for easy parsing."
+description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or random cards. Output is JSON by default for easy parsing."
+ritual-version: 0.1.0-beta21
+ritual-content-hash: f8837545260a3e86fd8e123fa2a6ded835f24ea076c44b7d7625cb671de47ebc
 ---
 
 # Looking up cards with Ritual
@@ -25,6 +27,11 @@ ritual card --from-file names.txt
 cat names.txt | ritual card --stdin
 ```
 
+A batch run silently upgrades the default `json` output to `ndjson` (one object
+per line, emitted as results arrive). A name that cannot be found makes the run
+exit 3; a fetch failure exits 1, and in a batch the failure code outranks
+not-found.
+
 ## Raw Scryfall search
 
 `scry` runs a raw [Scryfall query](https://scryfall.com/docs/syntax):
@@ -32,17 +39,37 @@ cat names.txt | ritual card --stdin
 ```bash
 ritual scry "c:red cmc<=2 t:instant"
 ritual scry "set:fdn r:mythic" --output ndjson
-ritual scry "o:draw t:creature" --non-interactive       # no pagination prompts
-ritual scry "t:land" --pages 3 --yes                    # fetch the first 3 pages
+ritual scry "o:draw t:creature" --no-input              # no pagination prompts, one page
+ritual scry "t:land" --pages 3                          # fetch the first 3 pages, no prompts
 ritual scry "c:blue" --csv                              # CSV output
 ```
 
-In scripts always pass `--non-interactive` (or `--yes`) so pagination never blocks.
+Paging never blocks a script: `--pages <n>` fetches up to `n` pages without
+prompting, and everywhere prompts are unavailable (piped output, the global
+`--no-input` flag, or `RITUAL_NO_INPUT`) exactly one page is fetched. There is
+no fetch-all flag — pass a large `--pages` value to get everything. A query with
+no matches exits 3; a Scryfall error exits 1.
 
-## Random card
+## Random cards
+
+`scry --random` fetches random cards instead of searching; the (optional) query
+becomes a Scryfall filter on the picks:
 
 ```bash
-ritual random
-ritual random --filter "is:commander c:gruul"           # constrain with a Scryfall query
-ritual random --output text
+ritual scry --random
+ritual scry "is:commander c:gruul" --random             # constrain with a Scryfall query
+ritual scry --random --count 5                          # 5 random cards, emitted as an array
+ritual scry --random --output text
 ```
+
+With a single pick (the default) the output is one bare card object. `--count`
+requires `--random`, and `--random` cannot be combined with `--pages` or `--csv`.
+
+## Live queries vs. the local cache
+
+`card` and `scry` always query Scryfall **live** — they never read or refresh
+the local bulk cache that the list commands (`add-card`, `edit`, `price`,
+`build-site`, ...) use. To warm that cache for offline or CI work, run
+`ritual cache preload-all` (bulk download: cards, prices, and tags) or
+`ritual cache preload-set <code>` for a single set — see the **ritual** skill's
+Setup section.

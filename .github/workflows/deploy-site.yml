@@ -71,7 +71,7 @@ jobs:
 
       - name: Generate card manifest
         if: steps.detect-changes.outputs.has-changes != 'true'
-        run: ./ritual list-all-cards
+        run: ./ritual list-all-cards --out all-cards.md
 
       - name: Restore Scryfall cache
         if: steps.detect-changes.outputs.has-changes != 'true'
@@ -83,7 +83,7 @@ jobs:
 
       - name: Build site
         if: steps.detect-changes.outputs.has-changes != 'true'
-        run: ./ritual build-site --allow-refresh
+        run: ./ritual build-site --refresh auto
 
       - name: Setup Pages
         if: steps.detect-changes.outputs.has-changes != 'true'
