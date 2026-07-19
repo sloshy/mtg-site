@@ -5,7 +5,7 @@ sourceId: '8377316'
 sourceUrl: 'https://archidekt.com/decks/8377316'
 created: '2026-02-23T13:34:52.727Z'
 tags: []
-lastSynced: '2026-06-25T20:57:27.393Z'
+lastSynced: '2026-07-19T22:24:26.660Z'
 format: commander
 ---
 
@@ -82,8 +82,6 @@ format: commander
 1 Hunter's Insight &76
 1 Seize the Spotlight &78
 1 Amarant Coral &79
-1 Buster Sword &80
-1 Goblin Anarchomancer &87
 1 Alexios, Deimos of Kosmos &88
 1 Gimli's Reckless Might &89
 1 Rhythm of the Wild &90
@@ -105,6 +103,8 @@ format: commander
 1 Forgotten Ancient &86
 1 Contest of Claws &72
 1 Cavern-Hoard Dragon &84
+1 Selvala, Heart of the Wilds &80
+1 Cheering Crowd &87
 
 ## Maybeboard
 1 Weathered Sentinels &96
@@ -118,7 +118,6 @@ format: commander
 1 Frenzied Baloth &112
 1 Quartzwood Crasher &113
 1 Blackblade Reforged &114
-1 Selvala, Heart of the Wilds &115
 1 Maskwood Nexus &116
 1 Gyre Sage &117
 1 Sylvan Library &119
@@ -127,3 +126,4 @@ format: commander
 1 Traverse the Outlands &97
 1 Sword of Truth and Justice &98
 1 Vorinclex, Monstrous Raider &99
+1 Bow of Nylea &101

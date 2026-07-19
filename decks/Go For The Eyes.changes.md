@@ -55,3 +55,15 @@
 - Removed "Vorinclex, Monstrous Raider" &72
 - Removed "Traverse the Outlands" &84
 - Removed "Cavern-Hoard Dragon" from Maybeboard &95
+
+## 2026-07-19T22:23:49.725Z
+
+- Added "Selvala, Heart of the Wilds" &80
+- Added "Cheering Crowd" &87
+- Removed "Buster Sword" &80
+- Removed "Goblin Anarchomancer" &87
+- Removed "Selvala, Heart of the Wilds" from Maybeboard &115
+
+## 2026-07-19T22:24:26.650Z
+
+- Added "Bow of Nylea" to Maybeboard &101

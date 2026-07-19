@@ -26,7 +26,7 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-06-25T20:57:27.230Z'
+lastSynced: '2026-07-19T22:23:49.441Z'
 format: commander
 ---
 
@@ -50,7 +50,6 @@ format: commander
 1 Tranquil Landscape &15
 1 Deserted Beach &16
 1 Faerie Artisans &17
-1 Phelia, Exuberant Shepherd &18
 1 Perch Protection &19
 1 Koma, Cosmos Serpent &20
 1 Danny Pink &21
@@ -115,10 +114,8 @@ format: commander
 1 Yavimaya, Cradle of Growth &81
 1 Seaside Citadel &83
 1 Fanatic of Rhonas &84
-1 Appa, Steadfast Guardian &85
 1 Voice of Victory &86
 1 Dyadrine, Synthesis Amalgam &87
-1 Herd Heirloom &88
 1 Kami of Whispered Hopes &89
 1 Elspeth, Storm Slayer &91
 1 Enduring Vitality &92
@@ -129,7 +126,10 @@ format: commander
 1 Three Steps Ahead &97
 1 Dawn's Truce &99
 1 Planetarium of Wan Shi Tong &100
-1 The Legend of Kuruk // Avatar Kuruk &82
 1 Deep Gnome Terramancer &90
 1 Rikku, Resourceful Guardian &98
 1 Mistrise Village &45
+1 Archivist of Oghma &18
+1 Simic Signet &82
+1 On the Trail &85
+1 Farseek &88

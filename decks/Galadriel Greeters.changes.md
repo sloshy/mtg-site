@@ -16,3 +16,14 @@
 
 - Added "Mistrise Village" &45
 - Removed "Rogue's Passage" &45
+
+## 2026-07-19T22:23:49.438Z
+
+- Added "Archivist of Oghma" &18
+- Added "Simic Signet" &82
+- Added "On the Trail" &85
+- Added "Farseek" &88
+- Removed "Phelia, Exuberant Shepherd" &18
+- Removed "Appa, Steadfast Guardian" &85
+- Removed "Herd Heirloom" &88
+- Removed "The Legend of Kuruk // Avatar Kuruk" &82

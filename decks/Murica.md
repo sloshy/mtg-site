@@ -6,6 +6,7 @@ sourceUrl: 'https://archidekt.com/decks/9337260'
 created: '2026-06-25T20:59:18.570Z'
 tags: []
 format: commander
+lastSynced: '2026-07-19T22:23:47.974Z'
 ---
 
 ## Commander
@@ -150,3 +151,4 @@ format: commander
 1 The Vision &135
 1 Open the Armory &136
 1 Arc Reactor &137
+1 Cloudsteel Kirin &138

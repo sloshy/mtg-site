@@ -5,7 +5,7 @@ sourceId: '23694351'
 sourceUrl: 'https://archidekt.com/decks/23694351'
 created: '2026-07-03T23:02:31.212Z'
 tags: []
-lastSynced: '2026-07-10T16:49:31.374Z'
+lastSynced: '2026-07-19T22:23:48.317Z'
 format: commander
 ---
 
@@ -118,7 +118,6 @@ format: commander
 1 Hardened Scales &102
 1 Kodama's Reach &103
 1 Yavimaya, Cradle of Growth &104
-1 Giggling Skitterspike &105
 1 Big Score &106
 1 Wooded Foothills &107
 1 Cheering Crowd &108

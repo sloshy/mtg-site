@@ -270,3 +270,120 @@
 - Added "Purestrain Genestealer" (40K:97) &263
 - Added "Soulcatchers' Aerie" (PLST:JUD-25) &264
 - Added "Appa, Steadfast Guardian" (TLA:316) [foil] &265
+
+## 2026-07-19T19:05:34.350Z
+
+- Added "Thought Vessel" (WHO:255) &266
+- Added "Haunted Ridge" (WHO:286) &267
+- Added "Nanogene Conversion" (WHO:49) &268
+- Added "Flesh Duplicate" (WHO:359) &269
+- Added "The Fugitive Doctor" (WHO:541) &270
+- Added "The Tenth Doctor" (WHO:3) [foil] &271
+- Added "Hunted by The Family" (WHO:361) &272
+- Added "Glacial Fortress" (WHO:285) &273
+- Added "Everybody Lives!" (WHO:18) &274
+- Added "Missy" (WHO:546) &275
+- Added "This Is How It Ends" (WHO:70) &276
+- Added "Ensnared by the Mara" (WHO:84) &277
+- Added "Vislor Turlough" (WHO:74) &278
+- Added "Time Reaper" (WHO:71) &279
+- Added "Return the Past" (WHO:388) &280
+- Added "Day of the Moon" (WHO:79) &281
+- Added "Flatline" (WHO:43) &282
+- Added "As Foretold" (WHO:214) &283
+- Added "Commander's Sphere" (WHO:240) &284
+- Added "Rose Tyler" (WHO:5) [foil] &285
+- Added "River Song's Diary" (WHO:182) &286
+- Added "Sarah Jane Smith" (WHO:536) [foil] &287
+- Added "Temple of Epiphany" (WHO:316) &288
+- Added "Quantum Misalignment" (WHO:52) &289
+- Added "Path of Ancestry" (WHO:293) &290
+- Added "Cyberman Patrol" (WHO:174) &291
+- Added "Terramorphic Expanse" (WHO:322) &292
+- Added "Heaven Sent" (WHO:134) &293
+- Added "The Beast, Deathless Prince" (WHO:114) &294
+- Added "The Toymaker's Trap" (WHO:72) &295
+- Added "Grim Reaper's Sprint" (PIP:386) [foil] &296
+- Added "Rampaging Yao Guai" (PIP:401) &297
+- Added "Puresteel Paladin" (PIP:456) &298
+- Added "Sunscorched Divide" (PIP:445) &299
+- Added "Cait, Cage Brawler" (PIP:409) [foil] &300
+- Added "Brotherhood Vertibird" (PIP:431) [foil] &301
+- Added "Templar Knight" (ACR:183) [etched] &302
+- Added "Slime Against Humanity" (MKM:177) &303
+- Added "Slime Against Humanity" (MKM:177) &304
+- Added "Helm of Awakening" (PLST:VIS-145) &305
+- Added "Selesnya Signet" (RVR:267) &306
+- Added "Caves of Chaos Adventurer" (CLB:167) &307
+- Added "Elder Brain" (CLB:125) &308
+- Added "Popular Entertainer" (CLB:192) &309
+- Added "Balor" (CLB:162) &310
+- Added "Burnished Hart" (CLB:303) &311
+- Added "Traverse the Outlands" (CLB:258) [foil] &312
+- Added "Raised by Giants" (CLB:250) &313
+- Added "Archivist of Oghma" (CLB:4) [foil] &314
+- Added "Harper Recruiter" (CLB:609) &315
+- Added "Elminster's Simulacrum" (CLB:561) [foil] &316
+- Added "Wyll, Blade of Frontiers" (CLB:405) &317
+- Added "Wyll, Blade of Frontiers" (CLB:208) &318
+- Added "Earthquake Dragon" (CLB:228) &319
+- Added "Swiftfoot Boots" (CLB:339) &320
+- Added "Spire Garden" (CLB:361) &321
+- Added "Baldur's Gate" (CLB:600) [foil] &322
+- Added "Astarion, the Decadent" (CLB:524) [etched] &323
+- Added "Bhaal, Lord of Murder" (CLB:416) &324
+- Added "Intellect Devourer" (CLB:575) [foil] &325
+- Added "Font of Magic" (CLB:71) [foil] &326
+- Added "Mocking Doppelganger" (CLB:617) &327
+- Added "Wizards of Thay" (CLB:568) &328
+- Added "Astarion's Thirst" (CLB:114) [foil] &329
+- Added "Firkraag, Cunning Instigator" (CLB:642) &330
+- Added "Archivist of Oghma" (CLB:553) &331
+- Added "Tasha, the Witch Queen" (CLB:364) &332
+- Added "Bhaal, Lord of Murder" (CLB:268) [foil] &333
+- Added "Dynaheir, Invoker Adept" (CLB:421) [foil] &334
+- Added "From the Catacombs" (CLB:623) &335
+
+## 2026-07-19T22:22:50.197Z
+
+- Added "Brilliant Restoration" (NEO:7) [foil] &336
+- Added "Hidetsugu Consumes All // Vessel of the All-Consuming" (NEO:361) [foil] &337
+- Added "Ascendant Acolyte" (NEC:64) &338
+- Added "Thousand-Faced Shadow" (NEO:451) &339
+- Added "Invoke Justice" (NEO:366) &340
+- Added "Cloudsteel Kirin" (NEO:8) &341
+- Added "Thousand-Faced Shadow" (NEO:86) &342
+- Added "The Reality Chip" (NEO:74) &343
+- Added "The Reality Chip" (NEO:374) &344
+- Added "Yoshimaru, Ever Faithful" (NEC:32) &345
+- Added "Biting-Palm Ninja" (NEO:88) [foil] &346
+- Added "March of Burgeoning Life" (NEO:479) &347
+- Added "March of Burgeoning Life" (NEO:393) &348
+- Added "Nahiri, the Lithomancer" (CMM:467) [etched] &349
+- Added "Jaya's Phoenix" (CMM:768) &350
+- Added "Teysa Karlov" (CMM:688) [foil] &351
+- Added "Grenzo, Havoc Raiser" (CMM:677) &352
+- Added "Abundant Growth" (INR:184) &353
+- Added "Knightly Valor" (WOT:8) [foil] &354
+- Added "Abundant Growth" (INR:315) [foil] &355
+- Added "Blacksmith's Talent" (BLB:125) &356
+- Added "Raid Bombardment" (WOT:47) &357
+- Added "All That Glitters" (CMM:622) [foil] &358
+- Added "Abundant Growth" (INR:184) [foil] &359
+- Added "Brotherhood Headquarters" (ACR:80) [foil] &360
+- Added "Wheel of Fate" (PLST:C16-138) &361
+- Added "Exsanguinate" (PLST:SOM-61) &362
+- Added "Squirrel Wrangler" (PLST:PCY-127) &363
+- Added "Release the Gremlins" (PLST:AER-96) &364
+- Added "Eater of Days" (PLST:DST-120) &365
+- Added "All Is Dust" (PLST:MM2-1) &366
+- Added "Orzhov Basilica" (PLST:C17-268) &367
+- Added "Witch Engine" (PLST:USG-169) &368
+- Added "Torment of Hailfire" (PLST:HOU-77) &369
+- Added "Toxin Sliver" (PLST:LGN-84) &370
+- Added "Gideon Jura" (PLST:E01-10) &371
+- Added "Bow of Nylea" (PLST:THS-153) &372
+- Added "Tatyova, Benthic Druid" (PLST:DOM-206) &373
+- Added "Memory Erosion" (CM2:45) &374
+- Added "Ranger of Eos" (PLST:ALA-21) &375
+- Added "Desert" (PLST:AFC-233) &376
