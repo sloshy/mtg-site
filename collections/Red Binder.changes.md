@@ -265,3 +265,8 @@
 - Removed "Pip-Boy 3000" (PIP:140) &301
 - Removed "Leyline Axe" (FDN:129) &286
 - Removed "Caduceus, Staff of Hermes" (ACR:155) &32
+
+## 2026-07-14T23:17:50.873Z
+
+- Added "Buster Sword" (FIN:255) &1
+- Added "Goblin Anarchomancer" (MH2:200) [foil] &20

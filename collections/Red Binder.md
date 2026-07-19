@@ -332,3 +332,5 @@
 - Bleachbone Verge (DFT:250) [foil] &352
 - Shadowy Backstreet (MKM:268) &353
 - Dark Depths (SLD:1680) &354
+- Buster Sword (FIN:255) &1
+- Goblin Anarchomancer (MH2:200) [foil] &20

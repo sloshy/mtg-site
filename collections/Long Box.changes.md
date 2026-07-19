@@ -208,3 +208,65 @@
 - Added "Blossoming Tortoise" (WOE:163) &204
 - Added "Season of Growth" (WOT:61) &205
 - Added "Sentinel of Lost Lore" (WOE:184) &206
+
+## 2026-07-14T22:57:27.755Z
+
+- Added "Thousand Moons Smithy // Barracks of the Thousand" (LCI:39) &207
+- Added "Planar Genesis" (MH3:198) &208
+- Added "Mana Geyser" (PLST:5DN-75) &209
+- Added "Fork" (3ED:153) &210
+- Added "Soul Warden" (M10:34) &211
+- Added "Brigid's Command" (PECL:208p) [foil] &212
+- Added "Vicious Rivalry" (PSOS:241p) [foil] &213
+- Added "Silverquill Charm" (SOS:366) [foil] &214
+- Added "New Horizons" (40K:218★) [foil] &215
+- Added "New Horizons" (40K:218) &216
+- Added "Overgrowth" (40K:219) &217
+- Added "Garruk's Uprising" (WOT:53) &218
+- Added "Essence Warden" (LTC:242) &219
+- Added "Bruenor Battlehammer" (PLST:AFR-219) &220
+- Added "Bruenor Battlehammer" (AFR:219) &221
+- Added "Prosperous Innkeeper" (BLC:121) &222
+- Added "Faithless Looting" (PLST:CM2-96) &223
+- Added "Tamiyo's Safekeeping" (NEO:211) &224
+- Added "Faithless Looting" (INR:151) [foil] &225
+- Added "Surge of Salvation" (MOM:41) [foil] &226
+- Added "Infernal Grasp" (INR:310) &227
+- Added "Hunter's Insight" (CMM:296) &228
+- Added "Cultivate" (LTC:236) &229
+- Added "Syphon Mind" (C17:127) &230
+- Added "Saheeli, Sublime Artificer" (WAR:234) &231
+- Added "Dig Through Time" (WOC:88) &232
+- Added "Thrilling Encore" (WOC:118) &233
+- Added "Perplexing Test" (WOC:102) &234
+- Added "Glen Elendra Liege" (WOC:138) &235
+- Added "Puppeteer Clique" (WOC:115) &236
+- Added "Oona, Queen of the Fae" (WOC:142) &237
+- Added "Wayfarer's Bauble" (WOC:151) &238
+- Added "Faerie Formation" (WOC:91) &239
+- Added "Regal Bunnicorn" (WOE:25) &240
+- Added "Theoretical Duplication" (WOC:112) &241
+- Added "Hullbreaker Horror" (WOC:95) &242
+- Added "Season of Growth" (WOT:61) &243
+- Added "Garruk's Uprising" (WOT:53) &244
+- Added "Intangible Virtue" (WOT:6) &245
+- Added "Curiosity" (WOT:17) &246
+- Added "Compulsion" (WOT:15) &247
+- Added "Dawn of Hope" (WOT:2) &248
+- Added "Gruff Triplets" (WOE:172) [foil] &249
+- Added "Gruff Triplets" (WOE:172) [foil] &250
+- Added "Up the Beanstalk" (WOE:195) [foil] &251
+- Added "Fellwar Stone" (WOC:147) &252
+- Added "Court of Ardenvale" (WOC:21) &253
+- Added "Goddric, Cloaked Reveler" (WOE:132) &254
+- Added "Griffin Aerie" (WOT:5) &255
+- Added "Vampiric Rites" (WOT:37) &256
+- Added "Tajic, Legion's Edge" (RVR:231) &257
+- Added "Ral Zarek" (RVR:445) &258
+- Added "Bedeck // Bedazzle" (RVR:244) &259
+- Added "Kaya, Orzhov Usurper" (RVR:194) &260
+- Added "Unbreakable Formation" (RVR:32) [foil] &261
+- Added "Abzan Falconer" (2X2:4) &262
+- Added "Purestrain Genestealer" (40K:97) &263
+- Added "Soulcatchers' Aerie" (PLST:JUD-25) &264
+- Added "Appa, Steadfast Guardian" (TLA:316) [foil] &265
