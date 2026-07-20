@@ -514,3 +514,7 @@
 - Added "Gideon Blackblade" (WAR:13) &460
 - Added "Stormcatch Mentor" (BLB:234) &461
 - Added "Growth Spiral" (LTC:267) &462
+
+## 2026-07-20T01:30:13.630Z
+
+- Removed "Monica Rambeau // Photon, Living Light" (MSH:23) &297

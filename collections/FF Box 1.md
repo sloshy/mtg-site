@@ -287,7 +287,6 @@
 - Secret Invasion (MSH:72) [foil] &294
 - Mole Man, Moloid Master (MSH:177) &295
 - Elektra, Daughter of the Hand (MSH:97) &296
-- Monica Rambeau // Photon, Living Light (MSH:23) &297
 - S.H.I.E.L.D. Flying Car (MSH:74) &298
 - Agent Phil Coulson (MSH:4) [foil] &299
 - Construct a Cosmic Cube (MSH:90) &300

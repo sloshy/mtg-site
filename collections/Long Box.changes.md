@@ -387,3 +387,106 @@
 - Added "Memory Erosion" (CM2:45) &374
 - Added "Ranger of Eos" (PLST:ALA-21) &375
 - Added "Desert" (PLST:AFC-233) &376
+
+## 2026-07-20T01:30:13.615Z
+
+- Added "Mirri the Cursed" (PLST:TSR-125) &377
+- Added "Dark Ritual" (PLST:A25-82) &378
+- Added "Preyseizer Dragon" (PLST:PCA-50) &379
+- Added "Sakashima's Student" (PLST:PCA-24) &380
+- Added "Traverse the Outlands" (PLST:C17-34) &381
+- Added "Fellwar Stone" (PLST:C15-254) &382
+- Added "Soulcatchers' Aerie" (PLST:JUD-25) &383
+- Added "Simian Spirit Guide" (PLST:PLC-122) &384
+- Added "Arboreal Alliance" (LTC:497) [foil] &385
+- Added "Legolas, Master Archer" (LTR:173) &386
+- Added "Lórien Revealed" (LTR:511) &387
+- Added "Éomer, Marshal of Rohan" (LTR:571) &388
+- Added "Horn of Gondor" (LTR:240) &389
+- Added "Reprieve" (LTR:26) &390
+- Added "Galadriel, Elven-Queen" (LTC:462) [foil] &391
+- Added "Minas Tirith Garrison" (LTR:830) &392
+- Added "Rally the Galadhrim" (LTC:499) &393
+- Added "Fear, Fire, Foes!" (LTR:125) &394
+- Added "Door of Destinies" (LTC:277) &395
+- Added "Brushland" (LTC:297) &396
+- Added "Combat Celebrant" (LTC:212) &397
+- Added "Overwhelming Stampede" (LTC:254) &398
+- Added "Isengard Unleashed" (LTC:495) &399
+- Added "Lórien Revealed" (LTR:60) &400
+- Added "Fumigate" (LTC:170) &401
+- Added "Gandalf, Westward Voyager" (LTC:6) &402
+- Added "Diabolic Intent" (LTC:526) &403
+- Added "Elvish Harbinger" (LTC:527) &404
+- Added "Sorcerous Squall" (LTC:548) [foil] &405
+- Added "Sauron's Ransom" (LTR:782) [foil] &406
+- Added "Galadhrim Brigade" (LTC:502) &407
+- Added "Éomer, Marshal of Rohan" (LTR:571) &408
+- Added "Swords to Plowshares" (LTC:178) &409
+- Added "Shelob, Dread Weaver" (LTC:431) &410
+- Added "Gandalf the Grey" (LTR:814) [foil] &411
+- Added "Lightning Greaves" (LTC:281) &412
+- Added "Fangorn, Tree Shepherd" (LTR:617) &413
+- Added "Pippin, Guard of the Citadel" (LTR:669) [foil] &414
+- Added "Minas Tirith Garrison" (LTR:830) &415
+- Added "Sauron's Ransom" (LTR:782) [foil] &416
+- Added "Faithless Looting" (CMM:220) [foil] &417
+- Added "Counterspell" (CMM:630) [foil] &418
+- Added "Kodama's Reach" (CMM:649) &419
+- Added "Shirei, Shizo's Caretaker" (CMM:676) &420
+- Added "Boon of the Spirit Realm" (CMM:753) &421
+- Added "Boompile" (CMM:371) &422
+- Added "Yuriko, the Tiger's Shadow" (CMM:690) [foil] &423
+- Added "Tyrant of Kher Ridges" (BRO:154) &424
+- Added "Hurkyl, Master Wizard" (BRO:51) &425
+- Added "Sculpting Steel" (BRR:50) &426
+- Added "Runechanter's Pike" (BRR:48) &427
+- Added "Brotherhood's End" (BRO:128) &428
+- Added "Sardian Avenger" (BRC:23) &429
+- Added "Razorlash Transmogrant" (BRO:122) &430
+- Added "Gwenna, Eyes of Gaea" (BRO:185) [foil] &431
+- Added "Burnished Hart" (BRR:71) &432
+- Added "Siege Veteran" (BRO:25) &433
+- Added "Journeyer's Kite" (BRR:25) &434
+- Added "Gilded Lotus" (BRR:17) &435
+- Added "Siege Veteran" (BRO:25) &436
+- Added "Clay Champion" (BRO:230) &437
+- Added "Mishra's Bauble" (BRR:34) &438
+- Added "Semblance Anvil" (BRR:52) &439
+- Added "Over the Top" (BRO:146) &440
+- Added "Springleaf Drum" (BRR:55) &441
+- Added "Queen Kayla bin-Kroog" (BRO:218) &442
+- Added "Teferi, Temporal Pilgrim" (BRO:66) &443
+- Added "Unwinding Clock" (BRR:124) &444
+- Added "Haywire Mite" (BRO:199) &445
+- Added "Blast Zone" (BRO:258) &446
+- Added "Staff of Domination" (BRR:56) &447
+- Added "Journeyer's Kite" (BRR:88) [foil] &448
+- Added "Tyrant of Kher Ridges" (BRO:154) &449
+- Added "Sword of the Meek" (BRR:59) &450
+- Added "Journeyer's Kite" (BRR:88) &451
+- Added "In the Trenches" (BRO:8) &452
+- Added "Howling Mine" (BRR:83) &453
+- Added "Frantic Search" (CMM:96) &454
+- Added "Faithless Looting" (CMM:220) &455
+- Added "Generous Gift" (CMM:26) &456
+- Added "Reality Shift" (CMM:113) &457
+- Added "Aminatou's Augury" (CMM:73) &458
+- Added "Sower of Discord" (CMM:187) &459
+- Added "Storm-Kiln Artist" (CMM:260) &460
+- Added "Azusa, Lost but Seeking" (CMM:274) &461
+- Added "Teething Wurmlet" (BRO:192) [foil] &462
+- Added "Mishra, Tamer of Mak Fawa" (BRO:295) &463
+- Added "Woodcaller Automaton" (BRO:377) &464
+- Added "Mishra's Bauble" (BRR:97) &465
+- Added "Chromatic Lantern" (BRR:10) &466
+- Added "Urza, Prince of Kroog" (BRO:226) [foil] &467
+- Added "Diabolic Intent" (BRO:324) &468
+- Added "Scavenged Brawler" (BRC:64) &469
+- Added "Painful Quandary" (BRO:111) &470
+- Added "Runechanter's Pike" (BRR:48) [foil] &471
+- Added "Sardian Avenger" (BRC:23) &472
+- Added "Hajar, Loyal Bodyguard" (BRO:211) &473
+- Added "Keening Stone" (BRR:26) &474
+- Added "Kayla's Command" (BRO:9) &475
+- Added "Chromatic Lantern" (BRR:10) &476

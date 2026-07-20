@@ -377,3 +377,103 @@
 - Memory Erosion (CM2:45) &374
 - Ranger of Eos (PLST:ALA-21) &375
 - Desert (PLST:AFC-233) &376
+- Mirri the Cursed (PLST:TSR-125) &377
+- Dark Ritual (PLST:A25-82) &378
+- Preyseizer Dragon (PLST:PCA-50) &379
+- Sakashima's Student (PLST:PCA-24) &380
+- Traverse the Outlands (PLST:C17-34) &381
+- Fellwar Stone (PLST:C15-254) &382
+- Soulcatchers' Aerie (PLST:JUD-25) &383
+- Simian Spirit Guide (PLST:PLC-122) &384
+- Arboreal Alliance (LTC:497) [foil] &385
+- Legolas, Master Archer (LTR:173) &386
+- Lórien Revealed (LTR:511) &387
+- Éomer, Marshal of Rohan (LTR:571) &388
+- Horn of Gondor (LTR:240) &389
+- Reprieve (LTR:26) &390
+- Galadriel, Elven-Queen (LTC:462) [foil] &391
+- Minas Tirith Garrison (LTR:830) &392
+- Rally the Galadhrim (LTC:499) &393
+- Fear, Fire, Foes! (LTR:125) &394
+- Door of Destinies (LTC:277) &395
+- Brushland (LTC:297) &396
+- Combat Celebrant (LTC:212) &397
+- Overwhelming Stampede (LTC:254) &398
+- Isengard Unleashed (LTC:495) &399
+- Lórien Revealed (LTR:60) &400
+- Fumigate (LTC:170) &401
+- Gandalf, Westward Voyager (LTC:6) &402
+- Diabolic Intent (LTC:526) &403
+- Elvish Harbinger (LTC:527) &404
+- Sorcerous Squall (LTC:548) [foil] &405
+- Sauron's Ransom (LTR:782) [foil] &406
+- Galadhrim Brigade (LTC:502) &407
+- Éomer, Marshal of Rohan (LTR:571) &408
+- Swords to Plowshares (LTC:178) &409
+- Shelob, Dread Weaver (LTC:431) &410
+- Gandalf the Grey (LTR:814) [foil] &411
+- Lightning Greaves (LTC:281) &412
+- Fangorn, Tree Shepherd (LTR:617) &413
+- Pippin, Guard of the Citadel (LTR:669) [foil] &414
+- Minas Tirith Garrison (LTR:830) &415
+- Sauron's Ransom (LTR:782) [foil] &416
+- Faithless Looting (CMM:220) [foil] &417
+- Counterspell (CMM:630) [foil] &418
+- Kodama's Reach (CMM:649) &419
+- Shirei, Shizo's Caretaker (CMM:676) &420
+- Boon of the Spirit Realm (CMM:753) &421
+- Boompile (CMM:371) &422
+- Yuriko, the Tiger's Shadow (CMM:690) [foil] &423
+- Tyrant of Kher Ridges (BRO:154) &424
+- Hurkyl, Master Wizard (BRO:51) &425
+- Sculpting Steel (BRR:50) &426
+- Runechanter's Pike (BRR:48) &427
+- Brotherhood's End (BRO:128) &428
+- Sardian Avenger (BRC:23) &429
+- Razorlash Transmogrant (BRO:122) &430
+- Gwenna, Eyes of Gaea (BRO:185) [foil] &431
+- Burnished Hart (BRR:71) &432
+- Siege Veteran (BRO:25) &433
+- Journeyer's Kite (BRR:25) &434
+- Gilded Lotus (BRR:17) &435
+- Siege Veteran (BRO:25) &436
+- Clay Champion (BRO:230) &437
+- Mishra's Bauble (BRR:34) &438
+- Semblance Anvil (BRR:52) &439
+- Over the Top (BRO:146) &440
+- Springleaf Drum (BRR:55) &441
+- Queen Kayla bin-Kroog (BRO:218) &442
+- Teferi, Temporal Pilgrim (BRO:66) &443
+- Unwinding Clock (BRR:124) &444
+- Haywire Mite (BRO:199) &445
+- Blast Zone (BRO:258) &446
+- Staff of Domination (BRR:56) &447
+- Journeyer's Kite (BRR:88) [foil] &448
+- Tyrant of Kher Ridges (BRO:154) &449
+- Sword of the Meek (BRR:59) &450
+- Journeyer's Kite (BRR:88) &451
+- In the Trenches (BRO:8) &452
+- Howling Mine (BRR:83) &453
+- Frantic Search (CMM:96) &454
+- Faithless Looting (CMM:220) &455
+- Generous Gift (CMM:26) &456
+- Reality Shift (CMM:113) &457
+- Aminatou's Augury (CMM:73) &458
+- Sower of Discord (CMM:187) &459
+- Storm-Kiln Artist (CMM:260) &460
+- Azusa, Lost but Seeking (CMM:274) &461
+- Teething Wurmlet (BRO:192) [foil] &462
+- Mishra, Tamer of Mak Fawa (BRO:295) &463
+- Woodcaller Automaton (BRO:377) &464
+- Mishra's Bauble (BRR:97) &465
+- Chromatic Lantern (BRR:10) &466
+- Urza, Prince of Kroog (BRO:226) [foil] &467
+- Diabolic Intent (BRO:324) &468
+- Scavenged Brawler (BRC:64) &469
+- Painful Quandary (BRO:111) &470
+- Runechanter's Pike (BRR:48) [foil] &471
+- Sardian Avenger (BRC:23) &472
+- Hajar, Loyal Bodyguard (BRO:211) &473
+- Keening Stone (BRR:26) &474
+- Kayla's Command (BRO:9) &475
+- Chromatic Lantern (BRR:10) &476
