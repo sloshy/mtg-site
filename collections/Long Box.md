@@ -477,3 +477,155 @@
 - Keening Stone (BRR:26) &474
 - Kayla's Command (BRO:9) &475
 - Chromatic Lantern (BRR:10) &476
+- Defiler of Instinct (DMU:406) [foil] &477
+- Shivan Devastator (DMU:143) &478
+- Orca, Siege Demon (DMC:59) [etched] &479
+- Jaya, Fiery Negotiator (DMU:133) &480
+- Jaya, Fiery Negotiator (DMU:133) &481
+- The Stone Brain (BRO:247) &482
+- Tyrant of Kher Ridges (BRO:154) &483
+- Loran of the Third Path (BRO:12) &484
+- Sculpting Steel (BRR:50) &485
+- Sundering Titan (BRR:57) &486
+- Urza, Prince of Kroog (BRO:226) &487
+- Mind's Eye (BRR:33) &488
+- Gixian Puppeteer (BRO:99) &489
+- In the Trenches (BRO:8) &490
+- Gix, Yawgmoth Praetor (BRO:95) &491
+- Deathbloom Ritualist (BRO:208) &492
+- Valiant Veteran (DMU:38) &493
+- Negate (MOM:68) &494
+- Rona, Herald of Invasion // Rona, Tolarian Obliterator (MOM:75) &495
+- Kaheera, the Orphanguard (MUL:47) &496
+- Pain Distributor (MOC:33) &497
+- Invasion of Ikoria // Zilortha, Apex of Ikoria (MOM:190) &498
+- Captain Lannery Storm (MUL:20) &499
+- Bloodfeather Phoenix (MOM:362) &500
+- Inga and Esika (MOM:310) [foil] &501
+- Invasion of Tarkir // Defiant Thundermaw (MOM:149) &502
+- Sword of Once and Future (MOM:265) &503
+- Hidetsugu and Kairi (PMOM:228p) [foil] &504
+- Yorion, Sky Nomad (MUL:64) &505
+- Brilliant Restoration (NEO:7) &506
+- Jor Kadeen, First Goldwarden (ONE:203) &507
+- Tyvar's Stand (ONE:190) &508
+- Tyvar's Stand (ONE:190) &509
+- Tyvar's Stand (ONE:190) [foil] &510
+- Green Sun's Twilight (ONE:284) [foil] &511
+- Mite Overseer (ONE:404) &512
+- Kemba, Kha Enduring (ONE:19) &513
+- Norn's Wellspring (ONE:24) &514
+- Razorverge Thicket (ONE:373) &515
+- Flooded Grove (NCC:402) &516
+- March of Burgeoning Life (NEO:201) &517
+- March of Reckless Joy (NEO:469) &518
+- Inventive Iteration // Living Breakthrough (NEO:57) &519
+- March of Swirling Mist (NEO:61) &520
+- March of Swirling Mist (NEO:372) &521
+- Mindlink Mech (NEO:62) &522
+- Myojin of Cryptic Dreams (NEC:33) &523
+- Invoke Despair (NEO:379) [foil] &524
+- Scrap Welder (NEO:159) [foil] &525
+- Kosei, Penitent Warlord (NEC:67) &526
+- Invoke Calamity (NEO:467) &527
+- Hinata, Dawn-Crowned (NEO:398) &528
+- The Eternal Wanderer (ONE:11) &529
+- Mite Overseer (ONE:404) &530
+- Ezuri, Stalker of Spheres (ONE:201) &531
+- Migloz, Maze Crusher (ONE:210) &532
+- Kethek, Crucible Goliath (ONE:319) &533
+- The Seedcore (ONE:259) &534
+- The Monumental Facade (ONE:255) &535
+- See Double (MOM:77) &536
+- Archpriest of Shadows (MOM:89) &537
+- Invasion of Fiora // Marchesa, Resolute Monarch (MOM:114) &538
+- Hidetsugu and Kairi (MOM:228) &539
+- Ghalta and Mavren (MOM:386) [foil] &540
+- Baral and Kari Zev (MOM:302) &541
+- Rankle and Torbran (MOM:252) &542
+- Invasion of Alara // Awaken the Maelstrom (MOM:230) &543
+- The Royal Scions (PLST:ELD-199) &544
+- Hurkyl's Recall (PLST:MM2-48) &545
+- Deification (MAT:2) &546
+- Tazri, Stalwart Survivor (MAT:6) &547
+- Spark Rupture (MAT:229) [foil] &548
+- Vesuvan Drifter (MAT:60) [foil] &549
+- Vesuvan Drifter (MAT:10) &550
+- Jirina, Dauntless General (MAT:32) &551
+- Niv-Mizzet, Supreme (MAT:40) &552
+- Nahiri's Resolve (MAT:87) &553
+- Calix, Guided by Fate (MAT:26) [foil] &554
+- Narset, Enlightened Exile (MAT:88) &555
+- Ob Nixilis, Captive Kingpin (MAT:41) &556
+- Jolrael, Voice of Zhalfir (MAT:33) &557
+- Thalia, Guardian of Thraben (MUL:7) &558
+- Ruby, Daring Tracker (WOE:212) &559
+- Ruby, Daring Tracker (WOE:212) &560
+- Compulsion (WOT:15) &561
+- Hatching Plans (WOT:20) &562
+- Lich-Knights' Conquest (WOE:96) &563
+- Leyline of Abundance (WOT:56) &564
+- Knightly Valor (WOT:8) &565
+- Vampiric Rites (WOT:37) [foil] &566
+- Cruel Somnophage // Can't Wake Up (WOE:286) &567
+- Lady of Laughter (WOE:370) &568
+- Realm-Scorcher Hellkite (WOE:145) [foil] &569
+- Kellan, the Fae-Blooded // Birthright Boon (WOE:291) [foil] &570
+- Restless Bivouac (WOE:257) [foil] &571
+- Ruby, Daring Tracker (WOE:212) &572
+- Likeness Looter (WOE:208) &573
+- Bramble Familiar // Fetch Quest (WOE:164) &574
+- Scalding Viper // Steam Clean (WOE:235) &575
+- Song of Totentanz (WOE:150) &576
+- Tangled Colony (WOE:113) &577
+- Rankle's Prank (WOE:341) &578
+- Cruel Somnophage // Can't Wake Up (WOE:222) &579
+- Devouring Sugarmaw // Have for Dinner (WOE:224) &580
+- Farsight Ritual (WOE:49) &581
+- Expel the Interlopers (WOE:13) &582
+- Griffin Aerie (WOT:5) &583
+- Knightly Valor (WOT:8) &584
+- Compulsion (WOT:15) [foil] &585
+- Curiosity (WOT:17) [foil] &586
+- Dark Tutelage (WOT:28) &587
+- Dark Tutelage (WOT:28) &588
+- Dark Tutelage (WOT:28) &589
+- Burn Down the House (MID:131) &590
+- Ludevic, Necrogenius // Olag, Ludevic's Hubris (MID:320) &591
+- The Celestus (MID:377) &592
+- Graveyard Trespasser // Graveyard Glutton (MID:290) [foil] &593
+- Ludevic, Necrogenius // Olag, Ludevic's Hubris (MID:233) &594
+- Dennick, Pious Apprentice // Dennick, Pious Apparition (MID:317) &595
+- Rite of Harmony (MID:236) &596
+- Triskaidekaphile (MID:81) [foil] &597
+- Gisa, Glorious Resurrector (MID:103) &598
+- Poppet Stitcher // Poppet Factory (MID:71) [foil] &599
+- The Celestus (MID:252) &600
+- Curse of Leeches // Leeching Lurker (MID:94) &601
+- Sungold Sentinel (MID:37) &602
+- Pithing Needle (MID:257) &603
+- Celestial Judgment (MIC:43) &604
+- Dennick, Pious Apprentice // Dennick, Pious Apparition (MID:317) &605
+- Malevolent Hermit // Benevolent Geist (MID:336) &606
+- Rockfall Vale (MID:266) &607
+- Sludge Monster (MID:76) &608
+- Dire-Strain Rampage (MID:219) &609
+- Poppet Stitcher // Poppet Factory (MID:71) &610
+- Malevolent Hermit // Benevolent Geist (MID:61) &611
+- The Celestus (MID:252) [foil] &612
+- Rem Karolus, Stalwart Slayer (MID:235) &613
+- Geistflame Reservoir (MID:142) &614
+- Curse of Shaken Faith (MID:134) &615
+- Katilda, Dawnhart Martyr // Katilda's Rising Dawn (VOW:21) &616
+- Dollhouse of Horrors (VOW:255) &617
+- Hiveheart Shaman (VOW:202) &618
+- Old Rutstein (VOW:244) &619
+- Jacob Hauken, Inspector // Hauken's Insight (VOW:320) &620
+- Alchemist's Gambit (VOW:140) &621
+- Olivia's Attendants (VOW:307) &622
+- Kessig Wolfrider (VOW:379) &623
+- Imperious Mindbreaker (VOC:71) &624
+- Dig Up (VOW:197) [foil] &625
+- Voldaren Bloodcaster // Bloodbat Summoner (VOW:338) &626
+- Savior of Ollenbock (VOW:34) &627
+- Cemetery Gatekeeper (VOW:148) [foil] &628

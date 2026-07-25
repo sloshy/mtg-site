@@ -5,7 +5,7 @@ sourceId: '23872221'
 sourceUrl: 'https://archidekt.com/decks/23872221'
 created: '2026-07-03T23:02:15.092Z'
 tags: []
-lastSynced: '2026-07-14T18:47:48.078Z'
+lastSynced: '2026-07-25T00:48:20.504Z'
 format: commander
 ---
 
@@ -125,3 +125,4 @@ format: commander
 1 Electro, Assaulting Battery &113
 1 Odric, Lunarch Marshal &114
 1 Serra Ascendant &115
+1 Perch Protection &95

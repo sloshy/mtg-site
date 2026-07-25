@@ -21,3 +21,7 @@
 - Removed "Thousand Moons Smithy // Barracks of the Thousand" &67
 - Removed "Falcon and Redwing" &80
 - Removed "Anim Pakal, Thousandth Moon" from Maybeboard &98
+
+## 2026-07-25T00:48:20.483Z
+
+- Added "Perch Protection" to Maybeboard &95

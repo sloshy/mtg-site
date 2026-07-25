@@ -490,3 +490,167 @@
 - Added "Keening Stone" (BRR:26) &474
 - Added "Kayla's Command" (BRO:9) &475
 - Added "Chromatic Lantern" (BRR:10) &476
+
+## 2026-07-23T18:31:26.022Z
+
+- Added "Defiler of Instinct" (DMU:406) [foil] &477
+- Added "Shivan Devastator" (DMU:143) &478
+- Added "Orca, Siege Demon" (DMC:59) [etched] &479
+- Added "Jaya, Fiery Negotiator" (DMU:133) &480
+- Added "Jaya, Fiery Negotiator" (DMU:133) &481
+- Added "The Stone Brain" (BRO:247) &482
+- Added "Tyrant of Kher Ridges" (BRO:154) &483
+- Added "Loran of the Third Path" (BRO:12) &484
+- Added "Sculpting Steel" (BRR:50) &485
+- Added "Sundering Titan" (BRR:57) &486
+- Added "Urza, Prince of Kroog" (BRO:226) &487
+- Added "Mind's Eye" (BRR:33) &488
+- Added "Gixian Puppeteer" (BRO:99) &489
+- Added "In the Trenches" (BRO:8) &490
+- Added "Gix, Yawgmoth Praetor" (BRO:95) &491
+- Added "Deathbloom Ritualist" (BRO:208) &492
+- Added "Valiant Veteran" (DMU:38) &493
+- Added "Negate" (MOM:68) &494
+- Added "Rona, Herald of Invasion // Rona, Tolarian Obliterator" (MOM:75) &495
+- Added "Kaheera, the Orphanguard" (MUL:47) &496
+- Added "Pain Distributor" (MOC:33) &497
+- Added "Invasion of Ikoria // Zilortha, Apex of Ikoria" (MOM:190) &498
+- Added "Captain Lannery Storm" (MUL:20) &499
+- Added "Bloodfeather Phoenix" (MOM:362) &500
+- Added "Inga and Esika" (MOM:310) [foil] &501
+- Added "Invasion of Tarkir // Defiant Thundermaw" (MOM:149) &502
+- Added "Sword of Once and Future" (MOM:265) &503
+- Added "Hidetsugu and Kairi" (PMOM:228p) [foil] &504
+- Added "Yorion, Sky Nomad" (MUL:64) &505
+
+## 2026-07-24T21:41:43.081Z
+
+- Added "Brilliant Restoration" (NEO:7) &506
+- Added "Jor Kadeen, First Goldwarden" (ONE:203) &507
+- Added "Tyvar's Stand" (ONE:190) &508
+- Added "Tyvar's Stand" (ONE:190) &509
+- Added "Tyvar's Stand" (ONE:190) [foil] &510
+- Added "Green Sun's Twilight" (ONE:284) [foil] &511
+- Added "Mite Overseer" (ONE:404) &512
+- Added "Kemba, Kha Enduring" (ONE:19) &513
+- Added "Norn's Wellspring" (ONE:24) &514
+- Added "Razorverge Thicket" (ONE:373) &515
+- Added "Flooded Grove" (NCC:402) &516
+- Added "March of Burgeoning Life" (NEO:201) &517
+- Added "March of Reckless Joy" (NEO:469) &518
+- Added "Inventive Iteration // Living Breakthrough" (NEO:57) &519
+- Added "March of Swirling Mist" (NEO:61) &520
+- Added "March of Swirling Mist" (NEO:372) &521
+- Added "Mindlink Mech" (NEO:62) &522
+- Added "Myojin of Cryptic Dreams" (NEC:33) &523
+- Added "Invoke Despair" (NEO:379) [foil] &524
+- Added "Scrap Welder" (NEO:159) [foil] &525
+- Added "Kosei, Penitent Warlord" (NEC:67) &526
+- Added "Invoke Calamity" (NEO:467) &527
+- Added "Hinata, Dawn-Crowned" (NEO:398) &528
+- Added "The Eternal Wanderer" (ONE:11) &529
+- Added "Mite Overseer" (ONE:404) &530
+- Added "Ezuri, Stalker of Spheres" (ONE:201) &531
+- Added "Migloz, Maze Crusher" (ONE:210) &532
+- Added "Kethek, Crucible Goliath" (ONE:319) &533
+- Added "The Seedcore" (ONE:259) &534
+- Added "The Monumental Facade" (ONE:255) &535
+- Added "See Double" (MOM:77) &536
+- Added "Archpriest of Shadows" (MOM:89) &537
+- Added "Invasion of Fiora // Marchesa, Resolute Monarch" (MOM:114) &538
+- Added "Hidetsugu and Kairi" (MOM:228) &539
+- Added "Ghalta and Mavren" (MOM:386) [foil] &540
+- Added "Baral and Kari Zev" (MOM:302) &541
+- Added "Rankle and Torbran" (MOM:252) &542
+- Added "Invasion of Alara // Awaken the Maelstrom" (MOM:230) &543
+- Added "The Royal Scions" (PLST:ELD-199) &544
+- Added "Hurkyl's Recall" (PLST:MM2-48) &545
+- Added "Deification" (MAT:2) &546
+- Added "Tazri, Stalwart Survivor" (MAT:6) &547
+- Added "Spark Rupture" (MAT:229) [foil] &548
+- Added "Vesuvan Drifter" (MAT:60) [foil] &549
+- Added "Vesuvan Drifter" (MAT:10) &550
+- Added "Jirina, Dauntless General" (MAT:32) &551
+- Added "Niv-Mizzet, Supreme" (MAT:40) &552
+- Added "Nahiri's Resolve" (MAT:87) &553
+- Added "Calix, Guided by Fate" (MAT:26) [foil] &554
+- Added "Narset, Enlightened Exile" (MAT:88) &555
+- Added "Ob Nixilis, Captive Kingpin" (MAT:41) &556
+- Added "Jolrael, Voice of Zhalfir" (MAT:33) &557
+- Added "Thalia, Guardian of Thraben" (MUL:7) &558
+- Added "Ruby, Daring Tracker" (WOE:212) &559
+- Added "Ruby, Daring Tracker" (WOE:212) &560
+- Added "Compulsion" (WOT:15) &561
+- Added "Hatching Plans" (WOT:20) &562
+- Added "Lich-Knights' Conquest" (WOE:96) &563
+- Added "Leyline of Abundance" (WOT:56) &564
+- Added "Knightly Valor" (WOT:8) &565
+- Added "Vampiric Rites" (WOT:37) [foil] &566
+- Added "Cruel Somnophage // Can't Wake Up" (WOE:286) &567
+- Added "Lady of Laughter" (WOE:370) &568
+- Added "Realm-Scorcher Hellkite" (WOE:145) [foil] &569
+- Added "Kellan, the Fae-Blooded // Birthright Boon" (WOE:291) [foil] &570
+- Added "Restless Bivouac" (WOE:257) [foil] &571
+
+## 2026-07-24T21:49:56.272Z
+
+- Added "Ruby, Daring Tracker" (WOE:212) &572
+- Added "Likeness Looter" (WOE:208) &573
+- Added "Bramble Familiar // Fetch Quest" (WOE:164) &574
+- Added "Scalding Viper // Steam Clean" (WOE:235) &575
+- Added "Song of Totentanz" (WOE:150) &576
+- Added "Tangled Colony" (WOE:113) &577
+- Added "Rankle's Prank" (WOE:341) &578
+- Added "Cruel Somnophage // Can't Wake Up" (WOE:222) &579
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:224) &580
+- Added "Farsight Ritual" (WOE:49) &581
+- Added "Expel the Interlopers" (WOE:13) &582
+- Added "Griffin Aerie" (WOT:5) &583
+- Added "Knightly Valor" (WOT:8) &584
+- Added "Compulsion" (WOT:15) [foil] &585
+- Added "Curiosity" (WOT:17) [foil] &586
+
+## 2026-07-24T22:01:52.775Z
+
+- Added "Dark Tutelage" (WOT:28) &587
+- Added "Dark Tutelage" (WOT:28) &588
+- Added "Dark Tutelage" (WOT:28) &589
+- Added "Burn Down the House" (MID:131) &590
+- Added "Ludevic, Necrogenius // Olag, Ludevic's Hubris" (MID:320) &591
+- Added "The Celestus" (MID:377) &592
+- Added "Graveyard Trespasser // Graveyard Glutton" (MID:290) [foil] &593
+- Added "Ludevic, Necrogenius // Olag, Ludevic's Hubris" (MID:233) &594
+- Added "Dennick, Pious Apprentice // Dennick, Pious Apparition" (MID:317) &595
+- Added "Rite of Harmony" (MID:236) &596
+- Added "Triskaidekaphile" (MID:81) [foil] &597
+- Added "Gisa, Glorious Resurrector" (MID:103) &598
+- Added "Poppet Stitcher // Poppet Factory" (MID:71) [foil] &599
+- Added "The Celestus" (MID:252) &600
+- Added "Curse of Leeches // Leeching Lurker" (MID:94) &601
+- Added "Sungold Sentinel" (MID:37) &602
+- Added "Pithing Needle" (MID:257) &603
+- Added "Celestial Judgment" (MIC:43) &604
+- Added "Dennick, Pious Apprentice // Dennick, Pious Apparition" (MID:317) &605
+- Added "Malevolent Hermit // Benevolent Geist" (MID:336) &606
+- Added "Rockfall Vale" (MID:266) &607
+- Added "Sludge Monster" (MID:76) &608
+- Added "Dire-Strain Rampage" (MID:219) &609
+- Added "Poppet Stitcher // Poppet Factory" (MID:71) &610
+- Added "Malevolent Hermit // Benevolent Geist" (MID:61) &611
+- Added "The Celestus" (MID:252) [foil] &612
+- Added "Rem Karolus, Stalwart Slayer" (MID:235) &613
+- Added "Geistflame Reservoir" (MID:142) &614
+- Added "Curse of Shaken Faith" (MID:134) &615
+- Added "Katilda, Dawnhart Martyr // Katilda's Rising Dawn" (VOW:21) &616
+- Added "Dollhouse of Horrors" (VOW:255) &617
+- Added "Hiveheart Shaman" (VOW:202) &618
+- Added "Old Rutstein" (VOW:244) &619
+- Added "Jacob Hauken, Inspector // Hauken's Insight" (VOW:320) &620
+- Added "Alchemist's Gambit" (VOW:140) &621
+- Added "Olivia's Attendants" (VOW:307) &622
+- Added "Kessig Wolfrider" (VOW:379) &623
+- Added "Imperious Mindbreaker" (VOC:71) &624
+- Added "Dig Up" (VOW:197) [foil] &625
+- Added "Voldaren Bloodcaster // Bloodbat Summoner" (VOW:338) &626
+- Added "Savior of Ollenbock" (VOW:34) &627
+- Added "Cemetery Gatekeeper" (VOW:148) [foil] &628
