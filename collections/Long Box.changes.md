@@ -654,3 +654,306 @@
 - Added "Voldaren Bloodcaster // Bloodbat Summoner" (VOW:338) &626
 - Added "Savior of Ollenbock" (VOW:34) &627
 - Added "Cemetery Gatekeeper" (VOW:148) [foil] &628
+
+## 2026-07-26T19:58:29.235Z
+
+- Added "Hopeful Initiate" (VOW:350) &629
+- Added "Torens, Fist of the Angels" (VOW:249) &630
+- Added "Patchwork Crawler" (VOW:72) &631
+- Added "Cemetery Protector" (VOW:6) [foil] &632
+- Added "Thalia, Guardian of Thraben" (VOW:318) &633
+- Added "Dying to Serve" (VOW:109) &634
+- Added "Jacob Hauken, Inspector // Hauken's Insight" (VOW:332) &635
+- Added "Umbris, Fear Manifest" (VOC:76) &636
+- Added "Dreadfeast Demon" (VOW:369) [foil] &637
+- Added "Inspired Idea" (VOW:64) &638
+- Added "Olivia, Crimson Bride" (VOW:315) &639
+- Added "Dreadfeast Demon" (VOW:108) &640
+- Added "Ill-Tempered Loner // Howlpack Avenger" (VOW:162) &641
+- Added "Faithbound Judge // Sinner's Judgment" (VOW:12) &642
+- Added "Thalia, Guardian of Thraben" (VOW:38) &643
+- Added "Investigator's Journal" (VOW:258) &644
+- Added "Welcoming Vampire" (VOW:46) &645
+- Added "Kitesail Larcenist" (LCI:61) [foil] &646
+- Added "Abuelo's Awakening" (LCI:353) &647
+- Added "Bygone Marvels" (LCC:57) &648
+- Added "Sanguine Evangelist" (LCI:356) [foil] &649
+- Added "Windbrisk Heights" (LCC:370) &650
+- Added "Breeches, Eager Pillager" (LCI:137) [foil] &651
+- Added "Fabrication Foundry" (LCI:354) [foil] &652
+- Added "Kitesail Larcenist" (LCI:61) [foil] &653
+- Added "Terror Tide" (LCI:372) &654
+- Added "Amalia Benavides Aguirre" (LCI:299) &655
+- Added "Queen's Bay Paladin" (LCI:368) &656
+- Added "Hakbal of the Surging Soul" (LCC:19) [foil] &657
+- Added "Queen's Bay Paladin" (PLCI:115p) &658
+- Added "Owen Grady, Raptor Trainer" (REX:16) &659
+- Added "Molten Collapse" (LCI:342) [foil] &660
+- Added "Threefold Thunderhulk" (LCI:390) &661
+- Added "Molten Collapse" (LCI:234) &662
+- Added "Restless Reef" (LCI:282) &663
+- Added "Swiftfoot Boots" (LCC:314) &664
+- Added "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift" (LCI:135) [foil] &665
+- Added "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift" (LCI:373) &666
+- Added "Corpses of the Lost" (PLCI:98p) &667
+- Added "Thousand Moons Smithy // Barracks of the Thousand" (LCI:39) &668
+- Added "Wail of the Forgotten" (LCI:343) [foil] &669
+- Added "Rakdos Signet" (LCC:311) &670
+- Added "Palani's Hatcher" (LCI:332) &671
+- Added "Curious Altisaur" (LCC:58) &672
+- Added "Amalia Benavides Aguirre" (LCI:299) [foil] &673
+- Added "Abuelo's Awakening" (LCI:353) &674
+- Added "Seafloor Oracle" (LCC:170) &675
+- Added "Thousand Moons Smithy // Barracks of the Thousand" (LCI:39) &676
+- Added "Vineglimmer Snarl" (LCC:368) &677
+- Added "Windbrisk Heights" (LCC:370) &678
+- Added "Spelunking" (LCI:213) [foil] &679
+- Added "Singer of Swift Rivers" (LCC:66) &680
+- Added "Deepfathom Echo" (LCI:228) [foil] &681
+- Added "Bringer of the Last Gift" (LCI:94) [foil] &682
+- Added "Treasure Map // Treasure Cove" (LCI:391) &683
+- Added "Commit // Memory" (LCC:147) &684
+- Added "Huatli, Poet of Unity // Roar of the Fifth People" (LCI:339) [foil] &685
+- Added "Hunting Velociraptor" (REX:4) &686
+- Added "Admiral Brass, Unsinkable" (LCC:25) &687
+- Added "Breeches, Eager Pillager" (LCI:137) [foil] &688
+- Added "Kutzil, Malamet Exemplar" (LCI:232) &689
+- Added "Surgespanner" (LCC:174) &690
+- Added "Kellan, Daring Traveler // Journey On" (LCI:231) &691
+- Added "Coralhelm Commander" (LCC:148) &692
+- Added "Saheeli, the Sun's Brilliance" (LCI:308) &693
+- Added "Lich-Knights' Conquest" (WOE:338) [foil] &694
+- Added "Ashiok, Wicked Manipulator" (WOE:78) &695
+- Added "Twining Twins // Swift Spiral" (WOE:296) &696
+- Added "Reconnaissance Mission" (WOC:105) &697
+- Added "Lich-Knights' Conquest" (WOE:380) [foil] &698
+- Added "Questing Druid // Seek the Beast" (WOE:234) &699
+- Added "Run Away Together" (WOC:108) &700
+- Added "Thunderous Debut" (WOE:359) &701
+- Added "Spreading Seas" (WOT:26) [foil] &702
+- Added "Scalding Viper // Steam Clean" (WOE:295) [foil] &703
+- Added "Sleep-Cursed Faerie" (WOE:334) &704
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:288) [foil] &705
+- Added "The End" (WOE:337) &706
+- Added "Devouring Sugarmaw // Have for Dinner" (WOE:224) [foil] &707
+- Added "Stab Wound" (WOT:36) [foil] &708
+- Added "Garruk's Uprising" (WOT:53) &709
+- Added "Shared Animosity" (WOT:49) &710
+- Added "The Irencrag" (WOE:368) &711
+- Added "Tangled Colony" (WOE:113) [foil] &712
+- Added "Elusive Otter // Grove's Bounty" (WOE:289) &713
+- Added "Utopia Sprawl" (WOT:63) [foil] &714
+- Added "Intangible Virtue" (WOT:6) &715
+- Added "Mosswood Dreadknight // Dread Whispers" (WOE:231) &716
+- Added "Yenna, Redtooth Regent" (WOE:219) &717
+- Added "Ground Seal" (WOT:54) &718
+- Added "Questing Druid // Seek the Beast" (WOE:294) [foil] &719
+- Added "Questing Druid // Seek the Beast" (WOE:234) &720
+- Added "Charming Scoundrel" (WOE:345) [foil] &721
+- Added "Gruff Triplets" (WOE:172) &722
+- Added "Ingenious Prodigy" (WOE:56) [foil] &723
+- Added "Forced Fruition" (WOT:18) &724
+- Added "Bramble Familiar // Fetch Quest" (WOE:283) &725
+- Added "Rotisserie Elemental" (WOE:352) &726
+- Added "Dark Tutelage" (WOT:28) &727
+- Added "Ground Seal" (WOT:54) [foil] &728
+- Added "Likeness Looter" (WOE:208) &729
+- Added "Nymris, Oona's Trickster" (WOC:141) &730
+- Added "Gruff Triplets" (WOE:172) [foil] &731
+- Added "Gumdrop Poisoner // Tempt with Treats" (WOE:280) &732
+- Added "Syr Ginger, the Meal Ender" (WOE:369) &733
+- Added "Spiteful Hexmage" (WOE:108) &734
+- Added "Dragon Mantle" (WOT:41) &735
+- Added "Captain Sisay" (MB2:250) [foil] &736
+- Added "Graveshifter" (PLST:MOC-251) &737
+- Added "Mogg Infestation" (PLST:TPR-146) &738
+- Added "Comet, Stellar Pup" (MB2:79) &739
+- Added "Stab Wound" (WOT:36) &740
+- Added "Kindred Discovery" (CLB:565) &741
+- Added "Feral Encounter" (WOE:169) &742
+- Added "Mind Stone" (WOC:148) &743
+- Added "Archmage of Echoes" (WOC:9) &744
+- Added "Stab Wound" (WOT:36) &745
+- Added "Elsha of the Infinite" (PLST:2X2-208) &746
+- Added "Collector Ouphe" (MB2:66) &747
+- Added "Torpor Orb" (MB2:236) &748
+- Added "Destiny Spinner" (PLST:THB-168) &749
+- Added "Tainted Wood" (PLST:TOR-143) &750
+- Added "Sorin, Solemn Visitor" (PLST:KTK-202) &751
+- Added "Temporary Truce" (MB2:22) &752
+- Added "Dakmor Sorceress" (MB2:127) &753
+- Added "Golgari Grave-Troll" (PLST:UMA-167) &754
+- Added "Pitiless Plunderer" (MB2:46) &755
+- Added "Sol Ring" (MB2:233) &756
+- Added "Serum Visions" (PLST:C21-129) &757
+- Added "Timeless Dragon" (MH2:35) &758
+- Added "Jace Beleren" (MB2:29) &759
+- Added "Echo of Eons" (MB2:160) &760
+- Added "Pandemonium" (PLST:TPR-149) &761
+- Added "Prismatic Ending" (MB2:16) &762
+- Added "Echo of Eons" (MB2:160) &763
+- Added "Murderous Rider // Swift End" (PLST:ELD-97) &764
+- Added "Consider" (MB2:25) &765
+- Added "Aether Vial" (MB2:216) &766
+- Added "Thantis, the Warweaver" (PLST:C18-46) &767
+- Added "Iona, Shield of Emeria" (MB2:12) &768
+- Added "Tower of the Magistrate" (MB2:242) &769
+- Added "Ghired, Conclave Exile" (PLST:C19-42) &770
+- Added "Rite of Flame" (MB2:59) &771
+- Added "Collected Company" (MB2:203) &772
+- Added "Generous Gift" (PLST:MH1-11) &773
+- Added "Phyrexian Scriptures" (PLST:DOM-100) &774
+- Added "Throes of Chaos" (MB2:62) &775
+- Added "Back to Basics" (MB2:154) &776
+- Added "Coastal Piracy" (PLST:MMQ-68) &777
+- Added "Ranger of Eos" (PLST:MM3-19) &778
+- Added "Thopter Foundry" (MB2:92) &779
+- Added "Aether Vial" (MB2:216) &780
+- Added "Momir Vig, Simic Visionary" (PLST:GK2-119) &781
+- Added "Ethersworn Canonist" (MB2:10) &782
+- Added "Control of the Court" (MB2:189) &783
+- Added "Teferi, Mage of Zhalfir" (PLST:IMA-75) &784
+- Added "Once Upon a Time" (MB2:71) &785
+- Added "Hydroblast" (MB2:165) &786
+- Added "Thorn Mammoth" (PLST:ELD-323) &787
+- Added "Summoner's Pact" (MB2:74) &788
+- Added "Goblin Recruiter" (MB2:193) &789
+- Added "Ajani, the Greathearted" (PLST:WAR-184) &790
+- Added "Deathrite Shaman" (MB2:81) &791
+- Added "Mirri's Guile" (MB2:209) &792
+- Added "Tireless Provisioner" (PLST:MH2-180) &793
+- Added "Goblin Goliath" (PLST:GNT-4) &794
+- Added "Veteran Explorer" (MB2:76) &795
+- Added "Erratic Portal" (MB2:220) &796
+- Added "Price of Glory" (PLST:ODY-214) &797
+- Added "Ghost Town" (PLST:TMP-318) &798
+- Added "Goblin Chainwhirler" (PLST:DOM-129) &799
+- Added "Veil of Summer" (MB2:75) &800
+- Added "Eater of the Dead" (MB2:183) &801
+- Added "Leovold, Emissary of Trest" (PLST:CN2-77) &802
+- Added "Mardu Outrider" (MB2:1) &803
+- Added "Torpor Orb" (MB2:236) &804
+- Added "Devoted Druid" (PLST:SHM-110) &805
+- Added "Ornithopter of Paradise" (PLST:MH2-232) &806
+- Added "Clever Impersonator" (PLST:KTK-34) &807
+- Added "Snow-Covered Island" (MB2:117) &808
+- Added "Krark-Clan Ironworks" (MB2:224) &809
+- Added "Brightling" (PLST:BBD-25) &810
+- Added "Preordain" (MB2:35) &811
+- Added "Spike Weaver" (MB2:214) &812
+- Added "Trostani, Selesnya's Voice" (PLST:GK1-102) &813
+- Added "Thought Vessel" (MB2:100) &814
+- Added "Chain of Vapor" (MB2:156) &815
+- Added "Nullhide Ferox" (PLST:GRN-138) &816
+- Added "Ponder" (MB2:34) &817
+- Added "Aether Vial" (MB2:216) [foil] &818
+- Added "Prosper, Tome-Bound" (PLST:AFC-2) &819
+- Added "Deafening Silence" (MB2:9) &820
+- Added "Mirri's Guile" (MB2:209) &821
+- Added "Blatant Thievery" (PLST:E02-8) &822
+- Added "Serra the Benevolent" (MB2:17) &823
+- Added "Goblin Recruiter" (MB2:193) &824
+- Added "Berserkers' Onslaught" (PLST:DTK-130) &825
+- Added "Minsc & Boo, Timeless Heroes" (MB2:88) &826
+- Added "Power Matrix" (MB2:229) &827
+- Added "Sign in Blood" (PLST:M10-112) &828
+- Added "Winds of Change" (MB2:201) &829
+- Added "Arcanis the Omnipotent" (PLST:DDN-42) &830
+- Added "Leyline of Sanctity" (MB2:14) &831
+- Added "Manakin" (J22:785) &832
+- Added "Urza's Mine" (J22:829) &833
+- Added "Urza's Tower" (J22:831) &834
+- Added "Urza's Tower" (J22:831) &835
+- Added "Karn Liberated" (J22:97) &836
+- Added "Walking Ballista" (J22:806) &837
+- Added "Plague Engineer" (PLST:MH1-100) &838
+- Added "Spike Weaver" (MB2:214) &839
+- Added "Lightning Greaves" (MB2:225) &840
+- Added "Dauthi Voidwalker" (PLST:MH2-81) &841
+- Added "Izzet Boilerworks" (PLST:GK1-47) &842
+- Added "Yosei, the Morning Star" (PLST:IMA-39) &843
+- Added "Simian Spirit Guide" (MB2:61) &844
+- Added "Relentless Assault" (MB2:132) &845
+- Added "Crystal Vein" (PLST:MIR-325) &846
+- Added "Overgrowth" (PLST:9ED-262) &847
+- Added "Wizard Class" (PLST:AFR-81) &848
+- Added "Witch of the Moors" (PLST:JMP-18) &849
+- Added "Spawning Pit" (J22:136) &850
+- Added "Reaper from the Abyss" (J22:458) &851
+- Added "Wastes" (J22:834) &852
+- Added "World Breaker" (J22:93) &853
+- Added "Endbringer" (J22:748) &854
+- Added "Faerie Formation" (J22:294) &855
+- Added "Spectral Sailor" (J22:64) &856
+- Added "Reassembling Skeleton" (J22:125) &857
+- Added "Priest of the Blood Rite" (J22:457) &858
+- Added "Skirsdag High Priest" (J22:467) &859
+- Added "Alandra, Sky Dreamer" (J22:9) &860
+- Added "Spectral Sailor" (J22:64) &861
+- Added "Mizzix, Replica Rider" (J22:35) &862
+- Added "Cultivate" (J22:644) &863
+- Added "Ram Through" (J22:91) &864
+- Added "Kibo, Uktabi Prince" (J22:40) &865
+- Added "Monkey Cage" (J22:787) &866
+- Added "Seat of the Synod" (J22:820) &867
+- Added "Ophiomancer" (J22:452) &868
+- Added "Multiple Choice" (J22:325) &869
+- Added "Rhystic Study" (J22:114) &870
+- Added "Basri's Lieutenant" (J25:171) &871
+- Added "Adeline, Resplendent Cathar" (J25:57) &872
+- Added "Venerated Loxodon" (J25:278) &873
+- Added "Reaper from the Abyss" (J25:480) &874
+- Added "Oran-Rief Ooze" (J25:693) &875
+- Added "Seat of the Synod" (J25:773) &876
+- Added "Thoughtcast" (J25:374) &877
+- Added "Ornithopter of Paradise" (J25:153) &878
+- Added "Padeem, Consul of Innovation" (J25:62) &879
+- Added "Thought Monitor" (J25:373) &880
+- Added "Plagon, Lord of the Beach" (J25:37) &881
+- Added "Anje's Ravager" (J25:517) &882
+- Added "Fumulus, the Infestation" (J25:42) &883
+- Added "Endless Cockroaches" (J25:433) &884
+- Added "Speaker of the Heavens" (J25:102) &885
+- Added "Neerdiv, Devious Diver" (J25:36) &886
+- Added "Frontline Heroism" (J25:15) &887
+- Added "Mirrorwing Dragon" (J25:579) &888
+- Added "Nadir Kraken" (J25:332) &889
+- Added "Vito, Thorn of the Dusk Rose" (J25:71) &890
+- Added "Isareth the Awakener" (J25:68) &891
+- Added "Liliana, Death's Majesty" (J25:458) &892
+- Added "Rampant Growth" (J25:704) &893
+- Added "Ghalta, Primal Hunger" (J25:77) &894
+- Added "Sangromancer" (J25:122) &895
+- Added "Valkyrie Harbinger" (J25:275) &896
+- Added "Dropkick Bomber" (J25:13) &897
+- Added "Goblin Goliath" (J25:557) &898
+- Added "General Kreat, the Boltbringer" (J25:48) &899
+- Added "Speaker of the Heavens" (J25:102) &900
+- Added "Rionya, Fire Dancer" (J25:75) &901
+- Added "Harvester of Souls" (J25:453) &902
+- Added "Oran-Rief Ooze" (J25:693) &903
+- Added "Plagon, Lord of the Beach" (J25:37) &904
+- Added "Rodolf Duskbringer" (J25:482) &905
+- Added "Seat of the Synod" (J22:820) &906
+- Added "Steel Overseer" (J22:798) &907
+- Added "Thopter Spy Network" (J22:361) &908
+- Added "Lys Alana Huntmaster" (J22:686) &909
+- Added "Wolverine Riders" (J22:743) &910
+- Added "Hour of Reckoning" (J22:194) &911
+- Added "Demon of Catastrophes" (J22:397) &912
+- Added "Seizan, Perverter of Truth" (J22:463) &913
+- Added "Phyrexian Reclamation" (J22:124) &914
+- Added "Phyrexian Plaguelord" (J22:123) &915
+- Added "Goldnight Commander" (J22:192) &916
+- Added "Blessed Sanctuary" (J22:157) &917
+- Added "Agrus Kos, Eternal Soldier" (J22:1) &918
+- Added "Taranika, Akroan Veteran" (J22:253) &919
+- Added "Kothophed, Soul Hoarder" (J22:431) &920
+- Added "Dragonspeaker Shaman" (J22:525) &921
+- Added "Lathliss, Dragon Queen" (J22:566) &922
+- Added "Dragon's Hoard" (J22:763) &923
+- Added "Urza's Factory" (J22:828) &924
+- Added "Urza's Tower" (J22:831) &925
+- Added "Urza's Power Plant" (J22:830) &926
+- Added "Urza's Power Plant" (J22:830) &927
+- Added "Urza's Mine" (J22:829) &928
