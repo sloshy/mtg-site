@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta21
-ritual-content-hash: 4e1b8ef17d5ea6a8c0ed09a8554215f6a94eaff73899e1ce2cf5ec8545b32d98
+ritual-version: 0.1.0-beta23
+ritual-content-hash: 7ec1023b9eca858ff5875f7d8d4d6fdd382c61a8d623bc7171c5d6ff23e64a6d
 ---
 
 # Building and serving a Ritual site
@@ -126,10 +126,32 @@ ritual serve                       # serve an already-built dist/ on :3000
 ritual serve -p 8000
 ritual serve --build               # build, then serve
 ritual serve --build -p 8000 --host 127.0.0.1
+ritual serve --build --api         # host the site with a live read-only backend
 ```
 
-Build flags (`--refresh`, `--theme`, ...) only apply together with `--build`;
-passing one without it is a usage error.
+Build flags (`--theme`, `--currencies`, ...) only apply together with `--build`;
+passing one without it is a usage error. `--refresh` is the exception: with
+`--api` it also controls the startup cache warming, so it is valid on its own.
+
+### Hosted mode (`--api`)
+
+`serve --api` adds an unauthenticated, read-only API on the same port: list
+JSON is computed from the markdown files per request (CLI/admin edits appear
+without rebuilding), and the public editor's card search uses the card cache
+with the admin editor's term matching instead of Scryfall. The trade page
+follows suit: its search covers the wanted lists and the cache together (no
+Scryfall toggle), and shared trade links resolve their cards from the cache.
+There are no write routes — public edits still travel as export/import change
+bundles.
+
+For a split deployment (static site on a CDN, API hosted separately), set
+`site.apiBaseUrl` to the API's URL before building; the site falls back to its
+baked data when the API is unreachable:
+
+```bash
+ritual config set site.apiBaseUrl "https://ritual-api.example.com"
+ritual build-site
+```
 
 ## Web admin
 
@@ -151,6 +173,16 @@ The admin's **Import Changes** page applies a change-list JSON exported from the
 public site's edit mode (a bundle covering one or more lists) with a per-list
 preview before applying — the same operation as `ritual import-changes` (see the
 **ritual-edit** skill) and the MCP `import_changes` tool.
+
+The admin's **Sync Decks** page runs `deck-sync` in the browser: pick a
+direction, narrow the run to additions or removals only (the `--only` flag's
+three-way control), toggle which Archidekt-linked decks to sync (all by default),
+and watch per-deck progress stream in as it runs. Each deck shows when it last
+synced, and the page signs in to Archidekt inline when the stored token has
+expired. A deck whose file holds lines the parser cannot read is refused (a sync
+would delete them) and shown with a "Sync anyway" confirmation. Same operation as
+`ritual deck-sync` (see the **ritual-decks** skill) and the MCP
+`deck_sync_status` / `sync_decks` tools.
 
 It can also expose an MCP endpoint in the same process, on its own port
 (`--mcp-port`, default 8765):

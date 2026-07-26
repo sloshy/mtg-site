@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta21
-ritual-content-hash: b57e80f97a24ac67f815dd3f1f22e92b1e90028e8c22962184fb65b2588c5b85
+ritual-version: 0.1.0-beta23
+ritual-content-hash: 1724cab06bf49dd6398801dcdcbd1937569b19380a0ec347f7037ae840708247
 ---
 
 # Editing cards in any Ritual list
@@ -21,10 +21,12 @@ Conventions shared by every one-shot command:
   (or prefix the name: `deck:burn`, `collection:Main Binder`, `wanted:To Buy`).
   An ambiguous name is an error.
 - The card is matched by name (case-, accent-, and punctuation-insensitive).
-  `add-card` matches the name against Scryfall's cards; the other commands
-  (`remove-card`, `set-card`, `note`, `move`) match the list's existing entries
-  and, when several match, disambiguate with `--card-id <N>` (the `&N` suffix in
-  the file — `add-card` has no `--card-id`).
+  `add-card` matches the name against Scryfall's cards — splitting what you pass on
+  whitespace and requiring **every term** to appear in the name, in any order, so
+  `"in tre"` finds "In the Trenches" — while the other commands (`remove-card`,
+  `set-card`, `note`, `move`) match the list's existing entries by exact name first,
+  then substring, and when several match disambiguate with `--card-id <N>` (the
+  `&N` suffix in the file — `add-card` has no `--card-id`).
 - `--output json` (or `ndjson`) emits a machine-readable result; `--quiet`
   suppresses non-essential text.
 - Nothing blocks on a prompt in a script: when stdin is not a terminal, a missing

@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta21
-ritual-content-hash: e99ef9fd16a1bfb6445a3f77bb0a32e260cef1f63c90651187568b3eacba69a9
+ritual-version: 0.1.0-beta23
+ritual-content-hash: a2c79ea6a41d44071c8b3ff24adc86e2139d19c0e1831172d4247745eeee4c66
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -67,10 +67,17 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
 ```
 # My Collection
 - Black Lotus (LEA:232) [foil] [LP] {first edition} &7
-- Counterspell
+```
+
+```
+# Wants
+- Counterspell &3
 ```
 
 - `(SET:CollectorNumber)` pins a printing. Set codes are written **UPPERCASE** in files.
+- **Collection lines always carry a printing** — a printing-less collection line is
+  rejected by every write path and skipped (with a warning) on load. Deck and wanted
+  lines may be name-only, as `1 Sol Ring &5` and `- Counterspell &3` above.
 - `[foil]`/`[etched]` is the finish, `[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition (the default `NM` is not written), `{...}` a note.
 - `&N` is a **stable internal card ID**. Never hand-author or renumber these — the tools manage them.
   Any list-touching command backfills missing IDs on startup and persists them to the
@@ -127,6 +134,7 @@ ritual login status               # show the stored Archidekt login (exit 3 when
 ritual login logout               # remove the stored Archidekt session
 ritual config set <prop> <value>  # set a config value (dot notation for nested keys)
 ritual config set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
+ritual config set searchDebounceMs 250 # web editors' add-card search debounce in ms (0 disables)
 ritual config get <prop>          # read one value (exit 3 when unset)
 ritual config list                # print the full effective config (defaults marked)
 ritual config unset <prop>        # revert a value to its default

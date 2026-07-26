@@ -5,6 +5,7 @@
   "defaultCurrency": "usd",
   "cacheLockTimeoutSeconds": 300,
   "cacheSource": "scryfall",
+  "searchDebounceMs": 500,
   "admin": {
     "gitEnabled": false,
     "gitAutoCommit": false,
@@ -39,6 +40,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta21"
+    "version": "0.1.0-beta23"
   }
 }

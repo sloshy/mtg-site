@@ -1,7 +1,7 @@
 ---
 name: ritual-collections
 description: "Manage and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, or get the total value of a collection."
-ritual-version: 0.1.0-beta21
+ritual-version: 0.1.0-beta23
 ritual-content-hash: cf908aa2c0f8f30c432b8b9f50eacd719466801120ef2d43d7267f72e516621b
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, or price a deck."
-ritual-version: 0.1.0-beta21
-ritual-content-hash: da0e6153943e460a1f749d24212a0e278e73824c2703a654371d3e943bad82e2
+ritual-version: 0.1.0-beta23
+ritual-content-hash: 9bd374c71edeede7f3be611a7bb3e5cd26e1b3759ccdfe13bc8bc0a8fa73ae1b
 ---
 
 # Managing decks with Ritual
@@ -162,10 +162,31 @@ The first argument is the sync direction — `pull` (Archidekt → local) or `pu
 ritual deck-sync pull                        # pull remote changes for all linked decks
 ritual deck-sync push "Winota Stax"          # push local changes for one deck
 ritual deck-sync push --dry-run              # preview without sending anything
+ritual deck-sync pull --yes                  # accept dropping lines the parser can't read
+ritual deck-sync pull --only additions       # add cards locally, never remove any
+ritual deck-sync push --only removals        # push removals only, add nothing remotely
 ```
+
+`--only additions` / `--only removals` narrows a run to one side of the diff.
+The vocabulary is relative to the **sync destination** — the local files on a
+pull, Archidekt on a push — so additions are new cards and quantity increases
+*there*, removals are deleted cards and quantity decreases. The other side is
+still reported ("Skipped 3 removals (--only additions).") and simply not applied.
+Use it when the remote and local lists are deliberately out of step and only one
+direction of change should carry over. It filters cards only: a pull still adopts
+the remote format.
+
+Syncing rewrites the deck file, so a line the parser cannot read would be deleted.
+Such decks are listed with their exact lines and confirmed before syncing;
+`--yes` answers up front, and without a terminal (`--no-input`, a pipe, or
+`--output json`) those decks fail instead.
 
 A pull also adopts the deck's Archidekt format (mapped onto Ritual's format
 keys). A push does not push the local format back.
+
+The same sync runs from the admin site's **Sync Decks** page (deck toggles,
+direction, change filter, live per-deck progress, and each deck's last-synced
+time) and from the MCP `sync_decks` tool (same `only` field).
 
 ## Primer
 
