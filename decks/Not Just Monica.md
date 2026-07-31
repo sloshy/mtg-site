@@ -5,7 +5,7 @@ sourceId: '23872221'
 sourceUrl: 'https://archidekt.com/decks/23872221'
 created: '2026-07-03T23:02:15.092Z'
 tags: []
-lastSynced: '2026-07-25T00:48:20.504Z'
+lastSynced: '2026-07-31T04:25:02.421Z'
 format: commander
 ---
 
@@ -27,7 +27,6 @@ format: commander
 1 Charismatic Conqueror &13
 1 Mog, Moogle Warrior &14
 1 Plaza of Heroes &15
-1 Wand of Wonder &16
 1 Dusk Legion Duelist &17
 1 Battle Hymn &18
 1 Comet, Stellar Pup &19
@@ -57,7 +56,6 @@ format: commander
 1 Esper Sentinel &45
 1 Sokenzan, Crucible of Defiance &46
 1 Erode &47
-1 Cori-Steel Cutter &48
 1 Galadriel's Dismissal &49
 1 Generous Gift &50
 1 Flashback &51
@@ -82,7 +80,6 @@ format: commander
 1 Reconnaissance &71
 1 Adeline, Resplendent Cathar &72
 1 Idol of Oblivion &73
-1 Ajani, Strength of the Pride &74
 1 Endless Foot Assault &75
 1 Tablet of Discovery &76
 1 Boros Signet &78
@@ -98,6 +95,9 @@ format: commander
 1 Myrel, Shield of Argive &77
 1 Anim Pakal, Thousandth Moon &67
 1 Royal Talon Fighter Jet &80
+1 Blasphemous Act &16
+1 Mana Geyser &48
+1 Embercleave &74
 
 ## Maybeboard
 1 Archaeomancer's Map &87
@@ -116,7 +116,6 @@ format: commander
 1 Frontline Rush &103
 1 Exalted Sunborn &104
 1 Unexpected Windfall &106
-1 Mana Geyser &107
 1 Practiced Offense &108
 1 Crashing Drawbridge &109
 1 Kinbinding &110
@@ -126,3 +125,6 @@ format: commander
 1 Odric, Lunarch Marshal &114
 1 Serra Ascendant &115
 1 Perch Protection &95
+1 Dawn's Truce &98
+1 Staff of the Storyteller &100
+1 Land Tax &105

@@ -5,7 +5,7 @@ sourceId: '5778121'
 sourceUrl: 'https://archidekt.com/decks/5778121'
 created: '2026-02-23T13:34:54.296Z'
 tags: []
-lastSynced: '2026-07-10T16:49:31.715Z'
+lastSynced: '2026-07-31T04:25:03.924Z'
 format: commander
 ---
 
@@ -30,7 +30,6 @@ format: commander
 1 Port Razer &16
 1 Deflecting Swat &17
 1 Sulfurous Springs &18
-1 Sokenzan, Crucible of Defiance &19
 1 Faithless Looting &20
 1 Star Athlete &21
 1 Thran Dynamo &22
@@ -45,7 +44,6 @@ format: commander
 1 Command Beacon &33
 1 Snuff Out &34
 1 Sol Ring &35
-1 Embercleave &36
 1 Dragonskull Summit &37
 1 Decadent Dragon // Expensive Taste &38
 1 Command Tower &39
@@ -94,7 +92,6 @@ format: commander
 1 Wheel of Misfortune &82
 1 Super State &83
 1 Seize the Spotlight &84
-1 Chorale of the Void &85
 1 Lightning Greaves &86
 1 Ozai, the Phoenix King &87
 1 Locke, Treasure Hunter &88
@@ -103,3 +100,6 @@ format: commander
 1 Nibelheim Aflame &23
 1 Cosmic Cube &31
 1 Typhoid Mary, Fractured &90
+1 Bloodstained Mire &19
+1 Olivia, Crimson Bride &36
+1 Cursed Mirror &85

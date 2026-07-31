@@ -5,7 +5,7 @@ sourceId: '13931301'
 sourceUrl: 'https://archidekt.com/decks/13931301'
 created: '2026-02-23T13:34:53.340Z'
 tags: []
-lastSynced: '2026-06-25T04:48:31.076Z'
+lastSynced: '2026-07-31T04:25:05.850Z'
 format: commander
 ---
 
@@ -43,7 +43,6 @@ format: commander
 1 Galadriel's Dismissal &29
 1 Chromatic Lantern &30
 1 Bloom Tender &31
-1 Summon: Knights of Round &32
 1 Farseek &33
 1 Summon: Magus Sisters &34
 1 Saw in Half &35
@@ -109,3 +108,4 @@ format: commander
 1 Dawnhand Dissident &96
 1 Rhys, the Evermore &97
 1 Squirming Emergence &95
+1 Trouble in Pairs &32

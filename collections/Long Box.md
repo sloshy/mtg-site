@@ -209,7 +209,6 @@
 - Sentinel of Lost Lore (WOE:184) &206
 - Thousand Moons Smithy // Barracks of the Thousand (LCI:39) &207
 - Planar Genesis (MH3:198) &208
-- Mana Geyser (PLST:5DN-75) &209
 - Fork (3ED:153) &210
 - Soul Warden (M10:34) &211
 - Brigid's Command (PECL:208p) [foil] &212
@@ -570,7 +569,6 @@
 - Cruel Somnophage // Can't Wake Up (WOE:286) &567
 - Lady of Laughter (WOE:370) &568
 - Realm-Scorcher Hellkite (WOE:145) [foil] &569
-- Kellan, the Fae-Blooded // Birthright Boon (WOE:291) [foil] &570
 - Restless Bivouac (WOE:257) [foil] &571
 - Ruby, Daring Tracker (WOE:212) &572
 - Likeness Looter (WOE:208) &573
@@ -639,7 +637,6 @@
 - Umbris, Fear Manifest (VOC:76) &636
 - Dreadfeast Demon (VOW:369) [foil] &637
 - Inspired Idea (VOW:64) &638
-- Olivia, Crimson Bride (VOW:315) &639
 - Dreadfeast Demon (VOW:108) &640
 - Ill-Tempered Loner // Howlpack Avenger (VOW:162) &641
 - Faithbound Judge // Sinner's Judgment (VOW:12) &642
@@ -812,7 +809,6 @@
 - Krark-Clan Ironworks (MB2:224) &809
 - Brightling (PLST:BBD-25) &810
 - Preordain (MB2:35) &811
-- Spike Weaver (MB2:214) &812
 - Trostani, Selesnya's Voice (PLST:GK1-102) &813
 - Thought Vessel (MB2:100) &814
 - Chain of Vapor (MB2:156) &815

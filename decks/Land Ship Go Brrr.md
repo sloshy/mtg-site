@@ -5,7 +5,7 @@ sourceId: '15105078'
 sourceUrl: 'https://archidekt.com/decks/15105078'
 created: '2026-02-23T13:34:55.780Z'
 tags: []
-lastSynced: '2026-07-10T16:49:34.386Z'
+lastSynced: '2026-07-31T04:25:07.822Z'
 format: commander
 ---
 
@@ -79,7 +79,7 @@ format: commander
 1 Tannuk, Memorial Ensign &67
 1 Icetill Explorer &68
 1 Sylvan Safekeeper &69
-7 Forest &70
+6 Forest &70
 1 Command Beacon &71
 1 Deadly Rollick &72
 3 Swamp &73
@@ -102,3 +102,4 @@ format: commander
 1 Urza's Saga &90
 1 Constant Mists &17
 1 Hellish Rebuke &60
+1 Ziatora's Proving Ground &91

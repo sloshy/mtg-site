@@ -27,3 +27,12 @@
 - Removed "Appa, Steadfast Guardian" &85
 - Removed "Herd Heirloom" &88
 - Removed "The Legend of Kuruk // Avatar Kuruk" &82
+
+## 2026-07-31T04:25:04.936Z
+
+- Added "Molecule Man" &35
+- Added "Noble Hierarch" &60
+- Added "Spike Weaver" &97
+- Removed "Trouble in Pairs" &35
+- Removed "Ephemerate" &60
+- Removed "Three Steps Ahead" &97

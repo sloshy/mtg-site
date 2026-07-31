@@ -6,7 +6,7 @@ sourceUrl: 'https://archidekt.com/decks/9337260'
 created: '2026-06-25T20:59:18.570Z'
 tags: []
 format: commander
-lastSynced: '2026-07-19T22:23:47.974Z'
+lastSynced: '2026-07-31T04:25:03.015Z'
 ---
 
 ## Commander
@@ -97,7 +97,6 @@ lastSynced: '2026-07-19T22:23:47.974Z'
 1 Avatar's Wrath &83
 1 Fated Clash &84
 1 Brilliant Wings &85
-1 Gilgamesh, Master-at-Arms &86
 1 Chaos Warp &87
 1 Blasphemous Act &88
 1 Adaptive Omnitool &89
@@ -108,6 +107,7 @@ lastSynced: '2026-07-19T22:23:47.974Z'
 1 Exotic Orchard &94
 1 Spirit Mantle &95
 1 Genji Glove &96
+1 Kellan, the Fae-Blooded // Birthright Boon &86
 
 ## Maybeboard
 1 Sunfall &97

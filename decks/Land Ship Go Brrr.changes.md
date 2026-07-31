@@ -20,3 +20,8 @@
 - Added "Hellish Rebuke" &60
 - Removed "Formless Genesis" &17
 - Removed "Juri, Master of the Revue" &60
+
+## 2026-07-31T04:25:07.837Z
+
+- Added "Ziatora's Proving Ground" &91
+- Removed "Forest" &70

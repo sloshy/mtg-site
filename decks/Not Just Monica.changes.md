@@ -25,3 +25,16 @@
 ## 2026-07-25T00:48:20.483Z
 
 - Added "Perch Protection" to Maybeboard &95
+
+## 2026-07-31T04:25:02.432Z
+
+- Added "Blasphemous Act" &16
+- Added "Mana Geyser" &48
+- Added "Embercleave" &74
+- Added "Dawn's Truce" to Maybeboard &98
+- Added "Staff of the Storyteller" to Maybeboard &100
+- Added "Land Tax" to Maybeboard &105
+- Removed "Wand of Wonder" &16
+- Removed "Cori-Steel Cutter" &48
+- Removed "Ajani, Strength of the Pride" &74
+- Removed "Mana Geyser" from Maybeboard &107

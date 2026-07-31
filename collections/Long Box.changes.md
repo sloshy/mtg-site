@@ -957,3 +957,10 @@
 - Added "Urza's Power Plant" (J22:830) &926
 - Added "Urza's Power Plant" (J22:830) &927
 - Added "Urza's Mine" (J22:829) &928
+
+## 2026-07-31T04:24:53.110Z
+
+- Removed "Olivia, Crimson Bride" (VOW:315) &639
+- Removed "Mana Geyser" (PLST:5DN-75) &209
+- Removed "Kellan, the Fae-Blooded // Birthright Boon" (WOE:291) [foil] &570
+- Removed "Spike Weaver" (MB2:214) &812

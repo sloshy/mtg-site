@@ -26,7 +26,7 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-07-19T22:23:49.441Z'
+lastSynced: '2026-07-31T04:25:04.922Z'
 format: commander
 ---
 
@@ -66,7 +66,6 @@ format: commander
 1 Charismatic Conqueror &32
 1 Decanter of Endless Water &33
 1 Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun &34
-1 Trouble in Pairs &35
 1 Emiel the Blessed &36
 1 Spellseeker &37
 1 Generous Gift &38
@@ -90,7 +89,6 @@ format: commander
 1 Rivendell &57
 1 Flooded Grove &58
 1 Spara's Headquarters &59
-1 Ephemerate &60
 1 Peregrine Drake &61
 1 Illustrious Wanderglyph &62
 1 Castle Garenbrig &63
@@ -123,7 +121,6 @@ format: commander
 1 Absolute Virtue &94
 1 Tishana's Tidebinder &95
 1 Sol Ring &96
-1 Three Steps Ahead &97
 1 Dawn's Truce &99
 1 Planetarium of Wan Shi Tong &100
 1 Deep Gnome Terramancer &90
@@ -133,3 +130,6 @@ format: commander
 1 Simic Signet &82
 1 On the Trail &85
 1 Farseek &88
+1 Molecule Man &35
+1 Noble Hierarch &60
+1 Spike Weaver &97
