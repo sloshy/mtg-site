@@ -471,3 +471,8 @@
 - Added "Electro, Assaulting Battery" (SPM:76) &319
 - Added "Bloom Tender" (PLST:EVE-66) &329
 - Added "Archmage Emeritus" (STX:37) &357
+
+## 2026-08-01T03:41:05.101Z
+
+- Removed "Peter Parker's Camera" (SPM:171) &55
+- Removed "Flash Photography" (FIC:463) [foil] &62

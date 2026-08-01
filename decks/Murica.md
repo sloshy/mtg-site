@@ -6,7 +6,7 @@ sourceUrl: 'https://archidekt.com/decks/9337260'
 created: '2026-06-25T20:59:18.570Z'
 tags: []
 format: commander
-lastSynced: '2026-07-31T04:25:03.015Z'
+lastSynced: '2026-08-01T03:41:29.166Z'
 ---
 
 ## Commander
@@ -110,45 +110,3 @@ lastSynced: '2026-07-31T04:25:03.015Z'
 1 Kellan, the Fae-Blooded // Birthright Boon &86
 
 ## Maybeboard
-1 Sunfall &97
-1 Explorer's Scope &98
-1 Wedding Ring &99
-1 Michiko Konda, Truth Seeker &100
-1 Reliquary Tower &101
-1 Rhystic Study &102
-1 Thought Vessel &103
-1 The One Ring &104
-1 Sword of Vengeance &105
-1 Nazgûl Battle-Mace &106
-1 Fighter Class &107
-1 Bureau Headmaster &108
-1 Cid, Freeflier Pilot &109
-1 Aetherize &110
-1 Ballad of the Black Flag &111
-1 The Mightstone and Weakstone &112
-1 Urza, Lord Protector &113
-1 Cloud, Midgar Mercenary &114
-1 Kazuul, Tyrant of the Cliffs &115
-1 Misleading Signpost &116
-1 Thran Dynamo &117
-1 Izzet Signet &118
-1 Emry, Lurker of the Loch &119
-1 Forging the Tyrite Sword &120
-1 Sword of the Animist &121
-1 Bilbo's Ring &122
-1 Padeem, Consul of Innovation &123
-1 The Reality Chip &124
-1 Promise of Loyalty &125
-1 Kykar, Wind's Fury &126
-1 Mystic Remora &127
-1 Armored Skyhunter &128
-1 All That Glitters &129
-1 Ragavan, Nimble Pilferer &130
-1 Fire Nation Turret &131
-1 Hermes, Overseer of Elpis &132
-1 Professional Face-Breaker &133
-1 Mjölnir, Hammer of Thor &134
-1 The Vision &135
-1 Open the Armory &136
-1 Arc Reactor &137
-1 Cloudsteel Kirin &138

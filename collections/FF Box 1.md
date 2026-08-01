@@ -71,7 +71,6 @@
 - Cursed Mirror (SLD:2308) &69
 - Mask of Memory (SLD:2309) &70
 - Thespian's Stage (SLD:2310) &71
-- Fellwar Stone (SLD:7062) [foil] &72
 - Phantasmal Image (SLD:2306) [foil] &73
 - Braid of Fire (SLD:2307) [foil] &74
 - Cursed Mirror (SLD:2308) [foil] &75

@@ -518,3 +518,7 @@
 ## 2026-07-20T01:30:13.630Z
 
 - Removed "Monica Rambeau // Photon, Living Light" (MSH:23) &297
+
+## 2026-08-01T03:41:05.097Z
+
+- Removed "Fellwar Stone" (SLD:7062) [foil] &72

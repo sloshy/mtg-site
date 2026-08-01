@@ -270,3 +270,7 @@
 
 - Added "Buster Sword" (FIN:255) &1
 - Added "Goblin Anarchomancer" (MH2:200) [foil] &20
+
+## 2026-08-01T03:41:05.105Z
+
+- Removed "Sol Ring" (SLD:2330) [foil] &312

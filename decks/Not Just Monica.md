@@ -5,7 +5,7 @@ sourceId: '23872221'
 sourceUrl: 'https://archidekt.com/decks/23872221'
 created: '2026-07-03T23:02:15.092Z'
 tags: []
-lastSynced: '2026-07-31T04:25:02.421Z'
+lastSynced: '2026-08-01T03:41:28.905Z'
 format: commander
 ---
 
@@ -74,7 +74,6 @@ format: commander
 1 Jacked Rabbit &64
 1 United Front &65
 1 Dollmaker's Shop // Porcelain Gallery &66
-1 Moogles' Valor &68
 1 Call the Coppercoats &69
 1 Swords to Plowshares &70
 1 Reconnaissance &71
@@ -98,6 +97,7 @@ format: commander
 1 Blasphemous Act &16
 1 Mana Geyser &48
 1 Embercleave &74
+1 Dawn's Truce &68
 
 ## Maybeboard
 1 Archaeomancer's Map &87
@@ -125,6 +125,5 @@ format: commander
 1 Odric, Lunarch Marshal &114
 1 Serra Ascendant &115
 1 Perch Protection &95
-1 Dawn's Truce &98
 1 Staff of the Storyteller &100
 1 Land Tax &105

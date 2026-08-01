@@ -38,3 +38,9 @@
 - Removed "Cori-Steel Cutter" &48
 - Removed "Ajani, Strength of the Pride" &74
 - Removed "Mana Geyser" from Maybeboard &107
+
+## 2026-08-01T03:41:28.912Z
+
+- Added "Dawn's Truce" &68
+- Removed "Moogles' Valor" &68
+- Removed "Dawn's Truce" from Maybeboard &98

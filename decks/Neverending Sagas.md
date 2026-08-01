@@ -5,7 +5,7 @@ sourceId: '13931301'
 sourceUrl: 'https://archidekt.com/decks/13931301'
 created: '2026-02-23T13:34:53.340Z'
 tags: []
-lastSynced: '2026-07-31T04:25:05.850Z'
+lastSynced: '2026-08-01T03:41:32.360Z'
 format: commander
 ---
 
@@ -19,13 +19,11 @@ format: commander
 1 Summon: Esper Valigarmanda &5
 1 Sythis, Harvest's Hand &6
 1 Summon: Primal Odin &7
-1 Summon: Kujata &8
 1 Inquisitive Glimmer &9
 1 Enduring Courage &10
 1 Overlord of the Boilerbilges &11
 1 Summon: Titan &12
 1 Arena of Glory &13
-1 Up the Beanstalk &14
 1 Sylvan Library &15
 1 Mirari's Wake &16
 1 Heroic Intervention &17
@@ -38,7 +36,6 @@ format: commander
 1 Summon: Yojimbo &24
 1 Summon: Bahamut &25
 1 Summon: Fenrir &26
-1 Summon: Good King Mog XII &27
 1 Arcane Signet &28
 1 Galadriel's Dismissal &29
 1 Chromatic Lantern &30
@@ -84,10 +81,8 @@ format: commander
 1 O'aka, Traveling Merchant &71
 1 Yuna, Hope of Spira &72
 1 Three Steps Ahead &73
-1 Dawn's Truce &74
 1 The Apprentice's Folly &75
 1 Garnet, Princess of Alexandria &76
-1 Starfield Mystic &77
 1 Scholar of New Horizons &78
 1 Conduit of Worlds &79
 1 Open the Way &80
@@ -109,3 +104,8 @@ format: commander
 1 Rhys, the Evermore &97
 1 Squirming Emergence &95
 1 Trouble in Pairs &32
+1 Fellwar Stone &8
+1 Flash Photography &14
+1 Peter Parker's Camera &27
+1 Y'shtola Rhul &74
+1 Ephemerate &77

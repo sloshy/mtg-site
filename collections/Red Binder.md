@@ -290,7 +290,6 @@
 - Howling Mine (SLD:7046) &309
 - Thrumming Hivepool (EOE:247) &310
 - Chromatic Lantern (SLD:2329) [foil] &311
-- Sol Ring (SLD:2330) [foil] &312
 - Academy Manufactor (SLD:2195) [foil] &313
 - Wurmcoil Engine (SLD:2196) [foil] &314
 - Liberator, Urza's Battlethopter (SLD:2286) [foil] &315
