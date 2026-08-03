@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta23
-ritual-content-hash: 1724cab06bf49dd6398801dcdcbd1937569b19380a0ec347f7037ae840708247
+ritual-version: 0.1.0-beta24
+ritual-content-hash: 9d27b5575c5ef17875074ea9295108dbd8ccb564bfb191789b21c5ec730aee0d
 ---
 
 # Editing cards in any Ritual list
@@ -11,6 +11,8 @@ The **one-shot commands** — `add-card`, `remove-card`, `set-card`, `note`, and
 scripted form of `move` — are how agents and scripts edit decks, collections, and
 wanted lists: each is a single non-interactive invocation. They keep the `&N` card
 IDs and the `.changes.md` changelog correct — prefer them over hand-editing files.
+`remove-card`, `set-card`, and `note` are line-preserving: they touch only the
+targeted card's line, so hand-written prose or comments elsewhere in the file survive.
 The interactive editor TUI (`ritual edit`, below) is the alternative when a human
 is driving.
 
@@ -19,29 +21,48 @@ Conventions shared by every one-shot command:
 - The first argument is the list **name** (file basename, no `.md`). It is resolved
   across all three types unless you pass `--deck`, `--collection`, or `--wanted`
   (or prefix the name: `deck:burn`, `collection:Main Binder`, `wanted:To Buy`).
-  An ambiguous name is an error.
+  A prefix that contradicts the type flag (`deck:burn --collection`) is a usage
+  error, not a silent override — pass one or the other.
+  An ambiguous name is an error; when the matches are all the same type, the fix is
+  typing more of the name (or its full name exactly as the file spells it, which
+  always wins outright), not a type flag.
 - The card is matched by name (case-, accent-, and punctuation-insensitive).
   `add-card` matches the name against Scryfall's cards — splitting what you pass on
   whitespace and requiring **every term** to appear in the name, in any order, so
   `"in tre"` finds "In the Trenches" — while the other commands (`remove-card`,
   `set-card`, `note`, `move`) match the list's existing entries by exact name first,
   then substring, and when several match disambiguate with `--card-id <N>` (the
-  `&N` suffix in the file — `add-card` has no `--card-id`).
+  `&N` suffix in the file — `add-card` has no `--card-id`). Passing a card name
+  **and** `--card-id` requires them to agree: a mismatch is a usage error naming
+  both, so a stale ID can never silently hit the wrong card.
+- `-n`/`--dry-run` (`--dry-run` only on `note`, whose `-n` is `--note`) resolves
+  and validates everything, reports what would change (text prefixed
+  `[dry-run]`, JSON carrying `dryRun: true`), and writes nothing at all — no list
+  file, changelog, sidecar, auto-created list, or card-ID backfill.
 - `--output json` (or `ndjson`) emits a machine-readable result; `--quiet`
   suppresses non-essential text.
 - Nothing blocks on a prompt in a script: when stdin is not a terminal, a missing
   argument or flag fails fast with exit code 2 (`Input required: ...`) instead of
   opening a picker. Exit codes: 1 runtime error, 2 usage error, 3 not found.
 - `--no-input` — **the** headless switch (the `RITUAL_NO_INPUT` environment
-  variable does the same): works on **every** command and guarantees no prompting;
-  where input would be required the command fails fast (or uses a documented
-  default) instead of hanging. There are no per-command non-interactive flags.
+  variable does the same, and a falsy value — `0`/`false`/`no`/`off` — counts as
+  unset): works on **every** command and guarantees no prompting; where input
+  would be required the command fails fast with exit code 2 and a `Input required:
+  pass <flag> (...)` message naming the flag (or uses a documented default)
+  instead of hanging or exiting 0 having done nothing. A non-terminal stdin —
+  every agent invocation — is treated exactly the same way, so the flag is never
+  strictly required. There are no per-command non-interactive flags.
 - Commands that read the Scryfall card cache (`add-card`, `edit`, `price`,
   `build-site`, `serve --build`, `admin`) share a `--refresh <mode>` option
   controlling cache freshness: `ask` (the default — prompt about stale or empty
-  caches; the prompt is skipped when prompts are unavailable), `auto` (refresh
-  stale data without asking, bulk download allowed), `no-bulk` (refresh stale
-  prices per-card, never a bulk download), and `never` (use the cache as-is).
+  caches, skipping the prompt when prompts are unavailable; `build-site` is the
+  exception, bulk-downloading an empty or week-old cache without asking, since it
+  cannot build a site without card data), `auto` (refresh stale data without
+  asking, bulk download allowed), `no-bulk` (refresh stale prices per-card, never
+  a bulk download), and `never` (use the cache as-is, making no request of any
+  kind — under `never`, `price` reports uncached cards as unpriced instead of
+  fetching them, and a `build-site` run with no cached symbology renders without
+  mana symbols).
 
 ## Add a card
 
@@ -52,15 +73,29 @@ ritual add-card "Main Binder" "Black Lotus" --collection --set lea --collector-n
 ritual add-card "To Buy" "Mox Ruby" --wanted --name-only # any copy
 ritual add-card "To Buy" "Demonic Tutor" --wanted --set sta --collector-number 90
 ritual add-card "Winota Stax" "Lightning Bolt" --exact --output json
+ritual add-card "Winota Stax" "Lightning Bolt" --deck --set sta --collector-number 42 -f foil --section Sideboard
+ritual add-card "Winota Stax" "Kenrith, the Returned King" --deck --commander
+ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writes nothing
 ```
 
-- `--collection` / `--wanted` create the list if it does not exist (`--deck` does not — use `ritual new deck`).
+- `--collection` / `--wanted` create the list if it does not exist — including in a
+  workspace with no lists of that type yet (`--deck` does not — use `ritual new deck`).
+  The file is created only at write time, so a failed add (or a `--dry-run`) leaves none.
+- Deck adds go through the same engine as the editors: copies **merge onto an
+  existing line** for the same card and printing, a new line is appended at the end
+  of the target section (the deck's first regular section by default — never a
+  hardcoded `## Main`), and `-q N` records N add events in the changelog.
 - `--set <code>` + `--collector-number <cn>` (always together) pin an exact printing;
   the pair is validated against the card's real printings, and `-f` against the
   finishes that printing offers.
-- `-q` quantity (deck only), `-f` finish (nonfoil/foil/etched — collection and wanted
-  only), `-c` condition (NM/LP/MP/HP/DMG, or `NONE` to record no condition —
-  collection only). A flag the target type does not support is an error.
+- `-q` quantity (deck only), `-f` finish (nonfoil/foil/etched — any list type),
+  `-c` condition (NM/LP/MP/HP/DMG, or `NONE` to record no condition — decks and
+  collections). Decks also take `--section <name>` and `--commander` to place the
+  new line. A flag the target type does not support is an error. Neither
+  finish nor condition has an implicit default: without a terminal a collection add
+  needs `-c`, and any specific-printing add whose printing comes in several finishes
+  needs `-f` — otherwise the run exits 2 naming the flag instead of writing a
+  half-specified line.
 - Wanted adds must choose a specificity: `--name-only` (any copy), a printing pin via
   `--set`/`--collector-number`, or `--specific` (interactive picker). Non-interactive
   runs without one exit 2.
@@ -100,10 +135,13 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
 - `--set` + `--collector-number` (always together) change the printing; the pair is
   validated against the card's real printings (an unknown pair is a usage error
   listing what exists). Without `--finish` alongside, the current finish is kept.
-- `--finish nonfoil|foil|etched` — validated against the chosen printing's finishes
-  when changing the printing too.
-- `--condition NM|LP|MP|HP|DMG` — decks and collections only (wanted entries carry
-  no condition).
+- `--finish nonfoil|foil|etched` — always validated against the printing the line
+  will carry (the new one when changing the printing, otherwise the entry's own).
+  The check is cache-only: when the card cache cannot vouch for the printing, or the
+  line has no printing at all, it is skipped rather than guessed.
+- `--condition NM|LP|MP|HP|DMG|NONE` — decks and collections only (wanted entries
+  carry no condition). `NONE` clears a recorded grade; note that `NM` is the
+  unrecorded default and writes an ungraded line, exactly like `NONE`.
 - Decks only: `--section <name>` moves the line to that section (created if
   missing); `--commander` / `--no-commander` move it into / out of the
   `## Commander` section.
@@ -143,6 +181,9 @@ ritual move --card-id 7 --from "wanted:To Buy" --to deck:storm --output json
 - Moving into a **collection** requires a concrete printing: a card without one (a
   name-only wanted entry) takes it from `--set`/`--collector-number`, or from its
   single known printing; otherwise the command errors listing the cached printings.
+  "Known printings" means the local card cache only — a card the cache has no entry
+  for has no printing list, so pass `--set`/`--collector-number` (verified against
+  Scryfall directly) or run `ritual cache preload-all` first.
 - Moving into a **deck**, `--to-section <name>` targets that section (exact name,
   created if missing) instead of the default; it errors on non-deck destinations.
 - Deck sources decrement quantity, notes travel with the card, both lists get
@@ -235,10 +276,13 @@ ritual import-changes edits.json --yes    # apply without the confirmation promp
 
 Agents and scripts must always pass `--yes`: when stdin is not a terminal the
 command refuses with exit code 2 instead of prompting. With `--output json` the
-preview is suppressed and the apply report (`{success, lists, message}` —
-byte-identical to the admin `/api/import-changes` response and the MCP
-`import_changes` tool) is emitted on stdout; `--yes` is required there too, since
-the confirmation prompt only exists in text mode.
+preview is suppressed and the apply report (`{success, failedCount, lists, message}`
+— byte-identical to the admin `/api/import-changes` response; the MCP
+`import_change_bundle` tool returns the same fields without the constant `success`)
+is emitted on stdout; `--yes` is required there too, since the confirmation prompt
+only exists in text mode. `success` is always `true` on a report that was produced
+at all — read `failedCount`, and each list's own `error`, to tell a clean import
+from a partial one.
 
 Changes are re-targeted to each list's current `&N` card IDs (by ID when it still
 exists, else by card name); changes whose target card no longer exists are skipped
@@ -249,10 +293,9 @@ fails. The same JSON can also be applied in the web admin's **Import Changes** p
 ## Export cards (CSV, JSON, text, Markdown)
 
 `ritual export` renders any grouping of cards in one of four formats, chosen with
-`--output csv|json|text|md` (default `csv`). On this command `--output` is the
-**export format** itself — not the shared `text|json|ndjson` envelope other
-commands use — and the raw payload goes to stdout unless `--out <file>` writes it
-to a file. `text` merges everything into **one flat decklist** (`1 Name (SET:CN)`
+`--format csv|json|text|md` (default `csv`). There is no scripting `--output`
+flag here: the raw payload on stdout *is* the export, unless `--out <file>`
+writes it to a file instead. `text` merges everything into **one flat decklist** (`1 Name (SET:CN)`
 lines, quantities aggregated across lists); `md` is canonical list markdown
 grouped by list and section, **without** `&N` ids. Bare `ritual export` in a
 terminal opens an interactive wizard; agents should always pass flags (any
@@ -260,16 +303,17 @@ source, filter, or output flag runs non-interactively). With no lists and no
 `--card` picks, **every list** is exported:
 
 ```bash
-ritual export --output json > all-cards.json          # everything, JSON on stdout
+ritual export --format json > all-cards.json          # everything, JSON on stdout
 ritual export deck:burn --out burn.csv                # one deck to a CSV file
-ritual export --all --output text                     # one merged decklist on stdout
-ritual export --all --output md --out cards.md        # canonical markdown, no &N ids
+ritual export --all --format text                     # one merged decklist on stdout
+ritual export --all --format md --out cards.md        # canonical markdown, no &N ids
 ritual export "Main Binder" wishlist --set MKM        # two lists, filtered by set
 ritual export --card "sol ring" --card "mana crypt"   # cherry-pick cards across lists
 ritual export --collection --finish foil --condition NM
 ritual export --all --columns name,quantity,listName --no-header --quote-all
 ritual export --all --save-preset trade-sheet         # save format/columns/CSV options
 ritual export --all --preset trade-sheet --out t.csv  # reuse them (flags override)
+ritual export --collection --preset archidekt         # built-in: Archidekt import CSV
 ```
 
 List names take an optional `deck:`/`collection:`/`wanted:` prefix (or scope with
@@ -279,19 +323,34 @@ List names take an optional `deck:`/`collection:`/`wanted:` prefix (or scope wit
 matches only cards with it explicitly marked and `none` matches cards without
 one (e.g. `--condition NM,none`); wanted entries never match. Available columns:
 `name`, `quantity`, `set`, `collectorNumber`, `edition` (set + collector
-number as `SET:number`), `finish`, `isFoil` (true when foil or etched),
-`condition`, `note`, `section`, `listName`, `listType`. Columns apply to
-csv/json only: giving `--columns`, `--no-header`, or `--quote-all` alongside an
-explicit `--output text|md` is a usage error (a preset's stored columns with a
-text/md format are simply unused). Set codes are lowercase in JSON and UPPERCASE
-in CSV, text, and md output. Without `--out` the export goes to stdout (the confirmation goes to
-stderr, so stdout stays parseable). Presets persist in `ritual.config.json` under
-`exportPresets`. Exit codes: 2 usage error, 3 unknown list/preset.
+number as `SET:number`), `scryfallId` (the printing's Scryfall UUID, resolved
+from the local Scryfall cache — an uncached printing exports an empty cell plus a
+warning), `finish`, `isFoil` (true when foil or etched), `condition`, `note`,
+`section`, `listName`, `listType`. Columns apply to
+csv/json only: giving `--columns`, `--dialect`, `--no-header`, or `--quote-all`
+alongside an explicit `--format text|md` is a usage error (a preset's stored
+columns with a text/md format are simply unused). Set codes are lowercase in JSON
+and UPPERCASE in CSV, text, and md output.
+
+`--dialect ritual|archidekt` (csv/json) chooses how finish and condition are
+spelled: `ritual` (default) writes the file's own values, `archidekt` writes
+`Normal|Foil|Etched` under a `Variant` header and `NM|LP|MP|HP|D`, filling in
+the effective value (`Normal`/`NM`) for lines that mark none. The built-in
+`archidekt` preset is that dialect with columns
+`Scryfall ID,Quantity,Variant,Condition` — the CSV archidekt.com/collections/import
+accepts, and what `ritual collection-sync push` uploads for large batches.
+
+Without `--out` the export goes to stdout (the confirmation goes to
+stderr, so stdout stays parseable). Saved presets persist in `ritual.config.json`
+under `exportPresets` and shadow a built-in of the same name. Exit codes: 2 usage
+error, 3 unknown list/preset.
 
 ## Read or compact change history
 
 `ritual history` interactively compacts and rewrites a list's `.changes.md` log.
-Only the changelog is touched — the list file itself is never modified:
+Only the changelog is touched — the list file itself is never modified. The editor
+needs a terminal: without one (or under `--no-input`) it exits 2 pointing at
+`--show` rather than opening, and `--output json`/`ndjson` requires `--show` too:
 
 ```bash
 ritual history "Winota Stax"
@@ -306,7 +365,7 @@ how agents read a changelog:
 ```bash
 ritual history "Winota Stax" --show
 ritual history "Winota Stax" --show --limit 3
-ritual history "Winota Stax" --show --output json --quiet
+ritual history "Winota Stax" --show --output json
 ```
 
 Combining two change sets orders the merged lines oldest-set-first (newest changes

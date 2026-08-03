@@ -21,6 +21,9 @@
     "rateLimitWindowMinutes": 5,
     "failedAuthDelayMs": 3000
   },
+  "collectionSync": {
+    "pullTarget": "Inbox"
+  },
   "site": {
     "includeDecks": [
       "*"
@@ -40,6 +43,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta23"
+    "version": "0.1.0-beta24"
   }
 }

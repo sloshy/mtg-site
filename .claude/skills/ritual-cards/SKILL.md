@@ -1,14 +1,16 @@
 ---
 name: ritual-cards
 description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or random cards. Output is JSON by default for easy parsing."
-ritual-version: 0.1.0-beta23
-ritual-content-hash: f8837545260a3e86fd8e123fa2a6ded835f24ea076c44b7d7625cb671de47ebc
+ritual-version: 0.1.0-beta24
+ritual-content-hash: defa15b7f73691d84638a9a2feb9285d082dc168cac52d82578ada6b91498205
 ---
 
 # Looking up cards with Ritual
 
 These commands query Scryfall and print **JSON by default**, so they are easy to
-parse. All accept `--output json|ndjson|text`, `--fields <list>`, and `--quiet`.
+parse. All accept `--output json|ndjson|text` and `--fields <list>`. Neither
+registers `--quiet`: everything they print is payload, an error, or a
+content-loss warning.
 
 ## Look up one card
 
@@ -27,10 +29,12 @@ ritual card --from-file names.txt
 cat names.txt | ritual card --stdin
 ```
 
-A batch run silently upgrades the default `json` output to `ndjson` (one object
-per line, emitted as results arrive). A name that cannot be found makes the run
-exit 3; a fetch failure exits 1, and in a batch the failure code outranks
-not-found.
+A batch's output shape depends only on the flag, never on the input's line
+count: `--output json` (the default) emits ONE array of cards for the whole
+batch, and `--output ndjson` streams one object per line as results arrive.
+(A single-name lookup emits a bare card object.) A name that cannot be found
+makes the run exit 3; a fetch failure exits 1, and in a batch the failure code
+outranks not-found.
 
 ## Raw Scryfall search
 
@@ -41,14 +45,26 @@ ritual scry "c:red cmc<=2 t:instant"
 ritual scry "set:fdn r:mythic" --output ndjson
 ritual scry "o:draw t:creature" --no-input              # no pagination prompts, one page
 ritual scry "t:land" --pages 3                          # fetch the first 3 pages, no prompts
-ritual scry "c:blue" --csv                              # CSV output
+ritual scry "c:blue" --output csv                       # CSV, rendered by Scryfall
 ```
 
 Paging never blocks a script: `--pages <n>` fetches up to `n` pages without
 prompting, and everywhere prompts are unavailable (piped output, the global
-`--no-input` flag, or `RITUAL_NO_INPUT`) exactly one page is fetched. There is
-no fetch-all flag — pass a large `--pages` value to get everything. A query with
-no matches exits 3; a Scryfall error exits 1.
+`--no-input` flag, or `RITUAL_NO_INPUT`) exactly one page is fetched. A run
+fetches at most 20 pages either way (each page is a separately paced Scryfall
+request), and `--count` is capped at 50; a larger value is refused at parse
+time. There is no fetch-all flag.
+
+`--output json` (the default) emits ONE array of cards on a scripted run,
+whatever the page count — a single-page run and a five-page run produce the same
+shape, and a run that matched nothing emits `[]`. Interactive paging prints each
+page as it arrives instead. `--output ndjson` streams one document per card as
+pages arrive, and `--output text` prints one `Name (SET)` line per card.
+`scry` is the only command whose `--output` takes a fourth value, `csv`.
+When a non-interactive run stops with results left, one line always goes to
+stderr (`Fetched X of Y results (page 1); use --pages <n> for more.`) so a
+capped run is never mistaken for a complete one. A query with no matches exits
+3; a Scryfall error exits 1.
 
 ## Random cards
 
@@ -63,7 +79,8 @@ ritual scry --random --output text
 ```
 
 With a single pick (the default) the output is one bare card object. `--count`
-requires `--random`, and `--random` cannot be combined with `--pages` or `--csv`.
+requires `--random` (max 50), and `--random` cannot be combined with `--pages`
+or `--output csv`.
 
 ## Live queries vs. the local cache
 

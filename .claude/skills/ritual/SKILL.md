@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta23
-ritual-content-hash: a2c79ea6a41d44071c8b3ff24adc86e2139d19c0e1831172d4247745eeee4c66
+ritual-version: 0.1.0-beta24
+ritual-content-hash: 16fab78bd5ae4ada4acbbb6cb0c00a0c29b71dc3e5db515d68055a2f78a94431
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -24,13 +24,26 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
 - `collections/<name>.md` — collections of owned cards
 - `wanted/<name>.md` — cards you want to acquire
 - `<name>.changes.md` — append-only changelog next to each list (auto-maintained)
-- `ritual.config.json` — configuration
+- `ritual.config.json` — configuration (optional: reading config never creates
+  it, so a workspace only has one once `config set`/`unset`, `init-site`, the
+  admin Settings page, or the MCP `update_config` tool writes it)
 
 A list is addressed by its **name** = the file basename without `.md`
-(e.g. `decks/Winota Stax.md` → `Winota Stax`). Most commands resolve a name across
-all three types, ignoring case, accents, and separators (so `cafe` matches `Café`,
-and `winota-stax` matches `Winota Stax`); when a name is ambiguous, pass a type
-flag (`--deck`, `--collection`, `--wanted`) or prefix the name (`deck:staples`).
+(e.g. `decks/Winota Stax.md` → `Winota Stax`). A name typed **exactly** as the file
+spells it always selects that one list, before any folding — the escape hatch when
+two names look alike. Otherwise most commands resolve a name across all three types,
+ignoring case, accents, separators, apostrophes, and the punctuation a file name
+cannot hold (so `cafe` matches `Café`, `winota-stax` matches `Winota Stax`, and
+`Atraxa: Praetors' Voice` matches the `Atraxa Praetors' Voice.md` that name created);
+then by unique substring. When a name matches lists of **different**
+types, pass a type flag (`--deck`, `--collection`, `--wanted`) or prefix the name
+(`deck:staples`) — commands taking more than one list (`diff`'s two sides,
+`export`'s list arguments, `move`'s `--from`/`--to`) suggest the prefix, since one
+whole-command flag cannot scope a single argument. A prefix that contradicts a type
+flag (`delete deck:X --collection`) is a usage error, not a silent override. When the
+matches are all the **same** type, no type selector can help: type more of the name,
+or the full name exactly as spelled. The error's last line always names the
+remedy that actually applies.
 
 **Discovering lists:** `ritual lists` is the discovery primitive — it enumerates
 every deck, collection, and wanted list as `type slug name` rows. Filter with
@@ -38,10 +51,15 @@ every deck, collection, and wanted list as `type slug name` rows. Filter with
 `{type, slug, name}` objects. Prefer it over globbing the workspace folders.
 
 **List lifecycle:** `ritual new <deck|collection|wanted> "<name>"` creates a list
-(`-f/--format` for decks), `ritual rename <list> "<new name>"` renames one (file,
-sidecars, and front matter together), and `ritual delete <list> --confirm "<name>"`
-deletes one (`--confirm` must repeat the display name; without it a terminal
-prompts). `ritual diff <listA> <listB>` compares any two lists by card name
+(`-f/--format` for decks, default `commander`), `ritual rename <list> "<new name>"`
+renames one (file, sidecars, and front matter together), and
+`ritual delete <list> --confirm "<name>"` deletes one (`--confirm` must repeat the
+display name; without it a terminal prompts). `new` and `rename` **refuse** a name
+that resolves to an existing list of the same type — `atraxa superfriends` beside
+`Atraxa Superfriends` is an error, not a second deck — so no two lists ever share
+one addressable name; re-spelling a list's own name (capitalization, punctuation) is
+allowed. `rename --output json` returns `newFilePath`/`oldFilePath`, and
+`delete --output json` returns `deletedFiles`. `ritual diff <listA> <listB>` compares any two lists by card name
 (`--by printing` for exact printings).
 
 **File naming:** creating a list names its file exactly as the list is named — case,
@@ -78,10 +96,30 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
 - **Collection lines always carry a printing** — a printing-less collection line is
   rejected by every write path and skipped (with a warning) on load. Deck and wanted
   lines may be name-only, as `1 Sol Ring &5` and `- Counterspell &3` above.
+- **Collection and wanted lines hold one copy each** — there is no quantity on the line, so a
+  deck-style `- 1 Sol Ring (C21:240)` parses as a card *named* `1 Sol Ring`. `collection-sync`,
+  `cleanup`, and the CLI editors print an advisory naming such a line (a 1-3 digit leading integer; a real name like `1996 World Champion`
+  is left alone). It is advisory only: the line parses and survives every save, so fix the file.
 - `[foil]`/`[etched]` is the finish, `[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition (the default `NM` is not written), `{...}` a note.
 - `&N` is a **stable internal card ID**. Never hand-author or renumber these — the tools manage them.
-  Any list-touching command backfills missing IDs on startup and persists them to the
-  files — except under `-n`/`--dry-run`, which writes nothing, including that backfill.
+  Commands that add or edit card lines (editors, card mutations, imports, syncs `deck-sync pull`/`push`
+  and `collection-sync` — not `deck-sync status`/`link` — `cleanup`,
+  the site build, and the admin/MCP servers) backfill missing IDs on startup and persist
+  them to the files. Read-only commands (`lists`, `diff`, `price`, `export`,
+  `list-all-cards`, `history --show`, ...) and the `new`/`rename`/`delete` lifecycle
+  never touch card lines, and `-n`/`--dry-run` writes nothing, including that backfill.
+
+**Fenced code blocks are prose.** Anything inside a ```` ``` ````/`~~~` fence in a list file is
+ignored by card parsing: a card-looking line there is not a card, a `## Heading` there is
+not a section, an `&N` there is not an ID in use, and none of it warns. Fenced lines are
+never a mutation target and never get an ID stamped into them, so a block survives every
+line-preserving edit byte-for-byte. An **unclosed fence extends to the end of the file**
+(CommonMark), so a stray fence hides every card below it — and an `add-card`/`move` that
+would append past it is refused rather than write a line no parse can see. The whole-file
+rewrite paths cannot re-emit a fenced block: admin editor saves, `import --append`, and a
+`move` with a deck on either side refuse such a file; `cleanup` skips its content rewrite;
+the syncs hold it back behind the unreadable-lines gate. A `ritual edit` session warns on
+load but still drops the block on save.
 
 A deck's YAML front matter carries its `format:` (a fixed set of keys — see the
 **ritual-decks** skill). A deck with no `format:` is treated as Commander when it
@@ -91,14 +129,18 @@ has a `## Commander` section, and the tools write that down on the next save.
 `&N` IDs and `.changes.md` changelog stay correct. Reading files directly for
 inspection is fine. To normalize a whole workspace — canonical formatting, file
 names that match list names, a `format:` on every deck — run `ritual cleanup`
-(`-n`/`--dry-run` to preview; `--check` to additionally exit 1 when any file
-would change, for hooks and CI; `--skip-formats` to never prompt for deck
-formats, leaving formatless decks untouched and reported).
+(`-n`/`--dry-run` to preview; `--check` to also exit 1 when any file would
+change, for hooks and CI; `--skip-formats` to never prompt for deck formats,
+leaving formatless decks untouched and reported). A file it cannot read or parse
+is named, skipped, and reported with `unreadable: true` while its siblings are
+still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
+`--no-input`, a real run that needs the deck-format prompt is a usage error
+(exit 2), not an unreadable file; pass `--skip-formats` to avoid the prompt.
 
 ## The ritual-* skills
 
 - **ritual-decks** — create, import, sync, and price decks
-- **ritual-collections** — manage and price collections
+- **ritual-collections** — manage, sync (Archidekt), and price collections
 - **ritual-wanted** — manage and price wanted lists
 - **ritual-edit** — card edits across any list: one-shot non-interactive commands (`add-card`, `remove-card`, `set-card`, `note`, scripted `move`), the unified interactive editor, and card exports (CSV, JSON, plain text, Markdown)
 - **ritual-cards** — look up cards and run Scryfall searches
@@ -107,30 +149,65 @@ formats, leaving formatless decks untouched and reported).
 ## Global options (work on every command)
 
 - `--base-dir <path>` — operate on a workspace other than the current directory
+  (the `RITUAL_BASE_DIR` environment variable does the same; the flag wins). The
+  path must already be an existing directory — Ritual never creates it, and a
+  path that is missing, not a directory, or unreadable is a usage error
+  (exit 2), so a typo can never read as an empty workspace
 - `--cache-server <host:port>` — share a card/price cache with other instances
   (the `RITUAL_CACHE_SERVER` environment variable does the same; host one with
-  `ritual cache server`)
+  `ritual cache server`). A malformed address is a usage error (exit 2)
 - `--no-input` — **the** headless switch (the `RITUAL_NO_INPUT` environment
-  variable does the same): works on **every** command and guarantees no prompting;
-  where input would be required the command fails fast (or uses a documented
-  default) instead of hanging. There are no per-command non-interactive flags.
+  variable does the same, and a falsy value — `0`/`false`/`no`/`off` — counts as
+  unset): works on **every** command and guarantees no prompting; where input
+  would be required the command fails fast with exit code 2 and a `Input required:
+  pass <flag> (...)` message naming the flag (or uses a documented default)
+  instead of hanging or exiting 0 having done nothing. A non-terminal stdin —
+  every agent invocation — is treated exactly the same way, so the flag is never
+  strictly required. There are no per-command non-interactive flags.
 
 Exit codes are uniform across commands: **1** runtime error, **2** usage error,
-**3** not found.
+**3** not found. A missing resource — a list, file, or sidecar that is simply
+not there — is always **3**, never 1.
+
+## Scripting conventions (uniform across commands)
+
+- `--output text|json|ndjson` always selects the **stdout envelope**, never a
+  file format or destination. `json` emits exactly one document per run (a
+  card batch or a multi-page search is still one array); `ndjson` streams one
+  object per line. Errors go to stderr as
+  `{"error":{"code","message","details"}}` in the structured modes. Two
+  exceptions, both deliberate: `scry` adds a fourth value `--output csv`, and
+  `export` has no `--output` at all (its stdout payload *is* the export —
+  pick the format with `--format csv|json|text|md`, redirect with `--out`).
+- `--quiet` suppresses progress and status chatter **only**. The structured
+  payload always emits, so `--quiet --output json` is clean JSON with no
+  surrounding noise. Errors and data-loss warnings (an unparseable card line, a
+  change skipped as a conflict, a truncated result set) always reach stderr
+  regardless. A command with no chatter does not register the flag at all
+  (`card`, `diff`, `scry`, `cache status`, `dep-license`, `history`,
+  `login status`, `deck-sync status`, `skills list`).
+- Piping structured output into an early-closing reader (`… --output ndjson |
+  head`) is a clean exit 0, not a crash.
 
 Commands that read the Scryfall card cache (`add-card`, `edit`, `price`,
 `build-site`, `serve --build`, `admin`) share a `--refresh <mode>` option
 controlling cache freshness: `ask` (the default — prompt about stale or empty
-caches; the prompt is skipped when prompts are unavailable), `auto` (refresh
-stale data without asking, bulk download allowed), `no-bulk` (refresh stale
-prices per-card, never a bulk download), and `never` (use the cache as-is).
+caches, skipping the prompt when prompts are unavailable; `build-site` is the
+exception, bulk-downloading an empty or week-old cache without asking, since it
+cannot build a site without card data), `auto` (refresh stale data without
+asking, bulk download allowed), `no-bulk` (refresh stale prices per-card, never
+a bulk download), and `never` (use the cache as-is, making no request of any
+kind — under `never`, `price` reports uncached cards as unpriced instead of
+fetching them, and a `build-site` run with no cached symbology renders without
+mana symbols).
 
 ## Setup
 
 ```bash
 ritual login archidekt            # log in to Archidekt (for imports/sync)
 echo "$PASS" | ritual login archidekt --username you --password-stdin  # headless login
-ritual login status               # show the stored Archidekt login (exit 3 when not logged in)
+ritual login status               # stored login + whether its session still authenticates
+                                  #   exit 0 usable, 1 expired (re-login), 3 nothing stored
 ritual login logout               # remove the stored Archidekt session
 ritual config set <prop> <value>  # set a config value (dot notation for nested keys)
 ritual config set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
@@ -140,13 +217,19 @@ ritual config list                # print the full effective config (defaults ma
 ritual config unset <prop>        # revert a value to its default
 ritual cache status               # report cache size/freshness/source without refreshing
 ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download)
-ritual cache preload-set khm      # cache all cards of one set (by set code)
-ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards
+ritual cache preload-set khm      # cache all cards of one set (exit 3 = unknown set code, 1 = search failed)
+ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards (exit 1 when the download fails)
 ritual cache server               # host a shared cache server (default 127.0.0.1:4000)
 ritual cache feed host            # host a P2P feed of the raw Scryfall bulk files
 ritual cache feed fetch           # sync the cache from a feed, then seed to peers
 ritual config set cacheSource feed  # make all cache refreshes sync via the feed
 ```
+
+`ritual.config.json` is created only by a genuine write — `config set`/`unset`,
+`init-site`, the admin Settings page, or the MCP `update_config` tool — reading
+config never does. If the file exists but is not valid JSON, every command fails with exit 1
+and a message naming the path; the file is never rewritten, so fix (or delete)
+it rather than trying to overwrite it with `config set`.
 
 Cache refreshes take an exclusive lock (`cache/.ritual-cache-lock`); a refresh
 started while another process is refreshing waits up to the configurable

@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
-description: "Manage and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, or get the total value of a collection."
-ritual-version: 0.1.0-beta23
-ritual-content-hash: cf908aa2c0f8f30c432b8b9f50eacd719466801120ef2d43d7267f72e516621b
+description: "Manage, sync, and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), or get the total value of a collection."
+ritual-version: 0.1.0-beta24
+ritual-content-hash: 432d03f42f671c958525dde887138a5693fc40cd0db65e549e7de8a417098cd1
 ---
 
 # Managing collections with Ritual
@@ -15,13 +15,15 @@ skill for the file format.
 Use the one-shot commands (covered in full by the **ritual-edit** skill).
 `add-card` works on collections, and — when the type is pinned with
 `--collection` or a `collection:` prefix — creates the collection if it does
-not exist yet:
+not exist yet (including in a workspace with no collections at all; the file is
+created only once the add is certain to succeed):
 
 ```bash
 ritual add-card "Main Binder" "Sol Ring" --collection --set c21 --collector-number 263
 ritual add-card "Main Binder" "Black Lotus" --collection --set lea --collector-number 232 -c LP
 ritual remove-card "Main Binder" "Sol Ring" --collection             # one entry
-ritual set-card "Main Binder" "Sol Ring" --collection --finish foil --condition NM
+ritual set-card "Main Binder" "Sol Ring" --collection --finish foil --condition LP
+ritual set-card "Main Binder" "Sol Ring" --collection --condition NONE   # clear the grade
 ritual note "Main Binder" "Black Lotus" --collection -n "graded"     # or --clear
 ritual move "Sol Ring" --from "collection:Main Binder" --to deck:burn
 ```
@@ -29,7 +31,10 @@ ritual move "Sol Ring" --from "collection:Main Binder" --to deck:burn
 `-f` finish (nonfoil/foil/etched), `-c` condition (NM/LP/MP/HP/DMG, or `NONE` to
 record no condition). Collections track specific physical printings, so pin one
 with `--set` + `--collector-number` — a non-interactive add without a pin only
-succeeds when the card has a single paper printing.
+succeeds when the card has a single paper printing. Neither finish nor condition
+is defaulted: a headless add always needs `-c`, and needs `-f` whenever the
+pinned printing comes in more than one finish — otherwise it exits 2 naming the
+missing flag rather than writing a half-specified line.
 
 ## Interactive management
 
@@ -102,9 +107,21 @@ ritual import binder.txt --type collection --overwrite --no-input
 
 Without `--type` an interactive run prompts for the list type; under the global
 `--no-input` flag the type defaults to a deck, so agents should always pass
-`--type collection`. Every line must carry a printing (e.g. `2 Sol Ring
-(C19:221)`) — collections track specific physical printings, so name-only lines
-are rejected.
+`--type collection`. A body line that is neither a section header nor a card
+line is skipped, listed on stderr, carried in the JSON `warnings` array, and
+exits 1 — the import is still written. Ritual's own format and the MTG
+Arena/MTGO export dialect (`4 Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard`
+markers, a trailing `*F*`/`*E*` foil marker) are both read, as is the inside of
+a ``` fence — on the import path only, since a pasted decklist usually arrives
+wrapped in one. A `(SET)` with no collector number is left in the card name
+rather than read as a printing; a line that imports but still holds a printing
+token in its name prints an advisory (stderr, JSON `advisories`) without failing
+the run. Every line must carry a printing (e.g. `2 Sol Ring (C19:221)`) —
+collections track specific physical printings, so name-only lines are rejected.
+
+`--dry-run` resolves and validates everything but leaves the workspace
+byte-for-byte untouched — it does not even create the `decks/`, `collections/`,
+or `wanted/` directory it would have written into.
 
 ## Import from a CSV file
 
@@ -123,11 +140,204 @@ ritual import more.csv --type collection --name "Red Binder" --append \
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
 `collector-number`, `condition`, `finish`, `section`, `quantity`); collections
 require `name`, `set`, and `collector-number` columns. Add `--no-header` when
-the first row is data, `--overwrite` to replace an existing collection, or
-`--append` to add to one (appends continue card IDs and record the changelog).
-Conditions/finishes are normalized (e.g. `Near Mint` → `NM`, `F` → foil, empty →
-non-foil). Failed rows are reported with line numbers on stderr and the rest
-still import (exit code 1 on partial failure).
+the first row is data — a scripted run without it drops the first row as a
+header and warns when that row looks like data. Add `--overwrite` to replace an
+existing collection, or `--append` to add to one (appends continue card IDs and
+record the changelog). Conditions/finishes are normalized (e.g. `Near Mint` →
+`NM`, `F` → foil, empty → non-foil). Rows naming the same card and printing
+merge into one line (create and append agree), and a `--columns` number the file
+has no column for is a usage error (exit 2) instead of a per-row failure. Failed
+rows are reported with line numbers on stderr and the rest still import (exit
+code 1 on partial failure).
+
+## Sync with Archidekt
+
+Collection lists sync with the Archidekt collection of the **logged-in account**
+(`ritual login archidekt` first — the login records the numeric account id the
+collection is read by). An account has **one** collection while Ritual has
+**many** collection lists, so a run compares the union of the lists in scope
+against the whole remote collection. There is no per-file link and no front
+matter involved; the connection is the account.
+
+```bash
+ritual collection-sync pull                         # remote → local, every collection list
+ritual collection-sync push                         # local → remote, every collection list
+ritual collection-sync pull "Blue Binder"           # scope the local side to named lists
+ritual collection-sync push --dry-run               # preview, writing and sending nothing
+ritual collection-sync pull --into "Blue Binder"    # land new cards in this list
+ritual collection-sync push "Blue Binder" --only additions
+ritual collection-sync pull --removal-priority "Long Box" --removal-priority "Blue Binder"
+ritual collection-sync push --csv                   # new cards as one CSV import (no prompt)
+ritual collection-sync push --csv-file import.csv   # write that CSV instead of pushing them
+ritual collection-sync push --csv --refresh auto    # refresh a stale card cache instead of asking
+ritual collection-sync pull --yes                   # accept losing lines the parser can't read
+ritual collection-sync pull --output json           # scripted per-list report
+```
+
+**Scope:** with no list arguments the local side is every collection list.
+Naming lists scopes the local side to those only — the remote side is **always**
+the whole Archidekt collection, so a subset run declares "these lists are what
+my Archidekt collection mirrors": cards living only in lists you did not name
+read as absent, so a push would delete their records and a pull would try to
+re-add them. Narrow such a run with `--only`.
+
+`--only additions` / `--only removals` narrows a run to one side of the diff.
+The vocabulary is relative to the **sync destination** — the local files on a
+pull, Archidekt on a push — so additions are new cards and quantity increases
+*there*, removals are deleted cards and quantity decreases. The other side is
+still reported ("Skipped 3 removals (--only additions).") and simply not
+applied.
+
+That is what makes a subset scope safe with an incomplete local picture:
+`collection-sync push "Blue Binder" --only additions` uploads what that binder
+holds without the lists you did not name looking like cards you no longer own,
+and `collection-sync pull --only additions` adopts new Archidekt cards without
+deleting anything locally. `deck-sync` takes the identical flag (see the
+**ritual-decks** skill).
+
+**Where pulled cards land:** a card that appeared on Archidekt belongs in *some*
+binder and nothing in the data says which, so every addition goes to one target
+list, resolved as: `--into <list>` for this run, else the
+`collectionSync.pullTarget` config key, else `Inbox`. The list is **created on
+first use**; a name two lists answer to fails the whole run before anything is
+fetched or written. `--into` applies to a pull only — passing it to a push warns
+and is ignored.
+
+```bash
+ritual config set collectionSync.pullTarget "Inbox"
+```
+
+**What is compared:** the join key is the printing (set code + collector number)
+plus finish and condition — Ritual's five conditions are exactly Archidekt's, so
+NM/LP/MP/HP/DMG round-trip as-is. A line with no explicit finish resolves
+against the card cache first, so an etched-only printing compares as etched; a
+printing the cache does not hold syncs as nonfoil with a warning naming the line
+(that lookup is cache-only — a sync never fetches cards one at a time, so
+preload the cache first if finishes matter). Language, tags, and purchase price
+have no local representation: records Ritual creates are English, untagged, and
+priceless, while existing values survive a quantity change. The game is fixed to
+Paper (no MTGO/Arena), and sections and notes are local-only — a pull adds into
+the target list's `Main`, a push flattens sections.
+
+**A push with many new cards:** creating a printing costs a search plus a
+create, each paced 500 ms apart, so above **25 new printings** a push sends its
+additions through Archidekt's CSV importer instead — one upload, no searches,
+rows built entirely from the local Scryfall cache (the same file `ritual export
+--preset archidekt` writes, in Archidekt’s spellings: variant
+`Normal`/`Foil`/`Etched`, and Damaged is `D`, not `DMG`). Quantity increases and
+removals never ride it — removals use Archidekt’s own bulk-delete API.
+
+`--csv` always uploads (any count, no prompt); `--csv-file <path>` always writes
+the CSV **instead of** pushing the additions, which the report then counts as
+pending a manual upload at `archidekt.com/collections/import` (removals and
+quantity changes still push). The two flags contradict each other: giving both
+is a usage error (exit 2). Over the threshold with neither, a terminal is asked
+(upload / save to a file / add individually / cancel) and anything
+non-interactive **fails the run before any remote write**, naming both flags —
+the account is left untouched. A `--dry-run` over the threshold never prompts
+and makes no per-card request at all: it reports "would upload N cards (M rows)
+as a CSV import", which is what keeps a first preview from being rate limited. A
+printing the cache does not hold cannot become a row, so a real run adds it one
+at a time and a preview merely names it (`csv.uncached` in the report;
+`csv.status` is `"empty"` when the cache could key none of them).
+
+**Cache freshness is required for the CSV path.** The rows are keyed by the
+Scryfall ids the local card cache holds, so a run taking that path checks the
+cache before building the file and `--refresh <ask|auto|no-bulk|never>` decides
+the rest: `ask` (the default) prompts with **yes** preselected, `auto`
+redownloads an empty or day-old cache without asking, and `no-bulk`/`never` — or
+a declined prompt, or no terminal to prompt on — **fail the run before any
+remote write** naming `ritual cache preload-all`. It never falls back to
+per-card searches, which is the rate limiting the CSV path exists to avoid. The
+server surfaces cannot prompt, so they treat freshness as `auto` and report the
+refresh in the run log.
+
+**On the server surfaces** — the admin **Sync Collection** page and the MCP
+`sync_collection` tool — nothing can be prompted, so the request carries a `csv`
+boolean meaning exactly what `--csv` means: upload the new cards as one CSV
+import. The page’s *Upload new cards as one CSV import* toggle is **on by
+default** (turning it off is what makes a large push fail), and the MCP tool
+takes `csv: true`; without it an over-threshold push fails with the same
+guidance and pushes nothing. `--csv-file` is **CLI-only** — a request naming a
+`csvFile` is rejected, since a server does not write files a caller names — and
+`report.csv` (status, rows, chunks, per-row failures, `uncached`) is how either
+surface says what the import did.
+
+**Removals a pull cannot place:** a removal is *ambiguous* only when **some** of
+a printing’s copies are going and those copies live in several lists — nothing
+says which binder the card left. Taking **every** copy is never ambiguous
+however many lists hold one (each simply loses what it holds), and neither is a
+partial removal whose copies all sit in one list (its last lines go).
+
+An ambiguous removal must be settled before the pull writes **anything** — there
+is no partial, one-card-at-a-time sync. Two ways to settle it:
+
+```bash
+# 1. Say up front which lists may give copies up, in priority order (repeatable)
+ritual collection-sync pull --removal-priority "Long Box" --removal-priority "Blue Binder"
+```
+
+Copies then come **only** from the named lists, walking them in the order given
+(each list’s last lines first). Names are matched exactly, like `--into` — never
+by the unique-substring rule — so an unknown or ambiguous name fails the run
+*before the remote collection is fetched* (the check is purely local, and so is
+the `--into` ambiguity check), as does a priority that cannot fully cover a
+removal. When a priority is given the run never prompts.
+
+2. **Resolve them one by one.** With no priority, `--output text`, a terminal,
+prompts enabled (not `--no-input`) and no `--dry-run`, the run first asks
+whether to walk the copies (default **No**), then asks which list lost each
+copy, offering only the lists that still hold one. Declining, or cancelling part
+way, aborts everything — nothing is written. `--yes` does *not* answer these
+prompts; it covers unreadable lines only.
+
+**Anywhere else** — `--output json`/`ndjson`, a pipe, `--no-input`, the admin
+site, or the MCP tool without `removalPriority` — the run **fails and writes
+nothing** — not even the account’s `lastSynced` — with the reason in the
+report’s `errors`; the report’s `ambiguous` array carries every ambiguity the
+planner found, placed or not, so `errors` is what says the run failed.
+`--dry-run` never prompts and never fails on an ambiguity itself (an unknown
+`--removal-priority` name still fails it): it reports each one, and how a given
+priority would place it. Other ways out: scope the run to the one list, or
+`--only additions` to skip removals.
+
+**Quantity prefixes:** a collection (or wanted) line is one **copy**, so it
+carries no quantity — everything between `- ` and the printing is the card name.
+A deck-style `- 1 Sol Ring (C21:240)` therefore names a card `1 Sol Ring`, which
+matches nothing anywhere. A `collection-sync` run, a `cleanup` run, and the CLI
+editors each print an advisory naming the line; it is advisory only (the line
+parses and survives a save), so fix the file rather than expecting a refusal. A
+name that legitimately starts with a four-digit year (`1996 World Champion`) is
+left alone.
+
+**Push is last-writer-wins:** unlike `deck-sync push`, a collection push has no
+divergence guard — cards added on Archidekt since your last sync read as gone
+and are deleted. Preview with `--dry-run` (or use `--only additions`) when you
+also edit the collection on Archidekt.
+
+**Unreadable lines:** both directions refuse a list whose file holds lines the
+parser cannot read, because both lose them: a pull rewrites the file, and a push
+treats the file as the truth (so the cards on those lines are deleted from your
+Archidekt collection). `-y`/`--yes` accepts that up front; without a terminal
+(`--no-input`, a pipe, or `--output json`) those lists fail instead. A push also
+refuses to run when nothing readable is in scope, rather than reading an empty
+local side as "the collection is empty".
+
+**An incomplete local side:** when a list in scope does not make it into the
+comparison — a name that does not resolve, a file that cannot be read, or one
+held back for unreadable lines — the cards it holds look like they are only on
+Archidekt. The run therefore withholds exactly the changes that shortfall would
+manufacture: a pull adds nothing (it would duplicate that file into the target
+list) and a push removes nothing (it would delete those cards from Archidekt).
+Fix or accept the listed lists and run again; the report's `localIncomplete`
+flag says it happened.
+
+The same sync runs from the admin site's **Sync Collection** page (see the
+**ritual-site** skill) and from the MCP `sync_collection` tool, whose
+`direction`, `lists`, `only`, `into`, `removalPriority`, `csv`, `dryRun`, and
+`ignoreUnreadableLines` fields are these flags. Neither can prompt, so both fail
+an ambiguous removal unless the run carries a removal priority, and both refuse
+a large push that was not given `csv: true`.
 
 ## Price
 
