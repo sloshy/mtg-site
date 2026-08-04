@@ -305,3 +305,224 @@
 - Added "Burnout Bashtronaut" (DFT:340) &295
 - Added "Daretti, Rocketeer Engineer" (DFT:120) &296
 - Added "Draconautics Engineer" (DFT:121) &297
+
+## 2026-08-04T03:52:10.680Z
+
+- Added "Vodalian Wave-Knight" (MOC:130) &298
+- Added "Ashroot Animist" (FDN:117) [foil] &299
+- Added "Alesha, Who Laughs at Fate" (FDN:115) &300
+- Added "Unstoppable Slasher" (DSK:294) &301
+- Added "Rune-Scarred Demon" (FDN:184) [foil] &302
+- Added "Tinybones, Bauble Burglar" (FDN:72) &303
+- Added "Tinybones, Bauble Burglar" (FDN:324) &304
+- Added "Tinybones, Bauble Burglar" (FDN:324) &305
+- Added "Zul Ashur, Lich Lord" (FDN:77) &306
+- Added "The Mindskinner" (DSK:66) &307
+- Added "Gravecrawler" (PLST:DDQ-59) &308
+- Added "High-Society Hunter" (FDN:61) &309
+- Added "Grafted Butcher" (MOM:359) [foil] &310
+- Added "Hoarding Broodlord" (MOM:360) [foil] &311
+- Added "Ayara, First of Locthwain" (MUL:13) [foil] &312
+- Added "Defiant Bloodlord" (C21:142) &313
+- Added "Zephyr Singer" (MOM:355) &314
+- Added "Chrome Host Seedshark" (MOM:350) &315
+- Added "Jin-Gitaxias, Core Augur" (MUL:11) [foil] &316
+- Added "Sphinx of Forgotten Lore" (FDN:51) &317
+- Added "Obeka, Splitter of Seconds" (OTJ:222) &318
+- Added "Seraphic Steed" (OTJ:232) &319
+- Added "Magda, the Hoardmaster" (OTJ:374) [foil] &320
+- Added "Skyknight Squire" (FDN:23) &321
+- Added "Akul the Unrepentant" (OTJ:189) [foil] &322
+- Added "Archmage's Newt" (OTJ:39) &323
+- Added "Taii Wakeen, Perfect Shot" (OTJ:365) [foil] &324
+- Added "Flamewake Phoenix" (FDN:198) &325
+- Added "Betor, Kin to All" (TDM:308) &326
+- Added "Redoubled Stormsinger" (TDC:77) &327
+- Added "Narset, Jeskai Waymaster" (TDM:365) &328
+- Added "Mardu Siegebreaker" (TDM:206) [foil] &329
+- Added "Broodcaller Scourge" (TDC:84) &330
+- Added "Battle Angels of Tyr" (CLB:370) &331
+- Added "Qarsi Revenant" (TDM:338) &332
+- Added "Clarion Conqueror // Clarion Conqueror" (TDM:377) &333
+- Added "Voice of Victory" (TDM:331) &334
+- Added "Bone Devourer" (TDC:66) &335
+- Added "Kotis, the Fangkeeper" (TDM:362) &336
+- Added "Tersa Lightshatter" (TDM:345) &337
+- Added "Avenger of the Fallen" (TDM:73) [foil] &338
+- Added "Flamehold Grappler" (TDM:359) &339
+- Added "Sidisi, Regent of the Mire" (TDM:92) [foil] &340
+- Added "Zurgo Stormrender" (TDC:10) &341
+- Added "Lasyd Prowler" (TDM:348) &342
+- Added "Diviner of Mist" (TDC:60) &343
+- Added "Felothar, Dawn of the Abzan" (TDM:358) [foil] &344
+- Added "Bloomvine Regent // Claim Territory // Bloomvine Regent" (TDM:381) &345
+- Added "Fangkeeper's Familiar" (TDM:183) [foil] &346
+- Added "Kotis, the Fangkeeper" (TDM:362) &347
+- Added "Clarion Conqueror // Clarion Conqueror" (TDM:377) &348
+- Added "Parapet Thrasher" (TDC:76) &349
+- Added "Dragonologist" (TDM:295) &350
+- Added "Overcharged Amalgam" (VOW:71) &351
+- Added "Cemetery Desecrator" (VOW:100) &352
+- Added "Hollow One" (SCH:25) [foil] &353
+- Added "Serra Angel" (PW24:1) [foil] &354
+- Added "Vengevine" (SCH:26) [foil] &355
+- Added "Hollow One" (SCH:25) &356
+- Added "Vengevine" (SCH:26) [foil] &357
+- Added "Hollow One" (SCH:25) [foil] &358
+- Added "Shiko, Paragon of the Way" (TDM:223) &359
+- Added "Dragonologist" (TDM:295) &360
+- Added "Warden of the Grove" (TDM:166) &361
+- Added "Mardu Siegebreaker" (TDM:206) &362
+- Added "Zurgo, Thunder's Decree" (TDM:237) &363
+- Added "Ambling Stormshell" (TDM:37) &364
+- Added "Kotis, the Fangkeeper" (TDM:202) &365
+- Added "Sidisi, Regent of the Mire" (TDM:92) &366
+- Added "Kotis, the Fangkeeper" (TDM:202) &367
+- Added "Bloomvine Regent // Claim Territory // Bloomvine Regent" (TDM:381) &368
+- Added "Scavenger Regent // Exude Toxin" (TDM:90) &369
+- Added "Eshki Dragonclaw" (TDM:182) &370
+- Added "Teval, Arbiter of Virtue" (TDM:230) &371
+- Added "Marang River Regent // Coil and Catch" (TDM:51) [foil] &372
+- Added "Dragonologist" (TDM:295) [foil] &373
+- Added "Anafenza, Unyielding Lineage" (TDM:2) &374
+- Added "Narset, Jeskai Waymaster" (TDM:365) &375
+- Added "Felothar, Dawn of the Abzan" (TDM:358) &376
+- Added "Parapet Thrasher" (TDC:76) &377
+- Added "Lasyd Prowler" (TDM:149) [foil] &378
+- Added "Magmatic Hellkite" (TDM:301) &379
+- Added "Sarkhan, Dragon Ascendant" (TDM:302) &380
+- Added "Teval, Arbiter of Virtue" (TDM:373) [foil] &381
+- Added "Sarkhan, Dragon Ascendant" (TDM:403) [foil] &382
+- Added "Dragonologist" (TDM:42) &383
+- Added "Eshki Dragonclaw" (TDM:182) &384
+- Added "Yathan Roadwatcher" (TDM:236) &385
+- Added "Avenger of the Fallen" (TDM:337) &386
+- Added "Anafenza, Unyielding Lineage" (TDM:2) &387
+- Added "Stadium Headliner" (TDM:122) &388
+- Added "Ojer Kaslem, Deepest Growth // Temple of Cultivation" (LCI:204) &389
+- Added "Neriv, Heart of the Storm" (TDM:210) &390
+- Added "Dragonologist" (TDM:42) &391
+- Added "Docent of Perfection // Final Iteration" (INR:62) [foil] &392
+- Added "Noble Hierarch" (PLST:MM2-151) &393
+- Added "Hopeful Initiate" (INR:343) &394
+- Added "Hopeful Initiate" (INR:27) [foil] &395
+- Added "Thing in the Ice // Awoken Horror" (INR:460) [foil] &396
+- Added "District Mascot" (DFT:158) &397
+- Added "Hollow One" (SCH:25) &398
+- Added "Songcrafter Mage" (TDM:371) [foil] &399
+- Added "Layla Hassan" (ACR:177) [etched] &400
+- Added "Oltec Matterweaver" (PW24:12) [foil] &401
+- Added "Recruitment Officer" (GDY:7) &402
+- Added "Salvation Swan" (BLB:28) &403
+- Added "Essence Channeler" (BLB:356) &404
+- Added "Jackdaw Savior" (BLB:18) [foil] &405
+- Added "Valley Questcaller" (BLB:299) &406
+- Added "Knight-Errant of Eos" (MOM:346) [foil] &407
+- Added "Essence of Orthodoxy" (MOM:376) &408
+- Added "Boon-Bringer Valkyrie" (MOM:9) [foil] &409
+- Added "Osteomancer Adept" (BLB:312) &410
+- Added "Mindspring Merfolk" (DFT:51) &411
+- Added "Mindspring Merfolk" (DFT:51) &412
+- Added "Mindspring Merfolk" (DFT:51) &413
+- Added "Rhet-Tomb Mystic" (DRC:26) &414
+- Added "Bloodline Keeper // Lord of Lineage" (INR:327) &415
+- Added "Waxen Shapethief" (DFT:74) &416
+- Added "Qarsi Revenant" (TDM:426) [foil] &417
+- Added "Ochre Jelly" (AFR:196) &418
+- Added "Persistent Constrictor" (DSC:52) &419
+- Added "Abyssal Harvester" (FDN:316) &420
+- Added "Sage of the Skies" (TDM:22) &421
+- Added "Lightstall Inquisitor" (PEOE:24s) [foil] &422
+- Added "Sunstar Chaplain" (EOE:40) &423
+- Added "Starwinder" (EOE:79) &424
+- Added "Pinnacle Emissary" (EOE:223) &425
+- Added "Ragost, Deft Gastronaut" (EOE:300) &426
+- Added "Biotech Specialist" (EOE:214) &427
+- Added "Bastion Protector" (MIC:80) &428
+- Added "Ghostly Dancers" (DSK:13) &429
+- Added "Reluctant Role Model" (DSK:26) &430
+- Added "Reluctant Role Model" (DSK:26) &431
+- Added "Reluctant Role Model" (DSK:26) &432
+- Added "Reluctant Role Model" (DSK:26) &433
+- Added "Toby, Beastie Befriender" (DSK:35) &434
+- Added "Toby, Beastie Befriender" (DSK:35) &435
+- Added "Jackdaw Savior" (BLB:18) &436
+- Added "Jackdaw Savior" (BLB:18) &437
+- Added "Essence Channeler" (BLB:12) &438
+- Added "Lae'zel, Vlaakith's Champion" (CLB:29) &439
+- Added "Mary Jane Watson" (SPM:134) &440
+- Added "Spectacular Spider-Man" (SPM:14) &441
+- Added "Morlun, Devourer of Spiders" (SPM:257) [foil] &442
+- Added "The Sixth Doctor" (WHO:443) [foil] &443
+- Added "Sisterhood of Karn" (WHO:399) &444
+- Added "The Fourth Doctor" (WHO:415) &445
+- Added "Jamie McCrimmon" (WHO:397) [foil] &446
+- Added "Niv-Mizzet, Parun" (RVR:207) &447
+- Added "Unctus, Grand Metatect" (ONE:303) &448
+- Added "Unyielding Gatekeeper" (MKM:35) &449
+- Added "Unstoppable Slasher" (DSK:119) &450
+- Added "Anticausal Vestige" (EOE:1) &451
+- Added "Mm'menon, the Right Hand" (EOE:68) [foil] &452
+- Added "Magus of the Moon" (SPG:125) &453
+- Added "Possibility Technician" (EOE:153) &454
+- Added "Possibility Technician" (EOE:153) &455
+- Added "Ragost, Deft Gastronaut" (EOE:224) &456
+- Added "Xu-Ifit, Osteoharmonist" (EOE:294) [foil] &457
+- Added "Pinnacle Emissary" (EOE:223) &458
+- Added "Mm'menon, the Right Hand" (EOE:68) &459
+- Added "Tannuk, Steadfast Second" (EOE:162) &460
+- Added "Fear of Missing Out" (DSK:136) &461
+- Added "Summon: Primal Odin" (FIN:121) [foil] &462
+- Added "Balustrade Wurm" (DSK:319) [foil] &463
+- Added "Evercoat Ursine" (BLC:64) &464
+- Added "Omnivorous Flytrap" (DSK:322) [foil] &465
+- Added "Hauntwoods Shrieker" (DSK:349) &466
+- Added "Curator Beastie" (DSC:58) &467
+- Added "Squirrel Mob" (BLC:85) &468
+- Added "Clockspinning" (WHO:215) &469
+- Added "Auroral Procession" (TDM:169) &470
+- Added "Snap" (WOC:110) &471
+- Added "Moon-Blessed Cleric" (AFR:26) &472
+- Added "Sphere of Safety" (RVR:447) [foil] &473
+- Added "Spider-Ham, Peter Porker" (PW25:10) [foil] &474
+- Added "Spider-Ham, Peter Porker" (PW25:10) [foil] &475
+- Added "Preacher of the Schism" (PLCI:113p) &476
+- Added "Xantcha, Sleeper Agent" (CMM:362) &477
+- Added "Farhaven Elf" (SLD:766) [foil] &478
+- Added "Topiary Stomper" (SNC:160) &479
+- Added "Goldvein Hydra" (OTJ:167) &480
+- Added "Wall of Roots" (P30A:4) [foil] &481
+- Added "Omnivorous Flytrap" (DSK:192) &482
+- Added "Valley Mightcaller" (BLB:202) &483
+- Added "Demolisher Spawn" (DSC:59) &484
+- Added "Ant Queen" (MM2:139) &485
+- Added "Arasta of the Endless Web" (BLC:205) &486
+- Added "Conclave Sledge-Captain" (MOC:123) &487
+- Added "Scrapshooter" (BLB:324) &488
+- Added "Guardian Sunmare" (DFT:15) &489
+- Added "Aerith Gainsborough" (FIN:4) [foil] &490
+- Added "Hugs, Grisly Guardian" (BLB:333) &491
+- Added "Frenzied Baloth" (EOE:183) &492
+- Added "Restoration Angel" (INR:299) &493
+- Added "Loot, Exuberant Explorer" (FDN:106) [foil] &494
+- Added "Wizened Mentor" (DRC:24) &495
+- Added "Terastodon" (SLD:1318) [foil] &496
+- Added "Springheart Nantuko" (MH3:341) &497
+- Added "Reclamation Sage" (SLD:777) [foil] &498
+- Added "Reclamation Sage" (SLD:777) [foil] &499
+- Added "Reclamation Sage" (SLD:777) [foil] &500
+- Added "Druid of Purification" (SLD:877) [foil] &501
+- Added "Prosperous Innkeeper" (SLD:878) [foil] &502
+- Added "Prosperous Innkeeper" (SLD:878) [foil] &503
+- Added "Llanowar Visionary" (SLD:771) [foil] &504
+- Added "Pollenbright Druid" (SLD:776) [foil] &505
+- Added "Arbor Elf" (SLD:1317) &506
+- Added "Terastodon" (SLD:1318) &507
+- Added "Reclamation Sage" (SLD:777) [foil] &508
+- Added "Arbor Elf" (SLD:1317) [foil] &509
+- Added "Jaspera Sentinel" (SLD:770) [foil] &510
+- Added "Jaspera Sentinel" (SLD:770) [foil] &511
+- Added "Defiler of Vigor" (DMU:412) [foil] &512
+- Added "Birds of Paradise" (LTC:235) &513
+- Added "Scurry Oak" (MH2:172) &514
+- Added "Galadhrim Brigade" (LTC:502) [foil] &515
