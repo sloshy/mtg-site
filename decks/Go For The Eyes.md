@@ -5,8 +5,9 @@ sourceId: '8377316'
 sourceUrl: 'https://archidekt.com/decks/8377316'
 created: '2026-02-23T13:34:52.727Z'
 tags: []
-lastSynced: '2026-07-19T22:24:26.660Z'
+lastSynced: '2026-08-06T21:38:34.971Z'
 format: commander
+sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
 ---
 
 ## Commander
@@ -107,23 +108,15 @@ format: commander
 1 Cheering Crowd &87
 
 ## Maybeboard
-1 Weathered Sentinels &96
 1 Blasphemous Act &100
 1 Chandra's Ignition &103
-1 Ruby, Daring Tracker &104
 1 Fangs of Kalonia &108
-1 Quilled Greatwurm &109
-1 Zopandrel, Hunger Dominus &110
 1 Hull Breach &111
-1 Frenzied Baloth &112
-1 Quartzwood Crasher &113
 1 Blackblade Reforged &114
 1 Maskwood Nexus &116
-1 Gyre Sage &117
 1 Sylvan Library &119
 1 Power Fist &94
 1 Redirect Lightning &95
 1 Traverse the Outlands &97
 1 Sword of Truth and Justice &98
-1 Vorinclex, Monstrous Raider &99
 1 Bow of Nylea &101

@@ -26,8 +26,9 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-07-31T04:25:04.922Z'
+lastSynced: '2026-08-06T21:38:34.461Z'
 format: commander
+sourceUpdatedAt: '2026-07-30T21:58:44.994865Z'
 ---
 
 ## Commander

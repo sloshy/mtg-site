@@ -67,3 +67,14 @@
 ## 2026-07-19T22:24:26.650Z
 
 - Added "Bow of Nylea" to Maybeboard &101
+
+## 2026-08-06T21:38:35.000Z
+
+- Removed "Weathered Sentinels" from Maybeboard &96
+- Removed "Ruby, Daring Tracker" from Maybeboard &104
+- Removed "Quilled Greatwurm" from Maybeboard &109
+- Removed "Zopandrel, Hunger Dominus" from Maybeboard &110
+- Removed "Frenzied Baloth" from Maybeboard &112
+- Removed "Quartzwood Crasher" from Maybeboard &113
+- Removed "Gyre Sage" from Maybeboard &117
+- Removed "Vorinclex, Monstrous Raider" from Maybeboard &99

@@ -5,8 +5,9 @@ sourceId: '5778121'
 sourceUrl: 'https://archidekt.com/decks/5778121'
 created: '2026-02-23T13:34:54.296Z'
 tags: []
-lastSynced: '2026-07-31T04:25:03.924Z'
+lastSynced: '2026-08-06T21:38:33.485Z'
 format: commander
+sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 ---
 
 ## Commander
