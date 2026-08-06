@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta24
-ritual-content-hash: 157ec422c5cb2afc33bf4ed94e5d33ee67300f0000e5ee92820e762a4ec5d071
+ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-content-hash: 48cd0d033e00873561b7c75cbc80323922601412e03a63748c7a186fec4082d4
 ---
 
 # Building and serving a Ritual site
@@ -165,17 +165,18 @@ CLI, the admin Build Site page, and the `build_site` MCP tool all do this).
 URLs need a unique User-Agent: pass `--moxfield-user-agent "you@example.com"` or
 set `MOXFIELD_USER_AGENT`.
 
-Commands that read the Scryfall card cache (`add-card`, `edit`, `price`,
-`build-site`, `serve --build`, `admin`) share a `--refresh <mode>` option
-controlling cache freshness: `ask` (the default — prompt about stale or empty
-caches, skipping the prompt when prompts are unavailable; `build-site` is the
-exception, bulk-downloading an empty or week-old cache without asking, since it
-cannot build a site without card data), `auto` (refresh stale data without
-asking, bulk download allowed), `no-bulk` (refresh stale prices per-card, never
-a bulk download), and `never` (use the cache as-is, making no request of any
-kind — under `never`, `price` reports uncached cards as unpriced instead of
-fetching them, and a `build-site` run with no cached symbology renders without
-mana symbols).
+Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
+— where the mode also governs its Card Kingdom buylist cache — `build-site`,
+`serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
+freshness: `ask` (the default — prompt about stale or empty caches, skipping the
+prompt when prompts are unavailable; `build-site` is the exception,
+bulk-downloading an empty or week-old cache without asking, since it cannot
+build a site without card data), `auto` (refresh stale data without asking, bulk
+download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
+download), and `never` (use the cache as-is, making no request of any kind —
+under `never`, `price` reports uncached cards as unpriced instead of fetching
+them, and a `build-site` run with no cached symbology renders without mana
+symbols).
 Headless builds (e.g. CI) should pass `--refresh auto` or `--refresh never`
 explicitly.
 
@@ -237,6 +238,19 @@ baked data when the API is unreachable:
 ritual config set site.apiBaseUrl "https://ritual-api.example.com"
 ritual build-site
 ```
+
+A server-backed site also offers **sell mode**: Card Kingdom buylist prices beside each
+card, an on-buylist filter, buylist grouping/sorting, and a CK sell-cart export. Quotes
+are fetched live (never baked), so a fully static build never shows it. It is on by
+default; disable it for a published site with:
+
+```bash
+ritual config set site.sellMode false
+```
+
+The buylist itself is only ever downloaded on request — `ritual sell --refresh auto`,
+the admin **Refresh Cache** page's *Refresh buylist* button, or the `refresh_buylist`
+tool. No page load triggers the ~70 MB fetch.
 
 ## Web admin
 

@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta24
-ritual-content-hash: 9d27b5575c5ef17875074ea9295108dbd8ccb564bfb191789b21c5ec730aee0d
+ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-content-hash: 1b6c09684401e66d52ba7c480ae7739f07d42e89d348b3679fab82aeb495e9ac
 ---
 
 # Editing cards in any Ritual list
@@ -52,17 +52,18 @@ Conventions shared by every one-shot command:
   instead of hanging or exiting 0 having done nothing. A non-terminal stdin —
   every agent invocation — is treated exactly the same way, so the flag is never
   strictly required. There are no per-command non-interactive flags.
-- Commands that read the Scryfall card cache (`add-card`, `edit`, `price`,
-  `build-site`, `serve --build`, `admin`) share a `--refresh <mode>` option
-  controlling cache freshness: `ask` (the default — prompt about stale or empty
-  caches, skipping the prompt when prompts are unavailable; `build-site` is the
-  exception, bulk-downloading an empty or week-old cache without asking, since it
-  cannot build a site without card data), `auto` (refresh stale data without
-  asking, bulk download allowed), `no-bulk` (refresh stale prices per-card, never
-  a bulk download), and `never` (use the cache as-is, making no request of any
-  kind — under `never`, `price` reports uncached cards as unpriced instead of
-  fetching them, and a `build-site` run with no cached symbology renders without
-  mana symbols).
+- Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
+  — where the mode also governs its Card Kingdom buylist cache — `build-site`,
+  `serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
+  freshness: `ask` (the default — prompt about stale or empty caches, skipping the
+  prompt when prompts are unavailable; `build-site` is the exception,
+  bulk-downloading an empty or week-old cache without asking, since it cannot
+  build a site without card data), `auto` (refresh stale data without asking, bulk
+  download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
+  download), and `never` (use the cache as-is, making no request of any kind —
+  under `never`, `price` reports uncached cards as unpriced instead of fetching
+  them, and a `build-site` run with no cached symbology renders without mana
+  symbols).
 
 ## Add a card
 
@@ -142,6 +143,10 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
 - `--condition NM|LP|MP|HP|DMG|NONE` — decks and collections only (wanted entries
   carry no condition). `NONE` clears a recorded grade; note that `NM` is the
   unrecorded default and writes an ungraded line, exactly like `NONE`.
+- `--label sale,trade|keep|none` — collections only. Sets the card's label
+  override (`sale`/`trade` combine; `keep` stands alone); `none` clears it so
+  the collection's front-matter default applies again. `add-card` takes the
+  same `--label` (minus `none`) to label a fresh collection add.
 - Decks only: `--section <name>` moves the line to that section (created if
   missing); `--commander` / `--no-commander` move it into / out of the
   `## Commander` section.
@@ -210,8 +215,10 @@ each. Moving a printing-less card into a collection prompts for a specific print
 collections, and wanted lists: a selection menu covers all lists (plus create-new
 items). Sessions support name/collector entry modes, per-type edit modes over
 existing entries, and undo. Creating a deck prompts for its format, and deck sessions
-have a `🏷️ Change Format` menu action that rewrites the `format:` front matter on the
-next save. A deck with no `format:` is read as Commander when it has a `## Commander`
+have `🏷️ Change Format` and `🔖 Edit Tags` menu actions that rewrite the front
+matter on the next save; collection sessions likewise offer `🏷️ Edit List Labels`
+for the default card labels (scripted equivalent: `ritual metadata`). A deck with no
+`format:` is read as Commander when it has a `## Commander`
 section, and saving writes that inferred format into the file (see the **ritual-decks**
 skill). Not suitable for non-interactive agents — use the one-shot commands above
 instead:
@@ -318,14 +325,18 @@ ritual export --collection --preset archidekt         # built-in: Archidekt impo
 
 List names take an optional `deck:`/`collection:`/`wanted:` prefix (or scope with
 `--deck`/`--collection`/`--wanted`). Filters: `--name <terms>`, `--set <code>`,
-`--finish nonfoil|foil|etched` (nonfoil also matches unmarked cards), and
+`--finish nonfoil|foil|etched` (nonfoil also matches unmarked cards),
 `--condition <list>` — comma-separated NM|LP|MP|HP|DMG|none, where a grade
 matches only cards with it explicitly marked and `none` matches cards without
-one (e.g. `--condition NM,none`); wanted entries never match. Available columns:
+one (e.g. `--condition NM,none`); wanted entries never match — and
+`--labels <list>` — comma-separated sale|trade|keep|none matched against each
+collection card's *effective* labels (`none` = unlabeled); deck and wanted
+entries never match. Available columns:
 `name`, `quantity`, `set`, `collectorNumber`, `edition` (set + collector
 number as `SET:number`), `scryfallId` (the printing's Scryfall UUID, resolved
 from the local Scryfall cache — an uncached printing exports an empty cell plus a
-warning), `finish`, `isFoil` (true when foil or etched), `condition`, `note`,
+warning), `finish`, `isFoil` (true when foil or etched), `condition`, `labels`
+(effective labels, comma-joined), `note`,
 `section`, `listName`, `listType`. Columns apply to
 csv/json only: giving `--columns`, `--dialect`, `--no-header`, or `--quote-all`
 alongside an explicit `--format text|md` is a usage error (a preset's stored

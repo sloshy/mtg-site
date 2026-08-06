@@ -1,3 +1,9 @@
+---
+labels:
+  - sale
+  - trade
+---
+
 # Rare Creatures Box
 
 ## Main
@@ -516,3 +522,281 @@
 - Birds of Paradise (LTC:235) &513
 - Scurry Oak (MH2:172) &514
 - Galadhrim Brigade (LTC:502) [foil] &515
+- Summon: Titan (FIN:204) &516
+- Matoya, Archon Elder (FIN:62) &517
+- Jumbo Cactuar (FIN:191) &518
+- Ancient Adamantoise (FIN:172) &519
+- Clive, Ifrit's Dominant // Ifrit, Warden of Inferno (FIN:458) &520
+- Vannifar, Evolved Enigma (MKM:241) &521
+- Doorkeeper Thrull (MKM:338) &522
+- Innocuous Researcher (MKC:348) &523
+- Lamplight Phoenix (MKM:406) &524
+- Rassilon, the War President (WHO:434) &525
+- Homicide Investigator (MKM:86) &526
+- Kylox, Visionary Inventor (MKM:214) &527
+- Krenko, Baron of Tin Street (MKM:135) &528
+- Tributary Instructor (LCC:96) &529
+- Viridian Shaman (SLD:782) [foil] &530
+- Doomskar Warrior (MOM:185) [foil] &531
+- Viridian Shaman (SLD:782) [foil] &532
+- Hope Estheim (FIN:396) &533
+- Golbez, Crystal Collector (FIN:395) &534
+- Bartz and Boko (FIN:175) &535
+- Summon: Leviathan (FIN:77) &536
+- Bruse Tarl, Boorish Herder (FCA:50) &537
+- Lightning, Army of One (FIN:320) &538
+- Zell Dincht (FIN:170) [foil] &539
+- Summon: G.F. Cerberus (FIN:162) &540
+- Sazh Katzroy (FIN:199) &541
+- Zodiark, Umbral God (FIN:128) &542
+- Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (FIN:397) &543
+- Sharp-Eyed Rookie (MKM:353) &544
+- Pyrotechnic Performer (MKM:407) &545
+- Copy Catchers (MKC:330) &546
+- Axebane Ferox (MKM:409) &547
+- Incinerator of the Guilty (MKM:132) [foil] &548
+- Lazav, Wearer of Faces (MKM:318) &549
+- Niv-Mizzet, Guildpact (MKM:368) &550
+- Duskana, the Rage Mother (MKC:312) &551
+- Steamcore Scholar (MKM:397) &552
+- Havoc Eater (MKC:341) &553
+- Doorkeeper Thrull (MKM:338) &554
+- Rakdos, Patron of Chaos (MKM:369) [foil] &555
+- Raubahn, Bull of Ala Mhigo (FIN:388) [foil] &556
+- Ardyn, the Usurper (FIN:379) &557
+- Lulu, Stern Guardian (FIC:143) &558
+- Vincent Valentine // Galian Beast (FIN:125) [foil] &559
+- Seifer Almasy (FIN:156) [foil] &560
+- Firion, Wild Rose Warrior (FIN:137) &561
+- Yuffie, Materia Hunter (FIC:158) &562
+- Setzer, Wandering Gambler (FIC:183) &563
+- Ardyn, the Usurper (FIN:379) &564
+- Ardbert, Warrior of Darkness (FIC:164) &565
+- Raubahn, Bull of Ala Mhigo (FIN:151) [foil] &566
+- Bartz and Boko (FIN:469) &567
+- Jenova, Ancient Calamity (FIN:493) &568
+- Balthier and Fran (FIN:213) &569
+- Summon: Primal Odin (FIN:121) [foil] &570
+- Summon: G.F. Cerberus (FIN:162) &571
+- Krile Baldesion (FIC:176) &572
+- The Wandering Minstrel (FIN:249) &573
+- Ultima, Origin of Oblivion (FIN:2) &574
+- Jecht, Reluctant Guardian // Braska's Final Aeon (FIN:104) [foil] &575
+- Tifa Lockhart (FIN:206) &576
+- Raubahn, Bull of Ala Mhigo (FIN:151) &577
+- Ardyn, the Usurper (FIN:89) &578
+- Kain, Traitorous Dragoon (FIN:105) &579
+- Laboratory Maniac (FCA:30) &580
+- Emet-Selch, Unsundered // Hades, Sorcerer of Eld (FIN:218) &581
+- Hope Estheim (FIN:226) &582
+- Raubahn, Bull of Ala Mhigo (FIN:151) &583
+- Freestrider Lookout (OTJ:340) [foil] &584
+- Professional Face-Breaker (M3C:216) &585
+- Taii Wakeen, Perfect Shot (OTJ:365) &586
+- Delina, Wild Mage (AFR:138) [foil] &587
+- Geralf's Messenger (PLST:DKA-63) &588
+- Hunted Bonebrute (MKM:87) &589
+- Fleshbag Marauder (SLD:841) [foil] &590
+- Witch of the Moors (SLD:1722) [foil] &591
+- Champion of the Perished (SLD:837) [foil] &592
+- Diregraf Colossus (SLD:840) [foil] &593
+- Breeches, Eager Pillager (SLD:1551) [foil] &594
+- Llanowar Elves (SLD:1553) [foil] &595
+- Llanowar Elves (SLD:1553) [foil] &596
+- Light-Paws, Emperor's Voice (SLD:1877) [foil] &597
+- Murktide Regent (SLD:1878) [foil] &598
+- Sun Titan (SLD:1550) [foil] &599
+- Relentless Dead (SLD:850) [foil] &600
+- Angel of Despair (SCH:22) [foil] &601
+- Tolsimir, Midnight's Light (MKM:236) &602
+- Wojek Investigator (MKM:429) [foil] &603
+- Nelly Borca, Impulsive Accuser (MKC:318) &604
+- Wojek Investigator (MKM:36) &605
+- Thieving Varmint (OTC:59) &606
+- Taii Wakeen, Perfect Shot (OTJ:365) &607
+- Tinybones, the Pickpocket (OTJ:109) [foil] &608
+- Savvy Trader (OTC:69) &609
+- Colossal Rattlewurm (OTJ:339) [foil] &610
+- Kaervek, the Punisher (OTJ:92) [foil] &611
+- Bruse Tarl, Roving Rancher (OTJ:198) [foil] &612
+- Outcaster Trailblazer (OTJ:343) &613
+- Eris, Roar of the Storm (OTC:41) &614
+- Bruse Tarl, Roving Rancher (OTJ:350) [foil] &615
+- Fortune, Loyal Steed (OTJ:313) &616
+- Summon: Valefor (FIC:42) &617
+- Summon: Kujata (FIC:199) &618
+- Summon: Brynhildr (FIN:160) &619
+- Summon: Leviathan (FIN:361) [foil] &620
+- Satoru, the Infiltrator (POTJ:230s) [foil] &621
+- Dour Port-Mage (BLB:303) &622
+- Wylie Duke, Atiin Hero (OTJ:239) &623
+- Kambal, Profiteering Mayor (OTJ:353) &624
+- Taii Wakeen, Perfect Shot (OTJ:234) &625
+- Kellan, the Kid (OTJ:213) &626
+- Freestrider Lookout (OTJ:163) &627
+- Seraphic Steed (OTJ:232) &628
+- Crackling Spellslinger (OTC:61) &629
+- Roxanne, Starfall Savant (OTJ:362) [foil] &630
+- Eriette, the Beguiler (OTJ:293) &631
+- Colossal Rattlewurm (OTJ:339) &632
+- Roxanne, Starfall Savant (OTJ:228) &633
+- Kaervek, the Punisher (OTJ:289) [foil] &634
+- Doorkeeper Thrull (MKM:13) &635
+- Massacre Girl, Known Killer (MKM:344) &636
+- Unyielding Gatekeeper (MKM:392) [foil] &637
+- Wojek Investigator (MKM:36) [foil] &638
+- Final-Word Phantom (MKC:332) &639
+- Yarus, Roar of the Old Gods (MKM:245) [foil] &640
+- Tenth District Hero (PMKM:34s) [foil] &641
+- Entity Tracker (DSK:307) [foil] &642
+- Azure Beastbinder (BLB:302) &643
+- Azure Beastbinder (BLB:302) [foil] &644
+- Tishana's Tidebinder (LCI:335) &645
+- Tishana's Tidebinder (LCI:335) &646
+- Tishana's Tidebinder (LCI:335) &647
+- Faerie Mastermind (MOM:58) &648
+- Faerie Mastermind (MOM:58) &649
+- Faerie Mastermind (MOM:58) &650
+- Strix Serenade (MH3:327) [foil] &651
+- Thundertrap Trainer (BLB:307) &652
+- Baral, Chief of Compliance (MUL:8) [foil] &653
+- Gale, Waterdeep Prodigy (CLB:485) [etched] &654
+- Taunting Sliver (CMM:759) &655
+- Valley Rotcaller (BLB:119) [foil] &656
+- Dauthi Voidwalker (MH2:81) &657
+- Fury (MH2:126) &658
+- Magus of the Bridge (MH2:92) &659
+- Necrogoyf (MH2:93) &660
+- Harmonic Prodigy (MH2:132) &661
+- Harmonic Prodigy (MH2:352) &662
+- Bloodbraid Marauder (MH2:116) &663
+- Selvala, Eager Trailblazer (OTJ:231) &664
+- Riku of Many Paths (OTJ:361) &665
+- Kaervek, the Punisher (OTJ:92) &666
+- Thornvault Forager (BLB:197) &667
+- Valley Rotcaller (BLB:119) &668
+- Howlsquad Heavy (DFT:134) &669
+- Captivating Vampire (INR:100) [foil] &670
+- Captivating Vampire (INR:374) [foil] &671
+- Deadeye Navigator (AVR:47) &672
+- Torens, Fist of the Angels (INR:250) [foil] &673
+- Teysa, Envoy of Ghosts (C21:230) &674
+- Sunspine Lynx (BLB:155) &675
+- Captain Lannery Storm (J22:509) &676
+- Pollenbright Druid (SLD:776) [foil] &677
+- Frilled Mystic (SLD:786) [foil] &678
+- Frilled Mystic (SLD:786) [foil] &679
+- Akul the Unrepentant (OTJ:189) [foil] &680
+- Angelic Sell-Sword (OTC:46) &681
+- Malcolm, the Eyes (OTJ:219) [foil] &682
+- Agrus Kos, Spirit of Justice (MKM:184) [foil] &683
+- Coveted Falcon (MKM:393) &684
+- Barbed Servitor (MKM:398) &685
+- Teval, Arbiter of Virtue (TDM:373) &686
+- Eshki Dragonclaw (TDM:182) &687
+- Ezio Auditore da Firenze (ACR:113) [foil] &688
+- Aya of Alexandria (ACR:140) [foil] &689
+- Shaun & Rebecca, Agents (ACR:247) [etched] &690
+- Fugitive Codebreaker (MKM:348) &691
+- Fugitive Codebreaker (MKM:348) [foil] &692
+- Fugitive Codebreaker (MKM:127) &693
+- Gau, Feral Youth (FIC:152) &694
+- Ardyn, the Usurper (FIN:89) &695
+- Beatrix, Loyal General (FIN:426) &696
+- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:39) &697
+- Aerith Gainsborough (FIN:4) &698
+- Aerith Gainsborough (FIN:4) &699
+- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:16) &700
+- Wall of Omens (FCA:27) &701
+- Minwu, White Mage (FIN:430) &702
+- Minwu, White Mage (FIN:26) [foil] &703
+- Stiltzkin, Moogle Merchant (FIN:433) &704
+- Stiltzkin, Moogle Merchant (FIN:34) &705
+- Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:428) &706
+- Balthier and Fran (FIN:393) &707
+- Helitrooper (FIC:106) &708
+- Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:39) [foil] &709
+- Wall of Omens (FCA:27) &710
+- Ultima, Origin of Oblivion (FIN:2) &711
+- Jecht, Reluctant Guardian // Braska's Final Aeon (FIN:104) &712
+- Firion, Wild Rose Warrior (FIN:137) &713
+- Serah Farron // Crystallized Serah (FIN:240) &714
+- Zell Dincht (FIN:170) &715
+- Zodiark, Umbral God (FIN:128) &716
+- Red XIII, Proud Warrior (FIC:181) [foil] &717
+- Gau, Feral Youth (FIC:152) [foil] &718
+- Geralf, the Fleshwright (OTJ:50) &719
+- Jadar, Ghoulcaller of Nephalia (MID:108) &720
+- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:380) &721
+- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:91) &722
+- Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:91) &723
+- Aven Interrupter (OTJ:4) [foil] &724
+- Hulking Raptor (LCI:327) &725
+- Thundertrap Trainer (BLB:386) [foil] &726
+- Valley Questcaller (BLB:299) &727
+- Salvation Swan (BLB:297) &728
+- Jackdaw Savior (BLB:296) [foil] &729
+- Entity Tracker (DSK:53) &730
+- Valley Floodcaller (BLB:79) &731
+- Valley Floodcaller (BLB:79) &732
+- Piper Wright, Publick Reporter (PIP:379) [foil] &733
+- Valley Questcaller (BLB:36) &734
+- Lazav, Wearer of Faces (MKM:318) &735
+- Kellan, Inquisitive Prodigy // Tail the Suspect (MKM:212) &736
+- Savvy Trader (OTC:69) &737
+- Savvy Trader (OTC:69) &738
+- Oviya, Automech Artisan (DFT:173) &739
+- Bloomvine Regent // Claim Territory // Bloomvine Regent (TDM:381) &740
+- Jolrael, Voice of Zhalfir (MAT:230) [foil] &741
+- Coveted Falcon (MKM:48) &742
+- Aurelia's Vindicator (MKM:336) [foil] &743
+- Niv-Mizzet, Guildpact (MKM:319) &744
+- Izoni, Center of the Web (MKM:209) [foil] &745
+- Judith, Carnage Connoisseur (MKM:210) &746
+- The Fourth Doctor (WHO:415) &747
+- Idris, Soul of the TARDIS (WHO:419) [foil] &748
+- Lyse Hext (FIC:178) &749
+- Eye of Nidhogg (FIC:115) &750
+- Jill, Shiva's Dominant // Shiva, Warden of Ice (FIN:378) [foil] &751
+- Jill, Shiva's Dominant // Shiva, Warden of Ice (FIN:58) &752
+- Hope Estheim (FIN:226) &753
+- Golbez, Crystal Collector (FIN:225) &754
+- Shadow, Mysterious Assassin (FIC:148) &755
+- Krile Baldesion (FIC:176) &756
+- Vaan, Street Thief (FIN:168) &757
+- Interceptor, Shadow's Hound (FIC:147) &758
+- Edgar, King of Figaro (FIN:51) &759
+- Summon: Brynhildr (FIN:160) &760
+- Jecht, Reluctant Guardian // Braska's Final Aeon (FIN:104) [foil] &761
+- Weeping Angel (WHO:1140) [foil] &762
+- The Twelfth Doctor (WHO:563) &763
+- Reality Smasher (SCH:31) [foil] &764
+- Marvin, Murderous Mimic (DSK:367) &765
+- Springheart Nantuko (MH3:171) [foil] &766
+- Goldberry, River-Daughter (LTR:503) [foil] &767
+- Ultima, Origin of Oblivion (FIN:324) &768
+- Vaan, Street Thief (FIN:168) &769
+- The Wandering Minstrel (FIN:249) &770
+- Tellah, Great Sage (FIN:244) &771
+- Golbez, Crystal Collector (FIN:225) &772
+- Svyelun of Sea and Sky (MH2:69) &773
+- Wonder (MH2:271) &774
+- Timeless Dragon (MH2:35) &775
+- Timeless Dragon (MH2:388) &776
+- Suspicious Stowaway // Seafaring Werewolf (MID:80) &777
+- Ruin Raider (PXLN:118p) &778
+- Squirrel Mob (MH2:286) &779
+- General Ferrous Rokiric (MH2:198) &780
+- General Ferrous Rokiric (MH2:198) [foil] &781
+- Garth One-Eye (MH2:197) &782
+- Deadeye Navigator (INR:59) [foil] &783
+- Smoldering Egg // Ashmouth Dragon (MID:159) &784
+- Sanctifier en-Vec (MH2:27) &785
+- Eloise, Nephalia Sleuth (MIC:3) &786
+- Moonveil Regent (MID:149) &787
+- Hinata, Dawn-Crowned (NEO:222) &788
+- Spring-Leaf Avenger (NEO:208) &789
+- Risona, Asari Commander (NEO:233) &790
+- Risona, Asari Commander (NEO:330) &791
+- Kotose, the Silent Spider (NEO:228) &792
+- Myojin of Towering Might (NEC:38) &793

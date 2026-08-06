@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta24
-ritual-content-hash: 16fab78bd5ae4ada4acbbb6cb0c00a0c29b71dc3e5db515d68055a2f78a94431
+ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-content-hash: e471c1eefb638b8813fdc00e4c641597938297484c1634bb19ba251a4ff42738
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -84,7 +84,7 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
 
 ```
 # My Collection
-- Black Lotus (LEA:232) [foil] [LP] {first edition} &7
+- Black Lotus (LEA:232) [foil] [LP] [keep] {first edition} &7
 ```
 
 ```
@@ -101,11 +101,15 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
   `cleanup`, and the CLI editors print an advisory naming such a line (a 1-3 digit leading integer; a real name like `1996 World Champion`
   is left alone). It is advisory only: the line parses and survives every save, so fix the file.
 - `[foil]`/`[etched]` is the finish, `[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition (the default `NM` is not written), `{...}` a note.
+- `[sale]`/`[trade]`/`[sale,trade]`/`[keep]` (collections only, between condition and note)
+  is a **card label override**: `sale` and `trade` combine, `keep` stands alone. A card's
+  *effective* labels are its own token when present, else the collection's front-matter
+  default — see the **ritual-collections** skill.
 - `&N` is a **stable internal card ID**. Never hand-author or renumber these — the tools manage them.
   Commands that add or edit card lines (editors, card mutations, imports, syncs `deck-sync pull`/`push`
   and `collection-sync` — not `deck-sync status`/`link` — `cleanup`,
   the site build, and the admin/MCP servers) backfill missing IDs on startup and persist
-  them to the files. Read-only commands (`lists`, `diff`, `price`, `export`,
+  them to the files. Read-only commands (`lists`, `diff`, `price`, `sell`, `export`,
   `list-all-cards`, `history --show`, ...) and the `new`/`rename`/`delete` lifecycle
   never touch card lines, and `-n`/`--dry-run` writes nothing, including that backfill.
 
@@ -124,6 +128,9 @@ load but still drops the block on save.
 A deck's YAML front matter carries its `format:` (a fixed set of keys — see the
 **ritual-decks** skill). A deck with no `format:` is treated as Commander when it
 has a `## Commander` section, and the tools write that down on the next save.
+A **collection's** YAML front matter carries its default card labels
+(`labels: [sale, trade]` or `labels: [keep]`); wanted lists define no front-matter
+keys. A flat list's block round-trips byte-for-byte through every save.
 
 **Prefer the CLI (or the web admin / MCP server) over hand-editing files**, so the
 `&N` IDs and `.changes.md` changelog stay correct. Reading files directly for
@@ -140,7 +147,7 @@ still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
 ## The ritual-* skills
 
 - **ritual-decks** — create, import, sync, and price decks
-- **ritual-collections** — manage, sync (Archidekt), and price collections
+- **ritual-collections** — manage, sync (Archidekt), price, and sell (Card Kingdom buylist) collections
 - **ritual-wanted** — manage and price wanted lists
 - **ritual-edit** — card edits across any list: one-shot non-interactive commands (`add-card`, `remove-card`, `set-card`, `note`, scripted `move`), the unified interactive editor, and card exports (CSV, JSON, plain text, Markdown)
 - **ritual-cards** — look up cards and run Scryfall searches
@@ -175,10 +182,13 @@ not there — is always **3**, never 1.
   file format or destination. `json` emits exactly one document per run (a
   card batch or a multi-page search is still one array); `ndjson` streams one
   object per line. Errors go to stderr as
-  `{"error":{"code","message","details"}}` in the structured modes. Two
-  exceptions, both deliberate: `scry` adds a fourth value `--output csv`, and
-  `export` has no `--output` at all (its stdout payload *is* the export —
-  pick the format with `--format csv|json|text|md`, redirect with `--out`).
+  `{"error":{"code","message","details"}}` in the structured modes. Three
+  exceptions, all deliberate: `scry` and `sell` add a fourth value
+  `--output csv` (Scryfall's server-side CSV and Card Kingdom's sell-cart
+  upload format, respectively — `sell`'s csv is a different payload, not the
+  report re-rendered), and `export` has no `--output` at all (its stdout
+  payload *is* the export — pick the format with `--format csv|json|text|md`,
+  redirect with `--out`).
 - `--quiet` suppresses progress and status chatter **only**. The structured
   payload always emits, so `--quiet --output json` is clean JSON with no
   surrounding noise. Errors and data-loss warnings (an unparseable card line, a
@@ -189,17 +199,18 @@ not there — is always **3**, never 1.
 - Piping structured output into an early-closing reader (`… --output ndjson |
   head`) is a clean exit 0, not a crash.
 
-Commands that read the Scryfall card cache (`add-card`, `edit`, `price`,
-`build-site`, `serve --build`, `admin`) share a `--refresh <mode>` option
-controlling cache freshness: `ask` (the default — prompt about stale or empty
-caches, skipping the prompt when prompts are unavailable; `build-site` is the
-exception, bulk-downloading an empty or week-old cache without asking, since it
-cannot build a site without card data), `auto` (refresh stale data without
-asking, bulk download allowed), `no-bulk` (refresh stale prices per-card, never
-a bulk download), and `never` (use the cache as-is, making no request of any
-kind — under `never`, `price` reports uncached cards as unpriced instead of
-fetching them, and a `build-site` run with no cached symbology renders without
-mana symbols).
+Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
+— where the mode also governs its Card Kingdom buylist cache — `build-site`,
+`serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
+freshness: `ask` (the default — prompt about stale or empty caches, skipping the
+prompt when prompts are unavailable; `build-site` is the exception,
+bulk-downloading an empty or week-old cache without asking, since it cannot
+build a site without card data), `auto` (refresh stale data without asking, bulk
+download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
+download), and `never` (use the cache as-is, making no request of any kind —
+under `never`, `price` reports uncached cards as unpriced instead of fetching
+them, and a `build-site` run with no cached symbology renders without mana
+symbols).
 
 ## Setup
 
@@ -215,6 +226,9 @@ ritual config set searchDebounceMs 250 # web editors' add-card search debounce i
 ritual config get <prop>          # read one value (exit 3 when unset)
 ritual config list                # print the full effective config (defaults marked)
 ritual config unset <prop>        # revert a value to its default
+ritual metadata set <list> <prop> <value...>  # list front matter, same shape as config:
+                                  #   deck description/tags/format/sourceId/sourceUrl, collection labels
+ritual metadata get|list|unset <list> [prop]  # read or clear it (get exits 3 when unset)
 ritual cache status               # report cache size/freshness/source without refreshing
 ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download)
 ritual cache preload-set khm      # cache all cards of one set (exit 3 = unknown set code, 1 = search failed)

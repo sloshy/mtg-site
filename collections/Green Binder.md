@@ -1,3 +1,9 @@
+---
+labels:
+  - sale
+  - trade
+---
+
 # Green Binder
 
 ## Main

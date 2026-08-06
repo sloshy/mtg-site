@@ -1,3 +1,9 @@
+---
+labels:
+  - sale
+  - trade
+---
+
 # FF Box 2
 
 ## Main

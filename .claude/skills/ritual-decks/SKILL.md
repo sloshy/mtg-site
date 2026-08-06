@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, or price a deck."
-ritual-version: 0.1.0-beta24
-ritual-content-hash: 6241327a9f64ce7941cc81268b24fe3a6dca3ab522a583385cc8b5ee392ebb0a
+ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-content-hash: 784545bc402355dade3989dae3fa07cfbc6d4bfbb7c2370a66dc5864a5aced9a
 ---
 
 # Managing decks with Ritual
@@ -35,6 +35,18 @@ section means Oathbreaker (checked first), and a command-zone section such as
 `## Commander` means Commander — and that inference is written into the file on
 its next save, so do not add a `format:` by hand to "fix" a deck that displays
 correctly.
+
+The rest of the deck's front matter (`description`, `tags`, `format`, and the
+`sourceId`/`sourceUrl` sync link) is scripted with `ritual metadata` — a
+front-matter-only write that never touches card lines and records no changelog:
+
+```bash
+ritual metadata set my-deck description "A budget mono-red burn list"
+ritual metadata set my-deck tags aggro budget     # replace; --add / --remove merge
+ritual metadata set my-deck format modern
+ritual metadata list my-deck                      # every field, (unset) included
+ritual metadata unset my-deck description
+```
 
 ## One-shot edits (non-interactive — best for agents)
 

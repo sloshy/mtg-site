@@ -43,6 +43,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta24"
+    "version": "0.1.0-beta24-dev.b5ce8c1"
   }
 }

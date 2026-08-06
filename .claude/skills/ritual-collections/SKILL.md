@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
-description: "Manage, sync, and price a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), or get the total value of a collection."
-ritual-version: 0.1.0-beta24
-ritual-content-hash: 432d03f42f671c958525dde887138a5693fc40cd0db65e549e7de8a417098cd1
+description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
+ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-content-hash: cf11928db7ada0a3082a54ba336b0ad3498dd1baf4630239d3ba45959dbbc914
 ---
 
 # Managing collections with Ritual
@@ -35,6 +35,37 @@ succeeds when the card has a single paper printing. Neither finish nor condition
 is defaulted: a headless add always needs `-c`, and needs `-f` whenever the
 pinned printing comes in more than one finish — otherwise it exits 2 naming the
 missing flag rather than writing a half-specified line.
+
+## Labels: for sale / for trade / to keep
+
+Collection lists and cards carry **labels** declaring what the owner would do
+with them: `sale` and `trade` (combinable) or `keep` (exclusive of the other
+two). A list-level default lives in the collection's front matter
+(`labels: [sale, trade]`); an individual card overrides it with a bracketed
+token on its line (`[keep]`, `[sale,trade]`). A card's *effective* labels are
+its override when present, else the list default. Labels drive the public
+site's list filters, the collections-index "Labels" view-all menu, and a
+one-time warning when a `keep`-labeled card is added to a trade.
+
+```bash
+ritual set-card "Main Binder" "Sol Ring" --collection --label keep       # override
+ritual set-card "Main Binder" "Sol Ring" --collection --label sale,trade
+ritual set-card "Main Binder" "Sol Ring" --collection --label none      # back to the list default
+ritual add-card "Main Binder" "Mox Jet" --collection --set lea --collector-number 262 -c LP --label keep
+ritual export --collection --labels trade --columns name,set,collectorNumber,labels
+```
+
+The list-level default is set with `ritual metadata` (the scripting surface —
+mirrors `ritual config`'s set/get/list/unset shape), the interactive session's
+`🏷️ Edit List Labels` action (written on the session's next save), the admin
+editor's **Labels** button, hand-editing the front matter, or the MCP
+`set_list_metadata` tool (`labels` on a collection; `null` clears it).
+
+```bash
+ritual metadata set "Main Binder" labels sale,trade   # list default
+ritual metadata get "Main Binder" labels
+ritual metadata unset "Main Binder" labels            # no default
+```
 
 ## Interactive management
 
@@ -73,8 +104,8 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the collection's existing entries — change a card's printing, finish,
-condition, or note, or remove it — and `↩️ Undo Last Edit` reverts the latest
-edit.
+condition, label, or note, or remove it — and `↩️ Undo Last Edit` reverts the
+latest edit.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -355,3 +386,34 @@ ritual price main-binder --prices eur          # usd | eur | tix (defaults to co
 
 Collection entries are priced at their exact printing and finish; totals include a
 quantity-weighted unpriced-card count.
+
+## Sell to Card Kingdom
+
+`sell` matches cards against Card Kingdom's buylist ("Sell us your cards"): what CK is
+buying, the cash quote per Near Mint copy, and their buy-quantity caps. It works from a
+locally cached copy of CK's pricelist feed (~70 MB, fresh for a day); `--refresh auto`
+downloads it when stale or missing. Defaults to every collection; accepts list names of
+any type (`deck:`/`collection:`/`wanted:` prefixes disambiguate).
+
+```bash
+ritual sell --refresh auto --output json        # everything CK buys from your collections
+ritual sell main-binder --all --no-input        # one list, including skipped entries
+ritual sell --sets dsk,fdn --min 0.50           # only these sets, offers ≥ $0.50/copy
+ritual sell --output csv --out to-sell.csv      # CK sell-cart CSV (upload at cardkingdom.com/static/csvImport)
+```
+
+Entries report `status` `buying` / `not-buying` (CK's buy quantity is 0) / `no-match`,
+with `sellableQuantity = min(owned, CK's cap)` and `value` covering only those copies.
+Quotes are cash for NM copies — played conditions grade down, store credit pays more.
+The `csv` output uses CK's own name/edition spellings and warns beyond their upload caps
+(500 titles / 5,000 cards); etched foils export as plain foil with a warning.
+
+To price an arbitrary set of printings rather than whole lists, use the MCP tool
+`get_buylist_quotes` (or `POST /api/buylist/quotes`), which answers per
+`set:collectorNumber:finish`. Both are cache-backed like `sell`: run
+`ritual sell --refresh auto` (or the `refresh_buylist` tool) first.
+
+The same quotes drive **sell mode** on the admin site and on a server-backed public site
+(`ritual serve --api`): buylist prices beside each card, an on-buylist filter, buylist
+grouping/sorting, and a CK cart export. Turn it off for a published site with
+`ritual config set site.sellMode false`.

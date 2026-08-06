@@ -526,3 +526,287 @@
 - Added "Birds of Paradise" (LTC:235) &513
 - Added "Scurry Oak" (MH2:172) &514
 - Added "Galadhrim Brigade" (LTC:502) [foil] &515
+
+## 2026-08-05T22:00:28.154Z
+
+- Added "Summon: Titan" (FIN:204) &516
+- Added "Matoya, Archon Elder" (FIN:62) &517
+- Added "Jumbo Cactuar" (FIN:191) &518
+- Added "Ancient Adamantoise" (FIN:172) &519
+- Added "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno" (FIN:458) &520
+- Added "Vannifar, Evolved Enigma" (MKM:241) &521
+- Added "Doorkeeper Thrull" (MKM:338) &522
+- Added "Innocuous Researcher" (MKC:348) &523
+- Added "Lamplight Phoenix" (MKM:406) &524
+- Added "Rassilon, the War President" (WHO:434) &525
+- Added "Homicide Investigator" (MKM:86) &526
+- Added "Kylox, Visionary Inventor" (MKM:214) &527
+- Added "Krenko, Baron of Tin Street" (MKM:135) &528
+- Added "Tributary Instructor" (LCC:96) &529
+- Added "Viridian Shaman" (SLD:782) [foil] &530
+- Added "Doomskar Warrior" (MOM:185) [foil] &531
+- Added "Viridian Shaman" (SLD:782) [foil] &532
+- Added "Hope Estheim" (FIN:396) &533
+- Added "Golbez, Crystal Collector" (FIN:395) &534
+- Added "Bartz and Boko" (FIN:175) &535
+- Added "Summon: Leviathan" (FIN:77) &536
+- Added "Bruse Tarl, Boorish Herder" (FCA:50) &537
+- Added "Lightning, Army of One" (FIN:320) &538
+- Added "Zell Dincht" (FIN:170) [foil] &539
+- Added "Summon: G.F. Cerberus" (FIN:162) &540
+- Added "Sazh Katzroy" (FIN:199) &541
+- Added "Zodiark, Umbral God" (FIN:128) &542
+- Added "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire" (FIN:397) &543
+
+## 2026-08-06T21:37:15.505Z
+
+- Added "Sharp-Eyed Rookie" (MKM:353) &544
+- Added "Pyrotechnic Performer" (MKM:407) &545
+- Added "Copy Catchers" (MKC:330) &546
+- Added "Axebane Ferox" (MKM:409) &547
+- Added "Incinerator of the Guilty" (MKM:132) [foil] &548
+- Added "Lazav, Wearer of Faces" (MKM:318) &549
+- Added "Niv-Mizzet, Guildpact" (MKM:368) &550
+- Added "Duskana, the Rage Mother" (MKC:312) &551
+- Added "Steamcore Scholar" (MKM:397) &552
+- Added "Havoc Eater" (MKC:341) &553
+- Added "Doorkeeper Thrull" (MKM:338) &554
+- Added "Rakdos, Patron of Chaos" (MKM:369) [foil] &555
+- Added "Raubahn, Bull of Ala Mhigo" (FIN:388) [foil] &556
+- Added "Ardyn, the Usurper" (FIN:379) &557
+- Added "Lulu, Stern Guardian" (FIC:143) &558
+- Added "Vincent Valentine // Galian Beast" (FIN:125) [foil] &559
+- Added "Seifer Almasy" (FIN:156) [foil] &560
+- Added "Firion, Wild Rose Warrior" (FIN:137) &561
+- Added "Yuffie, Materia Hunter" (FIC:158) &562
+- Added "Setzer, Wandering Gambler" (FIC:183) &563
+- Added "Ardyn, the Usurper" (FIN:379) &564
+- Added "Ardbert, Warrior of Darkness" (FIC:164) &565
+- Added "Raubahn, Bull of Ala Mhigo" (FIN:151) [foil] &566
+- Added "Bartz and Boko" (FIN:469) &567
+- Added "Jenova, Ancient Calamity" (FIN:493) &568
+- Added "Balthier and Fran" (FIN:213) &569
+- Added "Summon: Primal Odin" (FIN:121) [foil] &570
+- Added "Summon: G.F. Cerberus" (FIN:162) &571
+- Added "Krile Baldesion" (FIC:176) &572
+- Added "The Wandering Minstrel" (FIN:249) &573
+- Added "Ultima, Origin of Oblivion" (FIN:2) &574
+- Added "Jecht, Reluctant Guardian // Braska's Final Aeon" (FIN:104) [foil] &575
+- Added "Tifa Lockhart" (FIN:206) &576
+- Added "Raubahn, Bull of Ala Mhigo" (FIN:151) &577
+- Added "Ardyn, the Usurper" (FIN:89) &578
+- Added "Kain, Traitorous Dragoon" (FIN:105) &579
+- Added "Laboratory Maniac" (FCA:30) &580
+- Added "Emet-Selch, Unsundered // Hades, Sorcerer of Eld" (FIN:218) &581
+- Added "Hope Estheim" (FIN:226) &582
+- Added "Raubahn, Bull of Ala Mhigo" (FIN:151) &583
+- Added "Freestrider Lookout" (OTJ:340) [foil] &584
+- Added "Professional Face-Breaker" (M3C:216) &585
+- Added "Taii Wakeen, Perfect Shot" (OTJ:365) &586
+- Added "Delina, Wild Mage" (AFR:138) [foil] &587
+- Added "Geralf's Messenger" (PLST:DKA-63) &588
+- Added "Hunted Bonebrute" (MKM:87) &589
+- Added "Fleshbag Marauder" (SLD:841) [foil] &590
+- Added "Witch of the Moors" (SLD:1722) [foil] &591
+- Added "Champion of the Perished" (SLD:837) [foil] &592
+- Added "Diregraf Colossus" (SLD:840) [foil] &593
+- Added "Breeches, Eager Pillager" (SLD:1551) [foil] &594
+- Added "Llanowar Elves" (SLD:1553) [foil] &595
+- Added "Llanowar Elves" (SLD:1553) [foil] &596
+- Added "Light-Paws, Emperor's Voice" (SLD:1877) [foil] &597
+- Added "Murktide Regent" (SLD:1878) [foil] &598
+- Added "Sun Titan" (SLD:1550) [foil] &599
+- Added "Relentless Dead" (SLD:850) [foil] &600
+- Added "Angel of Despair" (SCH:22) [foil] &601
+- Added "Tolsimir, Midnight's Light" (MKM:236) &602
+- Added "Wojek Investigator" (MKM:429) [foil] &603
+- Added "Nelly Borca, Impulsive Accuser" (MKC:318) &604
+- Added "Wojek Investigator" (MKM:36) &605
+- Added "Thieving Varmint" (OTC:59) &606
+- Added "Taii Wakeen, Perfect Shot" (OTJ:365) &607
+- Added "Tinybones, the Pickpocket" (OTJ:109) [foil] &608
+- Added "Savvy Trader" (OTC:69) &609
+- Added "Colossal Rattlewurm" (OTJ:339) [foil] &610
+- Added "Kaervek, the Punisher" (OTJ:92) [foil] &611
+- Added "Bruse Tarl, Roving Rancher" (OTJ:198) [foil] &612
+- Added "Outcaster Trailblazer" (OTJ:343) &613
+- Added "Eris, Roar of the Storm" (OTC:41) &614
+- Added "Bruse Tarl, Roving Rancher" (OTJ:350) [foil] &615
+- Added "Fortune, Loyal Steed" (OTJ:313) &616
+- Added "Summon: Valefor" (FIC:42) &617
+- Added "Summon: Kujata" (FIC:199) &618
+- Added "Summon: Brynhildr" (FIN:160) &619
+- Added "Summon: Leviathan" (FIN:361) [foil] &620
+- Added "Satoru, the Infiltrator" (POTJ:230s) [foil] &621
+- Added "Dour Port-Mage" (BLB:303) &622
+- Added "Wylie Duke, Atiin Hero" (OTJ:239) &623
+- Added "Kambal, Profiteering Mayor" (OTJ:353) &624
+- Added "Taii Wakeen, Perfect Shot" (OTJ:234) &625
+- Added "Kellan, the Kid" (OTJ:213) &626
+- Added "Freestrider Lookout" (OTJ:163) &627
+- Added "Seraphic Steed" (OTJ:232) &628
+- Added "Crackling Spellslinger" (OTC:61) &629
+- Added "Roxanne, Starfall Savant" (OTJ:362) [foil] &630
+- Added "Eriette, the Beguiler" (OTJ:293) &631
+- Added "Colossal Rattlewurm" (OTJ:339) &632
+- Added "Roxanne, Starfall Savant" (OTJ:228) &633
+- Added "Kaervek, the Punisher" (OTJ:289) [foil] &634
+- Added "Doorkeeper Thrull" (MKM:13) &635
+- Added "Massacre Girl, Known Killer" (MKM:344) &636
+- Added "Unyielding Gatekeeper" (MKM:392) [foil] &637
+- Added "Wojek Investigator" (MKM:36) [foil] &638
+- Added "Final-Word Phantom" (MKC:332) &639
+- Added "Yarus, Roar of the Old Gods" (MKM:245) [foil] &640
+- Added "Tenth District Hero" (PMKM:34s) [foil] &641
+- Added "Entity Tracker" (DSK:307) [foil] &642
+- Added "Azure Beastbinder" (BLB:302) &643
+- Added "Azure Beastbinder" (BLB:302) [foil] &644
+- Added "Tishana's Tidebinder" (LCI:335) &645
+- Added "Tishana's Tidebinder" (LCI:335) &646
+- Added "Tishana's Tidebinder" (LCI:335) &647
+- Added "Faerie Mastermind" (MOM:58) &648
+- Added "Faerie Mastermind" (MOM:58) &649
+- Added "Faerie Mastermind" (MOM:58) &650
+- Added "Strix Serenade" (MH3:327) [foil] &651
+- Added "Thundertrap Trainer" (BLB:307) &652
+- Added "Baral, Chief of Compliance" (MUL:8) [foil] &653
+- Added "Gale, Waterdeep Prodigy" (CLB:485) [etched] &654
+- Added "Taunting Sliver" (CMM:759) &655
+- Added "Valley Rotcaller" (BLB:119) [foil] &656
+- Added "Dauthi Voidwalker" (MH2:81) &657
+- Added "Fury" (MH2:126) &658
+- Added "Magus of the Bridge" (MH2:92) &659
+- Added "Necrogoyf" (MH2:93) &660
+- Added "Harmonic Prodigy" (MH2:132) &661
+- Added "Harmonic Prodigy" (MH2:352) &662
+- Added "Bloodbraid Marauder" (MH2:116) &663
+- Added "Selvala, Eager Trailblazer" (OTJ:231) &664
+- Added "Riku of Many Paths" (OTJ:361) &665
+- Added "Kaervek, the Punisher" (OTJ:92) &666
+- Added "Thornvault Forager" (BLB:197) &667
+- Added "Valley Rotcaller" (BLB:119) &668
+- Added "Howlsquad Heavy" (DFT:134) &669
+- Added "Captivating Vampire" (INR:100) [foil] &670
+- Added "Captivating Vampire" (INR:374) [foil] &671
+- Added "Deadeye Navigator" (AVR:47) &672
+- Added "Torens, Fist of the Angels" (INR:250) [foil] &673
+- Added "Teysa, Envoy of Ghosts" (C21:230) &674
+- Added "Sunspine Lynx" (BLB:155) &675
+- Added "Captain Lannery Storm" (J22:509) &676
+- Added "Pollenbright Druid" (SLD:776) [foil] &677
+- Added "Frilled Mystic" (SLD:786) [foil] &678
+- Added "Frilled Mystic" (SLD:786) [foil] &679
+- Added "Akul the Unrepentant" (OTJ:189) [foil] &680
+- Added "Angelic Sell-Sword" (OTC:46) &681
+- Added "Malcolm, the Eyes" (OTJ:219) [foil] &682
+- Added "Agrus Kos, Spirit of Justice" (MKM:184) [foil] &683
+- Added "Coveted Falcon" (MKM:393) &684
+- Added "Barbed Servitor" (MKM:398) &685
+- Added "Teval, Arbiter of Virtue" (TDM:373) &686
+- Added "Eshki Dragonclaw" (TDM:182) &687
+- Added "Ezio Auditore da Firenze" (ACR:113) [foil] &688
+- Added "Aya of Alexandria" (ACR:140) [foil] &689
+- Added "Shaun & Rebecca, Agents" (ACR:247) [etched] &690
+- Added "Fugitive Codebreaker" (MKM:348) &691
+- Added "Fugitive Codebreaker" (MKM:348) [foil] &692
+- Added "Fugitive Codebreaker" (MKM:127) &693
+- Added "Gau, Feral Youth" (FIC:152) &694
+- Added "Ardyn, the Usurper" (FIN:89) &695
+- Added "Beatrix, Loyal General" (FIN:426) &696
+- Added "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal" (FIN:39) &697
+- Added "Aerith Gainsborough" (FIN:4) &698
+- Added "Aerith Gainsborough" (FIN:4) &699
+- Added "Dion, Bahamut's Dominant // Bahamut, Warden of Light" (FIN:16) &700
+- Added "Wall of Omens" (FCA:27) &701
+- Added "Minwu, White Mage" (FIN:430) &702
+- Added "Minwu, White Mage" (FIN:26) [foil] &703
+- Added "Stiltzkin, Moogle Merchant" (FIN:433) &704
+- Added "Stiltzkin, Moogle Merchant" (FIN:34) &705
+- Added "Dion, Bahamut's Dominant // Bahamut, Warden of Light" (FIN:428) &706
+- Added "Balthier and Fran" (FIN:393) &707
+- Added "Helitrooper" (FIC:106) &708
+- Added "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal" (FIN:39) [foil] &709
+- Added "Wall of Omens" (FCA:27) &710
+- Added "Ultima, Origin of Oblivion" (FIN:2) &711
+- Added "Jecht, Reluctant Guardian // Braska's Final Aeon" (FIN:104) &712
+- Added "Firion, Wild Rose Warrior" (FIN:137) &713
+- Added "Serah Farron // Crystallized Serah" (FIN:240) &714
+- Added "Zell Dincht" (FIN:170) &715
+- Added "Zodiark, Umbral God" (FIN:128) &716
+- Added "Red XIII, Proud Warrior" (FIC:181) [foil] &717
+- Added "Gau, Feral Youth" (FIC:152) [foil] &718
+- Added "Geralf, the Fleshwright" (OTJ:50) &719
+- Added "Jadar, Ghoulcaller of Nephalia" (MID:108) &720
+- Added "Cecil, Dark Knight // Cecil, Redeemed Paladin" (FIN:380) &721
+- Added "Cecil, Dark Knight // Cecil, Redeemed Paladin" (FIN:91) &722
+- Added "Cecil, Dark Knight // Cecil, Redeemed Paladin" (FIN:91) &723
+- Added "Aven Interrupter" (OTJ:4) [foil] &724
+- Added "Hulking Raptor" (LCI:327) &725
+- Added "Thundertrap Trainer" (BLB:386) [foil] &726
+- Added "Valley Questcaller" (BLB:299) &727
+- Added "Salvation Swan" (BLB:297) &728
+- Added "Jackdaw Savior" (BLB:296) [foil] &729
+- Added "Entity Tracker" (DSK:53) &730
+- Added "Valley Floodcaller" (BLB:79) &731
+- Added "Valley Floodcaller" (BLB:79) &732
+- Added "Piper Wright, Publick Reporter" (PIP:379) [foil] &733
+- Added "Valley Questcaller" (BLB:36) &734
+- Added "Lazav, Wearer of Faces" (MKM:318) &735
+- Added "Kellan, Inquisitive Prodigy // Tail the Suspect" (MKM:212) &736
+- Added "Savvy Trader" (OTC:69) &737
+- Added "Savvy Trader" (OTC:69) &738
+- Added "Oviya, Automech Artisan" (DFT:173) &739
+- Added "Bloomvine Regent // Claim Territory // Bloomvine Regent" (TDM:381) &740
+- Added "Jolrael, Voice of Zhalfir" (MAT:230) [foil] &741
+- Added "Coveted Falcon" (MKM:48) &742
+- Added "Aurelia's Vindicator" (MKM:336) [foil] &743
+- Added "Niv-Mizzet, Guildpact" (MKM:319) &744
+- Added "Izoni, Center of the Web" (MKM:209) [foil] &745
+- Added "Judith, Carnage Connoisseur" (MKM:210) &746
+- Added "The Fourth Doctor" (WHO:415) &747
+- Added "Idris, Soul of the TARDIS" (WHO:419) [foil] &748
+- Added "Lyse Hext" (FIC:178) &749
+- Added "Eye of Nidhogg" (FIC:115) &750
+- Added "Jill, Shiva's Dominant // Shiva, Warden of Ice" (FIN:378) [foil] &751
+- Added "Jill, Shiva's Dominant // Shiva, Warden of Ice" (FIN:58) &752
+- Added "Hope Estheim" (FIN:226) &753
+- Added "Golbez, Crystal Collector" (FIN:225) &754
+- Added "Shadow, Mysterious Assassin" (FIC:148) &755
+- Added "Krile Baldesion" (FIC:176) &756
+- Added "Vaan, Street Thief" (FIN:168) &757
+- Added "Interceptor, Shadow's Hound" (FIC:147) &758
+- Added "Edgar, King of Figaro" (FIN:51) &759
+- Added "Summon: Brynhildr" (FIN:160) &760
+- Added "Jecht, Reluctant Guardian // Braska's Final Aeon" (FIN:104) [foil] &761
+- Added "Weeping Angel" (WHO:1140) [foil] &762
+- Added "The Twelfth Doctor" (WHO:563) &763
+- Added "Reality Smasher" (SCH:31) [foil] &764
+- Added "Marvin, Murderous Mimic" (DSK:367) &765
+- Added "Springheart Nantuko" (MH3:171) [foil] &766
+- Added "Goldberry, River-Daughter" (LTR:503) [foil] &767
+- Added "Ultima, Origin of Oblivion" (FIN:324) &768
+- Added "Vaan, Street Thief" (FIN:168) &769
+- Added "The Wandering Minstrel" (FIN:249) &770
+- Added "Tellah, Great Sage" (FIN:244) &771
+- Added "Golbez, Crystal Collector" (FIN:225) &772
+- Added "Svyelun of Sea and Sky" (MH2:69) &773
+- Added "Wonder" (MH2:271) &774
+- Added "Timeless Dragon" (MH2:35) &775
+- Added "Timeless Dragon" (MH2:388) &776
+- Added "Suspicious Stowaway // Seafaring Werewolf" (MID:80) &777
+- Added "Ruin Raider" (PXLN:118p) &778
+- Added "Squirrel Mob" (MH2:286) &779
+- Added "General Ferrous Rokiric" (MH2:198) &780
+- Added "General Ferrous Rokiric" (MH2:198) [foil] &781
+- Added "Garth One-Eye" (MH2:197) &782
+- Added "Deadeye Navigator" (INR:59) [foil] &783
+- Added "Smoldering Egg // Ashmouth Dragon" (MID:159) &784
+- Added "Sanctifier en-Vec" (MH2:27) &785
+- Added "Eloise, Nephalia Sleuth" (MIC:3) &786
+- Added "Moonveil Regent" (MID:149) &787
+- Added "Hinata, Dawn-Crowned" (NEO:222) &788
+- Added "Spring-Leaf Avenger" (NEO:208) &789
+- Added "Risona, Asari Commander" (NEO:233) &790
+- Added "Risona, Asari Commander" (NEO:330) &791
+- Added "Kotose, the Silent Spider" (NEO:228) &792
+- Added "Myojin of Towering Might" (NEC:38) &793
