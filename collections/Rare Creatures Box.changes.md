@@ -810,3 +810,152 @@
 - Added "Risona, Asari Commander" (NEO:330) &791
 - Added "Kotose, the Silent Spider" (NEO:228) &792
 - Added "Myojin of Towering Might" (NEC:38) &793
+
+## 2026-08-07T01:31:41.082Z
+
+- Added "Edgar, King of Figaro" (FIN:436) &794
+- Added "Tromell, Seymour's Butler" (FIC:162) &795
+- Added "Choco, Seeker of Paradise" (FIN:215) [foil] &796
+- Added "Professor Hojo" (FIC:161) &797
+- Added "Sazh Katzroy" (FIN:472) &798
+- Added "Scrap Welder" (NEO:159) &799
+- Added "Winter, Misanthropic Guide" (DSK:240) &800
+- Added "Spinner of Souls" (FDN:112) &801
+- Added "Scurry of Squirrels" (BLC:33) &802
+- Added "Afterburner Expert" (PDFT:150s) [foil] &803
+- Added "Agonasaur Rex" (DFT:151) &804
+- Added "Agonasaur Rex" (DFT:151) &805
+- Added "Regal Imperiosaur" (DFT:177) &806
+- Added "Regal Imperiosaur" (DFT:177) &807
+- Added "Regal Imperiosaur" (DFT:177) &808
+- Added "Regal Imperiosaur" (DFT:389) &809
+- Added "Webstrike Elite" (DFT:345) &810
+- Added "Webstrike Elite" (DFT:345) &811
+- Added "Defiler of Vigor" (DMU:160) [foil] &812
+- Added "Loyal Guardian" (CMM:304) &813
+- Added "Guardian Augmenter" (C21:62) &814
+- Added "Toski, Bearer of Secrets" (KHM:197) &815
+- Added "Park Heights Maverick" (NCC:63) &816
+- Added "Ochre Jelly" (AFR:196) &817
+- Added "Rishkar, Peema Renegade" (MOC:310) &818
+- Added "Arwen, Weaver of Hope" (LTC:35) &819
+- Added "Quilled Greatwurm" (FDN:111) &820
+- Added "Spinner of Souls" (FDN:112) [foil] &821
+- Added "Elvish Archdruid" (FDN:219) &822
+- Added "Elvish Archdruid" (FDN:219) &823
+- Added "Afterburner Expert" (DFT:387) &824
+- Added "Axebane Ferox" (MKM:409) &825
+- Added "Nemata, Grove Guardian" (PLST:PLS-85) &826
+- Added "Rowan, Scion of War" (WOE:211) [foil] &827
+- Added "Voldaren Thrillseeker" (MOM:171) [foil] &828
+- Added "Avacyn's Pilgrim" (PF25:1F) [foil] &829
+- Added "The Master, Multiplied" (WHO:146) &830
+- Added "The Master, Multiplied" (WHO:146) &831
+- Added "Abhorrent Oculus" (DSK:344) &832
+- Added "Snapcaster Mage" (INR:478) &833
+- Added "Phenax, God of Deception" (PLST:BNG-152) &834
+- Added "Frost Titan" (PLST:M11-55) &835
+- Added "Gas Guzzler" (DFT:85) &836
+- Added "Marketback Walker" (DFT:235) [foil] &837
+- Added "Koma, Cosmos Serpent" (PKHM:221p) &838
+- Added "Balefire Dragon" (CMM:207) &839
+- Added "Omnath, Locus of Mana" (CMM:310) &840
+- Added "Bloomvine Regent // Claim Territory" (PTDM:136s) [foil] &841
+- Added "Emet-Selch, Unsundered // Hades, Sorcerer of Eld" (FIN:394) &842
+- Added "Ashaya, Soul of the Wild" (DSC:170) &843
+- Added "Savvy Trader" (OTC:69) &844
+- Added "Ochre Jelly" (AFR:330) &845
+- Added "Oviya, Automech Artisan" (DFT:173) &846
+- Added "Hidetsugu, Devouring Chaos" (NEO:99) &847
+- Added "Goro-Goro, Disciple of Ryusei" (NEO:320) &848
+- Added "Florian, Voldaren Scion" (MID:318) [foil] &849
+- Added "Dennick, Pious Apprentice // Dennick, Pious Apparition" (MID:217) &850
+- Added "Lier, Disciple of the Drowned" (MID:313) &851
+- Added "The Third Doctor" (WHO:162) [foil] &852
+- Added "Vincent Valentine // Galian Beast" (FIN:125) [foil] &853
+- Added "Kain, Traitorous Dragoon" (FIN:316) [foil] &854
+- Added "Knuckles the Echidna" (SLD:2082) &855
+- Added "Amy Rose" (SLD:2083) &856
+- Added "Dr. Eggman" (SLD:2084) &857
+- Added "Miles "Tails" Prower" (SLD:2085) &858
+- Added "Sonic the Hedgehog" (SLD:2087) &859
+- Added "Firion, Wild Rose Warrior" (FIN:386) &860
+- Added "Teferi, Mage of Zhalfir" (FCA:32) &861
+- Added "Umaro, Raging Yeti" (FIC:156) &862
+- Added "Summon: G.F. Cerberus" (FIN:368) [foil] &863
+- Added "Vaan, Street Thief" (FIN:390) &864
+- Added "Oltec Matterweaver" (PW24:12) [foil] &865
+- Added "Mikaeus, the Lunarch" (MOC:197) &866
+- Added "The Eighth Doctor" (WHO:124) [foil] &867
+- Added "The Cyber-Controller" (WHO:119) [foil] &868
+- Added "Kura, the Boundless Sky" (NEO:200) &869
+- Added "Shardless Agent" (MH2:292) &870
+- Added "Master of Death" (MH2:205) &871
+- Added "Kellan, Inquisitive Prodigy // Tail the Suspect" (MKM:212) [foil] &872
+- Added "Carth the Lion" (MH2:189) &873
+- Added "Diamond Lion" (MH2:225) &874
+- Added "Asmoranomardicadaistinaculdacar" (MH2:186) &875
+- Added "Yusri, Fortune's Flame" (MH2:218) &876
+- Added "Zabaz, the Glimmerwasp" (MH2:243) &877
+- Added "Teysa, Opulent Oligarch" (MKM:321) &878
+- Added "Sophia, Dogged Detective" (MKC:319) [foil] &879
+- Added "Izoni, Center of the Web" (MKM:362) [foil] &880
+- Added "Innocuous Researcher" (MKC:348) &881
+- Added "Feather, Radiant Arbiter" (MKC:313) &882
+- Added "Tolsimir, Midnight's Light" (MKM:371) &883
+- Added "Tomik, Wielder of Law" (MKM:431) [foil] &884
+- Added "Judith, Carnage Connoisseur" (MKM:210) &885
+- Added "Hunted Bonebrute" (MKM:87) &886
+- Added "Forgotten Ancient" (CN2:182) &887
+- Added "Stridehangar Automaton" (DRC:19) &888
+- Added "Skirsdag High Priest" (INR:132) &889
+- Added "Wildsear, Scouring Maw" (BLC:44) [foil] &890
+- Added "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel" (FIN:115) &891
+- Added "Edgar, King of Figaro" (FIN:51) &892
+- Added "Kraum, Ludevic's Opus" (FCA:56) &893
+- Added "Thrasios, Triton Hero" (FCA:58) &894
+- Added "Godo, Bandit Warlord" (FCA:13) &895
+- Added "Captain Lannery Storm" (FCA:38) [foil] &896
+- Added "Zenos yae Galvus // Shinryu, Transcendent Rival" (FIN:127) &897
+- Added "Vincent Valentine // Galian Beast" (FIN:125) [foil] &898
+- Added "Noctis, Prince of Lucis" (FIN:235) [foil] &899
+- Added "Ardbert, Warrior of Darkness" (FIC:164) &900
+- Added "Bruse Tarl, Boorish Herder" (FCA:50) [foil] &901
+- Added "Sephiroth, Planet's Heir" (FIN:505) &902
+- Added "Purphoros, God of the Forge" (FCA:14) &903
+- Added "Squall, SeeD Mercenary" (FIN:243) [foil] &904
+- Added "Hope Estheim" (FIN:396) &905
+- Added "Strago and Relm" (FIC:155) &906
+- Added "Squall, SeeD Mercenary" (FIN:509) &907
+- Added "G'raha Tia, Scion Reborn" (FIC:203) &908
+- Added "Summon: G.F. Cerberus" (FIN:162) [foil] &909
+- Added "Pinnacle Monk // Mystic Peak" (MH3:246) [foil] &910
+- Added "Umbral Collar Zealot" (EOE:123) &911
+- Added "Umbral Collar Zealot" (EOE:123) &912
+- Added "Giver of Runes" (SLD:1463) &913
+- Added "Field Marshal" (SLD:1168) [foil] &914
+- Added "Summon: Knights of Round" (FIN:36) &915
+- Added "Gilgamesh, Master-at-Arms" (FIN:338) [foil] &916
+- Added "Summon: Good King Mog XII" (FIC:26) &917
+- Added "Summon: Kujata" (FIC:199) [foil] &918
+- Added "Starfield Mystic" (DSC:105) &919
+- Added "Elvish Reclaimer" (SLD:2015) [foil] &920
+- Added "Deadpool, Trading Card" (SLD:1753) [foil] &921
+- Added "Xenagos, God of Revels" (SLD:2061) [foil] &922
+- Added "Ancient Greenwarden" (SLD:2059) [foil] &923
+- Added "Vincent Valentine // Galian Beast" (FIN:383) [foil] &924
+- Added "Yuna, Hope of Spira" (FIN:250) [foil] &925
+- Added "Realmwalker" (SLD:1724) [foil] &926
+- Added "Solemn Simulacrum" (SLD:1725) [foil] &927
+- Added "Tendershoot Dryad" (BLC:242) &928
+- Added "Marchesa, the Black Rose" (SLD:2009) [foil] &929
+- Added "Agent of Treachery" (SLD:2005) [foil] &930
+- Added "Priest of Forgotten Gods" (SLD:2006) [foil] &931
+- Added "Treasonous Ogre" (SLD:2007) [foil] &932
+- Added "World Shaper" (SLD:2017) [foil] &933
+- Added "Knuckles the Echidna" (SLD:2082) [foil] &934
+- Added "Amy Rose" (SLD:2083) [foil] &935
+- Added "Dr. Eggman" (SLD:2084) [foil] &936
+- Added "Miles "Tails" Prower" (SLD:2085) [foil] &937
+- Added "Shadow the Hedgehog" (SLD:2086) [foil] &938
+- Added "Sonic the Hedgehog" (SLD:2087) [foil] &939

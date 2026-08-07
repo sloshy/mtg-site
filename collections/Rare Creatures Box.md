@@ -800,3 +800,149 @@ labels:
 - Risona, Asari Commander (NEO:330) &791
 - Kotose, the Silent Spider (NEO:228) &792
 - Myojin of Towering Might (NEC:38) &793
+- Edgar, King of Figaro (FIN:436) &794
+- Tromell, Seymour's Butler (FIC:162) &795
+- Choco, Seeker of Paradise (FIN:215) [foil] &796
+- Professor Hojo (FIC:161) &797
+- Sazh Katzroy (FIN:472) &798
+- Scrap Welder (NEO:159) &799
+- Winter, Misanthropic Guide (DSK:240) &800
+- Spinner of Souls (FDN:112) &801
+- Scurry of Squirrels (BLC:33) &802
+- Afterburner Expert (PDFT:150s) [foil] &803
+- Agonasaur Rex (DFT:151) &804
+- Agonasaur Rex (DFT:151) &805
+- Regal Imperiosaur (DFT:177) &806
+- Regal Imperiosaur (DFT:177) &807
+- Regal Imperiosaur (DFT:177) &808
+- Regal Imperiosaur (DFT:389) &809
+- Webstrike Elite (DFT:345) &810
+- Webstrike Elite (DFT:345) &811
+- Defiler of Vigor (DMU:160) [foil] &812
+- Loyal Guardian (CMM:304) &813
+- Guardian Augmenter (C21:62) &814
+- Toski, Bearer of Secrets (KHM:197) &815
+- Park Heights Maverick (NCC:63) &816
+- Ochre Jelly (AFR:196) &817
+- Rishkar, Peema Renegade (MOC:310) &818
+- Arwen, Weaver of Hope (LTC:35) &819
+- Quilled Greatwurm (FDN:111) &820
+- Spinner of Souls (FDN:112) [foil] &821
+- Elvish Archdruid (FDN:219) &822
+- Elvish Archdruid (FDN:219) &823
+- Afterburner Expert (DFT:387) &824
+- Axebane Ferox (MKM:409) &825
+- Nemata, Grove Guardian (PLST:PLS-85) &826
+- Rowan, Scion of War (WOE:211) [foil] &827
+- Voldaren Thrillseeker (MOM:171) [foil] &828
+- Avacyn's Pilgrim (PF25:1F) [foil] &829
+- The Master, Multiplied (WHO:146) &830
+- The Master, Multiplied (WHO:146) &831
+- Abhorrent Oculus (DSK:344) &832
+- Snapcaster Mage (INR:478) &833
+- Phenax, God of Deception (PLST:BNG-152) &834
+- Frost Titan (PLST:M11-55) &835
+- Gas Guzzler (DFT:85) &836
+- Marketback Walker (DFT:235) [foil] &837
+- Koma, Cosmos Serpent (PKHM:221p) &838
+- Balefire Dragon (CMM:207) &839
+- Omnath, Locus of Mana (CMM:310) &840
+- Bloomvine Regent // Claim Territory (PTDM:136s) [foil] &841
+- Emet-Selch, Unsundered // Hades, Sorcerer of Eld (FIN:394) &842
+- Ashaya, Soul of the Wild (DSC:170) &843
+- Savvy Trader (OTC:69) &844
+- Ochre Jelly (AFR:330) &845
+- Oviya, Automech Artisan (DFT:173) &846
+- Hidetsugu, Devouring Chaos (NEO:99) &847
+- Goro-Goro, Disciple of Ryusei (NEO:320) &848
+- Florian, Voldaren Scion (MID:318) [foil] &849
+- Dennick, Pious Apprentice // Dennick, Pious Apparition (MID:217) &850
+- Lier, Disciple of the Drowned (MID:313) &851
+- The Third Doctor (WHO:162) [foil] &852
+- Vincent Valentine // Galian Beast (FIN:125) [foil] &853
+- Kain, Traitorous Dragoon (FIN:316) [foil] &854
+- Knuckles the Echidna (SLD:2082) &855
+- Amy Rose (SLD:2083) &856
+- Dr. Eggman (SLD:2084) &857
+- Miles "Tails" Prower (SLD:2085) &858
+- Sonic the Hedgehog (SLD:2087) &859
+- Firion, Wild Rose Warrior (FIN:386) &860
+- Teferi, Mage of Zhalfir (FCA:32) &861
+- Umaro, Raging Yeti (FIC:156) &862
+- Summon: G.F. Cerberus (FIN:368) [foil] &863
+- Vaan, Street Thief (FIN:390) &864
+- Oltec Matterweaver (PW24:12) [foil] &865
+- Mikaeus, the Lunarch (MOC:197) &866
+- The Eighth Doctor (WHO:124) [foil] &867
+- The Cyber-Controller (WHO:119) [foil] &868
+- Kura, the Boundless Sky (NEO:200) &869
+- Shardless Agent (MH2:292) &870
+- Master of Death (MH2:205) &871
+- Kellan, Inquisitive Prodigy // Tail the Suspect (MKM:212) [foil] &872
+- Carth the Lion (MH2:189) &873
+- Diamond Lion (MH2:225) &874
+- Asmoranomardicadaistinaculdacar (MH2:186) &875
+- Yusri, Fortune's Flame (MH2:218) &876
+- Zabaz, the Glimmerwasp (MH2:243) &877
+- Teysa, Opulent Oligarch (MKM:321) &878
+- Sophia, Dogged Detective (MKC:319) [foil] &879
+- Izoni, Center of the Web (MKM:362) [foil] &880
+- Innocuous Researcher (MKC:348) &881
+- Feather, Radiant Arbiter (MKC:313) &882
+- Tolsimir, Midnight's Light (MKM:371) &883
+- Tomik, Wielder of Law (MKM:431) [foil] &884
+- Judith, Carnage Connoisseur (MKM:210) &885
+- Hunted Bonebrute (MKM:87) &886
+- Forgotten Ancient (CN2:182) &887
+- Stridehangar Automaton (DRC:19) &888
+- Skirsdag High Priest (INR:132) &889
+- Wildsear, Scouring Maw (BLC:44) [foil] &890
+- Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN:115) &891
+- Edgar, King of Figaro (FIN:51) &892
+- Kraum, Ludevic's Opus (FCA:56) &893
+- Thrasios, Triton Hero (FCA:58) &894
+- Godo, Bandit Warlord (FCA:13) &895
+- Captain Lannery Storm (FCA:38) [foil] &896
+- Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:127) &897
+- Vincent Valentine // Galian Beast (FIN:125) [foil] &898
+- Noctis, Prince of Lucis (FIN:235) [foil] &899
+- Ardbert, Warrior of Darkness (FIC:164) &900
+- Bruse Tarl, Boorish Herder (FCA:50) [foil] &901
+- Sephiroth, Planet's Heir (FIN:505) &902
+- Purphoros, God of the Forge (FCA:14) &903
+- Squall, SeeD Mercenary (FIN:243) [foil] &904
+- Hope Estheim (FIN:396) &905
+- Strago and Relm (FIC:155) &906
+- Squall, SeeD Mercenary (FIN:509) &907
+- G'raha Tia, Scion Reborn (FIC:203) &908
+- Summon: G.F. Cerberus (FIN:162) [foil] &909
+- Pinnacle Monk // Mystic Peak (MH3:246) [foil] &910
+- Umbral Collar Zealot (EOE:123) &911
+- Umbral Collar Zealot (EOE:123) &912
+- Giver of Runes (SLD:1463) &913
+- Field Marshal (SLD:1168) [foil] &914
+- Summon: Knights of Round (FIN:36) &915
+- Gilgamesh, Master-at-Arms (FIN:338) [foil] &916
+- Summon: Good King Mog XII (FIC:26) &917
+- Summon: Kujata (FIC:199) [foil] &918
+- Starfield Mystic (DSC:105) &919
+- Elvish Reclaimer (SLD:2015) [foil] &920
+- Deadpool, Trading Card (SLD:1753) [foil] &921
+- Xenagos, God of Revels (SLD:2061) [foil] &922
+- Ancient Greenwarden (SLD:2059) [foil] &923
+- Vincent Valentine // Galian Beast (FIN:383) [foil] &924
+- Yuna, Hope of Spira (FIN:250) [foil] &925
+- Realmwalker (SLD:1724) [foil] &926
+- Solemn Simulacrum (SLD:1725) [foil] &927
+- Tendershoot Dryad (BLC:242) &928
+- Marchesa, the Black Rose (SLD:2009) [foil] &929
+- Agent of Treachery (SLD:2005) [foil] &930
+- Priest of Forgotten Gods (SLD:2006) [foil] &931
+- Treasonous Ogre (SLD:2007) [foil] &932
+- World Shaper (SLD:2017) [foil] &933
+- Knuckles the Echidna (SLD:2082) [foil] &934
+- Amy Rose (SLD:2083) [foil] &935
+- Dr. Eggman (SLD:2084) [foil] &936
+- Miles "Tails" Prower (SLD:2085) [foil] &937
+- Shadow the Hedgehog (SLD:2086) [foil] &938
+- Sonic the Hedgehog (SLD:2087) [foil] &939
