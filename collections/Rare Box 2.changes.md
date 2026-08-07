@@ -1,0 +1,119 @@
+# Changelog for Rare Box 2
+
+## 2026-08-07T03:16:55.228Z
+
+- Added "Distant Melody" (SLD:2326) [foil] &1
+- Added "Explore" (SLD:2327) [foil] &2
+- Added "Inspiring Call" (SLD:2328) [foil] &3
+- Added "Mutinous Massacre" (EOE:222) &4
+- Added "Archenemy's Charm" (EOE:88) &5
+- Added "Beyond the Quiet" (EOE:7) [foil] &6
+- Added "Consult the Star Charts" (EOE:51) &7
+- Added "Consult the Star Charts" (PEOE:51s) [foil] &8
+- Added "Zero Point Ballad" (EOE:128) &9
+- Added "Mutinous Massacre" (EOE:222) &10
+- Added "Come Back Wrong" (DSK:86) &11
+- Added "Desertion" (PLST:CN2-107) &12
+- Added "Audience with Trostani" (MKM:152) [foil] &13
+- Added "Treacherous Greed" (MKM:420) [foil] &14
+- Added "Analyze the Pollen" (MKM:308) &15
+- Added "Analyze the Pollen" (MKM:150) &16
+- Added "Treacherous Greed" (MKM:237) &17
+- Added "Treacherous Greed" (MKM:237) [foil] &18
+- Added "Treacherous Greed" (MKM:420) &19
+- Added "Deadly Tempest" (PLST:C15-19) &20
+- Added "Absorb" (RNA:151) &21
+- Added "Dramatic Reversal" (P30A:24) [foil] &22
+- Added "Starfall Invocation" (BLB:298) &23
+- Added "Starfall Invocation" (BLB:34) &24
+- Added "Nature's Rhythm" (TDM:150) &25
+- Added "Blasphemous Edict" (FDN:57) &26
+- Added "Generous Gift" (SLD:2088) [foil] &27
+- Added "Open the Armory" (SLD:2089) [foil] &28
+- Added "Fabricate" (SLD:2090) [foil] &29
+- Added "Deadly Dispute" (SLD:2091) [foil] &30
+- Added "Second Harvest" (LTC:530) [foil] &31
+- Added "Smuggler's Surprise" (OTJ:180) [foil] &32
+- Added "Cryptic Command" (FCA:29) [foil] &33
+- Added "Counterspell" (FCA:4) &34
+- Added "Peer Past the Veil" (DSK:226) &35
+- Added "Chaos Warp" (NCC:266) &36
+- Added "Grind // Dust" (PLST:HOU-155) &37
+- Added "Despark" (PW25:2) [foil] &38
+- Added "Voidslime" (OTP:60) &39
+- Added "Come Back Wrong" (DSK:86) &40
+- Added "Come Back Wrong" (DSK:309) &41
+- Added "Molten Duplication" (BIG:14) &42
+- Added "Storm the Festival" (MID:200) &43
+- Added "Intrude on the Mind" (MKM:61) &44
+- Added "One Last Job" (OTJ:22) [foil] &45
+- Added "Back in Town" (OTC:54) &46
+- Added "Fell the Mighty" (OTP:1) &47
+- Added "Pitiless Carnage" (OTJ:98) &48
+- Added "Reforge the Soul" (INR:167) &49
+- Added "Second Harvest" (INR:213) &50
+- Added "Deadly Cover-Up" (MKM:83) [foil] &51
+- Added "Painful Truths" (C20:134) &52
+- Added "Costly Plunder" (PW24:14) &53
+- Added "Costly Plunder" (PW24:14) [foil] &54
+- Added "Costly Plunder" (PW24:14) [foil] &55
+- Added "Into the Fire" (MOM:364) [foil] &56
+- Added "Culling the Weak" (SLD:1818) &57
+- Added "Genesis Wave" (FDN:221) &58
+- Added "Quag Feast" (DFT:100) &59
+- Added "Overwhelming Forces" (OTP:17) &60
+- Added "Rishkar's Expertise" (AFC:170) &61
+- Added "Rishkar's Expertise" (AFC:170) &62
+- Added "Heat Shimmer" (SLD:1957) [foil] &63
+- Added "Lightning Bolt" (SLD:1879) [foil] &64
+- Added "Ponder" (SLD:1783) [foil] &65
+- Added "Despark" (PW25:2) [foil] &66
+- Added "Overwhelming Stampede" (LTC:254) &67
+- Added "For the Emperor!" (40K:12) &68
+- Added "Anzrag's Rampage" (MKM:303) &69
+- Added "Treacherous Greed" (MKM:237) &70
+- Added "Reenact the Crime" (MKM:297) &71
+- Added "Damnation" (SPG:68) [foil] &72
+- Added "Culling Ritual" (PW25:4) [foil] &73
+- Added "Culling Ritual" (PW25:4) &74
+- Added "Explosive Singularity" (NEO:140) &75
+- Added "Singularity Rupture" (PEOE:228p) &76
+- Added "Three Steps Ahead" (OTJ:75) &77
+- Added "March of the Multitudes" (SCD:236) &78
+- Added "Anzrag's Rampage" (PMKM:111s) [foil] &79
+- Added "Nature's Rhythm" (TDM:150) [foil] &80
+- Added "Villainous Wrath" (SPM:74) &81
+- Added "Strength of Will" (SPM:118) &82
+- Added "Brainstorm" (SLD:7019) &83
+- Added "Damnation" (SLD:2000) [foil] &84
+- Added "Surgical Extraction" (SLD:2003) [foil] &85
+- Added "Peer into the Abyss" (SLD:2002) [foil] &86
+- Added "Dark Ritual" (SLD:2001) [foil] &87
+- Added "Tendrils of Agony" (SLD:2004) [foil] &88
+- Added "Demonic Tutor" (SLD:1856) [foil] &89
+- Added "Charnel Serenade" (MKC:336) &90
+- Added "Rishkar's Expertise" (PW25:1) [foil] &91
+- Added "Deadly Dispute" (FCA:33) [foil] &92
+- Added "Persist" (MH2:96) &93
+- Added "Agadeem's Awakening // Agadeem, the Undercrypt" (ZNR:90) &94
+- Added "Agadeem's Awakening // Agadeem, the Undercrypt" (ZNR:90) &95
+- Added "Snakeskin Veil" (PCBB:5) [foil] &96
+- Added "Rejoin the Fight" (FIC:118) [foil] &97
+- Added "Legolas's Quick Reflexes" (LTC:493) [foil] &98
+- Added "Read the Bones" (SLD:7069) [foil] &99
+- Added "Maddening Cacophony" (SLD:2337) [foil] &100
+- Added "Serum Visions" (SLD:2338) [foil] &101
+- Added "Burnt Offering" (SLD:7047) &102
+- Added "Temporal Trespass" (SLD:2190) &103
+- Added "Unearth" (SLD:2191) &104
+- Added "Lethal Scheme" (SLD:2187) &105
+- Added "Tamiyo's Safekeeping" (SLD:2335) [foil] &106
+- Added "Audience with Trostani" (MKM:309) [foil] &107
+- Added "Relive the Past" (MKM:226) [foil] &108
+- Added "Reenact the Crime" (MKM:297) [foil] &109
+- Added "Mob Verdict" (MKC:343) &110
+- Added "Deadly Cover-Up" (MKM:399) &111
+- Added "Deadly Cover-Up" (MKM:399) [foil] &112
+- Added "Deadly Cover-Up" (MKM:83) [foil] &113
+- Added "No Witnesses" (MKM:27) &114
+- Added "No Witnesses" (MKM:27) &115

@@ -1,0 +1,124 @@
+---
+labels:
+  - sale
+  - trade
+---
+
+# Rare Box 2
+
+## Main
+- Distant Melody (SLD:2326) [foil] &1
+- Explore (SLD:2327) [foil] &2
+- Inspiring Call (SLD:2328) [foil] &3
+- Mutinous Massacre (EOE:222) &4
+- Archenemy's Charm (EOE:88) &5
+- Beyond the Quiet (EOE:7) [foil] &6
+- Consult the Star Charts (EOE:51) &7
+- Consult the Star Charts (PEOE:51s) [foil] &8
+- Zero Point Ballad (EOE:128) &9
+- Mutinous Massacre (EOE:222) &10
+- Come Back Wrong (DSK:86) &11
+- Desertion (PLST:CN2-107) &12
+- Audience with Trostani (MKM:152) [foil] &13
+- Treacherous Greed (MKM:420) [foil] &14
+- Analyze the Pollen (MKM:308) &15
+- Analyze the Pollen (MKM:150) &16
+- Treacherous Greed (MKM:237) &17
+- Treacherous Greed (MKM:237) [foil] &18
+- Treacherous Greed (MKM:420) &19
+- Deadly Tempest (PLST:C15-19) &20
+- Absorb (RNA:151) &21
+- Dramatic Reversal (P30A:24) [foil] &22
+- Starfall Invocation (BLB:298) &23
+- Starfall Invocation (BLB:34) &24
+- Nature's Rhythm (TDM:150) &25
+- Blasphemous Edict (FDN:57) &26
+- Generous Gift (SLD:2088) [foil] &27
+- Open the Armory (SLD:2089) [foil] &28
+- Fabricate (SLD:2090) [foil] &29
+- Deadly Dispute (SLD:2091) [foil] &30
+- Second Harvest (LTC:530) [foil] &31
+- Smuggler's Surprise (OTJ:180) [foil] &32
+- Cryptic Command (FCA:29) [foil] &33
+- Counterspell (FCA:4) &34
+- Peer Past the Veil (DSK:226) &35
+- Chaos Warp (NCC:266) &36
+- Grind // Dust (PLST:HOU-155) &37
+- Despark (PW25:2) [foil] &38
+- Voidslime (OTP:60) &39
+- Come Back Wrong (DSK:86) &40
+- Come Back Wrong (DSK:309) &41
+- Molten Duplication (BIG:14) &42
+- Storm the Festival (MID:200) &43
+- Intrude on the Mind (MKM:61) &44
+- One Last Job (OTJ:22) [foil] &45
+- Back in Town (OTC:54) &46
+- Fell the Mighty (OTP:1) &47
+- Pitiless Carnage (OTJ:98) &48
+- Reforge the Soul (INR:167) &49
+- Second Harvest (INR:213) &50
+- Deadly Cover-Up (MKM:83) [foil] &51
+- Painful Truths (C20:134) &52
+- Costly Plunder (PW24:14) &53
+- Costly Plunder (PW24:14) [foil] &54
+- Costly Plunder (PW24:14) [foil] &55
+- Into the Fire (MOM:364) [foil] &56
+- Culling the Weak (SLD:1818) &57
+- Genesis Wave (FDN:221) &58
+- Quag Feast (DFT:100) &59
+- Overwhelming Forces (OTP:17) &60
+- Rishkar's Expertise (AFC:170) &61
+- Rishkar's Expertise (AFC:170) &62
+- Heat Shimmer (SLD:1957) [foil] &63
+- Lightning Bolt (SLD:1879) [foil] &64
+- Ponder (SLD:1783) [foil] &65
+- Despark (PW25:2) [foil] &66
+- Overwhelming Stampede (LTC:254) &67
+- For the Emperor! (40K:12) &68
+- Anzrag's Rampage (MKM:303) &69
+- Treacherous Greed (MKM:237) &70
+- Reenact the Crime (MKM:297) &71
+- Damnation (SPG:68) [foil] &72
+- Culling Ritual (PW25:4) [foil] &73
+- Culling Ritual (PW25:4) &74
+- Explosive Singularity (NEO:140) &75
+- Singularity Rupture (PEOE:228p) &76
+- Three Steps Ahead (OTJ:75) &77
+- March of the Multitudes (SCD:236) &78
+- Anzrag's Rampage (PMKM:111s) [foil] &79
+- Nature's Rhythm (TDM:150) [foil] &80
+- Villainous Wrath (SPM:74) &81
+- Strength of Will (SPM:118) &82
+- Brainstorm (SLD:7019) &83
+- Damnation (SLD:2000) [foil] &84
+- Surgical Extraction (SLD:2003) [foil] &85
+- Peer into the Abyss (SLD:2002) [foil] &86
+- Dark Ritual (SLD:2001) [foil] &87
+- Tendrils of Agony (SLD:2004) [foil] &88
+- Demonic Tutor (SLD:1856) [foil] &89
+- Charnel Serenade (MKC:336) &90
+- Rishkar's Expertise (PW25:1) [foil] &91
+- Deadly Dispute (FCA:33) [foil] &92
+- Persist (MH2:96) &93
+- Agadeem's Awakening // Agadeem, the Undercrypt (ZNR:90) &94
+- Agadeem's Awakening // Agadeem, the Undercrypt (ZNR:90) &95
+- Snakeskin Veil (PCBB:5) [foil] &96
+- Rejoin the Fight (FIC:118) [foil] &97
+- Legolas's Quick Reflexes (LTC:493) [foil] &98
+- Read the Bones (SLD:7069) [foil] &99
+- Maddening Cacophony (SLD:2337) [foil] &100
+- Serum Visions (SLD:2338) [foil] &101
+- Burnt Offering (SLD:7047) &102
+- Temporal Trespass (SLD:2190) &103
+- Unearth (SLD:2191) &104
+- Lethal Scheme (SLD:2187) &105
+- Tamiyo's Safekeeping (SLD:2335) [foil] &106
+- Audience with Trostani (MKM:309) [foil] &107
+- Relive the Past (MKM:226) [foil] &108
+- Reenact the Crime (MKM:297) [foil] &109
+- Mob Verdict (MKC:343) &110
+- Deadly Cover-Up (MKM:399) &111
+- Deadly Cover-Up (MKM:399) [foil] &112
+- Deadly Cover-Up (MKM:83) [foil] &113
+- No Witnesses (MKM:27) &114
+- No Witnesses (MKM:27) &115
