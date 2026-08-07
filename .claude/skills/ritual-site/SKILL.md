@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta24-dev.b5ce8c1
-ritual-content-hash: 48cd0d033e00873561b7c75cbc80323922601412e03a63748c7a186fec4082d4
+ritual-version: 0.1.0-beta25
+ritual-content-hash: ce7ce766051902f7a1fe5f9206c1e91c32c94ba716f69d877c6768227e33e436
 ---
 
 # Building and serving a Ritual site
@@ -167,16 +167,19 @@ set `MOXFIELD_USER_AGENT`.
 
 Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
 — where the mode also governs its Card Kingdom buylist cache — `build-site`,
-`serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
-freshness: `ask` (the default — prompt about stale or empty caches, skipping the
-prompt when prompts are unavailable; `build-site` is the exception,
-bulk-downloading an empty or week-old cache without asking, since it cannot
-build a site without card data), `auto` (refresh stale data without asking, bulk
-download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
-download), and `never` (use the cache as-is, making no request of any kind —
-under `never`, `price` reports uncached cards as unpriced instead of fetching
-them, and a `build-site` run with no cached symbology renders without mana
-symbols).
+`serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
+cache freshness: `ask` (the default — prompt about stale or empty caches,
+skipping the prompt when prompts are unavailable; two exceptions download
+without asking: `build-site` bulk-downloads an empty or week-old card cache,
+since it cannot build a site without card data, and a Card Kingdom buylist
+already downloaded is redownloaded once it is a day old — by `sell`, and by
+`admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
+offers; only the first buylist download prompts), `auto` (refresh stale data
+without asking, bulk download allowed), `no-bulk` (refresh stale prices
+per-card, never a bulk download), and `never` (use the cache as-is, making no
+request of any kind — under `never`, `price` reports uncached cards as unpriced
+instead of fetching them, and a `build-site` run with no cached symbology
+renders without mana symbols).
 Headless builds (e.g. CI) should pass `--refresh auto` or `--refresh never`
 explicitly.
 
@@ -199,7 +202,8 @@ ritual serve                       # serve an already-built dist/ on :3000
 ritual serve -p 8000
 ritual serve --build               # build, then serve
 ritual serve --build -p 8000 --host 127.0.0.1
-ritual serve --build --api         # host the site with a live read-only backend
+ritual serve --api                 # host with a live read-only backend (builds dist/ if missing)
+ritual serve --build --api         # rebuild the site, then host it
 ritual serve --out-dir ./preview          # serve a directory built earlier, no rebuild
 ritual serve --build --out-dir ./preview  # build into ./preview and serve THAT directory
 ```
@@ -211,6 +215,8 @@ directory itself — or any ancestor of it, like `.` — is refused).
 
 Serving a directory with no `index.html` is **refused** (exit 1) rather than
 answered with bare 404s; the message names `ritual build-site` and `--build`.
+Under `--api` it is not refused: the data is served live, so a missing build is
+just a missing app shell and the command builds one itself before serving.
 The startup line prints the address actually bound — `localhost` for a wildcard
 or loopback bind, the `--host` value otherwise.
 
@@ -230,6 +236,15 @@ Scryfall toggle), and shared trade links resolve their cards from the cache.
 There are no write routes — public edits still travel as export/import change
 bundles.
 
+Live payloads come from the card cache with no Scryfall fallback, so startup
+applies the **same cache freshness gates `build-site` applies** — over the cards
+the served lists reference, under the same `--refresh` policy: a bulk download
+when the cache is empty, over a week old, or missing many of those cards; then
+the day-old price redownload offer; then the oracle/art tag download the tag
+filters need. There is no per-card Scryfall fetch (that is a build-only step),
+so `--refresh never` and `--refresh no-bulk` both warm nothing — what a
+cache-server deployment wants.
+
 For a split deployment (static site on a CDN, API hosted separately), set
 `site.apiBaseUrl` to the API's URL before building; the site falls back to its
 baked data when the API is unreachable:
@@ -240,7 +255,9 @@ ritual build-site
 ```
 
 A server-backed site also offers **sell mode**: Card Kingdom buylist prices beside each
-card, an on-buylist filter, buylist grouping/sorting, and a CK sell-cart export. Quotes
+card, on-buylist chips plus a buylist-price threshold filter, buylist grouping, sorting by
+buylist price or by buylist-minus-retail ascending (`Buylist vs Price`, where a missing offer or
+retail price counts as $0), and a CK sell-cart export. Quotes
 are fetched live (never baked), so a fully static build never shows it. It is on by
 default; disable it for a published site with:
 
@@ -248,9 +265,11 @@ default; disable it for a published site with:
 ritual config set site.sellMode false
 ```
 
-The buylist itself is only ever downloaded on request — `ritual sell --refresh auto`,
-the admin **Refresh Cache** page's *Refresh buylist* button, or the `refresh_buylist`
-tool. No page load triggers the ~70 MB fetch.
+The *first* buylist download is always deliberate — `ritual sell --refresh auto`, the admin
+**Refresh Cache** page's *Refresh buylist* button, or the `refresh_buylist` tool. After that
+`serve --api` and `admin` each redownload a day-old feed at startup (Card Kingdom regenerates
+it daily), under the same `--refresh` policy — `no-bulk`/`never` skip it. No page load ever
+triggers the ~70 MB fetch.
 
 ## Web admin
 

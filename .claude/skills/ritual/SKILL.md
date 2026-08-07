@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta24-dev.b5ce8c1
-ritual-content-hash: e471c1eefb638b8813fdc00e4c641597938297484c1634bb19ba251a4ff42738
+ritual-version: 0.1.0-beta25
+ritual-content-hash: 9a746d3d54427513ae9436245cc4eae5cd3ffa7957ce5720bc7b4d620a465a7c
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -201,16 +201,19 @@ not there — is always **3**, never 1.
 
 Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
 — where the mode also governs its Card Kingdom buylist cache — `build-site`,
-`serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
-freshness: `ask` (the default — prompt about stale or empty caches, skipping the
-prompt when prompts are unavailable; `build-site` is the exception,
-bulk-downloading an empty or week-old cache without asking, since it cannot
-build a site without card data), `auto` (refresh stale data without asking, bulk
-download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
-download), and `never` (use the cache as-is, making no request of any kind —
-under `never`, `price` reports uncached cards as unpriced instead of fetching
-them, and a `build-site` run with no cached symbology renders without mana
-symbols).
+`serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
+cache freshness: `ask` (the default — prompt about stale or empty caches,
+skipping the prompt when prompts are unavailable; two exceptions download
+without asking: `build-site` bulk-downloads an empty or week-old card cache,
+since it cannot build a site without card data, and a Card Kingdom buylist
+already downloaded is redownloaded once it is a day old — by `sell`, and by
+`admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
+offers; only the first buylist download prompts), `auto` (refresh stale data
+without asking, bulk download allowed), `no-bulk` (refresh stale prices
+per-card, never a bulk download), and `never` (use the cache as-is, making no
+request of any kind — under `never`, `price` reports uncached cards as unpriced
+instead of fetching them, and a `build-site` run with no cached symbology
+renders without mana symbols).
 
 ## Setup
 

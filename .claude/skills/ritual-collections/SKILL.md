@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-beta24-dev.b5ce8c1
-ritual-content-hash: cf11928db7ada0a3082a54ba336b0ad3498dd1baf4630239d3ba45959dbbc914
+ritual-version: 0.1.0-beta25
+ritual-content-hash: eb095b2a06a2423a3ffabef81786ecb0dd4cb4ce1121f145cc5acbed3e2e9adf
 ---
 
 # Managing collections with Ritual
@@ -391,8 +391,10 @@ quantity-weighted unpriced-card count.
 
 `sell` matches cards against Card Kingdom's buylist ("Sell us your cards"): what CK is
 buying, the cash quote per Near Mint copy, and their buy-quantity caps. It works from a
-locally cached copy of CK's pricelist feed (~70 MB, fresh for a day); `--refresh auto`
-downloads it when stale or missing. Defaults to every collection; accepts list names of
+locally cached copy of CK's pricelist feed (~70 MB, fresh for a day). A feed already
+downloaded is redownloaded automatically once it is a day old (under `ask` too, without
+prompting); the first download prompts, or use `--refresh auto`. `no-bulk`/`never`
+opt out and quote from whatever is cached. Defaults to every collection; accepts list names of
 any type (`deck:`/`collection:`/`wanted:` prefixes disambiguate).
 
 ```bash
@@ -405,7 +407,9 @@ ritual sell --output csv --out to-sell.csv      # CK sell-cart CSV (upload at ca
 Entries report `status` `buying` / `not-buying` (CK's buy quantity is 0) / `no-match`,
 with `sellableQuantity = min(owned, CK's cap)` and `value` covering only those copies.
 Quotes are cash for NM copies — played conditions grade down, store credit pays more.
-The `csv` output uses CK's own name/edition spellings and warns beyond their upload caps
+The `csv` output carries data rows only (CK's importer expects no header row) and uses CK's
+own listing titles — their parenthesized variant note included, so variant printings land on the
+right product — plus their edition spellings. It warns beyond their upload caps
 (500 titles / 5,000 cards); etched foils export as plain foil with a warning.
 
 To price an arbitrary set of printings rather than whole lists, use the MCP tool
@@ -414,6 +418,7 @@ To price an arbitrary set of printings rather than whole lists, use the MCP tool
 `ritual sell --refresh auto` (or the `refresh_buylist` tool) first.
 
 The same quotes drive **sell mode** on the admin site and on a server-backed public site
-(`ritual serve --api`): buylist prices beside each card, an on-buylist filter, buylist
-grouping/sorting, and a CK cart export. Turn it off for a published site with
-`ritual config set site.sellMode false`.
+(`ritual serve --api`): buylist prices beside each card, buylist filters (on-buylist chips and a
+price threshold), buylist grouping/sorting, and a CK cart export. Turn it off for a published site with
+`ritual config set site.sellMode false`. Both servers answer quotes strictly from the cache and
+never download per request; each refreshes a day-old feed once, at startup (never the first one).

@@ -1,7 +1,7 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, or price a deck."
-ritual-version: 0.1.0-beta24-dev.b5ce8c1
+ritual-version: 0.1.0-beta25
 ritual-content-hash: 784545bc402355dade3989dae3fa07cfbc6d4bfbb7c2370a66dc5864a5aced9a
 ---
 

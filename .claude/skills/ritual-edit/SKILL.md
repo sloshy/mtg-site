@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta24-dev.b5ce8c1
-ritual-content-hash: 1b6c09684401e66d52ba7c480ae7739f07d42e89d348b3679fab82aeb495e9ac
+ritual-version: 0.1.0-beta25
+ritual-content-hash: e5c24f50fb5e228bf25ac6cd1106073e65e5b23e74cea4c94b0720e96d78c9c5
 ---
 
 # Editing cards in any Ritual list
@@ -54,16 +54,19 @@ Conventions shared by every one-shot command:
   strictly required. There are no per-command non-interactive flags.
 - Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
   — where the mode also governs its Card Kingdom buylist cache — `build-site`,
-  `serve --build`, `admin`) share a `--refresh <mode>` option controlling cache
-  freshness: `ask` (the default — prompt about stale or empty caches, skipping the
-  prompt when prompts are unavailable; `build-site` is the exception,
-  bulk-downloading an empty or week-old cache without asking, since it cannot
-  build a site without card data), `auto` (refresh stale data without asking, bulk
-  download allowed), `no-bulk` (refresh stale prices per-card, never a bulk
-  download), and `never` (use the cache as-is, making no request of any kind —
-  under `never`, `price` reports uncached cards as unpriced instead of fetching
-  them, and a `build-site` run with no cached symbology renders without mana
-  symbols).
+  `serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
+  cache freshness: `ask` (the default — prompt about stale or empty caches,
+  skipping the prompt when prompts are unavailable; two exceptions download
+  without asking: `build-site` bulk-downloads an empty or week-old card cache,
+  since it cannot build a site without card data, and a Card Kingdom buylist
+  already downloaded is redownloaded once it is a day old — by `sell`, and by
+  `admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
+  offers; only the first buylist download prompts), `auto` (refresh stale data
+  without asking, bulk download allowed), `no-bulk` (refresh stale prices
+  per-card, never a bulk download), and `never` (use the cache as-is, making no
+  request of any kind — under `never`, `price` reports uncached cards as unpriced
+  instead of fetching them, and a `build-site` run with no cached symbology
+  renders without mana symbols).
 
 ## Add a card
 
