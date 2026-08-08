@@ -1,0 +1,100 @@
+# Changelog for Goodstuff Box
+
+## 2026-08-08T05:23:45.842Z
+
+- Added "Elven Passage" (HOB:181) &1
+- Added "Bard, King of Dale" (HOB:144) &2
+- Added "Elrond, Moon-Reader" (HOB:36) &3
+- Added "Great Gilded Boat" (HOB:42) &4
+- Added "Great Gilded Boat" (HOB:42) [foil] &5
+- Added "The Misty Mountains Cold" (HOB:104) &6
+- Added "Cantankerous Keepers" (HOB:122) &7
+- Added "Through the Forest Gate" (HOB:137) &8
+- Added "Chief Warg's Company" (HOB:208) [foil] &9
+- Added "Tom, Bert, and William" (HOB:169) &10
+- Added "Riddles in the Dark" (HOB:53) &11
+- Added "Thranduil's Company" (HOB:168) &12
+- Added "The Lonely Mountain" (HOB:187) [foil] &13
+- Added "Bejeweled Warg" (HOB:117) [foil] &14
+- Added "Cantankerous Keepers" (HOB:306) &15
+- Added "Elrond, Moon-Reader" (HOB:290) &16
+- Added "Uncover the Moon-Letters" (HOB:293) &17
+- Added "Rivendell" (HOC:91) [foil] &18
+- Set note on "Rivendell" &18 to "Surge foil"
+- Added "An Unexpected Party // At the Door" (HOB:29) [foil] &19
+- Added "Settle the Wreckage" (HOB:288) &20
+- Added "Part in Friendship" (HOB:308) &21
+- Added "Wizard's Staff" (HOB:294) [foil] &22
+- Added "Head of the Hunt" (HOB:75) [foil] &23
+- Added "Part in Friendship" (HOB:134) [foil] &24
+- Added "The Eagles Are Coming!" (HOB:205) &25
+- Added "Last Light of Durin's Day" (HOB:228) &26
+- Added "Most Decrepit Old Bird // Speak Secrets" (HOB:221) [foil] &27
+- Added "Dáin Ironfoot" (HOB:91) [foil] &28
+- Added "Balin, Loremaster" (HOB:87) [foil] &29
+- Added "The Master of Lake-town" (HOB:297) [foil] &30
+- Added "Azog, Moria's Ruin" (HOB:61) [foil] &31
+- Added "Fíli the Pathfinder" (HOB:14) [foil] &32
+- Added "Bilbo's Burglaring" (HOC:10) &33
+- Added "Bolg's Company" (HOB:211) &34
+- Added "Balin, Loremaster" (HOB:301) &35
+- Added "Desert Were-Worm" (HOB:225) &36
+- Added "Dáin's Company" (HOB:212) [foil] &37
+- Added "Cantankerous Keepers" (HOB:122) [foil] &38
+- Added "Tom, Bert, and William" (HOB:169) [foil] &39
+- Added "The Lord of the Eagles" (HOB:46) [foil] &40
+- Added "Long-Lost Lances" (HOC:7) &41
+- Added "Beorn the Fierce" (HOB:230) &42
+- Added "Kíli the Resourceful" (HOB:287) [foil] &43
+- Added "The Sackville-Bagginses" (HOB:299) &44
+- Added "Fíli and Kíli, Joyous" (HOC:1) &45
+- Added "The Eagles Are Coming!" (HOB:12) [foil] &46
+- Added "My Precious // Allure of Power" (HOB:176) [foil] &47
+- Added "Getaway Barrel" (HOB:98) [foil] &48
+- Added "Last Light of Durin's Day" (HOB:103) [foil] &49
+- Added "Tom, Bert, and William" (HOB:312) &50
+- Added "Supper for Spiders" (HOB:300) &51
+- Added "Bilbo, Thief in the Night" (HOB:255) [foil] &52
+- Set note on "Bilbo, Thief in the Night" &52 to "Surge foil"
+- Added "Sting, Bilbo's Sword" (HOB:178) [foil] &53
+- Added "Gigantic Big Bear" (HOB:307) &54
+- Added "Gandalf, Shadow's Foe" (HOC:99) &55
+- Added "Thranduil's Company" (HOB:168) [foil] &56
+- Added "Wizard's Staff" (HOB:59) [foil] &57
+- Added "Bolg's Company" (HOB:149) [foil] &58
+- Added "The Great Goblin" (HOB:201) &59
+- Added "Part in Friendship" (HOB:308) [foil] &60
+- Added "The Queen of Dale" (HOB:24) [foil] &61
+- Added "Andúril, Flame of the West" (HOC:79) [foil] &62
+- Set note on "Andúril, Flame of the West" &62 to "Surge foil"
+- Added "Smaug the Magnificent" (HOB:229) &63
+- Added "Belladonna Took" (HOB:250) [foil] &64
+- Set note on "Belladonna Took" &64 to "Surge foil"
+- Added "Arwen, Mortal Queen" (HOC:30) &65
+- Added "Smaug the Impenetrable" (HOC:9) &66
+- Added "The Reaver Cleaver" (HOC:94) [foil] &67
+- Added "The Arkenstone // Seek the Heart" (HOB:170) [foil] &68
+- Added "Aragorn and Arwen, Wed" (HOC:28) [foil] &69
+- Added "Cavern-Hoard Dragon" (HOC:23) &70
+- Added "Smaug, Wicked Worm" (HOB:245) [foil] &71
+- Added "Smaug the Magnificent" (HOB:110) [foil] &72
+- Added "Radagast of Rhosgobel" (HOB:136) &73
+- Added "The Sackville-Bagginses" (HOB:83) &74
+- Added "Roll-Roll-Roll-Roll" (HOB:54) &75
+- Added "The Queen of Dale" (HOB:24) &76
+- Added "Fíli and Kíli, Joyous" (HOC:1) [foil] &77
+- Added "Gandalf, Party Guest" (HOC:2) [foil] &78
+- Added "Thorin, King of Durin's Folk" (HOC:3) [foil] &79
+- Added "Bilbo, Fellow Conspirator" (HOC:4) [foil] &80
+- Added "Bag End Banquet" (HOC:5) [foil] &81
+- Added "Ori, Plate Stacker" (HOC:6) [foil] &82
+- Added "Down in the Valley" (HOB:124) &83
+- Added "Glamdring, Foe-hammer // Gleam of Death" (HOB:174) &84
+- Added "The Great Goblin" (HOB:158) &85
+- Added "Smaug, Wicked Worm" (HOB:164) &86
+- Added "Long-Lost Lances" (HOC:7) [foil] &87
+- Added "Dragon-Cursed Halls" (HOC:8) [foil] &88
+- Added "Smaug the Impenetrable" (HOC:9) [foil] &89
+- Added "Bilbo's Burglaring" (HOC:10) [foil] &90
+- Added "Dragon's Desire" (HOC:11) [foil] &91
+- Added "Necklace of Girion" (HOC:12) [foil] &92

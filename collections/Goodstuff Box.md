@@ -1,0 +1,101 @@
+---
+labels:
+  - sale
+  - trade
+---
+
+# Goodstuff Box
+
+## Main
+- Elven Passage (HOB:181) &1
+- Bard, King of Dale (HOB:144) &2
+- Elrond, Moon-Reader (HOB:36) &3
+- Great Gilded Boat (HOB:42) &4
+- Great Gilded Boat (HOB:42) [foil] &5
+- The Misty Mountains Cold (HOB:104) &6
+- Cantankerous Keepers (HOB:122) &7
+- Through the Forest Gate (HOB:137) &8
+- Chief Warg's Company (HOB:208) [foil] &9
+- Tom, Bert, and William (HOB:169) &10
+- Riddles in the Dark (HOB:53) &11
+- Thranduil's Company (HOB:168) &12
+- The Lonely Mountain (HOB:187) [foil] &13
+- Bejeweled Warg (HOB:117) [foil] &14
+- Cantankerous Keepers (HOB:306) &15
+- Elrond, Moon-Reader (HOB:290) &16
+- Uncover the Moon-Letters (HOB:293) &17
+- Rivendell (HOC:91) [foil] {Surge foil} &18
+- An Unexpected Party // At the Door (HOB:29) [foil] &19
+- Settle the Wreckage (HOB:288) &20
+- Part in Friendship (HOB:308) &21
+- Wizard's Staff (HOB:294) [foil] &22
+- Head of the Hunt (HOB:75) [foil] &23
+- Part in Friendship (HOB:134) [foil] &24
+- The Eagles Are Coming! (HOB:205) &25
+- Last Light of Durin's Day (HOB:228) &26
+- Most Decrepit Old Bird // Speak Secrets (HOB:221) [foil] &27
+- Dáin Ironfoot (HOB:91) [foil] &28
+- Balin, Loremaster (HOB:87) [foil] &29
+- The Master of Lake-town (HOB:297) [foil] &30
+- Azog, Moria's Ruin (HOB:61) [foil] &31
+- Fíli the Pathfinder (HOB:14) [foil] &32
+- Bilbo's Burglaring (HOC:10) &33
+- Bolg's Company (HOB:211) &34
+- Balin, Loremaster (HOB:301) &35
+- Desert Were-Worm (HOB:225) &36
+- Dáin's Company (HOB:212) [foil] &37
+- Cantankerous Keepers (HOB:122) [foil] &38
+- Tom, Bert, and William (HOB:169) [foil] &39
+- The Lord of the Eagles (HOB:46) [foil] &40
+- Long-Lost Lances (HOC:7) &41
+- Beorn the Fierce (HOB:230) &42
+- Kíli the Resourceful (HOB:287) [foil] &43
+- The Sackville-Bagginses (HOB:299) &44
+- Fíli and Kíli, Joyous (HOC:1) &45
+- The Eagles Are Coming! (HOB:12) [foil] &46
+- My Precious // Allure of Power (HOB:176) [foil] &47
+- Getaway Barrel (HOB:98) [foil] &48
+- Last Light of Durin's Day (HOB:103) [foil] &49
+- Tom, Bert, and William (HOB:312) &50
+- Supper for Spiders (HOB:300) &51
+- Bilbo, Thief in the Night (HOB:255) [foil] {Surge foil} &52
+- Sting, Bilbo's Sword (HOB:178) [foil] &53
+- Gigantic Big Bear (HOB:307) &54
+- Gandalf, Shadow's Foe (HOC:99) &55
+- Thranduil's Company (HOB:168) [foil] &56
+- Wizard's Staff (HOB:59) [foil] &57
+- Bolg's Company (HOB:149) [foil] &58
+- The Great Goblin (HOB:201) &59
+- Part in Friendship (HOB:308) [foil] &60
+- The Queen of Dale (HOB:24) [foil] &61
+- Andúril, Flame of the West (HOC:79) [foil] {Surge foil} &62
+- Smaug the Magnificent (HOB:229) &63
+- Belladonna Took (HOB:250) [foil] {Surge foil} &64
+- Arwen, Mortal Queen (HOC:30) &65
+- Smaug the Impenetrable (HOC:9) &66
+- The Reaver Cleaver (HOC:94) [foil] &67
+- The Arkenstone // Seek the Heart (HOB:170) [foil] &68
+- Aragorn and Arwen, Wed (HOC:28) [foil] &69
+- Cavern-Hoard Dragon (HOC:23) &70
+- Smaug, Wicked Worm (HOB:245) [foil] &71
+- Smaug the Magnificent (HOB:110) [foil] &72
+- Radagast of Rhosgobel (HOB:136) &73
+- The Sackville-Bagginses (HOB:83) &74
+- Roll-Roll-Roll-Roll (HOB:54) &75
+- The Queen of Dale (HOB:24) &76
+- Fíli and Kíli, Joyous (HOC:1) [foil] &77
+- Gandalf, Party Guest (HOC:2) [foil] &78
+- Thorin, King of Durin's Folk (HOC:3) [foil] &79
+- Bilbo, Fellow Conspirator (HOC:4) [foil] &80
+- Bag End Banquet (HOC:5) [foil] &81
+- Ori, Plate Stacker (HOC:6) [foil] &82
+- Down in the Valley (HOB:124) &83
+- Glamdring, Foe-hammer // Gleam of Death (HOB:174) &84
+- The Great Goblin (HOB:158) &85
+- Smaug, Wicked Worm (HOB:164) &86
+- Long-Lost Lances (HOC:7) [foil] &87
+- Dragon-Cursed Halls (HOC:8) [foil] &88
+- Smaug the Impenetrable (HOC:9) [foil] &89
+- Bilbo's Burglaring (HOC:10) [foil] &90
+- Dragon's Desire (HOC:11) [foil] &91
+- Necklace of Girion (HOC:12) [foil] &92

@@ -117,3 +117,256 @@
 - Added "Deadly Cover-Up" (MKM:83) [foil] &113
 - Added "No Witnesses" (MKM:27) &114
 - Added "No Witnesses" (MKM:27) &115
+
+## 2026-08-07T13:25:12.751Z
+
+- Added "No Witnesses" (MKM:390) &116
+- Added "No Witnesses" (MKM:390) [foil] &117
+- Added "Change of Fortune" (VOW:150) &118
+- Added "Ill-Timed Explosion" (MKM:416) &119
+- Added "Alchemist's Gambit" (VOW:140) &120
+- Added "Winged Portent" (VOW:89) &121
+- Added "Alchemist's Gambit" (VOW:140) [foil] &122
+- Added "Inspired Idea" (VOW:64) &123
+- Added "Invoke the Winds" (NEO:58) &124
+- Added "March of Wretched Sorrow" (NEO:111) &125
+- Added "Fire // Ice" (MH2:290) &126
+- Added "Vindicate" (MH2:294) &127
+- Added "Urgent Necropsy" (MKM:421) &128
+- Added "Outrageous Robbery" (MKM:402) [foil] &129
+- Added "Worldsoul's Rage" (MKM:244) [foil] &130
+- Added "Outrageous Robbery" (MKM:97) &131
+- Added "Villainous Wealth" (OTP:58) &132
+- Added "Anzrag's Rampage" (MKM:303) &133
+- Added "Tibalt's Trickery" (SLD:7027) [foil] &134
+- Added "Rally the Galadhrim" (LTC:499) [foil] &135
+- Added "Preordain" (SLD:1719) [foil] &136
+- Added "Chaos Warp" (SLD:823) [foil] &137
+- Added "Galvanic Iteration" (MID:224) &138
+- Added "Can't Stay Away" (MID:213) &139
+- Added "Inevitable Betrayal" (MH2:47) &140
+- Added "Rise and Shine" (MH2:58) &141
+- Added "Suspend" (MH2:68) &142
+- Added "Glimpse of Tomorrow" (MH2:129) &143
+- Added "Patriarch's Bidding" (MH2:275) &144
+- Added "Profane Tutor" (MH2:97) [foil] &145
+- Added "Chef's Kiss" (MH2:120) &146
+- Added "Calibrated Blast" (MH2:118) &147
+- Added "Endless Detour" (OTP:44) &148
+- Added "Eldritch Evolution" (INR:410) &149
+- Added "Collective Brutality" (INR:308) [foil] &150
+
+## 2026-08-07T21:26:10.441Z
+
+- Added "Skullcrack" (OTP:27) &151
+- Added "Preposterous Proportions" (FDN:338) [foil] &152
+- Added "Rush of Dread" (OTJ:327) &153
+- Added "Voidslime" (OTP:60) &154
+- Added "Cruel Ultimatum" (OTP:40) &155
+- Added "Ionize" (OTP:49) &156
+- Added "Step Between Worlds" (OTJ:321) &157
+- Added "Fell the Mighty" (OTP:1) &158
+- Added "Commandeer" (OTP:9) [foil] &159
+- Added "Come Back Wrong" (DSK:86) &160
+- Added "Come Back Wrong" (DSK:86) [foil] &161
+- Added "Lightning Bolt" (SLD:675) &162
+- Added "Slagstorm" (FDN:207) &163
+- Added "Slagstorm" (FDN:207) [foil] &164
+- Added "Brass's Bounty" (FDN:190) &165
+- Added "Fatal Push" (SLD:884) [foil] &166
+- Added "Fatal Push" (SLD:1819) &167
+- Added "Silence" (SLD:1816) &168
+- Added "Deadly Rollick" (SLD:1754) [foil] &169
+- Added "Saw in Half" (SLD:1755) [foil] &170
+- Added "Saw in Half" (SLD:1755) [foil] &171
+- Added "Saw in Half" (SLD:1755) &172
+- Added "Blasphemous Act" (SLD:1756) &173
+- Added "Blasphemous Act" (SLD:1756) [foil] &174
+- Added "Harmless Offering" (SLD:868) [foil] &175
+- Added "Harmless Offering" (SLD:868) [foil] &176
+- Added "Harmless Offering" (SLD:868) [foil] &177
+- Added "Harmless Offering" (SLD:868) [foil] &178
+- Added "Vandalblast" (SLD:1757) &179
+- Added "Vandalblast" (SLD:1757) &180
+- Added "Vandalblast" (SLD:1757) [foil] &181
+- Added "Vandalblast" (SLD:1757) [foil] &182
+- Added "Deadly Rollick" (SLD:1754) &183
+- Added "Deadly Rollick" (SLD:1754) [foil] &184
+- Added "Calamity of Cinders" (BLC:57) &185
+- Added "Strangle" (SCH:10) &186
+- Added "Embrace the Unknown" (OTC:64) &187
+- Added "Wild Ricochet" (C13:132) &188
+- Added "Magmatic Insight" (OTC:173) &189
+- Added "Reverberate" (M13:145) [foil] &190
+- Added "Waltz of Rage" (DSK:165) &191
+- Added "Wake to Slaughter" (MID:250) &192
+- Added "Void Rend" (OTP:59) &193
+- Added "Ionize" (OTP:49) &194
+- Added "Ionize" (OTP:49) &195
+- Added "Collective Defiance" (OTP:21) &196
+- Added "Treacherous Greed" (MKM:237) &197
+- Added "Hide in Plain Sight" (MKM:166) &198
+- Added "Drag the Canal" (MKM:199) [foil] &199
+- Added "Drag the Canal" (MKM:415) [foil] &200
+- Added "Hide in Plain Sight" (MKM:166) [foil] &201
+- Added "Reenact the Crime" (MKM:70) &202
+- Added "Audience with Trostani" (PMKM:152p) &203
+- Added "Analyze the Pollen" (MKM:308) &204
+- Added "Analyze the Pollen" (MKM:150) &205
+- Added "Expressive Iteration" (SLD:2060) [foil] &206
+- Added "Expressive Iteration" (SLD:2060) &207
+- Added "Coiling Rebirth" (BLB:309) &208
+- Added "Reanimate" (MKC:137) &209
+- Added "Rise of the Dark Realms" (MKC:138) &210
+- Added "Charnel Serenade" (MKC:26) &211
+- Added "Brainstorm" (FCA:28) &212
+- Added "Ultima" (FIN:38) &213
+- Added "Yuna's Decision" (FIC:125) &214
+- Added "Deadly Dispute" (FCA:33) &215
+- Added "Light Up the Stage" (FCA:39) &216
+- Added "Louisoix's Sacrifice" (FIN:59) &217
+- Added "Dark Ritual" (FCA:8) &218
+- Added "Fatal Push" (FCA:9) &219
+- Added "Fatal Push" (FCA:9) &220
+- Added "Fatal Push" (FCA:9) [foil] &221
+- Added "Esper Origins // Summon: Esper Maduin" (FIN:185) &222
+- Added "Three Steps Ahead" (POTJ:75s) [foil] &223
+- Added "Lightning Strike" (PCBB:4) [foil] &224
+- Added "Come Back Wrong" (DSK:86) [foil] &225
+- Added "Begin the Invasion" (MOC:87) &226
+- Added "Peer Past the Veil" (DSK:226) &227
+- Added "Open the Armory" (SLD:2089) &228
+- Added "Fabricate" (SLD:2090) &229
+- Added "Deadly Dispute" (SLD:2091) &230
+- Added "Dovin's Veto" (FCA:51) &231
+- Added "Louisoix's Sacrifice" (FIN:59) &232
+- Added "Memories Returning" (FIN:63) [foil] &233
+- Added "Light Up the Stage" (FCA:39) &234
+- Added "Sublime Exhalation" (CMM:60) &235
+- Added "Collective Brutality" (INR:308) &236
+- Added "Arachnogenesis" (CMM:272) [foil] &237
+- Added "Shamanic Revelation" (2XM:179) &238
+- Added "Winternight Stories" (TDM:67) &239
+- Added "Winternight Stories" (TDM:67) &240
+- Added "Nature's Rhythm" (TDM:150) &241
+- Added "Nature's Rhythm" (TDM:150) &242
+- Added "Inevitable Defeat" (TDM:194) &243
+- Added "New Way Forward" (TDM:211) &244
+- Added "Mystic Reflection" (KHM:346) &245
+- Added "Death Begets Life" (TDM:176) &246
+- Added "Winternight Stories" (TDM:336) &247
+- Added "Yuna's Decision" (FIC:125) &248
+- Added "New Way Forward" (TDM:211) &249
+- Added "Perennation" (TDM:368) &250
+- Added "Perennation" (TDM:212) [foil] &251
+- Added "Three Steps Ahead" (OTJ:75) &252
+- Added "Preordain" (SCH:39) &253
+- Added "Blasphemous Act" (PIP:188) &254
+- Added "Second Harvest" (INR:213) [foil] &255
+- Added "Genesis Wave" (FDN:221) &256
+- Added "Genesis Wave" (FDN:221) [foil] &257
+- Added "Ice Storm" (SLD:1745) &258
+- Added "Heroic Intervention" (SLD:1750) &259
+- Added "Heroic Intervention" (WHO:233) &260
+- Added "Tail Swipe" (SCH:15) &261
+- Added "Unholy Heat" (SPG:71) &262
+- Added "For the Common Good" (BLB:321) [foil] &263
+- Added "Valgavoth's Onslaught" (DSK:204) &264
+- Added "Skyshroud Claim" (PLST:NEM-117) &265
+- Added "Pir's Whim" (PLST:BBD-73) &266
+- Added "Hide in Plain Sight" (MKM:166) &267
+- Added "Valgavoth's Onslaught" (DSK:324) &268
+- Added "Heroic Intervention" (CMM:563) [etched] &269
+- Added "For the Common Good" (BLB:321) &270
+- Added "Aether Snap" (PLST:DST-37) &271
+- Added "Demonic Counsel" (DSK:92) &272
+- Added "Diabolic Tutor" (PW24:13) [foil] &273
+- Added "Complete the Circuit" (MOM:351) [foil] &274
+- Added "Lunar Insight" (FDN:46) &275
+- Added "Galvanic Blast" (SLD:1732) &276
+- Added "Galvanic Blast" (SLD:1732) [foil] &277
+- Added "Lightning Bolt" (SLD:1743) &278
+- Added "Lightning Bolt" (SLD:1822) &279
+- Added "Lightning Bolt" (SLD:1822) [foil] &280
+- Added "Delayed Blast Fireball" (SLD:1824) [foil] &281
+- Added "Ancient Grudge" (SLD:98) &282
+- Added "Minds Aglow" (SLD:7028) [foil] &283
+- Added "Cultural Exchange" (SLD:2071) [foil] &284
+- Added "Quag Feast" (DFT:384) [foil] &285
+- Added "Portent of Calamity" (BLB:306) &286
+- Added "Zimone's Hypothesis" (DSC:46) &287
+- Added "Mists of Lórien" (LTC:501) [foil] &288
+- Added "Sleight of Hand" (SLP:25) &289
+- Added "Sleight of Hand" (SLP:25) &290
+- Added "Cruelclaw's Heist" (BLB:88) &291
+- Added "Portent of Calamity" (BLB:66) &292
+- Added "Archmage's Charm" (OTP:8) &293
+- Added "Fell the Mighty" (OTP:1) [foil] &294
+- Added "Primal Might" (OTP:32) &295
+- Added "Pyretic Charge" (OTC:65) &296
+- Added "Step Between Worlds" (OTJ:70) [foil] &297
+- Added "Void Rend" (OTP:59) &298
+- Added "Hell to Pay" (OTJ:126) [foil] &299
+- Added "Imp's Mischief" (OTP:15) [foil] &300
+- Added "Imp's Mischief" (OTP:15) &301
+- Added "Cataclysmic Prospecting" (OTC:60) &302
+- Added "Miscast" (SLD:2332) [foil] &303
+- Added "Sword of the Animist" (PLST:E01-89) &304
+- Added "Hidden Blade" (ACR:307) [foil] &305
+- Added "Dolmen Gate" (SLD:1806) &306
+- Added "Aether Vial" (SLD:1640★) [foil] &307
+- Added "Arcane Signet" (SLD:820★) [foil] &308
+- Added "Sword of the Animist" (SLD:1642★) [foil] &309
+- Added "Sphere of Resistance" (SLD:1484★) [foil] &310
+- Added "Trinisphere" (SLD:1485★) [foil] &311
+- Added "Winter Orb" (SLD:1486★) [foil] &312
+- Added "Codex Shredder" (SLD:790★) [foil] &313
+- Added "Elixir of Immortality" (SLD:1634★) [foil] &314
+- Added "Lightning Greaves" (SLD:1662) &315
+- Added "Skullclamp" (SLD:1663) &316
+- Added "Skullclamp" (SLD:1663) [foil] &317
+- Added "Door to Nothingness" (SLD:1678) [foil] &318
+- Added "Ashnod's Altar" (SLD:1679) [foil] &319
+- Added "Springleaf Drum" (SLP:22) &320
+- Added "Lifecrafter's Bestiary" (PW23:2) [foil] &321
+- Added "Andúril, Flame of the West" (LTR:786) [foil] &322
+- Added "Sculpting Steel" (SLD:864) [foil] &323
+- Added "Sword of War and Peace" (SLD:1730) [foil] &324
+- Added "Masterwork of Ingenuity" (SLD:863) [foil] &325
+- Added "Sword of War and Peace" (SLD:1730) &326
+- Added "Sculpting Steel" (SLD:864) [foil] &327
+- Added "Winter Moon" (MH3:462) &328
+- Added "Winter Moon" (PMH3:213s) [foil] &329
+- Added "Séance Board" (DSC:67) &330
+- Added "Dissection Tools" (DSK:385) &331
+- Added "Celestial Armor" (FDN:5) &332
+- Added "Deluxe Dragster" (MOC:108) &333
+- Added "Resurrection Orb" (40K:165) &334
+- Added "Pearl Medallion" (MH3:294) [foil] &335
+- Added "Sceptre of Eternal Glory" (40K:166) &336
+- Added "Arcane Signet" (SLD:908) [foil] &337
+- Added "Sol Ring" (SLD:1734) [foil] &338
+- Added "Thought Vessel" (SLD:1665) &339
+- Added "Thought Vessel" (SLD:1665) [foil] &340
+- Added "Dissection Tools" (DSK:245) &341
+- Added "Dissection Tools" (DSK:385) &342
+- Added "Ghost Vacuum" (DSK:248) &343
+- Added "Lotus Petal" (SLD:7037) [foil] &344
+- Added "Heirloom Blade" (PW24:16) [foil] &345
+- Added "Hidden Blade" (ACR:307) [foil] &346
+- Added "Realmbreaker, the Invasion Tree" (MOM:374) [foil] &347
+- Added "Chromatic Sphere" (SCH:30) &348
+- Added "Staff of Eden, Vault's Key" (ACR:76) [foil] &349
+- Added "Dissection Tools" (DSK:245) [foil] &350
+- Added "Serum Powder" (MB2:142) &351
+- Added "Inspiring Statuary" (CMM:394) &352
+- Added "Font of Mythos" (SLD:2075) [foil] &353
+- Added "Folio of Fancies" (SLD:2072) [foil] &354
+- Added "Cryptcaller Chariot" (DFT:306) [foil] &355
+- Added "Cryptcaller Chariot" (DFT:80) &356
+- Added "Cursecloth Wrappings" (DFT:81) [foil] &357
+- Added "Ancient Cornucopia" (BIG:16) &358
+- Added "Leyline Dowser" (OTC:75) &359
+- Added "Umezawa's Jitte" (PLST:BOK-163) &360
+- Added "Worldwalker Helm" (BIG:72) [foil] &361
+- Added "Mithril Coat" (LTR:245) &362
