@@ -99,3 +99,87 @@ labels:
 - Bilbo's Burglaring (HOC:10) [foil] &90
 - Dragon's Desire (HOC:11) [foil] &91
 - Necklace of Girion (HOC:12) [foil] &92
+- Radagast of Rhosgobel (HOB:136) &93
+- Gigantic Big Bear (HOB:126) &94
+- Bard's Company (HOB:146) &95
+- Supper for Spiders (HOB:86) &96
+- The Master of Lake-town (HOB:77) [foil] &97
+- Azog, Moria's Ruin (HOB:61) [foil] &98
+- The Lord of the Eagles (HOB:46) &99
+- Riddles in the Dark (HOB:53) &100
+- Most Decrepit Old Bird // Speak Secrets (HOB:49) &101
+- Flamewake Phoenix (FDN:198) &102
+- Sylvan Scavenging (FDN:342) &103
+- Exsanguinate (FDN:173) &104
+- Tatyova, Benthic Druid (FDN:247) &105
+- Vein Ripper (MKM:433) [foil] &106
+- Warden of the Inner Sky (LCI:43) [foil] &107
+- Dawn's Truce (BLB:9) &108
+- High Noon (OTJ:15) &109
+- Season of Loss (BLB:112) &110
+- Stroke of Midnight (FDN:148) [foil] &111
+- Day of Judgment (FDN:140) [foil] &112
+- The Eternal Wanderer (ONE:335) [foil] &113
+- Expel the Interlopers (WOE:381) [foil] &114
+- Another Round (OTJ:307) [foil] &115
+- Phyrexian Arena (ONE:384) [foil] &116
+- Abyssal Harvester (FDN:316) [foil] &117
+- Abyssal Harvester (FDN:54) &118
+- Abyssal Harvester (FDN:54) &119
+- Stroke of Midnight (FDN:148) &120
+- Abyssal Gorestalker (LCI:87) [foil] &121
+- Another Round (OTJ:1) &122
+- One Last Job (OTJ:315) &123
+- Rise of the Dark Realms (FDN:183) [foil] &124
+- Fountainport (BLB:253) [foil] &125
+- Requisition Raid (OTJ:26) &126
+- Requisition Raid (OTJ:26) [foil] &127
+- Season of Loss (BLB:284) &128
+- Raise the Past (FDN:300) &129
+- Raise the Past (FDN:369) [foil] &130
+- Ojer Taq, Deepest Foundation // Temple of Civilization (LCI:26) [foil] &131
+- Get Lost (LCI:333) &132
+- Meathook Massacre II (DSK:311) &133
+- Rise of the Dark Realms (FDN:323) [foil] &134
+- Herald of Eternal Dawn (FDN:299) &135
+- Herald of Eternal Dawn (FDN:17) &136
+- Authority of the Consuls (FDN:137) &137
+- Authority of the Consuls (FDN:137) [foil] &138
+- Chimil, the Inner Sun (LCI:249) [foil] &139
+- Phyrexian Arena (FDN:728) [foil] &140
+- Phyrexian Arena (FDN:322) &141
+- Liliana, Dreadhorde General (FDN:176) [foil] &142
+- Shadowy Backstreet (MKM:330) &143
+- Season of Loss (BLB:284) &144
+- Cavern of Souls (LCI:345) &145
+- Caretaker's Talent (BLB:6) &146
+- Caretaker's Talent (BLB:6) &147
+- Caretaker's Talent (BLB:6) &148
+- Sunfall (MOM:40) &149
+- Three Tree City (BLB:260) &150
+- Three Tree City (BLB:260) &151
+- Three Tree City (BLB:260) &152
+- Chimil, the Inner Sun (LCI:249) &153
+- Fountainport (BLB:368) &154
+- Fountainport (BLB:253) &155
+- Fountainport (BLB:253) [foil] &156
+- Fabled Passage (BLB:252) &157
+- Day of Judgment (FDN:140) &158
+- Day of Judgment (FDN:140) &159
+- Day of Judgment (FDN:140) &160
+- Raise the Past (FDN:22) &161
+- Raise the Past (FDN:22) &162
+- Hare Apparent (FDN:15) &163
+- Hare Apparent (FDN:15) &164
+- Hare Apparent (FDN:15) &165
+- Hare Apparent (FDN:15) &166
+- Hare Apparent (FDN:15) &167
+- Hare Apparent (FDN:15) &168
+- Hare Apparent (FDN:15) &169
+- Hare Apparent (FDN:15) &170
+- Hare Apparent (FDN:15) &171
+- Hare Apparent (FDN:15) &172
+- Hare Apparent (FDN:15) &173
+- Hare Apparent (FDN:15) &174
+- Hare Apparent (FDN:15) [foil] &175
+- Hare Apparent (FDN:15) [foil] &176
