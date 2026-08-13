@@ -6,8 +6,8 @@ sourceUrl: 'https://archidekt.com/decks/9337260'
 created: '2026-06-25T20:59:18.570Z'
 tags: []
 format: commander
-lastSynced: '2026-08-06T21:38:37.939Z'
-sourceUpdatedAt: '2026-08-01T03:35:25.223489Z'
+lastSynced: '2026-08-13T04:23:35.475Z'
+sourceUpdatedAt: '2026-08-13T03:33:16.326106Z'
 ---
 
 ## Commander
@@ -94,7 +94,7 @@ sourceUpdatedAt: '2026-08-01T03:35:25.223489Z'
 1 Mystic Monastery &79
 1 Bitterthorn, Nissa's Animus &80
 1 Sundering Eruption // Volcanic Fissure &81
-2 Mountain &82
+1 Mountain &82
 1 Avatar's Wrath &83
 1 Fated Clash &84
 1 Brilliant Wings &85
@@ -109,5 +109,4 @@ sourceUpdatedAt: '2026-08-01T03:35:25.223489Z'
 1 Spirit Mantle &95
 1 Genji Glove &96
 1 Kellan, the Fae-Blooded // Birthright Boon &86
-
-## Maybeboard
+1 The Lonely Mountain &97

@@ -5,9 +5,9 @@ sourceId: '23872221'
 sourceUrl: 'https://archidekt.com/decks/23872221'
 created: '2026-07-03T23:02:15.092Z'
 tags: []
-lastSynced: '2026-08-06T21:38:32.573Z'
+lastSynced: '2026-08-13T04:23:19.335Z'
 format: commander
-sourceUpdatedAt: '2026-07-31T21:51:34.525808Z'
+sourceUpdatedAt: '2026-08-13T04:19:56.098369Z'
 ---
 
 ## Commander
@@ -24,7 +24,6 @@ sourceUpdatedAt: '2026-07-31T21:51:34.525808Z'
 1 White Sun's Twilight &9
 1 Halo Fountain &10
 1 Overpowering Attack &11
-1 Aurelia, the Law Above &12
 1 Charismatic Conqueror &13
 1 Mog, Moogle Warrior &14
 1 Plaza of Heroes &15
@@ -99,32 +98,6 @@ sourceUpdatedAt: '2026-07-31T21:51:34.525808Z'
 1 Mana Geyser &48
 1 Embercleave &74
 1 Dawn's Truce &68
+1 The Queen of Dale &12
 
 ## Maybeboard
-1 Archaeomancer's Map &87
-1 Mirror Entity &88
-1 Lightning, Army of One &89
-1 Springleaf Drum &90
-1 Joined Researchers // Secret Rendezvous &91
-1 Illustrious Wanderglyph &92
-1 Chocobo Knights &93
-1 Righteous Confluence &94
-1 Boros Charm &96
-1 Caretaker's Talent &97
-1 Will of the Mardu &99
-1 Faithless Looting &101
-1 Deflecting Palm &102
-1 Frontline Rush &103
-1 Exalted Sunborn &104
-1 Unexpected Windfall &106
-1 Practiced Offense &108
-1 Crashing Drawbridge &109
-1 Kinbinding &110
-1 Moonshaker Cavalry &111
-1 Strionic Resonator &112
-1 Electro, Assaulting Battery &113
-1 Odric, Lunarch Marshal &114
-1 Serra Ascendant &115
-1 Perch Protection &95
-1 Staff of the Storyteller &100
-1 Land Tax &105

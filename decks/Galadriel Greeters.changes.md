@@ -145,3 +145,10 @@
 
 - Added "Radagast of Rhosgobel" (HOB:136) &13
 - Removed "Cosmic Intervention" (KHC:3) &13
+
+## 2026-08-13T04:22:47.364Z
+
+- Added "The Queen of Dale" (HOB:24) [foil] &15
+- Added "Elven Passage" (HOB:181) &86
+- Removed "Tranquil Landscape" (MH3:231) &15
+- Removed "Voice of Victory" (TDM:331) &86

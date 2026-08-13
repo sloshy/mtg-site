@@ -26,9 +26,9 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-08-13T03:23:39.304Z'
+lastSynced: '2026-08-13T04:22:47.349Z'
 format: commander
-sourceUpdatedAt: '2026-08-13T02:41:53.104904Z'
+sourceUpdatedAt: '2026-08-13T04:21:43.387994Z'
 ---
 
 ## Commander
@@ -47,7 +47,6 @@ sourceUpdatedAt: '2026-08-13T02:41:53.104904Z'
 1 Exotic Orchard (LTC:307) &11
 1 Azorius Signet (CMM:941) &12
 1 Flooded Strand (MH3:436) &14
-1 Tranquil Landscape (MH3:231) &15
 1 Deserted Beach (WHO:270) &16
 1 Faerie Artisans (SLD:1628★) [foil] &17
 1 Perch Protection (BLC:47) &19
@@ -112,7 +111,6 @@ sourceUpdatedAt: '2026-08-13T02:41:53.104904Z'
 1 Yavimaya, Cradle of Growth (LTC:377) [foil] &81
 1 Seaside Citadel (WHO:302) &83
 1 Fanatic of Rhonas (MH3:152) [foil] &84
-1 Voice of Victory (TDM:331) &86
 1 Dyadrine, Synthesis Amalgam (EOE:216) &87
 1 Kami of Whispered Hopes (MOM:196) &89
 1 Elspeth, Storm Slayer (TDM:398) &91
@@ -134,3 +132,5 @@ sourceUpdatedAt: '2026-08-13T02:41:53.104904Z'
 1 Noble Hierarch (PLST:MM2-151) &60
 1 Spike Weaver (MB2:214) &97
 1 Radagast of Rhosgobel (HOB:136) &13
+1 The Queen of Dale (HOB:24) [foil] &15
+1 Elven Passage (HOB:181) &86

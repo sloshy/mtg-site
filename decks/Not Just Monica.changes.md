@@ -44,3 +44,35 @@
 - Added "Dawn's Truce" &68
 - Removed "Moogles' Valor" &68
 - Removed "Dawn's Truce" from Maybeboard &98
+
+## 2026-08-13T04:23:19.355Z
+
+- Added "The Queen of Dale" &12
+- Removed "Aurelia, the Law Above" &12
+- Removed "Archaeomancer's Map" from Maybeboard &87
+- Removed "Mirror Entity" from Maybeboard &88
+- Removed "Lightning, Army of One" from Maybeboard &89
+- Removed "Springleaf Drum" from Maybeboard &90
+- Removed "Joined Researchers // Secret Rendezvous" from Maybeboard &91
+- Removed "Illustrious Wanderglyph" from Maybeboard &92
+- Removed "Chocobo Knights" from Maybeboard &93
+- Removed "Righteous Confluence" from Maybeboard &94
+- Removed "Boros Charm" from Maybeboard &96
+- Removed "Caretaker's Talent" from Maybeboard &97
+- Removed "Will of the Mardu" from Maybeboard &99
+- Removed "Faithless Looting" from Maybeboard &101
+- Removed "Deflecting Palm" from Maybeboard &102
+- Removed "Frontline Rush" from Maybeboard &103
+- Removed "Exalted Sunborn" from Maybeboard &104
+- Removed "Unexpected Windfall" from Maybeboard &106
+- Removed "Practiced Offense" from Maybeboard &108
+- Removed "Crashing Drawbridge" from Maybeboard &109
+- Removed "Kinbinding" from Maybeboard &110
+- Removed "Moonshaker Cavalry" from Maybeboard &111
+- Removed "Strionic Resonator" from Maybeboard &112
+- Removed "Electro, Assaulting Battery" from Maybeboard &113
+- Removed "Odric, Lunarch Marshal" from Maybeboard &114
+- Removed "Serra Ascendant" from Maybeboard &115
+- Removed "Perch Protection" from Maybeboard &95
+- Removed "Staff of the Storyteller" from Maybeboard &100
+- Removed "Land Tax" from Maybeboard &105
