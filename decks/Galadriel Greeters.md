@@ -26,9 +26,9 @@ description: >-
   from Duskshell Crawler or Abzan Falconer
 created: '2026-02-23T13:34:55.229Z'
 tags: []
-lastSynced: '2026-08-12T02:55:35.221Z'
+lastSynced: '2026-08-13T03:23:39.304Z'
 format: commander
-sourceUpdatedAt: '2026-08-12T02:55:19.677451Z'
+sourceUpdatedAt: '2026-08-13T02:41:53.104904Z'
 ---
 
 ## Commander
@@ -46,7 +46,6 @@ sourceUpdatedAt: '2026-08-12T02:55:19.677451Z'
 1 Sungrass Prairie (WOC:167) &10
 1 Exotic Orchard (LTC:307) &11
 1 Azorius Signet (CMM:941) &12
-1 Cosmic Intervention (KHC:3) &13
 1 Flooded Strand (MH3:436) &14
 1 Tranquil Landscape (MH3:231) &15
 1 Deserted Beach (WHO:270) &16
@@ -134,3 +133,4 @@ sourceUpdatedAt: '2026-08-12T02:55:19.677451Z'
 1 Molecule Man (MSC:9) &35
 1 Noble Hierarch (PLST:MM2-151) &60
 1 Spike Weaver (MB2:214) &97
+1 Radagast of Rhosgobel (HOB:136) &13

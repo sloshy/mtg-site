@@ -140,3 +140,8 @@
 - Set "Spellseeker" printing to BBD:41 &37
 - Set "Absolute Virtue" printing to FIN:212 [foil] &94
 - Set language of "Absolute Virtue" to Japanese &94
+
+## 2026-08-13T03:23:39.327Z
+
+- Added "Radagast of Rhosgobel" (HOB:136) &13
+- Removed "Cosmic Intervention" (KHC:3) &13

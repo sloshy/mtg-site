@@ -5,9 +5,9 @@ sourceId: '5778121'
 sourceUrl: 'https://archidekt.com/decks/5778121'
 created: '2026-02-23T13:34:54.296Z'
 tags: []
-lastSynced: '2026-08-06T21:38:33.485Z'
+lastSynced: '2026-08-13T03:25:34.445Z'
 format: commander
-sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
+sourceUpdatedAt: '2026-08-13T03:25:28.505491Z'
 ---
 
 ## Commander
@@ -28,7 +28,6 @@ sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 1 Alesha, Who Laughs at Fate &13
 6 Mountain &14
 1 Haunted Ridge &15
-1 Port Razer &16
 1 Deflecting Swat &17
 1 Sulfurous Springs &18
 1 Faithless Looting &20
@@ -39,7 +38,6 @@ sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 1 Brotherhood Regalia &26
 1 Shizo, Death's Storehouse &27
 1 Return the Favor &28
-1 Rakdos Charm &29
 1 Palantír of Orthanc &30
 1 Phyrexian Dragon Engine &32
 1 Command Beacon &33
@@ -48,11 +46,9 @@ sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 1 Dragonskull Summit &37
 1 Decadent Dragon // Expensive Taste &38
 1 Command Tower &39
-1 Temple of the False God &40
 1 Gimli's Reckless Might &41
 1 Deadly Rollick &42
 1 Anger &43
-1 Insurrection &44
 1 Arcane Signet &45
 1 Swiftfoot Boots &46
 1 Whispersilk Cloak &47
@@ -88,7 +84,6 @@ sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 1 Malakir Rebirth // Malakir Mire &77
 5 Swamp &78
 1 Ardyn, the Usurper &79
-1 Snort &80
 1 Unexpected Windfall &81
 1 Wheel of Misfortune &82
 1 Super State &83
@@ -97,10 +92,17 @@ sourceUpdatedAt: '2026-07-30T21:46:18.661647Z'
 1 Ozai, the Phoenix King &87
 1 Locke, Treasure Hunter &88
 1 Mega Flare &89
-1 The Soul Stone &91
 1 Nibelheim Aflame &23
 1 Cosmic Cube &31
 1 Typhoid Mary, Fractured &90
 1 Bloodstained Mire &19
 1 Olivia, Crimson Bride &36
 1 Cursed Mirror &85
+1 Knuckles the Echidna &16
+1 Smaug the Magnificent &29
+1 Ancient Brass Dragon &40
+1 Blasphemous Act &44
+1 Silver Shroud Costume &80
+1 Dragon-Cursed Halls &91
+
+## Maybeboard
