@@ -191,7 +191,6 @@ labels:
 - Time Stop (FDN:166) &182
 - Drake Hatcher (FDN:35) &183
 - Sphinx of Forgotten Lore (FDN:314) [foil] &184
-- Lord of the Void (RVR:81) &185
 - Shadowgrange Archfiend (VOC:22) &186
 - Chaotic Goo (SLD:1658) &187
 - Chaotic Goo (SLD:1658) [foil] &188
@@ -940,7 +939,6 @@ labels:
 - Priest of Forgotten Gods (SLD:2006) [foil] &931
 - Treasonous Ogre (SLD:2007) [foil] &932
 - World Shaper (SLD:2017) [foil] &933
-- Knuckles the Echidna (SLD:2082) [foil] &934
 - Amy Rose (SLD:2083) [foil] &935
 - Dr. Eggman (SLD:2084) [foil] &936
 - Miles "Tails" Prower (SLD:2085) [foil] &937

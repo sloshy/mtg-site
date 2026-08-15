@@ -5,9 +5,9 @@ sourceId: '5778121'
 sourceUrl: 'https://archidekt.com/decks/5778121'
 created: '2026-02-23T13:34:54.296Z'
 tags: []
-lastSynced: '2026-08-13T03:25:34.445Z'
+lastSynced: '2026-08-15T19:31:01.781Z'
 format: commander
-sourceUpdatedAt: '2026-08-13T03:25:28.505491Z'
+sourceUpdatedAt: '2026-08-13T21:48:52.324128Z'
 ---
 
 ## Commander
@@ -23,7 +23,6 @@ sourceUpdatedAt: '2026-08-13T03:25:28.505491Z'
 1 Graven Cairns &8
 1 Dowsing Dagger // Lost Vale &9
 1 Big Score &10
-1 Demonic Tutor &11
 1 Hanweir Garrison &12
 1 Alesha, Who Laughs at Fate &13
 6 Mountain &14
@@ -68,7 +67,6 @@ sourceUpdatedAt: '2026-08-13T03:25:28.505491Z'
 1 Kediss, Emberclaw Familiar &61
 1 The Black Gate &62
 1 The Reaver Cleaver &63
-1 The Master, Multiplied &64
 1 Arena of Glory &65
 1 Currency Converter &66
 1 Darkness &67
@@ -102,7 +100,7 @@ sourceUpdatedAt: '2026-08-13T03:25:28.505491Z'
 1 Smaug the Magnificent &29
 1 Ancient Brass Dragon &40
 1 Blasphemous Act &44
-1 Silver Shroud Costume &80
 1 Dragon-Cursed Halls &91
-
-## Maybeboard
+1 Archon of Cruelty &11
+1 Shredder, Shadow Master &64
+1 Reanimate &80

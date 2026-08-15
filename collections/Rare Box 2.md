@@ -215,7 +215,6 @@ labels:
 - Expressive Iteration (SLD:2060) [foil] &206
 - Expressive Iteration (SLD:2060) &207
 - Coiling Rebirth (BLB:309) &208
-- Reanimate (MKC:137) &209
 - Rise of the Dark Realms (MKC:138) &210
 - Charnel Serenade (MKC:26) &211
 - Brainstorm (FCA:28) &212
@@ -260,7 +259,6 @@ labels:
 - Perennation (TDM:212) [foil] &251
 - Three Steps Ahead (OTJ:75) &252
 - Preordain (SCH:39) &253
-- Blasphemous Act (PIP:188) &254
 - Second Harvest (INR:213) [foil] &255
 - Genesis Wave (FDN:221) &256
 - Genesis Wave (FDN:221) [foil] &257

@@ -476,3 +476,7 @@
 
 - Removed "Peter Parker's Camera" (SPM:171) &55
 - Removed "Flash Photography" (FIC:463) [foil] &62
+
+## 2026-08-13T22:14:41.212Z
+
+- Removed "Windfall" (PLST:USG-111) &162

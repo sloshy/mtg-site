@@ -261,3 +261,8 @@
 
 - Removed "Heroic Intervention" (SLD:1872) &83
 - Removed "Hexing Squelcher" (ECL:317) &129
+
+## 2026-08-13T22:14:16.243Z
+
+- Removed "Silver Shroud Costume" (SLD:915) [foil] &76
+- Removed "Shredder, Shadow Master" (TMC:20) &17

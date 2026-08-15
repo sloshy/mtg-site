@@ -964,3 +964,7 @@
 - Removed "Mana Geyser" (PLST:5DN-75) &209
 - Removed "Kellan, the Fae-Blooded // Birthright Boon" (WOE:291) [foil] &570
 - Removed "Spike Weaver" (MB2:214) &812
+
+## 2026-08-13T22:16:03.682Z
+
+- Removed "Tyvar's Stand" (ONE:190) &508

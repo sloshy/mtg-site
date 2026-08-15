@@ -218,3 +218,7 @@
 ## 2026-07-09T21:43:13.727Z
 
 - Removed "Rhythm of the Wild" (SLD:1740) [foil] &42
+
+## 2026-08-13T22:14:16.266Z
+
+- Removed "Drown in the Loch" (PW23:4) [foil] &68

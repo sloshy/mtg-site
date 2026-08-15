@@ -6,8 +6,8 @@ sourceUrl: 'https://archidekt.com/decks/9337260'
 created: '2026-06-25T20:59:18.570Z'
 tags: []
 format: commander
-lastSynced: '2026-08-13T04:23:35.475Z'
-sourceUpdatedAt: '2026-08-13T03:33:16.326106Z'
+lastSynced: '2026-08-15T19:30:58.610Z'
+sourceUpdatedAt: '2026-08-13T21:15:37.250262Z'
 ---
 
 ## Commander

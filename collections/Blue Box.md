@@ -22,7 +22,6 @@ labels:
 - Big Mother Mouser (TMC:37) &14
 - High Score (TMC:29) &15
 - Super Combo (TMC:34) &16
-- Shredder, Shadow Master (TMC:20) &17
 - Jaheira's Respite (CLB:238) [foil] &18
 - Mightform Harmonizer (EOE:200) &19
 - Professional Face-Breaker (FIC:296) &20
@@ -79,7 +78,6 @@ labels:
 - Spirit Mantle (SLD:2451) &73
 - T-45 Power Armor (SLD:2452) &74
 - Academy Manufactor (SLD:7094) &75
-- Silver Shroud Costume (SLD:915) [foil] &76
 - Yavimaya, Cradle of Growth (MH2:261) &77
 - Command Beacon (CMR:349) &78
 - Counterspell (SLD:2497) [foil] &79

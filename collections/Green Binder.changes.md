@@ -288,3 +288,7 @@
 - Removed "Lion Sash" (NEO:26) [foil] &33
 - Removed "Puresteel Paladin" (CMM:51) &48
 - Removed "Dollmaker's Shop // Porcelain Gallery" (DSK:335) [foil] &52
+
+## 2026-08-13T22:14:16.261Z
+
+- Removed "Ancient Brass Dragon" (CLB:389) [foil] &191

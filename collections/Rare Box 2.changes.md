@@ -370,3 +370,8 @@
 - Added "Umezawa's Jitte" (PLST:BOK-163) &360
 - Added "Worldwalker Helm" (BIG:72) [foil] &361
 - Added "Mithril Coat" (LTR:245) &362
+
+## 2026-08-13T22:14:16.282Z
+
+- Removed "Reanimate" (MKC:137) &209
+- Removed "Blasphemous Act" (PIP:188) &254

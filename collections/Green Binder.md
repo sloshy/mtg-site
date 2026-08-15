@@ -180,7 +180,6 @@ labels:
 - Deep-Cavern Bat (LCI:102) [foil] &188
 - Grave Titan (DRC:42) &189
 - Grave Titan (DRC:42) &190
-- Ancient Brass Dragon (CLB:389) [foil] &191
 - Bloodletter of Aclazotz (LCI:92) &192
 - Sheoldred, the Apocalypse (PDMU:107p) [foil] &195
 - Cultist of the Absolute (CLB:495) [etched] &196

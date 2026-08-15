@@ -7,7 +7,6 @@ labels:
 # Goodstuff Box
 
 ## Main
-- Elven Passage (HOB:181) &1
 - Bard, King of Dale (HOB:144) &2
 - Elrond, Moon-Reader (HOB:36) &3
 - Great Gilded Boat (HOB:42) &4
@@ -19,7 +18,6 @@ labels:
 - Tom, Bert, and William (HOB:169) &10
 - Riddles in the Dark (HOB:53) &11
 - Thranduil's Company (HOB:168) &12
-- The Lonely Mountain (HOB:187) [foil] &13
 - Bejeweled Warg (HOB:117) [foil] &14
 - Cantankerous Keepers (HOB:306) &15
 - Elrond, Moon-Reader (HOB:290) &16
@@ -39,7 +37,6 @@ labels:
 - The Master of Lake-town (HOB:297) [foil] &30
 - Azog, Moria's Ruin (HOB:61) [foil] &31
 - Fíli the Pathfinder (HOB:14) [foil] &32
-- Bilbo's Burglaring (HOC:10) &33
 - Bolg's Company (HOB:211) &34
 - Balin, Loremaster (HOB:301) &35
 - Desert Were-Worm (HOB:225) &36
@@ -67,7 +64,6 @@ labels:
 - Bolg's Company (HOB:149) [foil] &58
 - The Great Goblin (HOB:201) &59
 - Part in Friendship (HOB:308) [foil] &60
-- The Queen of Dale (HOB:24) [foil] &61
 - Andúril, Flame of the West (HOC:79) [foil] {Surge foil} &62
 - Smaug the Magnificent (HOB:229) &63
 - Belladonna Took (HOB:250) [foil] {Surge foil} &64
@@ -79,10 +75,7 @@ labels:
 - Cavern-Hoard Dragon (HOC:23) &70
 - Smaug, Wicked Worm (HOB:245) [foil] &71
 - Smaug the Magnificent (HOB:110) [foil] &72
-- Radagast of Rhosgobel (HOB:136) &73
-- The Sackville-Bagginses (HOB:83) &74
 - Roll-Roll-Roll-Roll (HOB:54) &75
-- The Queen of Dale (HOB:24) &76
 - Fíli and Kíli, Joyous (HOC:1) [foil] &77
 - Gandalf, Party Guest (HOC:2) [foil] &78
 - Thorin, King of Durin's Folk (HOC:3) [foil] &79
@@ -94,7 +87,6 @@ labels:
 - The Great Goblin (HOB:158) &85
 - Smaug, Wicked Worm (HOB:164) &86
 - Long-Lost Lances (HOC:7) [foil] &87
-- Dragon-Cursed Halls (HOC:8) [foil] &88
 - Smaug the Impenetrable (HOC:9) [foil] &89
 - Bilbo's Burglaring (HOC:10) [foil] &90
 - Dragon's Desire (HOC:11) [foil] &91

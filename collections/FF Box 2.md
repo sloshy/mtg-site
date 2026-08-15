@@ -161,7 +161,6 @@ labels:
 - Treasure Cruise (MB2:37) &159
 - Tarnished Citadel (MB2:112) &160
 - Narset, Parter of Veils (MB2:32) &161
-- Windfall (PLST:USG-111) &162
 - Wake Thrasher (PLST:DDT-24) &163
 - Consuming Aberration (PLST:GK1-10) &164
 - Mishra's Bauble (MB2:97) &165

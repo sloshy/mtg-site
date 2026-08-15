@@ -50,3 +50,12 @@
 - Removed "Insurrection" from Maybeboard &95
 - Removed "Temple of the False God" from Maybeboard &96
 - Removed "Snort" from Maybeboard &97
+
+## 2026-08-15T19:31:01.798Z
+
+- Added "Archon of Cruelty" &11
+- Added "Shredder, Shadow Master" &64
+- Added "Reanimate" &80
+- Removed "Demonic Tutor" &11
+- Removed "The Master, Multiplied" &64
+- Removed "Silver Shroud Costume" &80

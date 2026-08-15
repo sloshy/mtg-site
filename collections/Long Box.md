@@ -513,7 +513,6 @@ labels:
 - Yorion, Sky Nomad (MUL:64) &505
 - Brilliant Restoration (NEO:7) &506
 - Jor Kadeen, First Goldwarden (ONE:203) &507
-- Tyvar's Stand (ONE:190) &508
 - Tyvar's Stand (ONE:190) &509
 - Tyvar's Stand (ONE:190) [foil] &510
 - Green Sun's Twilight (ONE:284) [foil] &511

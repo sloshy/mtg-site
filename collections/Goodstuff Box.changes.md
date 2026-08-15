@@ -185,3 +185,17 @@
 - Added "Hare Apparent" (FDN:15) &174
 - Added "Hare Apparent" (FDN:15) [foil] &175
 - Added "Hare Apparent" (FDN:15) [foil] &176
+
+## 2026-08-13T22:14:16.254Z
+
+- Removed "Elven Passage" (HOB:181) &1
+- Removed "Radagast of Rhosgobel" (HOB:136) &73
+- Removed "The Queen of Dale" (HOB:24) [foil] &61
+- Removed "Dragon-Cursed Halls" (HOC:8) [foil] &88
+- Removed "The Queen of Dale" (HOB:24) &76
+- Removed "The Lonely Mountain" (HOB:187) [foil] &13
+- Removed "Bilbo's Burglaring" (HOC:10) &33
+
+## 2026-08-13T22:16:03.652Z
+
+- Removed "The Sackville-Bagginses" (HOB:83) &74

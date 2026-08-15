@@ -5,9 +5,9 @@ sourceId: '7777896'
 sourceUrl: 'https://archidekt.com/decks/7777896'
 created: '2026-02-23T13:34:53.632Z'
 tags: []
-lastSynced: '2026-08-06T21:38:33.977Z'
+lastSynced: '2026-08-15T19:31:03.396Z'
 format: commander
-sourceUpdatedAt: '2026-06-04T21:58:22.094597Z'
+sourceUpdatedAt: '2026-08-13T04:26:13.203617Z'
 ---
 
 ## Commander
@@ -98,13 +98,3 @@ sourceUpdatedAt: '2026-06-04T21:58:22.094597Z'
 1 Mondrak, Glory Dominus &84
 1 Parallel Lives &85
 1 Level Up &62
-
-## Maybeboard
-1 Weathered Sentinels &86
-1 Cut a Deal &87
-1 Combat Calligrapher &88
-1 Baird, Steward of Argive &89
-1 Viridian Revel &90
-1 Odric, Lunarch Marshal &91
-1 Bootleggers' Stash &92
-1 Promise of Loyalty &93

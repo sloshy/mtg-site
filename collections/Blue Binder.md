@@ -73,7 +73,6 @@ labels:
 - Selvala, Eager Trailblazer (OTJ:231) &65
 - Doppelgang (MKM:198) &66
 - Likeness Looter (WOE:208) [foil] &67
-- Drown in the Loch (PW23:4) [foil] &68
 - Mortify (SCH:21) &69
 - Rakdos Charm (LCC:284) &70
 - Niv-Mizzet, the Firemind (MM2:182) &71

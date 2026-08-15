@@ -959,3 +959,8 @@
 - Added "Miles "Tails" Prower" (SLD:2085) [foil] &937
 - Added "Shadow the Hedgehog" (SLD:2086) [foil] &938
 - Added "Sonic the Hedgehog" (SLD:2087) [foil] &939
+
+## 2026-08-13T22:14:16.276Z
+
+- Removed "Knuckles the Echidna" (SLD:2082) [foil] &934
+- Removed "Lord of the Void" (RVR:81) &185
