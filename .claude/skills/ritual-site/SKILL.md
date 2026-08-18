@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta25
-ritual-content-hash: ce7ce766051902f7a1fe5f9206c1e91c32c94ba716f69d877c6768227e33e436
+ritual-version: 0.1.0-beta26
+ritual-content-hash: db3ad9126891349d61264ecda3f9205f579aae6e80a5a7cbade35bf774079e0e
 ---
 
 # Building and serving a Ritual site
@@ -125,13 +125,69 @@ ritual build-site --wanted-lists "To Buy"                  # specific wanted lis
 ritual build-site --currencies usd,eur             # currencies to include (first is default)
 ritual build-site --theme izzet                    # initial theme baked into the HTML
 ritual build-site --theme-file my-theme.json       # load custom theme JSON files (their names become selectable)
+ritual build-site --locale de-AT                   # UI locale baked into the site (html lang/dir, opening language)
+ritual build-site --locales en de-AT               # dictionaries to publish (`all` = every locale this build has)
+ritual build-site --locale-file de-AT.json         # load dictionary JSON files, named for their tag
 ritual build-site --refresh never                  # build from cached data as-is
 ritual build-site --refresh auto                   # refresh stale cache (bulk download allowed)
 ritual build-site --out-dir ./preview               # publish into another directory instead of dist/
+ritual build-site --sell-mode                      # offer sell mode for this run: refresh the CK
+                                                   #   buylist and bake its buy prices into the site
 ```
 
 `--cache-images` downloads card images locally instead of hot-linking Scryfall;
 `-v`/`--verbose` lists the cards to be fetched.
+
+A card with **custom art** (see the **ritual** skill) publishes it too: every
+file a list's `<name>.art.json` references is copied from the configured
+`artDir` into `dist/art/` (once per unique path, so lists share files) and baked
+onto the card, while a `url` reference is baked verbatim. The build reports how
+many files it copied, and names any referenced file that is missing — that card
+falls back to the printing's own scan rather than failing the build. `ritual
+serve --api` needs no copy: it serves the art directory live at `/art/*`, and an
+edit to a sidecar invalidates that list's cached detail. Such a card is baked at
+price **0** and left out of the totals and the missing-price counts — the same
+rule the `proxy` label carries — and the pages show `CUSTOM` (or `PROXY`)
+where a price would be, with no buylist quote in sell mode.
+
+### Site language
+
+The three locale flags decide what language the published site speaks. They are
+about **Ritual's own interface text** — the `defaultLanguage` config key is a
+different setting entirely (which printing of a card is used), and the two are
+independent.
+
+- `--locale <tag>` bakes the default: the shell's `<html lang>`/`dir`, the
+  `uiLocale` field of `index.json`, and the language the site opens in. Defaults
+  to the `uiLocale` config value. The baked locale is always published, and a
+  baked locale this build has no dictionary for is a **warning** — the site
+  renders English rather than failing.
+- `--locales <tags...>` (space-separated, not comma-separated) picks which
+  dictionaries land in `dist/locales/`, which is exactly what the in-app language
+  switcher offers; the switcher is hidden when only one locale shipped. Default
+  `en`; `all` publishes every locale this build carries. A tag with no
+  dictionary is a usage error (exit 2).
+- `--locale-file <path...>` loads dictionary JSON files from disk, each named for
+  its tag (`de-AT.json`), and adds them to the selectable set — the same escape
+  hatch `--theme-file` gives themes, and the way a **released binary publishes a
+  locale it was never built with**. A file that cannot be read or is not a valid
+  dictionary fails the build (exit 1); a file overrides a built-in dictionary for
+  the same tag.
+
+Per-locale URL prefixes are just a loop — no flag needed:
+
+```bash
+for tag in en fr ja; do
+  ritual build-site --locale "$tag" --locales "$tag" --out-dir "dist/$tag"
+done
+```
+
+Visitors switch language in the running site without a reload, and the choice
+sticks (remembered in `localStorage`). A `locale=<tag>` parameter in the hash
+query (`#/decks?locale=de-AT`) wins at load without replacing what is
+remembered, which is how a link can be shared in a chosen language. Card names
+and oracle text are unaffected — those follow `defaultLanguage` and the per-card
+`[ja]` tokens.
 
 Every build writes into a scratch directory and swaps it into place only on
 success, so a failed build leaves the previously published site untouched (the
@@ -172,14 +228,14 @@ cache freshness: `ask` (the default — prompt about stale or empty caches,
 skipping the prompt when prompts are unavailable; two exceptions download
 without asking: `build-site` bulk-downloads an empty or week-old card cache,
 since it cannot build a site without card data, and a Card Kingdom buylist
-already downloaded is redownloaded once it is a day old — by `sell`, and by
-`admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
-offers; only the first buylist download prompts), `auto` (refresh stale data
-without asking, bulk download allowed), `no-bulk` (refresh stale prices
-per-card, never a bulk download), and `never` (use the cache as-is, making no
-request of any kind — under `never`, `price` reports uncached cards as unpriced
-instead of fetching them, and a `build-site` run with no cached symbology
-renders without mana symbols).
+already downloaded is redownloaded once it is a day old — by `sell`, and,
+wherever sell mode is enabled, by `build-site` and by `admin`/`serve --api` at
+startup — since a day-old feed quotes yesterday's offers; only the first buylist
+download prompts), `auto` (refresh stale data without asking, bulk download
+allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
+`never` (use the cache as-is, making no request of any kind — under `never`,
+`price` reports uncached cards as unpriced instead of fetching them, and a
+`build-site` run with no cached symbology renders without mana symbols).
 Headless builds (e.g. CI) should pass `--refresh auto` or `--refresh never`
 explicitly.
 
@@ -221,9 +277,12 @@ The startup line prints the address actually bound — `localhost` for a wildcar
 or loopback bind, the `--host` value otherwise.
 
 Build flags (`--theme`, `--currencies`, ...) only apply together with `--build`;
-passing one without it is a usage error. `--refresh` and `--out-dir` are the
-exceptions: `--refresh` also controls `--api` startup cache warming, and
-`--out-dir` names the directory to serve.
+passing one without it is a usage error. `--refresh`, `--out-dir` and
+`--sell-mode` are the exceptions: `--out-dir` names the directory to serve
+whether or not a build runs, while `--refresh` (`--api` startup cache warming)
+and `--sell-mode` (a session setting the live server reads per request) are
+exempt **only under `--api`** — a plain `serve --sell-mode` has no reader and
+stays a usage error.
 
 ### Hosted mode (`--api`)
 
@@ -234,7 +293,11 @@ with the admin editor's term matching instead of Scryfall. The trade page
 follows suit: its search covers the wanted lists and the cache together (no
 Scryfall toggle), and shared trade links resolve their cards from the cache.
 There are no write routes — public edits still travel as export/import change
-bundles.
+bundles. The live index also carries the current `uiLocale`, so a
+`config set uiLocale` takes effect on the next page load with no rebuild; the
+dictionaries offered in the switcher are still the files in the served
+directory's `locales/`, so publishing a *new* language needs a
+`build-site --locales` run.
 
 Live payloads come from the card cache with no Scryfall fallback, so startup
 applies the **same cache freshness gates `build-site` applies** — over the cards
@@ -254,22 +317,82 @@ ritual config set site.apiBaseUrl "https://ritual-api.example.com"
 ritual build-site
 ```
 
-A server-backed site also offers **sell mode**: Card Kingdom buylist prices beside each
-card, on-buylist chips plus a buylist-price threshold filter, buylist grouping, sorting by
-buylist price or by buylist-minus-retail ascending (`Buylist vs Price`, where a missing offer or
-retail price counts as $0), and a CK sell-cart export. Quotes
-are fetched live (never baked), so a fully static build never shows it. It is on by
-default; disable it for a published site with:
+The **stores the site prices cards from** come from the `priceSources` config key
+(default `["tcgplayer"]`): `tcgplayer` is Scryfall's USD market price, `cardmarket`
+Scryfall's EUR trend price, and `cardkingdom` Card Kingdom's NM retail price, read off the
+same baked buylist quotes sell mode uses. With more than one USD store enabled, list pages
+grow a **Prices** selector (USD views only; EUR is always Cardmarket) whose choice is
+shareable in the view URL (`prices=cardkingdom`); switching it clears price filters like a
+currency switch. The same selector appears in the card modal's **Other Printings** grid and
+in the printing pickers (trade/edit, and the add-card dialog's printing step) — one shared
+choice, so switching it in a dialog switches the page behind it. Each printing there is
+priced under the selected store, with its alternate finishes listed underneath, and the
+grid's price sort follows the store too. Under the Card Kingdom view a printing CK does not sell shows no price —
+there is deliberately no TCGplayer fallback — and the sell-mode spread compares CK's offer
+against the *selected* store's price (entering sell mode defaults the view to Card Kingdom
+retail unless the user picked a source).
+
+Each store also **picks its own printing** for a card line that names none: the
+representative printing, and the cheapest one behind the "Lowest Price" toggle, are chosen
+from that store's catalog at that store's prices. So switching to Card Kingdom swaps the
+printing such a card displays — its art and set change with the price — on the public site
+and in the admin editors alike. Two carve-outs: a line that *names* its printing displays
+and prices at that printing under every store (reading unpriced if CK does not sell it), and
+a card CK stocks no printing of keeps its Scryfall pick and simply reads unpriced. Because
+entering sell mode defaults the store to Card Kingdom, turning sell mode on can itself change
+which printing a name-only card shows — and therefore its buylist offer and the Buylist
+total. An **empty** `priceSources` array hides every
+price surface on the sites — per-card prices, totals, price sort/filter/grouping, and the
+currency selector — while `ritual price` and sell mode are unaffected:
 
 ```bash
-ritual config set site.sellMode false
+ritual config set priceSources tcgplayer cardkingdom   # offer both USD stores
+ritual config set priceSources --remove tcgplayer      # empty = no prices on the sites
 ```
 
+Enabling `cardkingdom` makes builds and servers want the Card Kingdom feed exactly as
+`site.sellMode` does (the same gates, downloads, and 404s below read "sell mode on **or**
+cardkingdom enabled"), and the admin Settings page edits the key as **Price Stores**
+checkboxes.
+
+A site can also offer **sell mode**: Card Kingdom buylist prices beside each
+card, on-buylist chips plus a buylist-price threshold filter, buylist grouping, sorting by
+buylist price or by buylist-minus-retail ascending (`Buylist vs Price`, where a missing offer or
+retail price counts as $0), and a CK sell-cart export. The quotes are **baked into each list's
+JSON at build time**, so a fully static build shows sell mode without any backend. With
+`cardkingdom` enabled as a price store the bake widens to every printing a list carries, at
+every finish, so the printing dialogs can price them offline too; a live backend
+(`serve --api`, admin) quotes printings outside the lists on demand instead. It is
+**off by default**; enable it for a published site with:
+
+```bash
+ritual config set site.sellMode true
+```
+
+or by ticking **Offer sell mode** on the admin's Settings page, which writes the same key
+(unticking removes it rather than storing `false`); or for one run with the `--sell-mode`
+flag on `build-site`, `serve`, `admin`, or `mcp`.
+With sell mode on, `build-site` refreshes the buylist feed under the run's `--refresh` policy
+and bakes the quotes; a build that cannot get a feed warns and ships the site without them
+(never a build failure), and the pages say why no prices are shown. A static site's offers are
+as fresh as its last build; `serve --api` re-bakes per request instead, so refreshing its feed
+updates it without a rebuild.
+
+The key gates every server surface too: with it off, `admin` and `serve --api` skip the
+startup buylist refresh, their `/api/sell/*` and `/api/buylist/*` routes answer 404, the admin
+UI hides its sell toggle and *Refresh buylist* card, and the four MCP buylist tools error
+`Not found`. `ritual sell` on the CLI is the one exception — running it is itself the
+request, so it is never gated. The gate re-reads the config on every request and the admin UI
+re-reads the effective value after a Settings save, so flipping the key takes effect without a
+restart or a page reload — but a server started with `--sell-mode` keeps sell mode on for that
+whole run, whatever the stored key is later set to.
+
 The *first* buylist download is always deliberate — `ritual sell --refresh auto`, the admin
-**Refresh Cache** page's *Refresh buylist* button, or the `refresh_buylist` tool. After that
-`serve --api` and `admin` each redownload a day-old feed at startup (Card Kingdom regenerates
-it daily), under the same `--refresh` policy — `no-bulk`/`never` skip it. No page load ever
-triggers the ~70 MB fetch.
+**Refresh Cache** page's *Refresh buylist* button, the `refresh_buylist` tool,
+`ritual cache preload-all` with sell mode on, or a
+`build-site --refresh auto` run with sell mode on. After that `serve --api` and `admin` each
+redownload a day-old feed at startup (Card Kingdom regenerates it daily), under the same
+`--refresh` policy — `no-bulk`/`never` skip it. No page load ever triggers the ~70 MB fetch.
 
 ## Web admin
 
@@ -280,7 +403,27 @@ ritual admin                       # http://0.0.0.0:8080
 ritual admin -p 9000
 ritual admin --theme izzet         # initial theme baked into the admin UI
 ritual admin --refresh never       # skip the startup cache check, use cached data as-is
+ritual admin --sell-mode           # offer sell mode this run even with site.sellMode off
 ```
+
+The admin's **Settings** page edits the same config keys the CLI does, including
+`uiLocale` and `site.sellMode` (an **Offer sell mode** checkbox; saving it shows or
+hides this admin's sell surfaces at once, with no reload) — the admin serves every
+locale the binary carries and reads its own
+language from `GET /api/config`, so switching it rebuilds nothing. There is no
+`--locale` build flag here: `ritual admin` regenerates its bundle (and its
+dictionaries) on every start, and `--locale`/`RITUAL_LOCALE` still set the
+language of the command's **terminal** output.
+
+Each card's context menu in the admin editors carries **Set Custom Art…** — a
+file-or-URL field with a live preview that writes the list's `<name>.art.json`
+immediately (metadata, not part of the deferred change batch), the same
+operation as `ritual set-card --art` and the MCP `set_card_art` tool. The admin
+serves the art directory at `/art/*` for those previews. The **add-card dialog**
+takes a label override and custom art for the card being added, too; art for a
+card the session added (there or through the context menu) has no card line to
+write against yet, so it is held with the pending changes and written by the save
+that creates the line.
 
 With the `admin.gitEnabled` and `admin.gitAutoCommit` config keys set, saves
 made through the admin UI (and the MCP server, which reuses the admin handlers)
@@ -295,6 +438,7 @@ preview before applying — the same operation as `ritual import-changes` (see t
 The admin's **Sync Decks** page runs `deck-sync` in the browser: pick a
 direction, narrow the run to additions or removals only (the `--only` flag's
 three-way control), toggle which Archidekt-linked decks to sync (all by default),
+opt into printing sync (the `--sync-printings` flag's checkbox),
 and watch per-deck progress stream in as it runs. Each deck shows when it last
 synced, and the page signs in to Archidekt inline when the stored token has
 expired. A deck whose file holds lines the parser cannot read is refused (a sync
@@ -353,7 +497,28 @@ operations as tools — an alternative to driving the CLI for MCP-native clients
 ```bash
 ritual mcp                                         # stdio transport (default)
 ritual mcp --transport http --port 8765 --token "$RITUAL_MCP_TOKEN"
+ritual mcp --sell-mode                             # answer the sell/buylist tools for this run
 ```
+
+The four buylist tools — `get_sell_report`, `get_sell_cart`, `get_buylist_quotes`
+and `refresh_buylist` — reuse the admin's sell routes, which are gated on sell
+mode (off by default): without `--sell-mode` or `site.sellMode` they fail with a
+`Not found` tool error, which `refresh_buylist` cannot fix. Every other tool is
+unaffected.
+
+`--sell-mode` writes nothing, so `config get site.sellMode` still reports the
+stored value. The running server is where the difference shows: `get_config`
+(and `GET /api/config`) answers with the stored config as `config` plus
+`overrides: {"site.sellMode": true}` when the process was started with the flag.
+No `overrides` key means the instance follows the stored config.
+
+**MCP prose is English by contract.** Tool names, titles, descriptions, parameter
+docs, the server instructions, and the `message` field of every tool result stay
+English no matter what `--locale` / `RITUAL_LOCALE` / `uiLocale` say — those
+settings move the CLI's own terminal output and the two web UIs, never this
+surface. Results that come from an admin handler carry `messageKey` (plus
+`messageParams` when the sentence interpolates) beside the English `message`: a
+stable, locale-invariant identifier to match on instead of matching prose.
 
 The HTTP transport binds `--host` (default `127.0.0.1`). Without a token
 (`--token` or `RITUAL_MCP_TOKEN`) it serves unauthenticated on loopback only —

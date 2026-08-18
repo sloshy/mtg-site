@@ -1,7 +1,7 @@
 ---
 name: ritual-cards
 description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or random cards. Output is JSON by default for easy parsing."
-ritual-version: 0.1.0-beta25
+ritual-version: 0.1.0-beta26
 ritual-content-hash: defa15b7f73691d84638a9a2feb9285d082dc168cac52d82578ada6b91498205
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-beta25
-ritual-content-hash: 22da57efcdba4c80e5f9f306004b3291b04d85a400d4d9e7a5b6152030c46b10
+ritual-version: 0.1.0-beta26
+ritual-content-hash: a0219b43772ef9464c4a55b96d378315cefbaf5839e4273cafa9c4822a40d6db
 ---
 
 # Managing wanted lists with Ritual
@@ -70,7 +70,7 @@ ritual edit
 ritual edit "wanted:To Buy"          # open one list directly (matches the file basename)
 ritual edit --sets "FDN,SPG"         # restrict to these set codes
 ritual edit --finish foil
-ritual edit --collector              # enter cards by collector number
+ritual edit --collector              # start in SET:CN printing search mode
 ritual edit --allow-digital-only-cards
 ritual edit --refresh never          # use the existing cache as-is, no prompt
 ritual edit --refresh auto           # redownload the cache when prices are >1 day old
@@ -95,9 +95,9 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the list's existing entries — change a card's printing (or make it
-name-only), finish, or note, or remove it — and `↩️ Undo Last Edit` reverts the
-latest edit. The `✨ Change Finish` item is hidden for name-only entries — a
-finish only annotates a specific printing.
+name-only), finish, language, or note, move it to another list, or remove it —
+and `↩️ Undo Last Edit` reverts the latest edit. The `✨ Change Finish` item is
+hidden for name-only entries — a finish only annotates a specific printing.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -146,22 +146,33 @@ ritual import more.csv --type wanted --name "To Buy" --append --columns "name=1"
 ```
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
-`collector-number`, `condition`, `finish`, `section`, `quantity`); only `name`
-is required and wanted lists carry no `condition` column. Add `--no-header` when
-the first row is data — a scripted run without it drops the first row as a
-header and warns when that row looks like data. Add `--overwrite` to replace an
-existing wanted list, or `--append` to add to one (appends continue card IDs and
-record the changelog). Rows naming the same card and printing merge into one
-line (create and append agree), and a `--columns` number the file has no column
-for is a usage error (exit 2) instead of a per-row failure. Failed rows are
-reported with line numbers on stderr and the rest still import (exit code 1 on
-partial failure).
+`collector-number`, `condition`, `finish`, `language`, `section`, `quantity` —
+language cells take Scryfall codes or aliases like `JP`/`Japanese`, and an empty
+cell means English; when no language column is mapped, pinned rows are stamped
+with the configured `defaultLanguage` when the printing exists in it); only
+`name` is required and wanted lists carry no `condition` column. Add
+`--no-header` when the first row is data — a scripted run without it drops the
+first row as a header and warns when that row looks like data. Add `--overwrite`
+to replace an existing wanted list, or `--append` to add to one (appends
+continue card IDs and record the changelog). Rows naming the same card and
+printing merge into one line (create and append agree), and a `--columns` number
+the file has no column for is a usage error (exit 2) instead of a per-row
+failure. Failed rows are reported with line numbers on stderr and the rest still
+import (exit code 1 on partial failure).
 
 ## Price
 
 The unified `price` command covers all list types; scope it with `--wanted` or a
-name. An interactive browser opens on a TTY — for agents, always pass
-`--summary`, `--output json`, or the global `--no-input` flag:
+name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
+`cardmarket` (Scryfall EUR), or `cardkingdom` (NM retail from the cached Card
+Kingdom feed; errors when no feed is downloaded — a bulk-allowing `--refresh`
+downloads it). A source implies its currency, so don't pass a conflicting
+`--prices`. Each store also picks its own printing for an entry that names none:
+under `cardkingdom` that is the newest printing CK actually sells, so an
+unpinned entry reads unpriced only when CK carries no printing of the card at
+all (a pinned printing CK does not sell always does). An interactive browser
+opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
+global `--no-input` flag:
 
 ```bash
 ritual price --wanted --summary                # every wanted list's totals
@@ -169,6 +180,7 @@ ritual price to-buy --no-input                 # one list's cards + totals
 ritual price to-buy --output json --quiet
 ritual price to-buy --sort price --descending --no-input
 ritual price to-buy --prices eur               # usd | eur | tix (defaults to config defaultCurrency)
+ritual price to-buy --source cardkingdom       # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardkingdom (CK NM retail; needs the CK feed)
 ```
 
 Each wanted list also reports a "lowest" total: name-only entries use the cheapest

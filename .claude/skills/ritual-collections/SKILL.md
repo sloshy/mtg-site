@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-beta25
-ritual-content-hash: eb095b2a06a2423a3ffabef81786ecb0dd4cb4ce1121f145cc5acbed3e2e9adf
+ritual-version: 0.1.0-beta26
+ritual-content-hash: 0c9cca0f836b68fb3a7a2881216623a06651cc68d291fd95b78c330d45c8b84d
 ---
 
 # Managing collections with Ritual
@@ -36,20 +36,33 @@ is defaulted: a headless add always needs `-c`, and needs `-f` whenever the
 pinned printing comes in more than one finish — otherwise it exits 2 naming the
 missing flag rather than writing a half-specified line.
 
-## Labels: for sale / for trade / to keep
+## Labels: for sale / for trade / to keep / proxy
 
 Collection lists and cards carry **labels** declaring what the owner would do
-with them: `sale` and `trade` (combinable) or `keep` (exclusive of the other
-two). A list-level default lives in the collection's front matter
+with them: `sale` and `trade` (combinable), `keep`, or `proxy` — `keep` and
+`proxy` are each exclusive of every other label, including each other. A
+list-level default lives in the collection's front matter
 (`labels: [sale, trade]`); an individual card overrides it with a bracketed
 token on its line (`[keep]`, `[sale,trade]`). A card's *effective* labels are
 its override when present, else the list default. Labels drive the public
 site's list filters, the collections-index "Labels" view-all menu, and a
-one-time warning when a `keep`-labeled card is added to a trade.
+one-time warning when a `keep`-labeled card is added to a trade. Decks carry
+`proxy` too, and nothing else (see the **ritual-decks** skill); wanted lists
+carry no labels at all.
+
+A `proxy`-labeled card is **not a real card**: it prices as **0** everywhere
+(`ritual price`, the published site's totals, the card's own price) rather than
+counting as an unpriced card, and it is left out of `ritual sell`, the buylist
+quotes, and the sell cart entirely — a proxy missing from a sell report is the
+rule, not a lookup failure. Pair it with custom art (see the **ritual** skill's
+*Custom art* section) to show the proxy's own image; custom art carries the same
+no-price rule by itself, with reason `custom-art` (which wins over `proxy`
+when a card has both).
 
 ```bash
 ritual set-card "Main Binder" "Sol Ring" --collection --label keep       # override
 ritual set-card "Main Binder" "Sol Ring" --collection --label sale,trade
+ritual set-card "Main Binder" "Sol Ring" --collection --label proxy     # not a real card: no price
 ritual set-card "Main Binder" "Sol Ring" --collection --label none      # back to the list default
 ritual add-card "Main Binder" "Mox Jet" --collection --set lea --collector-number 262 -c LP --label keep
 ritual export --collection --labels trade --columns name,set,collectorNumber,labels
@@ -79,7 +92,7 @@ ritual edit
 ritual edit "Main Binder"            # open one collection directly (matches the file basename)
 ritual edit --sets "FDN,SPG"         # restrict to these set codes
 ritual edit --finish foil --condition NM
-ritual edit --collector              # enter cards by collector number
+ritual edit --collector              # start in SET:CN printing search mode
 ritual edit --allow-digital-only-cards
 ritual edit --refresh never          # use the existing cache as-is, no prompt
 ritual edit --refresh auto           # redownload the cache when prices are >1 day old
@@ -104,8 +117,8 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the collection's existing entries — change a card's printing, finish,
-condition, label, or note, or remove it — and `↩️ Undo Last Edit` reverts the
-latest edit.
+condition, language, label, or note, move it to another list, or remove it — and
+`↩️ Undo Last Edit` reverts the latest edit.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -169,17 +182,20 @@ ritual import more.csv --type collection --name "Red Binder" --append \
 ```
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
-`collector-number`, `condition`, `finish`, `section`, `quantity`); collections
-require `name`, `set`, and `collector-number` columns. Add `--no-header` when
-the first row is data — a scripted run without it drops the first row as a
-header and warns when that row looks like data. Add `--overwrite` to replace an
-existing collection, or `--append` to add to one (appends continue card IDs and
-record the changelog). Conditions/finishes are normalized (e.g. `Near Mint` →
-`NM`, `F` → foil, empty → non-foil). Rows naming the same card and printing
-merge into one line (create and append agree), and a `--columns` number the file
-has no column for is a usage error (exit 2) instead of a per-row failure. Failed
-rows are reported with line numbers on stderr and the rest still import (exit
-code 1 on partial failure).
+`collector-number`, `condition`, `finish`, `language`, `section`, `quantity` —
+language cells take Scryfall codes or aliases like `JP`/`Japanese`, and an empty
+cell means English; when no language column is mapped, pinned rows are stamped
+with the configured `defaultLanguage` when the printing exists in it);
+collections require `name`, `set`, and `collector-number` columns. Add
+`--no-header` when the first row is data — a scripted run without it drops the
+first row as a header and warns when that row looks like data. Add `--overwrite`
+to replace an existing collection, or `--append` to add to one (appends continue
+card IDs and record the changelog). Conditions/finishes are normalized (e.g.
+`Near Mint` → `NM`, `F` → foil, empty → non-foil). Rows naming the same card and
+printing merge into one line (create and append agree), and a `--columns` number
+the file has no column for is a usage error (exit 2) instead of a per-row
+failure. Failed rows are reported with line numbers on stderr and the rest still
+import (exit code 1 on partial failure).
 
 ## Sync with Archidekt
 
@@ -244,14 +260,17 @@ NM/LP/MP/HP/DMG round-trip as-is. A line with no explicit finish resolves
 against the card cache first, so an etched-only printing compares as etched; a
 printing the cache does not hold syncs as nonfoil with a warning naming the line
 (that lookup is cache-only — a sync never fetches cards one at a time, so
-preload the cache first if finishes matter). Language, tags, and purchase price
-have no local representation: records Ritual creates are English, untagged, and
-priceless, while existing values survive a quantity change. The game is fixed to
-Paper (no MTGO/Arena), and sections and notes are local-only — a pull adds into
-the target list's `Main`, a push flattens sections.
+preload the cache first if finishes matter). Language round-trips: a
+`[ja]`-style token pulls down as, and pushes up as, that Archidekt language, and
+a code Archidekt's CSV cannot express pushes as English with a warning naming
+the line. Tags and purchase price have no local representation: records Ritual
+creates are untagged and priceless, while existing values survive a quantity
+change. The game is fixed to Paper (no MTGO/Arena), and sections and notes are
+local-only — a pull adds into the target list's `Main`, a push flattens
+sections.
 
 **A push with many new cards:** creating a printing costs a search plus a
-create, each paced 500 ms apart, so above **25 new printings** a push sends its
+create, each rate-limit paced, so above **25 new printings** a push sends its
 additions through Archidekt's CSV importer instead — one upload, no searches,
 rows built entirely from the local Scryfall cache (the same file `ritual export
 --preset archidekt` writes, in Archidekt’s spellings: variant
@@ -373,8 +392,16 @@ a large push that was not given `csv: true`.
 ## Price
 
 The unified `price` command covers all list types; scope it with `--collection`
-or a name. An interactive browser opens on a TTY — for agents, always pass
-`--summary`, `--output json`, or the global `--no-input` flag:
+or a name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
+`cardmarket` (Scryfall EUR), or `cardkingdom` (NM retail from the cached Card
+Kingdom feed; errors when no feed is downloaded — a bulk-allowing `--refresh`
+downloads it). A source implies its currency, so don't pass a conflicting
+`--prices`. Each store also picks its own printing for an entry that names none:
+under `cardkingdom` that is the newest printing CK actually sells, so an
+unpinned entry reads unpriced only when CK carries no printing of the card at
+all (a pinned printing CK does not sell always does). An interactive browser
+opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
+global `--no-input` flag:
 
 ```bash
 ritual price --collection --summary            # every collection's totals
@@ -382,6 +409,7 @@ ritual price main-binder --no-input            # one collection's cards + totals
 ritual price main-binder --output json --quiet
 ritual price main-binder --sort price --descending --no-input
 ritual price main-binder --prices eur          # usd | eur | tix (defaults to config defaultCurrency)
+ritual price main-binder --source cardkingdom    # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardkingdom (CK NM retail; needs the CK feed)
 ```
 
 Collection entries are priced at their exact printing and finish; totals include a
@@ -407,6 +435,9 @@ ritual sell --output csv --out to-sell.csv      # CK sell-cart CSV (upload at ca
 Entries report `status` `buying` / `not-buying` (CK's buy quantity is 0) / `no-match`,
 with `sellableQuantity = min(owned, CK's cap)` and `value` covering only those copies.
 Quotes are cash for NM copies — played conditions grade down, store credit pays more.
+Non-English entries (a `[ja]`-style language token) are **never quoted**: CK's feed is
+English-only, so they report `no-match` with reason `non-english` rather than silently
+quoting the English price for a foreign copy.
 The `csv` output carries data rows only (CK's importer expects no header row) and uses CK's
 own listing titles — their parenthesized variant note included, so variant printings land on the
 right product — plus their edition spellings. It warns beyond their upload caps
@@ -417,8 +448,18 @@ To price an arbitrary set of printings rather than whole lists, use the MCP tool
 `set:collectorNumber:finish`. Both are cache-backed like `sell`: run
 `ritual sell --refresh auto` (or the `refresh_buylist` tool) first.
 
-The same quotes drive **sell mode** on the admin site and on a server-backed public site
-(`ritual serve --api`): buylist prices beside each card, buylist filters (on-buylist chips and a
-price threshold), buylist grouping/sorting, and a CK cart export. Turn it off for a published site with
-`ritual config set site.sellMode false`. Both servers answer quotes strictly from the cache and
-never download per request; each refreshes a day-old feed once, at startup (never the first one).
+Unlike the `sell` command, every *server* buylist surface is gated on sell mode (below):
+`get_sell_report`, `get_sell_cart`, `get_buylist_quotes` and `refresh_buylist`, plus the
+`/api/sell/*` and `/api/buylist/*` routes they reuse, answer `Not found` / 404 when it is
+off. That is a config decision, not a missing feed — `refresh_buylist` will not fix it.
+
+The same quotes drive **sell mode** on the admin site and on the public site: buylist prices
+beside each card, buylist filters (on-buylist chips and a price threshold), buylist
+grouping/sorting, and a CK cart export. It is **off by default** — turn it on with
+`ritual config set site.sellMode true`, with the **Offer sell mode** checkbox on the admin's
+Settings page (same key; unticking unsets it), or per run with `--sell-mode` on `build-site`,
+`serve`, `admin`, or `mcp`. The public site reads quotes baked into its list JSON (no
+backend needed); the admin site quotes live against its own API. Both servers answer quotes
+strictly from the cache and never download per request; with sell mode on, each refreshes a
+day-old feed once at startup (never the first one), and `cache preload-all` refreshes it
+alongside the card cache.

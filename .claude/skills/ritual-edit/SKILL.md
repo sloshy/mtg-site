@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
-description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta25
-ritual-content-hash: e5c24f50fb5e228bf25ac6cd1106073e65e5b23e74cea4c94b0720e96d78c9c5
+description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, label a card, give a card custom art, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
+ritual-version: 0.1.0-beta26
+ritual-content-hash: 518aa4557d56d46ff1b1bb55ad8f91e4d35c176f82da5147aa4d43779e927b36
 ---
 
 # Editing cards in any Ritual list
@@ -59,14 +59,14 @@ Conventions shared by every one-shot command:
   skipping the prompt when prompts are unavailable; two exceptions download
   without asking: `build-site` bulk-downloads an empty or week-old card cache,
   since it cannot build a site without card data, and a Card Kingdom buylist
-  already downloaded is redownloaded once it is a day old — by `sell`, and by
-  `admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
-  offers; only the first buylist download prompts), `auto` (refresh stale data
-  without asking, bulk download allowed), `no-bulk` (refresh stale prices
-  per-card, never a bulk download), and `never` (use the cache as-is, making no
-  request of any kind — under `never`, `price` reports uncached cards as unpriced
-  instead of fetching them, and a `build-site` run with no cached symbology
-  renders without mana symbols).
+  already downloaded is redownloaded once it is a day old — by `sell`, and,
+  wherever sell mode is enabled, by `build-site` and by `admin`/`serve --api` at
+  startup — since a day-old feed quotes yesterday's offers; only the first buylist
+  download prompts), `auto` (refresh stale data without asking, bulk download
+  allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
+  `never` (use the cache as-is, making no request of any kind — under `never`,
+  `price` reports uncached cards as unpriced instead of fetching them, and a
+  `build-site` run with no cached symbology renders without mana symbols).
 
 ## Add a card
 
@@ -79,6 +79,7 @@ ritual add-card "To Buy" "Demonic Tutor" --wanted --set sta --collector-number 9
 ritual add-card "Winota Stax" "Lightning Bolt" --exact --output json
 ritual add-card "Winota Stax" "Lightning Bolt" --deck --set sta --collector-number 42 -f foil --section Sideboard
 ritual add-card "Winota Stax" "Kenrith, the Returned King" --deck --commander
+ritual add-card "Main Binder" "Sol Ring" --collection --set c21 --collector-number 263 -c NM --language ja
 ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writes nothing
 ```
 
@@ -100,6 +101,11 @@ ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writ
   needs `-c`, and any specific-printing add whose printing comes in several finishes
   needs `-f` — otherwise the run exits 2 naming the flag instead of writing a
   half-specified line.
+- `--language <code>` records a non-English copy (lowercase Scryfall codes — `ja`, `de`,
+  `zhs`, ...; aliases like `jp` or `Japanese` normalize). Adding **never prompts** for a
+  language: omitted, the configured `defaultLanguage` is stamped, and a bare line in the
+  file always means English. A pinned non-English add is verified against the printing's
+  real languages, like the set/collector-number pair itself.
 - Wanted adds must choose a specificity: `--name-only` (any copy), a printing pin via
   `--set`/`--collector-number`, or `--specific` (interactive picker). Non-interactive
   runs without one exit 2.
@@ -107,6 +113,12 @@ ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writ
   terminal the name must match exactly anyway, and a collection add without a
   printing pin succeeds only when the card has a single paper printing — pass
   `--set`/`--collector-number` to be safe.
+- `--label <label>` records the new copy's label override (a deck takes `proxy`
+  alone). There is **no art flag on `add-card`**: a line's `&N` is allocated by the
+  write, so custom art at add time is a two-step — add the card, then aim
+  `set-card --art` at it (`--output json` reports the `cardId` the add produced, or
+  read the `&N` off the written line). This is deliberate: art is list metadata in
+  `<list>.art.json`, not part of the card line the add writes.
 
 ## Remove a card
 
@@ -130,6 +142,8 @@ ritual remove-card "Main Binder" "Sol Ring" --card-id 5 --output json
 ```bash
 ritual set-card "Main Binder" "Lightning Bolt" --set 2xm --collector-number 157
 ritual set-card "Main Binder" "Sol Ring" --finish foil --condition LP
+ritual set-card "Main Binder" "Sol Ring" --language ja      # mark the Japanese copy
+ritual set-card "Main Binder" "Sol Ring" --language en      # back to English (token removed)
 ritual set-card "Winota Stax" "Lightning Bolt" --section Sideboard
 ritual set-card "Winota Stax" "Winota, Joiner of Forces" --commander
 ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
@@ -146,10 +160,36 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
 - `--condition NM|LP|MP|HP|DMG|NONE` — decks and collections only (wanted entries
   carry no condition). `NONE` clears a recorded grade; note that `NM` is the
   unrecorded default and writes an ungraded line, exactly like `NONE`.
-- `--label sale,trade|keep|none` — collections only. Sets the card's label
-  override (`sale`/`trade` combine; `keep` stands alone); `none` clears it so
-  the collection's front-matter default applies again. `add-card` takes the
-  same `--label` (minus `none`) to label a fresh collection add.
+- `--language <code>` sets the card's language on any list type (canonical Scryfall codes
+  or aliases like `jp`); `en` clears the line's token, since a bare line means English.
+  Validated cache-only against the printing's real languages, like `--finish`.
+- `--label sale,trade|keep|proxy|none` — decks and collections. Sets the card's
+  label override (`sale`/`trade` combine; `keep` and `proxy` each stand alone);
+  `none` clears it so the list's front-matter default applies again. A
+  **deck takes `proxy` only** and a wanted list takes no labels at all — anything
+  else is a usage error naming what the type supports. `add-card` takes the
+  same `--label` (minus `none`) to label a fresh add.
+- `--art <path|url|none>` — any list type. Records the card's **custom art**: an
+  image path relative to the configured `artDir` (which must already exist —
+  Ritual references images, it never uploads them), an `http(s)://` URL kept
+  verbatim, or `none` to clear it. A file path must end in `.avif`, `.gif`,
+  `.jpeg`, `.jpg`, `.png` or `.webp` — the only extensions the art route
+  serves; a URL is not extension-checked. A missing file exits 3 naming the path
+  it checked; a malformed value (a `..` escape, a backslash, a non-image
+  extension, a bad URL) exits 2.
+  The write goes straight to the list's `<name>.art.json` sidecar keyed by the
+  card's `&N` id — the card line is untouched and **no changelog entry** is
+  recorded, so it composes with the other flags but is not a card change. Custom
+  art also makes the card **priceless by rule**, exactly like `--label proxy`:
+  it prices as 0 (unpriced reason `custom-art`, not counted as an unpriced
+  card) and drops out of `ritual sell` and the buylist quotes. See the
+  **ritual** skill's *Custom art* section.
+
+```bash
+ritual set-card "Main Binder" "Sol Ring" --collection --art proxies/sol-ring.jpg
+ritual set-card "Winota Stax" "Sol Ring" --deck --art https://example.com/alter.png
+ritual set-card "Winota Stax" "Sol Ring" --deck --art none    # back to the printing's own scan
+```
 - Decks only: `--section <name>` moves the line to that section (created if
   missing); `--commander` / `--no-commander` move it into / out of the
   `## Commander` section.
@@ -195,7 +235,10 @@ ritual move --card-id 7 --from "wanted:To Buy" --to deck:storm --output json
 - Moving into a **deck**, `--to-section <name>` targets that section (exact name,
   created if missing) instead of the default; it errors on non-deck destinations.
 - Deck sources decrement quantity, notes travel with the card, both lists get
-  changelog entries, and `-q <n>` moves n copies of the same printing. JSON output:
+  changelog entries, and `-q <n>` moves n copies of the same printing. The card's
+  **custom art** and — as far as the destination type can express them — its label
+  overrides travel too; the art is re-filed under the destination line's new `&N`,
+  unless the copy merged onto a line the destination already had. JSON output:
   `{moved, card, from, to, droppedNotes}` — `droppedNotes` lists any note discarded
   by a quantity-merge onto an existing deck line whose note differs (also warned on
   stderr).
@@ -204,23 +247,41 @@ Interactively, `ritual move` (requires a terminal) opens a TUI session across al
 lists; `--from <list>` alone starts it with only that list enabled as a source
 (widen it under Session Filters).
 
-You can also move a card **while editing a list** (in the admin or public in-browser
-editor) instead of using the dedicated batch tool: a **Move to list…** item appears in
+You can also move a card **while editing a list** instead of using the dedicated batch
+tool. In the admin or public in-browser editor, a **Move to list…** item appears in
 the per-card menu, the per-list **Selected** menu, and the cross-list **All Selected**
-navbar menu, opening a picker of destination lists. The card leaves the list you're
+navbar menu, opening a picker of destination lists. In the `ritual edit` TUI, the
+same operation is the `📤 Move to Another List` action in every type's edit mode
+(a deck line moves with all its copies). Either way the card leaves the list you're
 editing, and on save **both** lists are
 written — removed from the source, added to the destination, with a changelog entry on
-each. Moving a printing-less card into a collection prompts for a specific printing first.
+each. Moving a printing-less card into a collection prompts for a specific printing
+first. Notes and label overrides never follow an editor/TUI move; the card's
+**custom art** does, re-filed under the destination line's new `&N`.
 
 ## Interactive editor
 
 `ritual edit` is **the** interactive TUI (requires a terminal) for editing decks,
 collections, and wanted lists: a selection menu covers all lists (plus create-new
 items). Sessions support name/collector entry modes, per-type edit modes over
-existing entries, and undo. Creating a deck prompts for its format, and deck sessions
-have `🏷️ Change Format` and `🔖 Edit Tags` menu actions that rewrite the front
-matter on the next save; collection sessions likewise offer `🏷️ Edit List Labels`
-for the default card labels (scripted equivalent: `ritual metadata`). A deck with no
+existing entries, and undo. Collector mode is a `SET:CN` search over **every
+printing in the local Scryfall cache** (`mkm:123`, `mkm 123`, or a bare token
+matched against set codes and collector numbers) — nothing is preloaded, and
+`--sets` is only an optional filter narrowing that pool. A collector-mode row
+already names one printing, so it skips the printing picker and that picker's
+language-availability check. Every type's edit mode includes a **Change Language**
+action (Scryfall codes; picking `en` removes the line's token) and a
+`🎨 Set Custom Art` action (enter an image URL, browse the configured `artDir` for a
+file, or clear it — scripted equivalent: `set-card --art`). An art edit is deferred
+like every other session edit: it is staged, written to the list's `.art.json` by the
+save, undone by `↩️ Undo Last Edit`, and records no changelog entry. Adding a card never
+prompts for a language — the configured `defaultLanguage` is stamped — and under a
+non-English default the printing picker notes when a printing does not exist in that
+language, falling back to English. Creating a deck prompts for its format, and deck
+sessions have `🏷️ Change Format` and `🔖 Edit Tags` menu actions that rewrite the front
+matter on the next save; deck and collection sessions both offer `🏷️ Edit List Labels`
+for the default card labels (a deck's choices are `proxy` or none — scripted
+equivalent: `ritual metadata`) plus a per-card `🏷️ Change Label` action in edit mode. A deck with no
 `format:` is read as Commander when it has a `## Commander`
 section, and saving writes that inferred format into the file (see the **ritual-decks**
 skill). Not suitable for non-interactive agents — use the one-shot commands above
@@ -232,7 +293,8 @@ ritual edit "Winota Stax"                   # open one list directly, skipping t
 ritual edit "wanted:To Buy"                 # deck:/collection:/wanted: prefixes and type flags work
 ritual edit --sets "FDN,SPG" --finish foil --condition NM   # session filter defaults
 ritual edit --section Sideboard             # pin the deck target section
-ritual edit --collector --sets "FDN, SPG"   # collector-number entry, sets preloaded
+ritual edit --collector                     # start in SET:CN search mode (whole cache)
+ritual edit --collector --sets "FDN, SPG"   # ...narrowed to two sets
 ritual edit --allow-digital-only-cards      # include digital-only sets (e.g. Alchemy)
 ritual edit --refresh never                 # use the existing cache as-is, no prompt
 ritual edit --refresh auto                  # redownload cache when prices are >1 day old
@@ -332,13 +394,16 @@ List names take an optional `deck:`/`collection:`/`wanted:` prefix (or scope wit
 `--condition <list>` — comma-separated NM|LP|MP|HP|DMG|none, where a grade
 matches only cards with it explicitly marked and `none` matches cards without
 one (e.g. `--condition NM,none`); wanted entries never match — and
-`--labels <list>` — comma-separated sale|trade|keep|none matched against each
-collection card's *effective* labels (`none` = unlabeled); deck and wanted
-entries never match. Available columns:
+`--labels <list>` — comma-separated sale|trade|keep|proxy|none matched against
+each deck and collection card's *effective* labels (`none` = unlabeled), a deck
+line's resolved against the deck's front-matter default, so `--labels proxy`
+selects a deck's proxies; wanted entries carry no labels and never match.
+Available columns:
 `name`, `quantity`, `set`, `collectorNumber`, `edition` (set + collector
 number as `SET:number`), `scryfallId` (the printing's Scryfall UUID, resolved
 from the local Scryfall cache — an uncached printing exports an empty cell plus a
-warning), `finish`, `isFoil` (true when foil or etched), `condition`, `labels`
+warning), `finish`, `isFoil` (true when foil or etched), `condition`,
+`language` (Scryfall language code; blank for English), `labels`
 (effective labels, comma-joined), `note`,
 `section`, `listName`, `listType`. Columns apply to
 csv/json only: giving `--columns`, `--dialect`, `--no-header`, or `--quote-all`

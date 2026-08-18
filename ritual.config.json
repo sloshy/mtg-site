@@ -2,7 +2,14 @@
   "decksDir": "./decks",
   "collectionsDir": "./collections",
   "wantedDir": "./wanted",
+  "artDir": "./art",
   "defaultCurrency": "usd",
+  "priceSources": [
+    "tcgplayer",
+    "cardkingdom"
+  ],
+  "defaultLanguage": "en",
+  "uiLocale": "en",
   "cacheLockTimeoutSeconds": 300,
   "cacheSource": "scryfall",
   "searchDebounceMs": 500,
@@ -43,6 +50,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta25"
+    "version": "0.1.0-beta26"
   }
 }

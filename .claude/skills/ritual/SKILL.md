@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta25
-ritual-content-hash: 9a746d3d54427513ae9436245cc4eae5cd3ffa7957ce5720bc7b4d620a465a7c
+ritual-version: 0.1.0-beta26
+ritual-content-hash: d710bb464f2e4fd3d0160ce8593b197aae3fe2751a94ced10471493caff750df
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -23,7 +23,11 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
 - `decks/<name>.md` — one deck per file
 - `collections/<name>.md` — collections of owned cards
 - `wanted/<name>.md` — cards you want to acquire
-- `<name>.changes.md` — append-only changelog next to each list (auto-maintained)
+- `<name>.changes.md` — append-only changelog next to each list (auto-maintained;
+  its prose is always English whatever the UI locale — it is a data format Ritual
+  parses back, and the sites translate it for display only)
+- `<name>.art.json` — optional custom-art sidecar next to a list, mapping card
+  `&N` ids to a replacement image (see **Custom art** below)
 - `ritual.config.json` — configuration (optional: reading config never creates
   it, so a workspace only has one once `config set`/`unset`, `init-site`, the
   admin Settings page, or the MCP `update_config` tool writes it)
@@ -101,10 +105,19 @@ Deck card lines start with a quantity; collection and wanted lines start with `-
   `cleanup`, and the CLI editors print an advisory naming such a line (a 1-3 digit leading integer; a real name like `1996 World Champion`
   is left alone). It is advisory only: the line parses and survives every save, so fix the file.
 - `[foil]`/`[etched]` is the finish, `[LP]`/`[MP]`/`[HP]`/`[DMG]` the condition (the default `NM` is not written), `{...}` a note.
-- `[sale]`/`[trade]`/`[sale,trade]`/`[keep]` (collections only, between condition and note)
-  is a **card label override**: `sale` and `trade` combine, `keep` stands alone. A card's
-  *effective* labels are its own token when present, else the collection's front-matter
-  default — see the **ritual-collections** skill.
+- `[ja]`-style tokens are the card's **language** — a lowercase Scryfall language code
+  (`en es fr de it pt ja ko ru zhs zht he la grc ar sa ph`; note `zhs`/`zht` for Chinese,
+  not ISO codes). The token is **omitted for English**: a bare line always means `en`,
+  whatever the configured default, so files stay self-describing. Canonical token order is
+  finish, condition, language, labels, note (`- Sol Ring (LEA:270) [foil] [LP] [ja] [keep] {trade bait} &7`;
+  wanted lines skip condition; deck lines carry `[proxy]` and no other label).
+- `[sale]`/`[trade]`/`[sale,trade]`/`[keep]`/`[proxy]` (between condition and note)
+  is a **card label override**: `sale` and `trade` combine, `keep` and `proxy` each
+  stand alone (including against each other). Collections take all four, **decks take
+  `proxy` only**, and wanted lists carry no labels at all — an unsupported label in a
+  file is a parse warning that keeps the line and drops the token. A card's
+  *effective* labels are its own token when present, else the list's front-matter
+  default — see the **ritual-collections** and **ritual-decks** skills.
 - `&N` is a **stable internal card ID**. Never hand-author or renumber these — the tools manage them.
   Commands that add or edit card lines (editors, card mutations, imports, syncs `deck-sync pull`/`push`
   and `collection-sync` — not `deck-sync status`/`link` — `cleanup`,
@@ -125,12 +138,71 @@ rewrite paths cannot re-emit a fenced block: admin editor saves, `import --appen
 the syncs hold it back behind the unreadable-lines gate. A `ritual edit` session warns on
 load but still drops the block on save.
 
+One shape the whole-file paths **do** delete, on purpose and without refusing: a deck's
+empty **extras** section (a `## Maybeboard`/`## Tokens` header with no cards under it).
+Extras count toward no total, so the header holds nothing to lose — every whole-file write
+clears it, and `cleanup` names it (`Dropped empty section: Maybeboard`) while still
+rewriting. An empty `## Main`/`## Sideboard` header is content and still blocks a rewrite.
+
 A deck's YAML front matter carries its `format:` (a fixed set of keys — see the
 **ritual-decks** skill). A deck with no `format:` is treated as Commander when it
 has a `## Commander` section, and the tools write that down on the next save.
 A **collection's** YAML front matter carries its default card labels
-(`labels: [sale, trade]` or `labels: [keep]`); wanted lists define no front-matter
-keys. A flat list's block round-trips byte-for-byte through every save.
+(`labels: [sale, trade]` or `labels: [keep]`), and a **deck's** carries
+`labels: [proxy]` — the same key, restricted to the labels that type takes;
+wanted lists define no front-matter keys. A flat list's block round-trips
+byte-for-byte through every save.
+
+## Custom art
+
+Any card in any list can show a **custom image** in place of the printing's own
+scan — a proxy's artwork, an altered card, a photo of the physical copy. The
+mapping lives in a per-list `<name>.art.json` sidecar keyed by the card's `&N`
+id, each entry naming either a file under the configured art directory or an
+image URL:
+
+```json
+{
+  "5": { "file": "proxies/sol-ring.jpg" },
+  "12": { "url": "https://example.com/art/bolt.png" }
+}
+```
+
+`ritual config set artDir <path>` picks the directory (default `./art`,
+resolved against the workspace like `decks/`); nothing creates it, and a missing
+one simply means no local art. Files are **referenced, never uploaded** — put the
+image there yourself, then point at it with a forward-slash relative path that
+stays inside the directory and ends in `.avif`, `.gif`, `.jpeg`, `.jpg`,
+`.png` or `.webp` (the extensions the art route serves; a URL is not
+extension-checked). Set it with `ritual set-card <list> <card> --art`
+(see the **ritual-edit** skill), the `ritual edit` TUI's `🎨 Set Custom Art` card
+action (the one deferred writer: staged in the session and written by its save), the
+admin editors' **Set Custom Art…** card action, or the MCP `set_card_art` tool. Custom art is list *metadata* like a primer: it never
+touches the card line and records **no** changelog entry (every writer but the
+`edit` TUI's also writes it immediately, needing no save). Building the site copies referenced files into `dist/art/` and bakes the
+URL into the card; `ritual serve --api` serves them live from the art directory.
+
+Custom art **also removes the card's price**, on the same rule as the `proxy`
+label: a card wearing art of its own is not the printing a price is quoted for.
+It prices as **0** in `ritual price` and on the site (unpriced reason
+`custom-art`, which is *not* counted as an unpriced card), and it never appears
+in `ritual sell`, the buylist quotes, or the sell cart. Surfaces show
+`CUSTOM` where a price would be — `PROXY` for a proxy without custom art,
+and `CUSTOM` when a card is both.
+
+The sidecar follows the card lines automatically, because an `&N` freed by a
+removal is handed to the next card added: removing a card (or a whole deck line)
+drops its art entry, a cross-list move carries the entry to the id the
+destination's new line gets (`ritual move`, the editors' move-to-another-list,
+and the `edit` TUI's alike), a save that renumbers a line re-files it, and a
+sync that pulls removals in (`deck-sync pull`, `collection-sync`) drops the
+entries of the cards it removed. A removal is final for the art even when the
+same edit re-adds the card and the new line takes the same `&N` back: a re-added
+card is a new copy, so set its art again if it should have one. Art returns on
+its own only by *undoing* the removal (the `edit` TUI's `↩️ Undo Last Edit` and
+the web editors' undo, which reclaim the original id). Only a hand edit —
+or another tool deleting a card line — can leave art behind pointing at an id the
+list no longer has; that shows up as a load/build warning naming the raw ids.
 
 **Prefer the CLI (or the web admin / MCP server) over hand-editing files**, so the
 `&N` IDs and `.changes.md` changelog stay correct. Reading files directly for
@@ -163,6 +235,18 @@ still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
 - `--cache-server <host:port>` — share a card/price cache with other instances
   (the `RITUAL_CACHE_SERVER` environment variable does the same; host one with
   `ritual cache server`). A malformed address is a usage error (exit 2)
+- `--locale <tag>` — the language Ritual's **own interface text** speaks, as a
+  BCP-47 tag (`de-AT`, `ja`). The `RITUAL_LOCALE` environment variable and the
+  `uiLocale` config key say the same thing at lower precedence:
+  `--locale` → `RITUAL_LOCALE` → `uiLocale` → the OS environment → `en`.
+  A malformed tag on the flag is a usage error (exit 2); a malformed
+  `RITUAL_LOCALE`/`uiLocale` warns and falls through to the next tier. This is
+  **not** `defaultLanguage` (which picks which *printing* of a card is used) —
+  the two are independent, and a Japanese interface listing English cards is a
+  valid combination. A locale Ritual ships no dictionary for renders in English
+  rather than failing. The OS-environment tier reads `LC_ALL`/`LC_MESSAGES`/
+  `LANGUAGE`/`LANG` only; asking Windows or macOS directly costs a subprocess and
+  happens **only** under `ritual locale --detect`
 - `--no-input` — **the** headless switch (the `RITUAL_NO_INPUT` environment
   variable does the same, and a falsy value — `0`/`false`/`no`/`off` — counts as
   unset): works on **every** command and guarantees no prompting; where input
@@ -182,7 +266,9 @@ not there — is always **3**, never 1.
   file format or destination. `json` emits exactly one document per run (a
   card batch or a multi-page search is still one array); `ndjson` streams one
   object per line. Errors go to stderr as
-  `{"error":{"code","message","details"}}` in the structured modes. Three
+  `{"error":{"code","messageKey?","message","details"}}` in the structured
+  modes — `code` and `messageKey` are locale-invariant (match on those, never
+  on prose), while `message` follows the UI locale. Three
   exceptions, all deliberate: `scry` and `sell` add a fourth value
   `--output csv` (Scryfall's server-side CSV and Card Kingdom's sell-cart
   upload format, respectively — `sell`'s csv is a different payload, not the
@@ -206,14 +292,14 @@ cache freshness: `ask` (the default — prompt about stale or empty caches,
 skipping the prompt when prompts are unavailable; two exceptions download
 without asking: `build-site` bulk-downloads an empty or week-old card cache,
 since it cannot build a site without card data, and a Card Kingdom buylist
-already downloaded is redownloaded once it is a day old — by `sell`, and by
-`admin`/`serve --api` at startup — since a day-old feed quotes yesterday's
-offers; only the first buylist download prompts), `auto` (refresh stale data
-without asking, bulk download allowed), `no-bulk` (refresh stale prices
-per-card, never a bulk download), and `never` (use the cache as-is, making no
-request of any kind — under `never`, `price` reports uncached cards as unpriced
-instead of fetching them, and a `build-site` run with no cached symbology
-renders without mana symbols).
+already downloaded is redownloaded once it is a day old — by `sell`, and,
+wherever sell mode is enabled, by `build-site` and by `admin`/`serve --api` at
+startup — since a day-old feed quotes yesterday's offers; only the first buylist
+download prompts), `auto` (refresh stale data without asking, bulk download
+allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
+`never` (use the cache as-is, making no request of any kind — under `never`,
+`price` reports uncached cards as unpriced instead of fetching them, and a
+`build-site` run with no cached symbology renders without mana symbols).
 
 ## Setup
 
@@ -225,15 +311,36 @@ ritual login status               # stored login + whether its session still aut
 ritual login logout               # remove the stored Archidekt session
 ritual config set <prop> <value>  # set a config value (dot notation for nested keys)
 ritual config set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
+ritual config set priceSources tcgplayer cardkingdom  # stores the sites offer prices from
+                                  #   (tcgplayer = Scryfall USD, cardmarket = Scryfall EUR,
+                                  #   cardkingdom = CK NM retail). Default tcgplayer; remove every
+                                  #   entry (--remove) to hide all site prices. cardkingdom makes
+                                  #   builds/servers download the ~70 MB CK feed like sell mode
+ritual config set defaultLanguage ja   # language stamped on newly added cards (Scryfall codes;
+                                  #   aliases like jp/Japanese normalize). Non-en switches cache
+                                  #   downloads to Scryfall's much larger all-cards bulk
 ritual config set searchDebounceMs 250 # web editors' add-card search debounce in ms (0 disables)
+ritual config set artDir ./art    # directory custom card art is referenced from (default ./art)
+ritual config set uiLocale de-AT  # language Ritual's own interface text speaks (BCP-47 tag).
+                                  #   NOT defaultLanguage: that one picks card printings
 ritual config get <prop>          # read one value (exit 3 when unset)
 ritual config list                # print the full effective config (defaults marked)
 ritual config unset <prop>        # revert a value to its default
+ritual locale                     # resolved UI locale, which tier supplied it, the locales
+                                  #   this build ships, and the card language, side by side
+ritual locale --detect            # opt-in: also run the OS probes (a subprocess on Windows/macOS,
+                                  #   skipped elsewhere and under WSL), report what each source
+                                  #   said, and offer to save it as uiLocale. Writes only on a
+                                  #   yes; --no-input and --output json print the finding and
+                                  #   write nothing (json carries it as suggestedUiLocale)
 ritual metadata set <list> <prop> <value...>  # list front matter, same shape as config:
-                                  #   deck description/tags/format/sourceId/sourceUrl, collection labels
+                                  #   deck description/tags/format/sourceId/sourceUrl/labels,
+                                  #   collection labels
 ritual metadata get|list|unset <list> [prop]  # read or clear it (get exits 3 when unset)
 ritual cache status               # report cache size/freshness/source without refreshing
-ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download)
+ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download); also
+                                  #   refreshes the Card Kingdom buylist when site.sellMode is on
+                                  #   or priceSources includes cardkingdom
 ritual cache preload-set khm      # cache all cards of one set (exit 3 = unknown set code, 1 = search failed)
 ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards (exit 1 when the download fails)
 ritual cache server               # host a shared cache server (default 127.0.0.1:4000)
