@@ -24,3 +24,10 @@
 - Added Selvala, Heart of the Wilds &11
 - Added Hull Breach &12
 - Added Blackblade Reforged &13
+
+## 2026-08-20T00:12:06.678Z
+
+- Removed "Blackblade Reforged" &13
+- Removed "Grave Researcher // Reanimate" &1
+- Removed "Quilled Greatwurm" &10
+- Removed "Hull Breach" &12
