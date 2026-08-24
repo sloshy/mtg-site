@@ -59,7 +59,6 @@ labels:
 - Baird, Steward of Argive (PLST:DOM-4) &51
 - Elder Deep-Fiend (INR:4) [foil] &52
 - Electro, Assaulting Battery (SPM:76) &53
-- Open the Way (MAT:23) [foil] &54
 - Vivi's Persistence (FIC:458) [foil] &57
 - Search for Dagger (FIC:459) [foil] &58
 - Noctis, Heir Apparent (FIC:460) [foil] &59
@@ -121,7 +120,6 @@ labels:
 - Nova Hellkite (EOE:148) [foil] &117
 - Terminal Velocity (EOE:338) &118
 - Endless Sands (EOS:15) &119
-- Anticausal Vestige (EOE:357) [foil] &120
 - Sunstar Chaplain (EOE:40) [foil] &121
 - Terminal Velocity (EOE:338) [foil] &122
 - Lightstall Inquisitor (EOE:320) &123
@@ -146,7 +144,6 @@ labels:
 - Metallic Mimic (INR:268) &142
 - Metallic Mimic (INR:445) &143
 - Tireless Tracker (INR:318) &144
-- Tireless Tracker (INR:318) [foil] &145
 - Through the Breach (INR:487) &146
 - Odric, Lunarch Marshal (INR:298) &147
 - Mayor of Avabruck // Howlpack Alpha (INR:207) [foil] &148
@@ -307,7 +304,6 @@ labels:
 - Angelfire Ignition (MID:209) &307
 - Haliya, Guided by Light (EOE:19) [foil] &308
 - Archaeomancer's Map (PLST:C21-12) &309
-- Lightning Greaves (CMM:398) &310
 - Mirror Entity (CMA:16) &311
 - Strionic Resonator (LCC:116) &312
 - Swiftfoot Boots (CLB:339) [foil] &313
@@ -321,7 +317,6 @@ labels:
 - Archangel Elspeth (MOM:320) &322
 - Banner of Kinship (FDN:127) [foil] &323
 - Three Tree City (BLB:260) &324
-- Nykthos, Shrine to Nyx (THS:223) &325
 - Throne of Eldraine (WOC:40) [foil] &326
 - Mutavault (CLB:903) &327
 - Guide of Souls (MH3:448) [foil] &328

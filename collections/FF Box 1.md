@@ -66,7 +66,6 @@ labels:
 - Soulstone Sanctuary (FDN:487) &58
 - Inspiring Call (MIC:141) &59
 - Master of Ceremonies (NCC:18) &60
-- Toph, Earthbending Master (TLE:209) &61
 - Serra Ascendant (SLD:2291) [foil] &62
 - Ponder (SLD:2292) [foil] &63
 - Cryptolith Rite (SLD:2293) [foil] &64

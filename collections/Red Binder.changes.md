@@ -274,3 +274,12 @@
 ## 2026-08-01T03:41:05.105Z
 
 - Removed "Sol Ring" (SLD:2330) [foil] &312
+
+## 2026-08-24T21:39:41.079Z
+
+- Moved "The Earth Crystal" (FIN:184) [foil] &155 to Deck 'Aghast for Radagast'
+- Moved "Druid of Purification" (SLD:877) [foil] &166 to Deck 'Aghast for Radagast'
+- Moved "Reclamation Sage" (FDN:340) [foil] &179 to Deck 'Aghast for Radagast'
+- Moved "Wood Elves" (P30A:5) [foil] &156 to Deck 'Aghast for Radagast'
+- Moved "Voracious Hydra" (SLD:1491) &183 to Deck 'Aghast for Radagast'
+- Moved "Overlord of the Hauntwoods" (DSK:194) &174 to Deck 'Aghast for Radagast'

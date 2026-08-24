@@ -430,3 +430,21 @@
 - Moved "Fire Lord Zuko" (TLA:315) &235 from Collection 'Blue Box'
 - Moved "The Blue Spirit" (TLE:90) [foil] &236 from Collection 'Blue Box'
 - Moved "Rogue's Passage" (CMM:426) &7 from Collection 'Blue Box'
+
+## 2026-08-24T21:39:41.077Z
+
+- Moved "Radagast of Rhosgobel" (HOB:136) &93 to Deck 'Aghast for Radagast'
+- Moved "Earthbender Ascension" (TLA:307) &349 to Deck 'Aghast for Radagast'
+- Moved "Scythecat Cub" (J25:24) &187 to Deck 'Aghast for Radagast'
+- Moved "Jaheira's Respite" (CLB:238) [foil] &184 to Deck 'Aghast for Radagast'
+- Moved "Railway Brawler" (OTJ:175) [foil] &191 to Deck 'Aghast for Radagast'
+- Moved "Tireless Provisioner" (SLD:2057) &188 to Deck 'Aghast for Radagast'
+- Moved "Azusa, Lost but Seeking" (FCA:15) &267 to Deck 'Aghast for Radagast'
+- Moved "Beorn the Fierce" (HOB:230) &42 to Deck 'Aghast for Radagast'
+- Moved "Necklace of Girion" (HOC:12) [foil] &92 to Deck 'Aghast for Radagast'
+- Moved "Vaultborn Tyrant" (BIG:20) [foil] &366 to Deck 'Aghast for Radagast'
+- Moved "Farhaven Elf" (PW26:2) [foil] &198 to Deck 'Aghast for Radagast'
+- Moved "Formidable Speaker" (ECL:366) [foil] &295 to Deck 'Aghast for Radagast'
+- Moved "Mightform Harmonizer" (EOE:200) &185 to Deck 'Aghast for Radagast'
+- Moved "Command Beacon" (CMR:349) &241 to Deck 'Aghast for Radagast'
+- Moved "Horn of Greed" (SLD:2018) [foil] &265 to Deck 'Aghast for Radagast'

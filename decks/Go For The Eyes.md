@@ -5,9 +5,9 @@ sourceId: '8377316'
 sourceUrl: 'https://archidekt.com/decks/8377316'
 created: '2026-02-23T13:34:52.727Z'
 tags: []
-lastSynced: '2026-08-06T21:38:34.971Z'
+lastSynced: '2026-08-24T21:47:32.966Z'
 format: commander
-sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
+sourceUpdatedAt: '2026-08-20T20:13:19.531694Z'
 ---
 
 ## Commander
@@ -24,7 +24,6 @@ sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
 1 Fire-Lit Thicket &9
 1 Open the Way &10
 1 Mossfire Valley &11
-1 The Great Henge &12
 1 Slicer, Hired Muscle // Slicer, High-Speed Antagonist &14
 1 Talisman of Impulse &15
 1 The Ozolith &16
@@ -86,7 +85,6 @@ sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
 1 Alexios, Deimos of Kosmos &88
 1 Gimli's Reckless Might &89
 1 Rhythm of the Wild &90
-1 Tender Wildguide &91
 1 Spider Manifestation &92
 1 Thought Vessel &93
 1 Bristly Bill, Spine Sower &13
@@ -106,13 +104,13 @@ sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
 1 Cavern-Hoard Dragon &84
 1 Selvala, Heart of the Wilds &80
 1 Cheering Crowd &87
+1 Hull Breach &12
+1 Blackblade Reforged &91
 
 ## Maybeboard
 1 Blasphemous Act &100
 1 Chandra's Ignition &103
 1 Fangs of Kalonia &108
-1 Hull Breach &111
-1 Blackblade Reforged &114
 1 Maskwood Nexus &116
 1 Sylvan Library &119
 1 Power Fist &94
@@ -120,3 +118,5 @@ sourceUpdatedAt: '2026-08-02T21:02:18.310980Z'
 1 Traverse the Outlands &97
 1 Sword of Truth and Justice &98
 1 Bow of Nylea &101
+1 Tender Wildguide &96
+1 The Great Henge &99

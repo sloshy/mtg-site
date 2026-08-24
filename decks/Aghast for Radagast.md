@@ -1,0 +1,143 @@
+---
+name: Aghast for Radagast
+format: commander
+sourceId: '25174871'
+sourceUrl: 'https://archidekt.com/decks/25174871'
+created: '2026-08-24T19:42:57.919Z'
+tags: []
+lastSynced: '2026-08-24T21:42:14.997Z'
+sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
+---
+
+## Commander
+1 Radagast of Rhosgobel (HOB:136) &1
+
+## Main
+1 Sol Ring (CMM:410) &2
+1 The Earth Crystal (FIN:184) [foil] &3
+4 Forest (FIC:482) [foil] &4
+1 Earthbender Ascension (TLA:307) &5
+1 Scythecat Cub (J25:24) &6
+1 Jaheira's Respite (CLB:238) [foil] &7
+1 Open the Way (MAT:23) [foil] &8
+1 Railway Brawler (OTJ:175) [foil] &9
+1 Rogue's Passage (FDN:264) &10
+1 Reliquary Tower (CMM:663) &11
+1 Tireless Provisioner (SLD:2057) &12
+1 Heroic Intervention (CMM:563) [etched] &13
+1 Tranquil Frillback (MAT:24) &14
+1 Spike Weaver (MB2:214) &15
+1 Gwenna, Eyes of Gaea (BRO:185) [foil] &16
+1 Rampaging Yao Guai (PIP:401) &17
+1 Nykthos, Shrine to Nyx (THS:223) &18
+1 Azusa, Lost but Seeking (FCA:15) &19
+1 Tireless Tracker (INR:318) [foil] &20
+1 Druid of Purification (SLD:877) [foil] &21
+1 Anticausal Vestige (EOE:357) [foil] &22
+1 Tifa Lockhart (FIN:206) &23
+1 Swiftfoot Boots (FDN:258) &24
+1 Lightning Greaves (CMM:398) &25
+1 Tender Wildguide (BLB:196) &26
+1 Reclamation Sage (FDN:340) [foil] &27
+1 Defiler of Vigor (DMU:412) [foil] &28
+1 Herd Heirloom (TDM:347) &29
+1 Guardian Augmenter (C21:62) &30
+1 Ancient Adamantoise (FIN:172) &31
+1 Toph, Earthbending Master (TLE:209) &32
+1 Frenzied Baloth (EOE:183) &33
+1 Rishkar's Expertise (PW25:1) [foil] &34
+1 Emerald Medallion (MH3:291) &35
+1 Goreclaw, Terror of Qal Sisma (MUL:92) [etched] &36
+1 Kodama's Reach (CMM:649) &37
+1 Beorn the Fierce (HOB:230) &38
+1 Mossborn Hydra (FDN:107) &39
+1 Cultivate (MSC:172) &40
+1 Ghalta, Stampede Tyrant (LCI:326) &41
+1 Tamiyo's Safekeeping (NEO:211) &42
+1 Garruk's Uprising (WOT:53) [foil] &43
+1 The Great Henge (CMM:294) &44
+1 Overwhelming Stampede (LTC:254) &45
+1 Wood Elves (P30A:5) [foil] &46
+1 Dancing from Dark to Dawn (HOB:123) [foil] &47
+1 Necklace of Girion (HOC:12) [foil] &48
+1 Outcaster Trailblazer (OTJ:343) &49
+1 Explore (SLD:2327) [foil] &50
+1 Bonders' Enclave (FIC:376) &51
+1 Oracle of Mul Daya (OTC:200) &52
+1 Vaultborn Tyrant (BIG:20) [foil] &53
+1 Farhaven Elf (PW26:2) [foil] &54
+1 Jumbo Cactuar (FIN:191) &55
+1 Voracious Hydra (SLD:1491) &56
+1 Disciple of Freyalise // Garden of Freyalise (MH3:250) &57
+1 Bridgeworks Battle // Tanglespan Bridgeworks (MH3:249) &58
+1 Collective Resistance (MH3:147) &59
+1 Bristly Bill, Spine Sower (OTJ:157) &60
+1 Formidable Speaker (ECL:366) [foil] &61
+1 Mightform Harmonizer (EOE:200) &62
+1 Warden of the Grove (TDM:166) &63
+1 Command Beacon (CMR:349) &64
+1 Horn of Greed (SLD:2018) [foil] &65
+1 Overlord of the Hauntwoods (DSK:194) &66
+1 Loot, Exuberant Explorer (FDN:336) &67
+1 Vigor (TMC:53) &68
+1 Lifecrafter's Bestiary (PW23:2) [foil] &69
+1 Elder Gargaroth (DRC:111) &70
+1 Forest (EOE:266) &110
+1 Forest (EOE:266) [foil] &111
+1 Forest (FDN:291) &112
+1 Forest (EOE:275) &113
+1 Forest (EOE:275) [foil] &114
+1 Forest (TLA:296) [foil] &115
+1 Forest (EOE:276) &116
+3 Forest (TLA:291) [foil] &117
+2 Forest (FIN:306) &118
+2 Forest (FIN:306) [foil] &119
+1 Forest (ECL:278) &120
+1 Forest (ECL:278) [foil] &121
+1 Forest (ECL:283) [foil] &122
+1 Forest (ECL:283) &123
+3 Forest (FIN:307) [foil] &124
+2 Forest (FIN:307) &125
+2 Forest (FIN:308) [foil] &126
+2 Forest (FIN:308) &127
+
+## Maybeboard
+1 Caged Sun &71
+1 Ghalta, Primal Hunger &72
+1 Rampant Growth &73
+1 Three Visits &74
+1 Traverse the Outlands &75
+1 Smuggler's Surprise &76
+1 Gala Greeters &77
+1 Genesis Wave &78
+1 Shadowspear &79
+1 Sword of the Animist &80
+1 Spelunking &81
+1 Snakeskin Veil &82
+1 Thought Vessel &83
+1 Solemn Simulacrum &84
+1 Galadhrim Brigade &85
+1 Avenger of Zendikar &86
+1 Cultivator Colossus &87
+1 Hulking Raptor &88
+1 The Tarrasque &89
+1 Spinner of Souls &90
+1 Toski, Bearer of Secrets &91
+1 Loyal Guardian &92
+1 Beast Within &93
+1 Castle Garenbrig &94
+1 Nature's Lore &95
+1 The Earth King &96
+1 Hornet Nest &97
+1 The Legend of Kyoshi // Avatar Kyoshi &98
+1 Selvala, Heart of the Wilds &99
+1 Birds of Paradise &100
+1 Silverback Elder &101
+1 Apex Devastator &102
+1 Greater Good &103
+1 Green Sun's Zenith &104
+1 Ornithopter of Paradise &105
+1 Defense of the Heart &106
+1 Blackblade Reforged &107
+1 Arasta of the Endless Web &108
+1 Beast Whisperer &109

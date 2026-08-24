@@ -964,3 +964,17 @@
 
 - Removed "Knuckles the Echidna" (SLD:2082) [foil] &934
 - Removed "Lord of the Void" (RVR:81) &185
+
+## 2026-08-24T21:39:41.085Z
+
+- Moved "Tifa Lockhart" (FIN:206) &576 to Deck 'Aghast for Radagast'
+- Moved "Defiler of Vigor" (DMU:412) [foil] &512 to Deck 'Aghast for Radagast'
+- Moved "Guardian Augmenter" (C21:62) &814 to Deck 'Aghast for Radagast'
+- Moved "Ancient Adamantoise" (FIN:172) &519 to Deck 'Aghast for Radagast'
+- Moved "Frenzied Baloth" (EOE:183) &172 to Deck 'Aghast for Radagast'
+- Moved "Goreclaw, Terror of Qal Sisma" (MUL:92) [etched] &129 to Deck 'Aghast for Radagast'
+- Moved "Mossborn Hydra" (FDN:107) &123 to Deck 'Aghast for Radagast'
+- Moved "Outcaster Trailblazer" (OTJ:343) &613 to Deck 'Aghast for Radagast'
+- Moved "Jumbo Cactuar" (FIN:191) &518 to Deck 'Aghast for Radagast'
+- Moved "Warden of the Grove" (TDM:166) &361 to Deck 'Aghast for Radagast'
+- Moved "Loot, Exuberant Explorer" (FDN:336) &173 to Deck 'Aghast for Radagast'

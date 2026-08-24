@@ -1,0 +1,128 @@
+# Changelog for Aghast for Radagast
+
+## 2026-08-24T21:39:41.098Z
+
+- Moved "Radagast of Rhosgobel" (HOB:136) &1 from Collection 'Goodstuff Box'
+- Moved "The Earth Crystal" (FIN:184) [foil] &3 from Collection 'Red Binder'
+- Moved "Earthbender Ascension" (TLA:307) &5 from Collection 'Goodstuff Box'
+- Moved "Scythecat Cub" (J25:24) &6 from Collection 'Goodstuff Box'
+- Moved "Jaheira's Respite" (CLB:238) [foil] &7 from Collection 'Goodstuff Box'
+- Moved "Open the Way" (MAT:23) [foil] &8 from Collection 'FF Box 2'
+- Moved "Railway Brawler" (OTJ:175) [foil] &9 from Collection 'Goodstuff Box'
+- Moved "Tireless Provisioner" (SLD:2057) &12 from Collection 'Goodstuff Box'
+- Moved "Heroic Intervention" (CMM:563) [etched] &13 from Collection 'Rare Box 2'
+- Moved "Tranquil Frillback" (MAT:24) &14 from Collection 'Long Box'
+- Moved "Spike Weaver" (MB2:214) &15 from Collection 'Long Box'
+- Moved "Gwenna, Eyes of Gaea" (BRO:185) [foil] &16 from Collection 'Long Box'
+- Moved "Rampaging Yao Guai" (PIP:401) &17 from Collection 'Long Box'
+- Moved "Nykthos, Shrine to Nyx" (THS:223) &18 from Collection 'FF Box 2'
+- Moved "Azusa, Lost but Seeking" (FCA:15) &19 from Collection 'Goodstuff Box'
+- Moved "Tireless Tracker" (INR:318) [foil] &20 from Collection 'FF Box 2'
+- Moved "Druid of Purification" (SLD:877) [foil] &21 from Collection 'Red Binder'
+- Moved "Anticausal Vestige" (EOE:357) [foil] &22 from Collection 'FF Box 2'
+- Moved "Tifa Lockhart" (FIN:206) &23 from Collection 'Rare Creatures Box'
+- Moved "Lightning Greaves" (CMM:398) &25 from Collection 'FF Box 2'
+- Moved "Reclamation Sage" (FDN:340) [foil] &27 from Collection 'Red Binder'
+- Moved "Defiler of Vigor" (DMU:412) [foil] &28 from Collection 'Rare Creatures Box'
+- Moved "Guardian Augmenter" (C21:62) &30 from Collection 'Rare Creatures Box'
+- Moved "Ancient Adamantoise" (FIN:172) &31 from Collection 'Rare Creatures Box'
+- Moved "Toph, Earthbending Master" (TLE:209) &32 from Collection 'FF Box 1'
+- Moved "Frenzied Baloth" (EOE:183) &33 from Collection 'Rare Creatures Box'
+- Moved "Rishkar's Expertise" (PW25:1) [foil] &34 from Collection 'Rare Box 2'
+- Moved "Goreclaw, Terror of Qal Sisma" (MUL:92) [etched] &36 from Collection 'Rare Creatures Box'
+- Moved "Kodama's Reach" (CMM:649) &37 from Collection 'Long Box'
+- Moved "Beorn the Fierce" (HOB:230) &38 from Collection 'Goodstuff Box'
+- Moved "Mossborn Hydra" (FDN:107) &39 from Collection 'Rare Creatures Box'
+- Moved "Tamiyo's Safekeeping" (NEO:211) &42 from Collection 'Long Box'
+- Moved "Overwhelming Stampede" (LTC:254) &45 from Collection 'Long Box'
+- Moved "Wood Elves" (P30A:5) [foil] &46 from Collection 'Red Binder'
+- Moved "Necklace of Girion" (HOC:12) [foil] &48 from Collection 'Goodstuff Box'
+- Moved "Outcaster Trailblazer" (OTJ:343) &49 from Collection 'Rare Creatures Box'
+- Moved "Explore" (SLD:2327) [foil] &50 from Collection 'Rare Box 2'
+- Moved "Vaultborn Tyrant" (BIG:20) [foil] &53 from Collection 'Goodstuff Box'
+- Moved "Farhaven Elf" (PW26:2) [foil] &54 from Collection 'Goodstuff Box'
+- Moved "Jumbo Cactuar" (FIN:191) &55 from Collection 'Rare Creatures Box'
+- Moved "Voracious Hydra" (SLD:1491) &56 from Collection 'Red Binder'
+- Moved "Formidable Speaker" (ECL:366) [foil] &61 from Collection 'Goodstuff Box'
+- Moved "Mightform Harmonizer" (EOE:200) &62 from Collection 'Goodstuff Box'
+- Moved "Warden of the Grove" (TDM:166) &63 from Collection 'Rare Creatures Box'
+- Moved "Command Beacon" (CMR:349) &64 from Collection 'Goodstuff Box'
+- Moved "Horn of Greed" (SLD:2018) [foil] &65 from Collection 'Goodstuff Box'
+- Moved "Overlord of the Hauntwoods" (DSK:194) &66 from Collection 'Red Binder'
+- Moved "Loot, Exuberant Explorer" (FDN:336) &67 from Collection 'Rare Creatures Box'
+- Moved "Lifecrafter's Bestiary" (PW23:2) [foil] &69 from Collection 'Rare Box 2'
+- Set "Oracle of Mul Daya" printing to OTC:200 &52
+- Set "Vigor" printing to TMC:53 &68
+- Set "Rogue's Passage" printing to FDN:264 &10
+- Set "Ghalta, Stampede Tyrant" printing to LCI:326 &41
+- Set "The Great Henge" printing to CMM:294 &44
+- Set "Swiftfoot Boots" printing to FDN:258 &24
+- Set "Tender Wildguide" printing to BLB:196 &26
+- Set "Bonders' Enclave" printing to FIC:376 &51
+- Set "Disciple of Freyalise // Garden of Freyalise" printing to MH3:250 &57
+- Set "Herd Heirloom" printing to TDM:347 &29
+- Set "Cultivate" printing to MSC:172 &40
+- Set "Collective Resistance" printing to MH3:147 &59
+- Set "Sol Ring" printing to CMM:410 &2
+- Set "Emerald Medallion" printing to MH3:291 &35
+- Set "Bridgeworks Battle // Tanglespan Bridgeworks" printing to MH3:249 &58
+- Set "Dancing from Dark to Dawn" printing to HOB:123 [foil] &47
+- Set "Bristly Bill, Spine Sower" printing to OTJ:157 &60
+- Set "Reliquary Tower" printing to CMM:663 &11
+- Set "Elder Gargaroth" printing to DRC:111 &70
+- Set "Garruk's Uprising" printing to WOT:53 [foil] &43
+- Removed "Forest" &4
+- Added "Forest" (EOE:266) &110
+- Removed "Forest" &4
+- Added "Forest" (EOE:266) [foil] &111
+- Removed "Forest" &4
+- Added "Forest" (FDN:291) &112
+- Removed "Forest" &4
+- Added "Forest" (EOE:275) &113
+- Removed "Forest" &4
+- Added "Forest" (EOE:275) [foil] &114
+- Removed "Forest" &4
+- Added "Forest" (TLA:296) [foil] &115
+- Removed "Forest" &4
+- Added "Forest" (EOE:276) &116
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (TLA:291) [foil] &117
+- Added "Forest" (TLA:291) [foil] &117
+- Added "Forest" (TLA:291) [foil] &117
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:306) &118
+- Added "Forest" (FIN:306) &118
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:306) [foil] &119
+- Added "Forest" (FIN:306) [foil] &119
+- Removed "Forest" &4
+- Added "Forest" (ECL:278) &120
+- Removed "Forest" &4
+- Added "Forest" (ECL:278) [foil] &121
+- Removed "Forest" &4
+- Added "Forest" (ECL:283) [foil] &122
+- Removed "Forest" &4
+- Added "Forest" (ECL:283) &123
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:307) [foil] &124
+- Added "Forest" (FIN:307) [foil] &124
+- Added "Forest" (FIN:307) [foil] &124
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:307) &125
+- Added "Forest" (FIN:307) &125
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:308) [foil] &126
+- Added "Forest" (FIN:308) [foil] &126
+- Removed "Forest" &4
+- Removed "Forest" &4
+- Added "Forest" (FIN:308) &127
+- Added "Forest" (FIN:308) &127
+- Set "Forest" printing to FIC:482 [foil] &4

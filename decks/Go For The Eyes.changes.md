@@ -78,3 +78,14 @@
 - Removed "Quartzwood Crasher" from Maybeboard &113
 - Removed "Gyre Sage" from Maybeboard &117
 - Removed "Vorinclex, Monstrous Raider" from Maybeboard &99
+
+## 2026-08-24T21:47:32.995Z
+
+- Added "Hull Breach" &12
+- Added "Blackblade Reforged" &91
+- Added "Tender Wildguide" to Maybeboard &96
+- Added "The Great Henge" to Maybeboard &99
+- Removed "The Great Henge" &12
+- Removed "Tender Wildguide" &91
+- Removed "Hull Breach" from Maybeboard &111
+- Removed "Blackblade Reforged" from Maybeboard &114

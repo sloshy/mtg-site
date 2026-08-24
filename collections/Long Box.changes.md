@@ -968,3 +968,13 @@
 ## 2026-08-13T22:16:03.682Z
 
 - Removed "Tyvar's Stand" (ONE:190) &508
+
+## 2026-08-24T21:39:41.083Z
+
+- Moved "Tranquil Frillback" (MAT:24) &84 to Deck 'Aghast for Radagast'
+- Moved "Spike Weaver" (MB2:214) &839 to Deck 'Aghast for Radagast'
+- Moved "Gwenna, Eyes of Gaea" (BRO:185) [foil] &431 to Deck 'Aghast for Radagast'
+- Moved "Rampaging Yao Guai" (PIP:401) &297 to Deck 'Aghast for Radagast'
+- Moved "Kodama's Reach" (CMM:649) &419 to Deck 'Aghast for Radagast'
+- Moved "Tamiyo's Safekeeping" (NEO:211) &224 to Deck 'Aghast for Radagast'
+- Moved "Overwhelming Stampede" (LTC:254) &398 to Deck 'Aghast for Radagast'

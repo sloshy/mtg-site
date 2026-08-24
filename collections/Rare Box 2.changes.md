@@ -375,3 +375,10 @@
 
 - Removed "Reanimate" (MKC:137) &209
 - Removed "Blasphemous Act" (PIP:188) &254
+
+## 2026-08-24T21:39:41.082Z
+
+- Moved "Heroic Intervention" (CMM:563) [etched] &269 to Deck 'Aghast for Radagast'
+- Moved "Rishkar's Expertise" (PW25:1) [foil] &91 to Deck 'Aghast for Radagast'
+- Moved "Explore" (SLD:2327) [foil] &2 to Deck 'Aghast for Radagast'
+- Moved "Lifecrafter's Bestiary" (PW23:2) [foil] &321 to Deck 'Aghast for Radagast'

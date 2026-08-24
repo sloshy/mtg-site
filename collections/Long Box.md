@@ -90,7 +90,6 @@ labels:
 - Pia Nalaar, Consul of Revival (MAT:42) &81
 - Arni Metalbrow (MAT:16) [foil] &82
 - Calix, Guided by Fate (MAT:26) &83
-- Tranquil Frillback (MAT:24) &84
 - Plargg and Nassari (MAT:18) &85
 - Vesuvan Drifter (MAT:60) &86
 - Metropolis Reformer (MAT:4) &87
@@ -229,7 +228,6 @@ labels:
 - Bruenor Battlehammer (AFR:219) &221
 - Prosperous Innkeeper (BLC:121) &222
 - Faithless Looting (PLST:CM2-96) &223
-- Tamiyo's Safekeeping (NEO:211) &224
 - Faithless Looting (INR:151) [foil] &225
 - Surge of Salvation (MOM:41) [foil] &226
 - Infernal Grasp (INR:310) &227
@@ -302,7 +300,6 @@ labels:
 - The Beast, Deathless Prince (WHO:114) &294
 - The Toymaker's Trap (WHO:72) &295
 - Grim Reaper's Sprint (PIP:386) [foil] &296
-- Rampaging Yao Guai (PIP:401) &297
 - Puresteel Paladin (PIP:456) &298
 - Sunscorched Divide (PIP:445) &299
 - Cait, Cage Brawler (PIP:409) [foil] &300
@@ -403,7 +400,6 @@ labels:
 - Door of Destinies (LTC:277) &395
 - Brushland (LTC:297) &396
 - Combat Celebrant (LTC:212) &397
-- Overwhelming Stampede (LTC:254) &398
 - Isengard Unleashed (LTC:495) &399
 - Lórien Revealed (LTR:60) &400
 - Fumigate (LTC:170) &401
@@ -424,7 +420,6 @@ labels:
 - Sauron's Ransom (LTR:782) [foil] &416
 - Faithless Looting (CMM:220) [foil] &417
 - Counterspell (CMM:630) [foil] &418
-- Kodama's Reach (CMM:649) &419
 - Shirei, Shizo's Caretaker (CMM:676) &420
 - Boon of the Spirit Realm (CMM:753) &421
 - Boompile (CMM:371) &422
@@ -436,7 +431,6 @@ labels:
 - Brotherhood's End (BRO:128) &428
 - Sardian Avenger (BRC:23) &429
 - Razorlash Transmogrant (BRO:122) &430
-- Gwenna, Eyes of Gaea (BRO:185) [foil] &431
 - Burnished Hart (BRR:71) &432
 - Siege Veteran (BRO:25) &433
 - Journeyer's Kite (BRR:25) &434
@@ -840,7 +834,6 @@ labels:
 - Karn Liberated (J22:97) &836
 - Walking Ballista (J22:806) &837
 - Plague Engineer (PLST:MH1-100) &838
-- Spike Weaver (MB2:214) &839
 - Lightning Greaves (MB2:225) &840
 - Dauthi Voidwalker (PLST:MH2-81) &841
 - Izzet Boilerworks (PLST:GK1-47) &842

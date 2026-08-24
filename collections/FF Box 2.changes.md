@@ -480,3 +480,11 @@
 ## 2026-08-13T22:14:41.212Z
 
 - Removed "Windfall" (PLST:USG-111) &162
+
+## 2026-08-24T21:39:41.080Z
+
+- Moved "Open the Way" (MAT:23) [foil] &54 to Deck 'Aghast for Radagast'
+- Moved "Nykthos, Shrine to Nyx" (THS:223) &325 to Deck 'Aghast for Radagast'
+- Moved "Tireless Tracker" (INR:318) [foil] &145 to Deck 'Aghast for Radagast'
+- Moved "Anticausal Vestige" (EOE:357) [foil] &120 to Deck 'Aghast for Radagast'
+- Moved "Lightning Greaves" (CMM:398) &310 to Deck 'Aghast for Radagast'

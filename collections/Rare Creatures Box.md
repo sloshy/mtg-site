@@ -129,13 +129,11 @@ labels:
 - Karlach, Fury of Avernus (SLD:1802) &120
 - Mistbreath Elder (BLB:323) &121
 - Fecund Greenshell (BLB:171) [foil] &122
-- Mossborn Hydra (FDN:107) &123
 - Tesak, Judith's Hellhound (MKC:346) &124
 - Ball Lightning (P30A:2) [foil] &125
 - Fecund Greenshell (BLB:171) &126
 - Gwenna, Eyes of Gaea (BRO:185) &127
 - Deeproot Wayfinder (MOM:369) &128
-- Goreclaw, Terror of Qal Sisma (MUL:92) [etched] &129
 - Sleep-Cursed Faerie (WOE:334) [foil] &130
 - Genku, Future Shaper (MH3:373) &131
 - Azure Beastbinder (BLB:41) &132
@@ -178,8 +176,6 @@ labels:
 - Emissary Escort (EOE:399) [foil] &169
 - Bloodghast (DFT:337) &170
 - Sandman, Shifting Scoundrel (SPM:112) &171
-- Frenzied Baloth (EOE:183) &172
-- Loot, Exuberant Explorer (FDN:336) &173
 - Greensleeves, Maro-Sorcerer (SLD:2193) [foil] &174
 - Polyraptor (SLD:2194) [foil] &175
 - Sphinx of Forgotten Lore (FDN:51) &176
@@ -366,7 +362,6 @@ labels:
 - Hollow One (SCH:25) [foil] &358
 - Shiko, Paragon of the Way (TDM:223) &359
 - Dragonologist (TDM:295) &360
-- Warden of the Grove (TDM:166) &361
 - Mardu Siegebreaker (TDM:206) &362
 - Zurgo, Thunder's Decree (TDM:237) &363
 - Ambling Stormshell (TDM:37) &364
@@ -517,14 +512,11 @@ labels:
 - Arbor Elf (SLD:1317) [foil] &509
 - Jaspera Sentinel (SLD:770) [foil] &510
 - Jaspera Sentinel (SLD:770) [foil] &511
-- Defiler of Vigor (DMU:412) [foil] &512
 - Birds of Paradise (LTC:235) &513
 - Scurry Oak (MH2:172) &514
 - Galadhrim Brigade (LTC:502) [foil] &515
 - Summon: Titan (FIN:204) &516
 - Matoya, Archon Elder (FIN:62) &517
-- Jumbo Cactuar (FIN:191) &518
-- Ancient Adamantoise (FIN:172) &519
 - Clive, Ifrit's Dominant // Ifrit, Warden of Inferno (FIN:458) &520
 - Vannifar, Evolved Enigma (MKM:241) &521
 - Doorkeeper Thrull (MKM:338) &522
@@ -581,7 +573,6 @@ labels:
 - The Wandering Minstrel (FIN:249) &573
 - Ultima, Origin of Oblivion (FIN:2) &574
 - Jecht, Reluctant Guardian // Braska's Final Aeon (FIN:104) [foil] &575
-- Tifa Lockhart (FIN:206) &576
 - Raubahn, Bull of Ala Mhigo (FIN:151) &577
 - Ardyn, the Usurper (FIN:89) &578
 - Kain, Traitorous Dragoon (FIN:105) &579
@@ -618,7 +609,6 @@ labels:
 - Colossal Rattlewurm (OTJ:339) [foil] &610
 - Kaervek, the Punisher (OTJ:92) [foil] &611
 - Bruse Tarl, Roving Rancher (OTJ:198) [foil] &612
-- Outcaster Trailblazer (OTJ:343) &613
 - Eris, Roar of the Storm (OTC:41) &614
 - Bruse Tarl, Roving Rancher (OTJ:350) [foil] &615
 - Fortune, Loyal Steed (OTJ:313) &616
@@ -819,7 +809,6 @@ labels:
 - Webstrike Elite (DFT:345) &811
 - Defiler of Vigor (DMU:160) [foil] &812
 - Loyal Guardian (CMM:304) &813
-- Guardian Augmenter (C21:62) &814
 - Toski, Bearer of Secrets (KHM:197) &815
 - Park Heights Maverick (NCC:63) &816
 - Ochre Jelly (AFR:196) &817

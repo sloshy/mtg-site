@@ -8,7 +8,6 @@ labels:
 
 ## Main
 - Distant Melody (SLD:2326) [foil] &1
-- Explore (SLD:2327) [foil] &2
 - Inspiring Call (SLD:2328) [foil] &3
 - Mutinous Massacre (EOE:222) &4
 - Archenemy's Charm (EOE:88) &5
@@ -97,7 +96,6 @@ labels:
 - Tendrils of Agony (SLD:2004) [foil] &88
 - Demonic Tutor (SLD:1856) [foil] &89
 - Charnel Serenade (MKC:336) &90
-- Rishkar's Expertise (PW25:1) [foil] &91
 - Deadly Dispute (FCA:33) [foil] &92
 - Persist (MH2:96) &93
 - Agadeem's Awakening // Agadeem, the Undercrypt (ZNR:90) &94
@@ -273,7 +271,6 @@ labels:
 - Pir's Whim (PLST:BBD-73) &266
 - Hide in Plain Sight (MKM:166) &267
 - Valgavoth's Onslaught (DSK:324) &268
-- Heroic Intervention (CMM:563) [etched] &269
 - For the Common Good (BLB:321) &270
 - Aether Snap (PLST:DST-37) &271
 - Demonic Counsel (DSK:92) &272
@@ -325,7 +322,6 @@ labels:
 - Door to Nothingness (SLD:1678) [foil] &318
 - Ashnod's Altar (SLD:1679) [foil] &319
 - Springleaf Drum (SLP:22) &320
-- Lifecrafter's Bestiary (PW23:2) [foil] &321
 - Andúril, Flame of the West (LTR:786) [foil] &322
 - Sculpting Steel (SLD:864) [foil] &323
 - Sword of War and Peace (SLD:1730) [foil] &324

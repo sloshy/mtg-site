@@ -522,3 +522,7 @@
 ## 2026-08-01T03:41:05.097Z
 
 - Removed "Fellwar Stone" (SLD:7062) [foil] &72
+
+## 2026-08-24T21:39:41.088Z
+
+- Moved "Toph, Earthbending Master" (TLE:209) &61 to Deck 'Aghast for Radagast'
