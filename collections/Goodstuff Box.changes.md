@@ -448,3 +448,257 @@
 - Moved "Mightform Harmonizer" (EOE:200) &185 to Deck 'Aghast for Radagast'
 - Moved "Command Beacon" (CMR:349) &241 to Deck 'Aghast for Radagast'
 - Moved "Horn of Greed" (SLD:2018) [foil] &265 to Deck 'Aghast for Radagast'
+
+## 2026-08-26T20:04:41.578Z
+
+- Added "Tigereye Cameo" (SLD:7093) [foil] &42
+- Added "Solemn Simulacrum" (FDN:729) [foil] &92
+- Added "Fight Rigging" (SNC:145) &93
+- Added "Sylvan Safekeeper" (MH3:287) &184
+- Added "Harmonize" (TMC:51) &185
+- Added "Rampant Frogantua" (M3C:66) &187
+- Added "Karn's Bastion" (RVR:464) [foil] &188
+- Added "Blood Crypt" (RVR:292) &191
+- Added "Seal of the Guildpact" (RVR:266) [foil] &198
+- Added "Seal of the Guildpact" (RVR:394) &241
+- Added "Sword of the Paruns" (RVR:395) [foil] &265
+- Added "Cloudstone Curio" (RVR:443) &267
+- Added "Sphinx's Revelation" (RVR:228) [foil] &295
+- Added "Supreme Verdict" (RVR:461) &349
+- Added "Thrash // Threat" (RVR:246) [foil] &366
+- Added "Rakdos, Lord of Riots" (RVR:215) [foil] &397
+- Added "Rakdos, Lord of Riots" (RVR:379) [foil] &398
+- Added "Revival // Revenge" (RVR:241) [foil] &399
+- Added "Savra, Queen of the Golgari" (RVR:440) &400
+- Added "Savra, Queen of the Golgari" (RVR:440) [foil] &401
+- Added "Mindleech Mass" (RVR:201) [foil] &402
+- Added "Mindleech Mass" (RVR:375) &403
+- Added "Master of Cruelties" (RVR:373) &404
+- Added "Domri Rade" (RVR:179) [foil] &405
+- Added "Domri Rade" (RVR:444) &406
+- Added "Expansion // Explosion" (RVR:243) [foil] &407
+- Added "Find // Finality" (RVR:245) [foil] &408
+- Added "Deathrite Shaman" (RVR:363) [foil] &409
+- Added "Bedeck // Bedazzle" (RVR:244) [foil] &410
+- Added "Aurelia, Exemplar of Justice" (RVR:436) &411
+- Added "Life from the Loam" (RVR:350) &412
+- Added "Utvara Hellkite" (RVR:431) &413
+- Added "Chord of Calling" (RVR:345) [foil] &414
+- Added "Legion Warboss" (RVR:337) &415
+- Added "Arclight Phoenix" (RVR:427) &416
+- Added "Dark Confidant" (RVR:323) [foil] &417
+- Added "Persistent Petitioners" (RVR:53) [foil] &418
+- Added "Persistent Petitioners" (RVR:316) [foil] &419
+- Added "Enter the Infinite" (RVR:449) &420
+- Added "Tomik, Distinguished Advokist" (RVR:417) &421
+- Added "Tomik, Distinguished Advokist" (RVR:417) [foil] &422
+- Added "Sphere of Safety" (RVR:447) &423
+- Added "Rest in Peace" (RVR:446) &424
+- Added "Rest in Peace" (RVR:446) [foil] &425
+- Added "Blazing Archon" (RVR:302) &426
+- Added "Dire Flail // Dire Blunderbuss" (LCI:374) [foil] &427
+- Added "Dire Flail // Dire Blunderbuss" (LCI:145) &428
+- Added "The Mycotyrant" (LCI:305) &429
+- Added "Palani's Hatcher" (LCI:237) [foil] &430
+- Added "Order of Sacred Dusk" (LCC:65) &431
+- Added "Welcome to . . . // Jurassic Park" (REX:7) &432
+- Added "Stalactite Stalker" (LCI:370) &433
+- Added "The Indomitable" (LCC:43) &434
+- Added "Throne of the Grim Captain // The Grim Captain" (LCI:313) &435
+- Added "Permission Denied" (REX:17) &436
+- Added "Abuelo's Awakening" (LCI:353) [foil] &437
+- Added "The Belligerent" (LCI:225) [foil] &438
+- Added "The Belligerent" (PLCI:225s) [foil] &439
+- Added "The Belligerent" (LCI:225) &440
+- Added "Palani's Hatcher" (LCI:237) &441
+- Added "Throne of the Grim Captain // The Grim Captain" (LCI:266) &442
+- Added "Breeches, Eager Pillager" (LCI:137) &443
+- Added "Throne of the Grim Captain // The Grim Captain" (LCI:266) &444
+- Added "Intrepid Paleontologist" (PLCI:193s) [foil] &445
+- Added "Hit the Mother Lode" (LCI:153) &446
+- Added "Tarrian's Journal // The Tomb of Aclazotz" (LCI:126) &447
+- Added "Kutzil's Flanker" (LCI:355) &448
+- Added "Elenda's Hierophant" (LCC:39) &449
+- Added "Echoing Deeps" (LCI:346) &450
+- Added "Kellan, Daring Traveler // Journey On" (LCI:231) [foil] &451
+- Added "Kitesail Larcenist" (LCI:364) &452
+- Added "Master of Dark Rites" (LCC:51) &453
+- Added "Corpses of the Lost" (LCI:366) [foil] &454
+- Added "Pugnacious Hammerskull" (LCI:208) [foil] &455
+- Added "Tarrian's Journal // The Tomb of Aclazotz" (LCI:126) [foil] &456
+- Added "Corpses of the Lost" (LCI:366) &457
+- Added "Altar of the Wretched // Wretched Bonemass" (LCC:22) &458
+- Added "Life Finds a Way" (REX:5) &459
+- Added "Magmatic Galleon" (LCI:376) [foil] &460
+- Added "Restless Anchorage" (LCI:280) [foil] &461
+- Added "Jadelight Spelunker" (LCI:382) &462
+- Added "Wayta, Trainer Prodigy" (LCC:32) &463
+- Added "Akal Pakal, First Among Equals" (LCI:292) &464
+- Added "Sunken Citadel" (LCI:392) &465
+- Added "Breeches, Brazen Plunderer" (SPG:6) [foil] &466
+- Added "Jadelight Spelunker" (LCI:382) [foil] &467
+- Added "Thousand Moons Smithy // Barracks of the Thousand" (LCI:357) &468
+- Added "Deeproot Historian" (LCC:59) &469
+- Added "Kellan, Daring Traveler // Journey On" (LCI:341) &470
+- Added "The Everflowing Well // The Myriad Pools" (LCI:363) [foil] &471
+- Added "Dino DNA" (REX:20) [foil] &472
+- Added "Xavier Sal, Infested Captain" (LCC:33) [foil] &473
+- Added "Inti, Seneschal of the Sun" (LCI:156) [foil] &474
+- Added "Sentinel of the Nameless City" (LCI:383) &475
+- Added "Souls of the Lost" (LCI:369) [foil] &476
+- Added "Grim Giganotosaurus" (REX:11) &477
+- Added "Morbid Opportunist" (INR:124) [foil] &478
+- Added "Summon: Fenrir" (FIN:372) &479
+- Added "Queen Brahne" (FIN:464) &480
+- Added "Summon: Shiva" (FIN:362) [foil] &481
+- Added "Tidus, Blitzball Star" (FIN:512) &482
+- Added "Ultros, Obnoxious Octopus" (FIN:442) &483
+- Added "Restoration Magic" (FIN:30) [foil] &484
+- Added "Vanille, Cheerful l'Cie" (FIN:392) &485
+- Added "Zidane, Tantalus Thief" (FIN:405) [foil] &486
+- Added "Rinoa Heartilly" (FIN:502) &487
+- Added "Judge Magister Gabranth" (FIN:495) &488
+- Added "Ultimecia, Time Sorceress // Ultimecia, Omnipotent" (FIN:513) &489
+- Added "Fang, Fearless l'Cie" (FIN:381) [foil] &490
+- Added "Vanille, Cheerful l'Cie" (FIN:537) [foil] &491
+- Added "Fang, Fearless l'Cie" (FIN:526) [foil] &492
+- Added "Vanille, Cheerful l'Cie" (FIN:392) [foil] &493
+- Added "Mechtitan // Mechtitan" (SLD:1969) [foil] &494
+- Added "Giant Opportunity" (ELD:159) &495
+- Added "Slime Against Humanity" (MKM:177) &496
+- Added "Cori Mountain Monastery" (TDM:252) &497
+- Added "Temur Battlecrier" (TDM:425) [foil] &498
+- Added "Narset, Jeskai Waymaster" (TDM:209) &499
+- Added "Marionette Apprentice" (MH3:100) &500
+- Added "Marionette Apprentice" (MH3:410) &501
+- Added "Marionette Apprentice" (MH3:410) [foil] &502
+- Added "Hydroelectric Specimen // Hydroelectric Laboratory" (MH3:240) &503
+- Added "Accursed Marauder" (MH3:80) &504
+- Added "Accursed Marauder" (MH3:80) &505
+- Added "Marionette Apprentice" (MH3:100) [foil] &506
+- Added "Sink into Stupor // Soporific Springs" (MH3:241) &507
+- Added "Victimize" (MH3:278) [foil] &508
+- Added "Victimize" (MH3:413) &509
+- Added "Null Elemental Blast" (MH3:387) &510
+- Added "Null Elemental Blast" (MH3:387) [foil] &511
+- Added "Stump Stomp // Burnwillow Clearing" (MH3:259) &512
+- Added "Legion Leadership // Legion Stronghold" (MH3:255) &513
+- Added "Legion Leadership // Legion Stronghold" (MH3:255) &514
+- Added "Consuming Corruption" (MH3:84) &515
+- Added "Revitalizing Repast // Old-Growth Grove" (MH3:256) &516
+- Added "Stump Stomp // Burnwillow Clearing" (MH3:259) [foil] &517
+- Added "Buried Alive" (MH3:273) &518
+- Added "Consuming Corruption" (MH3:407) [foil] &519
+- Added "Collective Resistance" (MH3:147) &520
+- Added "Stump Stomp // Burnwillow Clearing" (MH3:259) &521
+- Added "Victimize" (MH3:278) [foil] &522
+- Added "Consign to Memory" (MH3:54) &523
+- Added "Victimize" (MH3:278) &524
+- Added "Brainsurge" (MH3:53) &525
+- Added "Buried Alive" (MH3:273) &526
+- Added "Razorgrass Ambush // Razorgrass Field" (MH3:238) &527
+- Added "Bridgeworks Battle // Tanglespan Bridgeworks" (MH3:249) &528
+- Added "Vexing Bauble" (MH3:212) &529
+- Added "Snow-Covered Wastes" (MH3:229) &530
+- Added "Snow-Covered Wastes" (MH3:229) &531
+- Added "Snow-Covered Wastes" (MH3:229) [foil] &532
+- Added "Urza's Cave" (MH3:234) [foil] &533
+- Added "Urza's Cave" (MH3:234) &534
+- Added "Nesting Grounds" (MH3:302) &535
+- Added "Nesting Grounds" (MH3:302) &536
+- Added "Kozilek's Command" (MH3:11) &537
+- Added "K'rrik, Son of Yawgmoth" (MH3:365) &538
+- Added "Wheel of Potential" (MH3:144) [foil] &539
+- Added "Disruptor Flute" (MH3:461) [foil] &540
+- Added "Rosheen, Roaring Prophet" (MH3:380) &541
+- Added "Ugin's Binding" (MH3:76) [foil] &542
+- Added "Thief of Existence" (MH3:174) [foil] &543
+- Added "Grist, Voracious Larva // Grist, the Plague Swarm" (MH3:446) &544
+- Added "Pearl-Ear, Imperial Advisor" (MH3:363) [foil] &545
+- Added "Bloodstained Mire" (MH3:463) &546
+- Added "Strix Serenade" (MH3:71) [foil] &547
+- Added "Disruptor Flute" (MH3:209) [foil] &548
+- Added "Invert Polarity" (MH3:459) &549
+- Added "Sorin of House Markov // Sorin, Ravenous Neonate" (MH3:444) &550
+- Added "Abstruse Appropriation" (MH3:342) &551
+- Added "Twins of Discord" (M3C:37) &552
+- Added "Jyoti, Moag Ancient" (M3C:13) [foil] &553
+- Added "Blaster Hulk" (M3C:55) &554
+- Added "Nadu, Winged Wisdom" (MH3:193) &555
+- Added "Wrath of the Skies" (MH3:49) [foil] &556
+- Added "Pearl Medallion" (MH3:347) &557
+- Added "Crabomination" (MH3:452) &558
+- Added "Wight of the Reliquary" (MH3:460) [foil] &559
+- Added "Sapphire Medallion" (MH3:296) [foil] &560
+- Added "Deserted Temple" (MH3:301) [foil] &561
+- Added "Flare of Denial" (MH3:400) &562
+- Added "Spymaster's Vault" (MH3:230) [foil] &563
+- Added "Winter Moon" (MH3:213) [foil] &564
+- Added "Powerbalance" (MH3:131) &565
+- Added "Volatile Stormdrake" (MH3:79) &566
+- Added "Harbinger of the Seas" (MH3:451) &567
+- Added "Bloodstained Mire" (MH3:216) &568
+- Added "Kappa Cannoneer" (MH3:401) &569
+- Added "Eldritch Immunity" (M3C:33) &570
+- Added "Final Act" (M3C:52) &571
+- Added "Wonderscape Sage" (M3C:49) &572
+- Added "Copy Land" (M3C:47) &573
+- Added "Ulalek, Fused Atrocity" (M3C:16) &574
+- Added "Endurance" (H2R:14) &575
+- Added "March from Velis Vel" (M3C:48) &576
+- Added "Strix Serenade" (MH3:71) &577
+- Added "Phyrexian Tower" (MH3:303) &578
+- Added "Party Thrasher" (MH3:129) &579
+- Added "Chthonian Nightmare" (MH3:83) &580
+- Added "Monumental Henge" (MH3:222) &581
+- Added "Disruptor Flute" (MH3:209) &582
+- Added "Devourer of Destiny" (MH3:2) &583
+- Added "Emperor of Bones" (MH3:90) &584
+- Added "Bloodstained Mire" (MH3:435) &585
+- Added "Arna Kennerüd, Skycaptain" (MH3:371) &586
+- Added "Spymaster's Vault" (MH3:230) &587
+- Added "Kappa Cannoneer" (MH3:270) &588
+- Added "Kudo, King Among Bears" (MH3:192) &589
+- Added "Phelia, Exuberant Shepherd" (MH3:40) &590
+- Added "Thief of Existence" (MH3:174) &591
+- Added "Sapphire Medallion" (MH3:296) &592
+- Added "Ripples of Undeath" (MH3:107) &593
+- Added "Omo, Queen of Vesuva" (M3C:2) &594
+- Added "Shilgengar, Sire of Famine" (MH3:109) &595
+- Added "Grist, Voracious Larva // Grist, the Plague Swarm" (MH3:251) &596
+- Added "Abstruse Appropriation" (MH3:177) &597
+- Added "Disruptor Flute" (MH3:209) &598
+- Added "K'rrik, Son of Yawgmoth" (MH3:274) &599
+- Added "Flooded Strand" (MH3:220) &600
+- Added "Laelia, the Blade Reforged" (MH3:281) &601
+- Added "Necrodominance" (MH3:102) &602
+- Added "Wheel of Potential" (MH3:144) &603
+- Added "Ulamog, the Defiler" (MH3:15) &604
+- Added "Emperor of Bones" (MH3:90) &605
+- Added "Kaalia of the Vast" (MH3:290) [foil] &606
+- Added "Dreamtide Whale" (MH3:450) &607
+- Added "Flooded Strand" (MH3:353) &608
+- Added "Salvation Colossus" (M3C:43) &609
+- Added "Wight of the Reliquary" (MH3:207) &610
+- Added "Ulalek, Fused Atrocity" (M3C:16) &611
+- Added "Party Thrasher" (MH3:129) &612
+- Added "Jet Medallion" (MH3:346) &613
+- Added "Sorin of House Markov // Sorin, Ravenous Neonate" (MH3:245) &614
+- Added "Crabomination" (MH3:85) &615
+- Added "Rosheen, Roaring Prophet" (MH3:202) &616
+- Added "Deserted Temple" (MH3:301) &617
+- Added "Spymaster's Vault" (MH3:230) &618
+- Added "Echoes of Eternity" (MH3:4) [foil] &619
+- Added "Strix Serenade" (MH3:71) &620
+- Added "Bloodstained Mire" (MH3:216) &621
+- Added "Powerbalance" (MH3:335) &622
+- Added "Pearl-Ear, Imperial Advisor" (MH3:39) &623
+- Added "Eldrazi Linebreaker" (MH3:117) &624
+- Added "Detective's Phoenix" (MH3:116) &625
+- Added "Kappa Cannoneer" (MH3:270) &626
+- Added "White Orchid Phantom" (MH3:47) &627
+- Added "Psychic Frog" (MH3:199) &628
+- Added "Invert Polarity" (MH3:190) &629
+- Added "Primal Prayers" (MH3:166) &630
+- Added "Nulldrifter" (MH3:13) &631
+- Added "Thespian's Stage" (RVR:466) &632
