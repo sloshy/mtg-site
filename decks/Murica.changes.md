@@ -4,10 +4,19 @@
 
 - Added "Cloudsteel Kirin" to Maybeboard &138
 
+```ritual-changes
+{"action":"add","cardName":"Cloudsteel Kirin","cardId":138,"board":"Maybeboard"}
+```
+
 ## 2026-07-31T04:25:03.032Z
 
 - Added "Kellan, the Fae-Blooded // Birthright Boon" &86
 - Removed "Gilgamesh, Master-at-Arms" &86
+
+```ritual-changes
+{"action":"add","cardName":"Kellan, the Fae-Blooded // Birthright Boon","cardId":86}
+{"action":"remove","cardName":"Gilgamesh, Master-at-Arms","cardId":86}
+```
 
 ## 2026-08-01T03:41:29.182Z
 
@@ -54,7 +63,57 @@
 - Removed "Arc Reactor" from Maybeboard &137
 - Removed "Cloudsteel Kirin" from Maybeboard &138
 
+```ritual-changes
+{"action":"remove","cardName":"Sunfall","cardId":97,"board":"Maybeboard"}
+{"action":"remove","cardName":"Explorer's Scope","cardId":98,"board":"Maybeboard"}
+{"action":"remove","cardName":"Wedding Ring","cardId":99,"board":"Maybeboard"}
+{"action":"remove","cardName":"Michiko Konda, Truth Seeker","cardId":100,"board":"Maybeboard"}
+{"action":"remove","cardName":"Reliquary Tower","cardId":101,"board":"Maybeboard"}
+{"action":"remove","cardName":"Rhystic Study","cardId":102,"board":"Maybeboard"}
+{"action":"remove","cardName":"Thought Vessel","cardId":103,"board":"Maybeboard"}
+{"action":"remove","cardName":"The One Ring","cardId":104,"board":"Maybeboard"}
+{"action":"remove","cardName":"Sword of Vengeance","cardId":105,"board":"Maybeboard"}
+{"action":"remove","cardName":"Nazgûl Battle-Mace","cardId":106,"board":"Maybeboard"}
+{"action":"remove","cardName":"Fighter Class","cardId":107,"board":"Maybeboard"}
+{"action":"remove","cardName":"Bureau Headmaster","cardId":108,"board":"Maybeboard"}
+{"action":"remove","cardName":"Cid, Freeflier Pilot","cardId":109,"board":"Maybeboard"}
+{"action":"remove","cardName":"Aetherize","cardId":110,"board":"Maybeboard"}
+{"action":"remove","cardName":"Ballad of the Black Flag","cardId":111,"board":"Maybeboard"}
+{"action":"remove","cardName":"The Mightstone and Weakstone","cardId":112,"board":"Maybeboard"}
+{"action":"remove","cardName":"Urza, Lord Protector","cardId":113,"board":"Maybeboard"}
+{"action":"remove","cardName":"Cloud, Midgar Mercenary","cardId":114,"board":"Maybeboard"}
+{"action":"remove","cardName":"Kazuul, Tyrant of the Cliffs","cardId":115,"board":"Maybeboard"}
+{"action":"remove","cardName":"Misleading Signpost","cardId":116,"board":"Maybeboard"}
+{"action":"remove","cardName":"Thran Dynamo","cardId":117,"board":"Maybeboard"}
+{"action":"remove","cardName":"Izzet Signet","cardId":118,"board":"Maybeboard"}
+{"action":"remove","cardName":"Emry, Lurker of the Loch","cardId":119,"board":"Maybeboard"}
+{"action":"remove","cardName":"Forging the Tyrite Sword","cardId":120,"board":"Maybeboard"}
+{"action":"remove","cardName":"Sword of the Animist","cardId":121,"board":"Maybeboard"}
+{"action":"remove","cardName":"Bilbo's Ring","cardId":122,"board":"Maybeboard"}
+{"action":"remove","cardName":"Padeem, Consul of Innovation","cardId":123,"board":"Maybeboard"}
+{"action":"remove","cardName":"The Reality Chip","cardId":124,"board":"Maybeboard"}
+{"action":"remove","cardName":"Promise of Loyalty","cardId":125,"board":"Maybeboard"}
+{"action":"remove","cardName":"Kykar, Wind's Fury","cardId":126,"board":"Maybeboard"}
+{"action":"remove","cardName":"Mystic Remora","cardId":127,"board":"Maybeboard"}
+{"action":"remove","cardName":"Armored Skyhunter","cardId":128,"board":"Maybeboard"}
+{"action":"remove","cardName":"All That Glitters","cardId":129,"board":"Maybeboard"}
+{"action":"remove","cardName":"Ragavan, Nimble Pilferer","cardId":130,"board":"Maybeboard"}
+{"action":"remove","cardName":"Fire Nation Turret","cardId":131,"board":"Maybeboard"}
+{"action":"remove","cardName":"Hermes, Overseer of Elpis","cardId":132,"board":"Maybeboard"}
+{"action":"remove","cardName":"Professional Face-Breaker","cardId":133,"board":"Maybeboard"}
+{"action":"remove","cardName":"Mjölnir, Hammer of Thor","cardId":134,"board":"Maybeboard"}
+{"action":"remove","cardName":"The Vision","cardId":135,"board":"Maybeboard"}
+{"action":"remove","cardName":"Open the Armory","cardId":136,"board":"Maybeboard"}
+{"action":"remove","cardName":"Arc Reactor","cardId":137,"board":"Maybeboard"}
+{"action":"remove","cardName":"Cloudsteel Kirin","cardId":138,"board":"Maybeboard"}
+```
+
 ## 2026-08-13T04:23:35.492Z
 
 - Added "The Lonely Mountain" &97
 - Removed "Mountain" &82
+
+```ritual-changes
+{"action":"add","cardName":"The Lonely Mountain","cardId":97}
+{"action":"remove","cardName":"Mountain","cardId":82}
+```
