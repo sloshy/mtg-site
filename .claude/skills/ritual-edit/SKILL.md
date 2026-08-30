@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, label a card, give a card custom art, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta26
-ritual-content-hash: 518aa4557d56d46ff1b1bb55ad8f91e4d35c176f82da5147aa4d43779e927b36
+ritual-version: 0.1.0-beta27
+ritual-content-hash: 9ae740267977774863b2ea77e5ea0afe7cc729ad1cee237e2a5cfada82d60bac
 ---
 
 # Editing cards in any Ritual list
@@ -48,10 +48,11 @@ Conventions shared by every one-shot command:
   variable does the same, and a falsy value — `0`/`false`/`no`/`off` — counts as
   unset): works on **every** command and guarantees no prompting; where input
   would be required the command fails fast with exit code 2 and a `Input required:
-  pass <flag> (...)` message naming the flag (or uses a documented default)
-  instead of hanging or exiting 0 having done nothing. A non-terminal stdin —
-  every agent invocation — is treated exactly the same way, so the flag is never
-  strictly required. There are no per-command non-interactive flags.
+  ...` message naming the flag that would have supplied it, or what the prompt
+  asked for when no flag exists (or uses a documented default) instead of hanging
+  or exiting 0 having done nothing. A non-terminal stdin — every agent invocation
+  — is treated exactly the same way, so the flag is never strictly required. There
+  are no per-command non-interactive flags.
 - Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
   — where the mode also governs its Card Kingdom buylist cache — `build-site`,
   `serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
@@ -155,8 +156,12 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
   listing what exists). Without `--finish` alongside, the current finish is kept.
 - `--finish nonfoil|foil|etched` — always validated against the printing the line
   will carry (the new one when changing the printing, otherwise the entry's own).
-  The check is cache-only: when the card cache cannot vouch for the printing, or the
-  line has no printing at all, it is skipped rather than guessed.
+  The check is cache-only: when the card cache cannot vouch for the printing it is
+  skipped rather than guessed. A line that names **no** printing cannot take
+  `foil`/`etched` at all (exit 2) — a finish belongs to a printing; pass
+  `--set`/`--collector-number` in the same call to pin one and record the finish
+  together. `--finish nonfoil` always applies: it clears a token rather than
+  asserting one.
 - `--condition NM|LP|MP|HP|DMG|NONE` — decks and collections only (wanted entries
   carry no condition). `NONE` clears a recorded grade; note that `NM` is the
   unrecorded default and writes an ungraded line, exactly like `NONE`.
@@ -245,7 +250,16 @@ ritual move --card-id 7 --from "wanted:To Buy" --to deck:storm --output json
 
 Interactively, `ritual move` (requires a terminal) opens a TUI session across all
 lists; `--from <list>` alone starts it with only that list enabled as a source
-(widen it under Session Filters).
+(widen it under Session Filters). A deck destination asks which section the card
+lands in (the deck's sections plus "New section…"; the default one is preselected).
+Its **🧺 Batch Mode** menu row switches the session to many-cards-one-destination:
+pick which lists to view (seeded from the session's Move FROM filter, but local to
+the batch), tick cards off one combined searchable checklist (with "Select all" /
+"Select all from…" for whole lists), then choose a single destination for the lot.
+Batches queue into the same pending state. Two things drop a card from a batch, each
+reported with a count: it already sits in the destination, or it is a printing-less
+card headed for a collection whose printing could not be resolved. The session stays
+in batch mode until you exit it, or until the viewed lists hold nothing left to move.
 
 You can also move a card **while editing a list** instead of using the dedicated batch
 tool. In the admin or public in-browser editor, a **Move to list…** item appears in
@@ -255,16 +269,43 @@ same operation is the `📤 Move to Another List` action in every type's edit mo
 (a deck line moves with all its copies). Either way the card leaves the list you're
 editing, and on save **both** lists are
 written — removed from the source, added to the destination, with a changelog entry on
-each. Moving a printing-less card into a collection prompts for a specific printing
-first. Notes and label overrides never follow an editor/TUI move; the card's
+each. In a public-site export the move is recorded once, in the bundle's top-level
+`moves` array (never as a per-list change), and `ritual import-changes` applies it
+to both lists the same way. Moving a printing-less card into a collection prompts for
+a specific printing first. Notes and label overrides never follow an editor/TUI move; the card's
 **custom art** does, re-filed under the destination line's new `&N`.
+
+The web editors (admin and public) also offer a batch **Swap Printings…** wizard on decks and
+collections, built on the same moves: re-pick the printings of many lines at once using copies
+already owned in the *other* lists. Entry points are the action bar / navbar edit row (whole
+list), the **Selected** menu (pre-checked on the selection), and a card's ⋯ menu (**Swap
+printing…**, that card alone). Name-only lines take part too — the wizard is also how a deck's
+unpinned lines get printings in bulk from the copies the collections hold. The steps are: tick
+cards; choose source lists (decks + collections on by default, wanted lists off but
+selectable; the edited list is never a source; only saved contents count); pick **Manual**,
+**Most expensive** or **Least expensive** mode — every mode offers a finish filter (it also
+seeds the picker's quick-filter) and where displaced copies go (back to each replacement's
+source, or one chosen deck/collection — never a wanted list), the price modes add an
+unpriced-candidate policy (**Skip** / **Ignore** / **Ask me** = force a pick by hand), and when
+a checked card has no printing, a **Replace the copies taken from other lists** option (off by
+default); then per-card picking or, in the price modes, a review with **Change…** overrides;
+with the replace option on, a **Replacements** step asking which printing each source list gets
+back per printing taken; and a summary with the moves grouped by list and value
+before → after. Applying records one **move in** per replacement
+copy and one **move out** per displaced copy into the editor's pending changes. A copy given to
+a name-only line pins that line instead (`move-to` with `replacesCardId`; the line keeps its
+`&N` when filled whole, a deck line filled partially or from several printings is split), so
+nothing is displaced; a chosen replacement rides on the event and is added to the source list
+on save. Save (admin) writes both sides like any move, and a public export carries them in the
+bundle's `moves` (`pinsCardId` / `replacement`).
 
 ## Interactive editor
 
 `ritual edit` is **the** interactive TUI (requires a terminal) for editing decks,
 collections, and wanted lists: a selection menu covers all lists (plus create-new
 items). Sessions support name/collector entry modes, per-type edit modes over
-existing entries, and undo. Collector mode is a `SET:CN` search over **every
+existing entries (with nothing typed the whole list is listed below the menu
+rows, so it can be scrolled as well as searched), and undo. Collector mode is a `SET:CN` search over **every
 printing in the local Scryfall cache** (`mkm:123`, `mkm 123`, or a bare token
 matched against set codes and collector numbers) — nothing is preloaded, and
 `--sets` is only an optional filter narrowing that pool. A collector-mode row
@@ -337,9 +378,12 @@ discarded first.
 
 `ritual import-changes` applies a change bundle exported from the public site's
 edit mode (or the admin editor's Export panel) to the underlying list files. The
-JSON is a `ritual-change-bundle` covering one or more lists — the export panel's
-"This list" and "All lists" scopes both produce it. The full change list is
-previewed grouped by target list, and nothing is written until you confirm:
+JSON is a `ritual-change-bundle` (version 2) covering one or more lists — the export
+panel's "This list" and "All lists" scopes both produce it. Each list's own edits sit
+in `lists[].changes`; cross-list moves are normalized into one top-level `moves`
+array (source list, destination list, one entry per copy) instead of appearing in
+either list's changes. The full change list is previewed grouped by target list, moves
+included, and nothing is written until you confirm:
 
 ```bash
 ritual import-changes edits.json          # preview, then confirm interactively
@@ -358,8 +402,10 @@ from a partial one.
 
 Changes are re-targeted to each list's current `&N` card IDs (by ID when it still
 exists, else by card name); changes whose target card no longer exists are skipped
-and reported. Each list gets a changelog entry, and a failed list (e.g. one that no
-longer exists) is reported without stopping the rest. Exits non-zero when any list
+and reported. A move is applied to both of its lists — removed from the source, added
+to the destination — and a changelog entry is written on each. Every touched list gets
+a changelog entry, and a failed list (e.g. one that no longer exists) is reported
+without stopping the rest. Exits non-zero when any list
 fails. The same JSON can also be applied in the web admin's **Import Changes** page.
 
 ## Export cards (CSV, JSON, text, Markdown)
@@ -367,9 +413,10 @@ fails. The same JSON can also be applied in the web admin's **Import Changes** p
 `ritual export` renders any grouping of cards in one of four formats, chosen with
 `--format csv|json|text|md` (default `csv`). There is no scripting `--output`
 flag here: the raw payload on stdout *is* the export, unless `--out <file>`
-writes it to a file instead. `text` merges everything into **one flat decklist** (`1 Name (SET:CN)`
-lines, quantities aggregated across lists); `md` is canonical list markdown
-grouped by list and section, **without** `&N` ids. Bare `ritual export` in a
+writes it to a file instead. `text` is a plain-text decklist whose line form
+follows `--dialect` — by default everything merges into **one flat list**
+(`1 Name (SET:CN)` lines, quantities aggregated across lists); `md` is canonical
+list markdown grouped by list and section, **without** `&N` ids. Bare `ritual export` in a
 terminal opens an interactive wizard; agents should always pass flags (any
 source, filter, or output flag runs non-interactively). With no lists and no
 `--card` picks, **every list** is exported:
@@ -378,6 +425,7 @@ source, filter, or output flag runs non-interactively). With no lists and no
 ritual export --format json > all-cards.json          # everything, JSON on stdout
 ritual export deck:burn --out burn.csv                # one deck to a CSV file
 ritual export --all --format text                     # one merged decklist on stdout
+ritual export deck:burn --format text --dialect arena # a decklist Arena/Moxfield import
 ritual export --all --format md --out cards.md        # canonical markdown, no &N ids
 ritual export "Main Binder" wishlist --set MKM        # two lists, filtered by set
 ritual export --card "sol ring" --card "mana crypt"   # cherry-pick cards across lists
@@ -406,15 +454,26 @@ warning), `finish`, `isFoil` (true when foil or etched), `condition`,
 `language` (Scryfall language code; blank for English), `labels`
 (effective labels, comma-joined), `note`,
 `section`, `listName`, `listType`. Columns apply to
-csv/json only: giving `--columns`, `--dialect`, `--no-header`, or `--quote-all`
+csv/json only: giving `--columns`, `--no-header`, or `--quote-all`
 alongside an explicit `--format text|md` is a usage error (a preset's stored
-columns with a text/md format are simply unused). Set codes are lowercase in JSON
-and UPPERCASE in CSV, text, and md output.
+columns with a text/md format are simply unused); `--dialect` also shapes
+`--format text`, so it conflicts with `--format md` alone. Set codes are
+lowercase in JSON and UPPERCASE in CSV, text, and md output.
 
-`--dialect ritual|archidekt` (csv/json) chooses how finish and condition are
-spelled: `ritual` (default) writes the file's own values, `archidekt` writes
-`Normal|Foil|Etched` under a `Variant` header and `NM|LP|MP|HP|D`, filling in
-the effective value (`Normal`/`NM`) for lines that mark none. The built-in
+`--dialect ritual|archidekt|arena|moxfield` chooses the output vocabulary. For
+csv/json it picks how finish and condition are spelled: `ritual` (default) writes
+the file's own values, `archidekt` writes `Normal|Foil|Etched` under a
+`Variant` header and `NM|LP|MP|HP|D`, filling in the effective value
+(`Normal`/`NM`) for lines that mark none; `arena` and `moxfield` say nothing
+here and render as `ritual`. For `--format text` it picks the decklist form:
+`arena` and `moxfield` write bare `Commander`/`Deck`/`Sideboard` board markers
+over `1 Name (SET) CN` lines — the form those sites import — with moxfield
+splicing its `*F*`/`*E*` finish marker between the set and the collector
+number (`1 Name (SET) *F* CN`), where Moxfield's bulk-edit grammar puts it.
+Those two are decklists, so maybeboard and token sections are left out and the
+omitted count and sections are warned about on stderr (`--quiet` does not
+silence it). `ritual` and `archidekt` write one flat `1 Name (SET:CN)` list
+instead, carrying every selected entry. The built-in
 `archidekt` preset is that dialect with columns
 `Scryfall ID,Quantity,Variant,Condition` — the CSV archidekt.com/collections/import
 accepts, and what `ritual collection-sync push` uploads for large batches.
@@ -447,6 +506,15 @@ ritual history "Winota Stax" --show --limit 3
 ritual history "Winota Stax" --show --output json
 ```
 
+`--output json` returns `{ header, sets }`; each set is `{ timestamp, lines, events,
+trailing? }` — `lines` are the prose `- ` lines verbatim and `events` the typed change
+events from the entry's fenced `ritual-changes` block (one per line, in order; empty
+for a legacy entry that has no block — `ritual cleanup` converts those). Read
+`events`, not the prose.
+
 Combining two change sets orders the merged lines oldest-set-first (newest changes
 at the bottom) and cancels opposite changes — an add and a later remove of the same
-card annihilate — mirroring the card editor's live change log.
+card annihilate, decided on the typed events — mirroring the card editor's live
+change log. Two legacy sets (no events) combine as opaque prose with no cancellation;
+a legacy set never combines with a set that has events, and a set whose prose and
+events are out of step is not offered at all.

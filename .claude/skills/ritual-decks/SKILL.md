@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
-ritual-version: 0.1.0-beta26
-ritual-content-hash: 3826123c7cb591ab081db0d677b9feaa4f8450285de39babb94a6a603f369310
+ritual-version: 0.1.0-beta27
+ritual-content-hash: 15e8a3f933e8954042afa3c70c65a5c9f81f9f74b3a73e027b45bc9eecd4dfe8
 ---
 
 # Managing decks with Ritual
@@ -36,8 +36,10 @@ section means Oathbreaker (checked first), and a command-zone section such as
 its next save, so do not add a `format:` by hand to "fix" a deck that displays
 correctly.
 
-The rest of the deck's front matter (`description`, `tags`, `format`, the
-default card `labels`, and the `sourceId`/`sourceUrl` sync link) is scripted
+The rest of the deck's front matter (`description` — the blurb the published
+site prints above the cards, and the one key every list type carries — plus
+`tags`, `format`, the default card `labels`, and the
+`sourceId`/`sourceUrl` sync link) is scripted
 with `ritual metadata` — a
 front-matter-only write that never touches card lines and records no changelog:
 
@@ -47,6 +49,15 @@ ritual metadata set my-deck tags aggro budget     # replace; --add / --remove me
 ritual metadata set my-deck format modern
 ritual metadata list my-deck                      # every field, (unset) included
 ritual metadata unset my-deck description
+```
+
+The one front-matter key `metadata` does not write is the deck's cover
+`image:` — a mapping, not a scalar — which has its own command (see the
+**ritual** skill's *List cover images* section):
+
+```bash
+ritual set-list-image my-deck --card 12          # the &N of a line in this deck
+ritual set-list-image my-deck --default          # back to the commander/priciest rule
 ```
 
 ## One-shot edits (non-interactive — best for agents)
@@ -154,7 +165,9 @@ changelog entry per session.
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the deck's existing lines — change a line's printing or language,
 add/remove copies, move it to another section or another list, edit its note, or
-remove it entirely — and `↩️ Undo Last Edit` reverts the latest edit.
+remove it entirely. With nothing typed it lists every entry below the menu rows,
+so the list can be scrolled as well as searched, and `↩️ Undo Last Edit` reverts
+the latest edit.
 
 **Undo within the session:** `↩️ Undo Last Add` takes back the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -192,7 +205,8 @@ its own data.
 
 Text imports read Ritual's own format and the MTG Arena/MTGO export dialect —
 `4 Lightning Bolt (M10) 146` lines plus bare `Deck`/`Sideboard`/`Commander`/
-`Companion`/`About` markers, a trailing `*F*`/`*E*` foil marker, and the
+`Companion`/`About` markers, a `*F*`/`*E*` foil marker either trailing or
+between the set and the collector number (Moxfield's form), and the
 inside of a ``` fence (a decklist pasted from Discord or GitHub arrives wrapped
 in one, so on the import path — and only there — the fence is packaging, not
 prose). A `(SET)` with no collector number is **not** read as a printing: half a

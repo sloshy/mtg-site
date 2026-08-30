@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-beta26
-ritual-content-hash: a0219b43772ef9464c4a55b96d378315cefbaf5839e4273cafa9c4822a40d6db
+ritual-version: 0.1.0-beta27
+ritual-content-hash: a98f328a7a9a167696773a0afd0e65c1e670f6d1d46d201e1339405fa6b29f32
 ---
 
 # Managing wanted lists with Ritual
@@ -29,9 +29,16 @@ ritual add-card "To Buy" "Mox Ruby" --wanted --name-only
 ritual add-card "To Buy" "Lightning Bolt" --wanted --name-only -f foil   # -f finish (optional)
 ritual add-card "To Buy" "Demonic Tutor" --wanted --set sta --collector-number 90 -f nonfoil
 ritual remove-card "To Buy" "Mox Ruby" --wanted              # one entry
-ritual set-card "To Buy" "Lightning Bolt" --wanted --finish foil
+ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil   # entry pins STA:90
 ritual note "To Buy" "Mox Ruby" --wanted -n "budget copy only"
 ```
+
+A finish belongs to a printing, so `set-card --finish foil|etched` needs the entry to
+pin one and exits 2 otherwise (pass `--set`/`--collector-number` in the same call to
+do both). `--finish nonfoil` always applies — it clears the token. An `add-card`
+that states a finish while creating a `--name-only` entry is unaffected: that
+records "any printing, in foil", which is a wanted-list specificity rather than an
+edit to an existing line.
 
 ## Bought a card? Move it to a collection
 
@@ -95,9 +102,11 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the list's existing entries — change a card's printing (or make it
-name-only), finish, language, or note, move it to another list, or remove it —
-and `↩️ Undo Last Edit` reverts the latest edit. The `✨ Change Finish` item is
-hidden for name-only entries — a finish only annotates a specific printing.
+name-only), finish, language, or note, move it to another list, or remove it.
+With nothing typed it lists every entry below the menu rows, so the list can be
+scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest edit.
+The `✨ Change Finish` item is hidden for name-only entries — a finish only
+annotates a specific printing.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -105,6 +114,27 @@ and `📋 View Session Changes` opens a picker over every change made this sessi
 change (same-card changes must be discarded newest-first). Discarding an add
 frees that card's `&N` id and keeps the remaining session ids dense (each later
 card slides down one).
+
+## Front matter
+
+A wanted list carries two front-matter keys of its own. `description:` is the
+prose blurb the published site prints above the cards, written with
+`ritual metadata` (or the MCP `set_list_metadata` tool). `image:` is the
+cover the site shows for it (a mapping — `{card: N}`, `{file: …}` or
+`{url: …}`; see the **ritual** skill's *List cover images* section), written
+with `set-list-image` (or the same MCP tool's `image` field, or the admin
+editor's **Cover Image** button) — `metadata` cannot spell a mapping. A wanted
+list carries no card labels. Any other block a file already has is preserved
+verbatim through every save.
+
+```bash
+ritual metadata set "To Buy" description "Cards I still need" --wanted
+ritual metadata get "To Buy" description --wanted
+ritual metadata unset "To Buy" description --wanted
+
+ritual set-list-image "To Buy" --wanted --card 3
+ritual set-list-image "To Buy" --wanted --default
+```
 
 ## Import from a text file
 
@@ -122,11 +152,12 @@ Without `--type` an interactive run prompts for the list type; under the global
 skipped, listed on stderr, carried in the JSON `warnings` array, and exits 1 —
 the import is still written. Ritual's own format and the MTG Arena/MTGO export
 dialect (`4 Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard` markers, a
-trailing `*F*`/`*E*` foil marker) are both read, as is the inside of a ``` fence
-— on the import path only, since a pasted decklist usually arrives wrapped in
-one. A `(SET)` with no collector number is left in the card name rather than
-read as a printing; a line that imports but still holds a printing token in its
-name prints an advisory (stderr, JSON `advisories`) without failing the run.
+`*F*`/`*E*` foil marker either trailing or between the set and the collector
+number, as Moxfield writes it) are both read, as is the inside of a ``` fence —
+on the import path only, since a pasted decklist usually arrives wrapped in one.
+A `(SET)` with no collector number is left in the card name rather than read as
+a printing; a line that imports but still holds a printing token in its name
+prints an advisory (stderr, JSON `advisories`) without failing the run.
 
 `--dry-run` resolves and validates everything but leaves the workspace
 byte-for-byte untouched — it does not even create the `decks/`, `collections/`,

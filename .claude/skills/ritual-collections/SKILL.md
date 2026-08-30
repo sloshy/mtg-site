@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-beta26
-ritual-content-hash: 0c9cca0f836b68fb3a7a2881216623a06651cc68d291fd95b78c330d45c8b84d
+ritual-version: 0.1.0-beta27
+ritual-content-hash: a351d9f27d778ce69650ddc2aa9090f08c2270c91c3b4491fcad7b83f299058d
 ---
 
 # Managing collections with Ritual
@@ -80,6 +80,24 @@ ritual metadata get "Main Binder" labels
 ritual metadata unset "Main Binder" labels            # no default
 ```
 
+The collection's `description` — the blurb the published site prints above the
+cards — is written the same way, on any list type:
+
+```bash
+ritual metadata set "Main Binder" description "Everything I will trade away"
+ritual metadata unset "Main Binder" description
+```
+
+The collection's **cover image** on the published site is front matter too, but a
+mapping rather than a scalar, so it has its own command instead of a
+`metadata` property (see the **ritual** skill's *List cover images* section):
+
+```bash
+ritual set-list-image "Main Binder" --card 12                 # a line in this collection
+ritual set-list-image "Main Binder" --file alters/binder.png  # art-dir-relative
+ritual set-list-image "Main Binder" --default                 # priciest printing again
+```
+
 ## Interactive management
 
 `ritual edit` opens the interactive editor (covered in full by the
@@ -117,8 +135,9 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the collection's existing entries — change a card's printing, finish,
-condition, language, label, or note, move it to another list, or remove it — and
-`↩️ Undo Last Edit` reverts the latest edit.
+condition, language, label, or note, move it to another list, or remove it. With
+nothing typed it lists every entry below the menu rows, so the list can be
+scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest edit.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
@@ -155,13 +174,17 @@ Without `--type` an interactive run prompts for the list type; under the global
 line is skipped, listed on stderr, carried in the JSON `warnings` array, and
 exits 1 — the import is still written. Ritual's own format and the MTG
 Arena/MTGO export dialect (`4 Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard`
-markers, a trailing `*F*`/`*E*` foil marker) are both read, as is the inside of
-a ``` fence — on the import path only, since a pasted decklist usually arrives
+markers, a `*F*`/`*E*` foil marker either trailing or between the set and the
+collector number, as Moxfield writes it) are both read, as is the inside of a
+``` fence — on the import path only, since a pasted decklist usually arrives
 wrapped in one. A `(SET)` with no collector number is left in the card name
 rather than read as a printing; a line that imports but still holds a printing
 token in its name prints an advisory (stderr, JSON `advisories`) without failing
 the run. Every line must carry a printing (e.g. `2 Sol Ring (C19:221)`) —
 collections track specific physical printings, so name-only lines are rejected.
+A `[sale]` / `[trade]` / `[keep]` label token on a line is carried through to
+the collection (a wanted-list import drops it, since wanted lists carry no
+labels).
 
 `--dry-run` resolves and validates everything but leaves the workspace
 byte-for-byte untouched — it does not even create the `decks/`, `collections/`,
@@ -351,14 +374,14 @@ planner found, placed or not, so `errors` is what says the run failed.
 priority would place it. Other ways out: scope the run to the one list, or
 `--only additions` to skip removals.
 
-**Quantity prefixes:** a collection (or wanted) line is one **copy**, so it
-carries no quantity — everything between `- ` and the printing is the card name.
-A deck-style `- 1 Sol Ring (C21:240)` therefore names a card `1 Sol Ring`, which
-matches nothing anywhere. A `collection-sync` run, a `cleanup` run, and the CLI
-editors each print an advisory naming the line; it is advisory only (the line
-parses and survives a save), so fix the file rather than expecting a refusal. A
-name that legitimately starts with a four-digit year (`1996 World Champion`) is
-left alone.
+**Quantity prefixes:** a canonical collection (or wanted) line is one **copy**
+and carries no quantity, but the grammar reads one: a deck-style `- 4 Sol Ring
+(C21:240)` is four copies, and the next whole-file save (a pull, an editor save,
+`cleanup`) expands it to four lines — the first keeps the `&N`, the rest get
+fresh ids. A `collection-sync` run, a `cleanup` run, and the CLI editors each
+print an advisory naming the line (`Read 4 copies: …`); it is advisory only —
+nothing is lost and nothing is refused. A name that starts with a four-digit run
+(`1996 World Champion`) is a name, not a quantity.
 
 **Push is last-writer-wins:** unlike `deck-sync push`, a collection push has no
 divergence guard — cards added on Archidekt since your last sync read as gone

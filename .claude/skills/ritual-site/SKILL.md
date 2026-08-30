@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta26
-ritual-content-hash: db3ad9126891349d61264ecda3f9205f579aae6e80a5a7cbade35bf774079e0e
+ritual-version: 0.1.0-beta27
+ritual-content-hash: 1beb63fdf174066686b5cf39839f6c74a25fab0b5cb4380ad3ab9dd7fe859363
 ---
 
 # Building and serving a Ritual site
@@ -239,6 +239,19 @@ allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
 Headless builds (e.g. CI) should pass `--refresh auto` or `--refresh never`
 explicitly.
 
+## List cover images
+
+Each published list shows a cover: its commander when it is a commander deck,
+otherwise its most expensive printing. A list overrides that with the `image:`
+key in its own front matter — see the **ritual** skill's *List cover images*
+section for the grammar and `ritual set-list-image`. Two things the **build**
+does with it: a `file` cover is copied into `dist/art/` alongside the
+per-card custom art (a path with nothing behind it prints the same
+`Custom art file not found` warning and falls back to the default cover), and a
+`card` cover naming an `&N` the list no longer carries prints a warning naming
+the raw id and falls back too. A `url` cover is baked verbatim and never
+checked.
+
 ## Banning default printings
 
 Ritual auto-selects each card's featured printing (the most recent non-outlier among its
@@ -274,7 +287,9 @@ answered with bare 404s; the message names `ritual build-site` and `--build`.
 Under `--api` it is not refused: the data is served live, so a missing build is
 just a missing app shell and the command builds one itself before serving.
 The startup line prints the address actually bound — `localhost` for a wildcard
-or loopback bind, the `--host` value otherwise.
+or loopback bind, the `--host` value otherwise, and it prints only after the
+port is bound: a port already in use is also exit 1
+(`Failed to start the server on <host>:<port>: ...`) with no startup line.
 
 Build flags (`--theme`, `--currencies`, ...) only apply together with `--build`;
 passing one without it is a usage error. `--refresh`, `--out-dir` and
@@ -431,9 +446,18 @@ are auto-committed to git (`admin.gitAutoPush` also pushes). CLI commands never
 auto-commit.
 
 The admin's **Import Changes** page applies a change-list JSON exported from the
-public site's edit mode (a bundle covering one or more lists) with a per-list
-preview before applying — the same operation as `ritual import-changes` (see the
+public site's edit mode (a version-2 bundle covering one or more lists, with
+cross-list moves normalized into a top-level `moves` array) with a per-list
+preview — moves listed in their own group — before applying; each move is written
+to both its lists. It is the same operation as `ritual import-changes` (see the
 **ritual-edit** skill) and the MCP `import_change_bundle` tool.
+
+Both web editors (admin and public, decks and collections only) offer a **Swap
+Printings…** wizard that re-picks many lines' printings at once from copies owned in
+the other lists and records the result as cross-list moves — see the **ritual-edit**
+skill for the flow. On the public site it sits in the navbar's edit row (plus the
+**Selected** menu and a card's ⋯ menu — name-only lines take part too, and a copy given to one exports as a move carrying `pinsCardId` (plus its `replacement`)), and the moves it plans export in the
+bundle's top-level `moves` array like any other move.
 
 The admin's **Sync Decks** page runs `deck-sync` in the browser: pick a
 direction, narrow the run to additions or removals only (the `--only` flag's
