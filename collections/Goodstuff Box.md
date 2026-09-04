@@ -191,7 +191,6 @@ labels:
 - Colossification (IKO:148) &189
 - The Legend of Kyoshi // Avatar Kyoshi (TLA:186) &190
 - Smuggler's Surprise (OTJ:180) &192
-- Spry and Mighty (ECL:329) &193
 - Twinflame Tyrant (FDN:97) &194
 - Annie Joins Up (OTJ:191) [foil] &195
 - Courier of Comestibles (PW26:6) &196
@@ -210,7 +209,6 @@ labels:
 - Lotus Petal (MB2:226) &210
 - Sovereign Okinec Ahau (LCI:309) &211
 - Avatar Kyoshi, Earthbender (TLE:201) [foil] &212
-- Solemn Simulacrum (FDN:729) [foil] &213
 - Smothering Tithe (RNA:22) &214
 - Tannuk, Steadfast Second (PEOE:162p) &215
 - Lumen-Class Frigate (PEOE:25p) &216
@@ -485,7 +483,6 @@ labels:
 - Souls of the Lost (LCI:369) [foil] &476
 - Grim Giganotosaurus (REX:11) &477
 - Morbid Opportunist (INR:124) [foil] &478
-- Summon: Fenrir (FIN:372) &479
 - Queen Brahne (FIN:464) &480
 - Summon: Shiva (FIN:362) [foil] &481
 - Tidus, Blitzball Star (FIN:512) &482

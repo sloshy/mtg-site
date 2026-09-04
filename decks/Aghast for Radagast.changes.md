@@ -253,3 +253,29 @@
 {"action":"add","cardName":"Forest","cardId":127,"set":"fin","collectorNumber":"308"}
 {"action":"set-printing","cardName":"Forest","cardId":4,"set":"fic","collectorNumber":"482","finish":"foil"}
 ```
+
+## 2026-09-04T04:48:02.984Z
+
+- Removed "Tifa Lockhart" &23
+- Removed "Farhaven Elf" &54
+- Removed "Tranquil Frillback" &14
+- Removed "Toph, Earthbending Master" &32
+- Removed "Ghalta, Stampede Tyrant" &41
+- Moved "Summon: Fenrir" (FIN:372) &128 from Collection 'Goodstuff Box'
+- Moved "Solemn Simulacrum" (FDN:729) [foil] &129 from Collection 'Goodstuff Box'
+- Moved "Spry and Mighty" (ECL:329) &130 from Collection 'Goodstuff Box'
+- Added "Wall of Roots" (PLST:NCC-319) &131
+- Added "Spelunking" (LCI:213) &132
+
+```ritual-changes
+{"action":"remove","cardName":"Tifa Lockhart","cardId":23}
+{"action":"remove","cardName":"Farhaven Elf","cardId":54}
+{"action":"remove","cardName":"Tranquil Frillback","cardId":14}
+{"action":"remove","cardName":"Toph, Earthbending Master","cardId":32}
+{"action":"remove","cardName":"Ghalta, Stampede Tyrant","cardId":41}
+{"action":"move-to","cardName":"Summon: Fenrir","cardId":128,"set":"fin","collectorNumber":"372","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":479}
+{"action":"move-to","cardName":"Solemn Simulacrum","cardId":129,"set":"fdn","collectorNumber":"729","finish":"foil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":213}
+{"action":"move-to","cardName":"Spry and Mighty","cardId":130,"set":"ecl","collectorNumber":"329","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":193}
+{"action":"add","cardName":"Wall of Roots","cardId":131,"set":"plst","collectorNumber":"NCC-319","finish":"nonfoil","condition":"NM"}
+{"action":"add","cardName":"Spelunking","cardId":132,"set":"lci","collectorNumber":"213","finish":"nonfoil","condition":"NM"}
+```

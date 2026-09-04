@@ -1405,3 +1405,15 @@
 {"action":"add","cardName":"Nulldrifter","cardId":631,"set":"mh3","collectorNumber":"13"}
 {"action":"add","cardName":"Thespian's Stage","cardId":632,"set":"rvr","collectorNumber":"466"}
 ```
+
+## 2026-09-04T04:48:02.971Z
+
+- Moved "Summon: Fenrir" (FIN:372) &479 to Deck 'Aghast for Radagast'
+- Moved "Solemn Simulacrum" (FDN:729) [foil] &213 to Deck 'Aghast for Radagast'
+- Moved "Spry and Mighty" (ECL:329) &193 to Deck 'Aghast for Radagast'
+
+```ritual-changes
+{"action":"move-from","cardName":"Summon: Fenrir","cardId":479,"set":"fin","collectorNumber":"372","to":{"type":"deck","name":"Aghast for Radagast"}}
+{"action":"move-from","cardName":"Solemn Simulacrum","cardId":213,"set":"fdn","collectorNumber":"729","finish":"foil","to":{"type":"deck","name":"Aghast for Radagast"}}
+{"action":"move-from","cardName":"Spry and Mighty","cardId":193,"set":"ecl","collectorNumber":"329","to":{"type":"deck","name":"Aghast for Radagast"}}
+```

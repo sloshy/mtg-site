@@ -3,8 +3,8 @@ format: commander
 sourceId: '25174871'
 sourceUrl: 'https://archidekt.com/decks/25174871'
 tags: []
-lastSynced: '2026-08-24T21:42:14.997Z'
-sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
+lastSynced: '2026-09-04T04:52:00.073Z'
+sourceUpdatedAt: '2026-09-04T04:51:49.325431Z'
 ---
 
 # Aghast for Radagast
@@ -25,7 +25,6 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 1 Reliquary Tower (CMM:663) &11
 - 1 Tireless Provisioner (SLD:2057) &12
 - 1 Heroic Intervention (CMM:563) [etched] &13
-- 1 Tranquil Frillback (MAT:24) &14
 - 1 Spike Weaver (MB2:214) &15
 - 1 Gwenna, Eyes of Gaea (BRO:185) [foil] &16
 - 1 Rampaging Yao Guai (PIP:401) &17
@@ -34,7 +33,6 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 1 Tireless Tracker (INR:318) [foil] &20
 - 1 Druid of Purification (SLD:877) [foil] &21
 - 1 Anticausal Vestige (EOE:357) [foil] &22
-- 1 Tifa Lockhart (FIN:206) &23
 - 1 Swiftfoot Boots (FDN:258) &24
 - 1 Lightning Greaves (CMM:398) &25
 - 1 Tender Wildguide (BLB:196) &26
@@ -43,7 +41,6 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 1 Herd Heirloom (TDM:347) &29
 - 1 Guardian Augmenter (C21:62) &30
 - 1 Ancient Adamantoise (FIN:172) &31
-- 1 Toph, Earthbending Master (TLE:209) &32
 - 1 Frenzied Baloth (EOE:183) &33
 - 1 Rishkar's Expertise (PW25:1) [foil] &34
 - 1 Emerald Medallion (MH3:291) &35
@@ -52,7 +49,6 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 1 Beorn the Fierce (HOB:230) &38
 - 1 Mossborn Hydra (FDN:107) &39
 - 1 Cultivate (MSC:172) &40
-- 1 Ghalta, Stampede Tyrant (LCI:326) &41
 - 1 Tamiyo's Safekeeping (NEO:211) &42
 - 1 Garruk's Uprising (WOT:53) [foil] &43
 - 1 The Great Henge (CMM:294) &44
@@ -65,7 +61,6 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 1 Bonders' Enclave (FIC:376) &51
 - 1 Oracle of Mul Daya (OTC:200) &52
 - 1 Vaultborn Tyrant (BIG:20) [foil] &53
-- 1 Farhaven Elf (PW26:2) [foil] &54
 - 1 Jumbo Cactuar (FIN:191) &55
 - 1 Voracious Hydra (SLD:1491) &56
 - 1 Disciple of Freyalise // Garden of Freyalise (MH3:250) &57
@@ -100,6 +95,11 @@ sourceUpdatedAt: '2026-08-24T21:42:13.095898Z'
 - 2 Forest (FIN:307) &125
 - 2 Forest (FIN:308) [foil] &126
 - 2 Forest (FIN:308) &127
+- 1 Summon: Fenrir (FIN:372) &128
+- 1 Solemn Simulacrum (FDN:729) [foil] &129
+- 1 Spry and Mighty (ECL:329) &130
+- 1 Wall of Roots (PLST:NCC-319) &131
+- 1 Spelunking (LCI:213) &132
 
 ## Maybeboard
 - 1 Caged Sun &71
