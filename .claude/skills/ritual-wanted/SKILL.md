@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-beta27
-ritual-content-hash: a98f328a7a9a167696773a0afd0e65c1e670f6d1d46d201e1339405fa6b29f32
+ritual-version: 0.1.0-beta28
+ritual-content-hash: 86558ca8ce9e6a2d728fb77a0affb7ad68a1b7b4b5c886494ea2c5674e17f387
 ---
 
 # Managing wanted lists with Ritual
@@ -31,7 +31,14 @@ ritual add-card "To Buy" "Demonic Tutor" --wanted --set sta --collector-number 9
 ritual remove-card "To Buy" "Mox Ruby" --wanted              # one entry
 ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil   # entry pins STA:90
 ritual note "To Buy" "Mox Ruby" --wanted -n "budget copy only"
+ritual set-card "To Buy" "Mox Ruby" --wanted --tag "Budget, Reserved List"   # tags: any list type
 ```
+
+Wanted entries carry no labels, but they do carry **tags**: the owner's free-form words,
+one comma-separated `#` token before the note (`- Mox Ruby #Budget, Reserved List &3`),
+set with `set-card
+--tag`/`--untag`, `add-card --tag`, or the session's per-card `🔖 Edit Tags` action
+(see the **ritual-edit** skill).
 
 A finish belongs to a printing, so `set-card --finish foil|etched` needs the entry to
 pin one and exits 2 otherwise (pass `--set`/`--collector-number` in the same call to
@@ -102,18 +109,21 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the list's existing entries — change a card's printing (or make it
-name-only), finish, language, or note, move it to another list, or remove it.
-With nothing typed it lists every entry below the menu rows, so the list can be
-scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest edit.
-The `✨ Change Finish` item is hidden for name-only entries — a finish only
+name-only), finish, language, tags, or note, move it to another list, or remove
+it. With nothing typed it lists every entry below the menu rows, so the list can
+be scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest
+edit. The `✨ Change Finish` item is hidden for name-only entries — a finish only
 annotates a specific printing.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
-— adds, edits, and removals — where selecting one offers to discard just that
-change (same-card changes must be discarded newest-first). Discarding an add
-frees that card's `&N` id and keeps the remaining session ids dense (each later
-card slides down one).
+— adds, edits, and removals — where selecting one opens an action menu: **Edit
+This Card** (that card's own edit-mode menu), **Change This Card's Language**,
+or **Discard This Change** (same-card changes must be discarded newest-first; a
+blocked change can still be edited). The two edit rows appear only while the
+change's card is still in the list, so a removal or a move offers the discard
+alone. Discarding an add frees that card's `&N` id and keeps the remaining
+session ids dense (each later card slides down one).
 
 ## Front matter
 
@@ -177,19 +187,29 @@ ritual import more.csv --type wanted --name "To Buy" --append --columns "name=1"
 ```
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
-`collector-number`, `condition`, `finish`, `language`, `section`, `quantity` —
-language cells take Scryfall codes or aliases like `JP`/`Japanese`, and an empty
-cell means English; when no language column is mapped, pinned rows are stamped
-with the configured `defaultLanguage` when the printing exists in it); only
-`name` is required and wanted lists carry no `condition` column. Add
-`--no-header` when the first row is data — a scripted run without it drops the
-first row as a header and warns when that row looks like data. Add `--overwrite`
-to replace an existing wanted list, or `--append` to add to one (appends
-continue card IDs and record the changelog). Rows naming the same card and
-printing merge into one line (create and append agree), and a `--columns` number
-the file has no column for is a usage error (exit 2) instead of a per-row
-failure. Failed rows are reported with line numbers on stderr and the rest still
-import (exit code 1 on partial failure).
+`collector-number`, `condition`, `finish`, `language`, `tags`, `categories`,
+`section`, `quantity` — a tags cell (header `tags` or `tag`) holds the card's
+tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
+fails that row; a categories cell (header `category` or `categories`) holds the
+card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
+value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
+the card still imports — the refusal prints on stderr and rides the `--output
+json` payload's `advisories` array, and never changes the exit code; and on a
+deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
+row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
+Sideboard + category Ramp; imported categories are written to the list's
+`.categories.json` sidecar; language cells take Scryfall codes or aliases like
+`JP`/`Japanese`, and an empty cell means English; when no language column is
+mapped, pinned rows are stamped with the configured `defaultLanguage` when the
+printing exists in it); only `name` is required and wanted lists carry no
+`condition` column. Add `--no-header` when the first row is data — a scripted
+run without it drops the first row as a header and warns when that row looks
+like data. Add `--overwrite` to replace an existing wanted list, or `--append`
+to add to one (appends continue card IDs and record the changelog). Rows naming
+the same card and printing merge into one line (create and append agree), and a
+`--columns` number the file has no column for is a usage error (exit 2) instead
+of a per-row failure. Failed rows are reported with line numbers on stderr and
+the rest still import (exit code 1 on partial failure).
 
 ## Price
 

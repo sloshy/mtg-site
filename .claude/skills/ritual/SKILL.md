@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta27
-ritual-content-hash: 29e7a7b2583ad78c2a76fe82973af5096a35eb5306184c7b5915b44fa1b40a26
+ritual-version: 0.1.0-beta28
+ritual-content-hash: c373272b9128aca9498f487c107e27004e455e6fbe7806420f1b425c321e582e
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -30,6 +30,8 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
   no events until `ritual cleanup` converts it)
 - `<name>.art.json` — optional custom-art sidecar next to a list, mapping card
   `&N` ids to a replacement image (see **Custom art** below)
+- `<name>.categories.json` — optional per-list category sidecar (plus its
+  `.sha256`), mapping card **names** to their categories — see **Categories** below
 - `ritual.config.json` — configuration (optional: reading config never creates
   it, so a workspace only has one once `config set`/`unset`, `init-site`, the
   admin Settings page, or the MCP `update_config` tool writes it)
@@ -86,7 +88,7 @@ key), then `## Section` headings and `- ` bulleted card lines. The canonical lin
 every write emits, in this order, with defaults omitted:
 
 ```
-- [qty] Name (SET:CN) [finish] [cond] [lang] [labels] {note} &N
+- [qty] Name (SET:CN) [finish] [cond] [lang] [labels] #tag, tag {note} &N
 ```
 
 ```
@@ -159,10 +161,14 @@ format: commander
   them to the files. `set-list-image` backfills **conditionally**: only when the run names a
   card (`--card`, or the wizard's card picker), since `--file`/`--url`/`--default` never
   read an `&N` at all. Read-only commands (`lists`, `diff`, `price`, `sell`, `export`,
-  `list-all-cards`, `history --show`, ...) and the `new`/`rename`/`delete` lifecycle
-  never touch card lines, and `-n`/`--dry-run` writes nothing, including that backfill.
-- A per-card `#tag` token is **planned, not implemented** — a `#word` on a line today is
-  part of the name. Front-matter `tags:` on a deck describes the list, not its cards.
+  `list-all-cards`, `history --show`, ...), the front-matter-only `metadata` command, the
+  sidecar-only `categories` command (it writes a sidecar and a changelog, never card lines)
+  and the `new`/`rename`/`delete` lifecycle never touch card lines, and `-n`/`--dry-run` writes nothing, including that backfill.
+- A card line may carry tags — one `#` token holding a comma-separated list (`#Ramp, Card
+  Draw`), after the labels and before the note, on every list type — the owner's free-form
+  vocabulary, spaces and case kept, the `#` being file punctuation no UI shows; see the
+  **ritual-edit** skill (`set-card --tag`/`--untag`, `add-card --tag`, the editor's
+  `🔖 Edit Tags` action). Front-matter `tags:` on a deck describes the list, not its cards.
 
 **Fenced code blocks are prose.** Anything inside a ```` ``` ````/`~~~` fence in a list file is
 ignored by card parsing: a card-looking line there is not a card, a `## Heading` there is
@@ -196,6 +202,60 @@ blurb the published site prints above the cards (`ritual metadata set <list>
 description "…"`), and `image:`, the list's cover on the published site (see
 **List cover images** below) — between them, the only front-matter keys a wanted
 list defines. A flat list's block round-trips byte-for-byte through every save.
+
+**Three kinds of thing you can say about a card**, deliberately different:
+
+| Kind         | Belongs to                  | Vocabulary                       | Ordered?                     | Follows a move?                       | Where it lives                   |
+| ------------ | --------------------------- | -------------------------------- | ---------------------------- | ------------------------------------- | -------------------------------- |
+| **Label**    | a card line (`&N`)          | closed (`sale trade keep proxy`) | no                           | as far as the destination type allows | `[…]` token on the line          |
+| **Tag**      | a card line — the *copy*    | open                             | no                           | **always**                            | `#a, b` token on the line        |
+| **Category** | a card **name** in one list | open, per list + config defaults | yes — the first is *primary* | **never**                             | `<name>.categories.json` sidecar |
+
+A label instructs Ritual (`[proxy]` changes pricing). A tag is a property of the physical
+copy. A **category** is the card's role in this one list — what Archidekt calls a category
+and Moxfield a tag.
+
+## Categories
+
+A per-list `<name>.categories.json` sidecar records each card **name**'s categories in that
+list, plus the vocabulary's display order:
+
+```json
+{
+  "order": ["Ramp", "Draw", "Removal", "Artifacts"],
+  "cards": {
+    "Rhystic Study": ["Draw"],
+    "Sol Ring": ["Ramp", "Artifacts"]
+  }
+}
+```
+
+- **Keyed by card name, not `&N`.** One assignment covers every line of that name in the
+  list, whatever its printing, section or quantity; lookups fold case and whitespace. A
+  category never follows a card to another list.
+- **Ordered per card, first is primary** — the one the site groups by. `order` is the
+  vocabulary's display order; names a card uses but `order` does not list are appended on
+  the next Ritual write (the configured `defaultCategories` first, then the rest).
+- **A name follows the tag shape rule** (plain text; no `#`, `,`, `&`, `*`, double
+  quotes, brackets, braces or parentheses; case kept).
+- **It carries its own `.sha256` and is part of the list's recorded history** — unlike
+  `<name>.art.json`, which records nothing. Edits appear in the list's `.changes.md` as
+  `Set categories of "Sol Ring" to Ramp, Artifacts`, `Renamed category "Draw" to "Card Draw"`
+  and `Set category order to …`, and a hand edit to the sidecar is picked up by
+  `detect-changes`.
+- **A malformed sidecar is refused whole** and never silently overwritten; an empty one is
+  deleted rather than written as `{}`.
+- Entries naming cards the list no longer holds are kept with a warning and pruned by the
+  list's own save, by a `move` that rewrites it, or by `cleanup`.
+
+Edit them with `ritual categories` (`list`/`rename`/`order`/`remove`),
+`set-card --categories`/`--no-categories`, or the editors' `🗂 Edit Categories` action and
+the list menu's `🗂 Rename Category…` / `🗂 Reorder Categories…` rows — see the
+**ritual-edit** skill.
+
+Over MCP: `get_list` reports the list's `categories` and each card's own; `apply_changes`
+takes `set-categories` (by name, whole list, `[]` clears), `rename-category` and
+`set-category-order`.
 
 ## Custom art
 
@@ -308,9 +368,8 @@ The three modes fail differently, on purpose:
 `&N` IDs and `.changes.md` changelog stay correct. Reading files directly for
 inspection is fine. To normalize a whole workspace — canonical formatting (bullets,
 token order, expanded flat-list quantities, `# Title` H1 with legacy `name:`/`created:`
-stripped), file names that match list names, a `format:` on every deck, and legacy
-`.changes.md` entries converted to the `ritual-changes` block (`changelogRewritten`
-in its JSON; unconvertible entries left as-is and warned about) — run `ritual cleanup`
+stripped), file names that match list names, and a `format:` on every deck — run
+`ritual cleanup`
 (`-n`/`--dry-run` to preview; `--check` to also exit 1 when any file would
 change, for hooks and CI; `--skip-formats` to never prompt for deck formats,
 leaving formatless decks untouched and reported). A file it cannot read or parse
@@ -423,6 +482,9 @@ ritual config set priceSources tcgplayer cardkingdom  # stores the sites offer p
                                   #   cardkingdom = CK NM retail). Default tcgplayer; remove every
                                   #   entry (--remove) to hide all site prices. cardkingdom makes
                                   #   builds/servers download the ~70 MB CK feed like sell mode
+ritual config set defaultCategories Ramp Draw Removal  # global category vocabulary: what new
+                                  #   lists suggest and the order categories are listed in
+                                  #   (--add/--remove edit it; a name follows the tag shape rule)
 ritual config set defaultLanguage ja   # language stamped on newly added cards (Scryfall codes;
                                   #   aliases like jp/Japanese normalize). Non-en switches cache
                                   #   downloads to Scryfall's much larger all-cards bulk

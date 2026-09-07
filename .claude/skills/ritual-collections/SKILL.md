@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-beta27
-ritual-content-hash: a351d9f27d778ce69650ddc2aa9090f08c2270c91c3b4491fcad7b83f299058d
+ritual-version: 0.1.0-beta28
+ritual-content-hash: 19f69e787d3868775b5cd93de35448eab51975e092700a805974a483672044cb
 ---
 
 # Managing collections with Ritual
@@ -66,6 +66,7 @@ ritual set-card "Main Binder" "Sol Ring" --collection --label proxy     # not a 
 ritual set-card "Main Binder" "Sol Ring" --collection --label none      # back to the list default
 ritual add-card "Main Binder" "Mox Jet" --collection --set lea --collector-number 262 -c LP --label keep
 ritual export --collection --labels trade --columns name,set,collectorNumber,labels
+ritual export --collection --tags Signed --columns name,set,collectorNumber,tags
 ```
 
 The list-level default is set with `ritual metadata` (the scripting surface —
@@ -78,6 +79,27 @@ editor's **Labels** button, hand-editing the front matter, or the MCP
 ritual metadata set "Main Binder" labels sale,trade   # list default
 ritual metadata get "Main Binder" labels
 ritual metadata unset "Main Binder" labels            # no default
+```
+
+## Tags: the owner's own vocabulary
+
+Separate from labels, any card on any list type can carry **tags** — the owner's own
+words for a card as a copy (`Signed`, `Trade Binder`), which follow the card
+wherever it moves, written as one
+comma-separated `#` token after the labels and before the note (`- Sol Ring (C21:240)
+[keep] #Binder Trade, Ramp &1`), as many per card as wanted. A tag means whatever
+its author meant (it drives filtering and grouping, never pricing or any other
+behavior); it is plain text that keeps its spaces and case and cannot contain `#`,
+`,`, `&`, brackets, braces or parentheses. The `#` is file punctuation only —
+never part of a value, never shown by any UI. `set-card --tag` adds, `--untag`
+removes, and `add-card --tag` tags a fresh add; several tags go **comma-separated**
+(spaces are part of a tag). The interactive session's per-card `🔖 Edit Tags` action
+edits the whole set in one field.
+
+```bash
+ritual set-card "Main Binder" "Sol Ring" --collection --tag "Ramp, Staple"
+ritual set-card "Main Binder" "Sol Ring" --collection --untag Ramp
+ritual add-card "Main Binder" "Mox Jet" --collection --set lea --collector-number 262 -c LP --tag "Binder Trade"
 ```
 
 The collection's `description` — the blurb the published site prints above the
@@ -135,16 +157,20 @@ changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
 over the collection's existing entries — change a card's printing, finish,
-condition, language, label, or note, move it to another list, or remove it. With
-nothing typed it lists every entry below the menu rows, so the list can be
-scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest edit.
+condition, language, label, tags, or note, move it to another list, or remove
+it. With nothing typed it lists every entry below the menu rows, so the list can
+be scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest
+edit.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
-— adds, edits, and removals — where selecting one offers to discard just that
-change (same-card changes must be discarded newest-first). Discarding an add
-frees that card's `&N` id and keeps the remaining session ids dense (each later
-card slides down one).
+— adds, edits, and removals — where selecting one opens an action menu: **Edit
+This Card** (that card's own edit-mode menu), **Change This Card's Language**,
+or **Discard This Change** (same-card changes must be discarded newest-first; a
+blocked change can still be edited). The two edit rows appear only while the
+change's card is still in the list, so a removal or a move offers the discard
+alone. Discarding an add frees that card's `&N` id and keeps the remaining
+session ids dense (each later card slides down one).
 
 ## Compare with another list
 
@@ -205,20 +231,31 @@ ritual import more.csv --type collection --name "Red Binder" --append \
 ```
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
-`collector-number`, `condition`, `finish`, `language`, `section`, `quantity` —
-language cells take Scryfall codes or aliases like `JP`/`Japanese`, and an empty
-cell means English; when no language column is mapped, pinned rows are stamped
-with the configured `defaultLanguage` when the printing exists in it);
-collections require `name`, `set`, and `collector-number` columns. Add
-`--no-header` when the first row is data — a scripted run without it drops the
-first row as a header and warns when that row looks like data. Add `--overwrite`
-to replace an existing collection, or `--append` to add to one (appends continue
-card IDs and record the changelog). Conditions/finishes are normalized (e.g.
-`Near Mint` → `NM`, `F` → foil, empty → non-foil). Rows naming the same card and
-printing merge into one line (create and append agree), and a `--columns` number
-the file has no column for is a usage error (exit 2) instead of a per-row
-failure. Failed rows are reported with line numbers on stderr and the rest still
-import (exit code 1 on partial failure).
+`collector-number`, `condition`, `finish`, `language`, `tags`, `categories`,
+`section`, `quantity` — a tags cell (header `tags` or `tag`) holds the card's
+tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
+fails that row; a categories cell (header `category` or `categories`) holds the
+card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
+value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
+the card still imports — the refusal prints on stderr and rides the `--output
+json` payload's `advisories` array, and never changes the exit code; and on a
+deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
+row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
+Sideboard + category Ramp; imported categories are written to the list's
+`.categories.json` sidecar; language cells take Scryfall codes or aliases like
+`JP`/`Japanese`, and an empty cell means English; when no language column is
+mapped, pinned rows are stamped with the configured `defaultLanguage` when the
+printing exists in it); collections require `name`, `set`, and
+`collector-number` columns. Add `--no-header` when the first row is data — a
+scripted run without it drops the first row as a header and warns when that row
+looks like data. Add `--overwrite` to replace an existing collection, or
+`--append` to add to one (appends continue card IDs and record the changelog).
+Conditions/finishes are normalized (e.g. `Near Mint` → `NM`, `F` → foil, empty →
+non-foil). Rows naming the same card and printing merge into one line (create
+and append agree), and a `--columns` number the file has no column for is a
+usage error (exit 2) instead of a per-row failure. Failed rows are reported with
+line numbers on stderr and the rest still import (exit code 1 on partial
+failure).
 
 ## Sync with Archidekt
 
@@ -365,14 +402,16 @@ way, aborts everything — nothing is written. `--yes` does *not* answer these
 prompts; it covers unreadable lines only.
 
 **Anywhere else** — `--output json`/`ndjson`, a pipe, `--no-input`, the admin
-site, or the MCP tool without `removalPriority` — the run **fails and writes
+site, or an MCP client that cannot be asked — the run **fails and writes
 nothing** — not even the account’s `lastSynced` — with the reason in the
-report’s `errors`; the report’s `ambiguous` array carries every ambiguity the
-planner found, placed or not, so `errors` is what says the run failed.
-`--dry-run` never prompts and never fails on an ambiguity itself (an unknown
-`--removal-priority` name still fails it): it reports each one, and how a given
-priority would place it. Other ways out: scope the run to the one list, or
-`--only additions` to skip removals.
+report’s `errors` and `unresolvedAmbiguity: true`; the report’s `ambiguous`
+array carries every ambiguity the planner found, placed or not, so the flag is
+what says the run failed on them. (The MCP `sync_collection` tool asks the user
+through an elicitation when its client supports one, and takes an explicit
+`removalAssignments` decision otherwise.) `--dry-run` never prompts and never
+fails on an ambiguity itself (an unknown `--removal-priority` name still fails
+it): it reports each one, and how a given priority would place it. Other ways
+out: scope the run to the one list, or `--only additions` to skip removals.
 
 **Quantity prefixes:** a canonical collection (or wanted) line is one **copy**
 and carries no quantity, but the grammar reads one: a deck-style `- 4 Sol Ring
@@ -408,9 +447,12 @@ flag says it happened.
 The same sync runs from the admin site's **Sync Collection** page (see the
 **ritual-site** skill) and from the MCP `sync_collection` tool, whose
 `direction`, `lists`, `only`, `into`, `removalPriority`, `csv`, `dryRun`, and
-`ignoreUnreadableLines` fields are these flags. Neither can prompt, so both fail
-an ambiguous removal unless the run carries a removal priority, and both refuse
-a large push that was not given `csv: true`.
+`ignoreUnreadableLines` fields are these flags. The admin page cannot prompt, so
+it fails an ambiguous removal unless the run carries a removal priority; the MCP
+tool asks the user through an elicitation when its client declares the
+capability, and otherwise takes the decision up front as `removalPriority` or an
+explicit `removalAssignments` list (one or the other). Both refuse a large push
+that was not given `csv: true`.
 
 ## Price
 

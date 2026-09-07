@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
-ritual-version: 0.1.0-beta27
-ritual-content-hash: 15e8a3f933e8954042afa3c70c65a5c9f81f9f74b3a73e027b45bc9eecd4dfe8
+ritual-version: 0.1.0-beta28
+ritual-content-hash: 399ca89a792cc20320e132c6b137a0def99d49f034599a21160fe6d640032f7c
 ---
 
 # Managing decks with Ritual
@@ -122,6 +122,25 @@ session (`🏷️ Change Label` per card, `🏷️ Edit List Labels` for the def
 the admin deck editor, and the MCP `apply_changes` (`set-label`) and
 `set_list_metadata` tools.
 
+## Card tags vs. deck tags
+
+Two different things are called tags. The front-matter `tags:` key (`ritual
+metadata set <deck> tags edh,budget`, or the session's `🔖 Edit Deck Tags` menu row)
+describes the **deck** and never applies to its cards. A **card** tag lives in the
+`#` token on the line itself — `1 Sol Ring (LEA:270) [proxy] #Ramp, Staple &5`,
+comma-separated, after the labels and before the note — the owner's own free-form
+vocabulary (plain text, spaces and case kept; no `#`, `,`, `&`, brackets, braces
+or parentheses), as many per line as wanted, and part of a deck line's merge identity
+like labels are: a `Ramp` copy does not fold into an untagged line. Set them with
+`set-card --tag`/`--untag`, `add-card --tag`, or the per-card `🔖 Edit Tags`
+action in edit mode.
+
+```bash
+ritual set-card "Winota Stax" "Sol Ring" --deck --tag "Ramp, Staple"   # card tags
+ritual set-card "Winota Stax" "Sol Ring" --deck --untag Staple
+ritual metadata set "Winota Stax" tags edh,budget                       # deck tags (front matter)
+```
+
 ## Build interactively
 
 `ritual edit` opens the interactive editor (covered in full by the
@@ -163,18 +182,22 @@ changelog entry (bumping its timestamp) — each saved list gets exactly one
 changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
-over the deck's existing lines — change a line's printing or language,
-add/remove copies, move it to another section or another list, edit its note, or
-remove it entirely. With nothing typed it lists every entry below the menu rows,
-so the list can be scrolled as well as searched, and `↩️ Undo Last Edit` reverts
-the latest edit.
+over the deck's existing lines — change a line's printing, language, label or
+tags, add/remove copies, move it to another section or another list, edit its
+note, or remove it entirely. With nothing typed it lists every entry below the
+menu rows, so the list can be scrolled as well as searched, and `↩️ Undo Last
+Edit` reverts the latest edit.
 
 **Undo within the session:** `↩️ Undo Last Add` takes back the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
-— copy adds, field edits, and removals — where selecting one offers to discard
-just that change (same-line changes must be discarded newest-first). Discarding
-an add decrements or removes the line; a fully removed session line frees its
-`&N` id and keeps the remaining session ids dense.
+— copy adds, field edits, and removals — where selecting one opens an action
+menu: **Edit This Card** (that card's own edit-mode menu), **Change This Card's
+Language**, or **Discard This Change** (same-line changes must be discarded
+newest-first; a blocked change can still be edited). The two edit rows appear
+only while the change's card is still in the list, so a removal or a move offers
+the discard alone. Discarding an add decrements or removes the line; a fully
+removed session line frees its `&N` id and keeps the remaining session ids
+dense.
 
 ## Import from a URL or text file
 
@@ -242,21 +265,32 @@ ritual import more.csv --type deck --name "Burn" --append \
 ```
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
-`collector-number`, `condition`, `finish`, `language`, `section`, `quantity` —
-language cells take Scryfall codes or aliases like `JP`/`Japanese`, and an empty
-cell means English; when no language column is mapped, pinned rows are stamped
-with the configured `defaultLanguage` when the printing exists in it); only
-`name` is required for decks. Add `--no-header` when the first row is data — a
-scripted run without it drops the first row as a header and warns when that row
-looks like data. Add `--overwrite` to replace an existing deck, or `--append` to
-add to one (appends merge identical printings, continue card IDs, and record the
-changelog). Conditions/finishes/sections are normalized (e.g. `Near Mint` →
-`NM`, `F` → foil, `side` → `Sideboard`). `--deck-format` applies only when
-creating a deck — passing it with `--append` is a usage error. Rows naming the
-same card and printing merge into one line (create and append agree), and a
-`--columns` number the file has no column for is a usage error (exit 2) instead
-of a per-row failure. Failed rows are reported with line numbers on stderr and
-the rest still import (exit code 1 on partial failure).
+`collector-number`, `condition`, `finish`, `language`, `tags`, `categories`,
+`section`, `quantity` — a tags cell (header `tags` or `tag`) holds the card's
+tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
+fails that row; a categories cell (header `category` or `categories`) holds the
+card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
+value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
+the card still imports — the refusal prints on stderr and rides the `--output
+json` payload's `advisories` array, and never changes the exit code; and on a
+deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
+row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
+Sideboard + category Ramp; imported categories are written to the list's
+`.categories.json` sidecar; language cells take Scryfall codes or aliases like
+`JP`/`Japanese`, and an empty cell means English; when no language column is
+mapped, pinned rows are stamped with the configured `defaultLanguage` when the
+printing exists in it); only `name` is required for decks. Add `--no-header`
+when the first row is data — a scripted run without it drops the first row as a
+header and warns when that row looks like data. Add `--overwrite` to replace an
+existing deck, or `--append` to add to one (appends merge identical printings,
+continue card IDs, and record the changelog). Conditions/finishes/sections are
+normalized (e.g. `Near Mint` → `NM`, `F` → foil, `side` → `Sideboard`).
+`--deck-format` applies only when creating a deck — passing it with `--append`
+is a usage error. Rows naming the same card and printing merge into one line
+(create and append agree), and a `--columns` number the file has no column for
+is a usage error (exit 2) instead of a per-row failure. Failed rows are reported
+with line numbers on stderr and the rest still import (exit code 1 on partial
+failure).
 
 ## Import an entire Archidekt account
 

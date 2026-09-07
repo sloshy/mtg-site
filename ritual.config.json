@@ -8,6 +8,22 @@
     "tcgplayer",
     "cardkingdom"
   ],
+  "defaultCategories": [
+    "Ramp",
+    "Draw",
+    "Removal",
+    "Board Wipes",
+    "Counterspells",
+    "Tutors",
+    "Recursion",
+    "Protection",
+    "Combo",
+    "Tokens",
+    "Burn",
+    "Lifegain",
+    "Finishers",
+    "Utility"
+  ],
   "defaultLanguage": "en",
   "uiLocale": "en",
   "cacheLockTimeoutSeconds": 300,
@@ -50,6 +66,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta27"
+    "version": "0.1.0-beta28"
   }
 }
