@@ -1417,3 +1417,41 @@
 {"action":"move-from","cardName":"Solemn Simulacrum","cardId":213,"set":"fdn","collectorNumber":"729","finish":"foil","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Spry and Mighty","cardId":193,"set":"ecl","collectorNumber":"329","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-07T04:35:12.855Z
+
+- Removed "Ulamog, the Defiler" (MH3:15) &604
+- Removed "Fountainport" (BLB:253) [foil] &125
+- Removed "Fountainport" (BLB:368) &154
+- Removed "Necrodominance" (MH3:102) &602
+- Removed "Sapphire Medallion" (MH3:296) &592
+- Removed "Strix Serenade" (MH3:71) &577
+- Removed "Marionette Apprentice" (MH3:100) &500
+- Removed "Marionette Apprentice" (MH3:100) [foil] &506
+- Removed "Psychic Frog" (MH3:199) &628
+- Removed "Deceit" (ECL:293) &312
+- Removed "Disruptor Flute" (MH3:461) [foil] &540
+- Removed "Caretaker's Talent" (BLB:6) &146
+- Removed "Starting Town" (FIN:289) &277
+- Removed "Bloodstained Mire" (MH3:216) &621
+- Removed "Bloodstained Mire" (MH3:216) &568
+- Removed "Three Tree City" (BLB:260) &152
+
+```ritual-changes
+{"action":"remove","cardName":"Ulamog, the Defiler","cardId":604,"set":"mh3","collectorNumber":"15","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Fountainport","cardId":125,"set":"blb","collectorNumber":"253","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Fountainport","cardId":154,"set":"blb","collectorNumber":"368","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Necrodominance","cardId":602,"set":"mh3","collectorNumber":"102","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Sapphire Medallion","cardId":592,"set":"mh3","collectorNumber":"296","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Strix Serenade","cardId":577,"set":"mh3","collectorNumber":"71","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Marionette Apprentice","cardId":500,"set":"mh3","collectorNumber":"100","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Marionette Apprentice","cardId":506,"set":"mh3","collectorNumber":"100","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Psychic Frog","cardId":628,"set":"mh3","collectorNumber":"199","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Deceit","cardId":312,"set":"ecl","collectorNumber":"293","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Disruptor Flute","cardId":540,"set":"mh3","collectorNumber":"461","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Caretaker's Talent","cardId":146,"set":"blb","collectorNumber":"6","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Starting Town","cardId":277,"set":"fin","collectorNumber":"289","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Bloodstained Mire","cardId":621,"set":"mh3","collectorNumber":"216","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Bloodstained Mire","cardId":568,"set":"mh3","collectorNumber":"216","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Three Tree City","cardId":152,"set":"blb","collectorNumber":"260","finish":"nonfoil","condition":"NM"}
+```

@@ -244,8 +244,6 @@ labels:
 - Shamanic Revelation (2XM:179) &238
 - Winternight Stories (TDM:67) &239
 - Winternight Stories (TDM:67) &240
-- Nature's Rhythm (TDM:150) &241
-- Nature's Rhythm (TDM:150) &242
 - Inevitable Defeat (TDM:194) &243
 - New Way Forward (TDM:211) &244
 - Mystic Reflection (KHM:346) &245
@@ -302,7 +300,6 @@ labels:
 - Void Rend (OTP:59) &298
 - Hell to Pay (OTJ:126) [foil] &299
 - Imp's Mischief (OTP:15) [foil] &300
-- Imp's Mischief (OTP:15) &301
 - Cataclysmic Prospecting (OTC:60) &302
 - Miscast (SLD:2332) [foil] &303
 - Sword of the Animist (PLST:E01-89) &304

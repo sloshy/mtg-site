@@ -765,3 +765,15 @@
 {"action":"move-from","cardName":"Explore","cardId":2,"set":"sld","collectorNumber":"2327","finish":"foil","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Lifecrafter's Bestiary","cardId":321,"set":"pw23","collectorNumber":"2","finish":"foil","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-07T04:35:12.889Z
+
+- Removed "Imp's Mischief" (OTP:15) &301
+- Removed "Nature's Rhythm" (TDM:150) &242
+- Removed "Nature's Rhythm" (TDM:150) &241
+
+```ritual-changes
+{"action":"remove","cardName":"Imp's Mischief","cardId":301,"set":"otp","collectorNumber":"15","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Nature's Rhythm","cardId":242,"set":"tdm","collectorNumber":"150","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Nature's Rhythm","cardId":241,"set":"tdm","collectorNumber":"150","finish":"nonfoil","condition":"NM"}
+```

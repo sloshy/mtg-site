@@ -585,3 +585,17 @@
 ```ritual-changes
 {"action":"remove","cardName":"Ancient Brass Dragon","cardId":191,"set":"clb","collectorNumber":"389","finish":"foil"}
 ```
+
+## 2026-09-07T04:35:12.896Z
+
+- Removed "Full Throttle" (DFT:127) &228
+- Removed "Authority of the Consuls" (PLST:KLD-5) &51
+- Removed "Renewed Solidarity" (DRC:23) &9
+- Removed "Salvation Engine" (DFT:27) &62
+
+```ritual-changes
+{"action":"remove","cardName":"Full Throttle","cardId":228,"set":"dft","collectorNumber":"127","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Authority of the Consuls","cardId":51,"set":"plst","collectorNumber":"KLD-5","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Renewed Solidarity","cardId":9,"set":"drc","collectorNumber":"23","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Salvation Engine","cardId":62,"set":"dft","collectorNumber":"27","finish":"nonfoil","condition":"NM"}
+```

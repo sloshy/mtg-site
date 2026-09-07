@@ -1957,3 +1957,11 @@
 {"action":"move-from","cardName":"Warden of the Grove","cardId":361,"set":"tdm","collectorNumber":"166","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Loot, Exuberant Explorer","cardId":173,"set":"fdn","collectorNumber":"336","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-07T04:35:12.875Z
+
+- Removed "Faerie Mastermind" (MOM:58) &650
+
+```ritual-changes
+{"action":"remove","cardName":"Faerie Mastermind","cardId":650,"set":"mom","collectorNumber":"58","finish":"nonfoil","condition":"NM"}
+```

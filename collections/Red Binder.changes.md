@@ -567,3 +567,21 @@
 {"action":"move-from","cardName":"Voracious Hydra","cardId":183,"set":"sld","collectorNumber":"1491","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Overlord of the Hauntwoods","cardId":174,"set":"dsk","collectorNumber":"194","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-07T04:35:12.904Z
+
+- Removed "Phyrexian Vindicator" (ONE:300) [foil] &11
+- Removed "Elesh Norn // The Argent Etchings" (MOM:12) &5
+- Removed "Dowsing Dagger // Lost Vale" (XLN:235) &281
+- Removed "Fountainport" (BLB:368) &344
+- Removed "Metallic Mimic" (INR:445) &265
+- Removed "Defense of the Heart" (PLST:ULG-100) &171
+
+```ritual-changes
+{"action":"remove","cardName":"Phyrexian Vindicator","cardId":11,"set":"one","collectorNumber":"300","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Elesh Norn // The Argent Etchings","cardId":5,"set":"mom","collectorNumber":"12","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Dowsing Dagger // Lost Vale","cardId":281,"set":"xln","collectorNumber":"235","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Fountainport","cardId":344,"set":"blb","collectorNumber":"368","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Metallic Mimic","cardId":265,"set":"inr","collectorNumber":"445","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Defense of the Heart","cardId":171,"set":"plst","collectorNumber":"ULG-100","finish":"nonfoil","condition":"NM"}
+```

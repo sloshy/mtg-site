@@ -15,7 +15,6 @@ labels:
 - On Wings of Gold (DRC:21) &6
 - Valor's Flagship (DFT:35) &7
 - Aerith Gainsborough (FIN:374) [foil] {JP Printing} &8
-- Renewed Solidarity (DRC:23) &9
 - Felidar Guardian (SLD:1487★) [foil] &10
 - Fell the Mighty (SLD:1778) [foil] &11
 - Fell the Mighty (SLD:1778) &12
@@ -52,7 +51,6 @@ labels:
 - Puresteel Paladin (CMM:51) [foil] &47
 - Wall of Mourning (MIC:48) &49
 - Cataclysm (PLST:V14-3) &50
-- Authority of the Consuls (PLST:KLD-5) &51
 - Ravages of War (PIP:354) [foil] &53
 - Starlight Spectacular (UNF:28) [foil] &54
 - Ondu Spiritdancer (CMM:756) &55
@@ -61,7 +59,6 @@ labels:
 - Shardmage's Rescue (DSK:411) &58
 - Exemplar of Light (FDN:297) [foil] &60
 - Sheltered by Ghosts (DSK:30) &61
-- Salvation Engine (DFT:27) &62
 - Guardian Sunmare (DFT:15) &63
 - Guardian Sunmare (DFT:334) &64
 - Spectacular Pileup (DFT:29) [foil] &65
@@ -214,7 +211,6 @@ labels:
 - Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:384) [foil] &225
 - Galvanic Blast (SPG:90) &226
 - Galvanic Blast (SPG:90) [foil] &227
-- Full Throttle (DFT:127) &228
 - Full Throttle (DFT:127) &229
 - Full Throttle (DFT:386) [foil] &230
 - Jaws, Relentless Predator (SLD:2175) &232

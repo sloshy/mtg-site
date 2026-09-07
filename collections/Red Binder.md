@@ -10,13 +10,11 @@ labels:
 - Arahbo, the First Fang (FDN:2) [foil] &2
 - Arahbo, the First Fang (FDN:294) &3
 - Elesh Norn, Grand Cenobite (MUL:3) &4
-- Elesh Norn // The Argent Etchings (MOM:12) &5
 - Giada, Font of Hope (FDN:298) [foil] &6
 - The Eternal Wanderer (ONE:422) [foil] &7
 - Hallowed Haunting (VOW:17) &8
 - Nomad Mythmaker (PLST:10E-30) &9
 - Norn's Choirmaster (ONC:46) &10
-- Phyrexian Vindicator (ONE:300) [foil] &11
 - Skrelv's Hive (ONE:376) &12
 - Youthful Valkyrie (FDN:303) &13
 - Soul Warden (SPG:65) &14
@@ -159,7 +157,6 @@ labels:
 - Yeva, Nature's Herald (RVR:162) [foil] &168
 - Helix Pinnacle (PLST:EVE-68) [foil] &169
 - Wrenn and Seven (MID:208) &170
-- Defense of the Heart (PLST:ULG-100) &171
 - Awaken the Woods (BRO:170) [foil] &172
 - Vivien Reid (FDN:361) &173
 - Traveling Chocobo (FIN:406) &175
@@ -248,7 +245,6 @@ labels:
 - Emrakul, the Promised End (INR:481) &262
 - Blade of Selves (CLB:301) &263
 - Metallic Mimic (INR:445) [foil] &264
-- Metallic Mimic (INR:445) &265
 - Darksteel Plate (MBS:104) &266
 - Glistening Sphere (ONC:58) &267
 - Portal to Phyrexia (BRO:240) &268
@@ -262,7 +258,6 @@ labels:
 - Arcane Signet (SLD:7065) [foil] &278
 - Dowsing Dagger // Lost Vale (XLN:235) &279
 - Dowsing Dagger // Lost Vale (XLN:235) &280
-- Dowsing Dagger // Lost Vale (XLN:235) &281
 - Springleaf Drum (SLP:22) &282
 - Springleaf Drum (SLP:22) &283
 - Ashnod's Altar (SLD:1679) &284
@@ -320,7 +315,6 @@ labels:
 - Plains (SLD:888) [foil] &341
 - Soulstone Sanctuary (FDN:133) &342
 - Soulstone Sanctuary (FDN:133) [foil] &343
-- Fountainport (BLB:368) &344
 - Lush Portico (MKM:263) &345
 - Floodfarm Verge (DSK:259) [foil] &346
 - Undergrowth Stadium (CMM:435) &347
