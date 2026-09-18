@@ -4,8 +4,8 @@ sourceId: '9337260'
 sourceUrl: 'https://archidekt.com/decks/9337260'
 tags: []
 format: commander
-lastSynced: '2026-08-15T19:30:58.610Z'
-sourceUpdatedAt: '2026-08-13T21:15:37.250262Z'
+lastSynced: '2026-09-18T21:39:45.671Z'
+sourceUpdatedAt: '2026-09-18T21:39:43.282777Z'
 ---
 
 # Murica
@@ -97,7 +97,6 @@ sourceUpdatedAt: '2026-08-13T21:15:37.250262Z'
 - 1 Mountain &82
 - 1 Avatar's Wrath &83
 - 1 Fated Clash &84
-- 1 Brilliant Wings &85
 - 1 Chaos Warp &87
 - 1 Blasphemous Act &88
 - 1 Adaptive Omnitool &89
@@ -110,3 +109,4 @@ sourceUpdatedAt: '2026-08-13T21:15:37.250262Z'
 - 1 Genji Glove &96
 - 1 Kellan, the Fae-Blooded // Birthright Boon &86
 - 1 The Lonely Mountain &97
+- 1 Training Grounds (SLD:2619) [foil] &85

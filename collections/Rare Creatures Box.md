@@ -334,7 +334,7 @@ labels:
 - Broodcaller Scourge (TDC:84) &330
 - Battle Angels of Tyr (CLB:370) &331
 - Qarsi Revenant (TDM:338) &332
-- Clarion Conqueror // Clarion Conqueror (TDM:377) &333
+- Clarion Conqueror (TDM:377) &333
 - Voice of Victory (TDM:331) &334
 - Bone Devourer (TDC:66) &335
 - Kotis, the Fangkeeper (TDM:362) &336
@@ -346,10 +346,10 @@ labels:
 - Lasyd Prowler (TDM:348) &342
 - Diviner of Mist (TDC:60) &343
 - Felothar, Dawn of the Abzan (TDM:358) [foil] &344
-- Bloomvine Regent // Claim Territory // Bloomvine Regent (TDM:381) &345
+- Bloomvine Regent // Claim Territory (TDM:381) &345
 - Fangkeeper's Familiar (TDM:183) [foil] &346
 - Kotis, the Fangkeeper (TDM:362) &347
-- Clarion Conqueror // Clarion Conqueror (TDM:377) &348
+- Clarion Conqueror (TDM:377) &348
 - Parapet Thrasher (TDC:76) &349
 - Dragonologist (TDM:295) &350
 - Overcharged Amalgam (VOW:71) &351
@@ -368,7 +368,7 @@ labels:
 - Kotis, the Fangkeeper (TDM:202) &365
 - Sidisi, Regent of the Mire (TDM:92) &366
 - Kotis, the Fangkeeper (TDM:202) &367
-- Bloomvine Regent // Claim Territory // Bloomvine Regent (TDM:381) &368
+- Bloomvine Regent // Claim Territory (TDM:381) &368
 - Scavenger Regent // Exude Toxin (TDM:90) &369
 - Eshki Dragonclaw (TDM:182) &370
 - Teval, Arbiter of Virtue (TDM:230) &371
@@ -734,7 +734,7 @@ labels:
 - Savvy Trader (OTC:69) &737
 - Savvy Trader (OTC:69) &738
 - Oviya, Automech Artisan (DFT:173) &739
-- Bloomvine Regent // Claim Territory // Bloomvine Regent (TDM:381) &740
+- Bloomvine Regent // Claim Territory (TDM:381) &740
 - Jolrael, Voice of Zhalfir (MAT:230) [foil] &741
 - Coveted Falcon (MKM:48) &742
 - Aurelia's Vindicator (MKM:336) [foil] &743

@@ -25,3 +25,13 @@
 {"action":"add","cardName":"Bast, Panther Goddess","cardId":85}
 {"action":"remove","cardName":"Cosmogrand Zenith","cardId":85}
 ```
+
+## 2026-09-18T21:33:25.790Z
+
+- Moved "Amulet of Vigor" &56 to Deck 'Neverending Sagas'
+- Added "Darien, King of Kjeldor" (SLD:7135) [foil] &56
+
+```ritual-changes
+{"action":"move-from","cardName":"Amulet of Vigor","cardId":56,"language":"en","to":{"type":"deck","name":"Neverending Sagas"}}
+{"action":"add","cardName":"Darien, King of Kjeldor","cardId":56,"set":"sld","collectorNumber":"7135","finish":"foil","condition":"NM","board":"Main","section":"Main"}
+```

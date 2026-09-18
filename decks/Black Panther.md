@@ -3,9 +3,9 @@ source: 'https://archidekt.com/decks/10114676'
 sourceId: '10114676'
 sourceUrl: 'https://archidekt.com/decks/10114676'
 tags: []
-lastSynced: '2026-08-24T21:47:36.699Z'
+lastSynced: '2026-09-18T21:38:50.658Z'
 format: commander
-sourceUpdatedAt: '2026-08-19T21:27:51.574583Z'
+sourceUpdatedAt: '2026-09-18T21:38:49.061651Z'
 ---
 
 # Black Panther
@@ -66,7 +66,6 @@ sourceUpdatedAt: '2026-08-19T21:27:51.574583Z'
 - 1 Lush Portico &52
 - 1 Inkmoth Nexus &53
 - 1 Sunpetal Grove &55
-- 1 Amulet of Vigor &56
 - 1 Basking Broodscale &57
 - 1 Adeline, Resplendent Cathar &58
 - 1 Botanical Brawler &59
@@ -107,3 +106,4 @@ sourceUpdatedAt: '2026-08-19T21:27:51.574583Z'
 - 1 Endless Foot Assault &5
 - 1 Kinbinding &54
 - 1 Bast, Panther Goddess &85
+- 1 Darien, King of Kjeldor (SLD:7135) [foil] &56

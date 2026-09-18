@@ -298,10 +298,10 @@ labels:
 - Goliath Daydreamer (ECL:316) &309
 - Ashling, the Limitless (ECC:1) &310
 - Puca's Covenant (ECC:38) &311
-- Steam Vents // Steam Vents (ECL:348) [foil] &313
+- Steam Vents (ECL:348) [foil] &313
 - Rain-Slicked Copse (ECC:43) &314
 - Collective Inferno (ECL:363) &315
-- Hallowed Fountain // Hallowed Fountain (ECL:347) &316
+- Hallowed Fountain (ECL:347) &316
 - Vibrance (ECL:295) [foil] &317
 - End-Blaze Epiphany (ECL:364) &318
 - Dream Harvest (ECL:371) &319
@@ -491,7 +491,7 @@ labels:
 - Vanille, Cheerful l'Cie (FIN:537) [foil] &491
 - Fang, Fearless l'Cie (FIN:526) [foil] &492
 - Vanille, Cheerful l'Cie (FIN:392) [foil] &493
-- Mechtitan // Mechtitan (SLD:1969) [foil] &494
+- Mechtitan (SLD:1969) [foil] &494
 - Giant Opportunity (ELD:159) &495
 - Slime Against Humanity (MKM:177) &496
 - Cori Mountain Monastery (TDM:252) &497
@@ -620,3 +620,188 @@ labels:
 - Primal Prayers (MH3:166) &630
 - Nulldrifter (MH3:13) &631
 - Thespian's Stage (RVR:466) &632
+- Teferi's Puzzle Box (J22:801) &125
+- Psychosis Crawler (J22:792) &146
+- Spellstutter Sprite (J22:65) &152
+- Vendilion Clique (J22:368) &154
+- Wavebreak Hippocamp (J22:371) &193
+- Alandra, Sky Dreamer (J22:9) &213
+- Oversold Cemetery (J22:453) &277
+- Wildborn Preserver (J22:738) &312
+- Yidaro, Wandering Monster (J22:625) &479
+- Dawn of Hope (J22:169) &500
+- Valkyrie Harbinger (J22:261) &506
+- Isamaru, Hound of Konda (J22:201) &540
+- Michiko Konda, Truth Seeker (J22:215) &568
+- Phyrexian Plaguelord (J22:123) &577
+- Harbinger of the Tides (J22:306) &592
+- Wake Thrasher (J22:369) &602
+- Nightpack Ambusher (J22:696) &604
+- Serum Visions (J22:345) &621
+- Jace, Arcane Strategist (J22:310) &628
+- Decree of Justice (J22:173) &633
+- Muxus, Goblin Grandee (J22:575) &634
+- Kessig Cagebreakers (J22:681) &635
+- Feed the Pack (J22:657) &636
+- Leonin Warleader (J22:208) &637
+- Ardoz, Cobbler of War (J22:29) &638
+- Goblin Rabblemaster (J22:545) &639
+- Stitch in Time (RVR:384) &640
+- Leechridden Swamp (J22:137) &641
+- Massacre Wurm (J22:441) &642
+- Creeping Bloodsucker (J22:21) &643
+- Blood Artist (J22:117) &644
+- Tivash, Gloom Summoner (J22:476) &645
+- Leechridden Swamp (J22:137) &646
+- Massacre Wurm (J22:441) &647
+- Faerie Formation (J22:294) &648
+- Creeping Bloodsucker (J22:21) &649
+- Cruel Sadist (J22:391) &650
+- Dread Slaver (J22:405) &651
+- Gravecrawler (J22:423) &652
+- Necromancer's Stockpile (J22:446) &653
+- Kothophed, Soul Hoarder (J22:431) &654
+- Alandra, Sky Dreamer (J22:9) &655
+- Deathbringer Regent (J22:396) &656
+- Oversold Cemetery (J22:453) &657
+- Evelyn, the Covetous (SNC:184) &658
+- Perrie, the Pulverizer (NCC:5) &659
+- Undercover Operative (SNC:63) [foil] &660
+- Ognis, the Dragon's Lash (SNC:210) &661
+- Errant, Street Artist (SNC:41) &662
+- Angel of Suffering (SNC:67) &663
+- Vazi, Keen Negotiator (NCC:92) &664
+- Jaxis, the Troublemaker (SNC:112) &665
+- Echoing Courage (PLST:CNS-161) &666
+- Fabrication Module (PLST:KLD-211) &667
+- Xander's Lounge (SNC:260) &668
+- Rigo, Streetwise Mentor (SNC:215) &669
+- Devilish Valet (SNC:105) &670
+- Havengul Laboratory // Havengul Mystery (SLX:9) &671
+- Brokers Ascendancy (SNC:297) &672
+- Toluz, Clever Conductor (SNC:228) &673
+- Urabrask, Heretic Praetor (SNC:129) &674
+- Spiteful Repossession (NCC:90) [foil] &675
+- Mari, the Killing Quill (NCC:89) &676
+- Wiretapping (SNC:65) [foil] &677
+- Sanctuary Warden (SNC:30) &678
+- Riveteers Ascendancy (SNC:216) &679
+- Wiretapping (SNC:65) &680
+- Widespread Thieving (SNC:130) &681
+- Evolving Door (SNC:144) &682
+- Hoard Hauler (SNC:109) &683
+- Mysterious Limousine (SNC:22) &684
+- Cabaretti Ascendancy (SNC:172) &685
+- Giada, Font of Hope (SNC:342) &686
+- Rigo, Streetwise Mentor (SNC:394) [foil] &687
+- Bootleggers' Stash (SNC:134) &688
+- Fleetfoot Dancer (SNC:188) &689
+- Workshop Warchief (SNC:165) &690
+- Hostile Takeover (SNC:310) &691
+- Soul of Emancipation (SNC:223) &692
+- Elmar, Ulvenwald Informant (SLX:4) &693
+- Othelm, Sigardian Outcast (SLX:6) &694
+- Obscura Ascendancy (SNC:207) &695
+- Black Market Tycoon (SNC:167) &696
+- Shadow of Mortality (SNC:287) [foil] &697
+- Depopulate (SNC:10) &698
+- Sophina, Spearsage Deserter (SLX:7) &699
+- Corpse Explosion (SNC:179) &700
+- Undercover Operative (SNC:63) &701
+- Maestros Ascendancy (SNC:198) &702
+- Coveted Jewel (PLST:C18-54) &703
+- The Legend of Kuruk // Avatar Kuruk (TLA:355) &704
+- Phelia, Exuberant Shepherd (MH3:478) [etched] &705
+- Talisman of Indulgence (WHO:252) &706
+- Ashnod's Altar (CMM:368) &707
+- Swiftfoot Boots (FDN:258) [foil] &708
+- Golgari Signet (RVR:258) [foil] &709
+- Selesnya Signet (RAV:270) &710
+- Cauldron Familiar (PLST:ELD-81) &711
+- Pitiless Plunderer (PLST:RIX-81) &712
+- Alexios, Deimos of Kosmos (ACR:134) &713
+- Titania's Song (5ED:332) &714
+- Basking Broodscale (MH3:145) &715
+- Eternal Witness (2X2:145) [foil] &716
+- Duskshell Crawler (MH2:156) &717
+- Duskshell Crawler (MH2:156) &718
+- Anara, Wolvid Familiar (CMR:214) &719
+- Crystal Vein (PLST:MIR-325) &720
+- Ghost Quarter (MB2:109) &721
+- Displaced Dinosaurs (WHO:100) &722
+- Annul (EOE:46) &723
+- Return the Favor (OTJ:142) &724
+- Hare Apparent (FDN:15) &725
+- Hare Apparent (FDN:15) &726
+- Hare Apparent (FDN:15) &727
+- Hare Apparent (FDN:15) &728
+- Hare Apparent (FDN:15) &729
+- Hare Apparent (FDN:15) &730
+- Hare Apparent (FDN:15) &731
+- Hare Apparent (FDN:15) &732
+- Hare Apparent (FDN:15) &733
+- Hare Apparent (FDN:15) &734
+- Hare Apparent (FDN:15) &735
+- Hare Apparent (FDN:15) &736
+- Stroke of Midnight (WOE:33) &737
+- Deadly Dispute (CLB:124) &738
+- Mirkwood Bats (LTR:421) &739
+- Brainstorm (40K:192) &740
+- Return the Favor (OTJ:142) [foil] &741
+- Metamorphic Blast (OTJ:57) [foil] &742
+- Serum Visions (J22:345) &743
+- Metamorphic Blast (OTJ:57) &744
+- Deadly Dispute (AFR:94) &745
+- Zulaport Cutthroat (BLC:190) &746
+- Treasure Cruise (M3C:195) &747
+- Rebuff the Wicked (TSR:35) &748
+- Tatyova, Benthic Druid (CMM:358) &749
+- Tempest Hawk (TDM:31) &750
+- Tempest Hawk (TDM:31) [foil] &751
+- Cid, Timeless Artificer (FIN:409) &752
+- Wash Away (VOW:87) &753
+- Wash Away (VOW:87) &754
+- An Offer You Can't Refuse (FDN:160) &755
+- Veil of Summer (PLST:M20-198) &756
+- An Offer You Can't Refuse (FDN:160) &757
+- Swords to Plowshares (LTC:178) &758
+- Ponder (WHO:217) &759
+- Curiosity (WOT:17) &760
+- Orzhov Basilica (PLST:C17-268) &761
+- Arcane Signet (FIC:335) &762
+- Sink into Stupor // Soporific Springs (MH3:241) &763
+- Standstill (MB2:172) &764
+- Faithless Looting (CMM:642) &765
+- Seething Song (MRD:104) &766
+- Soul's Attendant (LTC:520) [foil] &767
+- Escape Detection (ACR:18) [foil] &768
+- Garruk's Uprising (FDN:220) &769
+- Arcane Signet (PIP:224) &770
+- Pinnacle Monk // Mystic Peak (MH3:246) &771
+- Sol Ring (WHO:245) &772
+- Dovin's Veto (WAR:193) &773
+- Opal Palace (40K:286) &774
+- An Offer You Can't Refuse (FDN:311) &775
+- Garruk's Uprising (FDN:220) [foil] &776
+- Moonmist (ISD:195) &777
+- An Offer You Can't Refuse (FDN:311) &778
+- Silver Shroud Costume (PIP:142) &779
+- Tainted Wood (PIP:301) &780
+- Command Tower (FIC:382) &781
+- Sol Ring (WHO:245) &782
+- Eagle Vision (ACR:17) [foil] &783
+- Stock Up (DFT:67) &784
+- Necropotence (WOT:94) [foil] &785
+- Propaganda (FIC:268) &786
+- Rakdos Signet (RVR:265) [foil] &787
+- Whispersilk Cloak (LTC:292) &788
+- Command Tower (PIP:259) &789
+- Liquimetal Torque (MH2:228) &790
+- Liquimetal Torque (MH2:428) &791
+- Fling (OTP:24) [foil] &792
+- Ajani, Outland Chaperone (ECL:4) &793
+- Grub, Storied Matriarch // Grub, Notorious Auntie (ECL:105) &794
+- Madame Null, Power Broker (TMT:66) &795
+- Casey Jones, Vigilante (TMT:88) &796
+- Bilbo, Luckwearer // Burglar's Plot (PW26:15) &797
+- Spider-Sense (SPM:284) [foil] &798

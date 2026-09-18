@@ -3,9 +3,9 @@ source: 'https://archidekt.com/decks/13931301'
 sourceId: '13931301'
 sourceUrl: 'https://archidekt.com/decks/13931301'
 tags: []
-lastSynced: '2026-08-24T21:47:33.620Z'
+lastSynced: '2026-09-18T21:38:30.940Z'
 format: commander
-sourceUpdatedAt: '2026-08-19T21:24:49.598600Z'
+sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 ---
 
 # Neverending Sagas
@@ -28,7 +28,6 @@ sourceUpdatedAt: '2026-08-19T21:24:49.598600Z'
 - 1 Mirari's Wake (MH2:291) &16
 - 1 Heroic Intervention (SLD:1872) [foil] [ja] &17
 - 1 Cyclonic Rift (SLD:1869) [foil] [ja] &18
-- 1 Sin, Unending Cataclysm (FIC:185) &19
 - 1 Abundance (ZNC:58) &20
 - 1 Spelunking (LCI:213) &21
 - 1 Rydia, Summoner of Mist (FIN:239) [foil] &22
@@ -49,7 +48,6 @@ sourceUpdatedAt: '2026-08-19T21:24:49.598600Z'
 - 1 Unholy Annex // Ritual Chamber (DSK:118) &39
 - 1 Teferi's Protection (STA:11) &40
 - 1 Strionic Resonator (MOC:384) &41
-- 1 Sigurd, Jarl of Ravensthorpe (ACR:66) [foil] &42
 - 1 Summon: Valefor (FIC:197) [foil] &43
 - 1 Mistrise Village (PTDM:261s) [foil] &44
 - 1 Sanctum Weaver (CMM:910) &45
@@ -87,7 +85,6 @@ sourceUpdatedAt: '2026-08-19T21:24:49.598600Z'
 - 1 Open the Way (MAT:23) &80
 - 1 Rhythm of the Wild (SLD:1740) &81
 - 1 Walk-In Closet // Forgotten Cellar (DSK:205) &82
-- 1 Stock Up (DFT:67) &83
 - 1 Nature's Claim (FCA:47) [foil] &84
 - 1 Weaver of Harmony (NEO:213) &85
 - 1 Rite of Replication (FIC:270) &86
@@ -106,9 +103,12 @@ sourceUpdatedAt: '2026-08-19T21:24:49.598600Z'
 - 1 Fellwar Stone (SLD:7062) [foil] &8
 - 1 Flash Photography (FIC:463) [foil] &14
 - 1 Peter Parker's Camera (SPM:171) &27
-- 1 Y'shtola Rhul (FIN:443) &74
 - 1 Ephemerate (MH1:7) &77
 - 2 Plains (FIN:294) &98
 - 1 Mountain (FIN:303) &99
 - 1 Forest (FIN:308) &100
 - 1 Sol Ring (SLD:2330) [foil] &9
+- 1 Grave Researcher // Reanimate (SOS:85) &19
+- 1 Starfield of Nyx (SLD:2822) &42
+- 1 Auroral Procession (TDM:169) &64
+- 1 Amulet of Vigor (PLST:WWK-121) [foil] &74

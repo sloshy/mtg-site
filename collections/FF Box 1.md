@@ -260,7 +260,7 @@ labels:
 - Growth Spiral (SLD:7054) [foil] &262
 - Kratos, Stoic Father (SLD:2213) [foil] &263
 - Atreus, Impulsive Son (SLD:2212) [foil] &264
-- Teferi's Ageless Insight // Teferi's Ageless Insight (SLD:2214) [foil] &265
+- Teferi's Ageless Insight (SLD:2214) [foil] &265
 - Iroas, God of Victory (SLD:2215) [foil] &266
 - Unbreakable Formation (SLD:7052) [foil] &267
 - Abby, Merciless Soldier (SLD:2202) [foil] &268

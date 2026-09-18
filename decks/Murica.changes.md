@@ -117,3 +117,13 @@
 {"action":"add","cardName":"The Lonely Mountain","cardId":97}
 {"action":"remove","cardName":"Mountain","cardId":82}
 ```
+
+## 2026-09-18T21:30:21.794Z
+
+- Removed "Brilliant Wings" &85
+- Added "Training Grounds" (SLD:2619) [foil] &85
+
+```ritual-changes
+{"action":"remove","cardName":"Brilliant Wings","cardId":85,"language":"en","board":"Main"}
+{"action":"add","cardName":"Training Grounds","cardId":85,"set":"sld","collectorNumber":"2619","finish":"foil","condition":"NM","board":"Main","section":"Main"}
+```

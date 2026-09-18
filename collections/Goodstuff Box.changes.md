@@ -1455,3 +1455,385 @@
 {"action":"remove","cardName":"Bloodstained Mire","cardId":568,"set":"mh3","collectorNumber":"216","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Three Tree City","cardId":152,"set":"blb","collectorNumber":"260","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-09-15T21:19:23.544Z
+
+- Added "Teferi's Puzzle Box" (J22:801) &125
+- Added "Psychosis Crawler" (J22:792) &146
+- Added "Spellstutter Sprite" (J22:65) &152
+- Added "Vendilion Clique" (J22:368) &154
+- Added "Wavebreak Hippocamp" (J22:371) &193
+- Added "Alandra, Sky Dreamer" (J22:9) &213
+- Added "Oversold Cemetery" (J22:453) &277
+- Added "Wildborn Preserver" (J22:738) &312
+- Added "Yidaro, Wandering Monster" (J22:625) &479
+- Added "Dawn of Hope" (J22:169) &500
+- Added "Valkyrie Harbinger" (J22:261) &506
+- Added "Isamaru, Hound of Konda" (J22:201) &540
+- Added "Michiko Konda, Truth Seeker" (J22:215) &568
+- Added "Phyrexian Plaguelord" (J22:123) &577
+- Added "Harbinger of the Tides" (J22:306) &592
+- Added "Wake Thrasher" (J22:369) &602
+- Added "Nightpack Ambusher" (J22:696) &604
+- Added "Serum Visions" (J22:345) &621
+- Added "Jace, Arcane Strategist" (J22:310) &628
+- Added "Decree of Justice" (J22:173) &633
+- Added "Muxus, Goblin Grandee" (J22:575) &634
+- Added "Kessig Cagebreakers" (J22:681) &635
+- Added "Feed the Pack" (J22:657) &636
+- Added "Leonin Warleader" (J22:208) &637
+- Added "Ardoz, Cobbler of War" (J22:29) &638
+- Added "Goblin Rabblemaster" (J22:545) &639
+- Added "Stitch in Time" (RVR:384) &640
+- Added "Leechridden Swamp" (J22:137) &641
+- Added "Massacre Wurm" (J22:441) &642
+- Added "Creeping Bloodsucker" (J22:21) &643
+- Added "Blood Artist" (J22:117) &644
+- Added "Tivash, Gloom Summoner" (J22:476) &645
+- Added "Leechridden Swamp" (J22:137) &646
+- Added "Massacre Wurm" (J22:441) &647
+- Added "Faerie Formation" (J22:294) &648
+- Added "Creeping Bloodsucker" (J22:21) &649
+- Added "Cruel Sadist" (J22:391) &650
+- Added "Dread Slaver" (J22:405) &651
+- Added "Gravecrawler" (J22:423) &652
+- Added "Necromancer's Stockpile" (J22:446) &653
+- Added "Kothophed, Soul Hoarder" (J22:431) &654
+- Added "Alandra, Sky Dreamer" (J22:9) &655
+- Added "Deathbringer Regent" (J22:396) &656
+- Added "Oversold Cemetery" (J22:453) &657
+- Added "Evelyn, the Covetous" (SNC:184) &658
+- Added "Perrie, the Pulverizer" (NCC:5) &659
+- Added "Undercover Operative" (SNC:63) [foil] &660
+- Added "Ognis, the Dragon's Lash" (SNC:210) &661
+- Added "Errant, Street Artist" (SNC:41) &662
+- Added "Angel of Suffering" (SNC:67) &663
+- Added "Vazi, Keen Negotiator" (NCC:92) &664
+- Added "Jaxis, the Troublemaker" (SNC:112) &665
+- Added "Echoing Courage" (PLST:CNS-161) &666
+- Added "Fabrication Module" (PLST:KLD-211) &667
+- Added "Xander's Lounge" (SNC:260) &668
+- Added "Rigo, Streetwise Mentor" (SNC:215) &669
+- Added "Devilish Valet" (SNC:105) &670
+- Added "Havengul Laboratory // Havengul Mystery" (SLX:9) &671
+- Added "Brokers Ascendancy" (SNC:297) &672
+- Added "Toluz, Clever Conductor" (SNC:228) &673
+- Added "Urabrask, Heretic Praetor" (SNC:129) &674
+- Added "Spiteful Repossession" (NCC:90) [foil] &675
+- Added "Mari, the Killing Quill" (NCC:89) &676
+- Added "Wiretapping" (SNC:65) [foil] &677
+- Added "Sanctuary Warden" (SNC:30) &678
+- Added "Riveteers Ascendancy" (SNC:216) &679
+- Added "Wiretapping" (SNC:65) &680
+- Added "Widespread Thieving" (SNC:130) &681
+- Added "Evolving Door" (SNC:144) &682
+- Added "Hoard Hauler" (SNC:109) &683
+- Added "Mysterious Limousine" (SNC:22) &684
+- Added "Cabaretti Ascendancy" (SNC:172) &685
+- Added "Giada, Font of Hope" (SNC:342) &686
+- Added "Rigo, Streetwise Mentor" (SNC:394) [foil] &687
+- Added "Bootleggers' Stash" (SNC:134) &688
+- Added "Fleetfoot Dancer" (SNC:188) &689
+- Added "Workshop Warchief" (SNC:165) &690
+- Added "Hostile Takeover" (SNC:310) &691
+- Added "Soul of Emancipation" (SNC:223) &692
+- Added "Elmar, Ulvenwald Informant" (SLX:4) &693
+- Added "Othelm, Sigardian Outcast" (SLX:6) &694
+- Added "Obscura Ascendancy" (SNC:207) &695
+- Added "Black Market Tycoon" (SNC:167) &696
+- Added "Shadow of Mortality" (SNC:287) [foil] &697
+- Added "Depopulate" (SNC:10) &698
+- Added "Sophina, Spearsage Deserter" (SLX:7) &699
+- Added "Corpse Explosion" (SNC:179) &700
+- Added "Undercover Operative" (SNC:63) &701
+- Added "Maestros Ascendancy" (SNC:198) &702
+- Added "Coveted Jewel" (PLST:C18-54) &703
+- Added "The Legend of Kuruk // Avatar Kuruk" (TLA:355) &704
+
+```ritual-changes
+{"action":"add","cardName":"Teferi's Puzzle Box","cardId":125,"set":"j22","collectorNumber":"801","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Psychosis Crawler","cardId":146,"set":"j22","collectorNumber":"792","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Spellstutter Sprite","cardId":152,"set":"j22","collectorNumber":"65","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Vendilion Clique","cardId":154,"set":"j22","collectorNumber":"368","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wavebreak Hippocamp","cardId":193,"set":"j22","collectorNumber":"371","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Alandra, Sky Dreamer","cardId":213,"set":"j22","collectorNumber":"9","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Oversold Cemetery","cardId":277,"set":"j22","collectorNumber":"453","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wildborn Preserver","cardId":312,"set":"j22","collectorNumber":"738","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Yidaro, Wandering Monster","cardId":479,"set":"j22","collectorNumber":"625","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Dawn of Hope","cardId":500,"set":"j22","collectorNumber":"169","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Valkyrie Harbinger","cardId":506,"set":"j22","collectorNumber":"261","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Isamaru, Hound of Konda","cardId":540,"set":"j22","collectorNumber":"201","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Michiko Konda, Truth Seeker","cardId":568,"set":"j22","collectorNumber":"215","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Phyrexian Plaguelord","cardId":577,"set":"j22","collectorNumber":"123","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Harbinger of the Tides","cardId":592,"set":"j22","collectorNumber":"306","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wake Thrasher","cardId":602,"set":"j22","collectorNumber":"369","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Nightpack Ambusher","cardId":604,"set":"j22","collectorNumber":"696","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Serum Visions","cardId":621,"set":"j22","collectorNumber":"345","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Jace, Arcane Strategist","cardId":628,"set":"j22","collectorNumber":"310","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Decree of Justice","cardId":633,"set":"j22","collectorNumber":"173","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Muxus, Goblin Grandee","cardId":634,"set":"j22","collectorNumber":"575","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Kessig Cagebreakers","cardId":635,"set":"j22","collectorNumber":"681","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Feed the Pack","cardId":636,"set":"j22","collectorNumber":"657","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Leonin Warleader","cardId":637,"set":"j22","collectorNumber":"208","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ardoz, Cobbler of War","cardId":638,"set":"j22","collectorNumber":"29","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Goblin Rabblemaster","cardId":639,"set":"j22","collectorNumber":"545","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Stitch in Time","cardId":640,"set":"rvr","collectorNumber":"384","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Leechridden Swamp","cardId":641,"set":"j22","collectorNumber":"137","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Massacre Wurm","cardId":642,"set":"j22","collectorNumber":"441","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Creeping Bloodsucker","cardId":643,"set":"j22","collectorNumber":"21","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Blood Artist","cardId":644,"set":"j22","collectorNumber":"117","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tivash, Gloom Summoner","cardId":645,"set":"j22","collectorNumber":"476","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Leechridden Swamp","cardId":646,"set":"j22","collectorNumber":"137","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Massacre Wurm","cardId":647,"set":"j22","collectorNumber":"441","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Faerie Formation","cardId":648,"set":"j22","collectorNumber":"294","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Creeping Bloodsucker","cardId":649,"set":"j22","collectorNumber":"21","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Cruel Sadist","cardId":650,"set":"j22","collectorNumber":"391","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Dread Slaver","cardId":651,"set":"j22","collectorNumber":"405","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Gravecrawler","cardId":652,"set":"j22","collectorNumber":"423","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Necromancer's Stockpile","cardId":653,"set":"j22","collectorNumber":"446","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Kothophed, Soul Hoarder","cardId":654,"set":"j22","collectorNumber":"431","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Alandra, Sky Dreamer","cardId":655,"set":"j22","collectorNumber":"9","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Deathbringer Regent","cardId":656,"set":"j22","collectorNumber":"396","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Oversold Cemetery","cardId":657,"set":"j22","collectorNumber":"453","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Evelyn, the Covetous","cardId":658,"set":"snc","collectorNumber":"184","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Perrie, the Pulverizer","cardId":659,"set":"ncc","collectorNumber":"5","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Undercover Operative","cardId":660,"set":"snc","collectorNumber":"63","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ognis, the Dragon's Lash","cardId":661,"set":"snc","collectorNumber":"210","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Errant, Street Artist","cardId":662,"set":"snc","collectorNumber":"41","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Angel of Suffering","cardId":663,"set":"snc","collectorNumber":"67","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Vazi, Keen Negotiator","cardId":664,"set":"ncc","collectorNumber":"92","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Jaxis, the Troublemaker","cardId":665,"set":"snc","collectorNumber":"112","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Echoing Courage","cardId":666,"set":"plst","collectorNumber":"CNS-161","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Fabrication Module","cardId":667,"set":"plst","collectorNumber":"KLD-211","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Xander's Lounge","cardId":668,"set":"snc","collectorNumber":"260","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Rigo, Streetwise Mentor","cardId":669,"set":"snc","collectorNumber":"215","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Devilish Valet","cardId":670,"set":"snc","collectorNumber":"105","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Havengul Laboratory // Havengul Mystery","cardId":671,"set":"slx","collectorNumber":"9","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Brokers Ascendancy","cardId":672,"set":"snc","collectorNumber":"297","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Toluz, Clever Conductor","cardId":673,"set":"snc","collectorNumber":"228","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Urabrask, Heretic Praetor","cardId":674,"set":"snc","collectorNumber":"129","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Spiteful Repossession","cardId":675,"set":"ncc","collectorNumber":"90","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Mari, the Killing Quill","cardId":676,"set":"ncc","collectorNumber":"89","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wiretapping","cardId":677,"set":"snc","collectorNumber":"65","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sanctuary Warden","cardId":678,"set":"snc","collectorNumber":"30","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Riveteers Ascendancy","cardId":679,"set":"snc","collectorNumber":"216","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wiretapping","cardId":680,"set":"snc","collectorNumber":"65","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Widespread Thieving","cardId":681,"set":"snc","collectorNumber":"130","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Evolving Door","cardId":682,"set":"snc","collectorNumber":"144","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hoard Hauler","cardId":683,"set":"snc","collectorNumber":"109","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Mysterious Limousine","cardId":684,"set":"snc","collectorNumber":"22","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Cabaretti Ascendancy","cardId":685,"set":"snc","collectorNumber":"172","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Giada, Font of Hope","cardId":686,"set":"snc","collectorNumber":"342","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Rigo, Streetwise Mentor","cardId":687,"set":"snc","collectorNumber":"394","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Bootleggers' Stash","cardId":688,"set":"snc","collectorNumber":"134","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Fleetfoot Dancer","cardId":689,"set":"snc","collectorNumber":"188","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Workshop Warchief","cardId":690,"set":"snc","collectorNumber":"165","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hostile Takeover","cardId":691,"set":"snc","collectorNumber":"310","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Soul of Emancipation","cardId":692,"set":"snc","collectorNumber":"223","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Elmar, Ulvenwald Informant","cardId":693,"set":"slx","collectorNumber":"4","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Othelm, Sigardian Outcast","cardId":694,"set":"slx","collectorNumber":"6","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Obscura Ascendancy","cardId":695,"set":"snc","collectorNumber":"207","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Black Market Tycoon","cardId":696,"set":"snc","collectorNumber":"167","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Shadow of Mortality","cardId":697,"set":"snc","collectorNumber":"287","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Depopulate","cardId":698,"set":"snc","collectorNumber":"10","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sophina, Spearsage Deserter","cardId":699,"set":"slx","collectorNumber":"7","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Corpse Explosion","cardId":700,"set":"snc","collectorNumber":"179","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Undercover Operative","cardId":701,"set":"snc","collectorNumber":"63","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Maestros Ascendancy","cardId":702,"set":"snc","collectorNumber":"198","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Coveted Jewel","cardId":703,"set":"plst","collectorNumber":"C18-54","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"The Legend of Kuruk // Avatar Kuruk","cardId":704,"set":"tla","collectorNumber":"355","finish":"nonfoil","condition":"NM","section":"Main"}
+```
+
+## 2026-09-18T21:30:21.757Z
+
+- Added "Phelia, Exuberant Shepherd" (MH3:478) [etched] &705
+- Added "Talisman of Indulgence" (WHO:252) &706
+- Added "Ashnod's Altar" (CMM:368) &707
+- Added "Swiftfoot Boots" (FDN:258) [foil] &708
+- Added "Golgari Signet" (RVR:258) [foil] &709
+- Added "Selesnya Signet" (RAV:270) &710
+- Added "Cauldron Familiar" (PLST:ELD-81) &711
+- Added "Pitiless Plunderer" (PLST:RIX-81) &712
+- Added "Alexios, Deimos of Kosmos" (ACR:134) &713
+- Added "Titania's Song" (5ED:332) &714
+- Added "Basking Broodscale" (MH3:145) &715
+- Added "Eternal Witness" (2X2:145) [foil] &716
+- Added "Duskshell Crawler" (MH2:156) &717
+- Added "Duskshell Crawler" (MH2:156) &718
+- Added "Anara, Wolvid Familiar" (CMR:214) &719
+- Added "Crystal Vein" (PLST:MIR-325) &720
+- Added "Ghost Quarter" (MB2:109) &721
+- Added "Displaced Dinosaurs" (WHO:100) &722
+- Added "Annul" (EOE:46) &723
+- Added "Return the Favor" (OTJ:142) &724
+- Added "Hare Apparent" (FDN:15) &725
+- Added "Hare Apparent" (FDN:15) &726
+- Added "Hare Apparent" (FDN:15) &727
+- Added "Hare Apparent" (FDN:15) &728
+- Added "Hare Apparent" (FDN:15) &729
+- Added "Hare Apparent" (FDN:15) &730
+- Added "Hare Apparent" (FDN:15) &731
+- Added "Hare Apparent" (FDN:15) &732
+- Added "Hare Apparent" (FDN:15) &733
+- Added "Hare Apparent" (FDN:15) &734
+- Added "Hare Apparent" (FDN:15) &735
+- Added "Hare Apparent" (FDN:15) &736
+- Added "Stroke of Midnight" (WOE:33) &737
+- Added "Deadly Dispute" (CLB:124) &738
+- Added "Mirkwood Bats" (LTR:421) &739
+- Added "Brainstorm" (40K:192) &740
+- Added "Return the Favor" (OTJ:142) [foil] &741
+- Added "Metamorphic Blast" (OTJ:57) [foil] &742
+- Added "Serum Visions" (J22:345) &743
+- Added "Metamorphic Blast" (OTJ:57) &744
+- Added "Deadly Dispute" (AFR:94) &745
+- Added "Zulaport Cutthroat" (BLC:190) &746
+- Added "Treasure Cruise" (M3C:195) &747
+- Added "Rebuff the Wicked" (TSR:35) &748
+- Added "Tatyova, Benthic Druid" (CMM:358) &749
+- Added "Tempest Hawk" (TDM:31) &750
+- Added "Tempest Hawk" (TDM:31) [foil] &751
+- Added "Cid, Timeless Artificer" (FIN:409) &752
+- Added "Wash Away" (VOW:87) &753
+- Added "Wash Away" (VOW:87) &754
+- Added "An Offer You Can't Refuse" (FDN:160) &755
+- Added "Veil of Summer" (PLST:M20-198) &756
+- Added "An Offer You Can't Refuse" (FDN:160) &757
+- Added "Swords to Plowshares" (LTC:178) &758
+- Added "Ponder" (WHO:217) &759
+- Added "Curiosity" (WOT:17) &760
+- Added "Orzhov Basilica" (PLST:C17-268) &761
+- Added "Arcane Signet" (FIC:335) &762
+- Added "Sink into Stupor // Soporific Springs" (MH3:241) &763
+- Added "Standstill" (MB2:172) &764
+- Added "Faithless Looting" (CMM:642) &765
+- Added "Seething Song" (MRD:104) &766
+- Added "Soul's Attendant" (LTC:520) [foil] &767
+- Added "Escape Detection" (ACR:18) [foil] &768
+- Added "Garruk's Uprising" (FDN:220) &769
+- Added "Arcane Signet" (PIP:224) &770
+- Added "Pinnacle Monk // Mystic Peak" (MH3:246) &771
+- Added "Sol Ring" (WHO:245) &772
+- Added "Dovin's Veto" (WAR:193) &773
+- Added "Opal Palace" (40K:286) &774
+- Added "An Offer You Can't Refuse" (FDN:311) &775
+- Added "Garruk's Uprising" (FDN:220) [foil] &776
+- Added "Moonmist" (ISD:195) &777
+- Added "An Offer You Can't Refuse" (FDN:311) &778
+- Added "Silver Shroud Costume" (PIP:142) &779
+- Added "Tainted Wood" (PIP:301) &780
+- Added "Command Tower" (FIC:382) &781
+- Added "Sol Ring" (WHO:245) &782
+- Added "Eagle Vision" (ACR:17) [foil] &783
+- Added "Stock Up" (DFT:67) &784
+- Added "Necropotence" (WOT:94) [foil] &785
+- Added "Propaganda" (FIC:268) &786
+- Added "Rakdos Signet" (RVR:265) [foil] &787
+- Added "Whispersilk Cloak" (LTC:292) &788
+- Added "Command Tower" (PIP:259) &789
+- Added "Liquimetal Torque" (MH2:228) &790
+- Added "Liquimetal Torque" (MH2:428) &791
+- Added "Fling" (OTP:24) [foil] &792
+- Added "Ajani, Outland Chaperone" (ECL:4) &793
+- Added "Grub, Storied Matriarch // Grub, Notorious Auntie" (ECL:105) &794
+- Added "Madame Null, Power Broker" (TMT:66) &795
+- Added "Casey Jones, Vigilante" (TMT:88) &796
+- Added "Bilbo, Luckwearer // Burglar's Plot" (PW26:15) &797
+- Added "Spider-Sense" (SPM:284) [foil] &798
+
+```ritual-changes
+{"action":"add","cardName":"Phelia, Exuberant Shepherd","cardId":705,"set":"mh3","collectorNumber":"478","finish":"etched","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Talisman of Indulgence","cardId":706,"set":"who","collectorNumber":"252","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ashnod's Altar","cardId":707,"set":"cmm","collectorNumber":"368","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Swiftfoot Boots","cardId":708,"set":"fdn","collectorNumber":"258","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Golgari Signet","cardId":709,"set":"rvr","collectorNumber":"258","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Selesnya Signet","cardId":710,"set":"rav","collectorNumber":"270","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Cauldron Familiar","cardId":711,"set":"plst","collectorNumber":"ELD-81","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Pitiless Plunderer","cardId":712,"set":"plst","collectorNumber":"RIX-81","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Alexios, Deimos of Kosmos","cardId":713,"set":"acr","collectorNumber":"134","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Titania's Song","cardId":714,"set":"5ed","collectorNumber":"332","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Basking Broodscale","cardId":715,"set":"mh3","collectorNumber":"145","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Eternal Witness","cardId":716,"set":"2x2","collectorNumber":"145","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Duskshell Crawler","cardId":717,"set":"mh2","collectorNumber":"156","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Duskshell Crawler","cardId":718,"set":"mh2","collectorNumber":"156","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Anara, Wolvid Familiar","cardId":719,"set":"cmr","collectorNumber":"214","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Crystal Vein","cardId":720,"set":"plst","collectorNumber":"MIR-325","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ghost Quarter","cardId":721,"set":"mb2","collectorNumber":"109","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Displaced Dinosaurs","cardId":722,"set":"who","collectorNumber":"100","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Annul","cardId":723,"set":"eoe","collectorNumber":"46","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Return the Favor","cardId":724,"set":"otj","collectorNumber":"142","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":725,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":726,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":727,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":728,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":729,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":730,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":731,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":732,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":733,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":734,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":735,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hare Apparent","cardId":736,"set":"fdn","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Stroke of Midnight","cardId":737,"set":"woe","collectorNumber":"33","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Deadly Dispute","cardId":738,"set":"clb","collectorNumber":"124","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Mirkwood Bats","cardId":739,"set":"ltr","collectorNumber":"421","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Brainstorm","cardId":740,"set":"40k","collectorNumber":"192","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Return the Favor","cardId":741,"set":"otj","collectorNumber":"142","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Metamorphic Blast","cardId":742,"set":"otj","collectorNumber":"57","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Serum Visions","cardId":743,"set":"j22","collectorNumber":"345","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Metamorphic Blast","cardId":744,"set":"otj","collectorNumber":"57","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Deadly Dispute","cardId":745,"set":"afr","collectorNumber":"94","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Zulaport Cutthroat","cardId":746,"set":"blc","collectorNumber":"190","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Treasure Cruise","cardId":747,"set":"m3c","collectorNumber":"195","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Rebuff the Wicked","cardId":748,"set":"tsr","collectorNumber":"35","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tatyova, Benthic Druid","cardId":749,"set":"cmm","collectorNumber":"358","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tempest Hawk","cardId":750,"set":"tdm","collectorNumber":"31","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tempest Hawk","cardId":751,"set":"tdm","collectorNumber":"31","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Cid, Timeless Artificer","cardId":752,"set":"fin","collectorNumber":"409","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wash Away","cardId":753,"set":"vow","collectorNumber":"87","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wash Away","cardId":754,"set":"vow","collectorNumber":"87","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"An Offer You Can't Refuse","cardId":755,"set":"fdn","collectorNumber":"160","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Veil of Summer","cardId":756,"set":"plst","collectorNumber":"M20-198","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"An Offer You Can't Refuse","cardId":757,"set":"fdn","collectorNumber":"160","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Swords to Plowshares","cardId":758,"set":"ltc","collectorNumber":"178","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ponder","cardId":759,"set":"who","collectorNumber":"217","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Curiosity","cardId":760,"set":"wot","collectorNumber":"17","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Orzhov Basilica","cardId":761,"set":"plst","collectorNumber":"C17-268","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Arcane Signet","cardId":762,"set":"fic","collectorNumber":"335","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sink into Stupor // Soporific Springs","cardId":763,"set":"mh3","collectorNumber":"241","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Standstill","cardId":764,"set":"mb2","collectorNumber":"172","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Faithless Looting","cardId":765,"set":"cmm","collectorNumber":"642","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Seething Song","cardId":766,"set":"mrd","collectorNumber":"104","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Soul's Attendant","cardId":767,"set":"ltc","collectorNumber":"520","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Escape Detection","cardId":768,"set":"acr","collectorNumber":"18","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Garruk's Uprising","cardId":769,"set":"fdn","collectorNumber":"220","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Arcane Signet","cardId":770,"set":"pip","collectorNumber":"224","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Pinnacle Monk // Mystic Peak","cardId":771,"set":"mh3","collectorNumber":"246","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sol Ring","cardId":772,"set":"who","collectorNumber":"245","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Dovin's Veto","cardId":773,"set":"war","collectorNumber":"193","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Opal Palace","cardId":774,"set":"40k","collectorNumber":"286","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"An Offer You Can't Refuse","cardId":775,"set":"fdn","collectorNumber":"311","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Garruk's Uprising","cardId":776,"set":"fdn","collectorNumber":"220","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Moonmist","cardId":777,"set":"isd","collectorNumber":"195","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"An Offer You Can't Refuse","cardId":778,"set":"fdn","collectorNumber":"311","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Silver Shroud Costume","cardId":779,"set":"pip","collectorNumber":"142","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tainted Wood","cardId":780,"set":"pip","collectorNumber":"301","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Command Tower","cardId":781,"set":"fic","collectorNumber":"382","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sol Ring","cardId":782,"set":"who","collectorNumber":"245","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Eagle Vision","cardId":783,"set":"acr","collectorNumber":"17","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Stock Up","cardId":784,"set":"dft","collectorNumber":"67","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Necropotence","cardId":785,"set":"wot","collectorNumber":"94","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Propaganda","cardId":786,"set":"fic","collectorNumber":"268","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Rakdos Signet","cardId":787,"set":"rvr","collectorNumber":"265","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Whispersilk Cloak","cardId":788,"set":"ltc","collectorNumber":"292","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Command Tower","cardId":789,"set":"pip","collectorNumber":"259","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Liquimetal Torque","cardId":790,"set":"mh2","collectorNumber":"228","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Liquimetal Torque","cardId":791,"set":"mh2","collectorNumber":"428","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Fling","cardId":792,"set":"otp","collectorNumber":"24","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ajani, Outland Chaperone","cardId":793,"set":"ecl","collectorNumber":"4","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Grub, Storied Matriarch // Grub, Notorious Auntie","cardId":794,"set":"ecl","collectorNumber":"105","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Madame Null, Power Broker","cardId":795,"set":"tmt","collectorNumber":"66","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Casey Jones, Vigilante","cardId":796,"set":"tmt","collectorNumber":"88","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Bilbo, Luckwearer // Burglar's Plot","cardId":797,"set":"pw26","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Spider-Sense","cardId":798,"set":"spm","collectorNumber":"284","finish":"foil","condition":"NM","section":"Main"}
+```

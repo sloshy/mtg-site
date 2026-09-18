@@ -265,3 +265,27 @@
 {"action":"remove","cardName":"Inquisitive Glimmer","cardId":9}
 {"action":"add","cardName":"Sol Ring","cardId":9,"set":"sld","collectorNumber":"2330","finish":"foil"}
 ```
+
+## 2026-09-18T21:33:25.811Z
+
+- Removed "Y'shtola Rhul" (FIN:443) &74
+- Removed "Sin, Unending Cataclysm" (FIC:185) &19
+- Removed "Sigurd, Jarl of Ravensthorpe" (ACR:66) [foil] &42
+- Removed "Stock Up" (DFT:67) &83
+- Added "Grave Researcher // Reanimate" (SOS:85) &19
+- Added "Starfield of Nyx" (SLD:2822) &42
+- Added "Auroral Procession" (TDM:169) &64
+- Moved "Amulet of Vigor" from Deck 'Black Panther'
+- Set "Amulet of Vigor" printing to PLST:WWK-121 [foil] &74
+
+```ritual-changes
+{"action":"remove","cardName":"Y'shtola Rhul","cardId":74,"set":"fin","collectorNumber":"443","language":"en","board":"Main"}
+{"action":"remove","cardName":"Sin, Unending Cataclysm","cardId":19,"set":"fic","collectorNumber":"185","language":"en","board":"Main"}
+{"action":"remove","cardName":"Sigurd, Jarl of Ravensthorpe","cardId":42,"set":"acr","collectorNumber":"66","finish":"foil","language":"en","board":"Main"}
+{"action":"remove","cardName":"Stock Up","cardId":83,"set":"dft","collectorNumber":"67","language":"en","board":"Main"}
+{"action":"add","cardName":"Grave Researcher // Reanimate","cardId":19,"set":"sos","collectorNumber":"85","finish":"nonfoil","condition":"NM","board":"Main","section":"Main"}
+{"action":"add","cardName":"Starfield of Nyx","cardId":42,"set":"sld","collectorNumber":"2822","finish":"nonfoil","condition":"NM","board":"Main","section":"Main"}
+{"action":"add","cardName":"Auroral Procession","cardId":64,"set":"tdm","collectorNumber":"169","finish":"nonfoil","condition":"NM","board":"Main","section":"Main"}
+{"action":"move-to","cardName":"Amulet of Vigor","language":"en","from":{"type":"deck","name":"Black Panther"},"sourceCardId":56}
+{"action":"set-printing","cardName":"Amulet of Vigor","cardId":74,"set":"plst","collectorNumber":"WWK-121","finish":"foil","condition":"NM","language":"en"}
+```
