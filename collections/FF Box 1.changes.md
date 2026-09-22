@@ -1053,3 +1053,15 @@
 ```ritual-changes
 {"action":"move-from","cardName":"Toph, Earthbending Master","cardId":61,"set":"tle","collectorNumber":"209","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-22T22:50:38.901Z
+
+- Removed "Counterspell" (FCA:4) &423
+- Removed "Earthquake Dragon" (CLB:588) &365
+- Removed "Counterspell" (FCA:4) &418
+
+```ritual-changes
+{"action":"remove","cardName":"Counterspell","cardId":423,"set":"fca","collectorNumber":"4","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Earthquake Dragon","cardId":365,"set":"clb","collectorNumber":"588","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Counterspell","cardId":418,"set":"fca","collectorNumber":"4","finish":"nonfoil","condition":"NM"}
+```

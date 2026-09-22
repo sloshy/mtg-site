@@ -1965,3 +1965,21 @@
 ```ritual-changes
 {"action":"remove","cardName":"Faerie Mastermind","cardId":650,"set":"mom","collectorNumber":"58","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-09-22T22:50:38.850Z
+
+- Removed "Aerith Gainsborough" (FIN:4) &698
+- Removed "Aerith Gainsborough" (FIN:4) &699
+- Removed "Alesha, Who Laughs at Fate" (FDN:115) &28
+- Removed "Alesha, Who Laughs at Fate" (FDN:115) &300
+- Removed "Birds of Paradise" (LTC:235) &513
+- Removed "Dauthi Voidwalker" (MH2:81) &657
+
+```ritual-changes
+{"action":"remove","cardName":"Aerith Gainsborough","cardId":698,"set":"fin","collectorNumber":"4","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Aerith Gainsborough","cardId":699,"set":"fin","collectorNumber":"4","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Alesha, Who Laughs at Fate","cardId":28,"set":"fdn","collectorNumber":"115","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Alesha, Who Laughs at Fate","cardId":300,"set":"fdn","collectorNumber":"115","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Birds of Paradise","cardId":513,"set":"ltc","collectorNumber":"235","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Dauthi Voidwalker","cardId":657,"set":"mh2","collectorNumber":"81","finish":"nonfoil","condition":"NM"}
+```

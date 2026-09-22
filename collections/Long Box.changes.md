@@ -1957,3 +1957,21 @@
 {"action":"move-from","cardName":"Tamiyo's Safekeeping","cardId":224,"set":"neo","collectorNumber":"211","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Overwhelming Stampede","cardId":398,"set":"ltc","collectorNumber":"254","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-22T22:50:38.872Z
+
+- Removed "Balor" (CLB:162) &310
+- Removed "Back to Basics" (MB2:154) &776
+- Removed "Ayara, First of Locthwain" (MUL:13) &25
+- Removed "Azusa, Lost but Seeking" (CMM:274) &461
+- Removed "Calix, Guided by Fate" (MAT:26) &83
+- Removed "Hullbreaker Horror" (WOC:95) &242
+
+```ritual-changes
+{"action":"remove","cardName":"Balor","cardId":310,"set":"clb","collectorNumber":"162","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Back to Basics","cardId":776,"set":"mb2","collectorNumber":"154","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Ayara, First of Locthwain","cardId":25,"set":"mul","collectorNumber":"13","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Azusa, Lost but Seeking","cardId":461,"set":"cmm","collectorNumber":"274","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Calix, Guided by Fate","cardId":83,"set":"mat","collectorNumber":"26","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Hullbreaker Horror","cardId":242,"set":"woc","collectorNumber":"95","finish":"nonfoil","condition":"NM"}
+```

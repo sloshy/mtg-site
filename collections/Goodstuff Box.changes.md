@@ -1837,3 +1837,25 @@
 {"action":"add","cardName":"Bilbo, Luckwearer // Burglar's Plot","cardId":797,"set":"pw26","collectorNumber":"15","finish":"nonfoil","condition":"NM","section":"Main"}
 {"action":"add","cardName":"Spider-Sense","cardId":798,"set":"spm","collectorNumber":"284","finish":"foil","condition":"NM","section":"Main"}
 ```
+
+## 2026-09-22T22:50:38.823Z
+
+- Removed "An Offer You Can't Refuse" (FDN:311) &775
+- Removed "An Offer You Can't Refuse" (FDN:311) &778
+- Removed "Authority of the Consuls" (FDN:137) &137
+- Removed "Awaken the Woods" (BRO:170) &268
+- Removed "Beastmaster Ascension" (TLE:39) &353
+- Removed "Cathars' Crusade" (MB2:6) &209
+- Removed "Disruptor Flute" (MH3:209) &582
+- Removed "Disruptor Flute" (MH3:209) &598
+
+```ritual-changes
+{"action":"remove","cardName":"An Offer You Can't Refuse","cardId":775,"set":"fdn","collectorNumber":"311","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"An Offer You Can't Refuse","cardId":778,"set":"fdn","collectorNumber":"311","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Authority of the Consuls","cardId":137,"set":"fdn","collectorNumber":"137","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Awaken the Woods","cardId":268,"set":"bro","collectorNumber":"170","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Beastmaster Ascension","cardId":353,"set":"tle","collectorNumber":"39","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Cathars' Crusade","cardId":209,"set":"mb2","collectorNumber":"6","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Disruptor Flute","cardId":582,"set":"mh3","collectorNumber":"209","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Disruptor Flute","cardId":598,"set":"mh3","collectorNumber":"209","finish":"nonfoil","condition":"NM"}
+```

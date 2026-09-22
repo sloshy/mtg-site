@@ -599,3 +599,15 @@
 {"action":"remove","cardName":"Renewed Solidarity","cardId":9,"set":"drc","collectorNumber":"23","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Salvation Engine","cardId":62,"set":"dft","collectorNumber":"27","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-09-22T22:50:38.893Z
+
+- Removed "Cathars' Crusade" (INR:337) &13
+- Removed "Enduring Tenacity" (DSK:374) &180
+- Removed "Full Throttle" (DFT:127) &229
+
+```ritual-changes
+{"action":"remove","cardName":"Cathars' Crusade","cardId":13,"set":"inr","collectorNumber":"337","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Enduring Tenacity","cardId":180,"set":"dsk","collectorNumber":"374","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Full Throttle","cardId":229,"set":"dft","collectorNumber":"127","finish":"nonfoil","condition":"NM"}
+```

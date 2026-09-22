@@ -262,7 +262,6 @@ labels:
 - Bloodthirster (40K:73) &265
 - Flusterstorm (MH3:496) [foil] &266
 - Stomping Ground (RNA:259) &267
-- Birds of Paradise (M12:165) &268
 - Rejuvenating Springs (CMM:424) &269
 - Commercial District (MKM:324) &270
 - Third Path Iconoclast (BRO:223) &271
@@ -380,7 +379,6 @@ labels:
 - Mountain (SLD:1481) [foil] &385
 - Mountain (SLD:1481) [foil] &386
 - Mountain (SLD:1481) [foil] &387
-- Sakashima of a Thousand Faces (CMR:89) &388
 - Thassa, Deep-Dwelling (THB:71) &389
 - Dour Port-Mage (BLB:47) [foil] &390
 - Irenicus's Vile Duplication (CLB:78) &391

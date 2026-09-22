@@ -60,8 +60,6 @@ labels:
 - Mindsplice Apparatus (ONE:382) [foil] &60
 - Transcendent Message (SCH:16) [foil] &61
 - The Mindskinner (DSK:357) [foil] &62
-- Archmage of Runes (FDN:30) [foil] &63
-- Archmage of Runes (FDN:450) &64
 - The Water Crystal (FIN:333) &65
 - Kiora, the Rising Tide (FDN:309) &66
 - Time Stop (FDN:166) [foil] &67

@@ -34,7 +34,6 @@ labels:
 - Zul Ashur, Lich Lord (FDN:77) &25
 - Intellect Devourer (CLB:132) &26
 - Hellkite Charger (CMM:232) &27
-- Alesha, Who Laughs at Fate (FDN:115) &28
 - Kellan, Planar Trailblazer (FDN:330) &29
 - Kellan, Planar Trailblazer (FDN:91) [foil] &30
 - Magda, the Hoardmaster (OTJ:374) [foil] &31
@@ -301,7 +300,6 @@ labels:
 - Draconautics Engineer (DFT:121) &297
 - Vodalian Wave-Knight (MOC:130) &298
 - Ashroot Animist (FDN:117) [foil] &299
-- Alesha, Who Laughs at Fate (FDN:115) &300
 - Unstoppable Slasher (DSK:294) &301
 - Rune-Scarred Demon (FDN:184) [foil] &302
 - Tinybones, Bauble Burglar (FDN:72) &303
@@ -512,7 +510,6 @@ labels:
 - Arbor Elf (SLD:1317) [foil] &509
 - Jaspera Sentinel (SLD:770) [foil] &510
 - Jaspera Sentinel (SLD:770) [foil] &511
-- Birds of Paradise (LTC:235) &513
 - Scurry Oak (MH2:172) &514
 - Galadhrim Brigade (LTC:502) [foil] &515
 - Summon: Titan (FIN:204) &516
@@ -651,7 +648,6 @@ labels:
 - Gale, Waterdeep Prodigy (CLB:485) [etched] &654
 - Taunting Sliver (CMM:759) &655
 - Valley Rotcaller (BLB:119) [foil] &656
-- Dauthi Voidwalker (MH2:81) &657
 - Fury (MH2:126) &658
 - Magus of the Bridge (MH2:92) &659
 - Necrogoyf (MH2:93) &660
@@ -692,8 +688,6 @@ labels:
 - Ardyn, the Usurper (FIN:89) &695
 - Beatrix, Loyal General (FIN:426) &696
 - Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal (FIN:39) &697
-- Aerith Gainsborough (FIN:4) &698
-- Aerith Gainsborough (FIN:4) &699
 - Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN:16) &700
 - Wall of Omens (FCA:27) &701
 - Minwu, White Mage (FIN:430) &702

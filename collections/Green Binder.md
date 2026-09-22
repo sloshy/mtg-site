@@ -18,7 +18,6 @@ labels:
 - Felidar Guardian (SLD:1487★) [foil] &10
 - Fell the Mighty (SLD:1778) [foil] &11
 - Fell the Mighty (SLD:1778) &12
-- Cathars' Crusade (INR:337) &13
 - Thalia, Heretic Cathar (INR:300) [foil] &14
 - Council's Judgment (SLD:1635★) [foil] &15
 - Idyllic Tutor (SLD:1636★) [foil] &16
@@ -168,7 +167,6 @@ labels:
 - Kezzerdrix (SLD:826) &174
 - Rottenmouth Viper (BLB:290) &175
 - Valgavoth, Terror Eater (PDSK:120p) &176
-- Enduring Tenacity (DSK:374) &180
 - Enduring Tenacity (DSK:374) &181
 - Unstoppable Slasher (DSK:119) [foil] &182
 - Unstoppable Slasher (DSK:312) &185
@@ -211,7 +209,6 @@ labels:
 - Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:384) [foil] &225
 - Galvanic Blast (SPG:90) &226
 - Galvanic Blast (SPG:90) [foil] &227
-- Full Throttle (DFT:127) &229
 - Full Throttle (DFT:386) [foil] &230
 - Jaws, Relentless Predator (SLD:2175) &232
 - Goldspan Dragon (SLD:1780) &233

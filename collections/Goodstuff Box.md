@@ -131,7 +131,6 @@ labels:
 - Rise of the Dark Realms (FDN:323) [foil] &134
 - Herald of Eternal Dawn (FDN:299) &135
 - Herald of Eternal Dawn (FDN:17) &136
-- Authority of the Consuls (FDN:137) &137
 - Authority of the Consuls (FDN:137) [foil] &138
 - Chimil, the Inner Sun (LCI:249) [foil] &139
 - Phyrexian Arena (FDN:728) [foil] &140
@@ -201,7 +200,6 @@ labels:
 - Breeding Pool (PEOE:251p) [foil] &206
 - Cauldron Familiar (SLD:1759) [foil] &207
 - Hell's Caretaker (PLST:A25-92) &208
-- Cathars' Crusade (MB2:6) &209
 - Lotus Petal (MB2:226) &210
 - Sovereign Okinec Ahau (LCI:309) &211
 - Avatar Kyoshi, Earthbender (TLE:201) [foil] &212
@@ -256,7 +254,6 @@ labels:
 - Frantic Search (DMR:51) &263
 - On the Trail (MKC:349) &264
 - Traveling Chocobo (FIN:210) [foil] &266
-- Awaken the Woods (BRO:170) &268
 - Farseek (FCA:45) [foil] &269
 - Doppelgang (MKM:414) &270
 - Galadriel's Dismissal (LTC:500) [foil] &271
@@ -337,7 +334,6 @@ labels:
 - Chakra Meditation (TLE:91) [foil] &350
 - Earthbender Ascension (TLA:307) &351
 - Waterbender Ascension (TLA:310) [foil] &352
-- Beastmaster Ascension (TLE:39) &353
 - Obsessive Pursuit (TLA:112) [foil] &354
 - Beastmaster Ascension (TLE:39) [foil] &355
 - Bloodchief Ascension (TLE:23) &356
@@ -574,7 +570,6 @@ labels:
 - Party Thrasher (MH3:129) &579
 - Chthonian Nightmare (MH3:83) &580
 - Monumental Henge (MH3:222) &581
-- Disruptor Flute (MH3:209) &582
 - Devourer of Destiny (MH3:2) &583
 - Emperor of Bones (MH3:90) &584
 - Bloodstained Mire (MH3:435) &585
@@ -589,7 +584,6 @@ labels:
 - Shilgengar, Sire of Famine (MH3:109) &595
 - Grist, Voracious Larva // Grist, the Plague Swarm (MH3:251) &596
 - Abstruse Appropriation (MH3:177) &597
-- Disruptor Flute (MH3:209) &598
 - K'rrik, Son of Yawgmoth (MH3:274) &599
 - Flooded Strand (MH3:220) &600
 - Laelia, the Blade Reforged (MH3:281) &601
@@ -781,10 +775,8 @@ labels:
 - Sol Ring (WHO:245) &772
 - Dovin's Veto (WAR:193) &773
 - Opal Palace (40K:286) &774
-- An Offer You Can't Refuse (FDN:311) &775
 - Garruk's Uprising (FDN:220) [foil] &776
 - Moonmist (ISD:195) &777
-- An Offer You Can't Refuse (FDN:311) &778
 - Silver Shroud Costume (PIP:142) &779
 - Tainted Wood (PIP:301) &780
 - Command Tower (FIC:382) &781

@@ -31,7 +31,6 @@ labels:
 - Judith, the Scourge Diva (MUL:45) &22
 - Lavaborn Muse (PLST:DDK-50) &23
 - Thalia and The Gitrog Monster (MOM:316) &24
-- Ayara, First of Locthwain (MUL:13) &25
 - Invasion of Theros // Ephara, Ever-Sheltering (MOM:23) &26
 - Arixmethes, Slumbering Isle (MUL:32) &27
 - Quintorius, Loremaster (MOM:250) &28
@@ -89,7 +88,6 @@ labels:
 - Training Grounds (MAT:9) &80
 - Pia Nalaar, Consul of Revival (MAT:42) &81
 - Arni Metalbrow (MAT:16) [foil] &82
-- Calix, Guided by Fate (MAT:26) &83
 - Plargg and Nassari (MAT:18) &85
 - Vesuvan Drifter (MAT:60) &86
 - Metropolis Reformer (MAT:4) &87
@@ -245,7 +243,6 @@ labels:
 - Faerie Formation (WOC:91) &239
 - Regal Bunnicorn (WOE:25) &240
 - Theoretical Duplication (WOC:112) &241
-- Hullbreaker Horror (WOC:95) &242
 - Season of Growth (WOT:61) &243
 - Garruk's Uprising (WOT:53) &244
 - Intangible Virtue (WOT:6) &245
@@ -312,7 +309,6 @@ labels:
 - Caves of Chaos Adventurer (CLB:167) &307
 - Elder Brain (CLB:125) &308
 - Popular Entertainer (CLB:192) &309
-- Balor (CLB:162) &310
 - Burnished Hart (CLB:303) &311
 - Traverse the Outlands (CLB:258) [foil] &312
 - Raised by Giants (CLB:250) &313
@@ -460,7 +456,6 @@ labels:
 - Aminatou's Augury (CMM:73) &458
 - Sower of Discord (CMM:187) &459
 - Storm-Kiln Artist (CMM:260) &460
-- Azusa, Lost but Seeking (CMM:274) &461
 - Teething Wurmlet (BRO:192) [foil] &462
 - Mishra, Tamer of Mak Fawa (BRO:295) &463
 - Woodcaller Automaton (BRO:377) &464
@@ -772,7 +767,6 @@ labels:
 - Generous Gift (PLST:MH1-11) &773
 - Phyrexian Scriptures (PLST:DOM-100) &774
 - Throes of Chaos (MB2:62) &775
-- Back to Basics (MB2:154) &776
 - Coastal Piracy (PLST:MMQ-68) &777
 - Ranger of Eos (PLST:MM3-19) &778
 - Thopter Foundry (MB2:92) &779

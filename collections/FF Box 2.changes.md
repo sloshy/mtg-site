@@ -977,3 +977,13 @@
 {"action":"move-from","cardName":"Anticausal Vestige","cardId":120,"set":"eoe","collectorNumber":"357","finish":"foil","to":{"type":"deck","name":"Aghast for Radagast"}}
 {"action":"move-from","cardName":"Lightning Greaves","cardId":310,"set":"cmm","collectorNumber":"398","to":{"type":"deck","name":"Aghast for Radagast"}}
 ```
+
+## 2026-09-22T22:50:38.886Z
+
+- Removed "Birds of Paradise" (M12:165) &268
+- Removed "Sakashima of a Thousand Faces" (CMR:89) &388
+
+```ritual-changes
+{"action":"remove","cardName":"Birds of Paradise","cardId":268,"set":"m12","collectorNumber":"165","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Sakashima of a Thousand Faces","cardId":388,"set":"cmr","collectorNumber":"89","finish":"nonfoil","condition":"NM"}
+```

@@ -585,3 +585,13 @@
 {"action":"remove","cardName":"Metallic Mimic","cardId":265,"set":"inr","collectorNumber":"445","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Defense of the Heart","cardId":171,"set":"plst","collectorNumber":"ULG-100","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-09-22T22:50:38.859Z
+
+- Removed "Archmage of Runes" (FDN:450) &64
+- Removed "Archmage of Runes" (FDN:30) [foil] &63
+
+```ritual-changes
+{"action":"remove","cardName":"Archmage of Runes","cardId":64,"set":"fdn","collectorNumber":"450","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Archmage of Runes","cardId":63,"set":"fdn","collectorNumber":"30","finish":"foil","condition":"NM"}
+```
