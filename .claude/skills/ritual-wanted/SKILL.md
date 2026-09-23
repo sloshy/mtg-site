@@ -1,7 +1,7 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-beta28
+ritual-version: 0.1.0-rc1
 ritual-content-hash: 86558ca8ce9e6a2d728fb77a0affb7ad68a1b7b4b5c886494ea2c5674e17f387
 ---
 

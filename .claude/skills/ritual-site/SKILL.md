@@ -1,7 +1,7 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-beta28
+ritual-version: 0.1.0-rc1
 ritual-content-hash: 6db8230db379a964a1cc204ee5c311e05395faa2b4d76ae127e5355e18483cf8
 ---
 

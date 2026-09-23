@@ -1,7 +1,7 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, label or tag a card, set card categories in a list or manage a list category vocabulary (`ritual categories`), give a card custom art, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-beta28
+ritual-version: 0.1.0-rc1
 ritual-content-hash: c7b1680ab37e816264c956ca6c9a863be7b64466689f76e34945a25b524e33fe
 ---
 

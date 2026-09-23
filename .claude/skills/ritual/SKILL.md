@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-beta28
-ritual-content-hash: c373272b9128aca9498f487c107e27004e455e6fbe7806420f1b425c321e582e
+ritual-version: 0.1.0-rc1
+ritual-content-hash: 88345d1425992be638d34f97bf2aa7186f76e18b7bbe936377040b4d237efb5b
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -78,7 +78,10 @@ trailing dots are trimmed, and a name with nothing usable left is an error. Olde
 lists may still have hyphenated file names; they resolve by name as normal, and their
 display name comes from the file's first `# Title` heading (every list type),
 falling back to the file name.
-`ritual cleanup` renames such files to match their list names in one pass.
+`ritual cleanup` renames such files to match their list names in one pass. It also renames
+card lines spelled with a repeated face (`Steam Vents // Steam Vents`, Scryfall's name for a
+reversible printing, which the card cache files under `Steam Vents`) to the card's own name,
+moving their category assignments along.
 
 ## File format
 
@@ -368,7 +371,8 @@ The three modes fail differently, on purpose:
 `&N` IDs and `.changes.md` changelog stay correct. Reading files directly for
 inspection is fine. To normalize a whole workspace — canonical formatting (bullets,
 token order, expanded flat-list quantities, `# Title` H1 with legacy `name:`/`created:`
-stripped), file names that match list names, and a `format:` on every deck — run
+stripped, repeated-face card names like `Steam Vents // Steam Vents` folded onto the card with
+their categories following), file names that match list names, and a `format:` on every deck — run
 `ritual cleanup`
 (`-n`/`--dry-run` to preview; `--check` to also exit 1 when any file would
 change, for hooks and CI; `--skip-formats` to never prompt for deck formats,

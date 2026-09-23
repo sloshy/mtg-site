@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-beta28
-ritual-content-hash: 19f69e787d3868775b5cd93de35448eab51975e092700a805974a483672044cb
+ritual-version: 0.1.0-rc1
+ritual-content-hash: 9f14de06f90a8d2884c3649de4f923d57fea7fab0294fa9ba30f2376fbd03641
 ---
 
 # Managing collections with Ritual
@@ -318,16 +318,16 @@ ritual config set collectionSync.pullTarget "Inbox"
 plus finish and condition — Ritual's five conditions are exactly Archidekt's, so
 NM/LP/MP/HP/DMG round-trip as-is. A line with no explicit finish resolves
 against the card cache first, so an etched-only printing compares as etched; a
-printing the cache does not hold syncs as nonfoil with a warning naming the line
-(that lookup is cache-only — a sync never fetches cards one at a time, so
-preload the cache first if finishes matter). Language round-trips: a
-`[ja]`-style token pulls down as, and pushes up as, that Archidekt language, and
-a code Archidekt's CSV cannot express pushes as English with a warning naming
-the line. Tags and purchase price have no local representation: records Ritual
-creates are untagged and priceless, while existing values survive a quantity
-change. The game is fixed to Paper (no MTGO/Arena), and sections and notes are
-local-only — a pull adds into the target list's `Main`, a push flattens
-sections.
+printing the cache does not hold syncs as nonfoil with one warning per list
+naming the printing and how many copies it covers (that lookup is cache-only — a
+sync never fetches cards one at a time, so preload the cache first if finishes
+matter). Language round-trips: a `[ja]`-style token pulls down as, and pushes up
+as, that Archidekt language, and a code Archidekt's CSV cannot express pushes as
+English with a warning naming the line. Tags and purchase price have no local
+representation: records Ritual creates are untagged and priceless, while
+existing values survive a quantity change. The game is fixed to Paper (no
+MTGO/Arena), and sections and notes are local-only — a pull adds into the target
+list's `Main`, a push flattens sections.
 
 **A push with many new cards:** creating a printing costs a search plus a
 create, each rate-limit paced, so above **25 new printings** a push sends its
@@ -358,9 +358,10 @@ the rest: `ask` (the default) prompts with **yes** preselected, `auto`
 redownloads an empty or day-old cache without asking, and `no-bulk`/`never` — or
 a declined prompt, or no terminal to prompt on — **fail the run before any
 remote write** naming `ritual cache preload-all`. It never falls back to
-per-card searches, which is the rate limiting the CSV path exists to avoid. The
-server surfaces cannot prompt, so they treat freshness as `auto` and report the
-refresh in the run log.
+per-card searches, which is the rate limiting the CSV path exists to avoid. A
+refresh there re-matches the local lists against the new cache and re-plans the
+push before anything is sent. The server surfaces cannot prompt, so they treat
+freshness as `auto` and report the refresh in the run log.
 
 **On the server surfaces** — the admin **Sync Collection** page and the MCP
 `sync_collection` tool — nothing can be prompted, so the request carries a `csv`

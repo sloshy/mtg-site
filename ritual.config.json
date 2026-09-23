@@ -66,6 +66,6 @@
     "deployMode": "publish-for-me",
     "distDir": "dist",
     "detectChanges": true,
-    "version": "0.1.0-beta28"
+    "version": "0.1.0-rc1"
   }
 }
