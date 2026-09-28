@@ -10,3 +10,5 @@
 - Falco Spara, Pactweaver &8
 - Quartzwood Crasher &9
 - Selvala, Heart of the Wilds &11
+- Aerid Konstrari &1
+- Hexhaven Invigorator &10

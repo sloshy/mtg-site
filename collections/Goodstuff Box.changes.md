@@ -1859,3 +1859,67 @@
 {"action":"remove","cardName":"Disruptor Flute","cardId":582,"set":"mh3","collectorNumber":"209","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Disruptor Flute","cardId":598,"set":"mh3","collectorNumber":"209","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-09-28T20:24:08.504Z
+
+- Added "The Eagles Are Coming!" (HOB:12) &137
+- Added "Wizard's Staff" (HOB:59) &209
+- Added "Fíli the Pathfinder" (HOB:14) &268
+- Added "Most Decrepit Old Bird // Speak Secrets" (HOB:49) &353
+- Added "Gigantic Big Bear" (HOB:126) &582
+- Added "Hungering Puppetbeast" (FRA:107) &598
+- Added "Hungering Puppetbeast" (FRA:107) &775
+- Added "Hungering Puppetbeast" (FRA:107) &778
+- Added "Tenured Tethermage" (FRA:154) &799
+- Added "Liliana the Repentant" (FRA:231) &800
+- Added "Vindictive Triumph" (FRA:377) &801
+- Added "Vindictive Triumph" (FRA:377) &802
+- Added "Vindictive Triumph" (FRA:162) &803
+- Added "Draconic Visitor" (FRA:80) &804
+- Added "Verdant Kraken" (FRA:118) &805
+- Added "Sanctum Lurker" (FRA:64) &806
+- Added "Ingris Stingerquill" (FRA:137) &807
+- Added "Face Yourself" (FRA:370) &808
+- Added "Flickering Hound" (FRA:359) &809
+- Added "Gardenize" (FRA:103) [foil] &810
+- Added "Dark Matter Manipulator" (FRA:340) &811
+- Added "Rockfall Vale" (FRA:186) &812
+- Added "Jace, Reality Sculptor" (FRA:300) &813
+- Added "Gideon's Memorial" (FRA:198) [foil] &814
+- Added "Solarium Sentry" (FRA:148) &815
+- Added "Master of Barbs" (FRA:88) &816
+- Added "Guiding Hydra" (FRA:11) &817
+- Added "Bloodline Recollector // Ancestral Craving" (FRA:49) &818
+- Added "Konstrari Annex" (FRA:183) &819
+
+```ritual-changes
+{"action":"add","cardName":"The Eagles Are Coming!","cardId":137,"set":"hob","collectorNumber":"12","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Wizard's Staff","cardId":209,"set":"hob","collectorNumber":"59","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Fíli the Pathfinder","cardId":268,"set":"hob","collectorNumber":"14","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Most Decrepit Old Bird // Speak Secrets","cardId":353,"set":"hob","collectorNumber":"49","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Gigantic Big Bear","cardId":582,"set":"hob","collectorNumber":"126","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hungering Puppetbeast","cardId":598,"set":"fra","collectorNumber":"107","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hungering Puppetbeast","cardId":775,"set":"fra","collectorNumber":"107","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Hungering Puppetbeast","cardId":778,"set":"fra","collectorNumber":"107","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Tenured Tethermage","cardId":799,"set":"fra","collectorNumber":"154","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Liliana the Repentant","cardId":800,"set":"fra","collectorNumber":"231","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Vindictive Triumph","cardId":801,"set":"fra","collectorNumber":"377","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Vindictive Triumph","cardId":802,"set":"fra","collectorNumber":"377","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Vindictive Triumph","cardId":803,"set":"fra","collectorNumber":"162","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Draconic Visitor","cardId":804,"set":"fra","collectorNumber":"80","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Verdant Kraken","cardId":805,"set":"fra","collectorNumber":"118","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Sanctum Lurker","cardId":806,"set":"fra","collectorNumber":"64","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Ingris Stingerquill","cardId":807,"set":"fra","collectorNumber":"137","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Face Yourself","cardId":808,"set":"fra","collectorNumber":"370","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Flickering Hound","cardId":809,"set":"fra","collectorNumber":"359","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Gardenize","cardId":810,"set":"fra","collectorNumber":"103","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Dark Matter Manipulator","cardId":811,"set":"fra","collectorNumber":"340","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Rockfall Vale","cardId":812,"set":"fra","collectorNumber":"186","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Jace, Reality Sculptor","cardId":813,"set":"fra","collectorNumber":"300","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Gideon's Memorial","cardId":814,"set":"fra","collectorNumber":"198","finish":"foil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Solarium Sentry","cardId":815,"set":"fra","collectorNumber":"148","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Master of Barbs","cardId":816,"set":"fra","collectorNumber":"88","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Guiding Hydra","cardId":817,"set":"fra","collectorNumber":"11","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Bloodline Recollector // Ancestral Craving","cardId":818,"set":"fra","collectorNumber":"49","finish":"nonfoil","condition":"NM","section":"Main"}
+{"action":"add","cardName":"Konstrari Annex","cardId":819,"set":"fra","collectorNumber":"183","finish":"nonfoil","condition":"NM","section":"Main"}
+```

@@ -797,3 +797,32 @@ labels:
 - Casey Jones, Vigilante (TMT:88) &796
 - Bilbo, Luckwearer // Burglar's Plot (PW26:15) &797
 - Spider-Sense (SPM:284) [foil] &798
+- The Eagles Are Coming! (HOB:12) &137
+- Wizard's Staff (HOB:59) &209
+- Fíli the Pathfinder (HOB:14) &268
+- Most Decrepit Old Bird // Speak Secrets (HOB:49) &353
+- Gigantic Big Bear (HOB:126) &582
+- Hungering Puppetbeast (FRA:107) &598
+- Hungering Puppetbeast (FRA:107) &775
+- Hungering Puppetbeast (FRA:107) &778
+- Tenured Tethermage (FRA:154) &799
+- Liliana the Repentant (FRA:231) &800
+- Vindictive Triumph (FRA:377) &801
+- Vindictive Triumph (FRA:377) &802
+- Vindictive Triumph (FRA:162) &803
+- Draconic Visitor (FRA:80) &804
+- Verdant Kraken (FRA:118) &805
+- Sanctum Lurker (FRA:64) &806
+- Ingris Stingerquill (FRA:137) &807
+- Face Yourself (FRA:370) &808
+- Flickering Hound (FRA:359) &809
+- Gardenize (FRA:103) [foil] &810
+- Dark Matter Manipulator (FRA:340) &811
+- Rockfall Vale (FRA:186) &812
+- Jace, Reality Sculptor (FRA:300) &813
+- Gideon's Memorial (FRA:198) [foil] &814
+- Solarium Sentry (FRA:148) &815
+- Master of Barbs (FRA:88) &816
+- Guiding Hydra (FRA:11) &817
+- Bloodline Recollector // Ancestral Craving (FRA:49) &818
+- Konstrari Annex (FRA:183) &819

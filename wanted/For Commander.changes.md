@@ -63,3 +63,13 @@
 {"action":"remove","cardName":"Quilled Greatwurm","cardId":10}
 {"action":"remove","cardName":"Hull Breach","cardId":12}
 ```
+
+## 2026-09-28T20:11:54.448Z
+
+- Added "Aerid Konstrari" &1
+- Added "Hexhaven Invigorator" &10
+
+```ritual-changes
+{"action":"add","cardName":"Aerid Konstrari","cardId":1,"section":"Main"}
+{"action":"add","cardName":"Hexhaven Invigorator","cardId":10,"section":"Main"}
+```
