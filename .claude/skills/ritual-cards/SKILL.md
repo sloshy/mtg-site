@@ -1,8 +1,8 @@
 ---
 name: ritual-cards
 description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or random cards. Output is JSON by default for easy parsing."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: defa15b7f73691d84638a9a2feb9285d082dc168cac52d82578ada6b91498205
+ritual-version: 0.1.0-rc2
+ritual-content-hash: 6e3b77309d1da51a8c230b9c94d19f775ba818b6f707122b4e0ede990b6d9030
 ---
 
 # Looking up cards with Ritual
@@ -60,7 +60,8 @@ whatever the page count — a single-page run and a five-page run produce the sa
 shape, and a run that matched nothing emits `[]`. Interactive paging prints each
 page as it arrives instead. `--output ndjson` streams one document per card as
 pages arrive, and `--output text` prints one `Name (SET)` line per card.
-`scry` is the only command whose `--output` takes a fourth value, `csv`.
+`scry` also takes `--output csv` (Scryfall's server-side CSV); `sell` is the
+only other command that does.
 When a non-interactive run stops with results left, one line always goes to
 stderr (`Fetched X of Y results (page 1); use --pages <n> for more.`) so a
 capped run is never mistaken for a complete one. A query with no matches exits

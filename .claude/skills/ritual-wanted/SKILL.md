@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: 86558ca8ce9e6a2d728fb77a0affb7ad68a1b7b4b5c886494ea2c5674e17f387
+ritual-version: 0.1.0-rc2
+ritual-content-hash: f43fac7ac69039a69814f7291fdad7166c8dd0941f23ed8af2e573c6c68ed69c
 ---
 
 # Managing wanted lists with Ritual
@@ -215,15 +215,15 @@ the rest still import (exit code 1 on partial failure).
 
 The unified `price` command covers all list types; scope it with `--wanted` or a
 name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), or `cardkingdom` (NM retail from the cached Card
-Kingdom feed; errors when no feed is downloaded — a bulk-allowing `--refresh`
-downloads it). A source implies its currency, so don't pass a conflicting
-`--prices`. Each store also picks its own printing for an entry that names none:
-under `cardkingdom` that is the newest printing CK actually sells, so an
-unpinned entry reads unpriced only when CK carries no printing of the card at
-all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
+(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
+— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
+don't pass a conflicting `--prices`. Each store also picks its own printing for
+an entry that names none: under `cardkingdom` that is the newest printing CK
+actually sells, so an unpinned entry reads unpriced only when CK carries no
+printing of the card at all (a pinned printing CK does not sell always does). An
+interactive browser opens on a TTY — for agents, always pass `--summary`,
+`--output json`, or the global `--no-input` flag:
 
 ```bash
 ritual price --wanted --summary                # every wanted list's totals
@@ -231,7 +231,7 @@ ritual price to-buy --no-input                 # one list's cards + totals
 ritual price to-buy --output json --quiet
 ritual price to-buy --sort price --descending --no-input
 ritual price to-buy --prices eur               # usd | eur | tix (defaults to config defaultCurrency)
-ritual price to-buy --source cardkingdom       # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price to-buy --source cardkingdom       # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
 ```
 
 Each wanted list also reports a "lowest" total: name-only entries use the cheapest

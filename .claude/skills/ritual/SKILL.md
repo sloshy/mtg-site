@@ -1,8 +1,8 @@
 ---
 name: ritual
 description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: 88345d1425992be638d34f97bf2aa7186f76e18b7bbe936377040b4d237efb5b
+ritual-version: 0.1.0-rc2
+ritual-content-hash: 68d1f3a63285135cfa38373f6baa8f2ca9ae0d64eb2181ec9b90d8b233d7bed3
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -420,8 +420,9 @@ still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
   ...` message naming the flag that would have supplied it, or what the prompt
   asked for when no flag exists (or uses a documented default) instead of hanging
   or exiting 0 having done nothing. A non-terminal stdin — every agent invocation
-  — is treated exactly the same way, so the flag is never strictly required. There
-  are no per-command non-interactive flags.
+  — is treated exactly the same way, so the flag is never strictly required. No
+  command has its own non-interactive switch; flags such as `--yes`, `--confirm`,
+  or `--all` supply the answer a prompt would have asked for.
 
 Exit codes are uniform across commands: **1** runtime error, **2** usage error,
 **3** not found. A missing resource — a list, file, or sidecar that is simply
@@ -483,7 +484,8 @@ ritual config set <prop> <value>  # set a config value (dot notation for nested 
 ritual config set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
 ritual config set priceSources tcgplayer cardkingdom  # stores the sites offer prices from
                                   #   (tcgplayer = Scryfall USD, cardmarket = Scryfall EUR,
-                                  #   cardkingdom = CK NM retail). Default tcgplayer; remove every
+                                  #   cardkingdom = CK NM retail, cardhoarder = MTGO tix); sites
+                                  #   offer only these stores' currencies. Default tcgplayer; remove every
                                   #   entry (--remove) to hide all site prices. cardkingdom makes
                                   #   builds/servers download the ~70 MB CK feed like sell mode
 ritual config set defaultCategories Ramp Draw Removal  # global category vocabulary: what new

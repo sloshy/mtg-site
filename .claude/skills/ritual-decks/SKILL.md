@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: 399ca89a792cc20320e132c6b137a0def99d49f034599a21160fe6d640032f7c
+ritual-version: 0.1.0-rc2
+ritual-content-hash: d64741811fae4824b18348e1543bc6127280b9d7ac74e93a57f8ad520a995c01
 ---
 
 # Managing decks with Ritual
@@ -452,22 +452,22 @@ ritual get-primer <moxfield-url>          # fetch a primer from Moxfield
 
 The unified `price` command covers all list types; scope it with `--deck` or a
 name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), or `cardkingdom` (NM retail from the cached Card
-Kingdom feed; errors when no feed is downloaded — a bulk-allowing `--refresh`
-downloads it). A source implies its currency, so don't pass a conflicting
-`--prices`. Each store also picks its own printing for an entry that names none:
-under `cardkingdom` that is the newest printing CK actually sells, so an
-unpinned entry reads unpriced only when CK carries no printing of the card at
-all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
+(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
+— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
+don't pass a conflicting `--prices`. Each store also picks its own printing for
+an entry that names none: under `cardkingdom` that is the newest printing CK
+actually sells, so an unpinned entry reads unpriced only when CK carries no
+printing of the card at all (a pinned printing CK does not sell always does). An
+interactive browser opens on a TTY — for agents, always pass `--summary`,
+`--output json`, or the global `--no-input` flag:
 
 ```bash
 ritual price --deck --summary                       # every deck's totals
 ritual price "Winota Stax" --no-input               # one deck's cards + totals
 ritual price "Winota Stax" --output json --quiet
 ritual price "Winota Stax" --prices eur             # usd | eur | tix (defaults to config defaultCurrency)
-ritual price "Winota Stax" --source cardkingdom     # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price "Winota Stax" --source cardkingdom     # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
 ```
 
 Deck totals cover every section except extras (maybeboard/token). Each deck also

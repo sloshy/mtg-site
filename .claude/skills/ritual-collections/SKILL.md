@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: 9f14de06f90a8d2884c3649de4f923d57fea7fab0294fa9ba30f2376fbd03641
+ritual-version: 0.1.0-rc2
+ritual-content-hash: e91964aa304a422f9a829279c97e19c978dc8638541161db12110ad1d82767e4
 ---
 
 # Managing collections with Ritual
@@ -459,15 +459,15 @@ that was not given `csv: true`.
 
 The unified `price` command covers all list types; scope it with `--collection`
 or a name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), or `cardkingdom` (NM retail from the cached Card
-Kingdom feed; errors when no feed is downloaded — a bulk-allowing `--refresh`
-downloads it). A source implies its currency, so don't pass a conflicting
-`--prices`. Each store also picks its own printing for an entry that names none:
-under `cardkingdom` that is the newest printing CK actually sells, so an
-unpinned entry reads unpriced only when CK carries no printing of the card at
-all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
+(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
+— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
+don't pass a conflicting `--prices`. Each store also picks its own printing for
+an entry that names none: under `cardkingdom` that is the newest printing CK
+actually sells, so an unpinned entry reads unpriced only when CK carries no
+printing of the card at all (a pinned printing CK does not sell always does). An
+interactive browser opens on a TTY — for agents, always pass `--summary`,
+`--output json`, or the global `--no-input` flag:
 
 ```bash
 ritual price --collection --summary            # every collection's totals
@@ -475,7 +475,7 @@ ritual price main-binder --no-input            # one collection's cards + totals
 ritual price main-binder --output json --quiet
 ritual price main-binder --sort price --descending --no-input
 ritual price main-binder --prices eur          # usd | eur | tix (defaults to config defaultCurrency)
-ritual price main-binder --source cardkingdom    # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price main-binder --source cardkingdom    # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
 ```
 
 Collection entries are priced at their exact printing and finish; totals include a

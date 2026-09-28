@@ -1,8 +1,8 @@
 ---
 name: ritual-site
 description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-rc1
-ritual-content-hash: 6db8230db379a964a1cc204ee5c311e05395faa2b4d76ae127e5355e18483cf8
+ritual-version: 0.1.0-rc2
+ritual-content-hash: 94b6c787b74f2a026b01482d5d58e0f433fa33beccf92c6294dd34f0cf12c3dd
 ---
 
 # Building and serving a Ritual site
@@ -122,7 +122,7 @@ ritual build-site                                          # build the configure
 ritual build-site --decks "Winota Stax" "Mono-Red Aggro"   # specific decks
 ritual build-site --collections "Main Binder"              # specific collections
 ritual build-site --wanted-lists "To Buy"                  # specific wanted lists
-ritual build-site --currencies usd,eur             # currencies to include (first is default)
+ritual build-site --currencies usd,eur             # narrow the currencies (default: every priceSources currency; never adds one)
 ritual build-site --theme izzet                    # initial theme baked into the HTML
 ritual build-site --theme-file my-theme.json       # load custom theme JSON files (their names become selectable)
 ritual build-site --locale de-AT                   # UI locale baked into the site (html lang/dir, opening language)
@@ -334,8 +334,13 @@ ritual build-site
 
 The **stores the site prices cards from** come from the `priceSources` config key
 (default `["tcgplayer"]`): `tcgplayer` is Scryfall's USD market price, `cardmarket`
-Scryfall's EUR trend price, and `cardkingdom` Card Kingdom's NM retail price, read off the
-same baked buylist quotes sell mode uses. With more than one USD store enabled, list pages
+Scryfall's EUR trend price, `cardhoarder` Scryfall's MTGO tix price, and `cardkingdom` Card
+Kingdom's NM retail price, read off the same baked buylist quotes sell mode uses. The stores
+also decide the site's **currencies**: a build or server offers exactly the currencies an
+enabled store quotes in (so tix appears only with `cardhoarder`). `build-site --currencies`
+can only narrow that set (a list naming no store-backed currency exits 2, and `serve --api`
+refuses the flag), and the header's currency selector appears only when more than one is
+offered. With more than one USD store enabled, list pages
 grow a **Prices** selector (USD views only; EUR is always Cardmarket) whose choice is
 shareable in the view URL (`prices=cardkingdom`); switching it clears price filters like a
 currency switch. The same selector appears in the card modal's **Other Printings** grid and
