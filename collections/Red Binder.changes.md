@@ -595,3 +595,11 @@
 {"action":"remove","cardName":"Archmage of Runes","cardId":64,"set":"fdn","collectorNumber":"450","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Archmage of Runes","cardId":63,"set":"fdn","collectorNumber":"30","finish":"foil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.972Z
+
+- Removed "Hoarding Broodlord" (MOM:110) [foil] &82
+
+```ritual-changes
+{"action":"remove","cardName":"Hoarding Broodlord","cardId":82,"set":"mom","collectorNumber":"110","finish":"foil","condition":"NM"}
+```

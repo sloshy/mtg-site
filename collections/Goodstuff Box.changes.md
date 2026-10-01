@@ -1923,3 +1923,21 @@
 {"action":"add","cardName":"Bloodline Recollector // Ancestral Craving","cardId":818,"set":"fra","collectorNumber":"49","finish":"nonfoil","condition":"NM","section":"Main"}
 {"action":"add","cardName":"Konstrari Annex","cardId":819,"set":"fra","collectorNumber":"183","finish":"nonfoil","condition":"NM","section":"Main"}
 ```
+
+## 2026-10-01T02:57:53.903Z
+
+- Removed "Three Tree City" (BLB:260) &150
+- Removed "Three Tree City" (BLB:260) &151
+- Removed "Lotus Petal" (MB2:226) &210
+- Removed "Rise of the Dark Realms" (FDN:323) [foil] &134
+- Removed "Alandra, Sky Dreamer" (J22:9) &655
+- Removed "Leonin Warleader" (J22:208) &637
+
+```ritual-changes
+{"action":"remove","cardName":"Three Tree City","cardId":150,"set":"blb","collectorNumber":"260","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Three Tree City","cardId":151,"set":"blb","collectorNumber":"260","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Lotus Petal","cardId":210,"set":"mb2","collectorNumber":"226","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Rise of the Dark Realms","cardId":134,"set":"fdn","collectorNumber":"323","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Alandra, Sky Dreamer","cardId":655,"set":"j22","collectorNumber":"9","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Leonin Warleader","cardId":637,"set":"j22","collectorNumber":"208","finish":"nonfoil","condition":"NM"}
+```

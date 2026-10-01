@@ -29,7 +29,6 @@ labels:
 - Meren of Clan Nel Toth (CMM:346) &20
 - The Tarrasque (AFR:207) &21
 - Ochre Jelly (AFR:196) &22
-- Ancient Silver Dragon (CLB:56) &23
 - Flamewake Phoenix (FDN:198) &24
 - Zul Ashur, Lich Lord (FDN:77) &25
 - Intellect Devourer (CLB:132) &26
@@ -59,11 +58,9 @@ labels:
 - Marketback Walker (DFT:393) &51
 - Metallic Mimic (AER:164) &52
 - Cybermen Squadron (WHO:176) &53
-- Marvin, Murderous Mimic (DSK:253) &54
 - Marvin, Murderous Mimic (DSK:253) &55
 - Meteor Golem (SLD:1660) &56
 - Wurmcoil Engine (SLD:1661) &57
-- Academy Manufactor (MOC:346) &58
 - Scrawling Crawler (FDN:354) &59
 - Meteor Golem (SLD:1660) [foil] &60
 - Wurmcoil Engine (SLD:1661) [foil] &61
@@ -197,7 +194,6 @@ labels:
 - Bristlebud Farmer (BIG:17) &194
 - Coveted Falcon (MKM:48) &195
 - Sharp-Eyed Rookie (MKM:176) &196
-- Yarok, the Desecrated (MUL:193) [foil] &197
 - Ayara, Widow of the Realm // Ayara, Furnace Queen (MOM:90) [foil] &198
 - Glissa, Herald of Predation (MOM:308) &199
 - Crystal Barricade (FDN:7) &200
@@ -304,13 +300,11 @@ labels:
 - Rune-Scarred Demon (FDN:184) [foil] &302
 - Tinybones, Bauble Burglar (FDN:72) &303
 - Tinybones, Bauble Burglar (FDN:324) &304
-- Tinybones, Bauble Burglar (FDN:324) &305
 - Zul Ashur, Lich Lord (FDN:77) &306
 - The Mindskinner (DSK:66) &307
 - Gravecrawler (PLST:DDQ-59) &308
 - High-Society Hunter (FDN:61) &309
 - Grafted Butcher (MOM:359) [foil] &310
-- Hoarding Broodlord (MOM:360) [foil] &311
 - Ayara, First of Locthwain (MUL:13) [foil] &312
 - Defiant Bloodlord (C21:142) &313
 - Zephyr Singer (MOM:355) &314
@@ -413,7 +407,6 @@ labels:
 - Mindspring Merfolk (DFT:51) &412
 - Mindspring Merfolk (DFT:51) &413
 - Rhet-Tomb Mystic (DRC:26) &414
-- Bloodline Keeper // Lord of Lineage (INR:327) &415
 - Waxen Shapethief (DFT:74) &416
 - Qarsi Revenant (TDM:426) [foil] &417
 - Ochre Jelly (AFR:196) &418
@@ -549,7 +542,6 @@ labels:
 - Steamcore Scholar (MKM:397) &552
 - Havoc Eater (MKC:341) &553
 - Doorkeeper Thrull (MKM:338) &554
-- Rakdos, Patron of Chaos (MKM:369) [foil] &555
 - Raubahn, Bull of Ala Mhigo (FIN:388) [foil] &556
 - Ardyn, the Usurper (FIN:379) &557
 - Lulu, Stern Guardian (FIC:143) &558

@@ -335,7 +335,6 @@ labels:
 - Bedlam (USG:175) &345
 - Mystic Forge (PIP:484) [foil] &346
 - Alexios, Deimos of Kosmos (ACR:214) [etched] &347
-- Traverse the Outlands (CLB:258) &348
 - Vorinclex, Monstrous Raider (KHM:406) &349
 - Susur Secundi, Void Altar (PEOE:259p) [foil] &350
 - Hardlight Containment (EOE:20) [foil] &351

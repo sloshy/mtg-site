@@ -987,3 +987,11 @@
 {"action":"remove","cardName":"Birds of Paradise","cardId":268,"set":"m12","collectorNumber":"165","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Sakashima of a Thousand Faces","cardId":388,"set":"cmr","collectorNumber":"89","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.983Z
+
+- Removed "Traverse the Outlands" (CLB:258) &348
+
+```ritual-changes
+{"action":"remove","cardName":"Traverse the Outlands","cardId":348,"set":"clb","collectorNumber":"258","finish":"nonfoil","condition":"NM"}
+```

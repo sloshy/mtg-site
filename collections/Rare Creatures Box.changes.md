@@ -1983,3 +1983,25 @@
 {"action":"remove","cardName":"Birds of Paradise","cardId":513,"set":"ltc","collectorNumber":"235","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Dauthi Voidwalker","cardId":657,"set":"mh2","collectorNumber":"81","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.957Z
+
+- Removed "Hoarding Broodlord" (MOM:360) [foil] &311
+- Removed "Academy Manufactor" (MOC:346) &58
+- Removed "Bloodline Keeper // Lord of Lineage" (INR:327) &415
+- Removed "Tinybones, Bauble Burglar" (FDN:324) &305
+- Removed "Marvin, Murderous Mimic" (DSK:253) &54
+- Removed "Ancient Silver Dragon" (CLB:56) &23
+- Removed "Yarok, the Desecrated" (MUL:193) [foil] &197
+- Removed "Rakdos, Patron of Chaos" (MKM:369) [foil] &555
+
+```ritual-changes
+{"action":"remove","cardName":"Hoarding Broodlord","cardId":311,"set":"mom","collectorNumber":"360","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Academy Manufactor","cardId":58,"set":"moc","collectorNumber":"346","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Bloodline Keeper // Lord of Lineage","cardId":415,"set":"inr","collectorNumber":"327","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Tinybones, Bauble Burglar","cardId":305,"set":"fdn","collectorNumber":"324","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Marvin, Murderous Mimic","cardId":54,"set":"dsk","collectorNumber":"253","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Ancient Silver Dragon","cardId":23,"set":"clb","collectorNumber":"56","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Yarok, the Desecrated","cardId":197,"set":"mul","collectorNumber":"193","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Rakdos, Patron of Chaos","cardId":555,"set":"mkm","collectorNumber":"369","finish":"foil","condition":"NM"}
+```

@@ -58,7 +58,6 @@ labels:
 - J. Jonah Jameson (SPM:81) &49
 - Anticausal Vestige (EOE:1) [foil] &50
 - Wedding Ring (WHO:213) &51
-- Michiko Konda, Truth Seeker (J22:215) &52
 - Phyrexian Reclamation (J22:124) &53
 - The Infamous Cruelclaw (BLB:219) &54
 - Bedevil (NCC:331) &55
@@ -352,7 +351,6 @@ labels:
 - Mighty Servant of Leuk-o (CLB:324) &356
 - Astarion, the Decadent (CLB:524) [etched] &357
 - Alaundo the Seer (CLB:523) [etched] &358
-- Monster Manual // Zoological Study (CLB:242) &359
 - Psionic Ritual (CLB:618) &360
 - Gorion, Wise Mentor (CLB:534) [etched] &361
 - Ravenloft Adventurer (CLB:577) [foil] &362
@@ -394,7 +392,6 @@ labels:
 - Genji Glove (FIN:258) &401
 - Terra, Magical Adept // Esper Terra (FIN:323) &402
 - Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:127) &403
-- Summon: Knights of Round (FIN:36) &404
 - The Wandering Minstrel (FIN:249) &405
 - The Regalia (FIN:267) &406
 - Danitha Capashen, Paragon (FCA:22) &407

@@ -77,7 +77,6 @@ labels:
 - Bitter Triumph (LCI:91) &79
 - Nine-Lives Familiar (FDN:66) &80
 - Nine-Lives Familiar (FDN:66) &81
-- Hoarding Broodlord (MOM:110) [foil] &82
 - Leyline of the Void (WOT:30) &83
 - Drana, the Last Bloodchief (SLD:1684) [foil] &84
 - Bloodthirsty Conqueror (FDN:460) [foil] &85

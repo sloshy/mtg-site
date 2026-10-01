@@ -67,7 +67,6 @@ labels:
 - Kasla, the Broken Halo (MOC:4) &59
 - City on Fire (MOM:135) &60
 - Rashmi and Ragavan (MOC:8) &61
-- Tyvar the Bellicose (MAT:48) &62
 - Samut, Vizier of Naktamun (MAT:45) [foil] &63
 - Ayara's Oathsworn (MAT:11) &64
 - Tazri, Stalwart Survivor (MAT:6) &65
@@ -201,7 +200,6 @@ labels:
 - Intangible Virtue (WOT:6) &195
 - Beseech the Mirror (WOE:82) &196
 - Griffin Aerie (WOT:5) &197
-- Shared Animosity (WOT:49) &198
 - Stab Wound (WOT:36) &199
 - Oversold Cemetery (WOT:33) &200
 - Feral Encounter (WOE:169) &201
@@ -385,7 +383,6 @@ labels:
 - Simian Spirit Guide (PLST:PLC-122) &384
 - Arboreal Alliance (LTC:497) [foil] &385
 - Legolas, Master Archer (LTR:173) &386
-- Lórien Revealed (LTR:511) &387
 - Éomer, Marshal of Rohan (LTR:571) &388
 - Horn of Gondor (LTR:240) &389
 - Reprieve (LTR:26) &390
@@ -442,7 +439,6 @@ labels:
 - Unwinding Clock (BRR:124) &444
 - Haywire Mite (BRO:199) &445
 - Blast Zone (BRO:258) &446
-- Staff of Domination (BRR:56) &447
 - Journeyer's Kite (BRR:88) [foil] &448
 - Tyrant of Kher Ridges (BRO:154) &449
 - Sword of the Meek (BRR:59) &450
@@ -701,7 +697,6 @@ labels:
 - Devouring Sugarmaw // Have for Dinner (WOE:224) [foil] &707
 - Stab Wound (WOT:36) [foil] &708
 - Garruk's Uprising (WOT:53) &709
-- Shared Animosity (WOT:49) &710
 - The Irencrag (WOE:368) &711
 - Tangled Colony (WOE:113) [foil] &712
 - Elusive Otter // Grove's Bounty (WOE:289) &713
@@ -754,7 +749,6 @@ labels:
 - Echo of Eons (MB2:160) &760
 - Pandemonium (PLST:TPR-149) &761
 - Prismatic Ending (MB2:16) &762
-- Echo of Eons (MB2:160) &763
 - Murderous Rider // Swift End (PLST:ELD-97) &764
 - Consider (MB2:25) &765
 - Aether Vial (MB2:216) &766
@@ -807,13 +801,11 @@ labels:
 - Chain of Vapor (MB2:156) &815
 - Nullhide Ferox (PLST:GRN-138) &816
 - Ponder (MB2:34) &817
-- Aether Vial (MB2:216) [foil] &818
 - Prosper, Tome-Bound (PLST:AFC-2) &819
 - Deafening Silence (MB2:9) &820
 - Mirri's Guile (MB2:209) &821
 - Blatant Thievery (PLST:E02-8) &822
 - Serra the Benevolent (MB2:17) &823
-- Goblin Recruiter (MB2:193) &824
 - Berserkers' Onslaught (PLST:DTK-130) &825
 - Minsc & Boo, Timeless Heroes (MB2:88) &826
 - Power Matrix (MB2:229) &827
@@ -848,7 +840,6 @@ labels:
 - Reassembling Skeleton (J22:125) &857
 - Priest of the Blood Rite (J22:457) &858
 - Skirsdag High Priest (J22:467) &859
-- Alandra, Sky Dreamer (J22:9) &860
 - Spectral Sailor (J22:64) &861
 - Mizzix, Replica Rider (J22:35) &862
 - Cultivate (J22:644) &863
@@ -887,7 +878,6 @@ labels:
 - Valkyrie Harbinger (J25:275) &896
 - Dropkick Bomber (J25:13) &897
 - Goblin Goliath (J25:557) &898
-- General Kreat, the Boltbringer (J25:48) &899
 - Speaker of the Heavens (J25:102) &900
 - Rionya, Fire Dancer (J25:75) &901
 - Harvester of Souls (J25:453) &902

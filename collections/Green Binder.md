@@ -120,7 +120,6 @@ labels:
 - Simulacrum Synthesizer (BIG:6) &126
 - Simulacrum Synthesizer (BIG:71) [foil] &127
 - Deadeye Navigator (SLD:902) [foil] &128
-- Enduring Curiosity (DSK:51) &129
 - Enduring Curiosity (PDSK:51p) [foil] &130
 - Harbinger of the Seas (MH3:451) [foil] &131
 - Stormchaser's Talent (BLB:75) &132

@@ -1975,3 +1975,29 @@
 {"action":"remove","cardName":"Calix, Guided by Fate","cardId":83,"set":"mat","collectorNumber":"26","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Hullbreaker Horror","cardId":242,"set":"woc","collectorNumber":"95","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.923Z
+
+- Removed "Lórien Revealed" (LTR:511) &387
+- Removed "Staff of Domination" (BRR:56) &447
+- Removed "Tyvar the Bellicose" (MAT:48) &62
+- Removed "Alandra, Sky Dreamer" (J22:9) &860
+- Removed "Shared Animosity" (WOT:49) &710
+- Removed "Shared Animosity" (WOT:49) &198
+- Removed "Aether Vial" (MB2:216) [foil] &818
+- Removed "Echo of Eons" (MB2:160) &763
+- Removed "General Kreat, the Boltbringer" (J25:48) &899
+- Removed "Goblin Recruiter" (MB2:193) &824
+
+```ritual-changes
+{"action":"remove","cardName":"Lórien Revealed","cardId":387,"set":"ltr","collectorNumber":"511","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Staff of Domination","cardId":447,"set":"brr","collectorNumber":"56","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Tyvar the Bellicose","cardId":62,"set":"mat","collectorNumber":"48","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Alandra, Sky Dreamer","cardId":860,"set":"j22","collectorNumber":"9","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Shared Animosity","cardId":710,"set":"wot","collectorNumber":"49","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Shared Animosity","cardId":198,"set":"wot","collectorNumber":"49","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Aether Vial","cardId":818,"set":"mb2","collectorNumber":"216","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Echo of Eons","cardId":763,"set":"mb2","collectorNumber":"160","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"General Kreat, the Boltbringer","cardId":899,"set":"j25","collectorNumber":"48","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Goblin Recruiter","cardId":824,"set":"mb2","collectorNumber":"193","finish":"nonfoil","condition":"NM"}
+```

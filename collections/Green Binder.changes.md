@@ -611,3 +611,11 @@
 {"action":"remove","cardName":"Enduring Tenacity","cardId":180,"set":"dsk","collectorNumber":"374","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Full Throttle","cardId":229,"set":"dft","collectorNumber":"127","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.942Z
+
+- Removed "Enduring Curiosity" (DSK:51) &129
+
+```ritual-changes
+{"action":"remove","cardName":"Enduring Curiosity","cardId":129,"set":"dsk","collectorNumber":"51","finish":"nonfoil","condition":"NM"}
+```

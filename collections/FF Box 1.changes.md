@@ -1065,3 +1065,15 @@
 {"action":"remove","cardName":"Earthquake Dragon","cardId":365,"set":"clb","collectorNumber":"588","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Counterspell","cardId":418,"set":"fca","collectorNumber":"4","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T02:57:53.934Z
+
+- Removed "Summon: Knights of Round" (FIN:36) &404
+- Removed "Monster Manual // Zoological Study" (CLB:242) &359
+- Removed "Michiko Konda, Truth Seeker" (J22:215) &52
+
+```ritual-changes
+{"action":"remove","cardName":"Summon: Knights of Round","cardId":404,"set":"fin","collectorNumber":"36","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Monster Manual // Zoological Study","cardId":359,"set":"clb","collectorNumber":"242","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Michiko Konda, Truth Seeker","cardId":52,"set":"j22","collectorNumber":"215","finish":"nonfoil","condition":"NM"}
+```

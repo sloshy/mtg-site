@@ -128,7 +128,6 @@ labels:
 - Ojer Taq, Deepest Foundation // Temple of Civilization (LCI:26) [foil] &131
 - Get Lost (LCI:333) &132
 - Meathook Massacre II (DSK:311) &133
-- Rise of the Dark Realms (FDN:323) [foil] &134
 - Herald of Eternal Dawn (FDN:299) &135
 - Herald of Eternal Dawn (FDN:17) &136
 - Authority of the Consuls (FDN:137) [foil] &138
@@ -142,8 +141,6 @@ labels:
 - Caretaker's Talent (BLB:6) &147
 - Caretaker's Talent (BLB:6) &148
 - Sunfall (MOM:40) &149
-- Three Tree City (BLB:260) &150
-- Three Tree City (BLB:260) &151
 - Chimil, the Inner Sun (LCI:249) &153
 - Fountainport (BLB:253) &155
 - Fountainport (BLB:253) [foil] &156
@@ -200,7 +197,6 @@ labels:
 - Breeding Pool (PEOE:251p) [foil] &206
 - Cauldron Familiar (SLD:1759) [foil] &207
 - Hell's Caretaker (PLST:A25-92) &208
-- Lotus Petal (MB2:226) &210
 - Sovereign Okinec Ahau (LCI:309) &211
 - Avatar Kyoshi, Earthbender (TLE:201) [foil] &212
 - Smothering Tithe (RNA:22) &214
@@ -637,7 +633,6 @@ labels:
 - Muxus, Goblin Grandee (J22:575) &634
 - Kessig Cagebreakers (J22:681) &635
 - Feed the Pack (J22:657) &636
-- Leonin Warleader (J22:208) &637
 - Ardoz, Cobbler of War (J22:29) &638
 - Goblin Rabblemaster (J22:545) &639
 - Stitch in Time (RVR:384) &640
@@ -655,7 +650,6 @@ labels:
 - Gravecrawler (J22:423) &652
 - Necromancer's Stockpile (J22:446) &653
 - Kothophed, Soul Hoarder (J22:431) &654
-- Alandra, Sky Dreamer (J22:9) &655
 - Deathbringer Regent (J22:396) &656
 - Oversold Cemetery (J22:453) &657
 - Evelyn, the Covetous (SNC:184) &658
