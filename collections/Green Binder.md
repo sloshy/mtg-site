@@ -40,10 +40,8 @@ labels:
 - Legion Loyalty (CLB:371) &36
 - Elesh Norn, Mother of Machines (ONE:10) &37
 - Invasion of Gobakhan // Lightshield Array (MOM:22) &38
-- Thalia, Heretic Cathar (EMN:46) [foil] &39
 - Flare of Fortitude (MH3:26) &41
 - Flare of Fortitude (MH3:321) &42
-- Filigree Vector (MOC:102) &43
 - Elesh Norn // The Argent Etchings (MOM:292) [foil] &44
 - Steelshaper's Gift (CMM:629) [foil] &45
 - Skyhunter Strike Force (ONC:31) &46
@@ -53,7 +51,6 @@ labels:
 - Ravages of War (PIP:354) [foil] &53
 - Starlight Spectacular (UNF:28) [foil] &54
 - Ondu Spiritdancer (CMM:756) &55
-- Onakke Oathkeeper (CMM:755) &56
 - Nahiri, the Lithomancer (CMM:45) [foil] &57
 - Shardmage's Rescue (DSK:411) &58
 - Exemplar of Light (FDN:297) [foil] &60
@@ -70,7 +67,6 @@ labels:
 - Riverchurn Monument (DFT:381) [foil] &72
 - Riverchurn Monument (DFT:381) [foil] &73
 - Repurposing Bay (DFT:56) &74
-- Unstoppable Plan (DFT:72) [foil] &75
 - Unstoppable Plan (DFT:382) &76
 - Unstoppable Plan (DFT:382) [foil] &77
 - Prophet of the Scarab (DRC:25) &78
@@ -114,7 +110,6 @@ labels:
 - Vnwxt, Verbose Host (DFT:73) &120
 - Vnwxt, Verbose Host (DFT:73) &121
 - Starfield Vocalist (EOE:78) &122
-- Starfield Vocalist (EOE:78) &123
 - Aether Channeler (DMU:392) [foil] &124
 - Personal Tutor (CMM:110) [foil] &125
 - Simulacrum Synthesizer (BIG:6) &126
@@ -130,7 +125,6 @@ labels:
 - Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time (LCI:315) &137
 - Nexus of Fate (PLST:M19-306) &138
 - Temporal Manipulation (MB2:174) &139
-- Pact of Negation (MB2:169) &140
 - Gitaxian Probe (NPH:35) &141
 - Deadeye Navigator (INR:492) [foil] &142
 - Shark Typhoon (SCH:28) &143

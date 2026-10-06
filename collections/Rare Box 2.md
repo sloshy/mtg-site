@@ -30,7 +30,6 @@ labels:
 - Dramatic Reversal (P30A:24) [foil] &22
 - Starfall Invocation (BLB:298) &23
 - Starfall Invocation (BLB:34) &24
-- Nature's Rhythm (TDM:150) &25
 - Blasphemous Edict (FDN:57) &26
 - Generous Gift (SLD:2088) [foil] &27
 - Open the Armory (SLD:2089) [foil] &28
@@ -82,7 +81,6 @@ labels:
 - Culling Ritual (PW25:4) &74
 - Explosive Singularity (NEO:140) &75
 - Singularity Rupture (PEOE:228p) &76
-- Three Steps Ahead (OTJ:75) &77
 - March of the Multitudes (SCD:236) &78
 - Anzrag's Rampage (PMKM:111s) [foil] &79
 - Nature's Rhythm (TDM:150) [foil] &80
@@ -253,7 +251,6 @@ labels:
 - New Way Forward (TDM:211) &249
 - Perennation (TDM:368) &250
 - Perennation (TDM:212) [foil] &251
-- Three Steps Ahead (OTJ:75) &252
 - Preordain (SCH:39) &253
 - Second Harvest (INR:213) [foil] &255
 - Genesis Wave (FDN:221) &256

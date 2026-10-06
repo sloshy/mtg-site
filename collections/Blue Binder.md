@@ -80,7 +80,6 @@ labels:
 - Neera, Wild Mage (CLB:545) [etched] &73
 - Raphael, Fiendish Savior (CLB:292) &74
 - Arwen, Mortal Queen (LTR:193) &75
-- Valgavoth, Harrower of Souls (DSC:6) &76
 - Kianne, Corrupted Memory (DSC:2) &77
 - The Jolly Balloon Man (DSK:219) &78
 - Marina Vendrell (DSK:221) &79
@@ -121,10 +120,8 @@ labels:
 - Samut, the Driving Force (DFT:367) &114
 - Sita Varma, Masked Racer (DFT:223) [foil] &115
 - Huntmaster of the Fells // Ravager of the Fells (INR:241) &116
-- Edgar Markov (INR:234) &117
 - Mendicant Core, Guidelight (DFT:365) [foil] &118
 - Miirym, Sentinel Wyrm (CLB:431) &119
-- Miirym, Sentinel Wyrm (CLB:542) [etched] &120
 - Mendicant Core, Guidelight (DFT:213) &121
 - Lurrus of the Dream-Den (MUL:51) [foil] &122
 - Altered Ego (INR:228) &123
@@ -185,7 +182,6 @@ labels:
 - Superior Spider-Man (SPM:155) &178
 - Cosmic Spider-Man (SPM:271) &179
 - Silk, Web Weaver (SPM:145) &180
-- Superior Spider-Man (SPM:275) [foil] &181
 - Jackal, Genius Geneticist (SPM:131) &182
 - Carnage, Crimson Chaos (SPM:125) &183
 - Spider-Woman, Stunning Savior (SPM:152) &185

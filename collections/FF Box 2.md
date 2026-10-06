@@ -20,13 +20,10 @@ labels:
 - Homunculus Horde (FDN:454) [foil] &11
 - Malcolm, Keen-Eyed Navigator (SPG:2) &12
 - Squirming Emergence (LCI:241) &13
-- Get Lost (LCI:14) &14
 - Deepfathom Echo (LCI:228) &15
 - Gishath, Sun's Avatar (LCI:229) &16
 - The Enigma Jewel // Locus of Enlightenment (LCI:55) &17
-- Clavileño, First of the Blessed (LCC:2) &18
 - Souls of the Lost (LCI:121) [foil] &19
-- Worn Powerstone (LCC:120) &20
 - Flamekin Village (PLST:C14-60) &21
 - Breeches, Eager Pillager (LCI:137) &22
 - Restless Vents (LCI:284) &23
@@ -55,7 +52,6 @@ labels:
 - Karoo (PLST:VIS-165) &46
 - Gideon, Ally of Zendikar (PLST:BFZ-29) &47
 - Minsc & Boo, Timeless Heroes (MB2:88) &49
-- Gisela, the Broken Blade (INR:24) [foil] &50
 - Baird, Steward of Argive (PLST:DOM-4) &51
 - Elder Deep-Fiend (INR:4) [foil] &52
 - Electro, Assaulting Battery (SPM:76) &53
@@ -197,7 +193,6 @@ labels:
 - Orca, Siege Demon (DMC:37) &199
 - Primeval Spawn (DMC:89) &200
 - Llanowar Greenwidow (DMU:169) [foil] &201
-- Rith, Liberated Primeval (DMU:354) [foil] &202
 - Shadow-Rite Priest (DMU:403) [foil] &203
 - Ertai Resurrected (DMU:298) &204
 - Sphinx of Clear Skies (DMU:396) &205
@@ -384,7 +379,6 @@ labels:
 - Imperial Recruiter (MH2:281) &392
 - Etali, Primal Conqueror // Etali, Primal Sickness (MOM:298) &393
 - Minamo, School at Water's Edge (CHK:279) &394
-- Hullbreaker Horror (INR:357) [foil] &395
 - Blur (CLB:58) &396
 - Sword of Hearth and Home (MH2:238) &397
 - Loot, Exuberant Explorer (FDN:106) &398
@@ -416,6 +410,5 @@ labels:
 - Young Pyromancer (UMA:155) &423
 - Galvanic Iteration (INR:430) [foil] &56
 - Brainstorm (MKC:96) &155
-- Electro, Assaulting Battery (SPM:76) &319
 - Bloom Tender (PLST:EVE-66) &329
 - Archmage Emeritus (STX:37) &357

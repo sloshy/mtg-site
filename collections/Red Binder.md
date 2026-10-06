@@ -81,7 +81,6 @@ labels:
 - Drana, the Last Bloodchief (SLD:1684) [foil] &84
 - Bloodthirsty Conqueror (FDN:460) [foil] &85
 - Phyrexian Obliterator (ONE:440) [foil] &86
-- Polluted Bonds (WOT:34) &87
 - Sheoldred's Edict (ONE:108) [foil] &88
 - Vorpal Sword (AFR:396) [foil] &89
 - Vraska, Betrayal's Sting (ONE:115) [foil] &90
@@ -90,7 +89,6 @@ labels:
 - Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (BOT:4) &93
 - Maha, Its Feathers Night (BLB:289) [foil] &94
 - Sorin, Imperious Bloodlord (INR:322) &95
-- Sorin, Imperious Bloodlord (INR:322) [foil] &96
 - Drana, the Last Bloodchief (ZNR:338) &97
 - Ink-Eyes, Servant of Oni (BLC:77) [foil] &99
 - Vengeful Bloodwitch (FDN:325) [foil] &100
@@ -99,17 +97,14 @@ labels:
 - V.A.T.S. (PIP:333) [foil] &103
 - Keen Duelist (SLD:828) [foil] &104
 - Tinybones, Bauble Burglar (FDN:463) &105
-- Unholy Annex // Ritual Chamber (DSK:339) &106
 - Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN:445) &109
 - Zenos yae Galvus // Shinryu, Transcendent Rival (FIN:455) &110
-- Ardyn, the Usurper (FIN:444) &111
 - Massacre Girl (OTC:140) &112
 - Buried Alive (SLD:1673) [foil] &113
 - Dismember (SLD:1674) [foil] &114
 - Valgavoth, Terror Eater (DSK:352) &115
 - Kiki-Jiki, Mirror Breaker (SLD:1659) &116
 - Kiki-Jiki, Mirror Breaker (SLD:1659) [foil] &117
-- Ral, Monsoon Mage // Ral, Leyline Prodigy (MH3:247) [foil] &118
 - There and Back Again (LTR:151) &119
 - Stolen Strategy (PIP:467) &120
 - Inti, Seneschal of the Sun (LCI:295) &121
@@ -124,7 +119,6 @@ labels:
 - Cait Sith, Fortune Teller (FIC:151) &132
 - Searslicer Goblin (FDN:93) [foil] &133
 - Searslicer Goblin (FDN:93) [foil] &134
-- Searslicer Goblin (FDN:332) &135
 - Mass Hysteria (INR:400) &137
 - Chandra, Flameshaper (FDN:360) &138
 - Drakuseth, Maw of Flames (FDN:193) [foil] &139
@@ -162,7 +156,6 @@ labels:
 - Preposterous Proportions (FDN:109) [foil] &178
 - Twitching Doll (DSK:384) [foil] &180
 - Kodama of the West Tree (NEO:199) &181
-- Omnath, Locus of Mana (CMM:680) &182
 - Scavenging Ooze (FDN:232) &184
 - Scavenging Ooze (FDN:232) &185
 - Scavenging Ooze (FDN:232) &186
@@ -174,7 +167,6 @@ labels:
 - Omnath, Locus of All (MOM:387) [foil] &192
 - Thalia and The Gitrog Monster (MOM:255) &193
 - The Infamous Cruelclaw (BLB:219) &194
-- Tyvar, Jubilant Brawler (ONE:344) &195
 - Vishgraz, the Doomhive (ONC:40) &196
 - G'raha Tia, Scion Reborn (FIC:3) &197
 - Helga, Skittish Seer (BLB:217) &198
@@ -225,7 +217,6 @@ labels:
 - Tadeas, Juniper Ascendant (SLD:433) &244
 - Progenitus (FDN:244) &245
 - Balthier and Fran (FIN:213) [foil] &246
-- Hashaton, Scarab's Fist (DRC:1) &248
 - Sab-Sunen, Luxa Embodied (DFT:221) [foil] &249
 - Pyrewood Gearhulk (DFT:216) [foil] &250
 - Coalstoke Gearhulk (DFT:349) &251

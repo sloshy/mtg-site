@@ -603,3 +603,27 @@
 ```ritual-changes
 {"action":"remove","cardName":"Hoarding Broodlord","cardId":82,"set":"mom","collectorNumber":"110","finish":"foil","condition":"NM"}
 ```
+
+## 2026-10-06T22:00:49.762Z
+
+- Removed "Ardyn, the Usurper" (FIN:444) &111
+- Removed "Hashaton, Scarab's Fist" (DRC:1) &248
+- Removed "Searslicer Goblin" (FDN:332) &135
+- Removed "Unholy Annex // Ritual Chamber" (DSK:339) &106
+- Removed "Polluted Bonds" (WOT:34) &87
+- Removed "Tyvar, Jubilant Brawler" (ONE:344) &195
+- Removed "Omnath, Locus of Mana" (CMM:680) &182
+- Removed "Ral, Monsoon Mage // Ral, Leyline Prodigy" (MH3:247) [foil] &118
+- Removed "Sorin, Imperious Bloodlord" (INR:322) [foil] &96
+
+```ritual-changes
+{"action":"remove","cardName":"Ardyn, the Usurper","cardId":111,"set":"fin","collectorNumber":"444","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Hashaton, Scarab's Fist","cardId":248,"set":"drc","collectorNumber":"1","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Searslicer Goblin","cardId":135,"set":"fdn","collectorNumber":"332","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Unholy Annex // Ritual Chamber","cardId":106,"set":"dsk","collectorNumber":"339","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Polluted Bonds","cardId":87,"set":"wot","collectorNumber":"34","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Tyvar, Jubilant Brawler","cardId":195,"set":"one","collectorNumber":"344","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Omnath, Locus of Mana","cardId":182,"set":"cmm","collectorNumber":"680","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Ral, Monsoon Mage // Ral, Leyline Prodigy","cardId":118,"set":"mh3","collectorNumber":"247","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Sorin, Imperious Bloodlord","cardId":96,"set":"inr","collectorNumber":"322","finish":"foil","condition":"NM"}
+```

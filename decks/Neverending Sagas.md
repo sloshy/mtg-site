@@ -79,7 +79,6 @@ sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 - 1 Yuna, Hope of Spira (FIN:517) &72
 - 1 Three Steps Ahead (OTJ:75) &73
 - 1 The Apprentice's Folly (WOE:200) &75
-- 1 Garnet, Princess of Alexandria (FIN:222) &76
 - 1 Scholar of New Horizons (FIC:252) &78
 - 1 Conduit of Worlds (ONE:163) [foil] &79
 - 1 Open the Way (MAT:23) &80
@@ -91,7 +90,6 @@ sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 - 1 Palantír of Orthanc (LTR:247) &87
 - 1 Animate Dead (MKC:125) &88
 - 1 Yenna, Redtooth Regent (WOE:365) [foil] &89
-- 1 Urban Retreat (SPM:187) &90
 - 1 Power Conduit (PLST:MRD-229) &91
 - 1 Reanimate (OTP:18) &92
 - 1 Big Score (SNC:102) &93
@@ -99,7 +97,6 @@ sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 - 1 Dawnhand Dissident (ECL:98) &96
 - 1 Rhys, the Evermore (ECL:354) [foil] &97
 - 1 Squirming Emergence (LCI:241) [foil] &95
-- 1 Trouble in Pairs (MKC:15) &32
 - 1 Fellwar Stone (SLD:7062) [foil] &8
 - 1 Flash Photography (FIC:463) [foil] &14
 - 1 Peter Parker's Camera (SPM:171) &27
@@ -112,3 +109,5 @@ sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 - 1 Starfield of Nyx (SLD:2822) &42
 - 1 Auroral Procession (TDM:169) &64
 - 1 Amulet of Vigor (PLST:WWK-121) [foil] &74
+- 1 Ripples of Undeath (MH3:107) &32
+- 1 Raffine's Tower (SNC:254) &76

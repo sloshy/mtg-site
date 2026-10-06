@@ -289,3 +289,19 @@
 {"action":"move-to","cardName":"Amulet of Vigor","language":"en","from":{"type":"deck","name":"Black Panther"},"sourceCardId":56}
 {"action":"set-printing","cardName":"Amulet of Vigor","cardId":74,"set":"plst","collectorNumber":"WWK-121","finish":"foil","condition":"NM","language":"en"}
 ```
+
+## 2026-10-01T20:48:24.086Z
+
+- Removed "Garnet, Princess of Alexandria" (FIN:222) &76
+- Removed "Urban Retreat" (SPM:187) &90
+- Removed "Trouble in Pairs" (MKC:15) &32
+- Moved "Ripples of Undeath" (MH3:107) from Collection 'Goodstuff Box'
+- Moved "Raffine's Tower" (SNC:254) from Collection 'Goodstuff Box'
+
+```ritual-changes
+{"action":"remove","cardName":"Garnet, Princess of Alexandria","cardId":76,"set":"fin","collectorNumber":"222","language":"en","board":"Main"}
+{"action":"remove","cardName":"Urban Retreat","cardId":90,"set":"spm","collectorNumber":"187","language":"en","board":"Main"}
+{"action":"remove","cardName":"Trouble in Pairs","cardId":32,"set":"mkc","collectorNumber":"15","language":"en","board":"Main"}
+{"action":"move-to","cardName":"Ripples of Undeath","set":"mh3","collectorNumber":"107","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":593}
+{"action":"move-to","cardName":"Raffine's Tower","set":"snc","collectorNumber":"254","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":246}
+```

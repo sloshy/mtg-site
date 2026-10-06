@@ -230,7 +230,6 @@ labels:
 - Miirym, Sentinel Wyrm (SLD:2500) [foil] &243
 - Scaled Nurturer (SLD:7101) [foil] &244
 - Hugs, Grisly Guardian (BLB:218) &245
-- Raffine's Tower (SNC:254) &246
 - Lumra, Bellow of the Woods (BLB:342) [foil] &247
 - Bonny Pall, Clearcutter (OTJ:349) &248
 - Dragonback Assault (TDM:355) &249
@@ -575,7 +574,6 @@ labels:
 - Kudo, King Among Bears (MH3:192) &589
 - Phelia, Exuberant Shepherd (MH3:40) &590
 - Thief of Existence (MH3:174) &591
-- Ripples of Undeath (MH3:107) &593
 - Omo, Queen of Vesuva (M3C:2) &594
 - Shilgengar, Sire of Famine (MH3:109) &595
 - Grist, Voracious Larva // Grist, the Plague Swarm (MH3:251) &596

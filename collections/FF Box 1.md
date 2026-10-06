@@ -126,7 +126,6 @@ labels:
 - Fire Nation Salvagers (TLE:188) &125
 - Diligent Zookeeper (TLA:327) [foil] &126
 - Momo, Friendly Flier (TLA:317) [foil] &127
-- Rhys the Redeemed (TLE:52) [foil] &128
 - Earth King's Lieutenant (TLA:217) [foil] &129
 - The Unagi of Kyoshi Island (TLA:319) [foil] &130
 - Captain Sisay (TLE:47) [foil] &131
@@ -195,7 +194,6 @@ labels:
 - Undermountain Adventurer (CLB:594) &195
 - Jan Jansen, Chaos Crafter (CLB:535) [etched] &196
 - Bane, Lord of Darkness (CLB:415) &197
-- Baldur's Gate (CLB:600) [foil] &198
 - Tlincalli Hunter // Retrieve Prey (CLB:638) &199
 - Shameless Charlatan (CLB:488) [etched] &200
 - Jaheira, Friend of the Forest (CLB:409) &201

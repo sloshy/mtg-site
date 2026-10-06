@@ -777,3 +777,15 @@
 {"action":"remove","cardName":"Nature's Rhythm","cardId":242,"set":"tdm","collectorNumber":"150","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Nature's Rhythm","cardId":241,"set":"tdm","collectorNumber":"150","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-06T22:00:49.842Z
+
+- Removed "Nature's Rhythm" (TDM:150) &25
+- Removed "Three Steps Ahead" (OTJ:75) &77
+- Removed "Three Steps Ahead" (OTJ:75) &252
+
+```ritual-changes
+{"action":"remove","cardName":"Nature's Rhythm","cardId":25,"set":"tdm","collectorNumber":"150","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Three Steps Ahead","cardId":77,"set":"otj","collectorNumber":"75","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Three Steps Ahead","cardId":252,"set":"otj","collectorNumber":"75","finish":"nonfoil","condition":"NM"}
+```

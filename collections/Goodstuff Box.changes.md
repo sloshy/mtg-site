@@ -1941,3 +1941,13 @@
 {"action":"remove","cardName":"Alandra, Sky Dreamer","cardId":655,"set":"j22","collectorNumber":"9","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Leonin Warleader","cardId":637,"set":"j22","collectorNumber":"208","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-01T20:48:24.093Z
+
+- Moved "Ripples of Undeath" (MH3:107) &593 to Deck 'Neverending Sagas'
+- Moved "Raffine's Tower" (SNC:254) &246 to Deck 'Neverending Sagas'
+
+```ritual-changes
+{"action":"move-from","cardName":"Ripples of Undeath","cardId":593,"set":"mh3","collectorNumber":"107","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Neverending Sagas"}}
+{"action":"move-from","cardName":"Raffine's Tower","cardId":246,"set":"snc","collectorNumber":"254","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Neverending Sagas"}}
+```

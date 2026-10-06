@@ -1077,3 +1077,13 @@
 {"action":"remove","cardName":"Monster Manual // Zoological Study","cardId":359,"set":"clb","collectorNumber":"242","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Michiko Konda, Truth Seeker","cardId":52,"set":"j22","collectorNumber":"215","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-06T22:00:49.809Z
+
+- Removed "Rhys the Redeemed" (TLE:52) [foil] &128
+- Removed "Baldur's Gate" (CLB:600) [foil] &198
+
+```ritual-changes
+{"action":"remove","cardName":"Rhys the Redeemed","cardId":128,"set":"tle","collectorNumber":"52","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Baldur's Gate","cardId":198,"set":"clb","collectorNumber":"600","finish":"foil","condition":"NM"}
+```

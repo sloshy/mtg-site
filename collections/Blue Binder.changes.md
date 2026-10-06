@@ -445,3 +445,17 @@
 ```ritual-changes
 {"action":"remove","cardName":"Drown in the Loch","cardId":68,"set":"pw23","collectorNumber":"4","finish":"foil"}
 ```
+
+## 2026-10-06T22:00:49.780Z
+
+- Removed "Edgar Markov" (INR:234) &117
+- Removed "Valgavoth, Harrower of Souls" (DSC:6) &76
+- Removed "Miirym, Sentinel Wyrm" (CLB:542) [etched] &120
+- Removed "Superior Spider-Man" (SPM:275) [foil] &181
+
+```ritual-changes
+{"action":"remove","cardName":"Edgar Markov","cardId":117,"set":"inr","collectorNumber":"234","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Valgavoth, Harrower of Souls","cardId":76,"set":"dsc","collectorNumber":"6","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Miirym, Sentinel Wyrm","cardId":120,"set":"clb","collectorNumber":"542","finish":"etched","condition":"NM"}
+{"action":"remove","cardName":"Superior Spider-Man","cardId":181,"set":"spm","collectorNumber":"275","finish":"foil","condition":"NM"}
+```

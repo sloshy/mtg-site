@@ -995,3 +995,23 @@
 ```ritual-changes
 {"action":"remove","cardName":"Traverse the Outlands","cardId":348,"set":"clb","collectorNumber":"258","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-06T22:00:49.825Z
+
+- Removed "Gisela, the Broken Blade" (INR:24) [foil] &50
+- Removed "Hullbreaker Horror" (INR:357) [foil] &395
+- Removed "Electro, Assaulting Battery" (SPM:76) &319
+- Removed "Get Lost" (LCI:14) &14
+- Removed "Worn Powerstone" (LCC:120) &20
+- Removed "Clavileño, First of the Blessed" (LCC:2) &18
+- Removed "Rith, Liberated Primeval" (DMU:354) [foil] &202
+
+```ritual-changes
+{"action":"remove","cardName":"Gisela, the Broken Blade","cardId":50,"set":"inr","collectorNumber":"24","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Hullbreaker Horror","cardId":395,"set":"inr","collectorNumber":"357","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Electro, Assaulting Battery","cardId":319,"set":"spm","collectorNumber":"76","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Get Lost","cardId":14,"set":"lci","collectorNumber":"14","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Worn Powerstone","cardId":20,"set":"lcc","collectorNumber":"120","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Clavileño, First of the Blessed","cardId":18,"set":"lcc","collectorNumber":"2","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Rith, Liberated Primeval","cardId":202,"set":"dmu","collectorNumber":"354","finish":"foil","condition":"NM"}
+```

@@ -619,3 +619,21 @@
 ```ritual-changes
 {"action":"remove","cardName":"Enduring Curiosity","cardId":129,"set":"dsk","collectorNumber":"51","finish":"nonfoil","condition":"NM"}
 ```
+
+## 2026-10-06T22:00:49.794Z
+
+- Removed "Pact of Negation" (MB2:169) &140
+- Removed "Filigree Vector" (MOC:102) &43
+- Removed "Onakke Oathkeeper" (CMM:755) &56
+- Removed "Thalia, Heretic Cathar" (EMN:46) [foil] &39
+- Removed "Unstoppable Plan" (DFT:72) [foil] &75
+- Removed "Starfield Vocalist" (EOE:78) &123
+
+```ritual-changes
+{"action":"remove","cardName":"Pact of Negation","cardId":140,"set":"mb2","collectorNumber":"169","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Filigree Vector","cardId":43,"set":"moc","collectorNumber":"102","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Onakke Oathkeeper","cardId":56,"set":"cmm","collectorNumber":"755","finish":"nonfoil","condition":"NM"}
+{"action":"remove","cardName":"Thalia, Heretic Cathar","cardId":39,"set":"emn","collectorNumber":"46","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Unstoppable Plan","cardId":75,"set":"dft","collectorNumber":"72","finish":"foil","condition":"NM"}
+{"action":"remove","cardName":"Starfield Vocalist","cardId":123,"set":"eoe","collectorNumber":"78","finish":"nonfoil","condition":"NM"}
+```
