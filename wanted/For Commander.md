@@ -12,3 +12,5 @@
 - Selvala, Heart of the Wilds &11
 - Aerid Konstrari &1
 - Hexhaven Invigorator &10
+- Springleaf Parade &12
+- Springleaf Parade &13

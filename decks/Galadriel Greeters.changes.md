@@ -305,3 +305,23 @@
 {"action":"remove","cardName":"Tranquil Landscape","cardId":15,"set":"mh3","collectorNumber":"231"}
 {"action":"remove","cardName":"Voice of Victory","cardId":86,"set":"tdm","collectorNumber":"331"}
 ```
+
+## 2026-10-10T03:42:39.483Z
+
+- Removed "Rikku, Resourceful Guardian" (FIC:41) &98
+- Moved "Verdant Kraken" (FRA:118) from Collection 'Goodstuff Box'
+
+```ritual-changes
+{"action":"remove","cardName":"Rikku, Resourceful Guardian","cardId":98,"set":"fic","collectorNumber":"41","language":"en","board":"Main"}
+{"action":"move-to","cardName":"Verdant Kraken","set":"fra","collectorNumber":"118","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":805}
+```
+
+## 2026-10-10T03:47:36.244Z
+
+- Added "Denzilore Fatehold" (FRA:128) &101
+- Removed "Absolute Virtue" (FIN:212) [foil] [ja] &94
+
+```ritual-changes
+{"action":"add","cardName":"Denzilore Fatehold","cardId":101,"set":"fra","collectorNumber":"128","finish":"nonfoil","condition":"NM","board":"Main","section":"Main"}
+{"action":"remove","cardName":"Absolute Virtue","cardId":94,"set":"fin","collectorNumber":"212","finish":"foil","language":"ja","board":"Main"}
+```

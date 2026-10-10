@@ -342,7 +342,6 @@ labels:
 - Aura Shards (SLD:2694) &359
 - General's Enforcer (SLD:7152) [foil] &360
 - Fell the Mighty (SLD:2690) [foil] &361
-- Aggravated Assault (SLD:2691) [foil] &362
 - Chaos Warp (SLD:2692) [foil] &363
 - Utopia Sprawl (SLD:2693) [foil] &364
 - Aura Shards (SLD:2694) [foil] &365

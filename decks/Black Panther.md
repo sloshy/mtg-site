@@ -101,9 +101,9 @@ sourceUpdatedAt: '2026-09-18T21:38:49.061651Z'
 - 1 Patrolling Peacemaker &90
 - 1 Omenpath Journey &91
 - 1 Earthshape &92
-- 1 Bear Umbra &94
 - 1 Ba Sing Se &95
 - 1 Endless Foot Assault &5
 - 1 Kinbinding &54
 - 1 Bast, Panther Goddess &85
 - 1 Darien, King of Kjeldor (SLD:7135) [foil] &56
+- 1 Springleaf Parade (ECC:39) &93

@@ -1951,3 +1951,19 @@
 {"action":"move-from","cardName":"Ripples of Undeath","cardId":593,"set":"mh3","collectorNumber":"107","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Neverending Sagas"}}
 {"action":"move-from","cardName":"Raffine's Tower","cardId":246,"set":"snc","collectorNumber":"254","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Neverending Sagas"}}
 ```
+
+## 2026-10-10T03:42:39.541Z
+
+- Moved "Verdant Kraken" (FRA:118) &805 to Deck 'Galadriel Greeters'
+- Moved "Springleaf Parade" (ECC:39) &300 to Deck 'Black Panther'
+- Moved "Smaug, Wicked Worm" (HOB:164) &86 to Deck 'Karlach Risen'
+- Moved "Draconic Visitor" (FRA:80) &804 to Deck 'Karlach Risen'
+- Moved "Avatar Destiny" (TLA:165) [foil] &344 to Deck 'Neverending Sagas'
+
+```ritual-changes
+{"action":"move-from","cardName":"Verdant Kraken","cardId":805,"set":"fra","collectorNumber":"118","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Galadriel Greeters"}}
+{"action":"move-from","cardName":"Springleaf Parade","cardId":300,"set":"ecc","collectorNumber":"39","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Black Panther"}}
+{"action":"move-from","cardName":"Smaug, Wicked Worm","cardId":86,"set":"hob","collectorNumber":"164","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Karlach Risen"}}
+{"action":"move-from","cardName":"Draconic Visitor","cardId":804,"set":"fra","collectorNumber":"80","finish":"nonfoil","condition":"NM","to":{"type":"deck","name":"Karlach Risen"}}
+{"action":"move-from","cardName":"Avatar Destiny","cardId":344,"set":"tla","collectorNumber":"165","finish":"foil","condition":"NM","to":{"type":"deck","name":"Neverending Sagas"}}
+```

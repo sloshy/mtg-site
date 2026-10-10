@@ -1015,3 +1015,11 @@
 {"action":"remove","cardName":"Clavileño, First of the Blessed","cardId":18,"set":"lcc","collectorNumber":"2","finish":"nonfoil","condition":"NM"}
 {"action":"remove","cardName":"Rith, Liberated Primeval","cardId":202,"set":"dmu","collectorNumber":"354","finish":"foil","condition":"NM"}
 ```
+
+## 2026-10-10T03:42:39.649Z
+
+- Moved "Aggravated Assault" (SLD:2691) [foil] &362 to Deck 'Karlach Risen'
+
+```ritual-changes
+{"action":"move-from","cardName":"Aggravated Assault","cardId":362,"set":"sld","collectorNumber":"2691","finish":"foil","condition":"NM","to":{"type":"deck","name":"Karlach Risen"}}
+```

@@ -343,3 +343,21 @@
 {"action":"add","cardName":"Mountain","cardId":99,"set":"vow","collectorNumber":"274"}
 {"action":"set-printing","cardName":"Mountain","cardId":14,"set":"one","collectorNumber":"270","finish":"foil","language":"ph"}
 ```
+
+## 2026-10-10T03:42:39.594Z
+
+- Removed "Shredder, Shadow Master" (TMC:20) &64
+- Removed "Decadent Dragon // Expensive Taste" (WOE:287) &38
+- Removed "Ancient Brass Dragon" (CLB:389) [foil] &40
+- Moved "Smaug, Wicked Worm" (HOB:164) from Collection 'Goodstuff Box'
+- Moved "Draconic Visitor" (FRA:80) from Collection 'Goodstuff Box'
+- Moved "Aggravated Assault" (SLD:2691) [foil] from Collection 'FF Box 2'
+
+```ritual-changes
+{"action":"remove","cardName":"Shredder, Shadow Master","cardId":64,"set":"tmc","collectorNumber":"20","language":"en","board":"Main"}
+{"action":"remove","cardName":"Decadent Dragon // Expensive Taste","cardId":38,"set":"woe","collectorNumber":"287","language":"en","board":"Main"}
+{"action":"remove","cardName":"Ancient Brass Dragon","cardId":40,"set":"clb","collectorNumber":"389","finish":"foil","language":"en","board":"Main"}
+{"action":"move-to","cardName":"Smaug, Wicked Worm","set":"hob","collectorNumber":"164","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":86}
+{"action":"move-to","cardName":"Draconic Visitor","set":"fra","collectorNumber":"80","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":804}
+{"action":"move-to","cardName":"Aggravated Assault","set":"sld","collectorNumber":"2691","finish":"foil","condition":"NM","from":{"type":"collection","name":"FF Box 2"},"sourceCardId":362}
+```

@@ -35,3 +35,13 @@
 {"action":"move-from","cardName":"Amulet of Vigor","cardId":56,"language":"en","to":{"type":"deck","name":"Neverending Sagas"}}
 {"action":"add","cardName":"Darien, King of Kjeldor","cardId":56,"set":"sld","collectorNumber":"7135","finish":"foil","condition":"NM","board":"Main","section":"Main"}
 ```
+
+## 2026-10-10T03:42:39.466Z
+
+- Removed "Bear Umbra" &94
+- Moved "Springleaf Parade" (ECC:39) from Collection 'Goodstuff Box'
+
+```ritual-changes
+{"action":"remove","cardName":"Bear Umbra","cardId":94,"language":"en","board":"Main"}
+{"action":"move-to","cardName":"Springleaf Parade","set":"ecc","collectorNumber":"39","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":300}
+```

@@ -73,3 +73,13 @@
 {"action":"add","cardName":"Aerid Konstrari","cardId":1,"section":"Main"}
 {"action":"add","cardName":"Hexhaven Invigorator","cardId":10,"section":"Main"}
 ```
+
+## 2026-10-10T03:42:39.669Z
+
+- Added "Springleaf Parade" &12
+- Added "Springleaf Parade" &13
+
+```ritual-changes
+{"action":"add","cardName":"Springleaf Parade","cardId":12,"section":"Main"}
+{"action":"add","cardName":"Springleaf Parade","cardId":13,"section":"Main"}
+```

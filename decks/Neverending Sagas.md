@@ -111,3 +111,4 @@ sourceUpdatedAt: '2026-09-18T21:38:29.075494Z'
 - 1 Amulet of Vigor (PLST:WWK-121) [foil] &74
 - 1 Ripples of Undeath (MH3:107) &32
 - 1 Raffine's Tower (SNC:254) &76
+- 1 Avatar Destiny (TLA:165) [foil] &83

@@ -305,3 +305,11 @@
 {"action":"move-to","cardName":"Ripples of Undeath","set":"mh3","collectorNumber":"107","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":593}
 {"action":"move-to","cardName":"Raffine's Tower","set":"snc","collectorNumber":"254","finish":"nonfoil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":246}
 ```
+
+## 2026-10-10T03:42:39.383Z
+
+- Moved "Avatar Destiny" (TLA:165) [foil] from Collection 'Goodstuff Box'
+
+```ritual-changes
+{"action":"move-to","cardName":"Avatar Destiny","set":"tla","collectorNumber":"165","finish":"foil","condition":"NM","from":{"type":"collection","name":"Goodstuff Box"},"sourceCardId":344}
+```

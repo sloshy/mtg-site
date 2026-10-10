@@ -43,7 +43,6 @@ sourceUpdatedAt: '2026-08-17T12:59:42.298227Z'
 - 1 Snuff Out (SLD:1792) [foil] &34
 - 1 Sol Ring (SLD:910) [foil] &35
 - 1 Dragonskull Summit (WHO:272) &37
-- 1 Decadent Dragon // Expensive Taste (WOE:287) &38
 - 1 Command Tower (WHO:266) &39
 - 1 Gimli's Reckless Might (LTC:494) &41
 - 1 Deadly Rollick (CMM:695) &42
@@ -98,11 +97,9 @@ sourceUpdatedAt: '2026-08-17T12:59:42.298227Z'
 - 1 Cursed Mirror (MH3:279) [foil] &85
 - 1 Knuckles the Echidna (SLD:2082) [foil] &16
 - 1 Smaug the Magnificent (HOB:229) &29
-- 1 Ancient Brass Dragon (CLB:389) [foil] &40
 - 1 Blasphemous Act (PIP:188) &44
 - 1 Dragon-Cursed Halls (HOC:8) [foil] &91
 - 1 Archon of Cruelty (MH2:75) &11
-- 1 Shredder, Shadow Master (TMC:20) &64
 - 1 Reanimate (MKC:137) &80
 - 1 Swamp (MID:273) &92
 - 1 Swamp (ONE:269) [foil] [ph] &93
@@ -112,3 +109,6 @@ sourceUpdatedAt: '2026-08-17T12:59:42.298227Z'
 - 1 Mountain (LCI:290) &97
 - 1 Mountain (ONE:270) [foil] [ph] &98
 - 1 Mountain (VOW:274) &99
+- 1 Smaug, Wicked Worm (HOB:164) &38
+- 1 Draconic Visitor (FRA:80) &40
+- 1 Aggravated Assault (SLD:2691) [foil] &64

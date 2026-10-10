@@ -116,13 +116,11 @@ sourceUpdatedAt: '2026-08-13T21:08:42.207393Z'
 - 1 Elspeth, Storm Slayer (TDM:398) &91
 - 1 Enduring Vitality (DSK:176) &92
 - 1 Faerie Mastermind (MOM:58) &93
-- 1 Absolute Virtue (FIN:212) [foil] [ja] &94
 - 1 Tishana's Tidebinder (LCI:335) &95
 - 1 Sol Ring (MKC:237) &96
 - 1 Dawn's Truce (BLB:295) [foil] &99
 - 1 Planetarium of Wan Shi Tong (TLA:259) &100
 - 1 Deep Gnome Terramancer (CLB:607) &90
-- 1 Rikku, Resourceful Guardian (FIC:41) &98
 - 1 Mistrise Village (PTDM:261p) &45
 - 1 Archivist of Oghma (CLB:553) &18
 - 1 Simic Signet (CMR:471) &82
@@ -134,3 +132,5 @@ sourceUpdatedAt: '2026-08-13T21:08:42.207393Z'
 - 1 Radagast of Rhosgobel (HOB:136) &13
 - 1 The Queen of Dale (HOB:24) [foil] &15
 - 1 Elven Passage (HOB:181) &86
+- 1 Verdant Kraken (FRA:118) &98
+- 1 Denzilore Fatehold (FRA:128) &101

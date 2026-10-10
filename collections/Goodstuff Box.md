@@ -84,7 +84,6 @@ labels:
 - Down in the Valley (HOB:124) &83
 - Glamdring, Foe-hammer // Gleam of Death (HOB:174) &84
 - The Great Goblin (HOB:158) &85
-- Smaug, Wicked Worm (HOB:164) &86
 - Long-Lost Lances (HOC:7) [foil] &87
 - Smaug the Impenetrable (HOC:9) [foil] &89
 - Bilbo's Burglaring (HOC:10) [foil] &90
@@ -278,7 +277,6 @@ labels:
 - Shadow Urchin (ECL:242) [foil] &297
 - Gloom Ripper (ECL:312) [foil] &298
 - Champions of the Perfect (ECL:365) &299
-- Springleaf Parade (ECC:39) &300
 - Mutable Explorer (ECL:327) &301
 - Sanar, Innovative First-Year (ECL:378) &302
 - Glen Elendra's Answer (ECL:52) [foil] &303
@@ -321,7 +319,6 @@ labels:
 - Sundial of the Infinite (TLE:55) &341
 - White Lotus Tile (TLA:330) [foil] &342
 - Fire Nation Turret (TLE:64) [foil] &343
-- Avatar Destiny (TLA:165) [foil] &344
 - Sundial of the Infinite (TLE:55) [foil] &345
 - Sokka's Charge (TLE:66) [foil] &346
 - Obsessive Pursuit (TLA:112) &347
@@ -802,8 +799,6 @@ labels:
 - Vindictive Triumph (FRA:377) &801
 - Vindictive Triumph (FRA:377) &802
 - Vindictive Triumph (FRA:162) &803
-- Draconic Visitor (FRA:80) &804
-- Verdant Kraken (FRA:118) &805
 - Sanctum Lurker (FRA:64) &806
 - Ingris Stingerquill (FRA:137) &807
 - Face Yourself (FRA:370) &808
