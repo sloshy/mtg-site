@@ -3,8 +3,8 @@ format: commander
 sourceId: '25174871'
 sourceUrl: 'https://archidekt.com/decks/25174871'
 tags: []
-lastSynced: '2026-09-04T04:52:00.073Z'
-sourceUpdatedAt: '2026-09-04T04:51:49.325431Z'
+lastSynced: '2026-10-11T17:30:56.843Z'
+sourceUpdatedAt: '2026-10-11T17:30:54.007031Z'
 ---
 
 # Aghast for Radagast
