@@ -3,9 +3,9 @@ source: 'https://archidekt.com/decks/8377316'
 sourceId: '8377316'
 sourceUrl: 'https://archidekt.com/decks/8377316'
 tags: []
-lastSynced: '2026-08-24T21:47:32.966Z'
+lastSynced: '2026-10-11T17:32:26.833Z'
 format: commander
-sourceUpdatedAt: '2026-08-20T20:13:19.531694Z'
+sourceUpdatedAt: '2026-10-01T21:34:40.905817Z'
 ---
 
 # Go For The Eyes
@@ -106,17 +106,3 @@ sourceUpdatedAt: '2026-08-20T20:13:19.531694Z'
 - 1 Cheering Crowd &87
 - 1 Hull Breach &12
 - 1 Blackblade Reforged &91
-
-## Maybeboard
-- 1 Blasphemous Act &100
-- 1 Chandra's Ignition &103
-- 1 Fangs of Kalonia &108
-- 1 Maskwood Nexus &116
-- 1 Sylvan Library &119
-- 1 Power Fist &94
-- 1 Redirect Lightning &95
-- 1 Traverse the Outlands &97
-- 1 Sword of Truth and Justice &98
-- 1 Bow of Nylea &101
-- 1 Tender Wildguide &96
-- 1 The Great Henge &99
