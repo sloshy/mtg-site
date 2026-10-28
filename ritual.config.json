@@ -3,7 +3,6 @@
   "collectionsDir": "./collections",
   "wantedDir": "./wanted",
   "artDir": "./art",
-  "defaultCurrency": "usd",
   "priceSources": [
     "tcgplayer",
     "cardkingdom"
