@@ -1,8 +1,8 @@
 ---
 name: ritual-cards
 description: "Look up Magic: The Gathering cards and run Scryfall searches with Ritual. Use when the user wants details or prices for a specific card, a Scryfall syntax query, batch card lookups, or random cards. Output is JSON by default for easy parsing."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: 6e3b77309d1da51a8c230b9c94d19f775ba818b6f707122b4e0ede990b6d9030
+ritual-version: 0.1.0-rc3
+ritual-content-hash: 48869e97ede3d3b40a1b6099df2b154fcabec3964021d68678fd5d24b1c2e250
 ---
 
 # Looking up cards with Ritual
@@ -90,4 +90,6 @@ the local bulk cache that the list commands (`add-card`, `edit`, `price`,
 `build-site`, ...) use. To warm that cache for offline or CI work, run
 `ritual cache preload-all` (bulk download: cards, prices, and tags) or
 `ritual cache preload-set <code>` for a single set — see the **ritual** skill's
-Setup section.
+Setup section. Read cached card data (EDHREC rank, market prices) through `export`,
+`price` and `sell` output rather than by parsing `cache/cache.json` — the **ritual**
+skill's Workspace layout lists which command carries which field.

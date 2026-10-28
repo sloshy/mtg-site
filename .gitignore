@@ -10,3 +10,5 @@ all-cards.md
 exports/
 .dist-build-*
 .dist-old-*
+.trash/
+.backups/

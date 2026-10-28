@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
-description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: d64741811fae4824b18348e1543bc6127280b9d7ac74e93a57f8ad520a995c01
+description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes (including board moves and card categories) to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
+ritual-version: 0.1.0-rc3
+ritual-content-hash: 48a5ee7101ab7b01a50fee36ad2b85a3795d516bf41c8b8e8ed42fe3939d7511
 ---
 
 # Managing decks with Ritual
@@ -92,8 +92,9 @@ A deck card can be marked a **proxy** — the one card label decks carry (`sale`
 naming what the type supports). It is the same bracketed token collections use,
 written between the language token and the note: `1 Sol Ring (LEA:270) [proxy] &5`.
 A `labels: [proxy]` key in the deck's front matter marks the **whole deck** as
-proxies; a card's own token overrides that default, and `--label none` clears the
-override so the deck default applies again. A front-matter value the deck cannot
+proxies; a card's own token adjusts that default — `[no-proxy]` marks a real card
+in a proxy deck — and `--label none` clears the override so the deck default
+applies again. A front-matter value the deck cannot
 carry (`labels: [sale]`) is dropped whole and reported as a parse warning — the
 next whole-file save would delete the key. Labels are part of a deck line's merge
 identity: adding a `[proxy]` copy of a card the deck already runs for real makes
@@ -102,6 +103,7 @@ a second line rather than folding the proxies into the real copies.
 ```bash
 ritual set-card "Winota Stax" "Sol Ring" --deck --label proxy   # one card
 ritual set-card "Winota Stax" "Sol Ring" --deck --label none    # back to the deck default
+ritual set-card "Playtest" "Sol Ring" --deck --label no-proxy   # a real card in a proxy deck
 ritual add-card "Winota Stax" "Mox Jet" --deck --label proxy
 ritual metadata set "Winota Stax" labels proxy                  # every card in the deck
 ritual metadata unset "Winota Stax" labels                      # no deck default
@@ -226,6 +228,14 @@ data, so those imports never ask. Both flags are URL-only — on a CSV or
 text-file source they are a usage error (exit 2), since a file's printings are
 its own data.
 
+A URL import from Archidekt or Moxfield also writes each card's categories (its
+role in the deck — Archidekt categories, Moxfield tags) to
+`<deck>.categories.json`, first = primary, with no flag or prompt. Archidekt
+categories that are boards (Commander, Sideboard, Maybeboard, a premier
+category, or one excluded from the deck count) set the card's section instead.
+An overwrite replaces the categories file; MTGGoldfish imports leave it alone.
+`import-account` does the same per deck.
+
 Text imports read Ritual's own format and the MTG Arena/MTGO export dialect —
 `4 Lightning Bolt (M10) 146` lines plus bare `Deck`/`Sideboard`/`Commander`/
 `Companion`/`About` markers, a `*F*`/`*E*` foil marker either trailing or
@@ -239,6 +249,10 @@ Lines the parser cannot read are skipped and reported (exit 1); content that
 imports but is worth a word — a name still holding a printing token, or an empty
 `## Maybeboard`/`## Tokens` header the write drops — prints an advisory on
 stderr and appears in the JSON `advisories` array without changing the exit code.
+Under `--output json` each `warnings`/`advisories` entry is an object — the
+English `message`, plus `messageKey`/`messageParams` when present (match on
+the key when it is there, never on the prose); a warning whose card was imported
+without its labels carries `labelsDropped: true`.
 
 `--moxfield-user-agent` applies to URL imports only — passing it with a CSV or
 text-file source is a usage error (exit 2).
@@ -270,12 +284,13 @@ ritual import more.csv --type deck --name "Burn" --append \
 tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
 fails that row; a categories cell (header `category` or `categories`) holds the
 card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
-value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
-the card still imports — the refusal prints on stderr and rides the `--output
-json` payload's `advisories` array, and never changes the exit code; and on a
-deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
-row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
-Sideboard + category Ramp; imported categories are written to the list's
+value that is not category-shaped (one holding a control character such as a
+tab) is ignored with a warning and the card still imports — the refusal prints
+on stderr and rides the `--output json` payload's `advisories` array (objects:
+English `message`, plus `messageKey` when present), and never changes the exit
+code; and on a deck a value naming a board (`Sideboard`, `Commander`, `Tokens`,
+...) sets the row's section instead, so an Archidekt `Ramp,Sideboard` cell means
+section Sideboard + category Ramp; imported categories are written to the list's
 `.categories.json` sidecar; language cells take Scryfall codes or aliases like
 `JP`/`Japanese`, and an empty cell means English; when no language column is
 mapped, pinned rows are stamped with the configured `defaultLanguage` when the
@@ -290,7 +305,8 @@ is a usage error. Rows naming the same card and printing merge into one line
 (create and append agree), and a `--columns` number the file has no column for
 is a usage error (exit 2) instead of a per-row failure. Failed rows are reported
 with line numbers on stderr and the rest still import (exit code 1 on partial
-failure).
+failure); under `--output json` each `failures` entry carries its English
+`reason`, plus a `reasonKey` to match on when present.
 
 ## Import an entire Archidekt account
 
@@ -306,8 +322,13 @@ terminal (or under `--no-input`) the run exits 2 before fetching anything.
 The printing question above applies here too, asked **once for the whole run**
 — `--sync-printings` / `--no-sync-printings` answer it up front.
 Existing decks conflict unless `--overwrite`/`--yes` says what to do. The whole
-account is fetched (every page), and `--output json` reports
+account is fetched (every page) unless Archidekt stops serving it part way — then
+`--output json` carries `listIncomplete` (a message saying why; `found` may be
+short) and stderr says so. `--output json` reports
 `found`/`selected`/`imported`/`failed`/`skipped` plus a per-deck array.
+Each deck carries `status`, its English `error` (with `errorKey`/`errorParams`
+when present) when it failed or was skipped, and `advisories` — message objects
+like the import's — when Ritual could not keep all of its categories.
 A username with no results is reported honestly: Archidekt cannot distinguish an
 unknown user from an account with no public decks, so check the spelling.
 
@@ -320,18 +341,36 @@ unknown user from an account with no public decks, so check the spelling.
 ritual deck-sync pull                        # pull remote changes for all linked decks
 ritual deck-sync push "Winota Stax"          # push local changes for one deck
 ritual deck-sync push --dry-run              # preview without sending anything
-ritual deck-sync pull --yes                  # accept dropping lines the parser can't read
+ritual deck-sync pull --yes                  # accept dropping lines the parser can't read (never a held line)
 ritual deck-sync pull --only additions       # add cards locally, never remove any
 ritual deck-sync push --only removals        # push removals only, add nothing remotely
 ritual deck-sync push "Winota Stax" --force  # overwrite remote edits made since the last sync
 ritual deck-sync push --sync-printings       # also sync each card's exact printing + finish
+ritual deck-sync pull --sync-categories      # also sync each card's categories (its role: Ramp, Draw…)
+ritual deck-sync pull --dry-run -v           # also list every card the run changes, one line each
 ritual deck-sync status --output json        # what is linked, and when each last synced
 ritual deck-sync link "Alpha Deck" https://archidekt.com/decks/123456  # link an existing remote deck
 ```
 
 A text-mode run closes with a tally —
 `Synced 4 decks (2 with changes), 1 skipped, 1 failed.` — while
-`--output json` emits the full per-deck report instead.
+`--output json` emits the full per-deck report instead. Branch on each deck's
+`outcome` (`changed`, `unchanged`, `dry-run`, `cancelled`; absent on a
+failure or other skip) rather than on `reason`, which is English prose with
+`reasonKey`/`reasonParams` beside it.
+
+Each deck prints only a `Changes:` count by default. `-v`/`--verbose` lists the
+cards behind it, one line each, under the count: `+ 1 Lightning Bolt to Main`,
+`- 1 Brainstorm from Sideboard`, `~ Counterspell in Main: 2 → 3`,
+`> 2 Island: Main → Sideboard` (board move), `* Sol Ring in Main: (C21:263) → (LEA:270)`
+(printing), `= Sol Ring categories: Ramp, Artifacts`. It honours `--only`. A run
+without it that had cards to list ends with a hint to re-run with `--verbose`.
+Pair `--dry-run --verbose` to review exactly what a sync would change before
+running it. The listing is progress output: `--quiet` and `--output json` omit
+the lines, but the JSON report carries the same cards as data — each deck with
+changes has a `changes` array of entries discriminated by `kind` (`added`,
+`removed`, `quantity`, `move`, `printing`, `categories`), narrowed by
+`--only` and present with or without `--verbose`.
 
 ### Linking and status
 
@@ -394,7 +433,10 @@ adopts the remote format. `collection-sync` takes the identical flag (see the
 Syncing rewrites the deck file, so a line the parser cannot read would be deleted.
 Such decks are listed with their exact lines and confirmed before syncing;
 `--yes` answers up front, and without a terminal (`--no-input`, a pipe, or
-`--output json`) those decks fail instead.
+`--output json`) those decks fail instead. A deck holding a **held** line
+(`- 1234 Sol Ring`, possibly 1,234 copies written without the `x`) always fails,
+`--yes` or not: the sync would rewrite it as one card of that name (and a push would
+send that name). The user settles it by editing the file to `- 1234x …` or `- 1 1234 …`.
 
 A pull also adopts the deck's Archidekt format (mapped onto Ritual's format
 keys). A push does not push the local format back.
@@ -403,6 +445,32 @@ An extras section (`## Maybeboard`, `## Tokens`) that a pull empties is removed
 with its last card rather than left as a bare header — as is one that was already
 empty in the file. Empty `## Main`/`## Sideboard` headers are kept, and an empty
 extras header never counts as unreadable content, so it cannot block a sync.
+
+### Board moves
+
+Both directions diff **per board** (Commander, Main, Sideboard, Maybeboard;
+`## Tokens` counts as Maybeboard, `## Companion`/`## Oathbreaker` as Main), and
+a card on a different board on each side is **moved** — always, no flag. Copies
+one board loses and another gains pair by name (and by printing under
+`--sync-printings`; a card changing board *and* printing is removed and
+re-added; a gaining line naming no printing takes the copies at theirs);
+unpaired copies are ordinary adds/removes/quantity changes, so local `1 Main`
+vs remote `1 Main + 1 Maybeboard` removes the Maybeboard copy only. Copies
+never move onto a board that already holds the card — that is a quantity change
+(removed there, added to the existing line/entry) instead.
+A pull moves the line itself (keeping its `&N`, tags, labels, note,
+condition, language; changelogged as `set-section`), splitting it when only some
+copies move (the line keeps its `&N` and note; the split-off line gets a new
+`&N`, changelogged as remove + add). A section a pull empties is removed, except
+`## Main`/`## Sideboard`.
+A push swaps the Archidekt entry's board category (Main = none, Commander = the
+deck's premier category, Sideboard, Maybeboard = the deck's `Maybeboard` or
+other excluded category), keeping its id, label, printing and role categories; a
+new card is added with its board's category. `--only` never drops a move: a
+move changes no copy count, so only the leftovers around it are filtered, and a
+move still takes copies off the losing board under `--only additions`. The
+summary line says `…, N board moves`, and each deck's structured result
+carries `boardMoves`.
 
 ### Printing sync
 
@@ -436,10 +504,33 @@ exist for that printing on Archidekt or the deck is reported failed; `--only`
 does not filter printing updates (they neither add nor remove cards). Condition
 and language tokens are never synced — Archidekt deck entries carry neither.
 
+### Category sync
+
+A card's **categories** are its role in one deck (`Ramp`, `Removal`) —
+Archidekt's categories, kept in `<deck>.categories.json` (see the
+**ritual-edit** skill). By default a sync leaves them alone.
+`--sync-categories` (on `pull` and `push`) also syncs them: a pull makes
+every card the deck holds carry exactly Archidekt's categories, in Archidekt's
+order (first = primary; changelogged as `set-categories` events, and a
+categories-only pull leaves the card lines untouched), and a push makes every
+Archidekt entry of a card the local deck holds carry the local categories
+beside the board category of the board it ends up on (role categories never
+decide a board). A push from a deck with **no local
+categories at all** leaves Archidekt's alone — pull with the flag first. An
+unreadable categories file fails the deck; `--only` does not filter category
+changes. Each deck's structured result carries `categoriesChanged`.
+
+Archidekt files boards as categories too, and with or without the flag a
+category is a **board** (it sets the card's section, never a category) when its
+name is a reserved section name (`Commander`, `Sideboard`, `Maybeboard`, …,
+matched exactly), when the deck marks it premier (→ Commander), or when the deck
+excludes it from the count (Archidekt's "Tokens & Extras" → Maybeboard). `Tokens`
+counted in the deck is a category (token makers), not the Tokens board.
+
 The same sync runs from the admin site's **Sync Decks** page (deck toggles,
-direction, change filter, printing sync, live per-deck progress, and each
-deck's last-synced time) and from the MCP `sync_decks` tool (same `only` and
-`syncPrintings` fields).
+direction, change filter, printing and category sync, live per-deck progress,
+and each deck's last-synced time) and from the MCP `sync_decks` tool (same
+`only`, `syncPrintings` and `syncCategories` fields).
 
 ## Primer
 
@@ -451,27 +542,29 @@ ritual get-primer <moxfield-url>          # fetch a primer from Moxfield
 ## Price
 
 The unified `price` command covers all list types; scope it with `--deck` or a
-name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
-(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
-— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
-don't pass a conflicting `--prices`. Each store also picks its own printing for
-an entry that names none: under `cardkingdom` that is the newest printing CK
-actually sells, so an unpinned entry reads unpriced only when CK carries no
-printing of the card at all (a pinned printing CK does not sell always does). An
-interactive browser opens on a TTY — for agents, always pass `--summary`,
-`--output json`, or the global `--no-input` flag:
+name. `--source` picks the store, and the store sets the currency (default:
+config `defaultPriceSource`) — `tcgplayer` (Scryfall USD), `cardmarket`
+(Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom` (NM retail
+from the cached Card Kingdom feed; errors when no feed is downloaded — a
+bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
+pick `cardmarket`. Each store also picks its own printing for an entry that
+names none: under `cardkingdom` that is the newest printing CK actually sells,
+so an unpinned entry reads unpriced only when CK carries no printing of the card
+at all (a pinned printing CK does not sell always does). An interactive browser
+opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
+global `--no-input` flag:
 
 ```bash
 ritual price --deck --summary                       # every deck's totals
 ritual price "Winota Stax" --no-input               # one deck's cards + totals
 ritual price "Winota Stax" --output json --quiet
-ritual price "Winota Stax" --prices eur             # usd | eur | tix (defaults to config defaultCurrency)
-ritual price "Winota Stax" --source cardkingdom     # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price "Winota Stax" --source cardkingdom     # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed); default: config defaultPriceSource
 ```
 
 Deck totals cover every section except extras (maybeboard/token). Each deck also
 reports a "lowest" total (cheapest printing of every card) and a quantity-weighted
 unpriced-card count. Cards labeled `proxy`, and cards given custom art, price as
 0 and are **not** counted as unpriced — their reason is `proxy` or
-`custom-art`, not a missing price.
+`custom-art`, not a missing price. A total that includes any card with no pinned
+printing (priced at a representative one) or with no price reads **"~"**
+(`Total ~$12.34`); JSON reports those copies as `estimatedCount`.

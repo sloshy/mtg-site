@@ -1,8 +1,8 @@
 ---
 name: ritual-site
-description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, or expose Ritual to AI agents over MCP."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: 94b6c787b74f2a026b01482d5d58e0f433fa33beccf92c6294dd34f0cf12c3dd
+description: "Build, serve, and administer the Ritual website, wire up the CI publishing pipeline, and run the MCP server. Use when the user wants to generate the static site, preview it locally, set up publishing or CI (cache keys, changelog change detection for hand edits), verify or stamp list-file .sha256 sidecars to see which lists were hand-edited since Ritual last wrote them, open the web admin for editing lists, expose Ritual to AI agents over MCP, or bring a workspace up to date after upgrading Ritual (ritual migrate)."
+ritual-version: 0.1.0-rc3
+ritual-content-hash: 03e02f38067c38ffc9bb74e793370870d44b261d8d6be8a64131965ffc3ac68e
 ---
 
 # Building and serving a Ritual site
@@ -15,7 +15,6 @@ offers a web admin for editing and an MCP server for AI agents.
 ```bash
 ritual init-site                 # scaffold the CI workflow + gitignore for publishing
 ritual init-site --force         # regenerate all managed files
-ritual init-site --upgrade       # upgrade tracked workflows + .gitignore to this version
 ```
 
 Run bare in a terminal, `init-site` walks through its choices interactively. When
@@ -25,23 +24,85 @@ naming the flag:
 
 ```bash
 ritual init-site --ci github-actions --deploy publish-for-me \
-  --change-detection --currency usd --no-skills
-ritual init-site --ci manual --currency usd --no-skills
+  --change-detection --price-source tcgplayer --no-skills
+ritual init-site --ci manual --price-source tcgplayer --no-skills
 ```
 
 Flags: `--ci github-actions|manual`, `--deploy publish-for-me|local-build`
 (github-actions only), `--dist-dir <dir>` (local-build only),
 `--change-detection`/`--no-change-detection` (publish-for-me only),
-`--currency usd|eur|tix`, and `--skills`/`--no-skills` (install the Ritual agent
+`--price-source tcgplayer|cardkingdom|cardmarket|cardhoarder` (the default
+price store; it is added to `priceSources` when missing), and `--skills`/`--no-skills` (install the Ritual agent
 skills). Flags that do not apply to the chosen CI system or deploy mode are usage
 errors — including either form of `--change-detection` outside
 `--deploy publish-for-me`. An existing `README.md` additionally needs
-`--overwrite-readme`, `--no-overwrite-readme`, or `--force`; a pending version
-upgrade needs `--upgrade`.
+`--overwrite-readme`, `--no-overwrite-readme`, or `--force`.
 
-Re-running `init-site` on a repository already initialized with the current
-version is a no-op that exits **0** (`Already initialized ...; nothing to do.`),
-so it is safe in an idempotent setup script.
+Re-running `init-site` on an initialized repository never changes it and exits
+**0**: it prints `Already initialized and up to date; nothing to do.`, or, when a
+newer Ritual has updates for the workspace, tells you to run `ritual migrate` —
+so it is safe in an idempotent setup script. The exception: a workspace a newer
+Ritual already updated (or whose config cannot be made valid) is refused with
+exit **1**, exactly as `ritual migrate` refuses it.
+
+## Bringing a workspace up to date (`ritual migrate`)
+
+After Ritual is upgraded, a workspace may need one-time migrations (config keys
+renamed or removed, files moved) and a refresh of the files Ritual generates (the
+deploy workflow, `.gitignore` entries, and every installed Ritual agent skill,
+which is overwritten). `ritual migrate` does both:
+
+```bash
+ritual migrate --check     # exit 4 when updates are pending, 0 when current; writes nothing
+ritual migrate --dry-run   # print the plan; writes nothing, exits 0
+ritual migrate --yes       # apply without the confirmation prompt
+```
+
+Always run `--check` or `--dry-run` first and show the user the plan.
+**Always ask before applying** — migrate rewrites `ritual.config.json` and
+generated files. Before a numbered migration changes anything it copies the config
+and every file it will rewrite, delete or move into
+`.backups/<time>-migration-<n>/` (paths kept) and prints that folder; copying the
+files back undoes it.
+Headless (`--no-input` or no terminal), applying needs `--yes`; without it the
+run is a usage error (exit 2). A workspace migrated by a newer Ritual than the one
+running is refused (exit 1) with the `ritual self-update --tag …` command
+that installs the release it needs. Ritual records its
+bookkeeping in the `managed` block of `ritual.config.json` (`version`,
+`migration`, `output`); never edit it, and `config set` refuses to.
+
+**The pending-updates notice.** Every other command checks for pending updates
+first (except `migrate`, `self-update`, `init-site`, `config`, `help`,
+`mcp` and `detect-changes`).
+In a non-interactive run like yours it never prompts: it prints one stderr line
+and the command proceeds with its normal exit code and output:
+
+> This workspace has pending updates. Run `ritual migrate --dry-run` to see
+> them, then `ritual migrate` to apply them.
+
+When you see it, run `ritual migrate --dry-run`, show the user the plan, and
+ask before running `ritual migrate --yes` — never apply on your own. If
+`--dry-run` refuses (exit 1), show the user its message instead: the config
+needs a hand fix first. A stderr
+line starting `Warning: this workspace was` that calls the workspace's Ritual
+newer means the installed Ritual is older than the workspace: the command still
+ran, but tell the user. The warning names the fix:
+`ritual self-update --tag <release>`, or plain `ritual self-update` when
+it names no release. **Ask before running it**, since it replaces the Ritual
+program itself.
+
+**The CI pin.** The publish-for-me workflow downloads exactly the release in
+`managed.version` (a `RITUAL_VERSION` repository variable set to a tag such as
+`v1.0.0` overrides it). Only a Ritual **release** build writes the pin; a dev
+build leaves it alone and warns that CI keeps running the pinned release, which
+does not know any migrations the dev build just applied. CI therefore moves to a
+newer Ritual only when the user runs `ritual migrate` with that newer release and
+commits `ritual.config.json`. For a publish-for-me workspace, a release newer
+than the pin (or no pin at all) is itself pending work — `--check` exits 4 and
+the plan shows `Pin CI to Ritual <version>` — even when nothing else changed. A
+workspace with no pin builds with the latest stable release (or the newest
+prerelease while no stable release exists), and the CI run logs a warning
+naming the release it picked.
 
 With `--deploy local-build` the built site is **committed**, so the generated
 `.gitignore` does not ignore it (it appends `!<distDir>/`) and every generated
@@ -122,7 +183,7 @@ ritual build-site                                          # build the configure
 ritual build-site --decks "Winota Stax" "Mono-Red Aggro"   # specific decks
 ritual build-site --collections "Main Binder"              # specific collections
 ritual build-site --wanted-lists "To Buy"                  # specific wanted lists
-ritual build-site --currencies usd,eur             # narrow the currencies (default: every priceSources currency; never adds one)
+ritual build-site --price-sources tcgplayer,cardmarket  # narrow the stores offered (default: every priceSources store; never adds one)
 ritual build-site --theme izzet                    # initial theme baked into the HTML
 ritual build-site --theme-file my-theme.json       # load custom theme JSON files (their names become selectable)
 ritual build-site --locale de-AT                   # UI locale baked into the site (html lang/dir, opening language)
@@ -149,6 +210,10 @@ edit to a sidecar invalidates that list's cached detail. Such a card is baked at
 price **0** and left out of the totals and the missing-price counts — the same
 rule the `proxy` label carries — and the pages show `CUSTOM` (or `PROXY`)
 where a price would be, with no buylist quote in sell mode.
+
+A deck or wanted-list total that includes a card with no pinned printing (priced at
+a representative one) or with no price is prefixed **"~"** on the sites (index
+tiles, page and section totals, the Filtered stat); collections never are.
 
 ### Site language
 
@@ -291,7 +356,7 @@ or loopback bind, the `--host` value otherwise, and it prints only after the
 port is bound: a port already in use is also exit 1
 (`Failed to start the server on <host>:<port>: ...`) with no startup line.
 
-Build flags (`--theme`, `--currencies`, ...) only apply together with `--build`;
+Build flags (`--theme`, `--price-sources`, ...) only apply together with `--build`;
 passing one without it is a usage error. `--refresh`, `--out-dir` and
 `--sell-mode` are the exceptions: `--out-dir` names the directory to serve
 whether or not a build runs, while `--refresh` (`--api` startup cache warming)
@@ -300,6 +365,8 @@ exempt **only under `--api`** — a plain `serve --sell-mode` has no reader and
 stays a usage error.
 
 ### Hosted mode (`--api`)
+
+Hosted mode is **beta**: it may change in any release.
 
 `serve --api` adds an unauthenticated, read-only API on the same port: list
 JSON is computed from the markdown files per request (CLI/admin edits appear
@@ -336,21 +403,24 @@ The **stores the site prices cards from** come from the `priceSources` config ke
 (default `["tcgplayer"]`): `tcgplayer` is Scryfall's USD market price, `cardmarket`
 Scryfall's EUR trend price, `cardhoarder` Scryfall's MTGO tix price, and `cardkingdom` Card
 Kingdom's NM retail price, read off the same baked buylist quotes sell mode uses. The stores
-also decide the site's **currencies**: a build or server offers exactly the currencies an
-enabled store quotes in (so tix appears only with `cardhoarder`). `build-site --currencies`
-can only narrow that set (a list naming no store-backed currency exits 2, and `serve --api`
-refuses the flag), and the header's currency selector appears only when more than one is
-offered. With more than one USD store enabled, list pages
-grow a **Prices** selector (USD views only; EUR is always Cardmarket) whose choice is
-shareable in the view URL (`prices=cardkingdom`); switching it clears price filters like a
-currency switch. The same selector appears in the card modal's **Other Printings** grid and
-in the printing pickers (trade/edit, and the add-card dialog's printing step) — one shared
+also decide the site's **currencies** — each store has exactly one (Card Kingdom is USD
+only), and a currency is never chosen on its own, so tix appears only with `cardhoarder`.
+`build-site --price-sources` can only narrow the stores for one build (a list naming no
+enabled store exits 2, and `serve --api` refuses the flag). The header's **Prices** dropdown (on the public and admin sites alike)
+picks the **store** — and so the currency — every price comes from, across list pages, the
+index tiles, Quick Switch and Combine Lists (the build bakes each list's totals per store,
+Card Kingdom included); it appears only when more than one store is offered, and opens on
+the configured `defaultPriceSource` when offered. A store pick is shareable in the view URL
+(`prices=cardmarket` opens the recipient on Cardmarket, in EUR); switching stores clears
+price filters. With both USD stores
+enabled, a USD-store selector also appears in the card modal's **Other Printings** grid and
+in the printing pickers (trade/edit, and the add-card dialog's printing step) — the same
 choice, so switching it in a dialog switches the page behind it. Each printing there is
 priced under the selected store, with its alternate finishes listed underneath, and the
 grid's price sort follows the store too. Under the Card Kingdom view a printing CK does not sell shows no price —
 there is deliberately no TCGplayer fallback — and the sell-mode spread compares CK's offer
-against the *selected* store's price (entering sell mode defaults the view to Card Kingdom
-retail unless the user picked a source).
+against the *selected* store's price (entering sell mode switches a USD view to Card Kingdom
+retail unless the user picked a store; a EUR or tix view keeps its store).
 
 Each store also **picks its own printing** for a card line that names none: the
 representative printing, and the cheapest one behind the "Lowest Price" toggle, are chosen
@@ -363,7 +433,7 @@ entering sell mode defaults the store to Card Kingdom, turning sell mode on can 
 which printing a name-only card shows — and therefore its buylist offer and the Buylist
 total. An **empty** `priceSources` array hides every
 price surface on the sites — per-card prices, totals, price sort/filter/grouping, and the
-currency selector — while `ritual price` and sell mode are unaffected:
+header's store picker — while `ritual price` and sell mode are unaffected:
 
 ```bash
 ritual config set priceSources tcgplayer cardkingdom   # offer both USD stores
@@ -417,7 +487,8 @@ ritual config set defaultCategories --add "Board Wipes"
 ritual config set defaultCategories --remove Tokens
 ```
 
-A site can also offer **sell mode**: Card Kingdom buylist prices beside each
+Sell mode on the sites is **beta** (one US buyer; it may change in any release; `ritual sell`
+itself is not). A site can also offer **sell mode**: Card Kingdom buylist prices beside each
 card, on-buylist chips plus a buylist-price threshold filter, buylist grouping, sorting by
 buylist price or by buylist-minus-retail ascending (`Buylist vs Price`, where a missing offer or
 retail price counts as $0), and a CK sell-cart export. The quotes are **baked into each list's
@@ -493,7 +564,7 @@ are auto-committed to git (`admin.gitAutoPush` also pushes). CLI commands never
 auto-commit.
 
 The admin's **Import Changes** page applies a change-list JSON exported from the
-public site's edit mode (a version-2 bundle covering one or more lists, with
+public site's edit mode (a version-3 bundle covering one or more lists, with
 cross-list moves normalized into a top-level `moves` array) with a per-list
 preview — moves listed in their own group — before applying; each move is written
 to both its lists. It is the same operation as `ritual import-changes` (see the
@@ -509,7 +580,8 @@ bundle's top-level `moves` array like any other move.
 The admin's **Sync Decks** page runs `deck-sync` in the browser: pick a
 direction, narrow the run to additions or removals only (the `--only` flag's
 three-way control), toggle which Archidekt-linked decks to sync (all by default),
-opt into printing sync (the `--sync-printings` flag's checkbox),
+opt into printing and category sync (the `--sync-printings` and
+`--sync-categories` flags' checkboxes),
 and watch per-deck progress stream in as it runs. Each deck shows when it last
 synced, and the page signs in to Archidekt inline when the stored token has
 expired. A deck whose file holds lines the parser cannot read is refused (a sync
@@ -554,8 +626,12 @@ ritual admin --mcp --mcp-token "$RITUAL_MCP_TOKEN"
 ritual admin --mcp --mcp-token "$RITUAL_MCP_TOKEN" --mcp-port 9100
 ```
 
+**First run:** while no account exists, `ritual admin` prints a setup link
+carrying a one-time token; the browser setup form refuses to create the account
+without it (`RITUAL_ADMIN_SETUP_TOKEN` pins the token for scripted setup).
+
 **Account setup and recovery** (headless — no server started): `ritual admin setup`
-creates the admin account ahead of the first browser visit (`--username` is
+creates the admin account ahead of the first browser visit, no token needed (`--username` is
 required, even on a terminal), `ritual admin reset-password` resets a lost
 password (`--username <name>` also replaces the username; the TOTP enrollment is
 preserved), and `ritual admin disable-totp` clears TOTP two-factor auth when the
@@ -595,9 +671,24 @@ No `overrides` key means the instance follows the stored config.
 docs, the server instructions, and the `message` field of every tool result stay
 English no matter what `--locale` / `RITUAL_LOCALE` / `uiLocale` say — those
 settings move the CLI's own terminal output and the two web UIs, never this
-surface. Results that come from an admin handler carry `messageKey` (plus
+surface — with two exceptions the client shows its user, which follow the UI
+locale: the `sync_collection` elicitation form and a task's `statusMessage`
+(the MCP Tasks extension). Results that come from an admin handler carry `messageKey` (plus
 `messageParams` when the sentence interpolates) beside the English `message`: a
-stable, locale-invariant identifier to match on instead of matching prose.
+stable, locale-invariant identifier to match on instead of matching prose. Params
+may nest — a param may itself be a message, a list, a duration (`elapsedMs`, or
+`durationMs` for an age or a time-out) or a card language: in the `import_csv`,
+`import_deck` and `import_change_bundle` results (a count with its noun — and
+`get_list`'s `warnings`, the sync tools' `report.unreadable[].warnings`,
+`export_cards`'/`diff_lists`' `warnings`, `import_csv`/`import_deck`'s
+`warnings`/`advisories` entries, `refresh_buylist`'s `staleFallback` and
+`skippedRows` and `get_sell_cart`'s `warnings` (the etched titles nested as a
+list) are message objects, a card-line diagnostic
+nested as `text`, each `import_csv` failure carrying `reasonKey`/`reasonParams`), in
+the sync tools' per-item `reasonParams`, and in their run-level
+`report.errorMessages[].messageParams`. Each failed list of
+`import_change_bundle` carries `errorKey`/`errorParams` beside `error`. A
+tool *error* carries only `{error, code, message}` — branch on `code`.
 
 The HTTP transport binds `--host` (default `127.0.0.1`). Without a token
 (`--token` or `RITUAL_MCP_TOKEN`) it serves unauthenticated on loopback only —

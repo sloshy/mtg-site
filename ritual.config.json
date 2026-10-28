@@ -65,7 +65,11 @@
     "ciSystem": "github-actions",
     "deployMode": "publish-for-me",
     "distDir": "dist",
-    "detectChanges": true,
-    "version": "0.1.0-rc2"
+    "detectChanges": true
+  },
+  "managed": {
+    "migration": 2,
+    "version": "0.1.0-rc3",
+    "output": "sha256:db6e13be4abcdc23d598b8c7d1ab22cc1d6a6a8ab46aa6068f4b48080bbae01a"
   }
 }

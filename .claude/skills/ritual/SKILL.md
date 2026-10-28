@@ -1,8 +1,8 @@
 ---
 name: ritual
-description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: 68d1f3a63285135cfa38373f6baa8f2ca9ae0d64eb2181ec9b90d8b233d7bed3
+description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists, or asks to update Ritual itself (ritual self-update)."
+ritual-version: 0.1.0-rc3
+ritual-content-hash: 2135042a1f48ab3197a279529cc8625bffaef142697585f1086f3c02d9122c8d
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -35,6 +35,18 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
 - `ritual.config.json` — configuration (optional: reading config never creates
   it, so a workspace only has one once `config set`/`unset`, `init-site`, the
   admin Settings page, or the MCP `update_config` tool writes it)
+- `cache/` — downloaded data, never hand-edited (rebuild it with
+  `ritual cache preload-all`): `cache.json` is the Scryfall card cache (`cards` keyed by
+  card name, each holding that name's printings as Scryfall card objects: set and collector
+  number, EDHREC rank, TCGplayer (USD) and Cardmarket (EUR) market prices per finish,
+  legalities), `cardkingdom.json` is Card Kingdom's buylist feed, and `tags.json` holds
+  Scryfall Tagger tags.
+  These are **internal formats** that change without notice, and `cache.json` can run to
+  hundreds of MB — **do not parse them**. Every value in them reaches you through a command:
+  `export --columns ...,scryfallId,edhrecRank` (per line), `price --output json`
+  (`price`, `edhrecRank`, `typeLine`, `cmc` per entry), and `sell --output json`
+  (CK's `priceBuy` beside `tcgplayerPrice`, `offerRatio`, `edhrecRank`, `ownedCopies`
+  and each entry's `cardIds`; see the **ritual-collections** skill)
 
 A list is addressed by its **name** = the file basename without `.md`
 (e.g. `decks/Winota Stax.md` → `Winota Stax`). A name typed **exactly** as the file
@@ -54,9 +66,10 @@ or the full name exactly as spelled. The error's last line always names the
 remedy that actually applies.
 
 **Discovering lists:** `ritual lists` is the discovery primitive — it enumerates
-every deck, collection, and wanted list as `type slug name` rows. Filter with
+every deck, collection, and wanted list as `type slug name` rows (the text type
+column is worded in the UI language, e.g. `wanted list`). Filter with
 `--deck`/`--collection`/`--wanted`, and pass `--output json` for machine-readable
-`{type, slug, name}` objects. Prefer it over globbing the workspace folders.
+`{type, slug, name}` objects whose `type` is always `deck`/`collection`/`wanted`. Prefer it over globbing the workspace folders.
 
 **List lifecycle:** `ritual new <deck|collection|wanted> "<name>"` creates a list
 (`-f/--format` for decks, default `commander`), `ritual rename <list> "<new name>"`
@@ -67,7 +80,9 @@ that resolves to an existing list of the same type — `atraxa superfriends` bes
 `Atraxa Superfriends` is an error, not a second deck — so no two lists ever share
 one addressable name; re-spelling a list's own name (capitalization, punctuation) is
 allowed. `rename --output json` returns `newFilePath`/`oldFilePath`, and
-`delete --output json` returns `deletedFiles`. `ritual diff <listA> <listB>` compares any two lists by card name
+`delete --output json` returns `deletedFiles` and `trashDir`: a deleted list's files move into the
+workspace's `.trash/<time>-<type>-<slug>/` folder (`trashDir` is absolute; workspace-relative paths kept
+inside it), so moving them back restores it. `ritual diff <listA> <listB>` compares any two lists by card name
 (`--by printing` for exact printings).
 
 **File naming:** creating a list names its file exactly as the list is named — case,
@@ -134,23 +149,37 @@ format: commander
   Scryfall code (`en es fr de it pt ja ko ru zhs zht he la grc ar sa ph`; `zhs`/`zht`
   for Chinese, not ISO codes), omitted for English so a bare line always means `en`.
   `{...}` is a note, greedy to the last `}`.
-- `[sale]`/`[trade]`/`[sale,trade]`/`[keep]`/`[proxy]` is a **card label override**:
-  `sale` and `trade` combine, `keep` and `proxy` each stand alone. Collections take
-  all four, **decks take `proxy` only** (another label on a deck line is a warning that
-  keeps the card and drops the token), and **wanted lists carry neither labels nor a
-  condition** — such a token on a wanted line is a named refusal of that line. A card's
-  *effective* labels are its own token when present, else the list's front-matter
-  default — see the **ritual-collections** and **ritual-decks** skills.
+- `[sale]`/`[sale,trade]`/`[keep]`/`[proxy]`/`[trade,no-sale]`/`[no-proxy]` is a **card
+  label override**, which **adjusts** the list's front-matter default: a plain label
+  adds it, `no-<label>` takes an inherited one away (positives first, then negatives).
+  `sale` and `trade` combine, `keep` and `proxy` each stand alone (and displace an
+  inherited label they cannot combine with); a label both set and negated is a warning.
+  Collections take all four, **decks take `proxy`/`no-proxy` only** (another label on a deck line
+  is a warning that keeps the card and drops the token), and **wanted lists carry
+  neither labels nor a condition** — such a token on a wanted line is a named refusal of
+  that line. A card's *effective* labels are its positives plus the default minus its
+  negated labels — see the **ritual-collections** and **ritual-decks** skills.
 - **Read tolerances** (rewritten to the canonical form on the next save): bracket
   tokens in any order; any whitespace run; the `- ` bullet is optional on a deck line
   (a deck line is recognized by its leading quantity; a flat-list line by its bullet);
-  `4x` quantities; a quantity on a collection/wanted line (`- 4 Sol Ring (C21:240)`
+  `4x` quantities (four or more digits are a quantity **only** with the `x` —
+  `1996 World Champion` is a name — so 1,000+ copies are written `- 1234x Sol Ring`);
+  a quantity on a collection/wanted line (`- 4 Sol Ring (C21:240)`
   reads as four copies and is **expanded to four lines on save** — an advisory, never a
   refusal; the first copy keeps the `&N`); Arena/MTGO `Name (SET) CN` and Moxfield
   `Name (SET) *F* CN` printings; `//` comment lines (dropped on write); `_` in set
   codes. A refused line (an unknown or disallowed token, a collection line with no
   printing) is a warning naming the file, line, and token, and blocks every
   whole-file write of that file; line-preserving commands leave it alone.
+- **Held deck lines** are the one read *not* rewritten on save: a deck line with no
+  quantity whose name starts with 4+ digits (`- 1234 Sol Ring`) reads as one card of
+  that whole name, but may be 1,234 copies an older version wrote without the `x`. It
+  is reported with the fix, and nothing may re-emit it: every whole-file write of the
+  deck refuses (admin/MCP saves, `cleanup`, `move`, `import --append`, and
+  `deck-sync` even with `--yes`), `ritual edit` won't open the deck, and a one-shot
+  edit aimed at that line refuses (removing or re-sectioning it still works). Only the
+  user settles it, by editing the file to `- 1234x Sol Ring` (copies) or
+  `- 1 1234 Sol Ring` (the card's name).
 - **Sections** are matched by exact name (case-insensitive) against a closed table:
   `Commander`/`Commanders`/`Command Zone`, `Companion`, `Oathbreaker`/`Signature
   Spell`, `Sideboard`, `Maybeboard`, `Tokens`/`Token`, `Main`/`Mainboard`/`Deck`.
@@ -189,9 +218,9 @@ One shape the whole-file paths **do** delete, on purpose and without refusing: a
 empty **extras** section (a `## Maybeboard`/`## Tokens` header with no cards under it).
 Extras count toward no total, so the header holds nothing to lose — every whole-file write
 clears it, and `cleanup` names it (`Dropped empty section: Maybeboard`) while still
-rewriting. An empty `## Main`/`## Mainboard`/`## Deck`/`## Sideboard` header in a deck
-with cards elsewhere is kept instead: it is written back bare, with no warning. Any
-other empty heading is content a rewrite would lose, so it warns and blocks the write.
+rewriting. Any other empty heading (`## Sideboard`, `## Commander`, `## Creatures`) in a
+deck with cards elsewhere is kept instead: it is written back bare, with no warning, and
+removing or moving a section's last card leaves its heading the same way.
 
 A deck's YAML front matter carries its `format:` and `tags:` (a fixed set of keys — see
 the **ritual-decks** skill; `name:`/`created:` are legacy keys that `cleanup` and every
@@ -239,8 +268,8 @@ list, plus the vocabulary's display order:
 - **Ordered per card, first is primary** — the one the site groups by. `order` is the
   vocabulary's display order; names a card uses but `order` does not list are appended on
   the next Ritual write (the configured `defaultCategories` first, then the rest).
-- **A name follows the tag shape rule** (plain text; no `#`, `,`, `&`, `*`, double
-  quotes, brackets, braces or parentheses; case kept).
+- **A name is any non-empty plain text without a comma or a control character** (looser
+  than the tag rule, since a category is never written on the card line; case kept).
 - **It carries its own `.sha256` and is part of the list's recorded history** — unlike
   `<name>.art.json`, which records nothing. Edits appear in the list's `.changes.md` as
   `Set categories of "Sol Ring" to Ramp, Artifacts`, `Renamed category "Draw" to "Card Draw"`
@@ -389,7 +418,7 @@ still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
 - **ritual-wanted** — manage and price wanted lists
 - **ritual-edit** — card edits across any list: one-shot non-interactive commands (`add-card`, `remove-card`, `set-card`, `note`, scripted `move`), the unified interactive editor, and card exports (CSV, JSON, plain text, Markdown)
 - **ritual-cards** — look up cards and run Scryfall searches
-- **ritual-site** — build, serve, and administer the published site, the CI publishing pipeline, and the MCP server
+- **ritual-site** — build, serve, and administer the published site, the CI publishing pipeline, the MCP server, and bringing a workspace up to date after upgrading Ritual (`ritual migrate`)
 
 ## Global options (work on every command)
 
@@ -426,7 +455,18 @@ still cleaned — that exits 1 in **every** mode, including `--dry-run`. Under
 
 Exit codes are uniform across commands: **1** runtime error, **2** usage error,
 **3** not found. A missing resource — a list, file, or sidecar that is simply
-not there — is always **3**, never 1.
+not there — is always **3**, never 1. **4** means updates are pending, and only
+`ritual migrate --check` (workspace updates) and `ritual self-update --check`
+(a newer Ritual release) use it.
+
+A stderr line saying **this workspace has pending updates** is advisory: the
+command still ran with its normal output and exit code. Run
+`ritual migrate --dry-run`, show the user the plan, and ask before applying
+(details in **ritual-site**).
+
+A stderr line saying **Ritual X is available** is informational too: a newer
+release exists, and nothing changed. Mention it if relevant, but never run
+`ritual self-update` without asking the user first.
 
 ## Scripting conventions (uniform across commands)
 
@@ -434,12 +474,14 @@ not there — is always **3**, never 1.
   file format or destination. `json` emits exactly one document per run (a
   card batch or a multi-page search is still one array); `ndjson` streams one
   object per line. Errors go to stderr as
-  `{"error":{"code","messageKey?","message","details?"}}` in the structured
+  `{"error":{"code","messageKey?","messageParams?","message","details?"}}` in the structured
   modes — `code` and `messageKey` are locale-invariant (match on those, never
-  on prose), while `message` follows the UI locale. An unexpected internal
-  failure uses the same envelope with `code: "runtime_error"` and exit `1`,
-  carrying neither `messageKey` nor `details` — there is no catalog entry
-  and no structured payload behind it. Three
+  on prose), while `message` follows the UI locale. A keyed engine failure (a
+  cache lock that timed out, a failed Archidekt request) is `code:
+  "runtime_error"` with its `messageKey`/`messageParams` and exit `1`. An
+  unexpected internal failure uses the same envelope and code, carrying
+  neither `messageKey` nor `details` — there is no catalog entry and no
+  structured payload behind it. Three
   exceptions, all deliberate: `scry` and `sell` add a fourth value
   `--output csv` (Scryfall's server-side CSV and Card Kingdom's sell-cart
   upload format, respectively — `sell`'s csv is a different payload, not the
@@ -481,7 +523,9 @@ ritual login status               # stored login + whether its session still aut
                                   #   exit 0 usable, 1 expired (re-login), 3 nothing stored
 ritual login logout               # remove the stored Archidekt session
 ritual config set <prop> <value>  # set a config value (dot notation for nested keys)
-ritual config set defaultCurrency eur  # currency price commands/displays default to (usd | eur | tix)
+ritual config set defaultPriceSource cardkingdom  # store price commands/displays default to
+                                  #   (tcgplayer | cardkingdom | cardmarket | cardhoarder; its
+                                  #   currency follows). Unset = first priceSources entry
 ritual config set priceSources tcgplayer cardkingdom  # stores the sites offer prices from
                                   #   (tcgplayer = Scryfall USD, cardmarket = Scryfall EUR,
                                   #   cardkingdom = CK NM retail, cardhoarder = MTGO tix); sites
@@ -490,14 +534,26 @@ ritual config set priceSources tcgplayer cardkingdom  # stores the sites offer p
                                   #   builds/servers download the ~70 MB CK feed like sell mode
 ritual config set defaultCategories Ramp Draw Removal  # global category vocabulary: what new
                                   #   lists suggest and the order categories are listed in
-                                  #   (--add/--remove edit it; a name follows the tag shape rule)
+                                  #   (--add/--remove edit it; no commas or control characters)
 ritual config set defaultLanguage ja   # language stamped on newly added cards (Scryfall codes;
                                   #   aliases like jp/Japanese normalize). Non-en switches cache
                                   #   downloads to Scryfall's much larger all-cards bulk
 ritual config set searchDebounceMs 250 # web editors' add-card search debounce in ms (0 disables)
+ritual config set updateCheck false  # stop the daily "Ritual X is available" stderr notice
+                                  #   (RITUAL_NO_UPDATE_CHECK=1 does the same per process)
 ritual config set artDir ./art    # directory custom card art is referenced from (default ./art)
 ritual config set uiLocale de-AT  # language Ritual's own interface text speaks (BCP-47 tag).
                                   #   NOT defaultLanguage: that one picks card printings
+ritual migrate --dry-run          # after upgrading Ritual: preview pending workspace updates
+                                  #   (ask the user before `ritual migrate --yes` applies them)
+ritual self-update --check        # is a newer Ritual release out? exit 4 yes, 0 no; writes nothing
+                                  #   (exit 2 in a dev/local build or Docker, like the install)
+ritual self-update --yes          # replace this Ritual binary with the newest release on its channel
+                                  #   (--prerelease/--stable switch channel; --tag <tag> installs an
+                                  #   exact release, even an older one). ASK THE USER FIRST: it replaces
+                                  #   the program itself.
+                                  #   Inside a workspace it then prints the new release's
+                                  #   `migrate --dry-run` plan; applying that is a separate, asked-for step
 ritual config get <prop>          # read one value (exit 3 when unset)
 ritual config list                # print the full effective config (defaults marked)
 ritual config unset <prop>        # revert a value to its default
@@ -524,11 +580,22 @@ ritual cache feed fetch           # sync the cache from a feed, then seed to pee
 ritual config set cacheSource feed  # make all cache refreshes sync via the feed
 ```
 
+The cache feed is **experimental** (it may change or go away in any release); the default
+`cacheSource: scryfall` is the supported path. `cache server` has no authentication and
+unauthenticated write routes: keep it on loopback or a trusted private network.
+
 `ritual.config.json` is created only by a genuine write — `config set`/`unset`,
 `init-site`, the admin Settings page, or the MCP `update_config` tool — reading
 config never does. If the file exists but is not valid JSON, every command fails with exit 1
-and a message naming the path; the file is never rewritten, so fix (or delete)
-it rather than trying to overwrite it with `config set`.
+and a message naming the path — under `--output json` an error envelope with
+`messageKey: domain.config.fileNotJson`, as for a `--base-dir` that is not a directory
+(`cli.baseDir.*`, exit 2). It is worded in the language `--locale`/`RITUAL_LOCALE`/the
+OS chose, since a broken file cannot name its own `uiLocale`. The file is never
+rewritten, so fix (or delete) it rather than trying to overwrite it with `config set`.
+`config set`/`get`/`unset` refusals are keyed `cli.config.*` (or `domain.config.*`
+for a value the validator refuses, `domain.export.problem.*` for an `exportPresets`
+one); `PUT /api/config` refuses a value in English plus that key, and `update_config`
+with the same English.
 
 Cache refreshes take an exclusive lock (`cache/.ritual-cache-lock`); a refresh
 started while another process is refreshing waits up to the configurable

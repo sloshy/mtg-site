@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, label or tag a card, set card categories in a list or manage a list category vocabulary (`ritual categories`), give a card custom art, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: 4a892d94091b5c61ac36c35d472ed8800fa6677932add814884fd091b179379f
+ritual-version: 0.1.0-rc3
+ritual-content-hash: f1146d617bd500f86e2e244594037921d8fae05532236928d3cf0d6d2fccf53e
 ---
 
 # Editing cards in any Ritual list
@@ -98,11 +98,15 @@ ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writ
 - `-q` quantity (deck only), `-f` finish (nonfoil/foil/etched — any list type),
   `-c` condition (NM/LP/MP/HP/DMG, or `NONE` to record no condition — decks and
   collections). Decks also take `--section <name>` and `--commander` to place the
-  new line. A flag the target type does not support is an error. Neither
-  finish nor condition has an implicit default: without a terminal a collection add
-  needs `-c`, and any specific-printing add whose printing comes in several finishes
-  needs `-f` — otherwise the run exits 2 naming the flag instead of writing a
-  half-specified line.
+  new line; with `--section`, copies merge only with a same-printing line in that
+  section (else a new line there). Section names match the deck's own sections
+  case-insensitively or by role (`Main`/`Deck` = first main-deck section, card lines
+  above the first heading included; a resolving name never creates a new section).
+  A flag the target type does not support is an error. Neither finish nor condition
+  has an implicit default: without a terminal a collection add needs `-c`, and
+  any specific-printing add whose printing comes in several finishes needs `-f` —
+  otherwise the run exits 2 naming the flag instead of writing a half-specified
+  line.
 - `--language <code>` records a non-English copy (lowercase Scryfall codes — `ja`, `de`,
   `zhs`, ...; aliases like `jp` or `Japanese` normalize). Adding **never prompts** for a
   language: omitted, the configured `defaultLanguage` is stamped, and a bare line in the
@@ -115,8 +119,9 @@ ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writ
   terminal the name must match exactly anyway, and a collection add without a
   printing pin succeeds only when the card has a single paper printing — pass
   `--set`/`--collector-number` to be safe.
-- `--label <label>` records the new copy's label override (a deck takes `proxy`
-  alone), and `--tag <tags>` the tags the new line starts with (any list type;
+- `--label <label>` records the new copy's label override, adjusting the list
+  default (a deck takes `proxy`/`no-proxy` alone; `--label no-proxy` adds a real
+  card to a proxy-default deck), and `--tag <tags>` the tags the new line starts with (any list type;
   comma-separated, `"Ramp, Card Draw"`). There is **no art flag on `add-card`**: a line's `&N` is allocated by the
   write, so custom art at add time is a two-step — add the card, then aim
   `set-card --art` at it (`--output json` reports the `cardId` the add produced, or
@@ -170,11 +175,14 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
 - `--language <code>` sets the card's language on any list type (canonical Scryfall codes
   or aliases like `jp`); `en` clears the line's token, since a bare line means English.
   Validated cache-only against the printing's real languages, like `--finish`.
-- `--label sale,trade|keep|proxy|none` — decks and collections. Sets the card's
-  label override (`sale`/`trade` combine; `keep` and `proxy` each stand alone);
-  `none` clears it so the list's front-matter default applies again. A
-  **deck takes `proxy` only** and a wanted list takes no labels at all — anything
-  else is a usage error naming what the type supports. `add-card` takes the
+- `--label sale,trade|keep|proxy|no-<label>,…|none` — decks and collections. Replaces
+  the card's label override, which **adjusts** the list's front-matter default: a
+  plain label adds it, `no-<label>` takes an inherited one away (`--label
+  trade,no-sale`; `sale`/`trade` combine; `keep` and `proxy` each stand alone;
+  a label cannot be both set and negated). `none` clears it so the default
+  applies unchanged. A **deck takes `proxy`/`no-proxy` only** and a wanted list
+  takes no labels at all — anything else is a usage error naming what the type
+  supports. `add-card` takes the
   same `--label` (minus `none`) to label a fresh add.
 - `--tag <tags>` / `--untag <tags>` — every list type. Adds or removes the card's
   **tags**: the owner's own free-form words for the card (`Ramp`, `Card Draw`), as
@@ -201,9 +209,8 @@ ritual set-card "To Buy" "Demonic Tutor" --wanted --finish foil --output json
   a move**. The value is comma-separated and **the first entry is the card's primary
   category** (`--categories "Ramp, Artifacts"`); repeating the flag appends, because
   order is meaning. It is a whole-list replacement, not a per-category delta: an
-  empty value is a usage error and `--no-categories` is the clear. Names follow the
-  tag shape rule (plain text, no `#`, `,`, `&`, `*`, quotes, brackets, braces or
-  parentheses; case and spaces kept). The assignment is written to
+  empty value is a usage error and `--no-categories` is the clear. Names are plain
+  text without a comma or a control character (case and spaces kept). The assignment is written to
   `<list>.categories.json` plus its `.sha256` — both reported in the run's
   `writtenFiles` — and recorded as `Set categories of "Sol Ring" to Ramp, Artifacts`
   (or `Cleared categories of "Sol Ring"`). Categories are the third kind, distinct
@@ -302,9 +309,12 @@ ritual move --card-id 7 --from "wanted:To Buy" --to deck:storm --output json
   created if missing) instead of the default; it errors on non-deck destinations.
 - Deck sources decrement quantity, notes travel with the card, both lists get
   changelog entries, and `-q <n>` moves n copies of the same printing. The card's
-  **custom art**, its tags and — as far as the destination type can express them —
-  its label overrides travel too; the art is re-filed under the destination line's new `&N`,
-  unless the copy merged onto a line the destination already had. JSON output:
+  **custom art** and its tags travel too, and so do its labels: a proxy stays a
+  proxy and a real card real wherever both lists carry `proxy`, a sale/trade/keep
+  state the source stated (default or line) is kept, a label it never stated takes
+  the destination's default, and the destination writes the smallest token it needs. The
+  art is re-filed under the destination line's new `&N`, unless the copy merged onto
+  a line the destination already had. JSON output:
   `{moved, card, from, to, droppedNotes}` — `droppedNotes` lists any note discarded
   by a quantity-merge onto an existing deck line whose note differs (also warned on
   stderr).
@@ -333,9 +343,14 @@ written — removed from the source, added to the destination, with a changelog 
 each. In a public-site export the move is recorded once, in the bundle's top-level
 `moves` array (never as a per-list change), and `ritual import-changes` applies it
 to both lists the same way. Moving a printing-less card into a collection prompts for
-a specific printing first. Notes and label overrides never follow an editor/TUI move
-(the scripted `ritual move` carries labels); the card's tags and its
-**custom art** do, the art re-filed under the destination line's new `&N`.
+a specific printing first. An editor/TUI move carries the card exactly as the scripted
+`ritual move` does: its tags and note, its labels by the same rule (proxy kept as a fact,
+stated sale/trade/keep kept, unstated labels taking the destination's default) as far as
+the destination type accepts them (`proxy` into a deck, everything into a collection,
+nothing into a wanted list; the smallest token that says so is written), and its **custom art**, re-filed under the
+destination line's new `&N`. A copy that merges onto a deck line with a different note
+keeps that line's note, and the dropped note is reported (by the editor's save, by
+`ritual edit`, and in `ritual import-changes`' per-list `droppedNotes`).
 
 The web editors (admin and public) carry the same categories affordances: an
 **Edit Categories…** row in a card's ⋯ menu (a comma-separated field, first name primary,
@@ -374,7 +389,9 @@ bundle's `moves` (`pinsCardId` / `replacement`).
 
 `ritual edit` is **the** interactive TUI (requires a terminal) for editing decks,
 collections, and wanted lists: a selection menu covers all lists (plus create-new
-items). Sessions support name/collector entry modes, per-type edit modes over
+items). It will not open a deck holding a held line (`- 1234 Sol Ring`, possibly 1,234
+copies written without the `x`): named on the command line it exits 1, and picked from
+the menu it is skipped, until the line is settled by hand. Sessions support name/collector entry modes, per-type edit modes over
 existing entries (with nothing typed the whole list is listed below the menu
 rows, so it can be scrolled as well as searched), and undo. Collector mode is a `SET:CN` search over **every
 printing in the local Scryfall cache** (`mkm:123`, `mkm 123`, `123 mkm`, or a bare token
@@ -469,7 +486,7 @@ discarded first.
 
 `ritual import-changes` applies a change bundle exported from the public site's
 edit mode (or the admin editor's Export panel) to the underlying list files. The
-JSON is a `ritual-change-bundle` (version 2) covering one or more lists — the export
+JSON is a `ritual-change-bundle` (version 3) covering one or more lists — the export
 panel's "This list" and "All lists" scopes both produce it. Each list's own edits sit
 in `lists[].changes`; cross-list moves are normalized into one top-level `moves`
 array (source list, destination list, one entry per copy) instead of appearing in
@@ -483,13 +500,18 @@ ritual import-changes edits.json --yes    # apply without the confirmation promp
 
 Agents and scripts must always pass `--yes`: when stdin is not a terminal the
 command refuses with exit code 2 instead of prompting. With `--output json` the
-preview is suppressed and the apply report (`{success, failedCount, lists, message}`
+preview is suppressed and the apply report (`{success, failedCount, lists, message,
+messageKey, messageParams}`
 — byte-identical to the admin `/api/import-changes` response; the MCP
 `import_change_bundle` tool returns the same fields without the constant `success`)
 is emitted on stdout; `--yes` is required there too, since the confirmation prompt
 only exists in text mode. `success` is always `true` on a report that was produced
-at all — read `failedCount`, and each list's own `error`, to tell a clean import
-from a partial one.
+at all — read `failedCount`, and each list's own `error` (English, with
+`errorKey`/`errorParams` beside it when it has a catalog key — match on the key),
+to tell a clean import from a partial one. A file that is not a valid bundle exits 2
+before anything is applied, naming what is wrong and where (`Move #1 "from" is not an
+object.`); its `--output json` envelope's `messageKey` is
+`cli.importChanges.invalidBundle`.
 
 Changes are re-targeted to each list's current `&N` card IDs (by ID when it still
 exists, else by card name); changes whose target card no longer exists are skipped
@@ -545,18 +567,22 @@ Available columns:
 `name`, `quantity`, `set`, `collectorNumber`, `edition` (set + collector
 number as `SET:number`), `scryfallId` (the printing's Scryfall UUID, resolved
 from the local Scryfall cache — an uncached printing exports an empty cell plus a
-warning), `finish`, `isFoil` (true when foil or etched), `condition`,
+warning), `edhrecRank` (the card's EDHREC rank, lower is more popular — also from
+the cache, by name, so unpinned lines get one; empty when EDHREC has not ranked
+it), `finish`, `isFoil` (true when foil or etched), `condition`,
 `language` (Scryfall language code; blank for English), `labels`
 (effective labels, comma-joined), `tags` (the card's tags, comma-joined, no `#`),
 `categories` (the card name's categories in that list, comma-joined, primary
-first — empty for an uncategorized card; text/md exports drop them),
+first — empty for an uncategorized card; md and every text dialect but moxfield drop them),
 `primaryCategory` (just the first of them), `note`,
 `section`, `listName`, `listType`. Columns apply to
 csv/json only: giving `--columns`, `--no-header`, or `--quote-all`
 alongside an explicit `--format text|md` is a usage error (a preset's stored
 columns with a text/md format are simply unused); `--dialect` also shapes
 `--format text`, so it conflicts with `--format md` alone. Set codes are
-lowercase in JSON and UPPERCASE in CSV, text, and md output.
+lowercase in JSON and UPPERCASE in CSV, text, and md output. CSV header cells
+(`Collector Number`, Archidekt's `Variant`) are English in every UI language;
+`--columns` always takes the ids above.
 
 `--dialect ritual|archidekt|arena|moxfield` chooses the output vocabulary. For
 csv/json it picks how finish and condition are spelled: `ritual` (default) writes
@@ -567,7 +593,14 @@ here and render as `ritual`. For `--format text` it picks the decklist form:
 `arena` and `moxfield` write bare `Commander`/`Deck`/`Sideboard` board markers
 over `1 Name (SET) CN` lines — the form those sites import — with moxfield
 splicing its `*F*`/`*E*` finish marker between the set and the collector
-number (`1 Name (SET) *F* CN`), where Moxfield's bulk-edit grammar puts it.
+number (`1 Name (SET) *F* CN`), where Moxfield's bulk-edit grammar puts it,
+and closing each line with the card's categories as Moxfield tags
+(`#Ramp #Artifacts`, primary first). Moxfield documents only single-word tags,
+so a category with a space, a leading `!`, or a character a Ritual tag cannot hold
+(`#`, `&`, brackets…) is left out and warned about;
+`ritual import` reads those `#` tokens back as per-copy tags, not
+categories (a Moxfield *URL* import is the path that brings tags in as
+categories).
 Those two are decklists, so maybeboard and token sections are left out and the
 omitted count and sections are warned about on stderr (`--quiet` does not
 silence it). `ritual` and `archidekt` write one flat `1 Name (SET:CN)` list

@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: e91964aa304a422f9a829279c97e19c978dc8638541161db12110ad1d82767e4
+ritual-version: 0.1.0-rc3
+ritual-content-hash: c2c96d84a50369a41b8bbc8ba721509f2ba09d22e046a39379228cad00cca37d
 ---
 
 # Managing collections with Ritual
@@ -42,9 +42,15 @@ Collection lists and cards carry **labels** declaring what the owner would do
 with them: `sale` and `trade` (combinable), `keep`, or `proxy` — `keep` and
 `proxy` are each exclusive of every other label, including each other. A
 list-level default lives in the collection's front matter
-(`labels: [sale, trade]`); an individual card overrides it with a bracketed
-token on its line (`[keep]`, `[sale,trade]`). A card's *effective* labels are
-its override when present, else the list default. Labels drive the public
+(`labels: [sale, trade]`); an individual card **adjusts** it with a bracketed
+token on its line: a plain label adds it, and `no-<label>` takes an inherited
+one away (`[trade,no-sale]` under a `sale` default is "for trade, not for
+sale"; `[no-sale,no-trade]` is "no labels"). A card's *effective* labels are
+its positives plus the default minus its negated labels, and a positive also
+displaces an inherited label it cannot combine with (`[keep]` under a `sale`
+default is just `keep`). Defaults are positive only. A move keeps a card's
+labels: a stated sale/trade/keep state survives, `proxy` is kept as a fact,
+and a label the source never stated takes the destination's default. Labels drive the public
 site's list filters, the collections-index "Labels" view-all menu, and a
 one-time warning when a `keep`-labeled card is added to a trade. Decks carry
 `proxy` too, and nothing else (see the **ritual-decks** skill); wanted lists
@@ -62,6 +68,7 @@ when a card has both).
 ```bash
 ritual set-card "Main Binder" "Sol Ring" --collection --label keep       # override
 ritual set-card "Main Binder" "Sol Ring" --collection --label sale,trade
+ritual set-card "Main Binder" "Sol Ring" --collection --label trade,no-sale  # adjust the default
 ritual set-card "Main Binder" "Sol Ring" --collection --label proxy     # not a real card: no price
 ritual set-card "Main Binder" "Sol Ring" --collection --label none      # back to the list default
 ritual add-card "Main Binder" "Mox Jet" --collection --set lea --collector-number 262 -c LP --label keep
@@ -184,6 +191,10 @@ ritual diff wanted:to-buy "collection:Main Binder"          # overlap = already 
 ritual diff "Main Binder" trade-binder --by printing --output json
 ```
 
+Under `--output json` each `warnings` entry is an object: the English `message`
+(naming the list whose line could not be read), plus `messageKey`
+(`domain.export.warning.inList`) and `messageParams` to match on.
+
 ## Import from a text file
 
 `import` turns a decklist-style text file into a new collection (quantities
@@ -198,19 +209,20 @@ Without `--type` an interactive run prompts for the list type; under the global
 `--no-input` flag the type defaults to a deck, so agents should always pass
 `--type collection`. A body line that is neither a section header nor a card
 line is skipped, listed on stderr, carried in the JSON `warnings` array, and
-exits 1 — the import is still written. Ritual's own format and the MTG
-Arena/MTGO export dialect (`4 Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard`
-markers, a `*F*`/`*E*` foil marker either trailing or between the set and the
-collector number, as Moxfield writes it) are both read, as is the inside of a
-``` fence — on the import path only, since a pasted decklist usually arrives
-wrapped in one. A `(SET)` with no collector number is left in the card name
-rather than read as a printing; a line that imports but still holds a printing
-token in its name prints an advisory (stderr, JSON `advisories`) without failing
-the run. Every line must carry a printing (e.g. `2 Sol Ring (C19:221)`) —
-collections track specific physical printings, so name-only lines are rejected.
-A `[sale]` / `[trade]` / `[keep]` label token on a line is carried through to
-the collection (a wanted-list import drops it, since wanted lists carry no
-labels).
+exits 1 — the import is still written. Each `warnings`/`advisories` entry is an
+object: the English `message`, plus a `messageKey` to match on when present
+(never the prose). Ritual's own format and the MTG Arena/MTGO export dialect (`4
+Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard` markers, a `*F*`/`*E*` foil
+marker either trailing or between the set and the collector number, as Moxfield
+writes it) are both read, as is the inside of a ``` fence — on the import path
+only, since a pasted decklist usually arrives wrapped in one. A `(SET)` with no
+collector number is left in the card name rather than read as a printing; a line
+that imports but still holds a printing token in its name prints an advisory
+(stderr, JSON `advisories`) without failing the run. Every line must carry a
+printing (e.g. `2 Sol Ring (C19:221)`) — collections track specific physical
+printings, so name-only lines are rejected. A `[sale]` / `[trade]` / `[keep]` /
+`[no-sale]` label token on a line is carried through to the collection (a
+wanted-list import drops it, since wanted lists carry no labels).
 
 `--dry-run` resolves and validates everything but leaves the workspace
 byte-for-byte untouched — it does not even create the `decks/`, `collections/`,
@@ -236,12 +248,13 @@ ritual import more.csv --type collection --name "Red Binder" --append \
 tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
 fails that row; a categories cell (header `category` or `categories`) holds the
 card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
-value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
-the card still imports — the refusal prints on stderr and rides the `--output
-json` payload's `advisories` array, and never changes the exit code; and on a
-deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
-row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
-Sideboard + category Ramp; imported categories are written to the list's
+value that is not category-shaped (one holding a control character such as a
+tab) is ignored with a warning and the card still imports — the refusal prints
+on stderr and rides the `--output json` payload's `advisories` array (objects:
+English `message`, plus `messageKey` when present), and never changes the exit
+code; and on a deck a value naming a board (`Sideboard`, `Commander`, `Tokens`,
+...) sets the row's section instead, so an Archidekt `Ramp,Sideboard` cell means
+section Sideboard + category Ramp; imported categories are written to the list's
 `.categories.json` sidecar; language cells take Scryfall codes or aliases like
 `JP`/`Japanese`, and an empty cell means English; when no language column is
 mapped, pinned rows are stamped with the configured `defaultLanguage` when the
@@ -255,7 +268,8 @@ non-foil). Rows naming the same card and printing merge into one line (create
 and append agree), and a `--columns` number the file has no column for is a
 usage error (exit 2) instead of a per-row failure. Failed rows are reported with
 line numbers on stderr and the rest still import (exit code 1 on partial
-failure).
+failure); under `--output json` each `failures` entry carries its English
+`reason`, plus a `reasonKey` to match on when present.
 
 ## Sync with Archidekt
 
@@ -279,6 +293,7 @@ ritual collection-sync push --csv-file import.csv   # write that CSV instead of 
 ritual collection-sync push --csv --refresh auto    # refresh a stale card cache instead of asking
 ritual collection-sync pull --yes                   # accept losing lines the parser can't read
 ritual collection-sync pull --output json           # scripted per-list report
+ritual collection-sync push --dry-run -v            # also list every card it would change
 ```
 
 **Scope:** with no list arguments the local side is every collection list.
@@ -287,6 +302,25 @@ the whole Archidekt collection, so a subset run declares "these lists are what
 my Archidekt collection mirrors": cards living only in lists you did not name
 read as absent, so a push would delete their records and a pull would try to
 re-add them. Narrow such a run with `--only`.
+
+**Card listing:** each list prints a `Changes: +N added, -N removed` count;
+`-v`/`--verbose` also lists every card behind it, one line each — `+ 2 Sol Ring
+(C21:240) to Blue Binder` / `- 1 Island from Blue Binder` on a pull, `… to
+Archidekt` / `… from Archidekt` on a push, and `+ N card to the CSV file, not
+pushed yet` for a `--csv-file`. A run without it that had cards to list ends
+with a hint naming the flag. `--output json` carries the same cards as data with
+or without the flag: each list's `changes` (entries with `kind`
+`added`/`removed`/`pending`, `name`, `quantity` in copies, `printing`; an
+`added` entry the CSV import created carries `via: "csv"`), plus `unlisted` for
+records a push deleted for cards no list holds. Only what went through is
+listed; a failed card is left out and the list's `reason` says why. Branch on
+each list's `outcome` (`changed`, `unchanged`, `dry-run`, `cancelled`, or
+`not-run` for a list a refused run never reached; absent on a failure or other
+skip), never on `reason` text; run-level failures are in `errors` (English) and
+`errorMessages` (with keys). On a push a card held in several lists is one
+record: it is listed under each holding list with its whole quantity, so do not
+sum `changes` across lists. `--verbose` prints the CSV import’s cards once,
+under the run rather than under each list.
 
 `--only additions` / `--only removals` narrows a run to one side of the diff.
 The vocabulary is relative to the **sync destination** — the local files on a
@@ -458,28 +492,29 @@ that was not given `csv: true`.
 ## Price
 
 The unified `price` command covers all list types; scope it with `--collection`
-or a name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
-(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
-— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
-don't pass a conflicting `--prices`. Each store also picks its own printing for
-an entry that names none: under `cardkingdom` that is the newest printing CK
-actually sells, so an unpinned entry reads unpriced only when CK carries no
-printing of the card at all (a pinned printing CK does not sell always does). An
-interactive browser opens on a TTY — for agents, always pass `--summary`,
-`--output json`, or the global `--no-input` flag:
+or a name. `--source` picks the store, and the store sets the currency (default:
+config `defaultPriceSource`) — `tcgplayer` (Scryfall USD), `cardmarket`
+(Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom` (NM retail
+from the cached Card Kingdom feed; errors when no feed is downloaded — a
+bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
+pick `cardmarket`. Each store also picks its own printing for an entry that
+names none: under `cardkingdom` that is the newest printing CK actually sells,
+so an unpinned entry reads unpriced only when CK carries no printing of the card
+at all (a pinned printing CK does not sell always does). An interactive browser
+opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
+global `--no-input` flag:
 
 ```bash
 ritual price --collection --summary            # every collection's totals
 ritual price main-binder --no-input            # one collection's cards + totals
 ritual price main-binder --output json --quiet
 ritual price main-binder --sort price --descending --no-input
-ritual price main-binder --prices eur          # usd | eur | tix (defaults to config defaultCurrency)
-ritual price main-binder --source cardkingdom    # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price main-binder --source cardkingdom    # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed); default: config defaultPriceSource
 ```
 
 Collection entries are priced at their exact printing and finish; totals include a
-quantity-weighted unpriced-card count.
+quantity-weighted unpriced-card count. A collection total is never an estimate
+(`estimatedCount` is always 0), since every line pins its printing.
 
 ## Sell to Card Kingdom
 
@@ -495,11 +530,38 @@ any type (`deck:`/`collection:`/`wanted:` prefixes disambiguate).
 ritual sell --refresh auto --output json        # everything CK buys from your collections
 ritual sell main-binder --all --no-input        # one list, including skipped entries
 ritual sell --sets dsk,fdn --min 0.50           # only these sets, offers ≥ $0.50/copy
+ritual sell --min-ratio 0.7 --output json       # offers worth ≥ 70% of TCGplayer market
+ritual sell --min-owned 4 --output json         # duplicates: cards you own 4+ copies of
 ritual sell --output csv --out to-sell.csv      # CK sell-cart CSV (upload at cardkingdom.com/static/csvImport)
 ```
 
+To sell a hand-picked batch, tag the chosen copies (by the `cardIds` a JSON report gave you),
+then scope the cart to the tag. `--tags` narrows which lines are matched at all — before CK's
+buy caps are shared out — so an untagged copy of the same card cannot use up the cap first:
+
+```bash
+ritual set-card main-binder --card-id 14 --tag "CK Batch" --no-input
+ritual sell --tags "CK Batch" --output csv --out ck-batch.csv
+```
+
+The CSV holds data rows only; its warnings (etched foils exported as foil, CK's 500-title /
+5,000-card upload caps) go to stderr in the UI language, `--quiet` included. Over MCP,
+`get_sell_cart`'s `warnings` are message objects: read `message` (English) and match on
+`messageKey` (`domain.buylist.cart.*`).
+
 Entries report `status` `buying` / `not-buying` (CK's buy quantity is 0) / `no-match`,
 with `sellableQuantity = min(owned, CK's cap)` and `value` covering only those copies.
+Beside CK's `priceBuy` (and their high-running `priceRetail`), a matched entry carries
+`tcgplayerPrice` — the quoted printing's TCGplayer market price at the quoted finish, from
+the card cache — and `offerRatio` = `priceBuy / tcgplayerPrice` (0.8 = CK pays 80% of
+market); both are absent when the cache has no price for that printing. `--min-ratio`
+filters on it. Every entry also carries `cardIds` (the `&N` ids of the lines it aggregates —
+one per line, so feed them to `set-card`/`move`/`remove-card --card-id` to act on exactly
+those copies; a hand-added line has none until the next editing command or `cleanup` assigns it), the lines' `tags`, the card's `edhrecRank` (absent when unranked or uncached), and
+`ownedCopies` — `{collection, deck}` copies of the card by name across every printing in
+ALL your collections and decks, whatever the scope (proxies and deck maybeboard/token sections
+excluded). `--min-owned N` filters on their sum, so finding duplicates to sell needs no
+separate export or join.
 Quotes are cash for NM copies — played conditions grade down, store credit pays more.
 Non-English entries (a `[ja]`-style language token) are **never quoted**: CK's feed is
 English-only, so they report `no-match` with reason `non-english` rather than silently
@@ -512,7 +574,13 @@ right product — plus their edition spellings. It warns beyond their upload cap
 To price an arbitrary set of printings rather than whole lists, use the MCP tool
 `get_buylist_quotes` (or `POST /api/buylist/quotes`), which answers per
 `set:collectorNumber:finish`. Both are cache-backed like `sell`: run
-`ritual sell --refresh auto` (or the `refresh_buylist` tool) first.
+`ritual sell --refresh auto` (or the `refresh_buylist` tool) first. With no feed downloaded,
+`sell --output json` fails with `messageKey` `domain.cache.cardKingdom.missingAdvice` (the
+HTTP routes answer `domain.cache.cardKingdom.missingApiAdvice`) — match on the key, not the
+prose. An MCP tool error carries only the English `message`, no key: branch on its `code`.
+`refresh_buylist` / `POST /api/sell/refresh` report a failed download that fell back to the
+stale feed as `staleFallback`, and the feed rows the download skipped as malformed in
+`skippedRows` — each a message (English `message` plus `messageKey` / `messageParams`).
 
 Unlike the `sell` command, every *server* buylist surface is gated on sell mode (below):
 `get_sell_report`, `get_sell_cart`, `get_buylist_quotes` and `refresh_buylist`, plus the
@@ -521,7 +589,8 @@ off. That is a config decision, not a missing feed — `refresh_buylist` will no
 
 The same quotes drive **sell mode** on the admin site and on the public site: buylist prices
 beside each card, buylist filters (on-buylist chips and a price threshold), buylist
-grouping/sorting, and a CK cart export. It is **off by default** — turn it on with
+grouping/sorting, and a CK cart export. Sell mode on the sites is **beta** (one US buyer; it may
+change in any release; the `sell` command itself is not). It is **off by default** — turn it on with
 `ritual config set site.sellMode true`, with the **Offer sell mode** checkbox on the admin's
 Settings page (same key; unticking unsets it), or per run with `--sell-mode` on `build-site`,
 `serve`, `admin`, or `mcp`. The public site reads quotes baked into its list JSON (no

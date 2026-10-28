@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-rc2
-ritual-content-hash: f43fac7ac69039a69814f7291fdad7166c8dd0941f23ed8af2e573c6c68ed69c
+ritual-version: 0.1.0-rc3
+ritual-content-hash: 0280d8d587bb0e3b3dc20286b6056496c279759eb55695ad1f2922aa76409cc1
 ---
 
 # Managing wanted lists with Ritual
@@ -71,6 +71,10 @@ quantities are listed separately). `--by name` (the default) matches card names;
 ritual diff wanted:to-buy "collection:Main Binder"
 ritual diff wanted:to-buy "collection:Main Binder" --by printing --output json
 ```
+
+Under `--output json` each `warnings` entry is an object: the English `message`
+(naming the list whose line could not be read), plus `messageKey`
+(`domain.export.warning.inList`) and `messageParams` to match on.
 
 ## Interactive management
 
@@ -160,14 +164,16 @@ Without `--type` an interactive run prompts for the list type; under the global
 `--no-input` flag the type defaults to a deck, so agents should always pass
 `--type wanted`. A body line that is neither a section header nor a card line is
 skipped, listed on stderr, carried in the JSON `warnings` array, and exits 1 —
-the import is still written. Ritual's own format and the MTG Arena/MTGO export
-dialect (`4 Lightning Bolt (M10) 146`, bare `Deck`/`Sideboard` markers, a
-`*F*`/`*E*` foil marker either trailing or between the set and the collector
-number, as Moxfield writes it) are both read, as is the inside of a ``` fence —
-on the import path only, since a pasted decklist usually arrives wrapped in one.
-A `(SET)` with no collector number is left in the card name rather than read as
-a printing; a line that imports but still holds a printing token in its name
-prints an advisory (stderr, JSON `advisories`) without failing the run.
+the import is still written. Each `warnings`/`advisories` entry is an object:
+the English `message`, plus a `messageKey` to match on when present (never the
+prose). Ritual's own format and the MTG Arena/MTGO export dialect (`4 Lightning
+Bolt (M10) 146`, bare `Deck`/`Sideboard` markers, a `*F*`/`*E*` foil marker
+either trailing or between the set and the collector number, as Moxfield writes
+it) are both read, as is the inside of a ``` fence — on the import path only,
+since a pasted decklist usually arrives wrapped in one. A `(SET)` with no
+collector number is left in the card name rather than read as a printing; a line
+that imports but still holds a printing token in its name prints an advisory
+(stderr, JSON `advisories`) without failing the run.
 
 `--dry-run` resolves and validates everything but leaves the workspace
 byte-for-byte untouched — it does not even create the `decks/`, `collections/`,
@@ -192,12 +198,13 @@ ritual import more.csv --type wanted --name "To Buy" --append --columns "name=1"
 tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
 fails that row; a categories cell (header `category` or `categories`) holds the
 card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
-value that is not category-shaped (`Ramp (Rocks)`) is ignored with a warning and
-the card still imports — the refusal prints on stderr and rides the `--output
-json` payload's `advisories` array, and never changes the exit code; and on a
-deck a value naming a board (`Sideboard`, `Commander`, `Tokens`, ...) sets the
-row's section instead, so an Archidekt `Ramp,Sideboard` cell means section
-Sideboard + category Ramp; imported categories are written to the list's
+value that is not category-shaped (one holding a control character such as a
+tab) is ignored with a warning and the card still imports — the refusal prints
+on stderr and rides the `--output json` payload's `advisories` array (objects:
+English `message`, plus `messageKey` when present), and never changes the exit
+code; and on a deck a value naming a board (`Sideboard`, `Commander`, `Tokens`,
+...) sets the row's section instead, so an Archidekt `Ramp,Sideboard` cell means
+section Sideboard + category Ramp; imported categories are written to the list's
 `.categories.json` sidecar; language cells take Scryfall codes or aliases like
 `JP`/`Japanese`, and an empty cell means English; when no language column is
 mapped, pinned rows are stamped with the configured `defaultLanguage` when the
@@ -209,31 +216,35 @@ to add to one (appends continue card IDs and record the changelog). Rows naming
 the same card and printing merge into one line (create and append agree), and a
 `--columns` number the file has no column for is a usage error (exit 2) instead
 of a per-row failure. Failed rows are reported with line numbers on stderr and
-the rest still import (exit code 1 on partial failure).
+the rest still import (exit code 1 on partial failure); under `--output json`
+each `failures` entry carries its English `reason`, plus a `reasonKey` to match
+on when present.
 
 ## Price
 
 The unified `price` command covers all list types; scope it with `--wanted` or a
-name. `--source` picks the store — `tcgplayer` (Scryfall USD, the default),
-`cardmarket` (Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom`
-(NM retail from the cached Card Kingdom feed; errors when no feed is downloaded
-— a bulk-allowing `--refresh` downloads it). A source implies its currency, so
-don't pass a conflicting `--prices`. Each store also picks its own printing for
-an entry that names none: under `cardkingdom` that is the newest printing CK
-actually sells, so an unpinned entry reads unpriced only when CK carries no
-printing of the card at all (a pinned printing CK does not sell always does). An
-interactive browser opens on a TTY — for agents, always pass `--summary`,
-`--output json`, or the global `--no-input` flag:
+name. `--source` picks the store, and the store sets the currency (default:
+config `defaultPriceSource`) — `tcgplayer` (Scryfall USD), `cardmarket`
+(Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom` (NM retail
+from the cached Card Kingdom feed; errors when no feed is downloaded — a
+bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
+pick `cardmarket`. Each store also picks its own printing for an entry that
+names none: under `cardkingdom` that is the newest printing CK actually sells,
+so an unpinned entry reads unpriced only when CK carries no printing of the card
+at all (a pinned printing CK does not sell always does). An interactive browser
+opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
+global `--no-input` flag:
 
 ```bash
 ritual price --wanted --summary                # every wanted list's totals
 ritual price to-buy --no-input                 # one list's cards + totals
 ritual price to-buy --output json --quiet
 ritual price to-buy --sort price --descending --no-input
-ritual price to-buy --prices eur               # usd | eur | tix (defaults to config defaultCurrency)
-ritual price to-buy --source cardkingdom       # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed)
+ritual price to-buy --source cardkingdom       # tcgplayer (Scryfall USD) | cardmarket (Scryfall EUR) | cardhoarder (Scryfall tix) | cardkingdom (CK NM retail; needs the CK feed); default: config defaultPriceSource
 ```
 
 Each wanted list also reports a "lowest" total: name-only entries use the cheapest
 printing, printing-pinned entries the cheapest finish of that printing, and
-fully-specified entries their exact price.
+fully-specified entries their exact price. A total that includes any name-only
+entry, or any entry with no price, reads **"~"** (`Total ~$12.34`); JSON
+reports those entries as `estimatedCount`.
