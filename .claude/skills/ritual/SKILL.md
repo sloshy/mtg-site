@@ -1,8 +1,8 @@
 ---
 name: ritual
-description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists, or asks to update Ritual itself (ritual self-update)."
-ritual-version: 0.1.0-rc3
-ritual-content-hash: 2135042a1f48ab3197a279529cc8625bffaef142697585f1086f3c02d9122c8d
+description: "Entry point for working with Ritual, a Magic: The Gathering toolkit that manages decks, collections, and wanted lists as Markdown files. Use when a workspace has decks/, collections/, or wanted/ folders or a ritual.config.json, or when the user mentions Ritual, MTG decks, collections, or wanted lists, or asks to update Ritual itself (ritual self-update) or to diagnose or report a Ritual problem (ritual doctor)."
+ritual-version: 0.1.0-rc4
+ritual-content-hash: d036b331011c10181b54b6c9267c6b52e403464a73364dd6e1414ea4aba04cff
 ---
 
 # Ritual — Magic: The Gathering decks, collections & wanted lists
@@ -16,7 +16,10 @@ skills cover each area in detail.
 
 The current directory (or one passed with `--base-dir <path>`) is a Ritual
 workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
-`ritual.config.json`. Confirm Ritual is installed with `ritual --help`.
+`ritual.config.json`. Confirm Ritual is installed with `ritual --help`, which
+describes the core commands and only names the rest; `ritual help --all`
+describes every command, the advanced ones (`migrate`, `detect-changes`,
+`list-all-cards`, `dep-license`) included.
 
 ## Workspace layout
 
@@ -28,6 +31,10 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
   events — the block is what Ritual reads back, the prose is rendered only and is
   always English whatever the UI locale; an entry with no block is legacy and shows
   no events until `ritual cleanup` converts it)
+- `<name>.md.sha256` — a hash of the list as Ritual last wrote it, which lets
+  `ritual detect-changes` tell Ritual's own writes from hand edits and log the
+  hand edits; commit it with the list (the first command that creates one in a
+  workspace prints a one-line note saying so, on stderr)
 - `<name>.art.json` — optional custom-art sidecar next to a list, mapping card
   `&N` ids to a replacement image (see **Custom art** below)
 - `<name>.categories.json` — optional per-list category sidecar (plus its
@@ -35,7 +42,16 @@ workspace if it contains `decks/`, `collections/`, or `wanted/` folders, or a
 - `ritual.config.json` — configuration (optional: reading config never creates
   it, so a workspace only has one once `config set`/`unset`, `init-site`, the
   admin Settings page, or the MCP `update_config` tool writes it)
-- `cache/` — downloaded data, never hand-edited (rebuild it with
+- The **card cache** is not in the workspace: it is one per-user folder every workspace
+  shares (`~/.cache/ritual` on Linux, `~/Library/Caches/ritual` on macOS,
+  `%LOCALAPPDATA%\ritual\cache` on Windows), unless `RITUAL_CACHE_DIR` or the
+  `cacheDir` config key names another (relative paths resolve against the workspace, so
+  `cacheDir: cache` keeps a per-workspace `cache/`). `ritual cache status` prints the
+  folder in use (`cacheDir`, `cacheDirSource` in JSON). An older workspace's own
+  `cache/` folder keeps being read (`cacheDirSource: legacy`) until `ritual migrate` moves
+  it there (or leaves it for the user to delete when the shared cache already has data).
+  `cacheDir`/`RITUAL_CACHE_DIR` refuse a leading `~` (write the full path), a root, the
+  home folder, the workspace itself and list folders (usage error, exit 2). It is downloaded data, never hand-edited (rebuild it with
   `ritual cache preload-all`): `cache.json` is the Scryfall card cache (`cards` keyed by
   card name, each holding that name's printings as Scryfall card objects: set and collector
   number, EDHREC rank, TCGplayer (USD) and Cardmarket (EUR) market prices per finish,
@@ -63,16 +79,23 @@ whole-command flag cannot scope a single argument. A prefix that contradicts a t
 flag (`delete deck:X --collection`) is a usage error, not a silent override. When the
 matches are all the **same** type, no type selector can help: type more of the name,
 or the full name exactly as spelled. The error's last line always names the
-remedy that actually applies.
+remedy that actually applies. A name that matches nothing gets up to three
+existing lists close to it as a suggestion ("No collection named 'Trade Bindr'
+found. Did you mean 'Trade Binder'?"); under `--output json` its `messageKey` is
+then `errors.resolveList.didYouMean`.
 
 **Discovering lists:** `ritual lists` is the discovery primitive — it enumerates
-every deck, collection, and wanted list as `type slug name` rows (the text type
-column is worded in the UI language, e.g. `wanted list`). Filter with
+every deck, collection, and wanted list as a headed table of type and name, plus a
+file column (the slug) only when some list's file name differs from its name (the
+text type column is worded in the UI language, e.g. `wanted list`). Filter with
 `--deck`/`--collection`/`--wanted`, and pass `--output json` for machine-readable
 `{type, slug, name}` objects whose `type` is always `deck`/`collection`/`wanted`. Prefer it over globbing the workspace folders.
 
 **List lifecycle:** `ritual new <deck|collection|wanted> "<name>"` creates a list
-(`-f/--format` for decks, default `commander`), `ritual rename <list> "<new name>"`
+(plurals such as `decks` or `"wanted lists"` are accepted too, as by
+`import --type`; `-f/--format` for
+decks, default `commander`; a deck whose format has a command zone starts with an
+empty `## Commander` section before `## Main`), `ritual rename <list> "<new name>"`
 renames one (file, sidecars, and front matter together), and
 `ritual delete <list> --confirm "<name>"` deletes one (`--confirm` must repeat the
 display name; without it a terminal prompts). `new` and `rename` **refuse** a name
@@ -468,6 +491,17 @@ A stderr line saying **Ritual X is available** is informational too: a newer
 release exists, and nothing changed. Mention it if relevant, but never run
 `ritual self-update` without asking the user first.
 
+**When Ritual itself fails.** A failure Ritual did not anticipate (a bug, not a
+refusal) prints its message plus one line: **This looks like a bug in Ritual**,
+how to see details (`RITUAL_DEBUG=1`, which prints the full stack trace), and
+the issue tracker to report it at. Re-run with `RITUAL_DEBUG=1` to capture the
+trace, and run `ritual doctor` (read-only, offline) to see the setup — Ritual
+version and install, the workspace and its list counts, every invalid
+`ritual.config.json` setting, pending workspace updates, and the card cache.
+Its text output is meant to be pasted into a bug report; offer to draft one, but
+let the user file it. A failure of the machine around Ritual (a permission
+error, no network) prints just its message.
+
 ## Scripting conventions (uniform across commands)
 
 - `--output text|json|ndjson` always selects the **stdout envelope**, never a
@@ -479,9 +513,11 @@ release exists, and nothing changed. Mention it if relevant, but never run
   on prose), while `message` follows the UI locale. A keyed engine failure (a
   cache lock that timed out, a failed Archidekt request) is `code:
   "runtime_error"` with its `messageKey`/`messageParams` and exit `1`. An
-  unexpected internal failure uses the same envelope and code, carrying
-  neither `messageKey` nor `details` — there is no catalog entry and no
-  structured payload behind it. Three
+  unexpected internal failure uses the same envelope and code, carrying no
+  `messageKey` (there is no catalog entry behind it) and `details` of
+  `{kind, issuesUrl}`: `kind` is `bug` (report it at `issuesUrl`) or
+  `environment` (a system or network error, the user's to fix);
+  `RITUAL_DEBUG=1` adds the stack trace as `details.stack`. Three
   exceptions, all deliberate: `scry` and `sell` add a fourth value
   `--output csv` (Scryfall's server-side CSV and Card Kingdom's sell-cart
   upload format, respectively — `sell`'s csv is a different payload, not the
@@ -502,17 +538,17 @@ Commands that read the Scryfall card cache (`add-card`, `edit`, `price`, `sell`
 — where the mode also governs its Card Kingdom buylist cache — `build-site`,
 `serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
 cache freshness: `ask` (the default — prompt about stale or empty caches,
-skipping the prompt when prompts are unavailable; two exceptions download
-without asking: `build-site` bulk-downloads an empty or week-old card cache,
-since it cannot build a site without card data, and a Card Kingdom buylist
-already downloaded is redownloaded once it is a day old — by `sell`, and,
-wherever sell mode is enabled, by `build-site` and by `admin`/`serve --api` at
-startup — since a day-old feed quotes yesterday's offers; only the first buylist
-download prompts), `auto` (refresh stale data without asking, bulk download
-allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
-`never` (use the cache as-is, making no request of any kind — under `never`,
-`price` reports uncached cards as unpriced instead of fetching them, and a
-`build-site` run with no cached symbology renders without mana symbols).
+skipping the prompt when prompts are unavailable — so a headless `build-site`
+passes `--refresh auto` to get its bulk download; one exception downloads
+without asking: a Card Kingdom buylist already downloaded is redownloaded once
+it is a day old — by `sell`, and, wherever sell mode is enabled, by `build-site`
+and by `admin`/`serve --api` at startup — since a day-old feed quotes
+yesterday's offers; only the first buylist download prompts), `auto` (refresh
+stale data without asking, bulk download allowed), `no-bulk` (refresh stale
+prices per-card, never a bulk download), and `never` (use the cache as-is,
+making no request of any kind — under `never`, `price` reports uncached cards as
+unpriced instead of fetching them, and a `build-site` run with no cached
+symbology renders without mana symbols).
 
 ## Setup
 
@@ -568,7 +604,11 @@ ritual metadata set <list> <prop> <value...>  # list front matter, same shape as
                                   #   any list's description; deck tags/format/sourceId/
                                   #   sourceUrl/labels; collection labels
 ritual metadata get|list|unset <list> [prop]  # read or clear it (get exits 3 when unset)
-ritual cache status               # report cache size/freshness/source without refreshing
+ritual cache status               # report cache size/freshness/source/location without refreshing
+ritual doctor                     # check the setup: build, workspace, config validity, pending
+                                  #   updates, card cache, last update check — each ok/warn/fail
+                                  #   with a one-line fix; exit 1 when a check fails. Read-only and
+                                  #   offline; --output json is the same report as MCP get_diagnostics
 ritual cache preload-all          # warm the Scryfall card cache + tags (bulk download); also
                                   #   refreshes the Card Kingdom buylist when site.sellMode is on
                                   #   or priceSources includes cardkingdom
@@ -576,12 +616,16 @@ ritual cache preload-set khm      # cache all cards of one set (exit 3 = unknown
 ritual cache refresh-tags         # refresh only the oracle/art tags on cached cards (exit 1 when the download fails)
 ritual cache server               # host a shared cache server (default 127.0.0.1:4000)
 ritual cache feed host            # host a P2P feed of the raw Scryfall bulk files
-ritual cache feed fetch           # sync the cache from a feed, then seed to peers
+ritual cache feed fetch --url <feedUrl>  # sync the cache from a feed, then seed to peers
+ritual config set cacheFeedUrl <feedUrl>  # the feed to use (there is no public one)
 ritual config set cacheSource feed  # make all cache refreshes sync via the feed
 ```
 
 The cache feed is **experimental** (it may change or go away in any release); the default
-`cacheSource: scryfall` is the supported path. `cache server` has no authentication and
+`cacheSource: scryfall` is the supported path. A feed needs a URL: `--source feed`,
+`--cache-source feed` and `cache feed fetch` with neither `--url` nor `cacheFeedUrl`
+are usage errors (exit 2), and `cacheSource: feed` without `cacheFeedUrl` warns and
+refreshes from Scryfall. `cache server` has no authentication and
 unauthenticated write routes: keep it on loopback or a trusted private network.
 
 `ritual.config.json` is created only by a genuine write — `config set`/`unset`,
@@ -597,9 +641,11 @@ for a value the validator refuses, `domain.export.problem.*` for an `exportPrese
 one); `PUT /api/config` refuses a value in English plus that key, and `update_config`
 with the same English.
 
-Cache refreshes take an exclusive lock (`cache/.ritual-cache-lock`); a refresh
-started while another process is refreshing waits up to the configurable
-`cacheLockTimeoutSeconds` (default 300) instead of interleaving writes.
+Cache refreshes take an exclusive lock (`.ritual-cache-lock` in the cache folder); a refresh
+started while another process — in this workspace or any other sharing the cache — is
+refreshing waits up to the configurable `cacheLockTimeoutSeconds` (default 300) instead of
+interleaving writes. Workspaces with different `defaultLanguage` values should not share a
+cache (each refresh replaces the other's bulk); give one its own `cacheDir`.
 
 ## Alternative: the MCP server
 

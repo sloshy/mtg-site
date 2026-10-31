@@ -1,8 +1,8 @@
 ---
 name: ritual-decks
 description: "Create, build, import, sync, and price Magic: The Gathering decks with Ritual. Use when the user wants to make a new deck, interactively build a deck by adding cards to sections, import a decklist from Archidekt, Moxfield, or MTGGoldfish, import a deck from a CSV file, pull or push changes (including board moves and card categories) to Archidekt, extract a deck primer, mark deck cards as proxies, or price a deck."
-ritual-version: 0.1.0-rc3
-ritual-content-hash: 48a5ee7101ab7b01a50fee36ad2b85a3795d516bf41c8b8e8ed42fe3939d7511
+ritual-version: 0.1.0-rc4
+ritual-content-hash: d8a42bad8bb570cfdafd5607c4c0465fc984ca1acdb7c00e1df684f14d951542
 ---
 
 # Managing decks with Ritual
@@ -13,7 +13,7 @@ the **ritual-edit** skill for adding/removing individual cards.
 ## Create
 
 ```bash
-ritual new deck "Winota Stax"                 # defaults to commander
+ritual new deck "Winota Stax"                 # defaults to commander: starts with ## Commander and ## Main
 ritual new deck "Mono-Red Aggro" -f standard  # -f / --format
 ```
 
@@ -345,6 +345,7 @@ ritual deck-sync pull --yes                  # accept dropping lines the parser 
 ritual deck-sync pull --only additions       # add cards locally, never remove any
 ritual deck-sync push --only removals        # push removals only, add nothing remotely
 ritual deck-sync push "Winota Stax" --force  # overwrite remote edits made since the last sync
+ritual deck-sync pull --allow-remove-all     # let a deck emptied on Archidekt empty the local deck
 ritual deck-sync push --sync-printings       # also sync each card's exact printing + finish
 ritual deck-sync pull --sync-categories      # also sync each card's categories (its role: Ramp, Draw…)
 ritual deck-sync pull --dry-run -v           # also list every card the run changes, one line each
@@ -429,6 +430,17 @@ Use it when the remote and local decks are deliberately out of step and only one
 direction of change should carry over. It filters cards only: a pull still
 adopts the remote format. `collection-sync` takes the identical flag (see the
 **ritual-collections** skill).
+
+**Empty-side guard:** a run whose source is empty while its destination holds
+cards would remove every one of them — an empty Archidekt collection or deck on
+a pull, empty local files on a push — so it is **refused** before anything is
+written (a dry run reports the same refusal). `deck-sync` fails just that deck
+(`reasonKey` `domain.sync.emptyRemoteDeck` / `emptyLocalDeck`);
+`collection-sync` fails the run (`errorMessages` key
+`domain.sync.emptyRemoteCollection` / `emptyLocalCollection`, every list
+`not-run`). Both exit 1. `--only additions` removes nothing and is never
+refused. `--allow-remove-all` overrides it — pass it only when the user has
+confirmed they want that side emptied; `--force` does not.
 
 Syncing rewrites the deck file, so a line the parser cannot read would be deleted.
 Such decks are listed with their exact lines and confirmed before syncing;
@@ -550,9 +562,13 @@ bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
 pick `cardmarket`. Each store also picks its own printing for an entry that
 names none: under `cardkingdom` that is the newest printing CK actually sells,
 so an unpinned entry reads unpriced only when CK carries no printing of the card
-at all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+at all (a pinned printing CK does not sell always does). In text output each
+card row's price is for the whole line (quantity × one copy), a `*` after a
+printing marks one the line does not pin, the cheapest-printing total reads
+`Lowest possible $X`, and a legend under the listing explains whichever of these
+it shows (`--quiet` drops it). An interactive browser opens on a TTY — for
+agents, always pass `--summary`, `--output json`, or the global `--no-input`
+flag:
 
 ```bash
 ritual price --deck --summary                       # every deck's totals

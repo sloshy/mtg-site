@@ -1,8 +1,8 @@
 ---
 name: ritual-collections
 description: "Manage, sync, price, and sell a Magic: The Gathering card collection with Ritual. Use when the user wants to add owned cards to a collection, browse or bulk-add cards interactively, import a collection from a CSV export or text file, sync a collection with Archidekt (pull or push), get the total value of a collection, or check what Card Kingdom’s buylist pays for their cards."
-ritual-version: 0.1.0-rc3
-ritual-content-hash: c2c96d84a50369a41b8bbc8ba721509f2ba09d22e046a39379228cad00cca37d
+ritual-version: 0.1.0-rc4
+ritual-content-hash: 615f03e3129ec8211fac76e6def9d2cd4cf73f6d14ea9d9ec457a6815d54f8dd
 ---
 
 # Managing collections with Ritual
@@ -14,9 +14,10 @@ skill for the file format.
 
 Use the one-shot commands (covered in full by the **ritual-edit** skill).
 `add-card` works on collections, and — when the type is pinned with
-`--collection` or a `collection:` prefix — creates the collection if it does
-not exist yet (including in a workspace with no collections at all; the file is
-created only once the add is certain to succeed):
+`--collection` or a `collection:` prefix — creates the collection if the
+workspace has none yet; beside existing ones a new name needs `--create`
+(otherwise it is refused as a likely typo, with the closest names suggested). The
+file is created only once the add is certain to succeed:
 
 ```bash
 ritual add-card "Main Binder" "Sol Ring" --collection --set c21 --collector-number 263
@@ -292,6 +293,7 @@ ritual collection-sync push --csv                   # new cards as one CSV impor
 ritual collection-sync push --csv-file import.csv   # write that CSV instead of pushing them
 ritual collection-sync push --csv --refresh auto    # refresh a stale card cache instead of asking
 ritual collection-sync pull --yes                   # accept losing lines the parser can't read
+ritual collection-sync pull --allow-remove-all      # let a pull from an empty Archidekt collection empty the lists
 ritual collection-sync pull --output json           # scripted per-list report
 ritual collection-sync push --dry-run -v            # also list every card it would change
 ```
@@ -335,6 +337,17 @@ holds without the lists you did not name looking like cards you no longer own,
 and `collection-sync pull --only additions` adopts new Archidekt cards without
 deleting anything locally. `deck-sync` takes the identical flag (see the
 **ritual-decks** skill).
+
+**Empty-side guard:** a run whose source is empty while its destination holds
+cards would remove every one of them — an empty Archidekt collection or deck on
+a pull, empty local files on a push — so it is **refused** before anything is
+written (a dry run reports the same refusal). `deck-sync` fails just that deck
+(`reasonKey` `domain.sync.emptyRemoteDeck` / `emptyLocalDeck`);
+`collection-sync` fails the run (`errorMessages` key
+`domain.sync.emptyRemoteCollection` / `emptyLocalCollection`, every list
+`not-run`). Both exit 1. `--only additions` removes nothing and is never
+refused. `--allow-remove-all` overrides it — pass it only when the user has
+confirmed they want that side emptied; `--force` does not.
 
 **Where pulled cards land:** a card that appeared on Archidekt belongs in *some*
 binder and nothing in the data says which, so every addition goes to one target
@@ -500,9 +513,13 @@ bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
 pick `cardmarket`. Each store also picks its own printing for an entry that
 names none: under `cardkingdom` that is the newest printing CK actually sells,
 so an unpinned entry reads unpriced only when CK carries no printing of the card
-at all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+at all (a pinned printing CK does not sell always does). In text output each
+card row's price is for the whole line (quantity × one copy), a `*` after a
+printing marks one the line does not pin, the cheapest-printing total reads
+`Lowest possible $X`, and a legend under the listing explains whichever of these
+it shows (`--quiet` drops it). An interactive browser opens on a TTY — for
+agents, always pass `--summary`, `--output json`, or the global `--no-input`
+flag:
 
 ```bash
 ritual price --collection --summary            # every collection's totals

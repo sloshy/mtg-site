@@ -20,6 +20,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Keep the card cache in the repository's cache/ folder, which the
+      # "Restore Scryfall cache" step restores and saves between runs.
+      RITUAL_CACHE_DIR: cache
     steps:
       - uses: actions/checkout@v7
         with:
@@ -68,12 +72,23 @@ jobs:
         if: steps.ritual-cache.outputs.cache-hit != 'true'
         run: |
           VERSION="${{ steps.ritual-version.outputs.version }}"
-          ASSET="ritual-linux-x86_64"
-          curl -fsSL -o "$ASSET" "https://github.com/sloshy/ritual/releases/download/${VERSION}/$ASSET"
-          curl -fsSL -o "$ASSET.sha256" "https://github.com/sloshy/ritual/releases/download/${VERSION}/$ASSET.sha256"
-          sha256sum -c "$ASSET.sha256"
-          mv "$ASSET" ritual
-          rm "$ASSET.sha256"
+          RELEASE="https://github.com/sloshy/ritual/releases/download/${VERSION}"
+          ARCHIVE="ritual-linux-x86_64.tar.gz"
+          # Each file is checked against the release's .sha256 for it before use;
+          # a release from before 0.1.0 has no archive, only the bare binary.
+          if curl -fsSL -o "$ARCHIVE" "$RELEASE/$ARCHIVE"; then
+            curl -fsSL -o "$ARCHIVE.sha256" "$RELEASE/$ARCHIVE.sha256"
+            sha256sum -c "$ARCHIVE.sha256"
+            tar -xzf "$ARCHIVE" ritual
+            rm "$ARCHIVE" "$ARCHIVE.sha256"
+          else
+            ASSET="ritual-linux-x86_64"
+            curl -fsSL -o "$ASSET" "$RELEASE/$ASSET"
+            curl -fsSL -o "$ASSET.sha256" "$RELEASE/$ASSET.sha256"
+            sha256sum -c "$ASSET.sha256"
+            mv "$ASSET" ritual
+            rm "$ASSET.sha256"
+          fi
           chmod +x ritual
 
       - name: Detect and commit changes

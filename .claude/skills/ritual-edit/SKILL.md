@@ -1,8 +1,8 @@
 ---
 name: ritual-edit
 description: "Edit cards in any Ritual deck, collection, or wanted list — one-shot non-interactive commands for agents and scripts (add-card, remove-card, set-card, note, scripted move), plus the interactive editor TUI. Use when the user wants to add, remove, or update a card, label or tag a card, set card categories in a list or manage a list category vocabulary (`ritual categories`), give a card custom art, set or clear a card note, move cards between lists, edit lists interactively, apply a change bundle exported from the site editor, export cards as CSV, JSON, plain text, or Markdown, or read or compact a change history."
-ritual-version: 0.1.0-rc3
-ritual-content-hash: f1146d617bd500f86e2e244594037921d8fae05532236928d3cf0d6d2fccf53e
+ritual-version: 0.1.0-rc4
+ritual-content-hash: c82d33b84aa64b342bf6e55e0df75fbe17e77b191eb628db0877b9e4fc46dd1b
 ---
 
 # Editing cards in any Ritual list
@@ -58,17 +58,17 @@ Conventions shared by every one-shot command:
   — where the mode also governs its Card Kingdom buylist cache — `build-site`,
   `serve --build`/`--api`, `admin`) share a `--refresh <mode>` option controlling
   cache freshness: `ask` (the default — prompt about stale or empty caches,
-  skipping the prompt when prompts are unavailable; two exceptions download
-  without asking: `build-site` bulk-downloads an empty or week-old card cache,
-  since it cannot build a site without card data, and a Card Kingdom buylist
-  already downloaded is redownloaded once it is a day old — by `sell`, and,
-  wherever sell mode is enabled, by `build-site` and by `admin`/`serve --api` at
-  startup — since a day-old feed quotes yesterday's offers; only the first buylist
-  download prompts), `auto` (refresh stale data without asking, bulk download
-  allowed), `no-bulk` (refresh stale prices per-card, never a bulk download), and
-  `never` (use the cache as-is, making no request of any kind — under `never`,
-  `price` reports uncached cards as unpriced instead of fetching them, and a
-  `build-site` run with no cached symbology renders without mana symbols).
+  skipping the prompt when prompts are unavailable — so a headless `build-site`
+  passes `--refresh auto` to get its bulk download; one exception downloads
+  without asking: a Card Kingdom buylist already downloaded is redownloaded once
+  it is a day old — by `sell`, and, wherever sell mode is enabled, by `build-site`
+  and by `admin`/`serve --api` at startup — since a day-old feed quotes
+  yesterday's offers; only the first buylist download prompts), `auto` (refresh
+  stale data without asking, bulk download allowed), `no-bulk` (refresh stale
+  prices per-card, never a bulk download), and `never` (use the cache as-is,
+  making no request of any kind — under `never`, `price` reports uncached cards as
+  unpriced instead of fetching them, and a `build-site` run with no cached
+  symbology renders without mana symbols).
 
 ## Add a card
 
@@ -85,9 +85,14 @@ ritual add-card "Main Binder" "Sol Ring" --collection --set c21 --collector-numb
 ritual add-card "Winota Stax" "Sol Ring" --deck -q 4 --dry-run   # preview, writes nothing
 ```
 
-- `--collection` / `--wanted` create the list if it does not exist — including in a
-  workspace with no lists of that type yet (`--deck` does not — use `ritual new deck`).
-  The file is created only at write time, so a failed add (or a `--dry-run`) leaves none.
+- `--collection` / `--wanted` create the list if the workspace has **no** list of that
+  type yet. Beside existing ones, a name that matches none of them is refused (exit 3,
+  with "Did you mean …?" naming the closest lists) as a likely typo; pass `--create`
+  to make it anyway. `--deck` never creates — use `ritual new deck`. The file is
+  created only at write time, so a failed add (or a `--dry-run`) leaves none.
+- The text result names the list by its display name (`Added '1 Sol Ring' to Winota
+  Stax (Main)`, `Added to Main Binder: - Sol Ring (C21:263) &4`); the JSON `list`
+  field is the file name.
 - Deck adds go through the same engine as the editors: copies **merge onto an
   existing line** for the same card and printing, a new line is appended at the end
   of the target section (the deck's first regular section by default — never a
@@ -515,7 +520,10 @@ object.`); its `--output json` envelope's `messageKey` is
 
 Changes are re-targeted to each list's current `&N` card IDs (by ID when it still
 exists, else by card name); changes whose target card no longer exists are skipped
-and reported. A move is applied to both of its lists — removed from the source, added
+and reported. Added cards take the smallest free ID at the point they apply — an ID a
+removal earlier in the same batch freed included — and a deck copy that merges onto a
+line the deck already has takes that line's ID; each list's changelog records the ID
+every added card got. A move is applied to both of its lists — removed from the source, added
 to the destination — and a changelog entry is written on each. Every touched list gets
 a changelog entry, and a failed list (e.g. one that no longer exists) is reported
 without stopping the rest. Exits non-zero when any list

@@ -1,8 +1,8 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-rc3
-ritual-content-hash: 0280d8d587bb0e3b3dc20286b6056496c279759eb55695ad1f2922aa76409cc1
+ritual-version: 0.1.0-rc4
+ritual-content-hash: 61d60970b96e13c389669f38632e1d75cde3f75030568b031f480faf078f5e47
 ---
 
 # Managing wanted lists with Ritual
@@ -14,9 +14,10 @@ name-only — no printing required. See the **ritual** skill for the file format
 
 Use the one-shot commands (covered in full by the **ritual-edit** skill).
 `add-card` works on wanted lists, and — when the type is pinned with `--wanted`
-or a `wanted:` prefix — creates the list if it does not exist yet, including in a
-workspace with no wanted lists at all (the file is created only once the add is
-certain to succeed, so a failed add or a `--dry-run` leaves none behind). Every wanted
+or a `wanted:` prefix — creates the list if the workspace has no wanted list yet;
+beside existing ones a new name needs `--create` (otherwise it is refused as a
+likely typo, with the closest names suggested). The file is created only once the
+add is certain to succeed, so a failed add or a `--dry-run` leaves none behind. Every wanted
 add chooses a specificity: `--name-only` (any copy), a specific printing via
 `--set`/`--collector-number`, or `--specific` (open the interactive printing
 picker; needs a terminal). A terminal prompts when none is given; a
@@ -231,9 +232,13 @@ bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
 pick `cardmarket`. Each store also picks its own printing for an entry that
 names none: under `cardkingdom` that is the newest printing CK actually sells,
 so an unpinned entry reads unpriced only when CK carries no printing of the card
-at all (a pinned printing CK does not sell always does). An interactive browser
-opens on a TTY — for agents, always pass `--summary`, `--output json`, or the
-global `--no-input` flag:
+at all (a pinned printing CK does not sell always does). In text output each
+card row's price is for the whole line (quantity × one copy), a `*` after a
+printing marks one the line does not pin, the cheapest-printing total reads
+`Lowest possible $X`, and a legend under the listing explains whichever of these
+it shows (`--quiet` drops it). An interactive browser opens on a TTY — for
+agents, always pass `--summary`, `--output json`, or the global `--no-input`
+flag:
 
 ```bash
 ritual price --wanted --summary                # every wanted list's totals
