@@ -33,7 +33,7 @@
     "gitEnabled": true,
     "gitAutoCommit": true,
     "gitAutoPush": true,
-    "trustProxy": false,
+    "trustProxy": true,
     "secureCookies": false,
     "ipAllowList": [],
     "ipDenyList": [],
