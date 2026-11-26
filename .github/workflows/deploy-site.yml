@@ -37,16 +37,11 @@ jobs:
             VERSION=$(jq -r '.managed.version // empty' ritual.config.json)
           fi
           if [ -z "$VERSION" ]; then
-            # No pin: the latest stable release, else (while only prereleases
-            # exist) the newest release — the API omits drafts, newest first.
+            # No pin: the latest stable release (never a prerelease or draft).
             VERSION=$(curl -s https://api.github.com/repos/sloshy/ritual/releases/latest \
               | grep '"tag_name"' | head -1 | cut -d'"' -f4)
-            if [ -z "$VERSION" ]; then
-              VERSION=$(curl -s "https://api.github.com/repos/sloshy/ritual/releases?per_page=1" \
-                | grep '"tag_name"' | head -1 | cut -d'"' -f4)
-            fi
             if [ -n "$VERSION" ]; then
-              echo "::warning::This workspace has no pinned Ritual release (managed.version in ritual.config.json), so $VERSION (the newest release) is used. Run 'ritual migrate' with a Ritual release build and commit ritual.config.json to pin one."
+              echo "::warning::This workspace has no pinned Ritual release (managed.version in ritual.config.json), so $VERSION (the latest stable release) is used. Run 'ritual migrate' with a Ritual release build and commit ritual.config.json to pin one."
             fi
           fi
           if [ -z "$VERSION" ]; then
@@ -74,21 +69,12 @@ jobs:
           VERSION="${{ steps.ritual-version.outputs.version }}"
           RELEASE="https://github.com/sloshy/ritual/releases/download/${VERSION}"
           ARCHIVE="ritual-linux-x86_64.tar.gz"
-          # Each file is checked against the release's .sha256 for it before use;
-          # a release from before 0.1.0 has no archive, only the bare binary.
-          if curl -fsSL -o "$ARCHIVE" "$RELEASE/$ARCHIVE"; then
-            curl -fsSL -o "$ARCHIVE.sha256" "$RELEASE/$ARCHIVE.sha256"
-            sha256sum -c "$ARCHIVE.sha256"
-            tar -xzf "$ARCHIVE" ritual
-            rm "$ARCHIVE" "$ARCHIVE.sha256"
-          else
-            ASSET="ritual-linux-x86_64"
-            curl -fsSL -o "$ASSET" "$RELEASE/$ASSET"
-            curl -fsSL -o "$ASSET.sha256" "$RELEASE/$ASSET.sha256"
-            sha256sum -c "$ASSET.sha256"
-            mv "$ASSET" ritual
-            rm "$ASSET.sha256"
-          fi
+          # Checked against the release's .sha256 for it before it is unpacked.
+          curl -fsSL -o "$ARCHIVE" "$RELEASE/$ARCHIVE"
+          curl -fsSL -o "$ARCHIVE.sha256" "$RELEASE/$ARCHIVE.sha256"
+          sha256sum -c "$ARCHIVE.sha256"
+          tar -xzf "$ARCHIVE" ritual
+          rm "$ARCHIVE" "$ARCHIVE.sha256"
           chmod +x ritual
 
       - name: Detect and commit changes

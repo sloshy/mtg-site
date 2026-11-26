@@ -1,20 +1,20 @@
 ---
 name: ritual-wanted
 description: "Manage and price a Magic: The Gathering wanted list (cards to acquire) with Ritual. Use when the user wants to track cards they want to buy, add cards to a wishlist, record a purchase by moving a wanted card into a collection, import a wanted list from a CSV or text file, or price a wanted list."
-ritual-version: 0.1.0-rc4
-ritual-content-hash: 61d60970b96e13c389669f38632e1d75cde3f75030568b031f480faf078f5e47
+ritual-version: 1.0.0
+ritual-content-hash: ea1a53d99d3b7217193fa77a7d061158d7911dfc3b7ce9e1b59c6ab7594a5978
 ---
 
 # Managing wanted lists with Ritual
 
-Wanted lists (cards to acquire) live in `wanted/<name>.md`. Entries may be
-name-only — no printing required. See the **ritual** skill for the file format.
+Wanted lists (cards to acquire) are stored in `wanted/<name>.md`. Entries may be
+name-only (no printing required). See the **ritual** skill for the file format.
 
 ## One-shot edits (non-interactive — best for agents)
 
 Use the one-shot commands (covered in full by the **ritual-edit** skill).
-`add-card` works on wanted lists, and — when the type is pinned with `--wanted`
-or a `wanted:` prefix — creates the list if the workspace has no wanted list yet;
+`add-card` works on wanted lists, and, when the type is pinned with `--wanted`
+or a `wanted:` prefix, creates the list if the workspace has no wanted list yet;
 beside existing ones a new name needs `--create` (otherwise it is refused as a
 likely typo, with the closest names suggested). The file is created only once the
 add is certain to succeed, so a failed add or a `--dry-run` leaves none behind. Every wanted
@@ -22,7 +22,7 @@ add chooses a specificity: `--name-only` (any copy), a specific printing via
 `--set`/`--collector-number`, or `--specific` (open the interactive printing
 picker; needs a terminal). A terminal prompts when none is given; a
 non-interactive run without one exits 2. A specific-printing add also needs
-`-f` when that printing comes in several finishes — headless runs never guess
+`-f` when that printing comes in several finishes, because headless runs never guess
 one:
 
 ```bash
@@ -43,7 +43,7 @@ set with `set-card
 
 A finish belongs to a printing, so `set-card --finish foil|etched` needs the entry to
 pin one and exits 2 otherwise (pass `--set`/`--collector-number` in the same call to
-do both). `--finish nonfoil` always applies — it clears the token. An `add-card`
+do both). `--finish nonfoil` always applies: it clears the token. An `add-card`
 that states a finish while creating a `--name-only` entry is unaffected: that
 records "any printing, in foil", which is a wanted-list specificity rather than an
 edit to an existing line.
@@ -53,7 +53,7 @@ edit to an existing line.
 `ritual move` with `--from`/`--to` records a purchase in one command: the entry
 leaves the wanted list and lands in the collection. Collections need a concrete
 printing, so a name-only entry takes it from `--set`/`--collector-number` (or its
-single known printing in the local card cache — a card the cache does not hold has
+single known printing in the local card cache. A card the cache does not hold has
 no printing list, so pass the flags); already-pinned entries move as-is:
 
 ```bash
@@ -82,7 +82,7 @@ Under `--output json` each `warnings` entry is an object: the English `message`
 `ritual edit` opens the interactive editor (covered in full by the
 **ritual-edit** skill); pick a wanted list (or `➕ New Wanted List`) from its
 list selection menu. It **requires a terminal**, so it is not suitable for
-non-interactive agents — use the one-shot commands instead.
+non-interactive agents. Use the one-shot commands instead.
 
 ```bash
 ritual edit
@@ -101,28 +101,28 @@ redownload before the session starts; `auto` redownloads without prompting when
 the cached prices are more than a day old; `no-bulk` and `never` use the
 existing cache as-is.
 
-**Saving:** changes accumulate **in memory** — `💾 Save` writes the file and
+**Saving:** changes accumulate **in memory**. `💾 Save` writes the file and
 changelog without exiting. Backing out (`🔀 Switch List` or Esc) returns to the
 list selection menu **keeping unsaved changes in memory**, so edits can span
-several lists before one save — Save flushes every open list, and a separate `💾
+several lists before one save. Save flushes every open list, and a separate `💾
 Save current list changes` item appears when more than one open list has unsaved
 changes. `🚪 Exit` with anything unsaved opens an exit menu: save and exit, exit
 without saving (discards everything unsaved), or cancel to keep editing. Saving
 more than once in one session folds the later changes into that list's existing
-changelog entry (bumping its timestamp) — each saved list gets exactly one
+changelog entry (bumping its timestamp): each saved list gets exactly one
 changelog entry per session.
 
 **Edit mode:** `🛠️ Switch to Edit Mode` turns the search prompt into a picker
-over the list's existing entries — change a card's printing (or make it
+over the list's existing entries: change a card's printing (or make it
 name-only), finish, language, tags, or note, move it to another list, or remove
 it. With nothing typed it lists every entry below the menu rows, so the list can
 be scrolled as well as searched, and `↩️ Undo Last Edit` reverts the latest
-edit. The `✨ Change Finish` item is hidden for name-only entries — a finish only
-annotates a specific printing.
+edit. The `✨ Change Finish` item is hidden for name-only entries, because a
+finish only annotates a specific printing.
 
 **Undo within the session:** `↩️ Undo Last Add` removes the most recent card,
 and `📋 View Session Changes` opens a picker over every change made this session
-— adds, edits, and removals — where selecting one opens an action menu: **Edit
+(adds, edits, and removals), where selecting one opens an action menu: **Edit
 This Card** (that card's own edit-mode menu), **Change This Card's Language**,
 or **Discard This Change** (same-card changes must be discarded newest-first; a
 blocked change can still be edited). The two edit rows appear only while the
@@ -135,10 +135,10 @@ session ids dense (each later card slides down one).
 A wanted list carries two front-matter keys of its own. `description:` is the
 prose blurb the published site prints above the cards, written with
 `ritual metadata` (or the MCP `set_list_metadata` tool). `image:` is the
-cover the site shows for it (a mapping — `{card: N}`, `{file: …}` or
+cover the site shows for it (a mapping: `{card: N}`, `{file: …}` or
 `{url: …}`; see the **ritual** skill's *List cover images* section), written
 with `set-list-image` (or the same MCP tool's `image` field, or the admin
-editor's **Cover Image** button) — `metadata` cannot spell a mapping. A wanted
+editor's **Cover Image** button); `metadata` cannot spell a mapping. A wanted
 list carries no card labels. Any other block a file already has is preserved
 verbatim through every save.
 
@@ -164,20 +164,20 @@ ritual import wants.txt --type wanted --overwrite --no-input
 Without `--type` an interactive run prompts for the list type; under the global
 `--no-input` flag the type defaults to a deck, so agents should always pass
 `--type wanted`. A body line that is neither a section header nor a card line is
-skipped, listed on stderr, carried in the JSON `warnings` array, and exits 1 —
-the import is still written. Each `warnings`/`advisories` entry is an object:
+skipped, listed on stderr, carried in the JSON `warnings` array, and exits 1.
+The import is still written. Each `warnings`/`advisories` entry is an object:
 the English `message`, plus a `messageKey` to match on when present (never the
 prose). Ritual's own format and the MTG Arena/MTGO export dialect (`4 Lightning
 Bolt (M10) 146`, bare `Deck`/`Sideboard` markers, a `*F*`/`*E*` foil marker
 either trailing or between the set and the collector number, as Moxfield writes
-it) are both read, as is the inside of a ``` fence — on the import path only,
-since a pasted decklist usually arrives wrapped in one. A `(SET)` with no
+it) are both read, as is the inside of a ``` fence (on the import path only,
+since a pasted decklist usually arrives wrapped in one). A `(SET)` with no
 collector number is left in the card name rather than read as a printing; a line
 that imports but still holds a printing token in its name prints an advisory
 (stderr, JSON `advisories`) without failing the run.
 
 `--dry-run` resolves and validates everything but leaves the workspace
-byte-for-byte untouched — it does not even create the `decks/`, `collections/`,
+byte-for-byte untouched: it does not even create the `decks/`, `collections/`,
 or `wanted/` directory it would have written into.
 
 ## Import from a CSV file
@@ -195,22 +195,22 @@ ritual import more.csv --type wanted --name "To Buy" --append --columns "name=1"
 
 `--columns` maps fields to 1-based column numbers (fields: `name`, `set`,
 `collector-number`, `condition`, `finish`, `language`, `tags`, `categories`,
-`section`, `quantity` — a tags cell (header `tags` or `tag`) holds the card's
+`section`, `quantity`; a tags cell (header `tags` or `tag`) holds the card's
 tags comma-separated, as `Ramp, Card Draw`, and a cell that is not tag-shaped
 fails that row; a categories cell (header `category` or `categories`) holds the
-card's categories comma-separated as `Ramp, Artifacts`, first is primary — a
+card's categories comma-separated as `Ramp, Artifacts`, first is primary; a
 value that is not category-shaped (one holding a control character such as a
-tab) is ignored with a warning and the card still imports — the refusal prints
-on stderr and rides the `--output json` payload's `advisories` array (objects:
-English `message`, plus `messageKey` when present), and never changes the exit
-code; and on a deck a value naming a board (`Sideboard`, `Commander`, `Tokens`,
-...) sets the row's section instead, so an Archidekt `Ramp,Sideboard` cell means
-section Sideboard + category Ramp; imported categories are written to the list's
-`.categories.json` sidecar; language cells take Scryfall codes or aliases like
-`JP`/`Japanese`, and an empty cell means English; when no language column is
-mapped, pinned rows are stamped with the configured `defaultLanguage` when the
-printing exists in it); only `name` is required and wanted lists carry no
-`condition` column. Add `--no-header` when the first row is data — a scripted
+tab) is ignored with a warning and the card still imports, and the refusal
+prints on stderr, is carried in the `--output json` payload's `advisories` array
+(objects: English `message`, plus `messageKey` when present), and never changes
+the exit code; and on a deck a value naming a board (`Sideboard`, `Commander`,
+`Tokens`, ...) sets the row's section instead, so an Archidekt `Ramp,Sideboard`
+cell means section Sideboard + category Ramp; imported categories are written to
+the list's `.categories.json` sidecar; language cells take Scryfall codes or
+aliases like `JP`/`Japanese`, and an empty cell means English; when no language
+column is mapped, pinned rows are stamped with the configured `defaultLanguage`
+when the printing exists in it); only `name` is required and wanted lists carry
+no `condition` column. Add `--no-header` when the first row is data: a scripted
 run without it drops the first row as a header and warns when that row looks
 like data. Add `--overwrite` to replace an existing wanted list, or `--append`
 to add to one (appends continue card IDs and record the changelog). Rows naming
@@ -225,20 +225,19 @@ on when present.
 
 The unified `price` command covers all list types; scope it with `--wanted` or a
 name. `--source` picks the store, and the store sets the currency (default:
-config `defaultPriceSource`) — `tcgplayer` (Scryfall USD), `cardmarket`
-(Scryfall EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom` (NM retail
-from the cached Card Kingdom feed; errors when no feed is downloaded — a
-bulk-allowing `--refresh` downloads it). There is no currency flag: to see EUR,
-pick `cardmarket`. Each store also picks its own printing for an entry that
-names none: under `cardkingdom` that is the newest printing CK actually sells,
-so an unpinned entry reads unpriced only when CK carries no printing of the card
-at all (a pinned printing CK does not sell always does). In text output each
-card row's price is for the whole line (quantity × one copy), a `*` after a
-printing marks one the line does not pin, the cheapest-printing total reads
-`Lowest possible $X`, and a legend under the listing explains whichever of these
-it shows (`--quiet` drops it). An interactive browser opens on a TTY — for
-agents, always pass `--summary`, `--output json`, or the global `--no-input`
-flag:
+config `defaultPriceSource`): `tcgplayer` (Scryfall USD), `cardmarket` (Scryfall
+EUR), `cardhoarder` (Scryfall MTGO tix), or `cardkingdom` (NM retail from the
+cached Card Kingdom feed; errors when no feed is downloaded; a bulk-allowing
+`--refresh` downloads it). There is no currency flag: to see EUR, pick
+`cardmarket`. Each store also picks its own printing for an entry that names
+none: under `cardkingdom` that is the newest printing CK actually sells, so an
+unpinned entry reads unpriced only when CK carries no printing of the card at
+all (a pinned printing CK does not sell always does). In text output each card
+row's price is for the whole line (quantity × one copy), a `*` after a printing
+marks one the line does not pin, the cheapest-printing total reads `Lowest
+possible $X`, and a legend under the listing explains whichever of these it
+shows (`--quiet` drops it). An interactive browser opens on a TTY. For agents,
+always pass `--summary`, `--output json`, or the global `--no-input` flag:
 
 ```bash
 ritual price --wanted --summary                # every wanted list's totals

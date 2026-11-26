@@ -67,8 +67,8 @@
     "detectChanges": true
   },
   "managed": {
-    "migration": 4,
-    "version": "0.1.0-rc4",
-    "output": "sha256:c777b917e1ed245b34376f42be212102bc92b481385d28591c8da5093f81d727"
+    "migration": 0,
+    "version": "1.0.0",
+    "output": "sha256:c2858227b622791e13220bc440bb30c7302825b1d04fe439111c93be69232015"
   }
 }
